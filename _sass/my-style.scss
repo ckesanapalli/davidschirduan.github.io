@@ -1,0 +1,62 @@
+/*hide the project dates
+#y-2013,
+#y-2014,
+#y-2016,
+#y-2017,
+#y-2018,
+#y-2019,
+#y-2020 {
+visibility: hidden;
+}*/
+
+//for organization of tags and categories
+.categories a {
+  display: block;
+  text-decoration: none;
+}
+
+.categories h2 {
+  margin: 0;
+}
+
+.categories td {
+text-align: center;
+width:30%;
+}
+
+/*move images to top*/
+
+.content .img img {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+/*Don't keep cards the same size*/
+.layout-projects .column,
+.layout-project .column,
+.layout-welcome .column {
+  display: block;
+}
+
+.leftSmallImg {
+  max-width: 200px !important;
+  float: left !important;
+  clear: left;
+  margin: 5px 25px 25px auto !important;
+}
+
+.rightSmallImg {
+  max-width: 200px !important;
+  float: right !important;
+  clear: right;
+  margin: 5px auto 25px 25px !important;
+}
+
+h1,
+h2,
+h3 {
+  clear: left;
+}
