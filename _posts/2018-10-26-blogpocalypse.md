@@ -75,6 +75,14 @@ Once this post is up I'm going to keep of list of my favorite blogs and posts. (
 
 If that sounds like a lot of work...well it is! It's a lot harder than clicking "+1", or sharing within a community. Blogs won't work for everyone, just like G+ didn't work for everyone.
 
-But I'm excited to try something different. Something deeper than just another social network. 
+Some great additional tips via [Brendan S](https://plus.google.com/u/0/106896777766399569820):
+
+> As a side note, I’d mention two other factors:
+
+> 1) Being conscientious about reference and attribution helps build a community of ideas. Mention other people, give credit, include links to other sites that influenced you. Not only is this nice, it also helps your reader see the web of history in the ideas. And it helps you catch reinvention of the wheel.
+
+> 2) Be prepared for other people to run with your ideas if you workshop them publicly. 
+
+I'm excited to try something different. Something deeper than just another social network. 
 
 Thanks for reading, and I hope to see your ideas floating around the blogosphere!

@@ -15,6 +15,37 @@ One of the most important parts of this process is sharing the blogs and posts o
 
 ## [Rattled](https://detectmagic.wordpress.com/rattled/)
 
-![vagabonds_cover.png]({{site.url}}/images/posts/2018/vagabonds_cover.png){: .leftSmallImg}
+![blogroll-rattled.jpg]({{site.url}}/images/posts/blogroll-rattled.jpg){: .leftSmallImg}
 
-An interest attempt at making a phone-based RPG, with a character generator, rules, etc. Don't know if it really works, and it would require some very fancy layout to really click.
+A great attempt at making a phone-based RPG. It includes a character generator, rules, etc. I think the idea has a lot of potential, but it's limited by layout the small screen size of phones. I mean, a full-size RPG hardcover can present about 15 times the content of the average phone across its two pages. 
+
+But I'm always glad to see people trying new things; maybe I'll give it a try. Especially since the mood music is [ON POINT](https://www.youtube.com/watch?v=q6-ZGAGcJrk)!
+
+## [Purple Worm with Pornstars](http://www.wizardthieffighter.com/2018/purple-worm-with-pornstars/)
+
+I love this article. Luka breaks down how the support of the RPG community helped him get through a hard time and pushed him to create some incredible things.
+
+This is what we cannot afford to lose as G+ fades away. The encouragement, the collaberation.
+
+## [Commentary on Tomb of the Iron God](https://swordsandstitchery.blogspot.com/2018/10/osr-campaign-commentary-o-edition.html)
+
+I love reading good reviews. This one delivers with context for the adventure, praise for the clever history, and excitement about what comes next. 
+
+Makes me really want to play it.
+
+## [The Wilderness Dungeon, An Essay](https://thewyrdandwild.wordpress.com/2018/10/26/the-wilderness-dungeon-an-essay/)
+
+This article gave me a new perspective on wilderness exploration. I wonder if I can apply some of its points to The Bone Marshes.
+
+It ends with this brilliant line: "Perhaps the dungeon was built to keep the wilderness out."
+
+## [The Dreams of Trees](https://archonsmarchon.blogspot.com/2018/10/the-dreams-of-trees-are-awful-things.html)
+
+Going along with the post above, this is a fascinating perspective on viewing trees. The post describes them a vicious creatures waging war on a scale of hundreds of years. 
+
+I love stuff like this.
+
+## [Don't Know What to Write](https://journeyintotheweird.blogspot.com/2018/10/i-dont-know-what-to-write.html)
+
+I include this not because of the content, but because of the tone. THe honesty, the vulnerability. Really good stuff that I hope to see more of in these blogs, and in my own.
+
