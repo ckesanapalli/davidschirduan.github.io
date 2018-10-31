@@ -4,7 +4,7 @@ layout: post
 date: 2018-10-31
 image: images/posts/blogrolloctober.png
 comments: true
-published: false
+published: true
 categories: Tabletop
 tags: community blogroll
 ---
