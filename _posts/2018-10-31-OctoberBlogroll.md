@@ -49,3 +49,8 @@ I love stuff like this.
 
 I include this not because of the content, but because of the tone. THe honesty, the vulnerability. Really good stuff that I hope to see more of in these blogs, and in my own.
 
+## [Room Descriptions](https://bogeymanscave.blogspot.com/2018/10/how-to-write-usable-room-descriptions.html)
+
+This is gold. USEABLE being the key word. It takes SO much more effort to parse a bloated adventure than a sleek well organized one. 
+
+This advice is going DIRECTLY into the Bone Marshes.
