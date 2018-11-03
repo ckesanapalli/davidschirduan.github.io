@@ -11,9 +11,11 @@ tags: bone_marshes adventure
 
 We're about 2 months away from The Bone Marshes kickstarter, and it's time to start jabbering about my stuff. 
 
-**SUPPORT MY KICKSTARTER LINK COMING SOON! USE THE CODE SCHIRDERGERDER TO SAVE 10%**
+**SUPPORT MY KICKSTARTER LINK COMING SOON!** 
 
-But until I take your money, I'll do a few sneak peeks at the Bone Marshes, what they're all about, and some of the weird stuff in them.
+**USE THE CODE SCHIRDERGERDER TO SAVE 10%**
+
+Until I take your money, I'll type up a few sneak peeks at the Bone Marshes, what they're all about, and some of the weird stuff in them.
 
 But truthfully, this is the first big adventure I've written, and I'm worried that some of this stuff is gonna be dumb...So tell me in the comments if it is so I can fix it!
 
@@ -45,8 +47,8 @@ If the PCs can fly/teleport, Azimech should stress that the route they come up w
 
 ## Good idea? Weird? Too complicated?
 
-In playtesting, it's worked out pretty well. The players start off keeping good notes and a solid map. Then when they hit the rotating section there is a great scramble to find a way to map the spinning. Is it just this hex spinning? The whole marsh? 
+In playtesting, it's worked out pretty well. The players start off keeping good notes and a solid map. Then when they hit the rotating section there is a great scramble to find a way to map the spinning. Is it just this hex spinning? The whole marsh? How fast? 
 
-Is this a good puzzle? Too much for your group? Too silly?
+Hopefully the hexes and the timekeeping provide a structure they can use to solve the puzzle. Is this a good puzzle? Too much for your group? Too silly?
 
 Let me know what you think in the comments. Thanks for your time and feedback.
