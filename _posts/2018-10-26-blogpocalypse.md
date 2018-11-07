@@ -69,7 +69,7 @@ Keep the conversations and encouragement flowing.
 
 Share other blogs. Talk about your favorites. Feature some newer writers or lesser known bloggers. The more people who do this, the less the chances of someone getting left behind when G+ dies.
 
-Once this post is up I'm going to keep of list of my favorite blogs and posts. (link coming!)
+Once this post is up I'm going to keep of list of my favorite blogs and posts. Here's my [monthly roundup](/categories_tags#blogroll) of my favorite posts.
 
 ## 5. Repeat
 
