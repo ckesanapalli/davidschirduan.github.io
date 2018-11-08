@@ -113,7 +113,7 @@ defaults:
     values:
       comments: true
   - scope:
-      path: games.md
+      path: projects.md
     values:
       menu: true
       order: 1
