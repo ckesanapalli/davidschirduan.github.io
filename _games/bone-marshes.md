@@ -12,6 +12,8 @@ permalink: bone-marshes
 
 A hex-mapping adventure. Light on combat, this adventure is about exploring and mapping a burning marsh. 
 
+## An expanded version will be kickstarted in January 2019! Link coming soon.
+
 ![bonemarshes_cover.png]({{site.url}}/images/posts/bonemarshes_cover.png){: .leftSmallImg}
 
 [**Download PDF**]({{site.url}}/files/BoneMarshes.pdf)
