@@ -11,9 +11,9 @@ tags: bone_marshes adventure
 
 We're about a month and a half away from The Bone Marshes kickstarter, and it's time to continue jabbering about my stuff. 
 
-[Last time](/david/2018/11/BoneMarshesTwist) I talked about the ratation of the marshes and how that provides a unique mapping challenge for your players. 
+[Last time](/david/2018/11/BoneMarshesTwist) I talked about the rotation of the marshes and how that provides a unique mapping challenge for your players. 
 
-The second part of The Bone Marshes leans more heavily on the scheduling side of things. Witness the Four Chambers of the Marshes, and the flooding therin
+The second part of The Bone Marshes leans more heavily on the scheduling side of things. Witness the Four Chambers of the Marshes, and the flooding therin:
 
 ![98Eight.png]({{site.url}}/images/posts/98Eight.png)
 
