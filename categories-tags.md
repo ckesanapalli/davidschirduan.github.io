@@ -52,7 +52,8 @@ A sad attempt at sorting the nonsense on this blog.
 {% assign sorted_cats = site.categories | sort %}
 {% for category in sorted_cats %}
   <h2 id="{{ category[0] | slugify }}">{{ category | first }} Posts</h2>
-  <table class="categories">{% for post in category[1] | sort:"title" %}
+  {% assign sorted_posts = category[1] | sort: 'title' %}
+  <table class="categories">{% for post in sorted_posts %}
     {% assign loopindex = forloop.index | modulo: 3 %}
     {% if loopindex == 1 %}
       <tr><td><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></td>
@@ -72,7 +73,8 @@ A sad attempt at sorting the nonsense on this blog.
 {% assign sorted_tags = site.tags | sort %}
 {% for tag in sorted_tags%}
   <h2 id="{{ tag[0] | slugify }}">{{ tag | first }} Posts</h2>
-  <table class="categories">{% for post in tag[1]  | sort:"title" %}
+  {% assign sorted_posts = tag[1] | sort: 'title' %}
+  <table class="categories">{% for post in sorted_posts %}
     {% assign loopindex = forloop.index | modulo: 3 %}
     {% if loopindex == 1 %}
       <tr><td><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></td>
