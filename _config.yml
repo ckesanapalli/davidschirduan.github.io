@@ -158,7 +158,7 @@ disqus:                technicalgrimoire
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons:         [about,related]
+  post_addons:         [about,random]
 
   # Configure the order of complementary content on project pages
   project_addons:      []
