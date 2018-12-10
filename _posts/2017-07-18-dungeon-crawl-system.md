@@ -93,5 +93,3 @@ I reviewed [Into the Odd before]({{site.url}}/david/extremely-interesting-role-p
 The only thing keeping me from simply choosing Into the Odd is the character fragility. I have a few adventure modules in mind that I want to run and I don't know if my players will want to chew through 5 characters every session. Maybe I can simply adapt that killer rule to Macchiato monsters or The Black Hack. Or maybe just knuckle down and teach my group Lamentations. We'll see.
 
 What do you think? Did I miss any good dungeon crawl systems? Any ideas for how to make this work the way I want it to?
-
-Next I'll talk about which [adventures/modules I want to try out]({{site.url}}/david/2017/08/Dungeon-Crawl-the-plan).
