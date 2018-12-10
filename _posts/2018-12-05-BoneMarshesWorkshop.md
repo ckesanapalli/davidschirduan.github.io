@@ -105,5 +105,5 @@ Thank you [Bryce Lynch](http://tenfootpole.org) for your incredible reviews and 
 
 And thank you, dear reader, for following along. I hope you enjoyed this workshop. I plan to do one of these every week or so to keep me focused on writing and start building hype for Bone Marshes. 
 
-Kickstarter coming January, 2019. See you then!
+Kickstarter coming January, 2019. See you then! [Workshop pt. 2 here.](/david/2018/12/BoneMarshesWorkshop2)
 
