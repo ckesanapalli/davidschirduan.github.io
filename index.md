@@ -4,6 +4,9 @@ title:  Welcome to the Grimoire!
 author: davidschirduan
 image: /images/1200x600Logo.png
 cover:  true
+selected_projects:
+  - _games/bone-marshes.md
+  - _games/clink.md
 ---
 <!--author-->
 
@@ -11,7 +14,7 @@ cover:  true
 <!--posts-->
 
 ## Recent Games
-<!--games-->
+<!--projects-->
 
 <div class="columns">
   <div class="column column-2-2">
