@@ -10,8 +10,8 @@ cover:  true
 ## Recent Posts
 <!--posts-->
 
-## Recent Projects
-<!--projects-->
+## Recent Games
+<!--games-->
 
 <div class="columns">
   <div class="column column-2-2">
