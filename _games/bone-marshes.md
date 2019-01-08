@@ -4,10 +4,11 @@ layout: project
 title: The Bone Marshes
 caption: A Hex-Mapping Adventure
 screenshot:
-  src: /images/posts/bonemarshes_cover.png
-image: /images/posts/bonemarshes_cover.png
+  src: images/posts/bonemarshes_KS.jpg
+image: images/posts/bonemarshes_KS.jpg
 hide_description: true
 permalink: bone-marshes
+featured: true
 ---
 
 A hex-mapping adventure. Light on combat, this adventure is about exploring and mapping a burning marsh. 
