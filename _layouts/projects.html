@@ -12,14 +12,8 @@ layout: page
 {% assign projects_group_by = site.data.strings.date_formats.projects_group_by %}
 
 {% for project in ordered_projects %}
-  {% assign currentdate = project.date | date:projects_group_by %}
-
-  {% if currentdate != date %}
-    {% unless forloop.first %}</div>{% endunless %}
 
     <div class="columns">
-    {% assign date = currentdate %}
-  {% endif %}
 
   {% assign featured = page.featured | default:project.featured | default:page.big_project | default:project.big_project %}
   <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
