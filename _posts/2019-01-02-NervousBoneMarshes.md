@@ -6,7 +6,7 @@ image: images/posts/bonemarshes_KS.jpg
 comments: true
 published: true
 categories: Tabletop
-tags: bone_marshes adventure personal
+tags: bone_marshes adventure
 ---
 
 The Kickstarter for Bone Marshes launches January 12th.

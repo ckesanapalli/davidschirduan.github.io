@@ -12,12 +12,6 @@ redirect_from:
 show_collection: none
 ---
 
-## Table of Contents
-{:.no_toc}
-* this unordered seed list will be replaced by toc as unordered list
-{:toc}
-<hr>
-
 ## Handouts
 <div class="columns">
   <div class="column column-1-2">

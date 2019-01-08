@@ -1,5 +1,5 @@
 ---
-date: 2017-03-19
+date: 2016-03-19
 layout: project
 title: Only the Food
 permalink: david/only-the-food

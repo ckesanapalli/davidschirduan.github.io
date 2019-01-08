@@ -13,7 +13,7 @@ links:
     url:     /files/JediWushu2.0.pdf
 hide_description: true
 image: /images/posts/Jedi-Wushu-Cover.png
-
+comments: True
 ---
 
 ![Jedi-Wushu-Cover.png]({{site.url}}/images/posts/Jedi-Wushu-Cover.png){: .leftSmallImg}
