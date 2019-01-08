@@ -13,6 +13,8 @@ layout: page
 
 {% for project in ordered_projects %}
 
+<div class="columns">
+
   {% assign featured = page.featured | default:project.featured | default:page.big_project | default:project.big_project %}
   <div class="column {% if featured %}column-1{% else %}column-1-2{% endif %}">
     {% include pro/project-card.html project=project featured=featured %}
