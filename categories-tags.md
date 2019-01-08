@@ -27,6 +27,7 @@ A sad attempt at sorting the nonsense on this blog.
   </tr></table>
 {% endif %}
 
+<!-->
 
 <h1>Tags</h1>
 
@@ -46,7 +47,7 @@ A sad attempt at sorting the nonsense on this blog.
 {% else %}
   </tr></table>
 {% endif %}
-
+-->
 <hr/>
 
 {% assign sorted_cats = site.categories | sort %}
@@ -69,7 +70,7 @@ A sad attempt at sorting the nonsense on this blog.
     </tr></table>
   {% endif %}
 {% endfor %}
-    
+<!--
 {% assign sorted_tags = site.tags | sort %}
 {% for tag in sorted_tags%}
   <h2 id="{{ tag[0] | slugify }}">{{ tag | first }} Posts</h2>
@@ -90,3 +91,4 @@ A sad attempt at sorting the nonsense on this blog.
     </tr></table>
   {% endif %}
 {% endfor %}
+-->
