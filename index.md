@@ -12,6 +12,7 @@ cover:  true
 
 ## Recent Projects
 <!--projects-->
+
 <div class="columns">
   <div class="column column-2-2">
     <article class="project-card">
