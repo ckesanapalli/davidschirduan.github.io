@@ -13,9 +13,13 @@ featured: true
 
 The Bone Marshes is a tabletop adventure about getting lost. It’s tailor-made for groups that enjoy exploring complex spaces and drawing maps. 
 
-## Kickstater Launching Soon! (Jan 11th)
+The Bone Marshes is an adventure filled with mapping and exploration challenges for the players. Great care and effort have been taken to ease the burden on the GM and provide players with a difficult but possible challenge. We use clean organization, special time-keeping and travel rules, and player handouts to keep people engaged and on the same page in this topsy-turvey land.
 
-The Bone Marshes is my attempt at an adventure filled with mapping and exploration challenges for the players. Great care and effort have been taken to ease the burden on the GM and provide players with a difficult but possible challenge. We use clean organization, special time-keeping and travel rules, and player handouts to keep people engaged and on the same page in this topsy-turvey land.
+[**Character Sheet**]({{site.url}}/files/BoneMarshes_characterSheet.pdf)
+[**Handouts**]({{site.url}}/files/BoneMarshes_handouts.pdf)
+[**Lost Things**]({{site.url}}/files/BoneMarshes_LostThings.pdf)
+
+## Support to the Kickstarter!
 
 The book contains (in brief):
 
