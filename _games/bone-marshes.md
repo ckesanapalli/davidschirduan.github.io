@@ -19,7 +19,7 @@ The Bone Marshes is an adventure filled with mapping and exploration challenges 
 - [**Handouts**]({{site.url}}/files/BoneMarshes_handouts.pdf)
 - [**Items/Loot**]({{site.url}}/files/BoneMarshes_LostThings.pdf)
 
-## Support to the Kickstarter!
+<iframe src="https://www.kickstarter.com/projects/464972563/the-bone-marshes-a-hex-mapping-adventure-about-get/widget/card.html?v=2" width="220" height="420" frameborder="0" scrolling="no"></iframe>
 
 ![spirequotes.png](/images/posts/SpireQuote.png)
 
