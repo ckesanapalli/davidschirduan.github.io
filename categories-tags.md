@@ -27,7 +27,7 @@ A sad attempt at sorting the nonsense on this blog.
   </tr></table>
 {% endif %}
 
-<!-->
+<!--
 
 <h1>Tags</h1>
 
