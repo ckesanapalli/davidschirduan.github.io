@@ -7,6 +7,8 @@ published: true
 
 A [Bone Marshes](/bone-marshes) character generator for [Knave](https://www.drivethrurpg.com/product/250888/Knave) and other OSR games.
 
+<button class="btn btn-primary btn-sm" onclick="newCharacter()">Generate Another Character</button>
+
 <div class="container">
   <div class="row">
     <div class="col-md-9 col-sm-6 tightSpacing h1" id="charName">Captain Silver</div>
@@ -74,6 +76,10 @@ A [Bone Marshes](/bone-marshes) character generator for [Knave](https://www.driv
 <small>Thanks to <a href="http://questingblog.com/">Ben Milton</a> for making an incredible RPG and to <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the code! For the curious I'll list some of the house-rules that Bone Marshes uses. If HP is less than 5, set it equal to 5. Renames copper to gold, just for convenience and familiarity. PCs start with equipment AND 3d6x10 gold. PCs start with a random spellbook. PCs can fit two rations per slot, to facilitate more exploration.</small>
 
 <script>
+
+function newCharacter() {
+  location.reload();
+}
 /* ======= NAMES ======= */
 var Names = [ 
   "Dim","Ira","Lash","Vague","Flem","Ail","Toxen","Koff","Dewy","Misty","Sopp","Drip","Graydon","Agatha","Eldon","Fossil","Richter","Pearl","Gilden","Millia","Poba","Sully","Scrub","Tatter","Hugo","Larga","Jumbo","Mondo","Runt","Teena","Pinta","Wheetle","Zip","Shyan","Fidget","Jitter","August","Narsis","Braggen","Trumpet","Sharp","Brainy","Keen","Canny","Tax","Vex","Curie","Meddle","Boyle","Shrieka","Tirade","Vement","Stammer","Chichi","Bungle","Sputter","Slick","Allure","Glib","Dear","Frank","Cathy","Candid","Gab","","Lance","Scout","Rant","Grunt","Cash","Merelda","Wage","Monet","Mac","Ginny","Swallow","Swig","Richard","Patricia","Lofty","Gilden","Mark","Ruby","Spot","Trace","Buzz","Tattle","Sland","Prate","Doc","Kit","Kwak","Bones","Bane","Malvara","Malek","Nafeera","Skip","Lady","Chevron","Doyan","Hunter","Veil","Slayton","Drak","Matt","Allie","Buddy","Crony","Champ","Hera","Diana","Perseus","Wulf","Oracle","Evoka","Ovate","Rob","Frisk","Crook","Klept","Astro","Marge","Auger","Sear","Shep","Vicka","Vine","Lama"
