@@ -7,9 +7,13 @@ published: true
 
 A [Bone Marshes](/bone-marshes) character generator for [Knave](https://www.drivethrurpg.com/product/250888/Knave) and other OSR games.
 
-<div class="container"> 
-  <h1 id="charName">Captain Silver</h1>
-  <p style="text-align: right;font-style: italic;"><small>More names <a href="/files/MemorableNames.pdf" target="_blank">here</a></small></p>
+<div class="container">
+  <div class="row">
+    <div class="col-9 tightSpacing h1" id="charName">Captain Silver</div>
+    <div class="col-3">
+      <p style="text-align: right;font-style: italic;position:absolute;bottom:0px;"><small>More names <a href="/files/MemorableNames.pdf" target="_blank">here</a></small></p>
+    </div>
+  </div>
   <div class="row">
 		<div class="col-3 tightSpacing" id="charPhysique">Flamboyant</div>
 		<div class="col-3 tightSpacing" id="charSkin">Flamboyant</div>
