@@ -66,7 +66,7 @@ A [Bone Marshes](/bone-marshes) character generator for [Knave](https://www.driv
 
 <hr class="tightSpacing">
 
-<small>Thanks to <a href="http://questingblog.com/">Ben Milton</a> for making an incredible RPG and to <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the code! For the curious I'll list some of the house-rules that Bone Marshes uses. If HP is less than 5, set it equal to 5. Renames copper to gold, just for convenience and familiarity. PCs start with equipment AND 3d6x20 gold. PCs start with a random spellbook. PCs can fit two rations per slot, to facilitate more exploration.</small>
+<small>Thanks to <a href="http://questingblog.com/">Ben Milton</a> for making an incredible RPG and to <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the code! For the curious I'll list some of the house-rules that Bone Marshes uses. If HP is less than 5, set it equal to 5. Renames copper to gold, just for convenience and familiarity. PCs start with equipment AND 3d6x10 gold. PCs start with a random spellbook. PCs can fit two rations per slot, to facilitate more exploration.</small>
 
 <script>
 /* ======= NAMES ======= */
@@ -204,11 +204,12 @@ var ExtraArmor = [
   "",
   "",
   "",
+  "<br> Helmet (+1 armor, 1 slot)",
+  "<br> Helmet (+1 armor, 1 slot)",
+  "<br> Helmet (+1 armor, 1 slot)",
   "<br> Shield (+1 armor, 1 hand, 1 slot)",
   "<br> Shield (+1 armor, 1 hand, 1 slot)",
-  "<br> Shield (+1 armor, 1 hand, 1 slot) <br> Helmet (+1 armor, 1 slot)",
-  "<br> Shield (+1 armor, 1 hand, 1 slot) <br> Helmet (+1 armor, 1 slot)",
-  "<br> Shield (+1 armor, 1 hand, 1 slot) <br> Helmet (+1 armor, 1 slot)",
+  "<br> Shield (+1 armor, 1 hand, 1 slot)",
   "<br> Shield (+1 armor, 1 hand, 1 slot) <br> Helmet (+1 armor, 1 slot)"
 ];
 
@@ -232,15 +233,16 @@ var Spells =[
 var die1 = Math.floor(Math.random() * 6) + 1;
 var die2 = Math.floor(Math.random() * 6) + 1;
 var die3 = Math.floor(Math.random() * 6) + 1;
-var startGold = (die1 + die2 + die3) * 20
+var startGold = die1 + die2 + die3;
+startGold = startGold * 10;
 
 document.getElementById("charItems").innerHTML = "" + 
   startGold + " gold (100 coins per slot)<br> 2 days of rations <br>" +
   Dungeoneering[Math.floor(Math.random()*Dungeoneering.length)] + "<br>" + 
+  Dungeoneering[Math.floor(Math.random()*Dungeoneering.length)] + "<br>" + 
   General1[Math.floor(Math.random()*General1.length)] + "<br>" + 
   General2[Math.floor(Math.random()*General2.length)] + 
   ExtraArmor[Math.floor(Math.random()*ExtraArmor.length)] +
-  "<br> Spellbook <i>(" + 
-  Spells[Math.floor(Math.random()*Spells.length)] + ")</i>"; 
+  "<br> Spellbook - " + Spells[Math.floor(Math.random()*Spells.length)]; 
 
 </script>
