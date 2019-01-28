@@ -3,6 +3,7 @@ layout: page
 title: Bone Marshes Character Generator
 permalink: bmchargen
 published: true
+image: /images/generatorPreview.png
 ---
 
 <p>A <a href="/bone-marshes">Bone Marshes</a> Character generator for <a href="https://www.drivethrurpg.com/product/250888/Knave">Knave</a> and other OSR games.</p>
@@ -49,7 +50,7 @@ published: true
         Equipment: 19 Slots
       </h2>
       <p>
-        You can choose from the following items to fill your inventory slots. <i>Unless otherwise noted, each item takes up one slot.</i> 
+        You can choose from <strong>any or all</strong> of the following items to fill your inventory slots. Unless otherwise noted, each item takes up one slot. 
       </p>
       <p id="charItems">
         1 Day's Rations<br>1 Day's Rations<br>Gambeson: A12 Q3<br>Helmet: Armor+1 Q1<br>Bow: 1d6, Q3, 2H, 2 Slots<br>Quiver with 20 arrows<br>Manacles<br>Grappling Hook<br>Hourglass<br>Bottle			
@@ -58,12 +59,12 @@ published: true
     <div class="col-xl-6 col-md-9">
     <h2 class="tightSpacing">Choose one weapon:</h2>
       <ul>
-        <li class="checkBox">Small melee (d6, 1 slot)<br><small><i>Dagger, Cudgel, Sickle, Staff, etc.</i></small></li>
-        <li class="checkBox">Medium melee (d8, 2 slots)<br><small><i>Spear, Sword, Flail, Axe, Mace</i></small></li>
-        <li class="checkBox">Large (d10, 2 hands, 3 slots)<br><small><i>Halberd, Warhammer, Battle Axe</i></small></li>
-        <li class="checkBox">Sling (d4, 1 slot)<br><small><i>and a bag of 20 stones (1 slot)</i></small></li>
-        <li class="checkBox">Bow (d6, 2 hands, 2 slots)<br><small><i>and a quiver of 20 arrows (1 slot)</i></small></li>
-        <li class="checkBox">Crossbow (d8, 2 hands, 3 slots)<br><small><i>and a pack of 20 bolts (1 slot)</i></small></li>
+        <li>Small melee (d6, 1 slot)<br><small><i>Dagger, Cudgel, Sickle, Staff, etc.</i></small></li>
+        <li>Medium melee (d8, 2 slots)<br><small><i>Spear, Sword, Flail, Axe, Mace</i></small></li>
+        <li>Large (d10, 2 hands, 3 slots)<br><small><i>Halberd, Warhammer, Battle Axe</i></small></li>
+        <li>Sling (d4, 1 slot)<br><small><i>and a bag of 20 stones (1 slot)</i></small></li>
+        <li>Bow (d6, 2 hands, 2 slots)<br><small><i>and a quiver of 20 arrows (1 slot)</i></small></li>
+        <li>Crossbow (d8, 2 hands, 3 slots)<br><small><i>and a pack of 20 bolts (1 slot)</i></small></li>
       </ul> 
     </div>
   </div>
@@ -211,13 +212,13 @@ var ExtraArmor = [
   "",
   "",
   "",
-  "<br> Helmet (+1 armor, 1 slot)",
-  "<br> Helmet (+1 armor, 1 slot)",
-  "<br> Helmet (+1 armor, 1 slot)",
-  "<br> Shield (+1 armor, 1 hand, 1 slot)",
-  "<br> Shield (+1 armor, 1 hand, 1 slot)",
-  "<br> Shield (+1 armor, 1 hand, 1 slot)",
-  "<br> Shield (+1 armor, 1 hand, 1 slot) <br> Helmet (+1 armor, 1 slot)"
+  "</li><li>Helmet (+1 armor, 1 slot)",
+  "</li><li>Helmet (+1 armor, 1 slot)",
+  "</li><li>Helmet (+1 armor, 1 slot)",
+  "</li><li>Shield (+1 armor, 1 hand, 1 slot)",
+  "</li><li>Shield (+1 armor, 1 hand, 1 slot)",
+  "</li><li>Shield (+1 armor, 1 hand, 1 slot)",
+  "</li><li>Shield (+1 armor, 1 hand, 1 slot)</li><li>Helmet (+1 armor, 1 slot)"
 ];
 
 /* ======= EQUIPMENT ======= */
@@ -242,13 +243,13 @@ var die2 = Math.floor(Math.random() * 6) + 1;
 var startGold = die1 + die2;
 startGold = startGold * 10;
 
-document.getElementById("charItems").innerHTML = "" + 
-  startGold + " gold (100 coins per slot)<br> 2 days of rations <br>" +
-  Dungeoneering[Math.floor(Math.random()*Dungeoneering.length)] + "<br>" + 
-  Dungeoneering[Math.floor(Math.random()*Dungeoneering.length)] + "<br>" + 
-  General1[Math.floor(Math.random()*General1.length)] + "<br>" + 
+document.getElementById("charItems").innerHTML = "<ul><li>" + 
+  startGold + " gold (100 coins per slot)</li><li>2 days of rations</li><li>" +
+  Dungeoneering[Math.floor(Math.random()*Dungeoneering.length)] + "</li><li>" + 
+  Dungeoneering[Math.floor(Math.random()*Dungeoneering.length)] + "</li><li>" + 
+  General1[Math.floor(Math.random()*General1.length)] + "</li><li>" + 
   General2[Math.floor(Math.random()*General2.length)] + 
   ExtraArmor[Math.floor(Math.random()*ExtraArmor.length)] +
-  "<br> Spellbook - " + Spells[Math.floor(Math.random()*Spells.length)]; 
+  "</li><li>Spellbook - " + Spells[Math.floor(Math.random()*Spells.length)]; 
 
 </script>
