@@ -15,6 +15,7 @@ The Bone Marshes is a tabletop adventure about getting lost. It’s tailor-made 
 
 The Bone Marshes is an adventure filled with mapping and exploration challenges for the players. Great care and effort have been taken to ease the burden on the GM and provide players with a difficult but not impossible challenge. We use clean organization, special time-keeping and travel rules, and player handouts to keep people engaged and on the same page in this topsy-turvey land.
 
+- [**Character Generator**]({{site.url}}/bmchargen)
 - [**Character Sheet**]({{site.url}}/files/BoneMarshes_characterSheet.pdf)
 - [**Handouts**]({{site.url}}/files/BoneMarshes_handouts.pdf)
 - [**Items/Loot**]({{site.url}}/files/BoneMarshes_LostThings.pdf)

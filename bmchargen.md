@@ -5,10 +5,11 @@ permalink: bmchargen
 published: true
 ---
 
-A [Bone Marshes](/bone-marshes) character generator for [Knave](https://www.drivethrurpg.com/product/250888/Knave) and other OSR games. Thanks to [Christopher P. Wolf](http://chrispwolf.com/) for the code!
+A [Bone Marshes](/bone-marshes) character generator for [Knave](https://www.drivethrurpg.com/product/250888/Knave) and other OSR games.
 
 <div class="container"> 
   <h1 id="charName">Captain Silver</h1>
+  <p style="text-align: right;font-style: italic;"><small>More names <a href="/files/MemorableNames.pdf" target="_blank">here</a></small></p>
   <div class="row">
 		<div class="col-3 tightSpacing" id="charPhysique">Flamboyant</div>
 		<div class="col-3 tightSpacing" id="charSkin">Flamboyant</div>
@@ -22,7 +23,6 @@ A [Bone Marshes](/bone-marshes) character generator for [Knave](https://www.driv
   <p id="charHistory">
     You used to be a sea captain<br> but your crew mutinied and left.
   </p>
-  <p style="text-align: right;font-style: italic;"><small>More names <a href="/files/MemorableNames.pdf" target="_blank">here</a></small></p>
   <hr class="tightSpacing">
 	<div class="row">
 		<div class="col-md-2 col-sm-4 tightSpacing h3" id="charSTR">STR: 9</div>
@@ -40,17 +40,6 @@ A [Bone Marshes](/bone-marshes) character generator for [Knave](https://www.driv
       <p id="charArmor">
         <strong>Armor:</strong> Fancy Hat		
       </p>
-      <h2 class="tightSpacing">Choose a weapon:</h2>
-      <ul>
-        <li class="checkBox">Small melee (d6, 1 slot)<br><small><i>Dagger, Cudgel, Sickle, Staff, etc.</i></small></li>
-        <li class="checkBox">Medium (d8, 2 slots)<br><small><i>Spear, Sword, Flail, Axe, Mace</i></small></li>
-        <li class="checkBox">Large (d10, 2 hands, 3 slots)<br><small><i>Halberd, Warhammer, Battle Axe</i></small></li>
-        <li class="checkBox">Sling (d4, 1 slot)<br><small><i>and a bag of 20 stones (1 slot)</i></small></li>
-        <li class="checkBox">Bow (d6, 2 hands, 2 slots)<br><small><i>and a quiver of 20 arrows (1 slot)</i></small></li>
-        <li class="checkBox">Crossbow (d8, 2 hands, 3 slots)<br><small><i>and a pack of 20 bolts (1 slot)</i></small></li>
-      </ul> 
-    </div>
-    <div class="col-sm-6">
       <h2 id="charSlots" class="tightSpacing">
         Equipment: 19 Slots
       </h2>
@@ -61,8 +50,23 @@ A [Bone Marshes](/bone-marshes) character generator for [Knave](https://www.driv
         1 Day's Rations<br>1 Day's Rations<br>Gambeson: A12 Q3<br>Helmet: Armor+1 Q1<br>Bow: 1d6, Q3, 2H, 2 Slots<br>Quiver with 20 arrows<br>Manacles<br>Grappling Hook<br>Hourglass<br>Bottle			
       </p>
     </div>
+    <div class="col-sm-6">
+    <h2 class="tightSpacing">Choose one weapon:</h2>
+      <ul>
+        <li class="checkBox">Small melee (d6, 1 slot)<br><small><i>Dagger, Cudgel, Sickle, Staff, etc.</i></small></li>
+        <li class="checkBox">Medium melee (d8, 2 slots)<br><small><i>Spear, Sword, Flail, Axe, Mace</i></small></li>
+        <li class="checkBox">Large (d10, 2 hands, 3 slots)<br><small><i>Halberd, Warhammer, Battle Axe</i></small></li>
+        <li class="checkBox">Sling (d4, 1 slot)<br><small><i>and a bag of 20 stones (1 slot)</i></small></li>
+        <li class="checkBox">Bow (d6, 2 hands, 2 slots)<br><small><i>and a quiver of 20 arrows (1 slot)</i></small></li>
+        <li class="checkBox">Crossbow (d8, 2 hands, 3 slots)<br><small><i>and a pack of 20 bolts (1 slot)</i></small></li>
+      </ul> 
+    </div>
   </div>
 </div>
+
+<hr class="tightSpacing">
+
+<small>Thanks to <a href="http://questingblog.com/">Ben Milton</a> for making an incredible RPG and to <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the code! For the curious I'll list some of the house-rules that Bone Marshes uses. If HP is less than 5, set it equal to 5. Renames copper to gold, just for convenience and familiarity. PCs start with equipment AND 3d6x20 gold. PCs start with a random spellbook. PCs can fit two rations per slot, to facilitate more exploration.</small>
 
 <script>
 /* ======= NAMES ======= */
@@ -225,8 +229,13 @@ var Spells =[
   "Adhere: Object is covered in extremely sticky slime.","Animate Object: Object obeys your commands as best it can. It can walk 15ft per round.","Auditory Illusion: You create illusory sounds that seem to come from a direction of your choice.","Beast Form: You and your possessions transform into a mundane animal.","Befuddle: L creatures of your choice are unable to form new short-term memories for the duration of the spell.","Bend Fate: Roll L+1 d20s. Whenever you must roll a d20 after casting the spell, you must choose and then discard one of the rolled results until they are all gone.","Body Swap: You switch bodies with a creature you touch. If one body dies, the other dies as well.","Command: A creature obeys a single, three-word command that does not harm it.","Control Plants: Nearby plants and trees obey you and gain the ability to move at 5 feet per round.","Deafen: All nearby creatures are deafened.","Disassemble: Any of your body parts may be detached and reattached at will, without causing pain or damage. You can still control them.","Displace: An object appears to be up to L×10ft from its actual position.","Elemental Wall: A straight wall of ice or fire L×40ft long and 10ft high rises from the ground.","Frenzy: L creatures erupt in a frenzy of violence.","Gravity Shift: You can change the direction of gravity (for yourself only) up to once per round.","Haste: Your movement speed is tripled.","Hover: An object hovers, frictionless, 2ft above the ground. It can hold up to L humanoids.","Icy Touch: A thick ice layer spreads across a touched surface, up to L×10ft in radius.","Illuminate: A floating light moves as you command.","Increase Gravity: The gravity in an area triples.","Invisible Tether: Two objects within 10ft of each other cannot be moved more than 10ft apart.","Leap: You can jump up to L×10ft in the air.","Liquid Air: The air around you becomes swimmable.","Manse: A sturdy, furnished cottage appears for L×12 hours. You can permit and forbid entry to it at will.","Marble Madness: Your pockets are full of marbles, and will refill every round.","Miniaturize: You and L other touched creatures are reduced to the size of a mouse.","Mirror Image: L illusory duplicates of yourself appear under your control.","Multiarm: You gain L extra arms.","Night Sphere: An L×40ft wide sphere of darkness displaying the night sky appears.","Objectify: You become any inanimate object between the size of a grand piano and an apple.","Ooze Form: You become a living jelly.","Pacify: L creatures have an aversion to violence.","Psychometry: The referee answers L yes or no questions about a touched object.","Raise Dead: L skeletons rise from the ground to serve you. They are incredibly stupid and can only obey simple orders.","Repel: L+1 objects are strongly magnetically repelled from each other if they come within 10 feet.","Shroud: L creatures are invisible until they move.","Smoke Form: Your body becomes living smoke.","Spider Climb: You can climb surfaces like a spider.","Swarm: You become a swarm of crows, rats, or piranhas. You only take damage from area effects.","Telekinesis: You may mentally move L items.","Telepathy: L+1 creatures can hear each other’s thoughts, no matter how far apart they move.","Teleport: An object disappears and reappears on the ground in a visible, clear area up to L×40ft away.","Thaumaturgic Anchor: Object becomes the target of every spell cast near it.","Thicket: A thicket of trees and dense brush up to L×40ft wide suddenly sprouts up.","Time Rush: Time in a 40ft bubble starts moving 10 times faster.","Time Slow: Time in a 40ft bubble slows to 10%.","Vision: You completely control what a creature sees.","Ward: A silver circle 40ft across appears on the ground. Choose one thing that cannot cross it: Living creatures, dead creatures, projectiles or metal.","Web: Your wrists can shoot thick webbing.","Wizard Mark: Your finger can shoot a stream of ulfire-colored paint. This paint is only visible to you, and can be seen at any distance, even through solid objects."
 ];
 
+var die1 = Math.floor(Math.random() * 6) + 1;
+var die2 = Math.floor(Math.random() * 6) + 1;
+var die3 = Math.floor(Math.random() * 6) + 1;
+var startGold = (die1 + die2 + die3) * 20
+
 document.getElementById("charItems").innerHTML = "" + 
-  Math.floor(Math.random()*150) + " gold (100 coins per slot)<br> 2 days of rations <br>" +
+  startGold + " gold (100 coins per slot)<br> 2 days of rations <br>" +
   Dungeoneering[Math.floor(Math.random()*Dungeoneering.length)] + "<br>" + 
   General1[Math.floor(Math.random()*General1.length)] + "<br>" + 
   General2[Math.floor(Math.random()*General2.length)] + 
