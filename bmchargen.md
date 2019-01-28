@@ -57,14 +57,19 @@ image: /images/generatorPreview.png
       </p>
     </div>
     <div class="col-xl-6 col-md-9">
-    <h2 class="tightSpacing">Choose one weapon:</h2>
+    <h2 class="tightSpacing">Starting Weapon:</h2>
+      <p id="charWeapon">
+        <strong>Armor:</strong> Fancy Hat		
+      </p>
+    <h2 class="tightSpacing">Or choose another:</h2>
       <ul>
-        <li>Small melee (d6, 1 slot)<br><small><i>Dagger, Cudgel, Sickle, Staff, etc.</i></small></li>
-        <li>Medium melee (d8, 2 slots)<br><small><i>Spear, Sword, Flail, Axe, Mace</i></small></li>
-        <li>Large (d10, 2 hands, 3 slots)<br><small><i>Halberd, Warhammer, Battle Axe</i></small></li>
-        <li>Sling (d4, 1 slot)<br><small><i>and a bag of 20 stones (1 slot)</i></small></li>
-        <li>Bow (d6, 2 hands, 2 slots)<br><small><i>and a quiver of 20 arrows (1 slot)</i></small></li>
-        <li>Crossbow (d8, 2 hands, 3 slots)<br><small><i>and a pack of 20 bolts (1 slot)</i></small></li>
+        <li>Small Melee (d6, 1 hand, 1 slot)</li>
+        <li>Medium (d8, 1 hand, 2 slots)</li>
+        <li>Large (d10, 2 hands, 3 slots)</li>
+        <li>Thrown Weapons (d6, 5 per slot)</li>
+        <li>Sling (d4, 1 slot)<br>and a bag of 20 stones (1 slot)</li>
+        <li>Bow (d6, 2 hands, 2 slots)<br>and a quiver of 20 arrows (1 slot)</li>
+        <li>Crossbow (d8, 2 hands, 3 slots)<br>and a pack of 20 bolts (1 slot)</li>
       </ul> 
     </div>
   </div>
@@ -170,6 +175,13 @@ document.getElementById("charHistory").innerHTML = "You used to be " +
   Background[Math.floor(Math.random()*Background.length)] + 
   " but then you were " + Misfortune[Math.floor(Math.random()*Misfortune.length)] + 
   ". Now you are a Knave: a tomb-raiding, adventure-seeking ne’er-do-well who wields a spell book just as easily as a blade.";
+
+/* ======= WEAPONS ======= */
+var Weapons = [ 
+  "<strong>Dagger</strong> (d6, 1 hand, 1 slot)","<strong>Cudgel</strong> (d6, 1 hand, 1 slot)","<strong>Sickle</strong> (d6, 1 hand, 1 slot)","<strong>Staff</strong> (d6, 1 hand, 1 slot)","<strong>Baton</strong> (d6, 1 hand, 1 slot)","<strong>Sword</strong> (d8, 1 hand, 2 slots)","<strong>Spear</strong> (d8, 1 hand, 2 slots)","<strong>Flail</strong> (d8, 1 hand, 2 slots)","<strong>Axe</strong> (d8, 1 hand, 2 slots)","<strong>Mace</strong> (d8, 1 hand, 2 slots)","<strong>Longsword</strong> (d10, 2 hands, 3 slots)","<strong>Battle Axe</strong> (d10, 2 hands, 3 slots)","<strong>Warhammer</strong> (d10, 2 hands, 3 slots)","<strong>Halberd</strong> (d10, 2 hands, 3 slots)","<strong>Guandao</strong> (d10, 2 hands, 3 slots)","<strong>5 Throwing Knives</strong> <br>(d6, 1 hand, 5 per slot)","<strong>5 Darts</strong> (d6, 1 hand, 5 per slot)","<strong>5 Throwing Axes</strong> <br>(d6, 1 hand, 5 per slot)","<strong>Sling</strong> (d4, 1 slot) <br>and a bag of 20 stones (1 slot)","<strong>Sling</strong> (d4, 1 slot) <br>and a bag of 20 stones (1 slot)","<strong>Bow</strong> (d6, 2 hands, 2 slots) <br>and a quiver of 20 arrows (1 slot)","<strong>Bow</strong> (d6, 2 hands, 2 slots) <br>and a quiver of 20 arrows (1 slot)","<strong>Bow</strong> (d6, 2 hands, 2 slots) <br>and a quiver of 20 arrows (1 slot)","<strong>Crossbow</strong> (d8, 2 hands, 3 slots) <br>and a pack of 20 bolts (1 slot)","<strong>Crossbow</strong> (d8, 2 hands, 3 slots) <br>and a pack of 20 bolts (1 slot)","<strong>Crossbow</strong> (d8, 2 hands, 3 slots) <br>and a pack of 20 bolts (1 slot)"
+];
+document.getElementById("charWeapon").innerHTML = Weapons[Math.floor(Math.random()*Weapons.length)];
+
 
 /* ======= ARMOR ======= */
 document.getElementById("charSlots").innerText = "Equipment: " + (charCON+10) + " Slots";
