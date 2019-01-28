@@ -9,20 +9,22 @@ A [Bone Marshes](/bone-marshes) character generator for [Knave](https://www.driv
 
 <div class="container">
   <div class="row">
-    <div class="col-9 tightSpacing h1" id="charName">Captain Silver</div>
-    <div class="col-3">
-      <p style="text-align: right;font-style: italic;position:absolute;bottom:0px;"><small>More names <a href="/files/MemorableNames.pdf" target="_blank">here</a></small></p>
+    <div class="col-md-9 col-sm-6 tightSpacing h1" id="charName">Captain Silver</div>
+    <div class="col-md-3 col-sm-6">
+      <p style="padding-top:15px;">
+        <small><a href="/files/MemorableNames.pdf" target="_blank">More names here</a></small>
+      </p>
     </div>
   </div>
   <div class="row">
-		<div class="col-3 tightSpacing" id="charPhysique">Flamboyant</div>
-		<div class="col-3 tightSpacing" id="charSkin">Flamboyant</div>
-		<div class="col-3 tightSpacing" id="charFace">Flamboyant</div>
-		<div class="col-3 tightSpacing" id="charHair">Flamboyant</div>
-		<div class="col-3 tightSpacing" id="charSpeech">Flamboyant</div>
-		<div class="col-3 tightSpacing" id="charClothing">Flamboyant</div>
-		<div class="col-3 tightSpacing" id="charVirtue">Flamboyant</div>
-		<div class="col-3 tightSpacing" id="charVice">Flamboyant</div>
+		<div class="col-md-3  col-sm-6 tightSpacing" id="charPhysique">Flamboyant</div>
+		<div class="col-md-3  col-sm-6 tightSpacing" id="charSkin">Flamboyant</div>
+		<div class="col-md-3  col-sm-6 tightSpacing" id="charFace">Flamboyant</div>
+		<div class="col-md-3  col-sm-6 tightSpacing" id="charHair">Flamboyant</div>
+		<div class="col-md-3  col-sm-6 tightSpacing" id="charSpeech">Flamboyant</div>
+		<div class="col-md-3  col-sm-6 tightSpacing" id="charClothing">Flamboyant</div>
+		<div class="col-md-3  col-sm-6 tightSpacing" id="charVirtue">Flamboyant</div>
+		<div class="col-md-3  col-sm-6 tightSpacing" id="charVice">Flamboyant</div>
   </div>
   <p id="charHistory">
     You used to be a sea captain<br> but your crew mutinied and left.
@@ -37,9 +39,8 @@ A [Bone Marshes](/bone-marshes) character generator for [Knave](https://www.driv
 		<div class="col-md-2 col-sm-4 tightSpacing h3" id="charCHA">CHA: 4</div>
 	</div>
   <p style="text-align: right;font-style: italic;"><small>You may swap any two ability bonuses</small></p>
-  <hr class="tightSpacing">
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-md-6 col-sm-9">
       <h2 id="charHP" class="tightSpacing">Hit Points: 6</h2>
       <p id="charArmor">
         <strong>Armor:</strong> Fancy Hat		
@@ -54,7 +55,7 @@ A [Bone Marshes](/bone-marshes) character generator for [Knave](https://www.driv
         1 Day's Rations<br>1 Day's Rations<br>Gambeson: A12 Q3<br>Helmet: Armor+1 Q1<br>Bow: 1d6, Q3, 2H, 2 Slots<br>Quiver with 20 arrows<br>Manacles<br>Grappling Hook<br>Hourglass<br>Bottle			
       </p>
     </div>
-    <div class="col-sm-6">
+    <div class="col-md-6 col-sm-9">
     <h2 class="tightSpacing">Choose one weapon:</h2>
       <ul>
         <li class="checkBox">Small melee (d6, 1 slot)<br><small><i>Dagger, Cudgel, Sickle, Staff, etc.</i></small></li>
