@@ -6,7 +6,7 @@ published: true
 image: /images/generatorPreview.png
 ---
 
-<p>A <a href="/bone-marshes">Bone Marshes</a> Character generator for <a href="https://www.drivethrurpg.com/product/250888/Knave">Knave</a> and other OSR games.</p>
+<p>A <a href="/bone-marshes">Bone Marshes</a> character generator for <a href="https://www.drivethrurpg.com/product/250888/Knave">Knave</a> and other OSR games.</p>
 
 <div class="buttonWrapper">
   <button class="btn btn-primary" onclick="newCharacter()">Generate Another Character</button>
