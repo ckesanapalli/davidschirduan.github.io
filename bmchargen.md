@@ -50,7 +50,7 @@ image: /images/generatorPreview.png
         Equipment: 19 Slots
       </h2>
       <p>
-        You can choose from <strong>any or all</strong> of the following items to fill your inventory slots. Unless otherwise noted, each item takes up one slot. 
+        You can choose from <strong>any or all</strong> of the items below to fill your inventory slots. Unless otherwise noted, each item takes up one slot. 
       </p>
       <p id="charItems">
         1 Day's Rations<br>1 Day's Rations<br>Gambeson: A12 Q3<br>Helmet: Armor+1 Q1<br>Bow: 1d6, Q3, 2H, 2 Slots<br>Quiver with 20 arrows<br>Manacles<br>Grappling Hook<br>Hourglass<br>Bottle			
