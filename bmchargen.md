@@ -5,44 +5,42 @@ permalink: bmchargen
 published: true
 ---
 
-A [Bone Marshes](/bone-marshes) character generator for [Knave](https://www.drivethrurpg.com/product/250888/Knave) and other OSR games.
+<p>A <a href="/bone-marshes">Bone Marshes</a> Character generator for <a href="https://www.drivethrurpg.com/product/250888/Knave">Knave</a> and other OSR games.</p>
 
-<button class="btn btn-primary btn-sm" onclick="newCharacter()">Generate Another Character</button>
+<div class="buttonWrapper">
+  <button class="btn btn-primary" onclick="newCharacter()">Generate Another Character</button>
+</div>
 
-<div class="container">
+<div class="container characterCard">
   <div class="row">
-    <div class="col-md-9 col-sm-6 tightSpacing h1" id="charName">Captain Silver</div>
-    <div class="col-md-3 col-sm-6">
-      <p style="padding-top:15px;">
-        <small><a href="/files/MemorableNames.pdf" target="_blank">More names here</a></small>
-      </p>
-    </div>
+    <div class="col tightSpacing h1" id="charName">Captain Silver</div>
   </div>
   <div class="row">
-		<div class="col-md-3  col-sm-6 tightSpacing" id="charPhysique">Flamboyant</div>
-		<div class="col-md-3  col-sm-6 tightSpacing" id="charSkin">Flamboyant</div>
-		<div class="col-md-3  col-sm-6 tightSpacing" id="charFace">Flamboyant</div>
-		<div class="col-md-3  col-sm-6 tightSpacing" id="charHair">Flamboyant</div>
-		<div class="col-md-3  col-sm-6 tightSpacing" id="charSpeech">Flamboyant</div>
-		<div class="col-md-3  col-sm-6 tightSpacing" id="charClothing">Flamboyant</div>
-		<div class="col-md-3  col-sm-6 tightSpacing" id="charVirtue">Flamboyant</div>
-		<div class="col-md-3  col-sm-6 tightSpacing" id="charVice">Flamboyant</div>
-  </div>
+		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charSTR">STR: 9</div>
+		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charDEX">DEX: 8</div>
+		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charCON">CON: 7</div>
+		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charINT">INT: 6</div>
+		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charWIS">WIS: 5</div>
+		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charCHA">CHA: 4</div>
+	</div>
+  <p style="text-align: right;font-style: italic;"><small>You may swap any two ability bonuses</small></p>
+  <hr class="tightSpacing">
   <p id="charHistory">
     You used to be a sea captain<br> but your crew mutinied and left.
   </p>
-  <hr class="tightSpacing">
-	<div class="row">
-		<div class="col-md-2 col-sm-4 tightSpacing h3" id="charSTR">STR: 9</div>
-		<div class="col-md-2 col-sm-4 tightSpacing h3" id="charDEX">DEX: 8</div>
-		<div class="col-md-2 col-sm-4 tightSpacing h3" id="charCON">CON: 7</div>
-		<div class="col-md-2 col-sm-4 tightSpacing h3" id="charINT">INT: 6</div>
-		<div class="col-md-2 col-sm-4 tightSpacing h3" id="charWIS">WIS: 5</div>
-		<div class="col-md-2 col-sm-4 tightSpacing h3" id="charCHA">CHA: 4</div>
-	</div>
-  <p style="text-align: right;font-style: italic;"><small>You may swap any two ability bonuses</small></p>
   <div class="row">
-    <div class="col-md-6 col-sm-9">
+		<div class="col-xl-3  col-md-6 tightSpacing" id="charPhysique">Flamboyant</div>
+		<div class="col-xl-3  col-md-6 tightSpacing" id="charSkin">Flamboyant</div>
+		<div class="col-xl-3  col-md-6 tightSpacing" id="charFace">Flamboyant</div>
+		<div class="col-xl-3  col-md-6 tightSpacing" id="charHair">Flamboyant</div>
+		<div class="col-xl-3  col-md-6 tightSpacing" id="charSpeech">Flamboyant</div>
+		<div class="col-xl-3  col-md-6 tightSpacing" id="charClothing">Flamboyant</div>
+		<div class="col-xl-3  col-md-6 tightSpacing" id="charVirtue">Flamboyant</div>
+		<div class="col-xl-3  col-md-6 tightSpacing" id="charVice">Flamboyant</div>
+  </div>
+  <hr class="tightSpacing">
+  <div class="row">
+    <div class="col-xl-6 col-md-9">
       <h2 id="charHP" class="tightSpacing">Hit Points: 6</h2>
       <p id="charArmor">
         <strong>Armor:</strong> Fancy Hat		
@@ -57,7 +55,7 @@ A [Bone Marshes](/bone-marshes) character generator for [Knave](https://www.driv
         1 Day's Rations<br>1 Day's Rations<br>Gambeson: A12 Q3<br>Helmet: Armor+1 Q1<br>Bow: 1d6, Q3, 2H, 2 Slots<br>Quiver with 20 arrows<br>Manacles<br>Grappling Hook<br>Hourglass<br>Bottle			
       </p>
     </div>
-    <div class="col-md-6 col-sm-9">
+    <div class="col-xl-6 col-md-9">
     <h2 class="tightSpacing">Choose one weapon:</h2>
       <ul>
         <li class="checkBox">Small melee (d6, 1 slot)<br><small><i>Dagger, Cudgel, Sickle, Staff, etc.</i></small></li>
@@ -71,9 +69,7 @@ A [Bone Marshes](/bone-marshes) character generator for [Knave](https://www.driv
   </div>
 </div>
 
-<hr class="tightSpacing">
-
-<small>Thanks to <a href="http://questingblog.com/">Ben Milton</a> for making an incredible RPG and to <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the code! For the curious I'll list some of the house-rules that Bone Marshes uses. If HP is less than 5, set it equal to 5. Renames copper to gold, just for convenience and familiarity. PCs start with equipment AND 3d6x10 gold. PCs start with a random spellbook. PCs can fit two rations per slot, to facilitate more exploration.</small>
+<small>Thanks to <a href="http://questingblog.com/">Ben Milton</a> for making an incredible RPG and to <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the code! For the curious I'll list some of the house-rules that Bone Marshes uses. If HP is less than 5, set it equal to 5. Renames copper to gold, just for convenience and familiarity. PCs start with equipment AND 2d6x10 gold. PCs start with a random spellbook. PCs can fit two rations per slot, to facilitate more exploration.</small>
 
 <script>
 
@@ -243,8 +239,7 @@ var Spells =[
 
 var die1 = Math.floor(Math.random() * 6) + 1;
 var die2 = Math.floor(Math.random() * 6) + 1;
-var die3 = Math.floor(Math.random() * 6) + 1;
-var startGold = die1 + die2 + die3;
+var startGold = die1 + die2;
 startGold = startGold * 10;
 
 document.getElementById("charItems").innerHTML = "" + 
