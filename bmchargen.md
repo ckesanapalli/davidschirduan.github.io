@@ -39,9 +39,8 @@ image: /images/generatorPreview.png
 		<div class="col-xl-3  col-md-6 tightSpacing" id="charVirtue">Flamboyant</div>
 		<div class="col-xl-3  col-md-6 tightSpacing" id="charVice">Flamboyant</div>
   </div>
-  <hr class="tightSpacing">
   <div class="row">
-    <div class="col-xl-6 col-md-9">
+    <div class="col-xl-6 col-md-9" style="border-right: 1px solid var(--border-color);">
       <h2 id="charHP" class="tightSpacing">Hit Points: 6</h2>
       <p id="charArmor">
         <strong>Armor:</strong> Fancy Hat		
