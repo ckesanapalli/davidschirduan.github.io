@@ -187,26 +187,26 @@ document.getElementById("charWeapon").innerHTML = Weapons[Math.floor(Math.random
 document.getElementById("charSlots").innerText = "Equipment: " + (charCON+10) + " Slots";
 
 var Armor = [
-  "<strong>Armor:</strong> None (11)",
-  "<strong>Armor:</strong> None (11)",
-  "<strong>Armor:</strong> None (11)",
-  "<strong>Armor:</strong> Gambeson (12, 1 slot)",
-  "<strong>Armor:</strong> Gambeson (12, 1 slot)",
-  "<strong>Armor:</strong> Gambeson (12, 1 slot)",
-  "<strong>Armor:</strong> Gambeson (12, 1 slot)",
-  "<strong>Armor:</strong> Gambeson (12, 1 slot)",
-  "<strong>Armor:</strong> Gambeson (12, 1 slot)",
-  "<strong>Armor:</strong> Gambeson (12, 1 slot)",
-  "<strong>Armor:</strong> Gambeson (12, 1 slot)",
-  "<strong>Armor:</strong> Gambeson (12, 1 slot)",
-  "<strong>Armor:</strong> Gambeson (12, 1 slot)",
-  "<strong>Armor:</strong> Gambeson (12, 1 slot)",
-  "<strong>Armor:</strong> Brigandine (13, 2 slots)",
-  "<strong>Armor:</strong> Brigandine (13, 2 slots)",
-  "<strong>Armor:</strong> Brigandine (13, 2 slots)",
-  "<strong>Armor:</strong> Brigandine (13, 2 slots)",
-  "<strong>Armor:</strong> Brigandine (13, 2 slots)",
-  "<strong>Armor:</strong> Chainmail (14, 3 slots)"
+  "<strong>Armor:</strong> 11 (No Armor)",
+  "<strong>Armor:</strong> 11 (No Armor)",
+  "<strong>Armor:</strong> 11 (No Armor)",
+  "<strong>Armor:</strong> 12 (Gambeson, 1 slot)",
+  "<strong>Armor:</strong> 12 (Gambeson, 1 slot)",
+  "<strong>Armor:</strong> 12 (Gambeson, 1 slot)",
+  "<strong>Armor:</strong> 12 (Gambeson, 1 slot)",
+  "<strong>Armor:</strong> 12 (Gambeson, 1 slot)",
+  "<strong>Armor:</strong> 12 (Gambeson, 1 slot)",
+  "<strong>Armor:</strong> 12 (Gambeson, 1 slot)",
+  "<strong>Armor:</strong> 12 (Gambeson, 1 slot)",
+  "<strong>Armor:</strong> 12 (Gambeson, 1 slot)",
+  "<strong>Armor:</strong> 12 (Gambeson, 1 slot)",
+  "<strong>Armor:</strong> 12 (Gambeson, 1 slot)",
+  "<strong>Armor:</strong> 13 (Brigandine, 2 slots)",
+  "<strong>Armor:</strong> 13 (Brigandine, 2 slots)",
+  "<strong>Armor:</strong> 13 (Brigandine, 2 slots)",
+  "<strong>Armor:</strong> 13 (Brigandine, 2 slots)",
+  "<strong>Armor:</strong> 13 (Brigandine, 2 slots)",
+  "<strong>Armor:</strong> 14 (Chainmail, 3 slots)"
 ];
 document.getElementById("charArmor").innerHTML = Armor[Math.floor(Math.random()*Armor.length)];
 
