@@ -64,7 +64,7 @@ xmlhttp.onreadystatechange = function() {
     ynn = JSON.parse(this.responseText);
   }
 };
-xmlhttp.open("GET", "/ynn.json", true);
+xmlhttp.open("GET", "ynn.json", true);
 xmlhttp.send();
 
 function goDeeper() {
