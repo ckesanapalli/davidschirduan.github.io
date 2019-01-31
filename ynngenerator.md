@@ -7,7 +7,7 @@ image: /images/ynngenerator.png
 ---
 <div class="buttonWrapper">
   <button class="btn btn-primary" onclick="buttonDeeper()">Go Deeper</button>
-  <button class="btn btn-primary" onclick="buttonDanger()">Flee Danger!</button>
+  <button class="btn btn-primary">Flee Danger!</button>
 </div>
 <p style="text-align: right;font-style: italic;"><small>Scroll down for encounters and loot tables.</small></p>
 
@@ -32,7 +32,7 @@ image: /images/ynngenerator.png
 
 <div class="buttonWrapper">
   <button class="btn btn-primary" onclick="buttonDay()">Day Event</button>
-  <button class="btn btn-primary" onclick="buttonNight()">Night Event</button>
+  <button class="btn btn-primary">Night Event</button>
 </div>
 
 <div class="container generatorCard">
@@ -41,9 +41,9 @@ image: /images/ynngenerator.png
 </div>
 
 <div class="buttonWrapper">
-  <button class="btn btn-primary" onclick="buttonBody()">Search Body</button>
-  <button class="btn btn-primary" onclick="buttonFlower()">Search Flowerbed</button>
-  <button class="btn btn-primary" onclick="buttonTreasure()">Treasure!</button>
+  <button class="btn btn-primary">Search Body</button>
+  <button class="btn btn-primary">Search Flowerbed</button>
+  <button class="btn btn-primary">Treasure!</button>
 </div>
 
 <div class="container generatorCard">
