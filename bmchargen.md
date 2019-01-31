@@ -78,9 +78,23 @@ image: /images/generatorPreview.png
 
 <script>
 var request = new XMLHttpRequest();
-request.open("GET", "https://technicalgrimoire.com/knave.json", false);
-request.send(null)
-var knave = JSON.parse(request.responseText);
+request.open('GET', '/knave.json', true);
+
+request.onload = function() {
+  if (request.status >= 200 && request.status < 400) {
+    // Success!
+    var data = JSON.parse(request.responseText);
+  } else {
+    // We reached our target server, but it returned an error
+
+  }
+};
+
+request.onerror = function() {
+  // There was a connection error of some sort
+};
+
+request.send();
 
 window.onload = generate();
 
