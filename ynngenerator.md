@@ -64,7 +64,7 @@ xmlhttp.onreadystatechange = function() {
     ynn = JSON.parse(this.responseText);
   }
 };
-xmlhttp.open("GET", "/ynn.json", true);
+xmlhttp.open("GET", "https://technicalgrimoire.com/ynn.json", true);
 xmlhttp.send();
 
 function goDeeper() {
