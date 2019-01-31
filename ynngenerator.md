@@ -55,30 +55,18 @@ image: /images/ynngenerator.png
 <small>Thanks to <a href="https://www.patreon.com/EmmyCavegirlAllen/overview/">Emmy Allen</a> for making such a beautiful world and to <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the code!</small>
 
 <script>
+var currentLayer = -1;
+var ynn;
 
-function loadJSON(path, success, error)
-{
-    var xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function()
-    {
-        if (xhr.readyState === XMLHttpRequest.DONE) {
-            if (xhr.status === 200) {
-                if (success)
-                    success(JSON.parse(xhr.responseText));
-            } else {
-                if (error)
-                    error(xhr);
-            }
-        }
-    };
-    xhr.open("GET", path, true);
-    xhr.send();
-}
-
-var ynn = loadJSON('/ynn.json',
-         function(data) { console.log(data); },
-         function(xhr) { console.error(xhr); }
-);
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    ynn = JSON.parse(this.responseText);
+    document.getElementById("demo").innerHTML = myObj.name;
+  }
+};
+xmlhttp.open("GET", "/ynn.json", true);
+xmlhttp.send();
 
 function goDeeper() {
 //Add to the list of past locations
@@ -95,7 +83,7 @@ document.getElementById("locationTitle").innerHTML = currentLayer + ". " + ynn.l
 
 document.getElementById("detailTitle").innerHTML = currentLayer + ". " + ynn.details[currentLayer].title + " <small>pg " + ynn.details[currentLayer].page + "</small>";
 
-document.getElementById("locationDesc").innerHTML = ynn.locations[currentLayer].description;
+document.getElementById("locationDesc").innerHTML = ynn2.locations[currentLayer].description;
 document.getElementById("detailDesc").innerHTML = ynn.details[currentLayer].description;
 }
 
