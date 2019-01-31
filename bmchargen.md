@@ -78,7 +78,7 @@ image: /images/generatorPreview.png
 
 <script>
 var request = new XMLHttpRequest();
-request.open("GET", "knave.json", false);
+request.open("GET", "/knave.json", false);
 request.send(null)
 var knave = JSON.parse(request.responseText);
 

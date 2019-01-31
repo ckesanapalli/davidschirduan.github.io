@@ -58,7 +58,7 @@ image: /images/ynngenerator.png
 
 var currentLayer = -1;
 var request = new XMLHttpRequest();
-request.open("GET", "ynn.json", false);
+request.open("GET", "/ynn.json", false);
 request.send(null);
 var ynn = JSON.parse(request.responseText);
 
