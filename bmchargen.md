@@ -86,7 +86,7 @@ function buttonGen() {
       generate(JSON.parse(this.responseText));
     }
   };
-  xmlhttp.open("GET", "ynn.json", true);
+  xmlhttp.open("GET", "knave.json", true);
   xmlhttp.send();
 }
 
