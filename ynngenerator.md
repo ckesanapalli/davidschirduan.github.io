@@ -62,7 +62,6 @@ var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
     ynn = JSON.parse(this.responseText);
-    document.getElementById("demo").innerHTML = myObj.name;
   }
 };
 xmlhttp.open("GET", "/ynn.json", true);
@@ -83,7 +82,7 @@ document.getElementById("locationTitle").innerHTML = currentLayer + ". " + ynn.l
 
 document.getElementById("detailTitle").innerHTML = currentLayer + ". " + ynn.details[currentLayer].title + " <small>pg " + ynn.details[currentLayer].page + "</small>";
 
-document.getElementById("locationDesc").innerHTML = ynn2.locations[currentLayer].description;
+document.getElementById("locationDesc").innerHTML = ynn.locations[currentLayer].description;
 document.getElementById("detailDesc").innerHTML = ynn.details[currentLayer].description;
 }
 
