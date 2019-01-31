@@ -80,13 +80,37 @@ image: /images/generatorPreview.png
 
 window.onload = generate();
 
+function loadJSON(path, success, error)
+{
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function()
+    {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+                if (success)
+                    success(JSON.parse(xhr.responseText));
+            } else {
+                if (error)
+                    error(xhr);
+            }
+        }
+    };
+    xhr.open("GET", path, true);
+    xhr.send();
+}
+
+var knave = loadJSON('/knave.json',
+         function(data) { console.log(data); },
+         function(xhr) { console.error(xhr); }
+);
+
 function generate() {
 
 /* ======= NAMES ======= */
 var Names = [ 
   "Dim","Ira","Lash","Vague","Flem","Ail","Toxen","Koff","Dewy","Misty","Sopp","Drip","Graydon","Agatha","Eldon","Fossil","Richter","Pearl","Gilden","Millia","Poba","Sully","Scrub","Tatter","Hugo","Larga","Jumbo","Mondo","Runt","Teena","Pinta","Wheetle","Zip","Shyan","Fidget","Jitter","August","Narsis","Braggen","Trumpet","Sharp","Brainy","Keen","Canny","Tax","Vex","Curie","Meddle","Boyle","Shrieka","Tirade","Vement","Stammer","Chichi","Bungle","Sputter","Slick","Allure","Glib","Dear","Frank","Cathy","Candid","Gab","","Lance","Scout","Rant","Grunt","Cash","Merelda","Wage","Monet","Mac","Ginny","Swallow","Swig","Richard","Patricia","Lofty","Gilden","Mark","Ruby","Spot","Trace","Buzz","Tattle","Sland","Prate","Doc","Kit","Kwak","Bones","Bane","Malvara","Malek","Nafeera","Skip","Lady","Chevron","Doyan","Hunter","Veil","Slayton","Drak","Matt","Allie","Buddy","Crony","Champ","Hera","Diana","Perseus","Wulf","Oracle","Evoka","Ovate","Rob","Frisk","Crook","Klept","Astro","Marge","Auger","Sear","Shep","Vicka","Vine","Lama"
 ];
-var randomItem = Names[Math.floor(Math.random()*Names.length)];
+var randomItem = knave.Names[Math.floor(Math.random()*knave.Names.length)];
 document.getElementById("charName").innerText = "Name: " + randomItem;
 
 /* ======= STATS ======= */

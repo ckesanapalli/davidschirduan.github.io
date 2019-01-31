@@ -56,11 +56,29 @@ image: /images/ynngenerator.png
 
 <script>
 
-var currentLayer = -1;
-var request = new XMLHttpRequest();
-request.open("GET", "https://technicalgrimoire.com/ynn.json", false);
-request.send(null);
-var ynn = JSON.parse(request.responseText);
+function loadJSON(path, success, error)
+{
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function()
+    {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+                if (success)
+                    success(JSON.parse(xhr.responseText));
+            } else {
+                if (error)
+                    error(xhr);
+            }
+        }
+    };
+    xhr.open("GET", path, true);
+    xhr.send();
+}
+
+var ynn = loadJSON('/ynn.json',
+         function(data) { console.log(data); },
+         function(xhr) { console.error(xhr); }
+);
 
 function goDeeper() {
 //Add to the list of past locations
