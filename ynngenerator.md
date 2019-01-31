@@ -58,20 +58,13 @@ image: /images/ynngenerator.png
 var currentLayer = -1;
 
 var xmlhttp = new XMLHttpRequest();
-var url = "ynn.json";
-
 xmlhttp.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
-    var myArr = JSON.parse(this.responseText);
-    myFunction(myArr);
-  }
+    var ynn = JSON.parse(this.responseText);
+    document.getElementById("locationTitle").innerHTML = currentLayer + ". " + ynn.locations[currentLayer].title + " <small>pg " + ynn.locations[currentLayer].page + "</small>";  }
 };
-xmlhttp.open("GET", url, true);
+xmlhttp.open("GET", "ynn.json", true);
 xmlhttp.send();
-
-function myFunction(arr) {
-  document.getElementById("locationTitle").innerHTML = ynn.locations[0].title;
-}
 
 function goDeeper() {
 //Add to the list of past locations
