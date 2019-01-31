@@ -9,6 +9,11 @@
 visibility: hidden;
 }*/
 
+//ynn generator
+.pastRecords {
+color:darkgrey;
+}
+
 //Bone Marshes Character Generator
 .tightSpacing {
   margin-top:5px;
@@ -20,9 +25,10 @@ visibility: hidden;
   height: 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-.characterCard {
+.generatorCard {
   border-radius: 5px;
   border: 3px currentColor;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),

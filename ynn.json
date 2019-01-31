@@ -1,0 +1,185 @@
+{
+  "locations": [
+    {
+      "title": "Manicured Lawn",
+      "page": 15,
+      "description": "Short, cropped grass, studded with daisies. Surrounded by a low brick wall over which ivy climbs. Quiet, save for distant birdsong. Nothing much here."
+    },
+    {
+      "title": "Herb garden",
+      "page": 15,
+      "description": "Neat rows of exotic herbs in raised beds, gone to seed and overflowing their allotted space into the brick paths between. 1-in-6 chance to identify a plant’s effects from pre-existing knowledge, except for characters with improved chance at survival skills, who get to use that chance instead. Otherwise, identify by trial-and error.",
+      "herbs": [
+        "Analgesic, heals 1 hp.",
+        "Hallucinogen (2d6 damage to wisdom)",
+        "Strength Tonic, +1 to damage.",
+        "Psychedelic; instantly re-memorize a spell cast today.",
+        "Re-roll last save vs poison/sickness",
+        "Paralysis, d6 turns, Save vs Poison avoids.",
+        "Vomiting for d4 rounds, no save.",
+        "Irritant, +1 to damage suffered for the next day.",
+        "Tastes really nice. Each dose worth 10 silver.",
+        "Roll for Ynnian Alterations (pg. 70)"
+      ]
+    }
+  ],
+  "details": [
+    {
+      "title": "Empty",
+      "page": 35,
+      "description": "This location is surprisingly devoid of inhabitants No insects, no birdsong. If an event would result in an encounter showing up, instead that encounter doesn’t."
+    },
+    {
+      "title": "Treasure-pile",
+      "page": 35,
+      "description": "There’s a little heap of treasure in the centre of the lawn here, glittering in the sunlight. There’s 5d10 silver in various denominations, and roll for treasure twice."
+    }
+  ],
+  "events": [
+    {
+      "description": "A sudden change in the weather wells up. Either howling winds, torrential rain, heavy snow, a thunderstorm or a rapidly-encroaching wall of fog; pick one.",
+      "encounters": 0
+    },
+    {
+      "description": "An ominous ticking can be heard from beneath the ground. Nothing happens yet. Next time an Event is rolled in this location, roll two events instead.",
+      "encounters": 0
+    },
+    {
+      "description": "A test of multiple encounters.A test of multiple encounters.A test of multiple encounters.A test of multiple encounters.A test of multiple encounters.A test of multiple encounters.A test of multiple encounters.A test of multiple encounters.A test of multiple encounters.A test of multiple encounters.A test of multiple encounters.A test of multiple encounters.A test of multiple encounters.A test of multiple encounters.",
+      "encounters": 3
+    }
+  ],
+  "dayEncounters": [
+    {
+      "title": "A Black Cat",
+      "page": 45,
+      "description": "Once a witch’s familiar. The witch is long dead, the cat remains. Can talk, is intelligent, and knows a good deal about what you might encounter.",
+      "stats": "HD 1, HP 1, Armour as unarmoured, bite (+0, 1 damage) Save as Fighter 1. <br>If it would die, instead survives through incredible luck. Can do this 8 times, the ninth death is real."
+    },
+    {
+      "title": "An Emerald Serpent",
+      "page": 45,
+      "description": "A brilliant green snake that glitters like emeralds. Venom drops from its mouth, hissing and steaming where it hits the ground.",
+      "stats": "HD 1, HP 65 Armour as chain, bite (+1, d4) Save as Fighter 1. <br>Venom is corrosive; on taking damage Save vs Poison or take 2d8 more."
+    }
+  ],
+  "nightEncounters": [{
+      "title": "A Black Cat",
+      "page": 45,
+      "description": "Once a witch’s familiar. The witch is long dead, the cat remains. Can talk, is intelligent, and knows a good deal about what you might encounter.",
+      "stats": "HD 1, HP 1, Armour as unarmoured, bite (+0, 1 damage) Save as Fighter 1. <br>If it would die, instead survives through incredible luck. Can do this 8 times, the ninth death is real."
+    }],
+  "treasure": [
+    {
+      "description": "Real-world coins worth 2d20 gold."
+    },
+    {
+      "description": "A bottle of fine wine, worth 20 gold, or enough to produce an evening of merriment."
+    }
+  ],
+  "searchBody": [
+    "Knitting needles.",
+"Spider in a matchbox.",
+"Packet of seeds.",
+"A recipe for sausages made of something exotic.",
+"Twine.",
+"A delicate glass egg.",
+"A miniature of absinthe.",
+"Bird snares.",
+"A set of pan-pipes.",
+"Paintbrushes.",
+"A signet ring.",
+"Snail shells with copper filigree.",
+"Pocket watch.",
+"Fan.",
+"Earrings made of human teeth.",
+"Playing Cards.",
+"Steel Mirror.",
+"Key. Roll d%: this is the chance that it opens a lock you try it on. Once it fits a lock, that’s the lock it was for.",
+"Padlock.",
+"D6 weird silver coins.",
+"Smoking pipe.",
+"Secateurs.",
+"Chalk and charcoal.",
+"Swiss army knife.",
+"Spectacles.",
+"Hammer and nails.",
+"Spool or copper wire.",
+"Candle.",
+"Beetle preserved in glass.",
+"Rabbit skull.",
+"Ginger Cake",
+"Saffron Rice",
+"Smoked Fish",
+"Colourful Root Vegetables",
+"Pickled Vegetables",
+"Smoked Ham",
+"Eel Pie",
+"Pickled Shellfish",
+"Salted Songbirds",
+"Smoked Sausage",
+"Peppermint Candy",
+"Fruit in Syrup",
+"Toffee",
+"Cheese",
+"Black Pudding",
+"Dried Fruit",
+"Strawberry Tarts",
+"Madeira Cake",
+"Oysters, stored in ice",
+"Cured Peacock"
+  ],
+  "searchFlowerbed": [
+"Birds nest, with eggs.",
+"Empty wine-bottles.",
+"Abandoned rake.",
+"Patch of colourful mud; bright yellow/purple/orange/white.",
+"Cast-off snake skin.",
+"Wooden doll, all rotten.",
+"Small pot of paint.",
+"Stone that glows briefly if you hit it with a hammer.",
+"2d6 human teeth.",
+"Rabbit burrow.",
+"Tiny funeral urn.",
+"Snare with a long-dead songbird in it.",
+"Patch of mint.",
+"Collection of rusty gears.",
+"Broken glass tube.",
+"Abandoned scythe.",
+"Humorously shaped root vegetable.",
+"Small bag of cement.",
+"Ash from an old campfire.",
+"Spiderweb with words written in the silk.",
+"Patch of strawberries.",
+"Felling-axe still stuck into a tree trunk that now grows around it.",
+"Dead frog skewered on a little wooden spike.",
+"Puddle that smells like champagne.",
+"Garden gnome.",
+"Mouse-sized doorway leading to a mouse-sized home.",
+"Lamp-post, fallen over and halfcovered in weeds.",
+"Discarded glove.",
+"Jam-jar full of angry bees.",
+"Abandoned spade next to a small hole.",
+"Mushrooms",
+"Fish",
+"Figs",
+"Songbirds",
+"Rabbits",
+"Songbird Eggs",
+"Cherries",
+"Marrow",
+"Pheasant",
+"Peaches",
+"Peacock Eggs",
+"Liquorice Root",
+"Quinces",
+"Tiny Puddings",
+"Pumpkins",
+"Peas",
+"Mice",
+"Sorrel",
+"Pomegranate",
+"Honey"
+  ]
+}
+
