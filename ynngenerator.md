@@ -64,6 +64,9 @@ function buttonDeeper(){
 }
 
 function buttonFlee(){
+  document.getElementById("pastLocations").innerHTML = "";
+  document.getElementById("locationTitle").innerHTML = "?. PCs fled";
+  document.getElementById("detailTitle").innerHTML = "They are lost.<br>";
   currentLayer = currentLayer + Math.floor(Math.random() * 4);
   goDeeper();
 }
@@ -72,6 +75,7 @@ function goDeeper() {
   /*increase to the next Layer*/
   var nextLocation = Math.floor(Math.random() * 20) + currentLayer;
   var nextDetail = Math.floor(Math.random() * 20) + currentLayer;
+
   /*var nextLocation = currentLayer;
   var nextDetail = currentLayer;
   Add to the list of past locations*/
@@ -157,7 +161,7 @@ function nightEvent() {
   for (i = 0; i < ynn.events[nextEvent].encounters; i++) {
     var depth20 = Math.floor(Math.random() * 20) + currentLayer;
 
-    if (depth20 >= 35) {
+    if (depth20 >= 34) {
       var depth20 = Math.floor(Math.random() * 20) + Math.floor(Math.random() * 10) + 1 + Math.floor(Math.random() * 6) - 2;
     }
 
@@ -172,7 +176,7 @@ function nightEvent() {
 }
 
 function searchBody() {
-  document.getElementById("lootBox").innerHTML = ynn.searchBody[Math.floor(Math.random() * ynn.searchFlowerbed.length)];
+  document.getElementById("lootBox").innerHTML = ynn.searchBody[Math.floor(Math.random() * ynn.searchBody.length)];
 }
 
 function searchFlowerbed() {
@@ -182,6 +186,9 @@ function searchFlowerbed() {
 function findTreasure() {
   var treasureRoll = Math.floor(Math.random() * 20) + currentLayer;
   switch (true) {
+    case (treasureRoll < 0):
+      document.getElementById("lootBox").innerHTML = ynn.treasure[0];
+    break;
     case (treasureRoll >= 34):
       document.getElementById("lootBox").innerHTML = ynn.treasure[Math.floor(Math.random() * 20) + Math.floor(Math.random() * 10) + 1 + Math.floor(Math.random() * 6) - 2] + "<br>" + ynn.treasure[Math.floor(Math.random() * 20) + Math.floor(Math.random() * 10) + 1 + Math.floor(Math.random() * 6) - 2] + "<br>" + ynn.treasure[Math.floor(Math.random() * 20) + Math.floor(Math.random() * 10) + 1 + Math.floor(Math.random() * 6) - 2];
       break;
