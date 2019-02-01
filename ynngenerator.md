@@ -5,40 +5,40 @@ permalink: ynngenerator
 published: true
 image: /images/ynngenerator.png
 ---
-<div class="buttonWrapper">
-  <button class="btn btn-primary btn-lg" onclick="buttonDeeper()">Go Deeper</button>
-  <button class="btn btn-primary btn-lg" onclick="dayEvent()">Day Event</button>
-  <button class="btn btn-primary btn-lg" onclick="nightEvent()">Night Event</button>
-  <button class="btn btn-primary btn-lg" onclick="buttonFlee()">Flee Danger!</button>
+<div class="row">
+  <div class="col-xl-3 col-md-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="buttonDeeper()">Go Deeper</button></div>
+  <div class="col-xl-3 col-md-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="dayEvent()">Day Event</button></div>
+  <div class="col-xl-3 col-md-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="nightEvent()">Night Event</button></div>
+  <div class="col-xl-3 col-md-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="buttonFlee()">Flee Danger!</button></div>
 </div>
 
-<p id="eventText"></p>
+<p class="tightSpacing" id="eventText"></p>
 
 <div class="container generatorCard">
   <div class="row pastRecords">
-    <div class="col-xl-12 col-md-12 h3 tightSpacing" id="pastLocations"></div>
+    <div class="col-xl-12 col-md-12 h4 tightSpacing" id="pastLocations"></div>
   </div>
   <div class="row">
     <div class="col-xl-6 col-md-12" style="border-right: 1px solid var(--border-color);">
-      <div class="tightSpacing h2" id="locationTitle">Gardens of Ynn</div>
+      <div class="tightSpacing h3" id="locationTitle">Gardens of Ynn</div>
       <p id="locationDesc">Ynn is a perpendicular world. It appears as a vast garden, now untended, overrun, and fallen into ruin. Once, this place was a realm of rarefied luxury, but its masters are long dead and the machinery that maintained it has fallen into disrepair.</p>
     </div>
     <div class="col-xl-6 col-md-12">
-      <div class="tightSpacing h2" id="detailTitle"><a href="https://www.drivethrurpg.com/product/237544/The-Gardens-Of-Ynn">Buy it here</a></div>
+      <div class="tightSpacing h3" id="detailTitle"><a href="https://www.drivethrurpg.com/product/237544/The-Gardens-Of-Ynn">Buy it here</a></div>
       <p id="detailDesc">Created by Emmy Allen, the book is beautifully written and criminally underpriced. After you've bought a copy of the book, you can use the buttons above to generate locations and events.</p>
     </div>
   </div>
 </div>
 
-<div class="buttonWrapper">
-  <button class="btn btn-primary btn-lg" onclick="searchBody()">Search Body</button>
-  <button class="btn btn-primary btn-lg" onclick="searchFlowerbed()">Search Flowerbed</button>
-  <button class="btn btn-primary btn-lg" onclick="findTreasure()">Treasure!</button>
+<div class="row buttonWrapper" style="margin: 12px;">
+  <div class="col-xl-3 col-md-12 buttonWrapper"><button class="btn btn-primary btn-lg" onclick="searchBody()">Search Body</button></div>
+  <div class="col-xl-6 col-md-12 buttonWrapper"><button class="btn btn-primary btn-lg" onclick="searchFlowerbed()">Search Flowerbed</button></div>
+  <div class="col-xl-3 col-md-12 buttonWrapper"><button class="btn btn-primary btn-lg" onclick="findTreasure()">Treasure!</button></div>
 </div>
 
 <div class="container generatorCard">
   <div class="row">
-    <div class="col tightSpacing h3" id="lootBox">Click the buttons to generate some loot.</div>
+    <div class="col tightSpacing h4" id="lootBox">Click the buttons to generate some loot.</div>
   </div>
 </div>
 
@@ -83,32 +83,6 @@ function goDeeper() {
   document.getElementById("eventText").innerHTML = "";
 
   switch (true) {
-    /*Herb garden*/
-    case (nextLocation == 1):
-      var herbs = "<strong>Available Herbs:</strong><br>";
-      var numHerbs = Math.floor(Math.random() * 6) + 1 + currentLayer;
-      for (i = 0; i < numHerbs; i++) {
-        herbs = herbs + "• " + ynn.locations[nextLocation].herbs[Math.floor(Math.random() * ynn.locations[nextLocation].herbs.length)] + " (" + (Math.floor(Math.random() * 6) + 1 + currentLayer) + " Uses)<br>";
-      }
-      document.getElementById("locationDesc").innerHTML = ynn.locations[nextLocation].description +
-        "<br>" + herbs;
-      break;
-    case (nextLocation == 4):
-      var effects = "<strong>Three random effects of drinking from the pools:</strong><br>";
-      for (i = 0; i < 3; i++) {
-        effects = effects + "• " + ynn.locations[nextLocation].effects[Math.floor(Math.random() * ynn.locations[nextLocation].effects.length)] + "<br>";
-      }
-      document.getElementById("locationDesc").innerHTML = ynn.locations[nextLocation].description +
-        "<br>" + effects;
-      break;
-    case (nextLocation == 7):
-      var houses = "<strong>Five random contents:</strong><br>";
-      for (i = 0; i < 5; i++) {
-        houses = houses + "• " + ynn.locations[nextLocation].houses[Math.floor(Math.random() * ynn.locations[nextLocation].houses.length)] + "<br>";
-      }
-      document.getElementById("locationDesc").innerHTML = ynn.locations[nextLocation].description +
-        "<br>" + houses;
-      break;
     case (nextLocation >= 34):
       nextLocation = 34;
       document.getElementById("locationDesc").innerHTML = ynn.locations[nextLocation].description;

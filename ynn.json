@@ -7,19 +7,7 @@
     {
       "title": "Herb garden",
       "page": 15,
-      "description": "Neat rows of exotic herbs in raised beds, gone to seed and overflowing their allotted space into the brick paths between. 1-in-6 chance to identify a plant’s effects from pre-existing knowledge, except for characters with improved chance at survival skills, who get to use that chance instead. Otherwise, identify by trial and error.",
-      "herbs": [
-        "Analgesic, heals 1 hp.",
-        "Hallucinogen (2d6 damage to wisdom)",
-        "Strength Tonic, +1 to damage.",
-        "Psychedelic; instantly re-memorize a spell cast today.",
-        "Re-roll last save vs poison/sickness",
-        "Paralysis, d6 turns, Save vs Poison avoids.",
-        "Vomiting for d4 rounds, no save.",
-        "Irritant, +1 to damage suffered for the next day.",
-        "Tastes really nice. Each dose worth 10 silver.",
-        "Roll for Ynnian Alterations (pg. 70)"
-      ]
+      "description": "Neat rows of exotic herbs in raised beds, gone to seed and overflowing their allotted space into the brick paths between. D6+depth herbs with useful properties growing here. D6+depth doses of each herb can be harvested.<br><strong>Roll d10 for what a given herb does:</strong><br>1. Analgesic, heals 1 hp.<br>2. Hallucinogen (2d6 damage to wisdom)<br>3. Strength Tonic, +1 to damage.<br>4. Psychedelic; instantly re-memorize a spell cast today.<br>5. Re-roll last save vs poison/sickness<br>6. Paralysis, d6 turns, Save vs Poison avoids.<br>7. Vomiting for d4 rounds, no save.<br>8. Irritant, +1 to damage suffered for the next day.<br>9. Tastes really nice. Each dose worth 10 silver.<br>10. Roll for Ynnian Alterations.<br><i>1-in-6 chance to identify a plant’s effects from pre-existing knowledge, except for characters with improved chance at survival skills, who get to use that chance instead. Otherwise, identify by trial-and- error.</i>"
     },
     {
       "title": "Vine Trellis",

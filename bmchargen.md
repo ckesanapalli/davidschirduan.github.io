@@ -30,14 +30,14 @@ image: /images/generatorPreview.png
     You used to be a sea captain<br> but your crew mutinied and left.
   </p>
   <div class="row">
-		<div class="col-xl-3  col-md-6 tightSpacing" id="charPhysique">Flamboyant</div>
-		<div class="col-xl-3  col-md-6 tightSpacing" id="charSkin">Flamboyant</div>
-		<div class="col-xl-3  col-md-6 tightSpacing" id="charFace">Flamboyant</div>
-		<div class="col-xl-3  col-md-6 tightSpacing" id="charHair">Flamboyant</div>
-		<div class="col-xl-3  col-md-6 tightSpacing" id="charSpeech">Flamboyant</div>
-		<div class="col-xl-3  col-md-6 tightSpacing" id="charClothing">Flamboyant</div>
-		<div class="col-xl-3  col-md-6 tightSpacing" id="charVirtue">Flamboyant</div>
-		<div class="col-xl-3  col-md-6 tightSpacing" id="charVice">Flamboyant</div>
+		<div class="col-xl-3 col-md-6 tightSpacing" id="charPhysique">Flamboyant</div>
+		<div class="col-xl-3 col-md-6 tightSpacing" id="charSkin">Flamboyant</div>
+		<div class="col-xl-3 col-md-6 tightSpacing" id="charFace">Flamboyant</div>
+		<div class="col-xl-3 col-md-6 tightSpacing" id="charHair">Flamboyant</div>
+		<div class="col-xl-3 col-md-6 tightSpacing" id="charSpeech">Flamboyant</div>
+		<div class="col-xl-3 col-md-6 tightSpacing" id="charClothing">Flamboyant</div>
+		<div class="col-xl-3 col-md-6 tightSpacing" id="charVirtue">Flamboyant</div>
+		<div class="col-xl-3 col-md-6 tightSpacing" id="charVice">Flamboyant</div>
   </div>
   <div class="row">
     <div class="col-xl-6 col-md-9" style="border-right: 1px solid var(--border-color);">
