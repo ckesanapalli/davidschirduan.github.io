@@ -30,7 +30,7 @@ image: /images/ynngenerator.png
   </div>
 </div>
 
-<div class="row buttonWrapper" style="margin: 12px;">
+<div class="row">
   <div class="col-xl-3 col-md-12 buttonWrapper"><button class="btn btn-primary btn-lg" onclick="searchBody()">Search Body</button></div>
   <div class="col-xl-6 col-md-12 buttonWrapper"><button class="btn btn-primary btn-lg" onclick="searchFlowerbed()">Search Flowerbed</button></div>
   <div class="col-xl-3 col-md-12 buttonWrapper"><button class="btn btn-primary btn-lg" onclick="findTreasure()">Treasure!</button></div>
