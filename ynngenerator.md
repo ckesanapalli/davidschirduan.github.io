@@ -60,14 +60,13 @@ xmlhttp.send();
 
 function buttonDeeper(){
   currentLayer++;
+  document.getElementById("pastLocations").innerHTML = document.getElementById("pastLocations").innerHTML + document.getElementById("locationTitle").innerHTML + ", " + document.getElementById("detailTitle").innerHTML + "<br>";
   goDeeper();
 }
 
 function buttonFlee(){
-  document.getElementById("pastLocations").innerHTML = "";
-  document.getElementById("locationTitle").innerHTML = "?. PCs fled";
-  document.getElementById("detailTitle").innerHTML = "They are lost.<br>";
   currentLayer = currentLayer + Math.floor(Math.random() * 4);
+  document.getElementById("pastLocations").innerHTML = document.getElementById("pastLocations").innerHTML + document.getElementById("locationTitle").innerHTML + ", " + document.getElementById("detailTitle").innerHTML + "<br>?. The PCs fled, they are lost<br>";
   goDeeper();
 }
 
@@ -79,7 +78,7 @@ function goDeeper() {
   /*var nextLocation = currentLayer;
   var nextDetail = currentLayer;
   Add to the list of past locations*/
-  document.getElementById("pastLocations").innerHTML = document.getElementById("pastLocations").innerHTML + document.getElementById("locationTitle").innerHTML + ", " + document.getElementById("detailTitle").innerHTML + "<br>";
+
 
   document.getElementById("eventText").innerHTML = "";
 
