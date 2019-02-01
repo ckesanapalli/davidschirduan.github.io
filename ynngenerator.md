@@ -20,14 +20,14 @@ image: /images/ynngenerator.png
   </div>
   <div class="row">
     <div class="col-xl-6 col-md-12" style="border-right: 1px solid var(--border-color);">
-    <div class="tightSpacing h2" id="locationTitle">Gardens of Ynn</div>
-    <p id="locationDesc">Ynn is a perpendicular world. It appears as a vast garden, now untended, overrun, and fallen into ruin. Once, this place was a realm of rarefied luxury, but its masters are long dead and the machinery that maintained it has fallen into disrepair.</p>
+      <div class="tightSpacing h2" id="locationTitle">Gardens of Ynn</div>
+      <p id="locationDesc">Ynn is a perpendicular world. It appears as a vast garden, now untended, overrun, and fallen into ruin. Once, this place was a realm of rarefied luxury, but its masters are long dead and the machinery that maintained it has fallen into disrepair.</p>
     </div>
     <div class="col-xl-6 col-md-12">
-    <div class="tightSpacing h2" id="detailTitle"><a href="https://www.drivethrurpg.com/product/237544/The-Gardens-Of-Ynn">Buy it here</a></div>
-    <p id="detailDesc">Created by Emmy Allen, the book is beautifully written and criminally underpriced. After you've bought a copy of the book, you can use the buttons above to generate locations and events.</p>
+      <div class="tightSpacing h2" id="detailTitle"><a href="https://www.drivethrurpg.com/product/237544/The-Gardens-Of-Ynn">Buy it here</a></div>
+      <p id="detailDesc">Created by Emmy Allen, the book is beautifully written and criminally underpriced. After you've bought a copy of the book, you can use the buttons above to generate locations and events.</p>
     </div>
-	</div>
+  </div>
 </div>
 
 <div class="buttonWrapper">
@@ -45,6 +45,7 @@ image: /images/ynngenerator.png
 <small>Thanks to <a href="https://www.patreon.com/EmmyCavegirlAllen/overview/">Emmy Allen</a> for making such a beautiful world and to <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the code!</small>
 
 <script>
+
 var currentLayer = -1;
 
 function buttonDeeper(currentLayer) {
@@ -60,6 +61,28 @@ function buttonDeeper(currentLayer) {
   xmlhttp.send();
 }
 
+function buttonDay(currentLayer) {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function () {
+    if (this.readyState == 4 && this.status == 200) {
+      dayEvent(currentLayer, JSON.parse(this.responseText));
+    }
+  };
+  xmlhttp.open("GET", "ynn.json", true);
+  xmlhttp.send();
+}
+
+function buttonNight(currentLayer) {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function () {
+    if (this.readyState == 4 && this.status == 200) {
+      nightEvent(JSON.parse(this.responseText));
+    }
+  };
+  xmlhttp.open("GET", "ynn.json", true);
+  xmlhttp.send();
+}
+
 function buttonFlee(currentLayer) {
   currentLayer = currentLayer + Math.floor(Math.random() * 4);
 
@@ -67,6 +90,39 @@ function buttonFlee(currentLayer) {
   xmlhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
       goDeeper(currentLayer, JSON.parse(this.responseText));
+    }
+  };
+  xmlhttp.open("GET", "ynn.json", true);
+  xmlhttp.send();
+}
+
+function buttonBody(currentLayer) {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function () {
+    if (this.readyState == 4 && this.status == 200) {
+      searchBody(currentLayer, JSON.parse(this.responseText));
+    }
+  };
+  xmlhttp.open("GET", "ynn.json", true);
+  xmlhttp.send();
+}
+
+function buttonFlowerbed(currentLayer) {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function () {
+    if (this.readyState == 4 && this.status == 200) {
+      searchFlowerbed(currentLayer, JSON.parse(this.responseText));
+    }
+  };
+  xmlhttp.open("GET", "ynn.json", true);
+  xmlhttp.send();
+}
+
+function buttonTreasure(currentLayer) {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function () {
+    if (this.readyState == 4 && this.status == 200) {
+      findTreasure(currentLayer, JSON.parse(this.responseText));
     }
   };
   xmlhttp.open("GET", "ynn.json", true);
@@ -89,32 +145,32 @@ function goDeeper(currentLayer, ynn) {
     case (nextLocation == 1):
       var herbs = "<strong>Available Herbs:</strong><br>";
       var numHerbs = Math.floor(Math.random() * 6) + 1 + currentLayer;
-      for (i = 0; i < numHerbs; i++){
+      for (i = 0; i < numHerbs; i++) {
         herbs = herbs + "• " + ynn.locations[nextLocation].herbs[Math.floor(Math.random() * ynn.locations[nextLocation].herbs.length)] + " (" + (Math.floor(Math.random() * 6) + 1 + currentLayer) + " Uses)<br>";
       }
       document.getElementById("locationDesc").innerHTML = ynn.locations[nextLocation].description +
-         "<br>" + herbs;
+        "<br>" + herbs;
       break;
     case (nextLocation == 4):
       var effects = "<strong>Three random effects of drinking from the pools:</strong><br>";
-      for (i = 0; i < 3; i++){
+      for (i = 0; i < 3; i++) {
         effects = effects + "• " + ynn.locations[nextLocation].effects[Math.floor(Math.random() * ynn.locations[nextLocation].effects.length)] + "<br>";
       }
       document.getElementById("locationDesc").innerHTML = ynn.locations[nextLocation].description +
         "<br>" + effects;
-    break;
+      break;
     case (nextLocation == 7):
       var houses = "<strong>Five random contents:</strong><br>";
-      for (i = 0; i < 5; i++){
+      for (i = 0; i < 5; i++) {
         houses = houses + "• " + ynn.locations[nextLocation].houses[Math.floor(Math.random() * ynn.locations[nextLocation].houses.length)] + "<br>";
       }
       document.getElementById("locationDesc").innerHTML = ynn.locations[nextLocation].description +
         "<br>" + houses;
-    break;
+      break;
     case (nextLocation >= 34):
       nextLocation = 34;
       document.getElementById("locationDesc").innerHTML = ynn.locations[nextLocation].description;
-    break;
+      break;
     default:
       document.getElementById("locationDesc").innerHTML = ynn.locations[nextLocation].description;
   }
@@ -123,7 +179,7 @@ function goDeeper(currentLayer, ynn) {
     case (nextDetail >= 34):
       nextDetail = 34;
       document.getElementById("locationDesc").innerHTML = ynn.details[nextDetail].description;
-    break;
+      break;
     default:
       document.getElementById("detailDesc").innerHTML = ynn.details[nextDetail].description;
   }
@@ -132,16 +188,7 @@ function goDeeper(currentLayer, ynn) {
   document.getElementById("detailTitle").innerHTML = ynn.details[nextDetail].title + " <small>pg " + ynn.details[nextDetail].page + "</small>";
 }
 
-function buttonDay(currentLayer) {
-  var xmlhttp = new XMLHttpRequest();
-  xmlhttp.onreadystatechange = function () {
-    if (this.readyState == 4 && this.status == 200) {
-      dayEvent(currentLayer, JSON.parse(this.responseText));
-    }
-  };
-  xmlhttp.open("GET", "ynn.json", true);
-  xmlhttp.send();
-}
+
 
 function dayEvent(currentLayer, ynn) {
   var nextEvent = Math.floor(Math.random() * ynn.events.length);
@@ -151,7 +198,7 @@ function dayEvent(currentLayer, ynn) {
   for (i = 0; i < ynn.events[nextEvent].encounters; i++) {
     var depth20 = Math.floor(Math.random() * 20) + 1 + currentLayer;
 
-    if (depth20 >= 35){
+    if (depth20 >= 35) {
       var depth20 = Math.floor(Math.random() * 20) + 1 + Math.floor(Math.random() * 10) + 1 + Math.floor(Math.random() * 6) - 2;
     }
 
@@ -165,16 +212,7 @@ function dayEvent(currentLayer, ynn) {
   document.getElementById("eventText").innerHTML = "<hr class=\"tightSpacing\"><h3  class=\"tightSpacing\">Day Event</h3>" + eventDescription + encounters;
 }
 
-function buttonNight(currentLayer) {
-  var xmlhttp = new XMLHttpRequest();
-  xmlhttp.onreadystatechange = function () {
-    if (this.readyState == 4 && this.status == 200) {
-      nightEvent(JSON.parse(this.responseText));
-    }
-  };
-  xmlhttp.open("GET", "ynn.json", true);
-  xmlhttp.send();
-}
+
 
 function nightEvent(currentLayer, ynn) {
   var nextEvent = Math.floor(Math.random() * ynn.events.length);
@@ -184,7 +222,7 @@ function nightEvent(currentLayer, ynn) {
   for (i = 0; i < ynn.events[nextEvent].encounters; i++) {
     var depth20 = Math.floor(Math.random() * 20) + 1 + currentLayer;
 
-    if (depth20 >= 35){
+    if (depth20 >= 35) {
       var depth20 = Math.floor(Math.random() * 20) + 1 + Math.floor(Math.random() * 10) + 1 + Math.floor(Math.random() * 6) - 2;
     }
 
@@ -198,55 +236,25 @@ function nightEvent(currentLayer, ynn) {
   document.getElementById("eventText").innerHTML = "<hr class=\"tightSpacing\"><h3  class=\"tightSpacing\">Night Event</h3>" + eventDescription + encounters;
 }
 
-function buttonBody(currentLayer) {
-  var xmlhttp = new XMLHttpRequest();
-  xmlhttp.onreadystatechange = function () {
-    if (this.readyState == 4 && this.status == 200) {
-      searchBody(currentLayer, JSON.parse(this.responseText));
-    }
-  };
-  xmlhttp.open("GET", "ynn.json", true);
-  xmlhttp.send();
-}
+
 
 function searchBody(currentLayer, ynn) {
   document.getElementById("lootBox").innerHTML = ynn.searchBody[Math.floor(Math.random() * ynn.searchFlowerbed.length)];
-}
-
-function buttonFlowerbed(currentLayer) {
-  var xmlhttp = new XMLHttpRequest();
-  xmlhttp.onreadystatechange = function () {
-    if (this.readyState == 4 && this.status == 200) {
-      searchFlowerbed(currentLayer, JSON.parse(this.responseText));
-    }
-  };
-  xmlhttp.open("GET", "ynn.json", true);
-  xmlhttp.send();
 }
 
 function searchFlowerbed(currentLayer, ynn) {
   document.getElementById("lootBox").innerHTML = ynn.searchFlowerbed[Math.floor(Math.random() * ynn.searchFlowerbed.length)];
 }
 
-function buttonTreasure(currentLayer) {
-  var xmlhttp = new XMLHttpRequest();
-  xmlhttp.onreadystatechange = function () {
-    if (this.readyState == 4 && this.status == 200) {
-      findTreasure(currentLayer, JSON.parse(this.responseText));
-    }
-  };
-  xmlhttp.open("GET", "ynn.json", true);
-  xmlhttp.send();
-}
-
 function findTreasure(currentLayer, ynn) {
   var treasureRoll = Math.floor(Math.random() * 20) + 1 + currentLayer;
   switch (true) {
-  case (treasureRoll >= 35):
-    document.getElementById("lootBox").innerHTML = ynn.treasure[Math.floor(Math.random() * 20) + 1 + Math.floor(Math.random() * 10) + 1 + Math.floor(Math.random() * 6) - 2] + "<br>" + ynn.treasure[Math.floor(Math.random() * 20) + 1 + Math.floor(Math.random() * 10) + 1 + Math.floor(Math.random() * 6) - 2] + "<br>" + ynn.treasure[Math.floor(Math.random() * 20) + 1 + Math.floor(Math.random() * 10) + 1 + Math.floor(Math.random() * 6) - 2];
-  break;
-  default:
-    document.getElementById("lootBox").innerHTML = ynn.treasure[treasureRoll];
+    case (treasureRoll >= 35):
+      document.getElementById("lootBox").innerHTML = ynn.treasure[Math.floor(Math.random() * 20) + 1 + Math.floor(Math.random() * 10) + 1 + Math.floor(Math.random() * 6) - 2] + "<br>" + ynn.treasure[Math.floor(Math.random() * 20) + 1 + Math.floor(Math.random() * 10) + 1 + Math.floor(Math.random() * 6) - 2] + "<br>" + ynn.treasure[Math.floor(Math.random() * 20) + 1 + Math.floor(Math.random() * 10) + 1 + Math.floor(Math.random() * 6) - 2];
+      break;
+    default:
+      document.getElementById("lootBox").innerHTML = ynn.treasure[treasureRoll];
   }
 }
+
 </script>
