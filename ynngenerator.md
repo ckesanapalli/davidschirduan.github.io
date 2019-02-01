@@ -6,24 +6,24 @@ published: true
 image: /images/ynngenerator.png
 ---
 <div class="row">
-  <div class="col-xl-3 col-md-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="buttonDeeper()">Go Deeper</button></div>
-  <div class="col-xl-3 col-md-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="dayEvent()">Day Event</button></div>
-  <div class="col-xl-3 col-md-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="nightEvent()">Night Event</button></div>
-  <div class="col-xl-3 col-md-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="buttonFlee()">Flee Danger!</button></div>
+  <div class="col-lg-3 col-md-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="buttonDeeper()">Go Deeper</button></div>
+  <div class="col-lg-3 col-md-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="buttonFlee()">Flee Danger!</button></div>
+  <div class="col-lg-3 col-md-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="dayEvent()">Day Event</button></div>
+  <div class="col-lg-3 col-md-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="nightEvent()">Night Event</button></div>
 </div>
 
 <p class="tightSpacing" id="eventText"></p>
 
-<div class="container generatorCard">
+<div class="container generatorCard" style="margin-bottom: 30px;">
   <div class="row pastRecords">
-    <div class="col-xl-12 col-md-12 h4 tightSpacing" id="pastLocations"></div>
+    <div class="col-lg-12 h4 tightSpacing" id="pastLocations"></div>
   </div>
   <div class="row">
-    <div class="col-xl-6 col-md-12" style="border-right: 1px solid var(--border-color);">
+    <div class="col-lg-6" style="border-right: 1px solid var(--border-color);">
       <div class="tightSpacing h3" id="locationTitle">Gardens of Ynn</div>
       <p id="locationDesc">Ynn is a perpendicular world. It appears as a vast garden, now untended, overrun, and fallen into ruin. Once, this place was a realm of rarefied luxury, but its masters are long dead and the machinery that maintained it has fallen into disrepair.</p>
     </div>
-    <div class="col-xl-6 col-md-12">
+    <div class="col-lg-6">
       <div class="tightSpacing h3" id="detailTitle"><a href="https://www.drivethrurpg.com/product/237544/The-Gardens-Of-Ynn">Buy it here</a></div>
       <p id="detailDesc">Created by Emmy Allen, the book is beautifully written and criminally underpriced. After you've bought a copy of the book, you can use the buttons above to generate locations and events.</p>
     </div>
@@ -31,9 +31,9 @@ image: /images/ynngenerator.png
 </div>
 
 <div class="row">
-  <div class="col-xl-3 col-md-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="searchBody()">Search Body</button></div>
-  <div class="col-xl-6 col-md-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="searchFlowerbed()">Search Flowerbed</button></div>
-  <div class="col-xl-3 col-md-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="findTreasure()">Treasure!</button></div>
+  <div class="col-lg-3 col-md-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="searchBody()">Search Body</button></div>
+  <div class="col-lg-6 col-md-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="searchFlowerbed()">Search Flowerbed</button></div>
+  <div class="col-lg-3 col-md-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="findTreasure()">Treasure!</button></div>
 </div>
 
 <div class="container generatorCard">
