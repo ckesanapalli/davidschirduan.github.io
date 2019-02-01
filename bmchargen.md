@@ -9,7 +9,7 @@ image: /images/generatorPreview.png
 <p>A <a href="/bone-marshes">Bone Marshes</a> character generator for <a href="https://www.drivethrurpg.com/product/250888/Knave">Knave</a> and other OSR games.</p>
 
 <div class="buttonWrapper">
-  <button class="btn btn-primary" onclick="buttonGen()">Generate Another Character</button>
+  <button class="btn btn-primary" onclick="generate()">Generate Another Character</button>
 </div>
 
 <div class="container generatorCard">
@@ -77,20 +77,18 @@ image: /images/generatorPreview.png
 <small>Thanks to <a href="http://questingblog.com/">Ben Milton</a> for making an incredible RPG and to <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the code! For the curious I'll list some of the house-rules that Bone Marshes uses. If HP is less than 5, set it equal to 5. Renames copper to gold, just for convenience and familiarity. PCs start with equipment AND 2d6x10 gold. PCs start with a random spellbook. PCs can fit two rations per slot, to facilitate more exploration.</small>
 
 <script>
-window.onload = buttonGen();
+var knave;
 
-function buttonGen() {
-  var xmlhttp = new XMLHttpRequest();
-  xmlhttp.onreadystatechange = function () {
-    if (this.readyState == 4 && this.status == 200) {
-      generate(JSON.parse(this.responseText));
-    }
-  };
-  xmlhttp.open("GET", "knave.json", true);
-  xmlhttp.send();
-}
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    knave = JSON.parse(this.responseText);
+  }
+};
+xmlhttp.open("GET", "/knave.json", true);
+xmlhttp.send(); 
 
-function generate(knave) {
+function generate() {
   /* ======= NAMES ======= */
   document.getElementById("charName").innerText = "Name: " + knave.Names[Math.floor(Math.random() * knave.Names.length)];
 
@@ -170,4 +168,8 @@ function generate(knave) {
     knave.ExtraArmor[Math.floor(Math.random() * knave.ExtraArmor.length)] +
     "</li><li>Spellbook - " + knave.Spells[Math.floor(Math.random() * knave.Spells.length)];
 }
+
+  document.getElementsByTagName('hy-push-state')[0].addEventListener('hy-push-state-load', function() {
+    generate();
+  });
 </script>

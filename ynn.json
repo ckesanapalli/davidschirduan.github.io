@@ -20,141 +20,200 @@
         "Tastes really nice. Each dose worth 10 silver.",
         "Roll for Ynnian Alterations (pg. 70)"
       ]
-    }, {
+    },
+    {
       "title": "Vine Trellis",
       "page": 15,
       "description": "Steel frameworks hold up a tangle of overgrown vines, producing dappled shade beneath them. Hiding is easy here (double chance). The vines produce deep blue fruit that can be fermented like grapes, producing a liquor that induces psychedelic visions."
-    }, {
+    },
+    {
       "title": "Orchard",
       "page": 15,
       "description": "Fruit trees spaced out every few yards, coppiced so their branches start five feet above the ground. Trunks now gnarled and grizzled with age, branches extending into a tangled canopy that ends fifty feet up. Fruit no longer harvest drop to the floor, where they rot and ferment. The place stinks of alcohol.Just breathing here is intoxicating, on entering Save vs Poison; on a failure 1 damage each turn you remain. Fruit still on the branch is still perfectly edible."
-    }, {
+    },
+    {
       "title": "Ponds",
       "page": 15,
       "description": "Ornamental ponds, their surfaces covered in floating lilies. Huge drifting fish like bright orange and pink carp and catfish beneath the surface. Rushes and cat-tails grow here in abundance. There’s as many ponds here as the locations depth, plus 1.",
       "effects": [
-        "Gone foul. 1 damage.", "Invigorating. Tastes tingly, like mint. Heal 1.", "Intoxicating. -1 to all mental rolls, +1 to all physical.", "Just water. No effect.", "Sweet tasting. No actual effect.", "Bitter tasting. No actual effect.", "Slightly fizzy, like champagne. -1 to fall damage for the next turn.", "Tiny parasites. Tastes salty and organic. Save vs Poison or spend the next turn vomiting.", "Corrosive. Tastes spicy. You don’t have to swallow, but if you do, d4 damage.", "Enchanted.RollforYnnianAlterations"
+        "Gone foul. 1 damage.",
+        "Invigorating. Tastes tingly, like mint. Heal 1.",
+        "Intoxicating. -1 to all mental rolls, +1 to all physical.",
+        "Just water. No effect.",
+        "Sweet tasting. No actual effect.",
+        "Bitter tasting. No actual effect.",
+        "Slightly fizzy, like champagne. -1 to fall damage for the next turn.",
+        "Tiny parasites. Tastes salty and organic. Save vs Poison or spend the next turn vomiting.",
+        "Corrosive. Tastes spicy. You don’t have to swallow, but if you do, d4 damage.",
+        "Enchanted.RollforYnnianAlterations"
       ]
-    }, {
+    },
+    {
       "title": "Rose Garden",
       "page": 16,
       "description": "Roses grown in neat beds, in huge varieties. Now overgrown, tangled masses of thorns dotted with brilliantly-coloured exotic roses. Movement here is half speed due to the thorns. Alternatively, if you don’ t care about getting scratched up, move at full speed for a turn(d8 damage) or a round(1 damage). Only one rose grows here that’s pure black. Eat it, and you get + 1 HP and black rose-petal-patterns like tattoos, permanently. It’s visible at the centre of the rose garden, but reaching it takes d6 damage with no clear route that avoids getting scratched up."
-    }, {
+    },
+    {
       "title": "Gazebo",
       "page": 16,
       "description": "A jolly little wooden pavilion. Bright paint faded and peeling. Within, a few wicker chairs and manky cushions. Cobwebs, perhaps. Knickknacks such as tea-sets, decks of cards, opium pipes, worth d10+depth gold, plus roll for treasure. A safe place to camp at night; so long as there’ s a flame within the Gazebo(from a candle, lantern or campfire), no monsters will attack those within."
-    }, {
+    },
+    {
       "title": "Hothouses",
       "page": 17,
       "description": "Glass buildings that housed tropical plants. Now the window panes are cracked and broken, and the plants within either died off in the unsympathetic climate or overgrowing the place. Regardless of the weather outside, it’s warm, dry and pleasant within. To generate the map, drop a small handful of dice onto some paper. Where a dice lands, draw a hothouse.The cross-section of dice is the floorplan of the glasshouse. Each corner on the upper face points to a doorway.",
       "houses": [
-        "Rare plants worth d4+depth gold", "Nothing of note.", "Plants with medicinal properties. D6 doses, each heals 1 hp.", "Fruit you can eat safely.", "Poisonous plants. Ingesting or injection causes 2d6 damage. D6 doses.", "Tables and chairs, now rusted over.", "D4+1 pitcher plant. Can’t move from the spot. Armour as leather. 3 HD, 10HP, attacks d6 times a round (+3, d6), saves as fighter 3, immune to all the stuff you’d expect plants to be immune to.", "No plants at all.", "Digestive green slime growing over the ceiling. Make a sudden or loud noise and some drops on you (treat as an attack, to hit, d6 damage). Be stealthy and you can see how every little noise causes it to ripple in response.", "Ornamental gold birdcages.", "Horrible spores. Breathing them in results in 1 damage per turn. No saves. Damage continues at the same rate once you leave, but roll a Save vs Poison. If you pass, it stops after as many turns as the dice roll. If you fail, it continues indefinitely. If you die from the spores, your corpse sprouts delicate flowers that spew more of the spores into their environment.", "Under the greenery, human skeletons with creepers growing out of their rib-cages. Reanimate when approached. Plant-skeletons have AC as leather, 1 HD, 4 HP, claws (+0, d6), saves as fighter 1. Undead. Those killed reanimate as plant-skeletons a turn later.", "The glasshouse is sealed from the outside, the doors boarded over. Inside is dense with greenery trying to get out. If opened up, a sundew emerges each round. Stats as pitcher plants, but the plants aren’t immobile. Furthermore, anybody killed by the plant has a seed planted in them; a turn later, a new sundew rips free of their flesh.", "The glasshouse is sealed from the outside, the doors boarded over. Inside is dense with greenery trying to get out. If opened up, a sundew emerges each round. Stats as pitcher plants, but the plants aren’t immobile. Furthermore, anybody killed by the plant has a seed planted in them; a turn later, a new sundew rips free of their flesh.", "The glasshouse is sealed from the outside, the doors boarded over. Inside is dense with greenery trying to get out. If opened up, a sundew emerges each round. Stats as pitcher plants, but the plants aren’t immobile. Furthermore, anybody killed by the plant has a seed planted in them; a turn later, a new sundew rips free of their flesh.", "The glasshouse is sealed from the outside, the doors boarded over. Inside is dense with greenery trying to get out. If opened up, a sundew emerges each round. Stats as pitcher plants, but the plants aren’t immobile. Furthermore, anybody killed by the plant has a seed planted in them; a turn later, a new sundew rips free of their flesh.", "The glasshouse is sealed from the outside, the doors boarded over. Inside is dense with greenery trying to get out. If opened up, a sundew emerges each round. Stats as pitcher plants, but the plants aren’t immobile. Furthermore, anybody killed by the plant has a seed planted in them; a turn later, a new sundew rips free of their flesh.", "The glasshouse is sealed from the outside, the doors boarded over. Inside is dense with greenery trying to get out. If opened up, a sundew emerges each round. Stats as pitcher plants, but the plants aren’t immobile. Furthermore, anybody killed by the plant has a seed planted in them; a turn later, a new sundew rips free of their flesh."
+        "Rare plants worth d4+depth gold",
+        "Nothing of note.",
+        "Plants with medicinal properties. D6 doses, each heals 1 hp.",
+        "Fruit you can eat safely.",
+        "Poisonous plants. Ingesting or injection causes 2d6 damage. D6 doses.",
+        "Tables and chairs, now rusted over.",
+        "D4+1 pitcher plant. Can’t move from the spot. Armour as leather. 3 HD, 10HP, attacks d6 times a round (+3, d6), saves as fighter 3, immune to all the stuff you’d expect plants to be immune to.",
+        "No plants at all.",
+        "Digestive green slime growing over the ceiling. Make a sudden or loud noise and some drops on you (treat as an attack, to hit, d6 damage). Be stealthy and you can see how every little noise causes it to ripple in response.",
+        "Ornamental gold birdcages.",
+        "Horrible spores. Breathing them in results in 1 damage per turn. No saves. Damage continues at the same rate once you leave, but roll a Save vs Poison. If you pass, it stops after as many turns as the dice roll. If you fail, it continues indefinitely. If you die from the spores, your corpse sprouts delicate flowers that spew more of the spores into their environment.",
+        "Under the greenery, human skeletons with creepers growing out of their rib-cages. Reanimate when approached. Plant-skeletons have AC as leather, 1 HD, 4 HP, claws (+0, d6), saves as fighter 1. Undead. Those killed reanimate as plant-skeletons a turn later.",
+        "The glasshouse is sealed from the outside, the doors boarded over. Inside is dense with greenery trying to get out. If opened up, a sundew emerges each round. Stats as pitcher plants, but the plants aren’t immobile. Furthermore, anybody killed by the plant has a seed planted in them; a turn later, a new sundew rips free of their flesh.",
+        "The glasshouse is sealed from the outside, the doors boarded over. Inside is dense with greenery trying to get out. If opened up, a sundew emerges each round. Stats as pitcher plants, but the plants aren’t immobile. Furthermore, anybody killed by the plant has a seed planted in them; a turn later, a new sundew rips free of their flesh.",
+        "The glasshouse is sealed from the outside, the doors boarded over. Inside is dense with greenery trying to get out. If opened up, a sundew emerges each round. Stats as pitcher plants, but the plants aren’t immobile. Furthermore, anybody killed by the plant has a seed planted in them; a turn later, a new sundew rips free of their flesh.",
+        "The glasshouse is sealed from the outside, the doors boarded over. Inside is dense with greenery trying to get out. If opened up, a sundew emerges each round. Stats as pitcher plants, but the plants aren’t immobile. Furthermore, anybody killed by the plant has a seed planted in them; a turn later, a new sundew rips free of their flesh.",
+        "The glasshouse is sealed from the outside, the doors boarded over. Inside is dense with greenery trying to get out. If opened up, a sundew emerges each round. Stats as pitcher plants, but the plants aren’t immobile. Furthermore, anybody killed by the plant has a seed planted in them; a turn later, a new sundew rips free of their flesh.",
+        "The glasshouse is sealed from the outside, the doors boarded over. Inside is dense with greenery trying to get out. If opened up, a sundew emerges each round. Stats as pitcher plants, but the plants aren’t immobile. Furthermore, anybody killed by the plant has a seed planted in them; a turn later, a new sundew rips free of their flesh."
       ]
-    }, {
+    },
+    {
       "title": "Orchid Houses",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Silk-garden",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Chess Lawn",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Hedge Maze",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Kennels",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Statuary",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Woods",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Mausoleum",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Shooting Range",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "FountainCourt",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Shadow Theatre",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Gear-works",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Tower",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Ice Rink",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Fire-pit",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Cemetery",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Steam-pipes",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "CliffGarden",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Mushroom Beds",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Mask Gallery",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Settlements",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Splicing Vats",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Incubation Beds",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Vivisection Theatre",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Electrodyne Thicket",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Winery",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Ruins of Ynn",
       "page": 0,
       "description": "Description Goes Here!"
@@ -169,135 +228,168 @@
       "title": "Treasure-pile",
       "page": 35,
       "description": "There’s a little heap of treasure in the centre of the lawn here, glittering in the sunlight. There’s 5d10 silver in various denominations, and roll for treasure twice."
-    }, {
+    },
+    {
       "title": "Graffiti",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Well Maintained",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Dead Explorers",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Nests",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Rumbling",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Lamp-Post",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Silver Filigree",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Glass Tubes",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Steel Frames",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Dead Birds",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Flooded",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Burned",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Frozen",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Ivy-covered",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Singing",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Glass-roofed",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Sidhe Skeletons",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Clockwork Parts",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Inverted",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Floating",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Chasms",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Smouldering",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Churning",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Predatory",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Fleshy",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Entrancing",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Fertile",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Luminous",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Zero Gravity",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Hypnotic",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Parasitic",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Doorway Out",
       "page": 0,
       "description": "Description Goes Here!"
-    }, {
+    },
+    {
       "title": "Tangled Madness",
       "page": 0,
       "description": "Description Goes Here!"
@@ -310,58 +402,76 @@
     {
       "description": "An ominous ticking can be heard from beneath the ground. Nothing happens yet. Next time an Event is rolled in this location, roll two events instead.",
       "encounters": 0
-    }, {
+    },
+    {
       "description": "Something turns up; it is hostile. Roll for an encounter.",
       "encounters": 1
-    }, {
+    },
+    {
       "description": "Something turns up; it’s merely curious. Roll for an encounter.",
       "encounters": 1
-    }, {
+    },
+    {
       "description": "Something is disturbed while eating. Roll for an encounter.",
       "encounters": 1
-    }, {
+    },
+    {
       "description": "Something is found trapped. Maybe it’s caught in tangled vines, or its foot is in a snare, or it’s locked in a cage. Roll for an encounter.",
       "encounters": 1
-    }, {
+    },
+    {
       "description": "A fight spills into the location. Roll two encounters, they’re already fighting each other before the players get involved.",
       "encounters": 2
-    }, {
+    },
+    {
       "description": "Something’s territory is disturbed and it defends its lair. Roll for an encounter.",
       "encounters": 1
-    }, {
+    },
+    {
       "description": "Something turns up, badly injured, totally lost or otherwise at a disadvantage. Roll for an encounter.",
       "encounters": 1
-    }, {
+    },
+    {
       "description": "Something is returning to its home, and is surprised to find PCs here. Roll for an encounter.",
       "encounters": 1
-    }, {
+    },
+    {
       "description": "Tracks,litter,or other signs of passage are found. Roll an encounter to see what left them. The next encounter in this location will be with that.",
       "encounters": 1
-    }, {
+    },
+    {
       "description": "Beneath the earth’s surface, something grinds and churns, and ripples of change flow through the garden. Roll a new Detail for the location and apply it in the most logical way. Everybody present must Save vs Magic, and if they fail roll for an Ynnian Alteration.",
       "encounters": 0
-    }, {
+    },
+    {
       "description": "Something’s empty home is found. Roll for treasure for what’s there, and roll an encounter to see what lives there. The thing’s not home currently. Next time you’d roll an encounter in this location, instead the creature who’s home you found comes back.",
       "encounters": 1
-    }, {
+    },
+    {
       "description": "A cache of hidden treasure is found under a paving slab! Roll for what the treasure is.",
       "encounters": 0
-    }, {
+    },
+    {
       "description": "A cache of hidden treasure is found in a wooden box! Roll for what it is.",
       "encounters": 0
-    }, {
+    },
+    {
       "description": "A set of steps are found,leading to a subterranean passageway. The passage is lined with black and white tiles, and lit with candles. It leads somewhere else on the map. Draw a line leading to a previously explored location, ideally one less deep than the current location.",
       "encounters": 0
-    }, {
+    },
+    {
       "description": "A neat brick pathway is found, covered in an arch of thick hedge-row that hides the sky. It leads to an area d6+1 layers deeper.",
       "encounters": 0
-    }, {
+    },
+    {
       "description": "A set of railway tracks are found, complete with a little trolley. If you ride the trolley, it takes you to another location you’ve already explored, preferably one quite deep.",
       "encounters": 0
-    }, {
+    },
+    {
       "description": "A sunken canal is found, a few feet down, concealed by an iron grille overgrown with plants. The little canal-boats in here will take you somewhere else; a new location 2d6 levels deeper.",
       "encounters": 0
-    }, {
+    },
+    {
       "description": "The pathway crumbles away, collapsing in on itself and vanishing under rapidly-growing ivy and rose-brambles. Erase one of the exits leading from this location.",
       "encounters": 0
     }
@@ -777,7 +887,40 @@
     }
   ],
   "treasure": [
-    "Real-world coins worth 2d20 gold.", "A bottle of fine wine, worth 20 gold, or enough to produce an evening of merriment.", "A pack of playing cards, inlaid with gold leaf/a delicate hand-mirror/jewelled velvet gloves/a silver necklace. Worth 100 gold.", "A healing potion in an emerald flask. Heals d8 HP.", "A box of coins worth (d10 x depth x 10) gold.", "A glass tube of poison. Save vs Poison or suffer 2d8 damage. D6+2 doses remain.", "A stash of ammunition. 20 Shots.", "A scroll of a random spell.", "A delicate music box that place weird atonal music/an elaborate filigree lantern, with a candle in it/an ornate brass spyglass/set of golden cutlery. Worth 200 gold.", "An armoury. Roll d4+3 weapons, and a suit of leather/chain/plate armour with each.", "A magical glass eye. The wearer can (see magic/see in the dark/see invisi- ble things/read any written lan- guage/see through walls).", "A potion of (water breathing/ invisibility/spider climbing/ levitating). Lasts 1 turn.", "A magical hunting weapon. +2 to hit and damage vs non-magical, unintel- ligent animals. Roll for weapon type (pg. 73).", "A small pouch of gemstones worth d10 x depth x 100 gold.", "A gold pocket watch that tells the time in Ynn (marked with 48 hours in a day)/a delicate circlet, somewhere between a wreath of thorns and a crown, made of gold with jade leaves/a clock made out of glass. Worth 500 gold.", "A false tooth that grants the wearer (fire breath for d8 damage, save avoids/an extra bite attack for d4 damage/the ability to bite through anything/the ability to spit poison for d4 damage/immunity to ingested poison).", "A pair of enchanted metal hoops 8 inches across. Anything passing into one passes out of the other, and visa versa.", "A spellbook containing d4+1 totally random spells.", "An enchanted fishhook. Any being that swallows the hook is unable to act against the person holding the other end of the fishing-line in any way.", "A metal-bound chest of coins. Worth d20 x level x 100 gold.", "A cloak that makes its wearer (immune to the cold/immune to fire/immune to electricity/able to blend into plants with a 4-in-6 chance to escape all notice/invisible to wild animals/able to pass through plants as if they were intangible).", "A magical weapon intended for war- fare. +3 to hit and damage against enemies that use weapons, and roll a magic weapon property. Roll for weapon type (pg. 73).", "Magical powder which, when scat- tered on water, causes it to instantly freeze to solid ice. Bag contains 10 doses.", "A wand that lets you cast (dispel magic/fireball/command plants/ shape stone/gaseous form/break curse/cure disease). 2d6+2 charges remain.", "A suit of magical chainmail that protects against (weapons, natural attacks, fire, electricity, corrosion, poison). Half damage from the thing protected against.", "A book of sidhe poetry. Will need translating/bags of seeds that will grow exotic new trees with expensive fruits. Worth 1000 gold.*", "A collection of d10 jewelled rings. Each worth 200 gold.", "An absolute masterpiece of a magical weapon. +2 to hit and damage, and roll twice for magic weapon proper- ties. Roll for weapon type (pg. 73).", "A magical ring that renders the wear- er (invisible, able to walk on walls, able to breath water, a friend to all wild animals, immune to hunger, non-existent to the undead).", "A spellbook containing 2d6 totally random spells.", "A box of unearthly glowing gem- stones, worth d10 x depth x 500 gold.", "A collection of occultum coins. Oc- cultum is a smokey, glassy metallic substance, magically potent and insanely valuable. You can bribe gods and purchase kingdoms with it. D4 coins, each worth depth x 1,000 gold", "A little stone icon of a dead god/the crown of a lost kingdom/a book of sidhe political philosophy that will require translating and then revolu- tionise the world. Worth 2,500 gold.", "A legendary monster-slaying weap- on. +3 to hit and damage against non-mundane enemies, and roll 3 weapon properties. Roll for weapon type (pg. 73)."
+    "Real-world coins worth 2d20 gold.",
+    "A bottle of fine wine, worth 20 gold, or enough to produce an evening of merriment.",
+    "A pack of playing cards, inlaid with gold leaf/a delicate hand-mirror/jewelled velvet gloves/a silver necklace. Worth 100 gold.",
+    "A healing potion in an emerald flask. Heals d8 HP.",
+    "A box of coins worth (d10 x depth x 10) gold.",
+    "A glass tube of poison. Save vs Poison or suffer 2d8 damage. D6+2 doses remain.",
+    "A stash of ammunition. 20 Shots.",
+    "A scroll of a random spell.",
+    "A delicate music box that place weird atonal music/an elaborate filigree lantern, with a candle in it/an ornate brass spyglass/set of golden cutlery. Worth 200 gold.",
+    "An armoury. Roll d4+3 weapons, and a suit of leather/chain/plate armour with each.",
+    "A magical glass eye. The wearer can (see magic/see in the dark/see invisi- ble things/read any written lan- guage/see through walls).",
+    "A potion of (water breathing/ invisibility/spider climbing/ levitating). Lasts 1 turn.",
+    "A magical hunting weapon. +2 to hit and damage vs non-magical, unintel- ligent animals. Roll for weapon type (pg. 73).",
+    "A small pouch of gemstones worth d10 x depth x 100 gold.",
+    "A gold pocket watch that tells the time in Ynn (marked with 48 hours in a day)/a delicate circlet, somewhere between a wreath of thorns and a crown, made of gold with jade leaves/a clock made out of glass. Worth 500 gold.",
+    "A false tooth that grants the wearer (fire breath for d8 damage, save avoids/an extra bite attack for d4 damage/the ability to bite through anything/the ability to spit poison for d4 damage/immunity to ingested poison).",
+    "A pair of enchanted metal hoops 8 inches across. Anything passing into one passes out of the other, and visa versa.",
+    "A spellbook containing d4+1 totally random spells.",
+    "An enchanted fishhook. Any being that swallows the hook is unable to act against the person holding the other end of the fishing-line in any way.",
+    "A metal-bound chest of coins. Worth d20 x level x 100 gold.",
+    "A cloak that makes its wearer (immune to the cold/immune to fire/immune to electricity/able to blend into plants with a 4-in-6 chance to escape all notice/invisible to wild animals/able to pass through plants as if they were intangible).",
+    "A magical weapon intended for war- fare. +3 to hit and damage against enemies that use weapons, and roll a magic weapon property. Roll for weapon type (pg. 73).",
+    "Magical powder which, when scat- tered on water, causes it to instantly freeze to solid ice. Bag contains 10 doses.",
+    "A wand that lets you cast (dispel magic/fireball/command plants/ shape stone/gaseous form/break curse/cure disease). 2d6+2 charges remain.",
+    "A suit of magical chainmail that protects against (weapons, natural attacks, fire, electricity, corrosion, poison). Half damage from the thing protected against.",
+    "A book of sidhe poetry. Will need translating/bags of seeds that will grow exotic new trees with expensive fruits. Worth 1000 gold.*",
+    "A collection of d10 jewelled rings. Each worth 200 gold.",
+    "An absolute masterpiece of a magical weapon. +2 to hit and damage, and roll twice for magic weapon proper- ties. Roll for weapon type (pg. 73).",
+    "A magical ring that renders the wear- er (invisible, able to walk on walls, able to breath water, a friend to all wild animals, immune to hunger, non-existent to the undead).",
+    "A spellbook containing 2d6 totally random spells.",
+    "A box of unearthly glowing gem- stones, worth d10 x depth x 500 gold.",
+    "A collection of occultum coins. Oc- cultum is a smokey, glassy metallic substance, magically potent and insanely valuable. You can bribe gods and purchase kingdoms with it. D4 coins, each worth depth x 1,000 gold",
+    "A little stone icon of a dead god/the crown of a lost kingdom/a book of sidhe political philosophy that will require translating and then revolu- tionise the world. Worth 2,500 gold.",
+    "A legendary monster-slaying weap- on. +3 to hit and damage against non-mundane enemies, and roll 3 weapon properties. Roll for weapon type (pg. 73)."
   ],
   "searchBody": [
     "Knitting needles.",
