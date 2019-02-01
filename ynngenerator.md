@@ -47,33 +47,33 @@ image: /images/ynngenerator.png
 <script>
 var currentLayer = -1;
 
-function buttonDeeper() {
+function buttonDeeper(currentLayer) {
   //increase to the next Layer
   currentLayer++;
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
-      goDeeper(JSON.parse(this.responseText));
+      goDeeper(currentLayer, JSON.parse(this.responseText));
     }
   };
   xmlhttp.open("GET", "ynn.json", true);
   xmlhttp.send();
 }
 
-function buttonFlee() {
+function buttonFlee(currentLayer) {
   currentLayer = currentLayer + Math.floor(Math.random() * 4);
 
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
-      goDeeper(JSON.parse(this.responseText));
+      goDeeper(currentLayer, JSON.parse(this.responseText));
     }
   };
   xmlhttp.open("GET", "ynn.json", true);
   xmlhttp.send();
 }
 
-function goDeeper(ynn) {
+function goDeeper(currentLayer, ynn) {
   //increase to the next Layer
   var nextLocation = Math.floor(Math.random() * 20) + 1 + currentLayer;
   var nextDetail = Math.floor(Math.random() * 20) + 1 + currentLayer;
@@ -132,18 +132,18 @@ function goDeeper(ynn) {
   document.getElementById("detailTitle").innerHTML = ynn.details[nextDetail].title + " <small>pg " + ynn.details[nextDetail].page + "</small>";
 }
 
-function buttonDay() {
+function buttonDay(currentLayer) {
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
-      dayEvent(JSON.parse(this.responseText));
+      dayEvent(currentLayer, JSON.parse(this.responseText));
     }
   };
   xmlhttp.open("GET", "ynn.json", true);
   xmlhttp.send();
 }
 
-function dayEvent(ynn) {
+function dayEvent(currentLayer, ynn) {
   var nextEvent = Math.floor(Math.random() * ynn.events.length);
   var eventDescription = ynn.events[nextEvent].description;
   var encounters = "<br>";
@@ -165,7 +165,7 @@ function dayEvent(ynn) {
   document.getElementById("eventText").innerHTML = "<hr class=\"tightSpacing\"><h3  class=\"tightSpacing\">Day Event</h3>" + eventDescription + encounters;
 }
 
-function buttonNight() {
+function buttonNight(currentLayer) {
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
@@ -176,7 +176,7 @@ function buttonNight() {
   xmlhttp.send();
 }
 
-function nightEvent(ynn) {
+function nightEvent(currentLayer, ynn) {
   var nextEvent = Math.floor(Math.random() * ynn.events.length);
   var eventDescription = ynn.events[nextEvent].description;
   var encounters = "<br>";
@@ -198,37 +198,37 @@ function nightEvent(ynn) {
   document.getElementById("eventText").innerHTML = "<hr class=\"tightSpacing\"><h3  class=\"tightSpacing\">Night Event</h3>" + eventDescription + encounters;
 }
 
-function buttonBody() {
+function buttonBody(currentLayer) {
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
-      searchBody(JSON.parse(this.responseText));
+      searchBody(currentLayer, JSON.parse(this.responseText));
     }
   };
   xmlhttp.open("GET", "ynn.json", true);
   xmlhttp.send();
 }
 
-function searchBody(ynn) {
+function searchBody(currentLayer, ynn) {
   document.getElementById("lootBox").innerHTML = ynn.searchBody[Math.floor(Math.random() * ynn.searchFlowerbed.length)];
 }
 
-function buttonFlowerbed() {
+function buttonFlowerbed(currentLayer) {
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
-      searchFlowerbed(JSON.parse(this.responseText));
+      searchFlowerbed(currentLayer, JSON.parse(this.responseText));
     }
   };
   xmlhttp.open("GET", "ynn.json", true);
   xmlhttp.send();
 }
 
-function searchFlowerbed(ynn) {
+function searchFlowerbed(currentLayer, ynn) {
   document.getElementById("lootBox").innerHTML = ynn.searchFlowerbed[Math.floor(Math.random() * ynn.searchFlowerbed.length)];
 }
 
-function buttonTreasure() {
+function buttonTreasure(currentLayer) {
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
