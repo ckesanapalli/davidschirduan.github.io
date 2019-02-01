@@ -49,7 +49,7 @@ image: /images/ynngenerator.png
 var currentLayer = -1;
 
 function buttonDeeper(currentLayer) {
-  //increase to the next Layer
+  /*increase to the next Layer*/
   currentLayer++;
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.onreadystatechange = function () {
@@ -130,18 +130,18 @@ function buttonTreasure(currentLayer) {
 }
 
 function goDeeper(currentLayer, ynn) {
-  //increase to the next Layer
+  /*increase to the next Layer*/
   var nextLocation = Math.floor(Math.random() * 20) + 1 + currentLayer;
   var nextDetail = Math.floor(Math.random() * 20) + 1 + currentLayer;
-  //var nextLocation = currentLayer;
-  //var nextDetail = currentLayer;
-  //Add to the list of past locations
+  /*/*var nextLocation = currentLayer;
+  var nextDetail = currentLayer;
+  Add to the list of past locations*/
   document.getElementById("pastLocations").innerHTML = document.getElementById("pastLocations").innerHTML + document.getElementById("locationTitle").innerHTML + ", " + document.getElementById("detailTitle").innerHTML + "<br>";
 
   document.getElementById("eventText").innerHTML = "";
 
   switch (true) {
-    //Herb garden
+    /*Herb garden*/
     case (nextLocation == 1):
       var herbs = "<strong>Available Herbs:</strong><br>";
       var numHerbs = Math.floor(Math.random() * 6) + 1 + currentLayer;
@@ -188,8 +188,6 @@ function goDeeper(currentLayer, ynn) {
   document.getElementById("detailTitle").innerHTML = ynn.details[nextDetail].title + " <small>pg " + ynn.details[nextDetail].page + "</small>";
 }
 
-
-
 function dayEvent(currentLayer, ynn) {
   var nextEvent = Math.floor(Math.random() * ynn.events.length);
   var eventDescription = ynn.events[nextEvent].description;
@@ -235,8 +233,6 @@ function nightEvent(currentLayer, ynn) {
 
   document.getElementById("eventText").innerHTML = "<hr class=\"tightSpacing\"><h3  class=\"tightSpacing\">Night Event</h3>" + eventDescription + encounters;
 }
-
-
 
 function searchBody(currentLayer, ynn) {
   document.getElementById("lootBox").innerHTML = ynn.searchBody[Math.floor(Math.random() * ynn.searchFlowerbed.length)];
