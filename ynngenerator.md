@@ -10,10 +10,8 @@ image: /images/ynngenerator.png
       Deeper</button></div>
   <div class="col-md-3 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="buttonFlee()">Flee
       Danger!</button></div>
-  <div class="col-md-3 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="dayEvent()">Day
-      Event</button></div>
-  <div class="col-md-3 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="nightEvent()">Night
-      Event</button></div>
+  <div class="col-md-3 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="d12Button()">d12 Event</button></div>
+  <div class="col-md-3 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="d20Button()">d20 Event</button></div>
 </div>
 
 <p class="tightSpacing" id="eventText"></p>
@@ -78,26 +76,26 @@ function openTab(evt, tabName) {
 <small>Thanks to <a href="https://www.patreon.com/EmmyCavegirlAllen/overview/">Emmy Allen</a> for making such a beautiful world and to <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the code!</small>
 
 <script>
-
 var currentLayer = -1;
 var ynn;
+var day = true;
 
 var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function() {
+xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     ynn = JSON.parse(this.responseText);
   }
 };
 xmlhttp.open("GET", "/ynn.json", true);
-xmlhttp.send(); 
+xmlhttp.send();
 
-function buttonDeeper(){
+function buttonDeeper() {
   currentLayer++;
   document.getElementById("pastLocations").innerHTML = document.getElementById("pastLocations").innerHTML + document.getElementById("locationTitle").innerHTML + ", " + document.getElementById("detailTitle").innerHTML + "<br>";
   goDeeper();
 }
 
-function buttonFlee(){
+function buttonFlee() {
   currentLayer = currentLayer + Math.floor(Math.random() * 4);
   document.getElementById("pastLocations").innerHTML = document.getElementById("pastLocations").innerHTML + document.getElementById("locationTitle").innerHTML + ", " + document.getElementById("detailTitle").innerHTML + "<br>?. The PCs fled, they are lost<br>";
   goDeeper();
@@ -110,7 +108,7 @@ function goDeeper() {
 
   /*var nextLocation = currentLayer;
   var nextDetail = currentLayer;
-  Add to the list of past locations*/
+  //Add to the list of past locations*/
 
   document.getElementById("eventText").innerHTML = "";
 
@@ -136,31 +134,21 @@ function goDeeper() {
   document.getElementById("detailTitle").innerHTML = ynn.details[nextDetail].title + " <small>pg " + ynn.details[nextDetail].page + "</small>";
 }
 
-function dayEvent() {
-  var nextEvent = Math.floor(Math.random() * ynn.events.length);
-  var eventDescription = ynn.events[nextEvent].description;
-  var encounters = "<br>";
-
-  for (i = 0; i < ynn.events[nextEvent].encounters; i++) {
-    var depth20 = Math.floor(Math.random() * 20) + currentLayer;
-
-    if (depth20 >= 34) {
-      var depth20 = Math.floor(Math.random() * 20) + Math.floor(Math.random() * 10) + 1 + Math.floor(Math.random() * 6) - 2;
-    }
-
-    var nextEncounter = ynn.dayEncounters[depth20];
-
-    encounters = encounters + "<br><h3 class=\"tightSpacing\">" +
-      nextEncounter.title + "  <small>pg " + nextEncounter.page + "</small></h3> <i>" + nextEncounter.stats + "</i><br><br> " + nextEncounter.description + " <br>";
-  }
-
-  document.getElementById("eventText").innerHTML = "<hr class=\"tightSpacing\"><h2  class=\"tightSpacing\">Day Event</h2>" + eventDescription + encounters;
+function d12Button() {
+  newEvent(12, day);
+  day = !day;
 }
 
-function nightEvent() {
-  var nextEvent = Math.floor(Math.random() * ynn.events.length);
+function d20Button() {
+  newEvent(20, day);
+  day = !day;
+}
+
+function newEvent(dice, day) {
+  var nextEvent = Math.floor(Math.random() * dice);
   var eventDescription = ynn.events[nextEvent].description;
   var encounters = "<br>";
+
 
   for (i = 0; i < ynn.events[nextEvent].encounters; i++) {
     var depth20 = Math.floor(Math.random() * 20) + currentLayer;
@@ -169,13 +157,22 @@ function nightEvent() {
       var depth20 = Math.floor(Math.random() * 20) + Math.floor(Math.random() * 10) + 1 + Math.floor(Math.random() * 6) - 2;
     }
 
-    var nextEncounter = ynn.nightEncounters[depth20];
+    if (day) {
+      var nextEncounter = ynn.dayEncounters[depth20];
 
-    encounters = encounters + "<br><h3 class=\"tightSpacing\">" +
-      nextEncounter.title + "  <small>pg " + nextEncounter.page + "</small></h3> <i>" + nextEncounter.stats + "</i><br><br> " + nextEncounter.description + " <br>";
+      encounters = encounters + "<br><h3 class=\"tightSpacing\">" +
+        nextEncounter.title + "<small> pg " + nextEncounter.page + "</small></h3> <i>" + nextEncounter.stats + "</i><br><br> " + nextEncounter.description + " <br>";
+
+          document.getElementById("eventText").innerHTML = "<hr class=\"tightSpacing\"><h2  class=\"tightSpacing\">Day Event <small>(Re-roll for a Night event)</small></h2>" + eventDescription + encounters;
+    } else {
+      var nextEncounter = ynn.nightEncounters[depth20];
+
+      encounters = encounters + "<br><h3 class=\"tightSpacing\">" +
+        nextEncounter.title + "<small> pg " + nextEncounter.page + "</small></h3> <i>" + nextEncounter.stats + "</i><br><br> " + nextEncounter.description + " <br>";
+
+          document.getElementById("eventText").innerHTML = "<hr class=\"tightSpacing\"><h2  class=\"tightSpacing\">Night Event <small>(Re-roll for a Day event)</small></h2>" + eventDescription + encounters;
+    }
   }
-
-  document.getElementById("eventText").innerHTML = "<hr class=\"tightSpacing\"><h2  class=\"tightSpacing\">Night Event</h2>" + eventDescription + encounters;
 }
 
 function searchBody() {
@@ -191,7 +188,7 @@ function findTreasure() {
   switch (true) {
     case (treasureRoll < 0):
       document.getElementById("lootBox").innerHTML = ynn.treasure[0];
-    break;
+      break;
     case (treasureRoll >= 34):
       document.getElementById("lootBox").innerHTML = ynn.treasure[Math.floor(Math.random() * 20) + Math.floor(Math.random() * 10) + 1 + Math.floor(Math.random() * 6) - 2] + "<br>" + ynn.treasure[Math.floor(Math.random() * 20) + Math.floor(Math.random() * 10) + 1 + Math.floor(Math.random() * 6) - 2] + "<br>" + ynn.treasure[Math.floor(Math.random() * 20) + Math.floor(Math.random() * 10) + 1 + Math.floor(Math.random() * 6) - 2];
       break;
