@@ -112,7 +112,6 @@ function goDeeper() {
   var nextDetail = currentLayer;
   Add to the list of past locations*/
 
-
   document.getElementById("eventText").innerHTML = "";
 
   switch (true) {
@@ -145,18 +144,17 @@ function dayEvent() {
   for (i = 0; i < ynn.events[nextEvent].encounters; i++) {
     var depth20 = Math.floor(Math.random() * 20) + currentLayer;
 
-    if (depth20 >= 35) {
+    if (depth20 >= 34) {
       var depth20 = Math.floor(Math.random() * 20) + Math.floor(Math.random() * 10) + 1 + Math.floor(Math.random() * 6) - 2;
     }
 
     var nextEncounter = ynn.dayEncounters[depth20];
 
-    encounters = encounters + "<br><strong>" +
-      nextEncounter.title + " </strong> <small>pg " + nextEncounter.page + "</small> <br> " +
-      nextEncounter.description + " <br> <i>" + nextEncounter.stats + "</i><br>";
+    encounters = encounters + "<br><h3 class=\"tightSpacing\">" +
+      nextEncounter.title + "  <small>pg " + nextEncounter.page + "</small></h3> <i>" + nextEncounter.stats + "</i><br><br> " + nextEncounter.description + " <br>";
   }
 
-  document.getElementById("eventText").innerHTML = "<hr class=\"tightSpacing\"><h3  class=\"tightSpacing\">Day Event</h3>" + eventDescription + encounters;
+  document.getElementById("eventText").innerHTML = "<hr class=\"tightSpacing\"><h2  class=\"tightSpacing\">Day Event</h2>" + eventDescription + encounters;
 }
 
 function nightEvent() {
@@ -173,12 +171,11 @@ function nightEvent() {
 
     var nextEncounter = ynn.nightEncounters[depth20];
 
-    encounters = encounters + "<br><strong>" +
-      nextEncounter.title + " </strong> <small>pg " + nextEncounter.page + "</small> <br> " +
-      nextEncounter.description + " <br> <i>" + nextEncounter.stats + "</i><br>";
+    encounters = encounters + "<br><h3 class=\"tightSpacing\">" +
+      nextEncounter.title + "  <small>pg " + nextEncounter.page + "</small></h3> <i>" + nextEncounter.stats + "</i><br><br> " + nextEncounter.description + " <br>";
   }
 
-  document.getElementById("eventText").innerHTML = "<hr class=\"tightSpacing\"><h3  class=\"tightSpacing\">Night Event</h3>" + eventDescription + encounters;
+  document.getElementById("eventText").innerHTML = "<hr class=\"tightSpacing\"><h2  class=\"tightSpacing\">Night Event</h2>" + eventDescription + encounters;
 }
 
 function searchBody() {
