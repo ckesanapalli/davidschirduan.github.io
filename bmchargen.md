@@ -9,7 +9,7 @@ image: /images/generatorPreview.png
 <p>A <a href="/bone-marshes">Bone Marshes</a> character generator for <a href="https://www.drivethrurpg.com/product/250888/Knave">Knave</a> and other OSR games.</p>
 
 <div class="tightSpacing buttonWrapper">
-  <button class="btn btn-primary" onclick="generate()">Generate Another Character</button>
+  <button class="btn btn-lg btn-primary" onclick="generate()">Generate Another Character</button>
 </div>
 
 <div class="container generatorCard">

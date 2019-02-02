@@ -6,13 +6,13 @@ published: true
 image: /images/ynngenerator.png
 ---
 <div class="row">
-  <div class="col-lg-3 col-md-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="buttonDeeper()">Go
+  <div class="col-md-3 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="buttonDeeper()">Go
       Deeper</button></div>
-  <div class="col-lg-3 col-md-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="buttonFlee()">Flee
+  <div class="col-md-3 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="buttonFlee()">Flee
       Danger!</button></div>
-  <div class="col-lg-3 col-md-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="dayEvent()">Day
+  <div class="col-md-3 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="dayEvent()">Day
       Event</button></div>
-  <div class="col-lg-3 col-md-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="nightEvent()">Night
+  <div class="col-md-3 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="nightEvent()">Night
       Event</button></div>
 </div>
 
@@ -28,9 +28,7 @@ image: /images/ynngenerator.png
 
   <div id="location" class="tabcontent">
     <div class="tightSpacing h3" id="locationTitle">Gardens of Ynn</div>
-    <p id="locationDesc">Ynn is a perpendicular world. It appears as a vast garden, now untended, overrun, and fallen
-      into ruin. Once, this place was a realm of rarefied luxury, but its masters are long dead and the machinery that
-      maintained it has fallen into disrepair.</p>
+    <p id="locationDesc"><a href="https://www.drivethrurpg.com/product/237544/The-Gardens-Of-Ynn">Ynn</a> is a perpendicular world. It appears as a vast garden, now untended, overrun, and fallen into ruin. Once, this place was a realm of rarefied luxury, but its masters are long dead and the machinery that maintained it has fallen into disrepair.</p>
   </div>
 
   <div id="detail" class="tabcontent">
@@ -66,9 +64,9 @@ function openTab(evt, tabName) {
 </script>
 
 <div class="row">
-  <div class="col-lg-3 col-md-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="searchBody()">Search Body</button></div>
-  <div class="col-lg-6 col-md-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="searchFlowerbed()">Search Flowerbed</button></div>
-  <div class="col-lg-3 col-md-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="findTreasure()">Treasure!</button></div>
+  <div class="col-md-4 col-6 tightSpacing buttonWrapper"><button class="btn-wide btn btn-primary btn-lg" onclick="searchBody()">Search Body</button></div>
+  <div class="col-md-4 col-6 tightSpacing buttonWrapper"><button class="btn-wide btn btn-primary btn-lg" onclick="searchFlowerbed()">Search Flowerbed</button></div>
+  <div class="col-md-4 col-12 tightSpacing buttonWrapper"><button class="btn-wide btn btn-primary btn-lg" onclick="findTreasure()">Treasure!</button></div>
 </div>
 
 <div class="container generatorCard">
