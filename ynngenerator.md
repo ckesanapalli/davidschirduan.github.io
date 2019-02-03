@@ -88,10 +88,6 @@ xmlhttp.open("GET", "/ynn.json", true);
 xmlhttp.send();
 
 function buttonDeeper() {
-  currentLayer++;
-  if (currentLayer < 0){
-  currentLayer = 0;
-  }
   document.getElementById("pastLocations").innerHTML = document.getElementById("pastLocations").innerHTML + document.getElementById("locationTitle").innerHTML + ", " + document.getElementById("detailTitle").innerHTML + "<br>";
   garden("deeper");
 }
