@@ -101,6 +101,9 @@ function buttonHigher() {
 
 function garden() {
   /*increase to the next Layer*/
+  if (currentLayer < 0){
+  currentLayer = 0;
+  }
   var nextLocation = Math.floor(Math.random() * 20) + currentLayer;
   var nextDetail = Math.floor(Math.random() * 20) + currentLayer;
 
