@@ -89,21 +89,25 @@ xmlhttp.send();
 
 function buttonDeeper() {
   currentLayer++;
+  if (currentLayer < 0){
+  currentLayer = 0;
+  }
   document.getElementById("pastLocations").innerHTML = document.getElementById("pastLocations").innerHTML + document.getElementById("locationTitle").innerHTML + ", " + document.getElementById("detailTitle").innerHTML + "<br>";
   garden();
 }
 
 function buttonHigher() {
   currentLayer--;
+  if (currentLayer < 0){
+  currentLayer = 0;
+  }
   document.getElementById("pastLocations").innerHTML = document.getElementById("pastLocations").innerHTML + document.getElementById("locationTitle").innerHTML + ", " + document.getElementById("detailTitle").innerHTML + "<br>";
   garden();
 }
 
 function garden() {
   /*increase to the next Layer*/
-  if (currentLayer < 0){
-  currentLayer = 0;
-  }
+
   var nextLocation = Math.floor(Math.random() * 20) + currentLayer;
   var nextDetail = Math.floor(Math.random() * 20) + currentLayer;
 
