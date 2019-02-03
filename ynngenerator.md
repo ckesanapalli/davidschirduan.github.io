@@ -8,8 +8,7 @@ image: /images/ynngenerator.png
 <div class="row">
   <div class="col-md-3 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="buttonDeeper()">Go
       Deeper</button></div>
-  <div class="col-md-3 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="buttonFlee()">Flee
-      Danger!</button></div>
+  <div class="col-md-3 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="buttonHigher()">Higher</button></div>
   <div class="col-md-3 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="d12Button()">d12 Event</button></div>
   <div class="col-md-3 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="d20Button()">d20 Event</button></div>
 </div>
@@ -91,16 +90,16 @@ xmlhttp.send();
 function buttonDeeper() {
   currentLayer++;
   document.getElementById("pastLocations").innerHTML = document.getElementById("pastLocations").innerHTML + document.getElementById("locationTitle").innerHTML + ", " + document.getElementById("detailTitle").innerHTML + "<br>";
-  goDeeper();
+  garden();
 }
 
-function buttonFlee() {
-  currentLayer = currentLayer + Math.floor(Math.random() * 4);
-  document.getElementById("pastLocations").innerHTML = document.getElementById("pastLocations").innerHTML + document.getElementById("locationTitle").innerHTML + ", " + document.getElementById("detailTitle").innerHTML + "<br>?. The PCs fled, they are lost<br>";
-  goDeeper();
+function buttonHigher() {
+  currentLayer--;
+  document.getElementById("pastLocations").innerHTML = document.getElementById("pastLocations").innerHTML + document.getElementById("locationTitle").innerHTML + ", " + document.getElementById("detailTitle").innerHTML + "<br>";
+  garden();
 }
 
-function goDeeper() {
+function garden() {
   /*increase to the next Layer*/
   var nextLocation = Math.floor(Math.random() * 20) + currentLayer;
   var nextDetail = Math.floor(Math.random() * 20) + currentLayer;
