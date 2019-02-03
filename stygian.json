@@ -1,0 +1,985 @@
+{
+  "locations": [{
+      "title": "Entrance Foyer",
+      "page": 17,
+      "description": "A small room, lit with candles, furnished with mahogany and brass. Seating, and a ‘Wait Here’ sign. A desk facing towards the real world for the Library’s staff. 50% chance the desk is currently manned by a Black Librarian (p. 43). On the desk, there’s a bell to ring for atten-tion. <strong>Roll an encounter for what turns up every time the players ring it.</strong>"
+    },
+    {
+      "title": "Catalogue of Contents",
+      "page": 17,
+      "description": "Chained onto a lectern, a single huge book with pages the size of a human torso, bound in black leather. The catalogue lists what books are stored nearby, and where. <br>The instructions and directions given are confusing to follow; the PCs can get a picture of what’s nearby but actually tracking things down will be difficult. Consulting it for a turn allows one of the following benefits:<br>‣ Increase the party’s Progress score by 5. This benefit can be gained only once per piece of information sought.<br>‣ Roll a random Extraordinary Book (p. 64). The next time the party discovers an Extraordinary Book, this will be with it. Once the party rolls the same Extraordinary Book a second time, that is all that can be found."
+    },
+    {
+      "title": "Help Desk",
+      "page": 17,
+      "description": "In an alcove, a small desk, laden with papers. Shelves behind it stuffed with more paper-work. Lit by an oil lamp. <br>The paperwork is largely useless to the PCs. It details things like supplies in the library, rotas for the librarians, and so on. There’s enough useful information here, however, that it can help with finding specific infor-mation. Each turn spent going through the records increases progress by 1, up to a maxi-mum of +3. <br>75% chance that the desk is manned by a Yellow Librarian (p. 43). The librarian is, in fact, genuinely helpful."
+    },
+    {
+      "title": "Reading Lounge",
+      "page": 17,
+      "description": "A comfortable room, with richly upholstered couches, and elegant coffee tables. Cigar smoke and notebooks. 50% of encounters will be with Visitors, Researchers, Lost Souls or Archivist-liches."
+    },
+    {
+      "title": "Chained Lectern",
+      "page": 17,
+      "description": "An ornate lectern, raised on a slight platform. On it, open, a large book.. Each corner of the book’s cover is fastened to the lectern, and the lectern is bolted to the floor. When no-body is observing it, it gives a soft creak or gentle rattle, as if straining against restraints.<br><strong>Roll random Extraordinary Book (p. 64) for what the book on the lectern is.</strong><br>This version, however, is dangerous. Reading it results in paper-cuts as the pages twist awk-wardly beneath your fingers, dealing 1 damage for each turn spent reading. If two corners of the book are unfastened (perhaps in order to remove it), the book animates and rips itself free of its bindings.<br><strong>Furious Book</strong><br><i>3 HD, 12 HP, Armour as leather, slam (+0, d6 and Intelligence Drain), saves as fighter 3.</i><br>Can levitate. Immune to poison, cold, backstabs and other things that need the victim to be alive. Double damage from fire.<br>Each successful hit by the book permanently reduces the victim’s Intelligence by 1: each time this happens, the book gains another chapter and a half-inch of thickness."
+    },
+    {
+      "title": "Rose Garden",
+      "page": 16,
+      "description": "Roses grown in neat beds, in huge varieties. Now overgrown, tangled masses of thorns dotted with brilliantly-coloured exotic roses. Movement here is half speed due to the thorns. Alternatively, if you don’ t care about getting scratched up, move at full speed for a turn(d8 damage) or a round(1 damage). Only one rose grows here that’s pure black. Eat it, and you get + 1 HP and black rose-petal-patterns like tattoos, permanently. It’s visible at the centre of the rose garden, but reaching it takes d6 damage with no clear route that avoids getting scratched up."
+    },
+    {
+      "title": "Gazebo",
+      "page": 16,
+      "description": "A jolly little wooden pavilion. Bright paint faded and peeling. Within, a few wicker chairs and manky cushions. Cobwebs, perhaps. Knickknacks such as tea-sets, decks of cards, opium pipes, worth d10+depth gold, plus roll for treasure. A safe place to camp at night; so long as there’ s a flame within the Gazebo(from a candle, lantern or campfire), no monsters will attack those within."
+    },
+    {
+      "title": "Hothouses",
+      "page": 17,
+      "description": "Glass buildings that housed tropical plants. Now the window panes are cracked and broken, and the plants within either died off in the unsympathetic climate or overgrowing the place. Regardless of the weather outside, it’s warm, dry and pleasant within.<br><strong>To generate the map, drop a small handful of dice onto some paper. Where a dice lands, draw a hothouse. The crosssection of dice is the floorplan of the glasshouse. Each corner on the upper face points to a doorway. D12s are two stories high, d20s 3. Each hothouse contains one of the following (look at the number rolled for what):</strong><br>1. Rare plants worth d4+depth gold<br>2. Nothing of note.<br>3. Plants with medicinal properties. D6 doses, each heals 1 hp.<br>4. Fruit you can eat safely.<br>5. Poisonous plants. Ingesting or injection causes 2d6 damage. D6 doses.<br>6. Tables and chairs, now rusted over.<br>7. D4+1 pitcher plant. Can’t move from the spot. Armour as leather. 3 HD, 10HP, attacks d6 times a round (+3, d6), saves as fighter 3, immune to all the stuff you’d expect plants to be immune to.<br>8. No plants at all.<br>9. Digestive green slime growing over the ceiling. Make a sudden or loud noise and some drops on you (treat as an attack, +0 to hit, d6 damage). Be stealthy and you can see how every little noise causes it to ripple in response.<br>10. Ornamental gold birdcages.<br>11. Horrible spores. Breathing them in results in 1 damage per turn. No saves. Damage continues at the same rate once you leave, but roll a Save vs Poison. If you pass, it stops after as many turns as the dice roll. If you fail, it continues indefinitely. If you die from the spores, your corpse sprouts delicate flowers that spew more of the spores into their environment.<br>12. Under the greenery, human skeletons with creepers growing out of their rib-cages. Reanimate when approached. Plant-skeletons have AC as leather, 1 HD, 4 HP, claws (+0, d6), saves as fighter 1. Undead. Those killed reanimate as plant-skeletons a turn later.<br>13 or more, or anything else shown: the glasshouse is sealed from the outside, the doors boarded over. Inside is dense with greenery trying to get out. If opened up, a sundew emerges each round. Stats as pitcher plants, but the plants aren’t immobile. Furthermore, anybody killed by the plant has a seed planted in them; a turn later, a new sundew rips free of their flesh."
+    },
+    {
+      "title": "Orchid Houses",
+      "page": 18,
+      "description": "Like the hothouses, these glass buildings protect from the weather. Generate where they all are like hothouses (pg.17). Each glass house contains rare orchids worth d10 x depth silver to a collector. There’s a chance that each orchid house contains something else. This is like the contents of hothouses, but all even dice rolls are instead ‘nothing interesting but orchids’. The first encounter here, and 1-in-3 other encounters, will be with Rose Maidens."
+    },
+    {
+      "title": "Silk-garden",
+      "page": 18,
+      "description": "Steel frameworks eerily reminiscent of trees, but lacking in leaves, are spaced evenly. Hung from these, draped from tree to tree or suspended from the branches, are a mandala-like network of strands of silk in a brilliant rainbow of colours. The silk is sticky. Save vs Paralysis or get stuck fast if you deliberately touch it. Running, combat, or anything else of a vigorous nature probably calls for a save each round to avoid touching the silk (but roll twice and take the better result). Once something’s stuck on the webs, the spinner worms arrive. <br><strong>Spinner Worms</strong><br>Like fat silkworms as long as your arm. D4 of them per person stuck in the silk. Carnivorous.<br><i>AC as chain, 1 HD, 3 HP. Bites (+1, d4), saves as fighter 1. On a 20 to hit, spins more webs, fastening a limb to the body. Immune to the effects of the webs. Insectile intelligence.</i>"
+    },
+    {
+      "title": "Chess Lawn",
+      "page": 18,
+      "description": "A wide square lawn. 10-yard squares of neatly manicured grass alternate with black stone slabs. Scattered about are chess pieces in obsidian and white marble, each twice as high as a human. Here and there, scattered bits of human bones. For each side (black and white), 50% chance that the pieces are actually a full Chess Set collection of monsters. If both sides are monsters, the two sides are in a stalemate until the PCs arrive and each side entreats them for aid in their struggle."
+    },
+    {
+      "title": "Hedge Maze",
+      "page": 18,
+      "description": "A tangled maze of thorny hedges. Once you’ve gone in, each turn you’ve got two options;<br> ‣ Explore the Maze. Each PC rolls a d20. For each 20, roll for a random encounter as something finds the players. Other rolls that are higher than the PCs intelligence score are discarded. Rolls equal to or lower than the intelligence score are added to a running total. Once the running total equals 50, the maze is fully explored and the party can go back or go deeper freely.<br>‣ Go back the way you came. Once you’ve decided to do this, it takes 1 turn to get out again per turn spent in the maze so far, and then you can go back to the last location before the maze.<br><i>Hacking through the hedges helps, at a cost. Each player who hacks gets to add their d20 to the progress total, regardless of if it was greater than their intelligence or not. However, doing so attracts attention: automatically roll for an encounter. The same applies to other plans to circumvent the maze, such as climbing over.</i><br>Once the maze is fully explored, the centre is found: roll a random treasure to see what’s there."
+    },
+    {
+      "title": "Kennels",
+      "page": 19,
+      "description": "Little wooden shacks that once housed various beasts and birds of the garden. Now abandoned and falling to ruin.<strong>Roll twice for events each turn here; things still nose about.</strong>"
+    },
+    {
+      "title": "Statuary",
+      "page": 19,
+      "description": "A formal garden full of elegant, classical style statues. Many seem to depict people in great pain, surprised or frightened. Many statues are over-grown with ivy. 1-in-6 chance that one of the statues is of a famous missing person from the real world. Anybody who dies here turns to a statue immediately. Until turned back to flesh, they can’t be resurrected.!"
+    },
+    {
+      "title": "Woods",
+      "page": 19,
+      "description": "A scattering of trees. The further in you go, the denser the trees get. Each turn exploring the woods brings you deeper in. After three turns, the light under the canopy is dim , after 5 it’s dark enough to need lamps, after 7 it’s as dark as night. Getting to the other side of the woods in order to go deeper takes at least 8 turns."
+    },
+    {
+      "title": "Mausoleum",
+      "page": 19,
+      "description": "A stone tomb surrounded by formal gardens and low hedges. A big rectangular block of marble, topped with a statue. 12 feet across. It’s hollow. You can pry away the slabs that make up the sides or lift the top to get inside. Inside, a grave. D4 skeletons, and roll for treasure. If you steal the treasure, Save vs Magic or be cursed; <br><strong>Roll a d12 for the curse.</strong><br>1) -1 HP, permanently, and the word THIEF branded on the character’s forehead.<br>2) Transmutation! Roll for Ynnian Alterations<br>3) Blind in one eye.<br>4) Somebody you care about dies of unrelated causes. Probably just a coincidence.<br>5) Gold Lust: halve all XP from any treasure that’s not coinage or precious metals.<br>6) Karmic Misfortune: when you roll your next PC, treat all 6s as 1s.<br>7) No longer gain nutrition from eating meat.<br>8) -1 to all saves vs other curses, forever."
+    },
+    {
+      "title": "Shooting Range",
+      "page": 19,
+      "description": "A long lawn, with large stakes driven into the ground at one end. Some of the stakes have bullet-holes in them. Some still have skeletons tied to them. There’s nothing much of note here beyond that."
+    },
+    {
+      "title": "Fountain Court",
+      "page": 20,
+      "description": "Cracked pavement, grass growing between the slabs, surrounds a shallow pool with a fountain in the middle. The fountain still flows, water trickling into a crystal clear pool. At the bottom of the pool, there’s coins that have been thrown in. If you take any out, you can’t get any benefit from the fountain, from that point on, and lose any benefits you might have gained. Throw a coin in the fountain and something good happens. You only get this the first time, after that you need to throw in something more valuable than the last one you threw in. The sequence is:<br>‣ Coin<br>‣ Coin purse<br>‣ Minor item (lantern)<br>‣ Important item (sword)<br>‣ Valuable item (spellbook)<br>‣ Unique item (artwork)<br>‣ Drown a living person.<br><strong>Roll a d10 for the benefit a given fountain grants.</strong><br>1. +1 HP permanently.<br>2. +1 to hit permanently.<br>3. +1 Strength permanently.<br>4. +1 Dexterity permanently.<br>5. +1 Constitution permanently. 6. +1 Intelligence permanently. 7. +1 Wisdom permanently.<br>8. +1 Charisma permanently.<br>9. +1 AC permanently.<br>10. D20 x Depth XP.<br>Drinking from the fountain after you toss a coin in doubles the effects of the benefit."
+    },
+    {
+      "title": "Shadow Theatre",
+      "page": 21,
+      "description": "A semi-circular amphitheatre with stone steps for seats, now overgrown with moss and ferns. A central stage, with the rusted, rotted, crumbling apparatus for shadow-puppets. Shadows here don’t move normally. They react when their owners remain still, and grope towards light-sources. Linger here, and the shadow begins to detach. 1 damage to charisma per turn spent here. On leaving, this effect continues each turn, and make a Save vs Magic. On a failure, the effect carries on indefinitely. On a success, the damage stops after as many turns as the number rolled.<br><strong>If Charisma hits 0, the shadow is finally free. Heal all lost charisma. From this point on:</strong><br>‣ The character casts no shadow.<br>‣ The character has no reflection.<br>‣ Attempts to draw the character become unrecognisable. Whole movements in abstract or stylized art might result from the attempts.<br>‣ The character’s sense of self is eroded. Whenever they level up, reroll all previous hit dice for a completely new hitpoint total.<br>‣ The shadow itself becomes an animate shadow; an intangible monster that hates the light.<br>‣ HD 2, HP 12, Armour as chain, intangible claws (+2, d4 and 1 charisma damage), intangible and immune to physical damage, bright light does d6 damage a round, dead victims transform into more shadows."
+    },
+    {
+      "title": "Gear-works",
+      "page": 21,
+      "description": "Great cracks in the ground give way to massive gears, ranging in size from a hand-span to the size of a small house. The gears are still turning, rust flaking from them as they slowly grind around. They seem to be linked into some great machine. Getting caught in the gears deals d6 damage per round, and a Save vs Devices must be made to pull free or else another round’s damage is dealt next round as the victim is pulled further in."
+    },
+    {
+      "title": "Tower",
+      "page": 22,
+      "description": "An ornamental folly, looming over the treetops. Constructed of wood and brick, and overgrown with ivy. There’s a doorway ajar on the ground floor, and shuttered windows further up the tower. The tower can, therefore, be entered through the main door or at any floor if you climb to a window. There are d6+2 floors. Each floor is around 20 feet wide, with a curving wooden staircase leading to the floors above and below. The interior is dusty, cobwebby and falling apart. Wallpaper peels from the walls, the carpet is mouldy, and water pools by the shutters. <br><strong>In addition, for each floor, roll d12 to see what else is there:</strong><br>1. Nothing 10.<br>2. Treasure<br>3. An encounter! Something lives here.<br>4. An encounter! Something is also exploring.<br>5. Furniture, slowly falling apart.<br>6. A bookshelf. If searched, there’s a 1-in-6 chance that among them is a spellbook with a single random 1st-level spell.<br>7. Birds nests, with eggs and the occasional hatchling squawking away.<br>8. Dense cobwebs, making vision and movement hard.<br>9. A skeleton, chained to the wall. <br>10. Stored food, enough rations to feed a party of 10 for a week, perfectly preserved. <br>11. Paintings of various sidhe. D4 of them. Each worth 100 gold multiplied by the depth of the location.<br>12. A full-length mirror, which reflects accurately but doesn't show anything non-magical. The entirety of Ynn and its natives are magical enough to show up, but the adventurers and things they bring with them might not be.<br><strong>The top floor, however, will have different contents. Roll a d12 twice for what.</strong><br>1. A huge brass bell.<br>2. A telescope<br>3. A camera obscura.<br>4. A treasure-horde. Roll for treasure 3 times. Add the number of floors in the tower to the location’s depth for this roll.<br>5. A magician’s library. Among other more mundane works, there are spellbooks containing d12 1st level spells, d10 second level spells, d8 3rd level spells and d6 4th level spells, d4 5th level spells, and a single spell of level 6+.<br>6. An encounter! A powerful monster lives here. Roll for encounters, adding the number of floors to the location’s depth for this roll.<br>7. A booby-trap! One of the floorboards is actually a pressure-plate, and will cause a flurry of metal darts to shoot from the cracks in the floorboards; everybody takes d4 damage if they don’t pass a Save vs Devices.<br>8. A cursed suit of plate armour, on a stand. When worn, the wearer has the normal armour class for plate armour. Furthermore, the armour allows the wearer to make a single final attack immediately if they would be slain; if this attack kills its victim, then they ignore the damage that would have killed them.<br>9. A half-finished clockwork-powered flying machine.<br>10. A giant mirror for sending flashed messages.<br>11. The skeleton of one of the sidhe perfect and beautiful in an elegant glass coffin.<br>12. A huge lamp that illuminates the location, and all adjacent locations. The lamp consists of a big glass bowl of water filled with bioluminescent shrimp."
+    },
+    {
+      "title": "Ice Rink",
+      "page": 24,
+      "description": "A depression in the ground, lined with white marble, with a flat sheet of glassy ice at the bottom. The refrigerating magic here has been left to work unattended, and frost has spread out of control, killing the nearby plant-life."
+    },
+    {
+      "title": "Fire-pit",
+      "page": 24,
+      "description": "A deep pit in the ground, lined with stone slabs reinforced with iron, venting hot air up from it. A flickering orange light emanates from the pit’s depths. The pit is around 50 feet deep. At the bottom, liquid fire, something between molten metal and condensed plasma. Falling into the fire deals 2d6 damage a round. Merely being in the burning vapours coming off it deals 1 damage per round. Everything here is scorched and burned. Ash flutters in the air, carried by eddies of swirling smoke. The atmosphere is stiflingly hot."
+    },
+    {
+      "title": "Cemetery",
+      "page": 25,
+      "description": "A neat formal garden, with gravestones evenly spaced every seven feet or so. Lilies and roses growing here, moss obscuring the detailing on the elegant art -nouveau headstones.<br><strong>If you dig a grave up, roll a d6 to see what’s in it:</strong><br>1. Just a skeleton.<br>2. Nothing but dirt.<br>3. An animate skeleton, which is unhappy its rest has been disturbed.<br>4. An animate skeleton, which is so unhappy that it gives an angry scream, causing d6 more to rise from nearby graves.<br>5. Treasure<br>6. Nothing but dust.<br>7. Animate skeletons have <i>AC as leather, 1 HD, 4 HP, claws (+0, d6), saves as fighter 1</i>. Undead. They can talk, and are flamboyant and verbose in their exaggerated emotions. If damaged but not killed, they can use their action to reassemble themselves, healing all damage. At night, the skeletons emerge from their graves. There will be d20+1 of them hanging about. <strong>Roll a d8 for what they’re doing:</strong><br>1. Playing Boules.<br>2. Playing music; ribcage xylophones and thighbone flutes.<br>3. Having a formal debate over the theological implications of their continued existence.<br>4. Tending to the gardens. They may be wearing straw hats and dungarees.<br>5. Playing in a poker tournament. They gamble with teeth. The losers are near-toothless, the winner has teeth jammed all over their skull.<br>6. Observing the moon through a telescope, and taking detailed maps.<br>7. Wailing and shaking and apologizing for their sins.<br>8. Scrimshawing each other."
+    },
+    {
+      "title": "Steam-pipes",
+      "page": 26,
+      "description": "This is an area of lawn and flowerbeds, once artfully arranged to hide the presence of a large number of steam-pipes. Now, the flowers have died back and the turf has split, revealing hissing, clanking iron pipes. They’re fitted with pressure valves and outlets. Turn the tap on and steam shoots out of the outlet, scalding everything in its path (90° arc, 10 feet out) for 2d4 damage. Save vs Breath Weapons negates; if you’re expecting the steam roll twice and take the better result. If the steam-pipes are damaged, the same happens from the rent in the metal. Then, each round thereafter, it gets worse: pressurized steam starts to rip bits of metal from the damage. The range increases by 10 feet, and the damage steps up a dice size (2d6’s, then 2d8s, etc.). All sorts of things might damage the pipe. Experiments to see what’s in it, stray missiles, very heavy things falling on them. Ifin doubt, roll a d6, and on a 1 or 2 the pipe is busted. After the first time the steam pipes are encountered, the pipes might carry something else. <br><strong>Roll a d6 for what’s in the pipes:</strong><br>1. Steam<br>2. Acid<br>3. Quick-lime<br>4. Molten Tar<br>5. Boiling Water<br>6. Boiling Oil<br><i>Regardless of what’s in the pipes, the damage stays the same.</i>"
+    },
+    {
+      "title": "CliffGarden",
+      "page": 26,
+      "description": "This garden is planted on a large vertical wall, as if the ground was rotated ninety degrees. Grass, flowers, and little trees all grow normally, poking out from the cliff and then bending to grow upwards. The cliff section is suspended over a yawning abyss. There’s no visible bottom, it just fades into mist. Fall in, and you’re just gone. The trip is one way, there is no return. Flying will stop you falling in, but won’t save you once you’ve fallen; the pull of the abyss is too strong, it’s like being dragged underwater by a riptide. The turf is soft enough that you can make handholds just by thrusting your hands and feet in, or else you can grab onto plants, roots and other bits of garden. It’s perfectly safe as nothing goes wrong. <br><strong>However, something might go wrong if:</strong><br>‣ You take damage.<br>‣ You make an attack.<br>‣ You try to ‘run’ or otherwise move fast.<br>‣ Something surprises you.<br>‣ You need to use both hands for a task.<br>Add up the total of your Strength, Dexterity and Constitution. This value is your grip. Every time something might go wrong, roll a d20, and deduct the result from your grip. Deduct any damage you suffer from the total as well. When your grip hits 0, you fall. There’s a round for you to be caught before it’s too late, and after that you’ve dropped off the gardens and into the abyss. If a full exploration turn passes without your grip worsening, it resets to its starting value. Using specialist climbing gear, magic or similar might increase your grip strength, at the GM’s discretion."
+    },
+    {
+      "title": "Mushroom Beds",
+      "page": 27,
+      "description": "A number of beds of bare earth, under large iron rooves to keep the sunlight off them. The rooves are ten feet off the ground. There’s plenty of room under there, or you can walk over the rooves. The mushroom beds are packed with mycelium threads under the dirt, and various exotic fruiting bodies.<br><strong>Roll a d8 for what the fruiting bodies actually look like:</strong><br>1. Slightly luminous, delicate pink mushrooms.<br>2. Wide, flabby grey toadstools.<br>3. Slender black slimy mushrooms.<br>4. Vivid yellow puffballs.<br>5. Dark blue fronds.<br>6. Tiny white clusters of mushrooms.<br>7. Broad red toadstools.<br>8. Huge, flaky white puffballs.<br><i>Disturbing the mushroom beds, by treading on them for example, causes them to release spores.</i><br><br><strong> Everybody nearby must make a Save vs Poison, or suffer the following effects (roll d8 for what).</strong><br>1. D4 damage, as the spores cause the lungs to fill and the host to choke.<br>2. D6 damage to dexterity as the spores cause tremors and twitches.<br>3. D6 damage to wisdom, as the spores cause geometric hallucinations.<br>4. D6 damage to constitution, as the spores cause sweats and vomiting.<br>5. D6 damage to charisma, as the spores cause the skin to crack and discolour.<br>6. D6 damage to intelligence, as the spores induce delirium.<br>7. D6 damage to strength, as the spores cause muscles to seize up.<br>8. Loss of one level, as the spores cause lethargy and dull the senses.<br><br>The effects will repeat each turn for d6 turns. After the second time, the victim’s skin gets all lumpy and bulges can be seen in their flesh. After the third time, mushrooms start to emerge from under their fingernails and out of their orifices. After the fourth time, and thereafter, more and more mushrooms grow from cracks in their skin. The infection progresses until cured (with a cure disease, delay poison or similar spell), the infection runs its course, or the victim dies. Each appearance of mushrooms will always release spores with the same effects. So, for example, in every location visited, dark blue fronds might always produce hallucinogenic spores. The first encounter here, and 1-in-3 encounters thereafter, will always be with Myconid Composters."
+    },
+    {
+      "title": "Mask Gallery",
+      "page": 28,
+      "description": "This takes the form of a long wall, on which are hung various mask. Each surrounded by a picture frame, one of each mask. The masks present, and what happens when you wear them, are:<br>‣ The Reaper. Ivory, a human skull. Stylized. The wearer deals 3 more damage whenever they deal damage, and suffers 3 more damage whenever damage is done to them. Small animals, insects and so on tend to lie down and die peacefully around them.<br>‣ The Child. Round porcelain, brightly painted. Reduced to level 1, never gain levels (the levels come back when the mask comes off). 19-in-20 chance to ignore any effect that would kill or remove the character. Become innocent and naive. <br>‣ The Black Goat. Horn and black velvet, and glass eyes. The wearer gets +3 charisma and +3 constitution. They always fail any saves to resist mind control and emotional manipulation. They find genteel civilization tiresome, and long to run into the woods where they can rut and fight and spill blood beneath the moon.<br>‣ The Bloody-faced Man. Crudely made from wood, painted red. Human teeth in the mouth. +3 to hit. 200 XP every time the wearer takes the heart from somebody or something they killed. Halve all XP from treasure.<br>‣ The Flame. Stylized red and orange fire on silk. The wearer is immune to damage from fire, but takes double damage from other non-physical sources such as lightning etc. They are consumed by an urge to commit grand and exotic acts of arson.<br>‣ The Harlequin. Delicately patterned white and black porcelain, with gold inlay. The wearer can sneak as if they were a thief/specialist/expert of their level, or if they were already a class that gets a chance to hide, double their chance. Whenever a random victim is chosen for a trap, curse or similar, instead the Harlequin is the victim. Their life takes on an air of ineffable tragedy.<br>‣ The Crow-doctor. Black-painted wood with glass lenses over the eyes. +5 to saves vs poison and sickness. Can ‘transfer’ hit points to a patient being treated, taking 1 damage for each point of healing the patient receives. -3 Charisma, -3 Strength. The wearer starts to see other people in a cold, clinical light, they’re things to fix, not really people like the doctor is.<br>‣ The Warlock. Ugly carved wood, with exaggerated facial-features and big sharp teeth. The wearer can memorize an extra spell of any level they can cast. Reaction rolls when they’re present are made at -3.<br>‣ The prisoner. A steel face plate, with bolts and a grille over the eyes. +2 AC, -1 initiative, +1 chance to be surprised. The wearer seems subtly grotesque, everybody is sure that whatever’s under the mask must be horrific.<br>‣ The Refined Lady. Delicate china. Black inlaid script highlights well formed facial features. Double all XP gained for treasure. Gain no XP for anything that’s not treasure. Gain the minimum HP per Hit Dice on levelling up. The wearer gains a sophisticated taste in art, food, and company. Their subjective tastes are always flawless, nobody of class would disagree with them.<br><i>Take a total of the wearer’s charisma and constitution scores: this is their sense of self. Each day that the mask is worn, reduce that sense of self by 1. When their sense of self is half its starting value, the mask begins to take over. If they ever act in a way that goes against the mask’s archetype, they can gain no XP for the next day. If their sense of self becomes 0, the mask takes over entirely, and they become an NPC Removing a mask is difficult and dangerous. Make a Save vs Magic to do so, or else the mask is stuck fast to the wearer’s face and can’t be removed. Regardless of if the save is passed or failed, the attempt is incredibly painful; the wearer takes d4 damage, plus one more per day the mask’s been worn. The Mask Gallery will only be found once per expedition. Thereafter, treat this result as ‘manicured lawn’ instead.</i>"
+    },
+    {
+      "title": "Settlements",
+      "page": 29,
+      "description": "One of the pseudo-civilized races of the gardens dwells here. The settlement consists of a number of sheds or shacks clustered together, reinforced with improvised materials. <br><strong>Roll a d6 for which creatures live here:</strong><br>1. Floral Spiders (in which case there are large webs between the building and lines of silk threading across the space).<br>2. Rose-Maidens (in which case the buildings are interwoven with dogroses and creepers)<br>3. Myconid Composters (in which the buildings emerge from a cast, steaming compost heap)<br>4. A Chess Set (in which case the sheds are decorated with heraldic crests).<br>5. Animal Servants (in which case the place is run-down and ramshackle)<br>6. Salamanders (in which case the place is built between vast bonfires).<br><i>There will always be large numbers of the inhabitants present; d20+10 RoseMaidens or Myconids, a full compliment of animal servents, a full chess set, 2d6 Spiders or d6 Salamanders.</i>"
+    },
+    {
+      "title": "Splicing Vats",
+      "page": 30,
+      "description": "Concealed behind a hedge, there are the splicing vats. Towering glass-and-steel edifices, the splicing vats let you combine disparate living things to produce the various marvellous hybrids of the gardens. The vats are two stories tall, glass tubes like a md scientist might grow clones in. There’s all manner of tubes and pipes going in and out. The whole thing is filled with a slightly cloudy pinkish or greenish liquid. There’s a hatch in the front, latched shut, bit enough for a person to crawl through. There’s another little inlet valve, just big enough to poke your finger into. There’s a control panel, too, a brass and blackiron plate with five unmarked buttons on it. Using the Vats properly is difficult. <br><strong>The correct method works like this:</strong><br>1. Open the hatch, drain the fluid, and put the new test subject to be spliced into the vat.<br>2. Press the correct button, to fill the vat with amniotic fluid.<br>3. Introduce some genetic matter into the little inlet valve. Blood works fine, sap works fine, flesh works fine. Eggs and seeds will do, too.<br>4. Procedure A, B, C or D is selected, depending on the intended result. Perhaps al combination. Perhaps this is repeated.<br>5. The hatch is opened, and the newly modified creature comes out.<br>A. This procedure passes subtle traits from the donated genetic material onto the subject. So, put in a human’s DNA, and a human subject’s face might warp to look like them. Put in a tiger’s DNA, and a plant’s leaves develop tiger-stripes. ‘A’ stands for ‘Appearance’<br>B. This procedure morphs the subject into a half-and-half hybrid with the introduced DNA. So, put in an owl and a bear, select ‘B’ and get an owlbear. Put in a human and a butterfly, and get a pixie. ‘B’ stands for ‘Blend’.<br>C. This procedure gives the subject a noteworthy trait from the genetic material introduced. Human DNA makes the subject sentient like a human. Spider DNA lets them spin webs. Bat DNA gives the echolocation. Mushroom DNA makes them spew reproductive spores. Elephant DNA makes them grow a trunk and tusks. ‘C’ stands for ‘capabilities’.<br>D. This procedure makes the effects of any previous stuff done to the subject inheritable. ‘D’ stands for ‘DNA;<br><br><strong>Of course, players will probably get this wrong.</strong><br>‣ If they put genetic material into the tank in step 1, rather than a whole being, the vats produce a helpless foetus that dies when removed.<br>‣ If they put another living thing through the hatch in stage 3, any button press produces a horrible cronenbergian mishmash monster.<br>‣ If there’s no amniotic fluid added in stage 2, then each alteration causes horrible wounds. D20 damage, maybe.<br>‣ Pressing buttons A-D without a subject results only in some splurting noises.<br><i>As a GM, you will have to homebrew some rules if the players do this to each other. Have fun with that!</i>"
+    },
+    {
+      "title": "Incubation Beds",
+      "page": 31,
+      "description": "These flowerbeds are studded with glass pipes carrying faintly luminous green oil. The oil pools and collects in glass orbs, and seeps out through crystalline thuribles. There’s a warm, soft green haze in the air. It smells of mint and pepper. The air thrums and tingles with vitality. The flowers grow vigorously. They’re far bigger than elsewhere; beds of tulips are large enough to form a canopy of bright petals over your heads. In the incubation beds, healing is doubled. Each turn, injured characters heal 1 HP without even needing treatment. Those healed here tend to heal oddly.<br><strong>Whenever a character benefits from the effects of the Incubation Beds, they roll for Ynnian Alterations.</strong>"
+    },
+    {
+      "title": "Vivisection Theatre",
+      "page": 31,
+      "description": "This is a semi-circular amphitheatre, with stone steps as seats and a platform in the middle that acts as the stage. All are overgrown with moss and ferns. On the stage itself, there’s a metal surgical table, with restraints at either end for wrists, ankles and the head. Other apparatus is scattered about lamps, clamps, pumps and so on, but these delicate devices have rusted into total uselessness. This was, once, an important place. There’s treasure here, scattered among the seats. Roll for it to see what."
+    },
+    {
+      "title": "Electrodyne Thicket",
+      "page": 32,
+      "description": "Here, the plants grow thick and tangled, vines and creepers growing over a hemispherical wire cage. The outside of the cage is a mess of vegetation. The inside is remarkable clear. Smooth concrete floor, and no plants. There’s a hum in the air, and the smell of ozone. In the dead centre, set in the floor, there’s a strange machine. About the size of a human head made of interlocking concentric rings of black stone that whirl around each other like some strange planetarium. Once every turn, the device gives out a great burst of electricity. Arcs of lightning are flung from it, striking the cage and earthing themselves. Anything inside is struck and takes the brunt of the shock, hence the lack of vegetation. Getting zapped deals 2d6 damage. There’s an extra d6 damage if metal armour is worn. There’s an extra d6 damage for each hand holding a metal item, like a lantern or sword. There’s an extra d6 damage if you’re carrying metal treasure (such as jewellery or coins). No save unless you can somehow dodge lightning. Everybody inside the cage is struck. If removed from the cage, it arcs to the closes big metal thing (bigger than a person). Everything living in the way is struck by the electricity. It’s not bolted down or anything; put it in a metal box and you’ve got a pretty good bomb."
+    },
+    {
+      "title": "Winery",
+      "page": 32,
+      "description": "This is a wide marquee, with a wooden slatted roof and open sides. Inside, there are various tables and chairs, suit able for a garden party, and several large wine barrels piled up. There are 2d6barrels, each well preserved but unmarked, and a further 2d20 wine bottles. The wine within is near-unique, hundreds if not thousands of years old and made by inhumanly talented vintners. Each bottle is worth 100 silver on the market, each battel 1000.<br><strong>If a whole bottle of wine is drunk while still in Ynn, the drinker instantly becomes drunk, and gains the following benefit permanently (roll d12):</strong><br>1. +1 maximum HP. 2. +I Strength.<br>3. +1 Dexterity.<br>4. +1 Constitution. 5. +1 Intelligence.<br>6. +1 Wisdom.<br>7. +1 Charisma.<br>8. +1 to saves vs Paralysis.<br>9. +1 to saves vs Poison.<br>10. +1 to saves vs Breath Weapons.<br>11. +1 to saves vs Devices.<br>12. +1 to saves vs Magic.<br><i>You can only gain each bonus once: if you drink the same wine again, all you get is even drunker. Drinking the wine outside of Ynn confers no benefit save a particularly aesthetic sort of inebriation.</i>"
+    },
+    {
+      "title": "Ruins of Ynn",
+      "page": 33,
+      "description": "This far out, things start to fall apart. The arcane machinery underpinning the gardens run haywire, causing things to lose their normal structure. The default for an area of Ynnian Ruins is an expanse of flowerbeds and lawns. There are great cracks in the ground, and collapsed blocks of stone and concrete where greater structures once existed. To generate a map of the area, drop a bunch of dice on a sheet of paper, and note down what dice landed where. <br><strong>The dice rolled gives a feature.</strong><br>1. A huge block of stone, the same shape as the dice that rolled it.<br>2. A deep pit. 10 feet per side on the dice that rolled it.<br>3. A wide chasm, 5 feet long per side on the dice that rolled it.<br>4. A tangle of barbed wire and rose thorns. Moving through deals 1 damage a round. 5 feet across per side on the dice that rolled it.<br>5. A column of baroquely coiled stone with a wide platform at the top.<br>6. A row of collapsed columns; as many as the number of sides on the dice that rolled this.<br>7. A pool of corrosive, spitting liquid. Each round of exposure deals d6 damage, 2d6 for complete immersion. 1 foot across for each side on the dice that rolled it.<br>8. A pile of rubble.<br>9. A fallen statue, 20 feet high.<br>10. A mass of gears emerging from the soil, still slowly churning. Get caught in the gears and take d6 damage a round.<br>11. A long, hollow pipe leading into the ground, with dirty water at the bottom.<br>12. A huge tree, a redwood as tall as a 6-story building.<br>13. A set of railway tracks twisted into a pretzel-knot.<br>14. The smashed, scorched remains of a horse-drawn carriage.<br>15. A ladder leading up into the sky. Tall enough you can’t see the top, it just fades into the misty heights.<br>16. A row of metal girders emerging from the ground like teeth.<br>17. A single huge stone hand, as big as an elephant.<br>18. An elegant arch-bridge made of rusted metal.<br>19. A cluster of blinking eyes studded into the ground.<br>20. A huge mouth, wide enough to swallow a person, set in the ground. It’s hungry. Anybody going near enough for it to bite gets attacked (+0 to hit, d20 damage, if the damage is even you’re sucked into the mouth and it starts chewing for d20 damage a round.<br>20+. An iron lamp-post with a lit lantern at the end.<br><i>The ruins here shift. Each turn, remove one of the features. Take a new dice without looking, and drop it onto the map. The new feature emerges in whatever way makes most sense; stone blocks fall from the sky, perhaps, and chasms open up like mouths. Alternatively, the thing just fades in when nobody is looking that statue was always there, how did you not notice? Maybe do this a few times in a turn to weird-up the place even more. Trying to map this place makes your head hurt. The angles and distances change when you aren’t looking. Go much further than this, and you suspect reality will start to fall apart entirely.</i>"
+    }
+  ],
+  "details": [{
+      "title": "Empty",
+      "page": 35,
+      "description": "This location is surprisingly devoid of inhabitants No insects, no birdsong. If an event would result in an encounter showing up, instead that encounter doesn’t."
+    },
+    {
+      "title": "Treasure-pile",
+      "page": 35,
+      "description": "There’s a little heap of treasure in the centre of the lawn here, glittering in the sunlight. There’s 5d10 silver in various denominations, and roll for treasure twice."
+    },
+    {
+      "title": "Graffiti",
+      "page": 35,
+      "description": "Explorers from the real world have scrawled graffiti across a wall here. If there’s some threat inherent to the location, the graffiti warns about it. If there’s something valuable that could be salvaged inherent to the location, the graffiti points it out. <strong>In addition, roll three d20s for what else the graffiti says each piece is in a different hand.</strong><br>1. [Xandu The Mighty/Roderick/ Black Alice/Alokraihne Valentinez/ Big Dave/Eleanor of Cym/The Black Rat] woz here<br>2. A religious symbol (such as a crucifix, ankh, or similar)<br>3. ‘Don’t drink the water’ (often good advice).<br>4. ‘Drink the water’ (often dangerous advice).<br>5. ‘The flowers are parasites’.<br>6. ‘The door closes in 24 hours;,<br>7. ‘Days are twice as long’.<br>8. ‘If I never return, tell my wife/husband I love them’ [dated at least a century ago]<br>9. ‘Turn back now, before it’s too late!’<br>10. ‘Ignore the other graffiti, it’s perfectly safe’ (probably not true).<br>11. ‘There are other doors out! Have faith!’ (true)<br>12. ‘I want to go home’ (an understandable sentiment.<br>13. ‘Don’t trust the Shining Ones’ (refers to the decadent-feral sidhe)<br>14. ‘Deeper in, there are more doors leading to other places’ (true)<br>15. ‘This is where we came in. Remember this place.’<br>16. ‘[Gug/Van Moldus/Jeremiah/ Alice/Torven/The Princess] died here’.<br>17. ‘The Masks are all cursed, except for the Child’s Mask’. (refers to the Mask Gallery actually, all the masks are cursed).<br>18. ‘Take heed, traveller! Another way out lies beyond the belltower!’ (there are other ways out, but the exact route to them varies).<br>19. ‘I hate trees’ (an understandable sentiment)<br>20. ‘Beware the Vats! Correct order or you Perish!’ (refers to the splicing vats; and, indeed, if you get things wrong in the vats, it can be disastrous)."
+    },
+    {
+      "title": "Well Maintained",
+      "page": 35,
+      "description": "Unlike most other parts of the gardens, this area is perfectly preserved. Metalwork isn’t rusty, stone isn’t eroded. The grass is neatly mowed, the hedges clipped, the flowers in straight rows."
+    },
+    {
+      "title": "Dead Explorers",
+      "page": 36,
+      "description": "The corpses of d6 explorers. <strong>They are (roll d6):</strong><br>1. Still warm.<br>2. Fresh enough that they’ve not been nibbled on.<br>3. Partly eaten.<br>4. Decaying and squishy.<br>5. Desiccated and shrivelled.<br>6. Bare skeletons.<br><br><strong>Roll a d10 for what sort of adventurer each was, and what’s on the body if they try and loot it.</strong><br>1. A thief. Leather armour, dagger, lock-picks, rope.<br>2. A ranger. Leather armour, hand axe,<br>12 arrows, longbow, grappling hook, rope,.<br>3. A knight. Plate armour, shield, longsword.<br>4. A priest. Chainmail, mace, holy symbol, holy book.<br>5. An assassin. Dagger, crossbow, 10 bolts garrotte, disguise kit.<br>6. A soldier. Chainmail, pike, entrenching tools, shield.<br>7. A magician. Staff, and a spellbook with d6 random spells.<br>8. An alchemist. Knife, vial of contact poison (save or die), vial of acid.<br>9. An exorcist. Plate armour, vial of holy water, hammer.<br>10. Bounty hunter. Crossbow, 10 bolts, shackles, hand axe, steel-trap. <br><i>Plus 2d10 silver pieces, and roll for treasure.</i><br><br>If there is a threat inherent to the location, then that is the obvious cause of death. <br><br><strong>Otherwise, roll d6 for what the corpses are doing:</strong><br>1. Hung by the neck from tree branches.<br>2. Sat in iron chairs at a patio table, as if having a meal.<br>3. Impaled on wooden spikes.<br>4. Laid out respectfully on the ground, as if for a funeral.<br>5. Sealed in glass coffins.<br>6. Spread-eagled, pinned to the ground by the hands and feet to prevent rising, with an exotic orchid growing from the mouth."
+    },
+    {
+      "title": "Nests",
+      "page": 36,
+      "description": "Dozens of rooks’ nests, tangled masses of twigs and detritus. Empty."
+    },
+    {
+      "title": "Rumbling",
+      "page": 36,
+      "description": "The ground here trembles gently, and emits deep rumbling, as if something under the earth is grinding slowly to the surface."
+    },
+    {
+      "title": "Lamp-Post",
+      "page": 37,
+      "description": "A black, wrought iron lamp-post stands in the middle of the open space here. It illuminates the area reliably. Nobody knows who changes the candles each night."
+    },
+    {
+      "title": "Silver Filigree",
+      "page": 37,
+      "description": "Scattered among the plants here are delicate art-neuveau curlicues made from silver. These are not sculptures, they’re plants from a different form of life the mineral life that grows deep below the earths veins on a geological timescale. Most are somewhat tarnished by now, and several have moss or lichen growing on them. Harvesting the Filigree is a relatively simple matter. Just dig them up and wipe the dirt off. Together, they’re worth about the same as 100 silver coins, multiplied by the area’s depth."
+    },
+    {
+      "title": "Glass Tubes",
+      "page": 37,
+      "description": "The location is criss-crossed with dark tubes that weave in and out of the ground, coil around terrain features and entangle with the vegetation. The tubes carry some sort of fluid apparently important to the machinery that keeps this place going. An iridescent fluid, refracting brilliant colours like a peacock feather or oil on water, the consistency of shower-gel. It smells and tastes like absinthe. Get it on your skin and you need to Save vs Magic or else roll for Ynnian Alterations. Drink it, and there’s no save."
+    },
+    {
+      "title": "Steel Frames",
+      "page": 37,
+      "description": "Jutting from the ground here are huge steel girders, big enough to be the structural supports for some weirdly curved skyscraper. Twisted and bent in odd ways, like the hand of god wrung the tower like a towel, and then everything but the girders war removed, leaving only the metal frame."
+    },
+    {
+      "title": "Dead Birds",
+      "page": 37,
+      "description": "The ground is littered with dead birds, as if they dropped out of the sky suddenly. Brightly coloured, their feather’ all broken and bedraggled."
+    },
+    {
+      "title": "Flooded",
+      "page": 37,
+      "description": "There’s standing water here, between knee and waist deep. Plants and structures emerge from the water, algae clinging to them by the water-line. It smells stagnant. Humans need to wade, smaller things to swim. Halve movement speeds."
+    },
+    {
+      "title": "Burned",
+      "page": 37,
+      "description": "There has been a fire here. There’s a thin layer of ash on the ground, trees are scorched, vegetation reduced to skeletal charred remains that crumble under your touch. Structures are weakened. 1-in-6 chance that the charred structure collapses at the worst possible moment if you venture onto/into it."
+    },
+    {
+      "title": "Frozen",
+      "page": 37,
+      "description": "Everything here is covered in a layer of frost that twinkles in the light. Water has a layer of ice several inches thick. The source of the cold is inexplicable. 1 damage per turn if you linger here, unless you’re warming up by a fire, indoors or wrapped up in cold-weather gear."
+    },
+    {
+      "title": "Ivy-covered",
+      "page": 37,
+      "description": "Ivy grows over absolutely everything here in a tangled blanket. Everything’s silhouette is softened and green. Underneath, the structures are perfectly preserved."
+    },
+    {
+      "title": "Singing",
+      "page": 38,
+      "description": "Music filters through the area softly. Like droning church organs, whale--song, Theremins attempting Gregorian chants. The source is a set of gold tubes, six inches thick, emerging from the ground, hidden behind greenery. Listening to the music promises to grant the listener Ynnian insight, although filtered through synesthetic psychedelia Each turn spent doing nothing but listen allows the listener to ask the GM a single question. <br><strong>The GM rolls a d10 to determine the list of possible answers, and then picks the most appropriate one.</strong><br>1. Crimson, Violet, Turquoise, Viridian, Azure, Black, White, Grey,<br>2. Spider, Butterfly, Slug, Wasp, Dragonfly, Maggot, Ant<br>3. Wind, Rain, Snow, Sunshine, Thunder, Fog, Clouds.<br>4. Fox, Crow, Horse, Rabbit, Pheasant, Sheep, Mole, Frog<br>5. Eye, Mouth, Finger, Foot, Neck,Hand, Leg<br>6. Gold, Silver, Bronze, Iron, Lead,Chrome, Steel<br>7. King, Queen, Castle, Bishop,Knight, Pawn<br>8. Swords, Wands, Coins, Cups,Hearts, Spades, Diamonds, Clubs<br>9. Earth, Wind, Water, Fire, Wood,Metal<br>10. Poet, Soldier, Thief, Farmer, Princess, Priest, Witch, Hangman, Moneylender"
+    },
+    {
+      "title": "Glass-roofed",
+      "page": 38,
+      "description": "This whole location is inside a single giant glasshouse. The climate is slightly warmer and more humid than normal, it’s misty and stifling. You’re protected from outside weather. 1-in-3 encounters here will be with Myconid Composters (at night) or RoseMaidens (during the daytime). They have settlements here."
+    },
+    {
+      "title": "Sidhe Skeletons",
+      "page": 38,
+      "description": "The skeletons of some of the sidhe, d4 of them. A sidhe’s bones are made of perfect alabaster. Each bone is thin and delicate; a thigh-hone is the width of a human finger, ribs are wire-thin., the skull no thicker than cardboard. The creature’s frame is taller than a human. The proportions are perfectly symmetrical. Even in death, the bones scattered and fell into patterns that are aesthetically balanced. To a collector, each bone in the sidhe’s skeleton is worth an average of ten gold. There are 250 bones in the body."
+    },
+    {
+      "title": "Clockwork Parts",
+      "page": 38,
+      "description": "The structures here (be they fences, buildings, trees or the floor) have clockwork built into them. The wheels and gears turn slowly, producing a steady polyrhythmic ticking."
+    },
+    {
+      "title": "Inverted",
+      "page": 39,
+      "description": "The whole location is upside-down; it is built and grows on the ceiling over a yawning abyss. Trees grow down, with roots in place of branches, grass hangs limply. The abyss has no visible bottom, it just fades into mist. Fall in, and you’re just gone. The trip is one way, there is no return. Flying will stop you falling in, but won’t save you once you’ve fallen; the pull of the abyss is too strong, it’s like being dragged underwater by a riptide. Maybe you can cling to the trees and other structures here, if there are any. Otherwise, you need to navigate by hanging onto plants, roots and other bits of garden, like doing monkey-bars. It’s perfectly safe as nothing goes wrong. <br><strong>However, something might go wrong if:</strong><br>‣ You take damage.<br>‣ You make an attack.<br>‣ You try to ‘run’ or otherwise move fast.<br>‣ Something surprises you.<br>‣ You need to use both hands for a task.<br>Add up the total of your Strength, Dexterity and Constitution. This value is your grip. Every time something might go wrong, roll a d20, and deduct the result from your grip. Deduct any damage you suffer from the total as well. When your grip hits 0, you fall. There’s a round for you to be caught before it’s too late, and after that you’ve dropped off the gardens and into the abyss. If a full exploration turn passes without your grip worsening, it resets to its starting value. Using specialist climbing gear, magic or similar might increase your grip strength, at the GM’s discretion. You can’t Go Deeper without crossing the location, but you can Go Back to where you just came from."
+    },
+    {
+      "title": "Floating",
+      "page": 39,
+      "description": "Like an Inverted location, this one is suspended over the yawning abyss. The location is made up of floating islands of turf and concrete that hang suspended in mid-air, unmoving. There are no bridges between the islands. Maybe you can jump, or put your own bridge across. Falling into the abyss is just like in Inverted locations or Cliff Gardens. You have 1 round to rescue yourself or be rescued, and then you’re gone forever. You can’t Go Deeper without crossing the location, but you can Go Back to the way you came."
+    },
+    {
+      "title": "Chasms",
+      "page": 39,
+      "description": "This location is split into sections by chasms leading to the yawning abyss. Huge cracks in the ground lead to the misty nowhere that seems to lie beneath the Gardens. The chasms are wide enough to jump across, most of the time. Unless something goes wrong. Jumping requires two things: that you have enough force to reach your destination, and that you land safely without falling when you get there. These can be represented with Strength and Dexterity checks respectively, when appropriate. If you fall in, you have a round to rescue yourself or be rescued, as ever. <i>There could be a whole other world at the bottom of the misty abyss. Perhaps it is wonderful down there. Nobody knows for sure ; nobody ever comes back. Perhaps that’s where the sidhe ended up.</i>"
+    },
+    {
+      "title": "Smouldering",
+      "page": 40,
+      "description": "This area is still dimly on fire. Although the fire has mostly burned its course, leaving everything blackened and charred, flame still coruscates over various surfaces in little dancing bands. It is trivial to avoid actually going into the flames themselves. If you do (perhaps somebody pushes you in, or you fall as part of some other mishap, or you’re just stupid) then you take d6 damage a round and make a Save vs Breath Weapons; failure means you catch light and burn for d6 damage a round even when you get out. Perhaps an on-fire character spreads the flame with them as they flail about, too. Although the fire is easy to avoid, the area is still dangerous. The heat and smoke-filled air deal 1 damage each turn just for being there."
+    },
+    {
+      "title": "Churning",
+      "page": 40,
+      "description": "The ground here moves of its own accord. Not quite like an earthquake, more like the way a ship’s deck sways and shifts in rough water. The turf splits and re-seals itself every few minutes as the ground-level warps. Trees, buildings and other structures sway wildly."
+    },
+    {
+      "title": "Predatory",
+      "page": 40,
+      "description": "This location wants to eat you. The loam itself is hungry. It can’t see, but it can dimly hear and senses vibrations. If you make much noise or cause much vibration in the ground, it will try to take a bite. A mouth made of loam and clay but with white ivory teeth opens up by the victim’s feet. Roll to hit at +0 to see if the attack hits (bonuses for shields don’t count here). A hit deals d12 damage and clamps the mouth onto the character’s body. It chews for d12 damage each round thereafter until the character either dies (and is swallowed) or pulls free. Causing a mouth pain causes it to let go of whatever’s in it. Anything that causes 5 or more damage in one go will do this, as will anything spicy (like horseradish or chilli), any fire, or particularly pointy things (like caltrops). The mouth spits out whatever’s in it, and seals up to resemble blank turf once more. Any number of mouths can try eating people at once, but only one mouth per person. If you aren’t on the ground (up a tree or on a fence for example), the mouths can’t get you. Speaking doesn’t trigger a mouth, but walking might and running, fighting or other strenuous activity certainly does. Walking carefully has a 50% chance to provoke a mouth. Thieves and other stealthy characters get their normal chance at stealth as an extra save to avoid attracting the mouths no matter what they’re doing, so long as they try to do so stealthily."
+    },
+    {
+      "title": "Fleshy",
+      "page": 40,
+      "description": "This section of garden has all the plants made of meat, bone and gristle rather than vegetable matter. Trees are pillars of bone, with rib-like or hand-like branches and leaves that are flaps of red skin. Grass is instead long strips of soft flesh like on the inside of the throat. Flowers made of delicately folded mucus-membranes sit on the end of cartilage stems. Here and there, an eyeball peers out of the soil, blinking placidly, or set of fleshy fingers grasps at your ankles. It smells like an abattoir or a hospital. The meat is all edible, if you cook it, but even then eating it causes you to roll for Ynnian Alterations."
+    },
+    {
+      "title": "Entrancing",
+      "page": 41,
+      "description": "There’s a subtle mental-field over this location. The location feels nice. Like you belong here naturally. Leaving would be wrong. Each turn spent here heals 1 point of damage. If your attributes have been damaged, they can be healed in the same way. It’s comfortable and your pain is soothed while you’re here. When you leave, that feels wrong. When you leave, you lose any healing you gained here. The damage comes right back. On top of that, you take d10 damage to Charisma from just how harrowing the experience is.<i>GM’s, don’t spring the loss of healing and charisma damage on your players unexpectedly. When they first mention leaving the location, tell them what the consequences of leaving will be, and let them agonize over what to do.</i>"
+    },
+    {
+      "title": "Fertile",
+      "page": 41,
+      "description": "Things grow well here. Things heal rapidly here. The vegetation is thick, lush, packed in tightly. Each turn spent here heals 1 point of damage. If your attributes have been damaged, they can be healed in the same way. It’s invigorating. You feel full of life and energy."
+    },
+    {
+      "title": "Luminous",
+      "page": 41,
+      "description": "The plants here bioluminesce. Flowers have softly glowing petals, the leaf-buds of the trees shed soft light. It’s never truly dark here."
+    },
+    {
+      "title": "Zero Gravity",
+      "page": 41,
+      "description": "Gravity here is practically non-existent. Drop a rock and it will drift gently, like people in water, rather than falling. A person can leap huge distances, like astronauts on the moon, or launch themselves off the earth entirely."
+    },
+    {
+      "title": "Hypnotic",
+      "page": 41,
+      "description": "When this location is entered, the entrances seal up and vanish behind you, trapping you in a tiny bubble-reality. You cannot go deeper, you cannot go back, you are stuck here. The walls and hedges defining the place are impassable, and any attempts to hack a path away loop back again. They only way out is to break through the wall of consciousness. Falling asleep is the easiest way, but drinking yourself into a stupor or getting bopped on the head will also do the trick. At the point where a PC falls unconscious, they are transported to the ‘other side’ of the location (although their companions only see them pass out). They wake up in a duplicate of the location, their companions asleep on the ground next to them. This place is much the same, except they can leave freely. They can go back to the ‘enclosed’ version of the place by going back to sleep, which will cause them to wake up in the ‘trapped’ version. Time passes the same in both locations. You are asleep in one, and awake in the other. You pass between the two by falling asleep in one to wake in the other."
+    },
+    {
+      "title": "Parasitic",
+      "page": 42,
+      "description": "This area is infested with parasites. Animals here are sickly, plants show growths and cankers. <br><strong>Merely being here does not put you at risk. The following do:</strong><br>‣ Eating food from here.<br>‣ Drinking the water here.<br>‣ Taking an injury to flesh here.<br>‣ Sleeping here.<br>‣ Having close contact with somebody already infected.<br><br>Whenever a character risks infection, they Save vs Poison. On a failure, they’re infected. <br><strong>Roll a d12 to see what’s now infesting them.</strong><br>1. A squid in the stomach. Vomiting is more likely, and full of black ink. Require twice as much food and water to avoid starvation.<br>2. Tinyredwormsunderthefingernails. -1 dexterity per day that it goes untreated. Treating it requires yanking them out, dealing 1 damage per day of infection, and restores the lost dexterity.<br>3. Blowfly larvae under the skin. Boils and bumps that wriggle horribly. -1 constitution per day that it goes untreated. Treatment requires digging them out, dealing 1 damage per day of infection, and restores the lost constitution.<br>4. Mycelium threads under the skin, rendering it fragile and prone to splitting. Cracks in the skin ooze milky white fluid. +1 to all damage from physical injuries per day of infection (so after two days, +2).<br>5. Luminous worms under the eyelids. Dazzling, disorientingly bright. Can see in the dark with those glowing eyes, but double the chances of being surprised due to disorientation.<br>6. Teeth replaced with tiny barnacles that grow in the sockets and push the tooth out. Actually harmless, except that your mouth is the wrong shape, making pronunciation difficult.<br>7. Cordyceps infestation in the brain. Your self-preservation goes down massively, the fungus wants you to get eaten so it can spread the infection. -3 AC, and you can no longer use defensive tactics.<br>8. Your flesh is infested with tiny rootlike tendrils that constantly probe and squirm their way through your body. Your health fluctuates wildly. Each day, you re-roll your hit-dice to see how many HP you have.<br>9. Tiny crabs with faces like children live in your gut. Each day you leave them there, reduce your maximum HP by 1 as more crabs are born. Once your HP reaches 0, your stomach bursts.<br>10. Your skin is starting to turn to glass. Moving causes it to crack, forming a jagged shell over your flesh. Each day that the glass spreads, you add +1 to your AC (your AC never goes above 19 from this), and take 1 more damage every time you’re injured. (for example, after 3 days you get +3 AC and take 3 extra damage).<br>11.The fungus growing in your skin causes you to sweat a greasy black hallucinogen constantly. You treat your Wisdom and Intelligence as 5 points lower for as long as you’re infected.<br>12. Tadpoles swim through your blood vessels, leaching the nourishment and vitality from you. Whenever you heal, you heal 1 point less."
+    },
+    {
+      "title": "Doorway Out",
+      "page": 43,
+      "description": "In a fence here, there’s an unobtrusive doorway slightly ajar. Written on it, in chalk, are the words: “The Physical Realm, By Way of Ynn” This is a portal back to the real world. <br><strong>Roll a d20 for where it takes you (the destination will always be a wall in a garden somewhere, but beyond that the details vary wildly).</strong><br>1. A different wall in the same garden you entered through.<br>2. A public park.<br>3. A zoological park, with tigers and penguins.<br>4. An elaborate rose garden.<br>5. An alchemist’s herb garden.<br>6. A monastery’s elaborate devotional garden.<br>7. A hedge maze in a wealthy estate.<br>8. The poky back yard of the lower middle classes.<br>9. A memorial garden to commemorate some great tragedy.<br>10. A children’s park, with swings and a sandpit.<br>11. An Educational Park for the lower classes, with allegorical topiaries and symbolic flower choices.<br>12. A gallery of classical statues.<br>13. A cemetery, with a funeral in progress.<br>14. A greenhouse growing rare exotic orchids.<br>15. The grounds of a sanatorium for the sickly.<br>16. A water-garden, with carp ponds and fountains.<br>17. The hallowed ground outside a shrine.<br>18. The herb garden in a convent.<br>19. Anoble’sprivategarden,forwooing in.<br>20. Therelaxinggardenforinmatesat an asylum.<br><br><strong>Unless you got result 1 (the same garden), roll a d6 for how far away from where you entered the doorway takes you.</strong><br>1. Same town.<br>2. Same county.<br>3. Same nation.<br>4. Same continent.<br>5. Further afield<br>6. Somewhere truly exotic."
+    },
+    {
+      "title": "Tangled Madness",
+      "page": 43,
+      "description": "Out here, reality starts to lose its consistency. Causality becomes hazy, distances and angles warp, things blur together. It’s like being unbelievably stoned or enjoying a good mushroom trip, but it’s really happening. <br><strong>The effects when you enter are as follows:</strong><br>‣ For each item that you have more than one of, flip a coin. Heads, you now have one less, tails you now have one more.<br>‣ Time moves forward in stutters and gloopy bursts. In combat, when anybody acts, flip a coin. Heads, they act twice, tails they don’t act at all.<br>‣ The experience of keeping track of what’s going on is mentally taxing. Halve all experience gained here.<br>‣ If you try to Go Back or Go Deeper, flip a coin. Heads, you go deeper, tails you Go Back (randomly determine where you go back to) if there are multiple routes."
+    }
+  ],
+  "events": [{
+      "description": "A sudden change in the weather wells up. Either howling winds, torrential rain, heavy snow, a thunderstorm or a rapidly-encroaching wall of fog; pick one.",
+      "encounters": 0
+    },
+    {
+      "description": "An ominous ticking can be heard from beneath the ground. Nothing happens yet. Next time an Event is rolled in this location, roll two events instead.",
+      "encounters": 0
+    },
+    {
+      "description": "Something turns up; it is hostile. Roll for an encounter.",
+      "encounters": 1
+    },
+    {
+      "description": "Something turns up; it’s merely curious. Roll for an encounter.",
+      "encounters": 1
+    },
+    {
+      "description": "Something is disturbed while eating. Roll for an encounter.",
+      "encounters": 1
+    },
+    {
+      "description": "Something is found trapped. Maybe it’s caught in tangled vines, or its foot is in a snare, or it’s locked in a cage. Roll for an encounter.",
+      "encounters": 1
+    },
+    {
+      "description": "A fight spills into the location. Roll two encounters, they’re already fighting each other before the players get involved.",
+      "encounters": 2
+    },
+    {
+      "description": "Something’s territory is disturbed and it defends its lair. Roll for an encounter.",
+      "encounters": 1
+    },
+    {
+      "description": "Something turns up, badly injured, totally lost or otherwise at a disadvantage. Roll for an encounter.",
+      "encounters": 1
+    },
+    {
+      "description": "Something is returning to its home, and is surprised to find PCs here. Roll for an encounter.",
+      "encounters": 1
+    },
+    {
+      "description": "Tracks,litter,or other signs of passage are found. Roll an encounter to see what left them. The next encounter in this location will be with that.",
+      "encounters": 1
+    },
+    {
+      "description": "Beneath the earth’s surface, something grinds and churns, and ripples of change flow through the garden. Roll a new Detail for the location and apply it in the most logical way. Everybody present must Save vs Magic, and if they fail roll for an Ynnian Alteration.",
+      "encounters": 0
+    },
+    {
+      "description": "Something’s empty home is found. Roll for treasure for what’s there, and roll an encounter to see what lives there. The thing’s not home currently. Next time you’d roll an encounter in this location, instead the creature who’s home you found comes back.",
+      "encounters": 1
+    },
+    {
+      "description": "A cache of hidden treasure is found under a paving slab! Roll for what the treasure is.",
+      "encounters": 0
+    },
+    {
+      "description": "A cache of hidden treasure is found in a wooden box! Roll for what it is.",
+      "encounters": 0
+    },
+    {
+      "description": "A set of steps are found,leading to a subterranean passageway. The passage is lined with black and white tiles, and lit with candles. It leads somewhere else on the map. Draw a line leading to a previously explored location, ideally one less deep than the current location.",
+      "encounters": 0
+    },
+    {
+      "description": "A neat brick pathway is found, covered in an arch of thick hedge-row that hides the sky. It leads to an area d6+1 layers deeper.",
+      "encounters": 0
+    },
+    {
+      "description": "A set of railway tracks are found, complete with a little trolley. If you ride the trolley, it takes you to another location you’ve already explored, preferably one quite deep.",
+      "encounters": 0
+    },
+    {
+      "description": "A sunken canal is found, a few feet down, concealed by an iron grille overgrown with plants. The little canal-boats in here will take you somewhere else; a new location 2d6 levels deeper.",
+      "encounters": 0
+    },
+    {
+      "description": "The pathway crumbles away, collapsing in on itself and vanishing under rapidly-growing ivy and rose-brambles. Erase one of the exits leading from this location.",
+      "encounters": 0
+    }
+  ],
+  "dayEncounters": [{
+      "title": "A Black Cat",
+      "page": 45,
+      "description": "Once a witch’s familiar. The witch is long dead, the cat remains. Can talk, is intelligent, and knows a good deal about what you might encounter.<br>If it would die, instead survives through incredible luck. Can do this 8 times, the ninth death is real.",
+      "stats": "HD 1, HP 1, Armour as unarmoured, bite (+0, 1 damage) Save as Fighter 1."
+    },
+    {
+      "title": "An Emerald Serpent",
+      "page": 45,
+      "description": "A brilliant green snake that glitters like emeralds. Venom drops from its mouth, hissing and steaming where it hits the ground.<br>Venom is corrosive; on taking damage Save vs Poison or take 2d8 more.",
+      "stats": "HD 1, HP 65 Armour as chain, bite (+1, d4) Save as Fighter 1."
+    },
+    {
+      "title": "A Bottle-Hermit-crab",
+      "page": 45,
+      "description": "A fat, pale soft-shelled crab, using an empty wine bottle as an improvised shell. Weaves side-to-side drunkenly.",
+      "stats": "HD 2, HP 8, Armour as plate, 2 claws (+2, d4) Save as Fighter 2."
+    },
+    {
+      "title": "D6 Moss-rats",
+      "page": 45,
+      "description": "Big rats with moss instead of fur. Friendly. Where they spend much time, moss starts to grow. After a few days, the moss sprouts into more moss-rats.<br>Vulnerable to things that affect both plants and animals.",
+      "stats": "HD 1 HP 3, Armour as unarmoured, bite (+0, d4) Save as MU 1."
+    },
+    {
+      "title": "2d4 Plant-skeletons",
+      "page": 45,
+      "description": "Skeletons interwoven and animated with vines and creepers. The skeletons are just a framework, the real creature is the plant sprouting from between its ribs.<br>Undead. Those killed reanimate as plantskeletons a turn later.",
+      "stats": "AC as leather, 1 HD, 4 HP, claws (+0, d6), saves as fighter 1."
+    },
+    {
+      "title": "A Giant Frog",
+      "page": 46,
+      "description": "It’s just a really big frog, the size of a horse. Dumb even for an animal, but hungry. Lurks and ambushes.<br>On a 20 to hit with either attack, the victim is pulled into the frog’s mouth and swallowed. Death ensues in 3 rounds. <br>Dealing 12 damage is sufficient to cut a way out of the frog’s belly, or other cunning methods might work.",
+      "stats": "HD 3, HP 15, Armour as leather, bite (+3, d8) or tongue (+3, d6, long range), Save as Fighter 2."
+    },
+    {
+      "title": "A Bonsai Turtle",
+      "page": 47,
+      "description": "A lumbering turtle, as broad as a cart. Old and ponderous. The ridges on its back form a bowl, the bowl is filled with moss and detritus and has a single tree sculptural and elegant growing from it. Like a bonsai scaled back up again, on the back of a turtle. The tree’s roots fuse with the turtle’s flesh.<br>If the body is not burned after it is killed, the symbiotic mass will start to re-knit itself, regaining d6 HP a turn. Once the turtle has its full HP back, it returns to life.",
+      "stats": "HD 3, HP 18, Armour as plate, bite (+3, d8), Save as cleric 3."
+    },
+    {
+      "title": "A Salamander",
+      "page": 48,
+      "description": "A pallid, sinuous amphibian, like an axolotl. But as long as a human, and intelligent. Where an axolotle has gill-like fronds extending from its neck, the salamander has a flickering ruff of condensed flame. The salamander is loquacious and well educated It will expound, at length, on the artistic merits and failings of any particular thing that catches their fancy.<br>Immune to fire.",
+      "stats": "HD 7, HP 25 Armour as chain, Either constrict (+7, d8 damage and d6 fire) and bite (+0, d6 damage and d6 fire) OR fire breath (everybody in the blast save vs Breath or take 2d6 damage), Save as MU 7."
+    },
+    {
+      "title": "A Golem Gardener",
+      "page": 48,
+      "description": "An artificial being, made of elegantly carved hardwood wood jointed together. Lacquered and polished. Makes a soft clicking of wood-on-wood when it moves.<br>Dedicated to maintaining the garden. Plants trees, prunes, weeds, dredges ponds. Displays a tender care for the plants, insects and birds it looks after. A gentle giant, almost maternal in its nurturing.<br>Implacable in its cold fury against anything that would harm the gardens. Does not speak, simply removes weeds and vermin.<br>Immune to cold, electricity, poison. Double damage from fire.",
+      "stats": "HD 9, HP 30 Armour as plate and shield, 2 Slams (+9, 2d6) Save as Fighter 9."
+    },
+    {
+      "title": "A Carnivorous Plant",
+      "page": 48,
+      "description": "A huge plant that eats people. Maybe a venus-flytrap with jaws the size of a chair. Maybe a giant sundew covered in sticky tendrils as long as your arm, maybe a pitcher plant the size of a phonebox that drags you into its maw.",
+      "stats": "HD 5, HP 20 Armour as leather, d4 attacks (+5, d6), saves as fighter 5."
+    },
+    {
+      "title": "A Giant Caterpillar",
+      "page": 48,
+      "description": "A fat caterpillar 12 ft long. Skin like old, cracked leather, mouthparts a mess of tendrils and mandibles. It trundles through the garden, feasting on the thickest greenery, leaving wreckage behind it.",
+      "stats": "HD 4, HP 16 Armour as leather, 4 tentacles (+0, save vs paralysis or paralysed for as many rounds as the dice roll) and a bite (+4, d6), saves as fighter 5."
+    },
+    {
+      "title": "D6+1 Rust Bumblebees",
+      "page": 48,
+      "description": "Like bumblebees the size of your head, held aloft on buzzing tinfoil wings Rather than fluff, their bodies are covered in a reddish crusty residue, partway between scabs and rust and peeling paint. They build out of corroded metal. Their hives are weird geigeresque semi-organic heaps of oxide flakes fused into hexagonal grids. Adventurers are a source of materials for the hive, and the bees will quickly send a small swarm of workers to collect what materials they can. Essentially these are to normal bees what normal rust monster is to a cockroach.<br>As well as (or instead of) attacking with its sting, the bee gets two attacks with its antennae, that corrode metal on contact. Since armour and parrying don’t help here, the attack hits automatically, and the victim must Save vs Devices or else a piece of metal equipment is rusted into uselessness.",
+      "stats": "HD 4, HP 6 Armour as chain, sting (+0, d4 ) saves as fighter 2."
+    },
+    {
+      "title": "A Glass Butler",
+      "page": 49,
+      "description": "A hollow statue made of living glass. Shaped with elegant flutes and curves, like an elegant abstracted coral. Humanoid, with the vaguest hint of a face and long fingers.<br>It cannot speak properly, but air passing through the glass tubes allows it to communicate with an eerie piping noise.<br>It was made to serve the sidhe guests here, but with them long-gone its programming has degraded. It hunts the garden for food that it could serve to its masters (long gone though they are), and the PCs are certainly made of succulent meat.<br>There’s a 2in-6 chance that it will obey any direct order or request it receives unflinchingly. This increases to 4-in-6 when an elf PC issues the order. The obedience is only temporary, however, and after a while its programming kicks in and it continues as before.<br>Immune to damage from cold, acid, electricity and fire. On death, shatters into thousands of pieces,; those next to it save vs breath or take d6 damage.<br>Once per hour, can cast Purify Food/Water, Mend, Message and Light.<br>Once per day, can cast Animate Object, Flesh to Glass, Glass to Flesh and Control Weather.",
+      "stats": "HD 6 HP 1 Armour as plate and shield, 2 glass claws (+6, d8) saves as cleric 6."
+    },
+    {
+      "title": "A hybrid-beast",
+      "page": 50,
+      "description": "This creature is a bizarre mish-mash of multiple animals into one strange chimera. They are the products of The Splicing Vats. Their intelligence is largely limited to animalistic levels, although the combination of different animals can result in strange and cunning behaviours not seen in nature. Each is near-unique; roll up the details of each below.<br><br><strong>Roll a d20 for the base animal.</strong><br>1. Gorilla (2 claw attacks for d4)<br>2. Horse<br>3. Eagle(canfly)<br>4. Crocodile (can swim)<br>5. Monitor Lizard<br>6. Armadillo (AC as chain)<br>7. Sloth (2 claw attacks for d4)<br>8. Porcupine (AC as chain)<br>9. Toad<br>10. Wolf<br>11. Stag<br>12. Ferret<br>13. Tiger<br>14. Cheetah<br>15. Zebra<br>16. Goat<br>17. Hyena<br>18. Peacock (can fly)<br>19. Orangutan (2 claw attacks for d4)<br>20. Yak<br><br><strong>Roll d20 for the creature’s head.</strong><br>1. Wolf(extrabiteattack,+4,d8)<br>2. Goat (extra horn attack, +4 d6)<br>3. Zebra<br>4. Orangutan<br>5. Giraffe<br>6. Crow (extra peck attack, +4 d4)<br>7. Carp (can breath in water)<br>8. Snake (extra bite attack, +4 d6 and save vs poison or 2d8 poison)<br>9. Hammerhead Shark (extra bite attack, +4, d8)<br>10. Tiger (extra bite attack, +4, d8)<br>11. Axolotl (can breath in water)<br>12. Ostrich<br>13. Rat<br>14. Monitor Lizard<br>15. Hyena (extra bite attack, +4 d8)<br>16. Stag (extra antler attack, +4 d6)<br>17. Bull (extra horn attack, +4 d6)<br>18. Baboon<br>19. Chameleon (never surprised)<br>20. Duck<br><br><strong>Roll 2 d20s for the other unusual features the animal has.</strong><br>1. BatWings(canfly)<br>2. Snakeforatail(extrabiteattack,+4, d4, save vs poison or 2d8 poison)<br>3. Long and Sinuous (can wrestle as well as attacking, +4, grabs on a hit, d4 damage a round there after)<br>4. Tiger-stripedfur.<br>5. Feathers<br>6. Mimics noises that it hears perfectly<br>7. Humanhandsandfeet.<br>8. HummingbirdWings(canfly)<br>9. Tortoise Shell (AC as plate)<br>10. Bat Ears (echolocation)<br>11. Dragon breath (instead of attacking normally, can breath fire: Save vs Breath or 3d6 damage)<br>12. Mole Legs (can tunnel)<br>13. Extra head (roll for what)<br>14. Two extra heads (roll for what)<br>15. Extra legs (extra claw attack)<br>16. Chameleon Skin (double chance to surprise)<br>17. Kangaroo Legs<br>18. Peacock Wings (can fly)<br>19. Tusks (extra tusk attack, +4 d6)<br>20. Gecko Feet (can walk on walls)",
+      "stats": "HD 4 HP 24 Armour as leather, basic claw (+4, d8) saves as Fighter 4."
+    },
+    {
+      "title": "An Animate Statue",
+      "page": 51,
+      "description": "A statue that moves about. Beautifully carved from marble, worth 300 gold if the body is recovered.<br>Vague and uncertain. Not quite human intelligence, not quite animal. Senile.<br>Immune to fire, cold, electricity. Immune to poison and sickness. Maximum of 1 damage from weapons other than magical weapons or blunt metal weapons. 50% chance to ignore any spell (save those that specifically affect stone) entirely.<br><br><strong>Roll a d20 for what the statue is of:</strong><br>1. Heraldic Lion<br>2. Rippling-muscled Adonis<br>3. Angel<br>4. Innocent-looking Child<br>5. Heraldic Eagle<br>6. Heraldic Dragon<br>7. Weird Abstract Blobs<br>8. Weird Geometric Shapes<br>9. The Devil<br>10. Cupid<br>11. Beautiful Young Woman<br>12. Mermaid<br>13. Heraldic Stag<br>14. An Orchid<br>15. Knight in Armour<br>16. Saint<br>17. Unicorn<br>18. Wicked Serpent<br>19. Massive Baby<br>20. Big Jolly Fat Man",
+      "stats": "HD 9 HP 35, Armour as plate, Slam(+9, d10) saves as fighter 9."
+    },
+    {
+      "title": "A pack of 2d4 Peahawks",
+      "page": 51,
+      "description": "Descended from domesticated peacocks, grown large and carnivorous. Take a peacock. Make it as tall as a person, with a viciously hooked beak and long legs like a cassowary. Keep the long elegant peacock-feather tails and the iridescent feathers.<br>These creatures hunt in packs, relying on speed and sudden vicious assaults to bring down prey.<br>The bodies of Peahawks are fabulously valuable to hat-makers and interior decorators; each is worth 100 gold.",
+      "stats": "HD 3 HP 12, Armour as leather, peck (+3, d6) and two claws (+4, d8) saves as fighter 3."
+    },
+    {
+      "title": "An Ambulatory Pudding",
+      "page": 52,
+      "description": "A desert or confection, living and able to move about. Predatory, which is how it has achieved such great size.<br>Different kinds of pudding look and behave in different ways.<br>To a gourmand of exotic tastes, an ambulatory pudding delivered alive and edible is worth 100GP.<br>Immune to backstabs and other attacks that target vulnerable anatomy. Half damage from piercing attacks. Immune to cold.<br><br><strong>Roll a d20 for the type of pudding.</strong><br>1. Custard. Thick, yellow, totally fluid form. Attacks every adjacent enemy, not just the one.<br>2. Black Forest Gateaux. Bulky, sticky, covered in icing. Layers of cake split to form a mouth. 30 HP.<br>3. Fruit. A large, wobbly jellopudding. Bits of huge exotic fruit within. Can flow through narrow gaps.<br>4. Trifle. A sloppy mess of different layers. Timid.<br>5. Cheesecake. Flabby pallid masses protect a crunchy inner core. Drowns victims in its mass. Sadistic.<br>6. Fudge. Big, blocky, brown masses lumbering forward on chunky legs. 30 HP.<br>7. Steamed Pudding. Big and sticky. Gives off a cloud of foggy steam around it.<br>8. Sticky Toffee Pudding. Rich, adhesive, Tawney coloured. Those taking damage must save vs paralysis or be glued to it. A round spent making a successful save vs paralysis is required to escape.<br>9. Cupcake. Small, dainty. 5hp, encountered in packs of d6.<br>10. Chocolate. Brown and soft and rather gooey. Shambles about on little legs. A default sort of pudding.<br>11. Christmas Pudding. Soaked in brandy and flickering with blue flame. Does d6 extra fire damage, and risks setting things alight.<br>12. Rice Pudding. Form constantly dripping , extrudes rough limbs to walk and grapple with. Pallid.<br>13. Bread-and-butter-pudding. With a thick bready crust and a soft inner part. Little arms and legs and lots of mouths where the breadcrusts meet. Vulnerable to backstabs etc.<br>14. Spotted Dick. Dotted with raisins that act as sensory organs. Aggressively territorial. Don’t snigger at the name.<br>15. Apple Crumble. Gooey fruit bits under a gritty shell. Armour as Chain, only 15 HP.<br>16. Tapioca. Translucent, pearlescent, slightly supernatural. 1-in-6 chance to totally ignore any spell cast on it.<br>17. Ice-cream. Thick, opaque creamy pudding. Does an extra d6 cold damage. Double damage from fire, and takes electric damage normally rather than healing.<br>18. Figgy Pudding. Tough and black with a crusty outer layer, but crumbly within. AC as plate, but only 10hp.<br>19. Battenberg. Arranged into a grid of roughly square sections smushed together. Slashing attacks have a 50% chance to bisect the pudding rather than injuring it; the pudding splits into two puddings, each with half the original amount of HP.<br>20. Crème Brulee. Crunchy exterior. Squelchy interior. Healed by fire damage. Reckless.",
+      "stats": "HD 10 HP 20, Armour as leather, Engulf (+3, 3d8), saves as fighter 10."
+    },
+    {
+      "title": "A Walking Topiary",
+      "page": 53,
+      "description": "Somewhere between a golem and a plant-monster, this is a piece of carefully trimmed hedgerow, shaped like a person or a bird or some other equally artificial conceit, that walks about like it’s a real animal.<br>Immune to backstabs and other attacks that target vulnerable anatomy. Double damage from fire.",
+      "stats": "HD 6, HP 24, Armour as leather, d4 branches (+6, d6), saves as fighter 6."
+    },
+    {
+      "title": "A Praying Mantis",
+      "page": 53,
+      "description": "A huge carnivorous insect, 20 feet long. Bark-like green chitin and brightly patterned wings like enormous flower petals.An ambush predator.<br>On a successful claw attack, makes an additional bite (+8, d12)",
+      "stats": "HD 8, HP 32, Armour as plate, two claws (+8, d12), saves as fighter 8."
+    },
+    {
+      "title": "A flock of 3d6 Glass Birds",
+      "page": 53,
+      "description": "Transparent, hollow hummingbirds made of glass. Long, syringe like beaks pierce flesh to feed on blood; when they do, the blood drunk can be seen sloshing about inside them.<br>On a successful proboscis attack, latches on for d4 automatic damage each round thereafter instead of attacking.",
+      "stats": "HD 2, HP 1, Armour as plate, proboscis (+2, d4), saves as fighter 2."
+    },
+    {
+      "title": "A choir of 2d4 Rose-maidens",
+      "page": 54,
+      "description": "As a dryad is to a tree, these creatures are to beds of roses. They appear roughly humanoid, with a thick thorny stem in place of their torso and legs. Their arms are formed by intertwined leafy branches, and each one has a single large rose in place of a head; whatever sensory organs they have are nestled between the stamen.<br>The rose maidens can walk about on their roots. They talk in high, soft voices; where the human voice is a cello, a rosemaiden’s voice is a flute.<br>They are as intelligent as humans. They maintain the sites of particular beauty in the garden, brushing away dirt and litter and polishing stone and metal. Like the Myconid Composters, they have their own culture. Their mannerisms are elegant. Despite their manual labour, they behave more like refined artistic types; poets or musicians perhaps. Everything beautiful must be preserved, everything ugly must be destroyed.<br>They sing as they work, producing melodies too subtle for the human ear to properly register. They sing when they fight, too. Eerie droning choirs. Their songs hit strange resonant frequencies in the plants around them. By combining frequencies, their harmonies can produce supernatural-seeming effects.<br>These songs are also how they train plants to grow in particular patterns. Their homes elegant bowers of living wood and leaves are made in this way, as are those few tools they use.<br>Their eerie droning songs are disconcerting. 1-in-10 chance per rose-maiden present for anycharacter casting a spell to instead do nothing that round. The same applies to other actions requiring concentration, such as first aid or aiming.<br>Twice per day, they can cast each of the following: Animate Plants, Speak With Plants, Pass Through Plants, Hold Plant. Spellcasting is only possible if more than one rose-maiden casts that round; a single rose maiden’s spells fail if somebody isn’t casting alongside her.",
+      "stats": "HD 4, HP 9, Armour as leather, two claws (+6, d6), saves as MU 4."
+    },
+    {
+      "title": "D4 Floral Spider",
+      "page": 55,
+      "description": "A huge spider that hunts among the flowerbeds. As big as a horse. Limbs long and delicate, thorax delicately patterned like foxglove petals. Slow, patient, methodical. It can plan and think, or it can act with startling vigor, but not both at once.<br>It can speak. It is old, careful, and callous. Averse to sudden change. Slow but not foolish. It understands the value of treasure, but does not much care for it itself.<br>It is a gourmand of exquisitely refined taste. It is willing to pay for interesting meat (up to 50 gold per carcass) and has a stock of 1,000 gold in coins and gems sequestered about the gardens.<br>Can walk up walls and so on.<br>Those who fail their save vs the spider’s poison are paralysed for a turn.<br>Moving through the spider’s webs requires a Save vs Paralysis to avoid being stuck in place. The spider can spend a round in combat to spin webs that cover a space as large as a doorway.",
+      "stats": "HD 4, HP 20, Armour as chain, bite (+4, d10 damage and save vs Poison), saves as thief 4."
+    },
+    {
+      "title": "A Clockwork Lawnmower",
+      "page": 55,
+      "description": "A huge shuddering clanking machine of steel. Lurches across the gardens, blades whirling wildly to trim the lawns. Indiscriminate.<br>Mindless. Immune to poison, sickness. Half damage from fire, double from electricity.",
+      "stats": "HD 4, HP 24, Armour as plate, d4+1 blades (+4, d8), saves as fighter 4."
+    },
+    {
+      "title": "A Chess Set",
+      "page": 56,
+      "description": "Constructed from living stone, the chess set is made from earth elementals carved into shape and bound to a particular role. Each chess set behaves like a miniature knightly court. They engage in courtly politics and romance, war chivalrously with other chess sets or factions in the gardens, and embark on quixotic quests.<br>Each chess set refers to itself by a different name; the Red Court, the White Order, the Ivory Palace and so forth. Their customs are often bizarre but are at least vaguely similar to those of an Arthurian romance. Hospitality, duty, courage, self-sacrifice, and glory are lauded. Cowardice, treachery and unsportsmanlike behaviour is roundly condemned.<br>All pieces of the chess set are forbidden by custom from romance with those outside their class (save for the King and Queen). None the less, the set pursues tangled webs of romance with a dedicated fervour. They are keen to involve outsiderseven PCs in these affairs. A chess-piece lover is a loyal companion, if slighted or betrayed they and their court become an implacable enemy.<br>A chess set cannot be properly destroyed without great effort. If even a few shards of stone remain, the whole set will slowly regenerate. ‘Dead’ members return as if from nowhere within an hour, so long as they are unobserved. As such, although a set may take casualties, those replenish quickly, and soon the set will be back up to full strength.<br>In truth, the set is not 16 creatures, but a single creature with 16 bodies, play acting at different roles, like a human with a puppet on each hand. What one of the set knows, they all know. What one feels, they all feel.<br>Any mind-affecting effects that successfully effect one chess-piece affect them all.<br>1 Rook, 1 Knight, 1 Bishop and 4 pawns are male. The other half are female.<br>Position is everything in fights with a chess set. Those pieces close to one another support one another well, while they jump on isolated PCs and beat them into a pulp.<br>Even if you don’t normally use miniatures, get a chess set out for the fight to track where everybody is. For the purposes of the fight, treat ‘adjacent’ as being ‘within about 3 meters’.<br><br><strong>All chess pieces:</strong><br>‣ Immune to backstabs and other attacks that target vulnerable anatomy. Immune to poison and sickness.<br>‣ Half damage from sharp weapons, fire. Double damage from blunt weapons, cold, electricity.<br>‣ All affected by mental effects that affect at least 1 chess piece.<br>‣ If the king is taken out of action, the rest all fall inert until the king recovers.<br>‣ If unobserved, all chess pieces (even those destroyed, transformed, put somewhere else) return to full strength within an hour and come back together.<br><br><strong>King</strong><br><i>HD 5, HP 20, Armour as Chain + Shield, Smash (+5, d10), saves as fighter 5.</i><br>The supposed ruler of the chess court. A stone elemental carved into the form of an old man in robes and an ornate crown. Slow, indecisive but potent. Think of Emperor Palpatine, if he was chivalrous rather than a baddy.<br>Instead of attacking, can grant up to 5 pawns, 2 rooks or 3 bishops/knights to make an extra attack. Cannot do this if engaged in combat himself.<br>Moves at half speed.<br><br><strong>Queen</strong><br><i>HD 11, HP 40, Armour as Plate, Smash (+11, d10), saves as thief 11.</i><br>The real power behind the court. Somewhere between a cunning second-incommand and an unstoppable crusading warrior-queen. Think of a beautiful female Darth Vader, carved from stone. <br>Can make a Smash attack against every enemy adjacent.<br>Moves at double speed.<br><br><strong>Rooks</strong><br><i>HD 9, HP 32, Armour as Plate plus Shield, Smash (+9, d10), saves as fighter 9.</i><br>Stolid, defensive types. Tasked with holding and maintaining territory. Hold grudges with quiet fervour.<br>Carved from elemental stone to resemble a warrior in plate, behind a huge shield, features blocky and square. The helmet features the distinctive crenulation of the traditional chess-piece.<br>Grants its AC to any adjacent chess-pieces. Can make a free Smash attack against anybody who attacks a non-rook chess piece when the rook could have been targeted instead.<br><br><strong>Knights</strong><br><i>HD 5, HP 20, Armour as Chain, Smash (+5, d10), saves as fighter 5.</i><br>The dashing cavaliers of the court. Impetuous, touchy about their honour even for chess-pieces. Carved to resemble plate-armoured knights, in helmets with a heraldic crest shaped like a horse.<br>Can pass through walls, shield-walls, and other barriers as if they weren’t there.<br>Double damage when attacking from behind.<br><br><strong>Bishops</strong><br><i>HD 5, HP 20, Armour as Chain, Smash (+5, d10), saves as cleric 5.</i><br>The clergy of the court. Solemn. Prone to blessing things in battle. Politically astute, but prone to hidden passions. Carved to resemble robed figures in tall bishops-mitres.<br>Add d10 to the damage done by adjacent chesspieces.<br>Moves at double speed..<br><br><strong>Pawns</strong><br><i>HD 3, HP 12, Armour as Chain, Smash (+3, d10), saves as thief 3.</i><br>The rank and file warriors of the court. Servile, courteous. Not very clever. Apologise a lot.<br>Carved to resemble little people with bulbous heads, a bit like the toadstools in Mario.<br>Moves at half speed..",
+      "stats": "1 king and queen, 2 rooks, knights and bishops, and 8 pawns (Stats listed further down)"
+    },
+    {
+      "title": "A Drake",
+      "page": 58,
+      "description": "A big carnivorous reptile, like a dinosaur that never really existed. Each is different, roll up the details below and modify the base stats.<br><br><strong>Roll d8 for basic body-shape.</strong><br>1. Lizard-like. 4 legs, head, tail, no wings. No modifications.<br>2. Serpentine. Head, tail, no limbs or wings. No claw attacks, can make a crush attack against every adjacent enemy. A successful crush grabs the victim in the drake’s coils. Next round, damage is automatic as the drake constricts.<br>3. Linnorm. Head, tail, serpentine body and two fore-claws. Attacks as normal, but a successful crush attack grabs the victim in the drake’s coils. Next round, the damage is automatic.<br>4. Wyvern. Head, tail, 2 hind legs, wings. No modifications save the ability to fly.<br>5. Draconic. Head, tail, 2 hind legs, wings. No modifications save the ability to fly.<br>6. Hydra.4 heads, tail, 4 legs. Gets 4 Bite attacks.<br>7. Winged Serpent. Head, tail, sinuous body, wings. No claw attacks. A successful crush grabs the victim in the drake’s coils. Next round, damage is automatic as the drake constricts.<br>8. Multi-limbed. Head, tail, 6 or more legs. Gets 4 claw attacks. Skitters. Also roll a d12 for the drake’s special abilities.<br>1. FireBreath.Insteadofattacking,can breath fire. Everybody in range must Save vs Breath or suffer 3d6 damage.<br>2. Regenerates d6 HP a turn.<br>3. Intelligentandcapableofspeech.<br>4. Iron-hard scales. AC as plate.<br>5. Can squirt a spray of ink once per fight: save vs Paralysis or be blinded.<br>6. Poisonstingontheendofthetail. One extra attack (+8, d4 damage and Save vs Poison to avoid 2d8 more damage).<br>7. Poisonous bite (as well as normal bite damage, Save vs Poison to avoid 2d8 poison damage).<br>8. Drains blood like a leech. A successful bite attack latches on and deals d6 damage each subsequent round.<br>9. Chameleonic skin. Surprises 5-times-in-6.<br>10. Can ‘see’ through echolocation.<br>11. Spits acid. Can make 3 spits instead of melee attacks (+8, d6)<br>12. Breathes lightning. Instead of attacking, single target must Save vs Breath or suffer 4d6 damage. If they’re hit, lightning jumps to a new victim , dealing 3d6 damage. The 2d6, then 1d6, then the lightning ends.<br><br><strong>Lastly, roll d12 for the drake’s coloration.</strong><br>1. Olive green.<br>2. Deep green with a yellow belly<br>3. Pale pink and scale-less.<br>4. Red, black and white bands.<br>5. Black, dappled with green.<br>6. Red with a gold underbelly.<br>7. Patchy red, yellow and black.<br>8. Jet black with white stripes.<br>9. Sea-green with blue bands.<br>10. Blue, with purple and red patches.<br>11. Green flesh with black scales.<br>12. Sandy brown.",
+      "stats": "HD 8, HP 24, Armour as chain, Bite +8, d8) and 2 claws (+8, d6) and Crush (+0, d12), saves as fighter 8."
+    },
+    {
+      "title": "A hybrid-beast",
+      "page": 50,
+      "description": "This creature is a bizarre mish-mash of multiple animals into one strange chimera. They are the products of The Splicing Vats. Their intelligence is largely limited to animalistic levels, although the combination of different animals can result in strange and cunning behaviours not seen in nature. Each is near-unique; roll up the details of each below.<br><br><strong>Roll a d20 for the base animal.</strong><br>1. Gorilla (2 claw attacks for d4)<br>2. Horse<br>3. Eagle(canfly)<br>4. Crocodile (can swim)<br>5. Monitor Lizard<br>6. Armadillo (AC as chain)<br>7. Sloth (2 claw attacks for d4)<br>8. Porcupine (AC as chain)<br>9. Toad<br>10. Wolf<br>11. Stag<br>12. Ferret<br>13. Tiger<br>14. Cheetah<br>15. Zebra<br>16. Goat<br>17. Hyena<br>18. Peacock (can fly)<br>19. Orangutan (2 claw attacks for d4)<br>20. Yak<br><br><strong>Roll d20 for the creature’s head.</strong><br>1. Wolf(extrabiteattack,+4,d8)<br>2. Goat (extra horn attack, +4 d6)<br>3. Zebra<br>4. Orangutan<br>5. Giraffe<br>6. Crow (extra peck attack, +4 d4)<br>7. Carp (can breath in water)<br>8. Snake (extra bite attack, +4 d6 and save vs poison or 2d8 poison)<br>9. Hammerhead Shark (extra bite attack, +4, d8)<br>10. Tiger (extra bite attack, +4, d8)<br>11. Axolotl (can breath in water)<br>12. Ostrich<br>13. Rat<br>14. Monitor Lizard<br>15. Hyena (extra bite attack, +4 d8)<br>16. Stag (extra antler attack, +4 d6)<br>17. Bull (extra horn attack, +4 d6)<br>18. Baboon<br>19. Chameleon (never surprised)<br>20. Duck<br><br><strong>Roll 2 d20s for the other unusual features the animal has.</strong><br>1. BatWings(canfly)<br>2. Snakeforatail(extrabiteattack,+4, d4, save vs poison or 2d8 poison)<br>3. Long and Sinuous (can wrestle as well as attacking, +4, grabs on a hit, d4 damage a round there after)<br>4. Tiger-stripedfur.<br>5. Feathers<br>6. Mimics noises that it hears perfectly<br>7. Humanhandsandfeet.<br>8. HummingbirdWings(canfly)<br>9. Tortoise Shell (AC as plate)<br>10. Bat Ears (echolocation)<br>11. Dragon breath (instead of attacking normally, can breath fire: Save vs Breath or 3d6 damage)<br>12. Mole Legs (can tunnel)<br>13. Extra head (roll for what)<br>14. Two extra heads (roll for what)<br>15. Extra legs (extra claw attack)<br>16. Chameleon Skin (double chance to surprise)<br>17. Kangaroo Legs<br>18. Peacock Wings (can fly)<br>19. Tusks (extra tusk attack, +4 d6)<br>20. Gecko Feet (can walk on walls)",
+      "stats": "HD 4 HP 24 Armour as leather, basic claw (+4, d8) saves as Fighter 4."
+    },
+    {
+      "title": "D6 Fish-Servants , D6 Frog-servants, and a Ferret-Servant",
+      "page": 60,
+      "description": "Uplifted anthropomorphic fish raised to a facsimile of human sentience. Not actually that smart, but capable of mimicking intelligent behaviour. A humanoid form with spiny fins and a fishlike head. Dressed in a servant’s uniform.<br>Obsequious, sluggish. Talks little. Reluctantly helpful. Very stupid.<br>Can breath in water.<br>Cast each of the following once per day: Sleep, Forget, Suggestion, Create Food<br><br><strong>Frog-servants</strong><br>Frogs enhanced to be able to act like humans. Again, mimic intelligence without really possessing it. Long-limbed frogs stood on their hind legs, dressed in a servant’s outfit.<br>Talks a lot, but it’s mostly rubbish. Incurably stupid.<br>Can walk up walls.<br>Cast each of the following once per day: Unseen Servant, Wall of Fog, Levitate, Create Drinks<br><br><strong>Ferret-Servant</strong><br>Ferrets granted human-like intelligence. Actually intelligent, rather than merely mimicking it. A sleek mustelid in a butler’s outfit. Loquacious, possessing a dry wit. Tasked with managing the frog and fish servants, whose stupidity is a constant source of frustration to them.<br>Cast each of the following once per day: Charm Person, Message, Invisibility, Dispel Magic, Teleport",
+      "stats": "Fish: HD 3, HP 12, Armour as leather, Pike (+3, d8) or Rapier (+3, d8), saves as MU 3.<br>Frog: HD 3, HP 12, Armour as leather, Pike (+3, d8) or Rapier (+3, d8), saves as MU 3.<br>Ferret: HD 6, HP 24, Armour as leather, Rapier (+3, d8), saves as MU 6."
+    },
+    {
+      "title": "The Questing Beast",
+      "page": 61,
+      "description": "The Questing Beast is a unique monster, one of a few active in Ynn. It takes the rough form of a leopard, with legs that end in deer’s hooves and a snake’s head on a long serpentine neck. It exists to punish and redeem oathbreakers, sinners, traitors, the cursed and the damned. In the presence of sinners, a the sound of dozens of baying dogs issues from its belly.<br>Eating the heart of the questing beast absolves you of one sin or betrayal you’ve committed, or breaks one curse on you.<br>There is only one Questing Beast. Once it’s killed or otherwise gone, treat all results that roll this as Myconid Composters instead.<br>Bite and claws are both poisonous. Save vs Poison or take 2d6 damage. The air around it is subtly poisonous. Save vs Poison or 1 damage each round.<br><br><strong>Fights more effectively against sinners:</strong><br>‣ Attacks do double damage vs murderers<br>‣ An additional +5 to hit vs traitors.<br>‣ Armour as Plate vs deserters.<br>‣ +5 to all saves vs blasphemers.<br>‣ Poison does double damage vs oathbreakers.<br>‣ Torturers auto-fail save vs poison.",
+      "stats": "HD 12, HP 45, Armour as leather, Bite (+5, d10) and 2 Claws (+5, d6), saves as Fighter 12."
+    },
+    {
+      "title": "The Unicorn",
+      "page":62,
+      "description": "The Unicorn is another unique beast, treated by the residents as symbolic of the purity of nature. The unicorn’s presence is seen as a good omen. It’s presence blesses a location and protects it from evil.<br>Drinking the blood of a unicorn grants near immortality; as the Sidhe’s ability to turn to flowers when hitting 0 HP.<br>There is only one Unicorn. Once it’s killed or otherwise gone, treat all results that roll this as Rose-Maidens instead. <br>Horn does double damage when charging. Can teleport any distance so long as both ends of the journey are unobserved.<br>1-in-4 chance to completely ignore harmful magic. In the unicorns presence, 1-in-4 chance that hostile magic on others fails when cast or else is supressed for as long as the unicorn is there.",
+      "stats": "HD 10, HP 36, Armour as plate, Horn(+9, d12) and Hooves (+9, d6), saves as cleric 10. "
+    },
+    {
+      "title": "A choir of 2d4 Rose-maidens",
+      "page": 54,
+      "description": "As a dryad is to a tree, these creatures are to beds of roses. They appear roughly humanoid, with a thick thorny stem in place of their torso and legs. Their arms are formed by intertwined leafy branches, and each one has a single large rose in place of a head; whatever sensory organs they have are nestled between the stamen.<br>The rose maidens can walk about on their roots. They talk in high, soft voices; where the human voice is a cello, a rosemaiden’s voice is a flute.<br>They are as intelligent as humans. They maintain the sites of particular beauty in the garden, brushing away dirt and litter and polishing stone and metal. Like the Myconid Composters, they have their own culture. Their mannerisms are elegant. Despite their manual labour, they behave more like refined artistic types; poets or musicians perhaps. Everything beautiful must be preserved, everything ugly must be destroyed.<br>They sing as they work, producing melodies too subtle for the human ear to properly register. They sing when they fight, too. Eerie droning choirs. Their songs hit strange resonant frequencies in the plants around them. By combining frequencies, their harmonies can produce supernatural-seeming effects.<br>These songs are also how they train plants to grow in particular patterns. Their homes elegant bowers of living wood and leaves are made in this way, as are those few tools they use.<br>Their eerie droning songs are disconcerting. 1-in-10 chance per rose-maiden present for anycharacter casting a spell to instead do nothing that round. The same applies to other actions requiring concentration, such as first aid or aiming.<br>Twice per day, they can cast each of the following: Animate Plants, Speak With Plants, Pass Through Plants, Hold Plant. Spellcasting is only possible if more than one rose-maiden casts that round; a single rose maiden’s spells fail if somebody isn’t casting alongside her.",
+      "stats": "HD 4, HP 9, Armour as leather, two claws (+6, d6), saves as MU 4."
+    },
+    {
+      "title": "A Shepherd of the Trees",
+      "page": 63,
+      "description": "A tree, twenty or so feet tall. Faces seem to form in its gnarled bark. Limbs take the shape of clutching hands. Despite its lack of a humanoid shape, its posture conveys mood and intent.<br>Its mind is old and slow. It thinks in terms of decades and centuries. It is content to watch the lesser, faster inhabitants of the gardens go about their business, only intervening when the oldest orchards and forests are threatened.<br>It tends to the trees. Its intentions tend to work slowly, warping the gardens in subtle but wide-reaching ways. It emerges only rarely. Its anger is slow to rise but implacable in its fury.<br>It is respected as a sort of slumbering king of the garden by other residents. Only those remaining sidhe receive greater reverence.<br>Moves ponderously slowly. Double damage from fire and axes. Halve damage from other sources. Regenerates d6 HP a round.<br>Can cast Animate Plants for free each round (lasting only one round), as well as attacking.",
+      "stats": "HD 13, HP 40, Armour as chain, d6+1 branches (+10, d10), saves as cleric 13."
+    },
+    {
+      "title": "D6+1 Empty Robed Ones",
+      "page": 63,
+      "description": "When the sidhe those that remained sane, at least abandoned Ynn, they left behind the empty robed ones as sentinels. Their sole purpose is to prevent the Idea Of Thorns escaping.<br>Each empty robed one is an invisible, intangible bit of force, clad in hooded robes that drape over a form that isn’t there. They drift across the gardens rather than walking. Their empty hoods gaze about. Where their gaze lingers, the inhabitants of the garden cower, for fear of attracting the attention of these spiritual automata.<br>Mindless and thus immune to mental effects. Immune to non-magical damage.<br>Can cast each of the following once per turn: Hold Monster, Teleport, Wall of Force, Disintegrate, Time Stop",
+      "stats": "HD 9, HP 35, Armour as plate, touch (+9, d12), saves as cleric 9."
+    },
+    {
+      "title": "The Idea Of Thorns",
+      "page": 64,
+      "description": "The Idea Of Thorns is not a physical creature. It is, instead, somewhere between a disease, a hostile meme, and a spiritual presence. It is conscious. It wants to spread.<br>It does not need host minds to exist, but must find minds to infect if it wishes to affect the physical world. It will try to infect one mind, overtake it utterly, and then spread. It isolates, infects, subverts and controls.<br>When the Idea Of Thorns is first encountered, it will be as information. Writing scrawled on a wall, a little notebook with poetry in it, the sound of distant singing. Anybody who refuses to look, covers their ears, etc, is not attacked by the Idea.<br>Those exposed to the Idea must save vs Magic. Any who fail have the first seeds of the Idea planted in their mind. At this stage, the only sign is that they see all plant life as having thorns. The thorns are real to them, and can cause damage. Hearing somebody infected with the Idea talk about the Idea or their experience of it causes you to make a Save to avoid infection.<br>The Idea can compel an infected victim to take an action: roll a d20: if the result is equal to or higher than the victim’s Sense of Self (which equals charisma + constitution), the victim performs whatever action the Idea wishes.<br>The victim does not realise that the compulsion originated from outside their own mind. The Idea will attempt to lower its victims’ sense of self by <strong>attacking the victim’s minds in the following situations:</strong><br>‣ If a victim experiences an altered state of consciousness, such as drunkenness.<br>‣ If a victim sleeps.<br>‣ If a victim tries to work out an explanation for the Idea.<br>‣ If a victim tries to express the Idea or their experience of it to somebody not yet infected..<br><br>When one of these happens, all those nearby who are infected experience a sudden vision. They are faced with the Idea Of Thorns, incarnate as a towering being made of tangled vines, its form mimicking those whose minds are infected. It has all the moustache-twirling villainous bombast you can hope for. They must fight it. The fight lasts a single round and then ends. The next vision continues the fight where the last left off.<br><br><strong>Treat the Idea Of Thorns as having the following stats:</strong><br>‣ HD as the highest Intelligence out of those infected.<br>‣ 2 HP per HD.<br>‣ Armour Class is the highest Wisdom out of those infected.<br>‣ 3 Attacks with a bonus equal to the highest Charisma out of those infected.<br>‣ Saves as a fighter, level is the lowest Wisdom out of those infected.<br>‣ Immunity to mind-affecting effects. Immunity to poison. Double damage from fire and electricity.<br><br><strong>The Idea does not attack hit-points</strong>, instead it attacks Sense of Self. Each successful hit halves the victim’s Sense of Self (round down).<br>As the victim’s sense of self falls, they will be prone to increasingly irrational behaviour.<br>If a victim has lost any sense of self, the Idea will make the following actions seem appropriate:<br>‣ Producing texts and artworks that express the Idea Of Thorns.<br>‣ Killing those that seek to oppose the Idea Of Thorns.<br>‣ Planting roses, briars, thistles and other thorny plants in places where they will flourish.<br>‣ Abandoning the trappings of civilisation and returning to a more feral state.<br>‣ Destroying buildings and replacing them with plants.<br><br>A victim who does one of these in a way that amuses, impresses or surprises the GM can, at the GM’s whim, earn an XP reward. The amount of XP granted is 50 multiplied by the total amount of Sense of Self they have lost.<br>If the victim’s sense of self reaches 0, they become an NPC, totally enslaved by the Idea.",
+      "stats": "See description below."
+    },
+    {
+      "title": "A Sidhe",
+      "page": 66,
+      "description": "What elves are to humans, the Sidhe are to elves. These creatures are immortal, unnaturally beautiful, and undeniable geniuses. Their race combined the radiant beauty of angels, the ancient decadence of vampires, and the elegant grace of elves.<br>Once, the Sidhe were the masters of this place. It was built by them as a realm of sophisticated delight. Something changed. The gardens were abandoned, the sidhe are all gone.<br>Something introduced The Idea Of Thorns to the inhabitants, perhaps a visitor from another world or a crack in reality. The Idea swept through the population, seizing the minds of those who encountered it and driving them to bizarre, perverse and frequently deadly acts.<br>Many sidhe died, either from violence or as a result of their hubris leading them astray. Those outside sealed the gardens to prevent the meme-virus spreading. Those that remain are beautiful creatures. Taller and slenderer than humans, with the same delicacy to their features as elves, but more so. A sidhe’s appearance is beauty incarnate.<br>Every sidhe is unique, but they share the following basic characteristics:<br><br><strong>Roll a few d20s for what’s unusual about this Sidhe’s appearance:</strong><br>1. No/additional eyes<br>2. Six-inch-long fingers<br>3. Snake Fangs<br>4. Goat legs<br>5. Butterfly wings<br>6. Petals for hair<br>7. Green/Violet/Blue/Grey/Black/White skin.<br>8. Dressed in furs<br>9. Wearing a crown<br>10. Longhookedfingernails<br>11. Teeth made of glass/flint/silver<br>12. Weeping blood<br>13. Surroundedbyswarmingbutterflies<br>14. Flowers grow in their footsteps<br>15. Surrounded by mist<br>16. Glows with a radiant inner light<br>17. Thorns grow out of their skin where the bone is close to the surface<br>18. Dressed in armour<br>19. Antlers<br>20. Spiders crawling all over their skin.<br><br>All Sidhe carry the Idea Of Thorns.<br>Never surprised..<br>Halve damage from weapons (save those made of iron), poison, cold. Double damage from iron. 50% chance that any mental effect on them fails: their mind is too alien.<br>Animals will not willingly attack a sidhe. Native inhabitants of Ynn will obey any instruction a sidhe gives them; they were made to serve.<br>Each Sidhe is a spellcaster of unusual potency. If they spend their action in combat casting a spell, they can instead cast two spells so long as both are different.<br>At-will: Command, Unseen Servant, Crate Illusion, Forget, Detect Magic.<br>Twice per encounter: Hold Person, Suggestion, Dispel Magic, Invisibility.<br>Once an encounter: Animate Objects, Teleport.<br><br>Typically, the sidhe fights by using commands, illusions and suggestions to turn its enemies against one another, while protecting itself with its remaining spells. In addition, the Sidhe has some other spells it can cast, once per encounter. <br><strong>Roll d12 for what:</strong><br>1. Animate Dead Monsters (twice)<br>2. Fireball (twice)<br>3. Sleep (twice)<br>4. Wall of Stone & Shape Stone.<br>5. Animate Plants (twice)<br>6. Mass Suggestion<br>7. Time Stop<br>8. True Sight<br>9. Earthquake<br>10. Mind Reading (at will)<br>11. Control Weather<br>12. Flesh to Stone & Stone to Flesh<br><br>If the sidhe is reduced to 0 HP, instead of dying it transforms into a patch of flowers or mushrooms growing where their body falls. They regain 1 HP twice a day (sunrise and sunset) until fully healed, and return to flesh when on full HP or if blood soaks into the ground where they’re growing. A stake in the heart prevents this and freezes the sidhe at 0hp until the stake is removed. Destroying the body while it is staked kills the sidhe permanently.<br>Give them any other weird fairy-tale weaknesses, powers or traits you feel are interesting. Each sidhe is unique.",
+      "stats": "HD 10, HP 20, Armour as chain, Touch (+10, d6), saves as MU 10."
+    }
+  ],
+  "nightEncounters": [{
+      "title": "A Black Cat",
+      "page": 45,
+      "description": "Once a witch’s familiar. The witch is long dead, the cat remains. Can talk, is intelligent, and knows a good deal about what you might encounter. <br>If it would die, instead survives through incredible luck. Can do this 8 times, the ninth death is real.",
+      "stats": "HD 1, HP 1, Armour as unarmoured, bite (+0, 1 damage) Save as Fighter 1."
+    },
+    {
+      "title": "A Hopping Lantern",
+      "page": 45,
+      "description": "An animate lamp-post. A lantern hooked onto one end, hopping along on the little foot on the other. <br>On death, the lamp shatters, dealing d6 damage from fire (Save vs Breath avoids).",
+      "stats": "HD 1, HP 6, Armour as plate, bash (+0, 1 damage) Save as Fighter 1."
+    },
+    {
+      "title": "D4 Blue Foxes",
+      "page": 45,
+      "description": "Foxes with fur the scintillating colours of a kingfisher’s feathers. Seem to talk to one another in their own tongue, and laugh at cruel jokes only they understand.",
+      "stats": "HD 2, HP 10, Armour as leather, 2 claws (+2, d6 damage) Save as Fighter 2."
+    },
+    {
+      "title": "A Shadow",
+      "page": 45,
+      "description": "A sentient, animated shadow ripped from a person who now casts no shade. Hates but paradoxically fascinated by light and warmth. Doesn’t attack you physically, rather tears at your shadow and the wounds appear on you.<br>Intangible and immune to physical damage, bright light does d6 damage a round, dead victims transform into more shadows.",
+      "stats": "HD 2, HP 12, Armour as chain, intangible claws (+2, d4 and 1 charisma damage), Save as Fighter 2."
+    },
+    {
+      "title": "2d4 Plant-skeletons",
+      "page": 45,
+      "description": "Skeletons interwoven and animated with vines and creepers. The skeletons are just a framework, the real creature is the plant sprouting from between its ribs.<br>Undead. Those killed reanimate as plantskeletons a turn later.",
+      "stats": "AC as leather, 1 HD, 4 HP, claws (+0, d6), saves as fighter 1."
+    },
+    {
+      "title": "A Walking Hive",
+      "page": 46,
+      "description": "A swarm of bugs of some sort, wearing discarded human clothes and bits of skin as a disguise. From a distance, the illusion is convincing, even if the gait is unsteady. Up close, the skin roils and squirms, fingers bend in ways they shouldn’t, eyes and mouth open to a mass of wriggling bugs. <br>It wants to hollow out more people and spread into their empty skins to make another hive. When it attacks, the bugs get on you and start burrowing in.<br>When it deals damage, it can deposit bugs on you, costing it 1 hp.<br>Each round thereafter, the bugs deal 1 damage to their victim for each HP deposited. If this damage kills a victim, then by the next round they’re hollowed out and rise as a new Walking Hive with full health.<br>Getting the bugs off you takes your whole action for the round. Save vs Paralysis, if you succeed the bugs are squashed or scraped off.<br>4-in-6 chance of immunity to any mind-affected effect. The bugs operate by committee.",
+      "stats": "HD 5, HP 13, Unarmoured, 2 slaps (+0, 1 damage) Save as Fighter 5."
+    },
+    {
+      "title": "d4+1 Myconid Composters",
+      "page": 47,
+      "description": "Lumpen fungoid proletariat of the gardens. Four foot high vaguely humanoid masses of mycelium with raisin-like sensory organs studded into their puffballheads. <br>Their purpose is to gather dead, broken and dirty things, and pile them up in their great steaming compost-mounds to rot down. More composters sprout from the mass periodically, which is also used to fertilize the garden. <br>Myconids have huge nests in the depths of the gardens. Great rotting heaps of compost, with propped-up cavities within where they live. They don’t sleep, or eat, but instead replenish themselves by thrusting the mycelium roots from their hands and feet into the decaying mass that makes up their home. <br>Their consciousness is not as separated as other beings. Myconids can fuse together, letting the mycelium threads that make up their neural networks intertwine. Their consciousnesses merge, their personalities blurr together, they share memories The longer they’re fused, the more completely thei sentiences meld together. They can split apart again, and when they do they retain all the memories they once shared. Myconids greet one another by shaking hands, blurring conciousnesses enough to exchange information. Knowledge ripples through their culture rapidly, their personalities exist in a fluid pool. They are extraordinarily vulnerable to memetic corruption. <br>They wear dungarees and battered straw hats, and speak with regional British accents; Cockney or Cornish or Welsh. Stolid and practical, and single-mindedly dedicated to creating the best compost they can. PCs look compostable, too, they’ve got all those nutrients...<br>Can fuse with another Myconid. The two combine into a single being with all the knowledge both possessed. Combine the HP totals of both, up to the maximum 12.<br>Instead of attacking, the Composter can squirt spores from the top of its head, that do one of the following:<br>‣ Heal all fungi d4 hp.<br>‣ All non-fungi save vs poison or take d4 damage.<br>‣ Form a new Myconid with d4 HP, at the cost of that many HP from the donor.",
+      "stats": "HD 3, HP 12 Armour as leather, gardening tools (+0, d8), Save as cleric 3."
+    },
+    {
+      "title": "A Salamander",
+      "page": 48,
+      "description": "A pallid, sinuous amphibian, like an axolotl. But as long as a human, and intelligent. Where an axolotle has gill-like fronds extending from its neck, the salamander has a flickering ruff of condensed flame. The salamander is loquacious and well educated It will expound, at length, on the artistic merits and failings of any particular thing that catches their fancy.<br>Immune to fire.",
+      "stats": "HD 7, HP 25 Armour as chain, Either constrict (+7, d8 damage and d6 fire) and bite (+0, d6 damage and d6 fire) OR fire breath (everybody in the blast save vs Breath or take 2d6 damage), Save as MU 7."
+    },
+    {
+      "title": "A Golem Gardener",
+      "page": 48,
+      "description": "An artificial being, made of elegantly carved hardwood wood jointed together. Lacquered and polished. Makes a soft clicking of wood-on-wood when it moves.<br>Dedicated to maintaining the garden. Plants trees, prunes, weeds, dredges ponds. Displays a tender care for the plants, insects and birds it looks after. A gentle giant, almost maternal in its nurturing.<br>Implacable in its cold fury against anything that would harm the gardens. Does not speak, simply removes weeds and vermin.<br>Immune to cold, electricity, poison. Double damage from fire.",
+      "stats": "HD 9, HP 30 Armour as plate and shield, 2 Slams (+9, 2d6) Save as Fighter 9."
+    },
+    {
+      "title": "D6 Shadows",
+      "page": 45,
+      "description": "A sentient, animated shadow ripped from a person who now casts no shade. Hates but paradoxically fascinated by light and warmth. Doesn’t attack you physically, rather tears at your shadow and the wounds appear on you.<br>Intangible and immune to physical damage, bright light does d6 damage a round, dead victims transform into more shadows.",
+      "stats": "HD 2, HP 12, Armour as chain, intangible claws (+2, d4 and 1 charisma damage), Save as Fighter 2."
+    },
+    {
+      "title": "A Giant Caterpillar",
+      "page": 48,
+      "description": "A fat caterpillar 12 ft long. Skin like old, cracked leather, mouthparts a mess of tendrils and mandibles. It trundles through the garden, feasting on the thickest greenery, leaving wreckage behind it.",
+      "stats": "HD 4, HP 16 Armour as leather, 4 tentacles (+0, save vs paralysis or paralysed for as many rounds as the dice roll) and a bite (+4, d6), saves as fighter 5."
+    },
+    {
+      "title": "A Parasitic Wasp",
+      "page": 49,
+      "description": "This predatory insect, as long as a human forearm, reproduces by laying eggs in a living host.<br>Those stung by a wasp are unable to move for d6 turns. <br>The wasp can lay eggs instead of attacking. Once a victim has eggs laid in them, the larvae begin to devour them from within. They take 1 damage a turn, or d4 if paralysed, for d6 turns. At the end of this duration, if the victim is dead, their body splits and a new wasp emerges. Otherwise, their body fights off the parasite, which perishes within them.",
+      "stats": "HD 2 HP 5 Armour as chain, Sting (+5, d4 damage and save vs paralysis or be incapacitated) saves as fighter 2."
+    },
+    {
+      "title": "A Glass Butler",
+      "page": 49,
+      "description": "A hollow statue made of living glass. Shaped with elegant flutes and curves, like an elegant abstracted coral. Humanoid, with the vaguest hint of a face and long fingers.<br>It cannot speak properly, but air passing through the glass tubes allows it to communicate with an eerie piping noise.<br>It was made to serve the sidhe guests here, but with them long-gone its programming has degraded. It hunts the garden for food that it could serve to its masters (long gone though they are), and the PCs are certainly made of succulent meat.<br>There’s a 2in-6 chance that it will obey any direct order or request it receives unflinchingly. This increases to 4-in-6 when an elf PC issues the order. The obedience is only temporary, however, and after a while its programming kicks in and it continues as before.<br>Immune to damage from cold, acid, electricity and fire. On death, shatters into thousands of pieces,; those next to it save vs breath or take d6 damage.<br>Once per hour, can cast Purify Food/Water, Mend, Message and Light.<br>Once per day, can cast Animate Object, Flesh to Glass, Glass to Flesh and Control Weather.",
+      "stats": "HD 6 HP 1 Armour as plate and shield, 2 glass claws (+6, d8) saves as cleric 6."
+    },
+    {
+      "title": "A hybrid-beast",
+      "page": 50,
+      "description": "This creature is a bizarre mish-mash of multiple animals into one strange chimera. They are the products of The Splicing Vats. Their intelligence is largely limited to animalistic levels, although the combination of different animals can result in strange and cunning behaviours not seen in nature. Each is near-unique; roll up the details of each below.<br><br><strong>Roll a d20 for the base animal.</strong><br>1. Gorilla (2 claw attacks for d4)<br>2. Horse<br>3. Eagle(canfly)<br>4. Crocodile (can swim)<br>5. Monitor Lizard<br>6. Armadillo (AC as chain)<br>7. Sloth (2 claw attacks for d4)<br>8. Porcupine (AC as chain)<br>9. Toad<br>10. Wolf<br>11. Stag<br>12. Ferret<br>13. Tiger<br>14. Cheetah<br>15. Zebra<br>16. Goat<br>17. Hyena<br>18. Peacock (can fly)<br>19. Orangutan (2 claw attacks for d4)<br>20. Yak<br><br><strong>Roll d20 for the creature’s head.</strong><br>1. Wolf(extrabiteattack,+4,d8)<br>2. Goat (extra horn attack, +4 d6)<br>3. Zebra<br>4. Orangutan<br>5. Giraffe<br>6. Crow (extra peck attack, +4 d4)<br>7. Carp (can breath in water)<br>8. Snake (extra bite attack, +4 d6 and save vs poison or 2d8 poison)<br>9. Hammerhead Shark (extra bite attack, +4, d8)<br>10. Tiger (extra bite attack, +4, d8)<br>11. Axolotl (can breath in water)<br>12. Ostrich<br>13. Rat<br>14. Monitor Lizard<br>15. Hyena (extra bite attack, +4 d8)<br>16. Stag (extra antler attack, +4 d6)<br>17. Bull (extra horn attack, +4 d6)<br>18. Baboon<br>19. Chameleon (never surprised)<br>20. Duck<br><br><strong>Roll 2 d20s for the other unusual features the animal has.</strong><br>1. BatWings(canfly)<br>2. Snakeforatail(extrabiteattack,+4, d4, save vs poison or 2d8 poison)<br>3. Long and Sinuous (can wrestle as well as attacking, +4, grabs on a hit, d4 damage a round there after)<br>4. Tiger-stripedfur.<br>5. Feathers<br>6. Mimics noises that it hears perfectly<br>7. Humanhandsandfeet.<br>8. HummingbirdWings(canfly)<br>9. Tortoise Shell (AC as plate)<br>10. Bat Ears (echolocation)<br>11. Dragon breath (instead of attacking normally, can breath fire: Save vs Breath or 3d6 damage)<br>12. Mole Legs (can tunnel)<br>13. Extra head (roll for what)<br>14. Two extra heads (roll for what)<br>15. Extra legs (extra claw attack)<br>16. Chameleon Skin (double chance to surprise)<br>17. Kangaroo Legs<br>18. Peacock Wings (can fly)<br>19. Tusks (extra tusk attack, +4 d6)<br>20. Gecko Feet (can walk on walls)",
+      "stats": "HD 4 HP 24 Armour as leather, basic claw (+4, d8) saves as Fighter 4."
+    },
+    {
+      "title": "An Animate Statue",
+      "page": 51,
+      "description": "A statue that moves about. Beautifully carved from marble, worth 300 gold if the body is recovered.<br>Vague and uncertain. Not quite human intelligence, not quite animal. Senile.<br>Immune to fire, cold, electricity. Immune to poison and sickness. Maximum of 1 damage from weapons other than magical weapons or blunt metal weapons. 50% chance to ignore any spell (save those that specifically affect stone) entirely.<br><br><strong>Roll a d20 for what the statue is of:</strong><br>1. Heraldic Lion<br>2. Rippling-muscled Adonis<br>3. Angel<br>4. Innocent-looking Child<br>5. Heraldic Eagle<br>6. Heraldic Dragon<br>7. Weird Abstract Blobs<br>8. Weird Geometric Shapes<br>9. The Devil<br>10. Cupid<br>11. Beautiful Young Woman<br>12. Mermaid<br>13. Heraldic Stag<br>14. An Orchid<br>15. Knight in Armour<br>16. Saint<br>17. Unicorn<br>18. Wicked Serpent<br>19. Massive Baby<br>20. Big Jolly Fat Man",
+      "stats": "HD 9 HP 35, Armour as plate, Slam(+9, d10) saves as fighter 9."
+    },
+    {
+      "title": "A pack of 2d4 Peahawks",
+      "page": 51,
+      "description": "Descended from domesticated peacocks, grown large and carnivorous. Take a peacock. Make it as tall as a person, with a viciously hooked beak and long legs like a cassowary. Keep the long elegant peacock-feather tails and the iridescent feathers.<br>These creatures hunt in packs, relying on speed and sudden vicious assaults to bring down prey.<br>The bodies of Peahawks are fabulously valuable to hat-makers and interior decorators; each is worth 100 gold.",
+      "stats": "HD 3 HP 12, Armour as leather, peck (+3, d6) and two claws (+4, d8) saves as fighter 3."
+    },
+    {
+      "title": "An Ambulatory Pudding",
+      "page": 52,
+      "description": "A desert or confection, living and able to move about. Predatory, which is how it has achieved such great size.<br>Different kinds of pudding look and behave in different ways.<br>To a gourmand of exotic tastes, an ambulatory pudding delivered alive and edible is worth 100GP.<br>Immune to backstabs and other attacks that target vulnerable anatomy. Half damage from piercing attacks. Immune to cold.<br><br><strong>Roll a d20 for the type of pudding.</strong><br>1. Custard. Thick, yellow, totally fluid form. Attacks every adjacent enemy, not just the one.<br>2. Black Forest Gateaux. Bulky, sticky, covered in icing. Layers of cake split to form a mouth. 30 HP.<br>3. Fruit. A large, wobbly jellopudding. Bits of huge exotic fruit within. Can flow through narrow gaps.<br>4. Trifle. A sloppy mess of different layers. Timid.<br>5. Cheesecake. Flabby pallid masses protect a crunchy inner core. Drowns victims in its mass. Sadistic.<br>6. Fudge. Big, blocky, brown masses lumbering forward on chunky legs. 30 HP.<br>7. Steamed Pudding. Big and sticky. Gives off a cloud of foggy steam around it.<br>8. Sticky Toffee Pudding. Rich, adhesive, Tawney coloured. Those taking damage must save vs paralysis or be glued to it. A round spent making a successful save vs paralysis is required to escape.<br>9. Cupcake. Small, dainty. 5hp, encountered in packs of d6.<br>10. Chocolate. Brown and soft and rather gooey. Shambles about on little legs. A default sort of pudding.<br>11. Christmas Pudding. Soaked in brandy and flickering with blue flame. Does d6 extra fire damage, and risks setting things alight.<br>12. Rice Pudding. Form constantly dripping , extrudes rough limbs to walk and grapple with. Pallid.<br>13. Bread-and-butter-pudding. With a thick bready crust and a soft inner part. Little arms and legs and lots of mouths where the breadcrusts meet. Vulnerable to backstabs etc.<br>14. Spotted Dick. Dotted with raisins that act as sensory organs. Aggressively territorial. Don’t snigger at the name.<br>15. Apple Crumble. Gooey fruit bits under a gritty shell. Armour as Chain, only 15 HP.<br>16. Tapioca. Translucent, pearlescent, slightly supernatural. 1-in-6 chance to totally ignore any spell cast on it.<br>17. Ice-cream. Thick, opaque creamy pudding. Does an extra d6 cold damage. Double damage from fire, and takes electric damage normally rather than healing.<br>18. Figgy Pudding. Tough and black with a crusty outer layer, but crumbly within. AC as plate, but only 10hp.<br>19. Battenberg. Arranged into a grid of roughly square sections smushed together. Slashing attacks have a 50% chance to bisect the pudding rather than injuring it; the pudding splits into two puddings, each with half the original amount of HP.<br>20. Crème Brulee. Crunchy exterior. Squelchy interior. Healed by fire damage. Reckless.",
+      "stats": "HD 10 HP 20, Armour as leather, Engulf (+3, 3d8), saves as fighter 10."
+    },
+    {
+      "title": "A Candle-golem",
+      "page": 53,
+      "description": "A big, lumbering waxen figure, dribbles of molten wax running down its form and trailing behind it. Where its head would be, and at the tips of its stubby fingers, a wick with a flickering orange flame. Tasked with illuminating the garden and removing nocturnal intruders. <br>Immune to cold, electricity. Half damage from blunt weapons, double damage from fire.. 1-in-6 chance to ignore any spell cast on it.",
+      "stats": "HD 10, HP 30, Armour as leather, 2 fists (+10, d8 damage and d6 fire), saves as fighter 10."
+    },
+    {
+      "title": "A Jellyfish",
+      "page": 53,
+      "description": "A jellyfish floating in the air as if it was water, the tips of its tentacles trailing along the ground. Predatory but largely mindless.",
+      "stats": "HD 3, HP 15, unarmored, 5 tentacles(+3, d6 damage and paralysis for that many rounds, no save), saves as fighter 8."
+    },
+    {
+      "title": "A pack of 2d4 White Apes",
+      "page": 53,
+      "description": "Carnivorous albino apes, with an extra pair of arms sprouting from their shoulders. Once ornamental creatures like the Peahawks, now carnivorous and territorial, marking their territory with dung and mutilated corpses. Just short of human intelligence, smart enough to use crude tools and brutal cruelty.",
+      "stats": "HD 2, HP 7, Armour as leather, 4 claws (+2, d4), saves as fighter 2."
+    },
+    {
+      "title": "A Basilisk",
+      "page": 54,
+      "description": "A long serpentine monster, with the head of a cockerel. Its scales form banded patterns of black and deep red, and its wattles and crest are bright crimson. Those who meet the basilisk’s gaze risk petrification, such is the concentration of venom in it, and the toxins in its bite are similarly potent.<br>The basilisk devours stone statues, the weird workings of their gut turning the stone that they devour back into flesh. The basilisk’s stomach juices, if smeared on a statue, turn it back to flesh.<br>Anybody able to see the Basilisk’s face must Save vs Paralysis or lose d12 points of dexterity permanently. Loss of Dexterity in this case represents petrification; the more dexterity is lost, the more of the victim’s body is turned to stone, until at 0 dexterity they become a statue.",
+      "stats": "HD 6, HP 18, Armour as chain, bite (+6, d6 damage and d12 damage to Dexterity), saves as fighter 6."
+    },
+    {
+      "title": "D4 Floral Spider",
+      "page": 55,
+      "description": "A huge spider that hunts among the flowerbeds. As big as a horse. Limbs long and delicate, thorax delicately patterned like foxglove petals. Slow, patient, methodical. It can plan and think, or it can act with startling vigor, but not both at once.<br>It can speak. It is old, careful, and callous. Averse to sudden change. Slow but not foolish. It understands the value of treasure, but does not much care for it itself.<br>It is a gourmand of exquisitely refined taste. It is willing to pay for interesting meat (up to 50 gold per carcass) and has a stock of 1,000 gold in coins and gems sequestered about the gardens.<br>Can walk up walls and so on.<br>Those who fail their save vs the spider’s poison are paralysed for a turn.<br>Moving through the spider’s webs requires a Save vs Paralysis to avoid being stuck in place. The spider can spend a round in combat to spin webs that cover a space as large as a doorway.",
+      "stats": "HD 4, HP 20, Armour as chain, bite (+4, d10 damage and save vs Poison), saves as thief 4."
+    },
+    {
+      "title": "A swarm of 2d4 Parasitic Wasps",
+      "page": 49,
+      "description": "This predatory insect, as long as a human forearm, reproduces by laying eggs in a living host.<br>Those stung by a wasp are unable to move for d6 turns. <br>The wasp can lay eggs instead of attacking. Once a victim has eggs laid in them, the larvae begin to devour them from within. They take 1 damage a turn, or d4 if paralysed, for d6 turns. At the end of this duration, if the victim is dead, their body splits and a new wasp emerges. Otherwise, their body fights off the parasite, which perishes within them.",
+      "stats": "HD 2 HP 5 Armour as chain, Sting (+5, d4 damage and save vs paralysis or be incapacitated) saves as fighter 2."
+    },
+    {
+      "title": "A Chess Set",
+      "page": 56,
+      "description": "Constructed from living stone, the chess set is made from earth elementals carved into shape and bound to a particular role. Each chess set behaves like a miniature knightly court. They engage in courtly politics and romance, war chivalrously with other chess sets or factions in the gardens, and embark on quixotic quests.<br>Each chess set refers to itself by a different name; the Red Court, the White Order, the Ivory Palace and so forth. Their customs are often bizarre but are at least vaguely similar to those of an Arthurian romance. Hospitality, duty, courage, self-sacrifice, and glory are lauded. Cowardice, treachery and unsportsmanlike behaviour is roundly condemned.<br>All pieces of the chess set are forbidden by custom from romance with those outside their class (save for the King and Queen). None the less, the set pursues tangled webs of romance with a dedicated fervour. They are keen to involve outsiderseven PCs in these affairs. A chess-piece lover is a loyal companion, if slighted or betrayed they and their court become an implacable enemy.<br>A chess set cannot be properly destroyed without great effort. If even a few shards of stone remain, the whole set will slowly regenerate. ‘Dead’ members return as if from nowhere within an hour, so long as they are unobserved. As such, although a set may take casualties, those replenish quickly, and soon the set will be back up to full strength.<br>In truth, the set is not 16 creatures, but a single creature with 16 bodies, play acting at different roles, like a human with a puppet on each hand. What one of the set knows, they all know. What one feels, they all feel.<br>Any mind-affecting effects that successfully effect one chess-piece affect them all.<br>1 Rook, 1 Knight, 1 Bishop and 4 pawns are male. The other half are female.<br>Position is everything in fights with a chess set. Those pieces close to one another support one another well, while they jump on isolated PCs and beat them into a pulp.<br>Even if you don’t normally use miniatures, get a chess set out for the fight to track where everybody is. For the purposes of the fight, treat ‘adjacent’ as being ‘within about 3 meters’.<br><br><strong>All chess pieces:</strong><br>‣ Immune to backstabs and other attacks that target vulnerable anatomy. Immune to poison and sickness.<br>‣ Half damage from sharp weapons, fire. Double damage from blunt weapons, cold, electricity.<br>‣ All affected by mental effects that affect at least 1 chess piece.<br>‣ If the king is taken out of action, the rest all fall inert until the king recovers.<br>‣ If unobserved, all chess pieces (even those destroyed, transformed, put somewhere else) return to full strength within an hour and come back together.<br><br><strong>King</strong><br><i>HD 5, HP 20, Armour as Chain + Shield, Smash (+5, d10), saves as fighter 5.</i><br>The supposed ruler of the chess court. A stone elemental carved into the form of an old man in robes and an ornate crown. Slow, indecisive but potent. Think of Emperor Palpatine, if he was chivalrous rather than a baddy.<br>Instead of attacking, can grant up to 5 pawns, 2 rooks or 3 bishops/knights to make an extra attack. Cannot do this if engaged in combat himself.<br>Moves at half speed.<br><br><strong>Queen</strong><br><i>HD 11, HP 40, Armour as Plate, Smash (+11, d10), saves as thief 11.</i><br>The real power behind the court. Somewhere between a cunning second-incommand and an unstoppable crusading warrior-queen. Think of a beautiful female Darth Vader, carved from stone. <br>Can make a Smash attack against every enemy adjacent.<br>Moves at double speed.<br><br><strong>Rooks</strong><br><i>HD 9, HP 32, Armour as Plate plus Shield, Smash (+9, d10), saves as fighter 9.</i><br>Stolid, defensive types. Tasked with holding and maintaining territory. Hold grudges with quiet fervour.<br>Carved from elemental stone to resemble a warrior in plate, behind a huge shield, features blocky and square. The helmet features the distinctive crenulation of the traditional chess-piece.<br>Grants its AC to any adjacent chess-pieces. Can make a free Smash attack against anybody who attacks a non-rook chess piece when the rook could have been targeted instead.<br><br><strong>Knights</strong><br><i>HD 5, HP 20, Armour as Chain, Smash (+5, d10), saves as fighter 5.</i><br>The dashing cavaliers of the court. Impetuous, touchy about their honour even for chess-pieces. Carved to resemble plate-armoured knights, in helmets with a heraldic crest shaped like a horse.<br>Can pass through walls, shield-walls, and other barriers as if they weren’t there.<br>Double damage when attacking from behind.<br><br><strong>Bishops</strong><br><i>HD 5, HP 20, Armour as Chain, Smash (+5, d10), saves as cleric 5.</i><br>The clergy of the court. Solemn. Prone to blessing things in battle. Politically astute, but prone to hidden passions. Carved to resemble robed figures in tall bishops-mitres.<br>Add d10 to the damage done by adjacent chesspieces.<br>Moves at double speed..<br><br><strong>Pawns</strong><br><i>HD 3, HP 12, Armour as Chain, Smash (+3, d10), saves as thief 3.</i><br>The rank and file warriors of the court. Servile, courteous. Not very clever. Apologise a lot.<br>Carved to resemble little people with bulbous heads, a bit like the toadstools in Mario.<br>Moves at half speed..",
+      "stats": "1 king and queen, 2 rooks, knights and bishops, and 8 pawns (Stats listed further down)"
+    },
+    {
+      "title": "A Dream",
+      "page": 59,
+      "description": "Not a physical creature. Instead, an infectious thought-form. A fractally dense memetic virus. A Dream is a lingering remainder of the initial disaster that caused the gardens to be abandoned in the first place. Not the Idea Of Thorns itself, but a weakened variant strain adapted to the lesser minds that inhabit this place.<br><br><strong>Roll a d12 for the core idea of the Dream:</strong><br>1. Guilt and Punishment<br>2. Conspiracies<br>3. Numbers<br>4. Medicine<br>5. Luck and Gambling<br>6. Parasites<br>7. Music<br>8. Entropy and Decay<br>9. Fire<br>10. Winter<br>11. Blood and Sacrifice<br>12. Confectionary<br><br>The dream doesn’t damage Hit Points, it damages Sense of Self: this is the same value attacked by the Mask Gallery, and is equal to the victim’s Charisma + Constitution.<br>When the Dream is encountered, pick a PC to be the first victim. Artistic temperament, madness, substance abuse and the innocence of youth all make you more susceptible. Each round, the Dream intrudes into their mind. <br><br><strong>Pick one:</strong><br>‣ One of their memories is altered to match the dream’s core idea.<br>‣ They hallucinate something appropriate to the dream.<br>‣ They realise a ‘truth’ that fits the dream.<br>Inform the player of this. Give them details. Their grip on reality fades. Reduce their Sense of Self by d6.<br>If any PC acknowledges a victim’s delusions (such as to ask ‘what did you see?’) they begin to suffer next round, and each round thereafter. No save.<br>Each round, every infected PCs sense of self is further eroded and they pick up more delusions.<br>If a PC reaches 0 Sense of Self, they become an automata dedicated to spreading the Dream’s meme-virus. They are an NPC. They might try to violently remove those PCs still fighting the Dream.<br><br><strong>To fight the Dream</strong>, each round the PC can reassure an infected PC. To do this they can:<br>‣ Recount to the infected PC a memory of their shared background (either make one up or retell something that happened in play). This restores d4 Sense of Self to the PC being reassured.<br>‣ Appeal to the infected PCs ideals (faith, honour, monetary wealth, pride). This deals d6 damage to the Dream.<br><br><strong>The dream has 20 HP.</strong> Once these are gone, it dissipates and the delusions it inflicts are lifted.<br>An infected PC can recognise that the thoughts they are experiencing are not their own, but they cannot tell what the truth is until the dream is defeated.<br>If a PC acts on their delusions in particularly interesting, amusing or surprising ways, give them 50 XP. Doing these things feels natural to them.",
+      "stats": "20HP, see dream combat below"
+    },
+    {
+      "title": "D4 Hybrid-Beasts, all the same",
+      "page": 50,
+      "description": "This creature is a bizarre mish-mash of multiple animals into one strange chimera. They are the products of The Splicing Vats. Their intelligence is largely limited to animalistic levels, although the combination of different animals can result in strange and cunning behaviours not seen in nature. Each is near-unique; roll up the details of each below.<br><br><strong>Roll a d20 for the base animal.</strong><br>1. Gorilla (2 claw attacks for d4)<br>2. Horse<br>3. Eagle(canfly)<br>4. Crocodile (can swim)<br>5. Monitor Lizard<br>6. Armadillo (AC as chain)<br>7. Sloth (2 claw attacks for d4)<br>8. Porcupine (AC as chain)<br>9. Toad<br>10. Wolf<br>11. Stag<br>12. Ferret<br>13. Tiger<br>14. Cheetah<br>15. Zebra<br>16. Goat<br>17. Hyena<br>18. Peacock (can fly)<br>19. Orangutan (2 claw attacks for d4)<br>20. Yak<br><br><strong>Roll d20 for the creature’s head.</strong><br>1. Wolf(extrabiteattack,+4,d8)<br>2. Goat (extra horn attack, +4 d6)<br>3. Zebra<br>4. Orangutan<br>5. Giraffe<br>6. Crow (extra peck attack, +4 d4)<br>7. Carp (can breath in water)<br>8. Snake (extra bite attack, +4 d6 and save vs poison or 2d8 poison)<br>9. Hammerhead Shark (extra bite attack, +4, d8)<br>10. Tiger (extra bite attack, +4, d8)<br>11. Axolotl (can breath in water)<br>12. Ostrich<br>13. Rat<br>14. Monitor Lizard<br>15. Hyena (extra bite attack, +4 d8)<br>16. Stag (extra antler attack, +4 d6)<br>17. Bull (extra horn attack, +4 d6)<br>18. Baboon<br>19. Chameleon (never surprised)<br>20. Duck<br><br><strong>Roll 2 d20s for the other unusual features the animal has.</strong><br>1. BatWings(canfly)<br>2. Snakeforatail(extrabiteattack,+4, d4, save vs poison or 2d8 poison)<br>3. Long and Sinuous (can wrestle as well as attacking, +4, grabs on a hit, d4 damage a round there after)<br>4. Tiger-stripedfur.<br>5. Feathers<br>6. Mimics noises that it hears perfectly<br>7. Humanhandsandfeet.<br>8. HummingbirdWings(canfly)<br>9. Tortoise Shell (AC as plate)<br>10. Bat Ears (echolocation)<br>11. Dragon breath (instead of attacking normally, can breath fire: Save vs Breath or 3d6 damage)<br>12. Mole Legs (can tunnel)<br>13. Extra head (roll for what)<br>14. Two extra heads (roll for what)<br>15. Extra legs (extra claw attack)<br>16. Chameleon Skin (double chance to surprise)<br>17. Kangaroo Legs<br>18. Peacock Wings (can fly)<br>19. Tusks (extra tusk attack, +4 d6)<br>20. Gecko Feet (can walk on walls)",
+      "stats": "HD 4 HP 24 Armour as leather, basic claw (+4, d8) saves as Fighter 4."
+    },
+    {
+      "title": "D6 Fish-Servants , D6 Frog-servants, and a Ferret-Servant",
+      "page": 60,
+      "description": "Uplifted anthropomorphic fish raised to a facsimile of human sentience. Not actually that smart, but capable of mimicking intelligent behaviour. A humanoid form with spiny fins and a fishlike head. Dressed in a servant’s uniform.<br>Obsequious, sluggish. Talks little. Reluctantly helpful. Very stupid.<br>Can breath in water.<br>Cast each of the following once per day: Sleep, Forget, Suggestion, Create Food<br><br><strong>Frog-servants</strong><br>Frogs enhanced to be able to act like humans. Again, mimic intelligence without really possessing it. Long-limbed frogs stood on their hind legs, dressed in a servant’s outfit.<br>Talks a lot, but it’s mostly rubbish. Incurably stupid.<br>Can walk up walls.<br>Cast each of the following once per day: Unseen Servant, Wall of Fog, Levitate, Create Drinks<br><br><strong>Ferret-Servant</strong><br>Ferrets granted human-like intelligence. Actually intelligent, rather than merely mimicking it. A sleek mustelid in a butler’s outfit. Loquacious, possessing a dry wit. Tasked with managing the frog and fish servants, whose stupidity is a constant source of frustration to them.<br>Cast each of the following once per day: Charm Person, Message, Invisibility, Dispel Magic, Teleport",
+      "stats": "Fish: HD 3, HP 12, Armour as leather, Pike (+3, d8) or Rapier (+3, d8), saves as MU 3.<br>Frog: HD 3, HP 12, Armour as leather, Pike (+3, d8) or Rapier (+3, d8), saves as MU 3.<br>Ferret: HD 6, HP 24, Armour as leather, Rapier (+3, d8), saves as MU 6."
+    },
+    {
+      "title": "The Jabberwock",
+      "page": 61,
+      "description": "The Jabberwock is a strange dragon-like creature, with a long neck, bulging eyes, rodent-like incisors and wide, grasping humanlike hands.<br>The Jabberwock is a herald of intoxication. Where it passes, things behave drunkenly. Those who meet it are permanently altered. Perhaps there is some link to the Idea Of Thorns, but the Jabberwock is not infected.<br>There is only one Jabberwock. Once it’s killed or otherwise gone, treat all results that roll this as Floral Spiders instead. <br>Observing the Jabberwock deals d4 damage to Intelligence each round.<br>Triple damage from vorpal blades.<br>When a 4 is rolled for intelligence damage, or the Jabberwock scores a hit, roll for Ynnian Alterations (no save).",
+      "stats": "HD 15, HP 60, Armour as chain, Either Bite (+10, d10) and 2 Claws (+10, d6) OR flaming gaze (+10, d6 damage and d6 fire, ranged) , saves as Fighter 10."
+    },
+    {
+      "title": "The Worm",
+      "page": 62,
+      "description": "The Worm is the final unique monster in the gardens. It is the gaping, alldevouring maw that consumes that which is ugly, rotten and unnatural. It is entropy, wielded like a scalpel against that which shouldn’t be there, enormous like an avalanche, in the form of a humungous ragworm like serpentine monster.<br>The worm hunts. It crashes through the gardens in search prey, leaving a trail of wreckage in its wake. Its jaws churn constantly. It is primal, unthinking, hungry.<br>There is only one Worm. Once it’s killed or otherwise gone, treat all results that roll this a Dream instead.<br>Makes one crush attack against every adjacent target.<br>On a successful Mandible attack, immediately make a Bite attack against that victim as well. On a successful Bite attack, the victim is swallowed. After 3 rounds, they are digested and die. 15 damage is enough to slice your way out of the Worm, or else cunning methods might work.",
+      "stats": "HD 15, HP 75, Armour as leather, bite (+10, d10) and d6 Mandibles (+10, d4) and Crush (+0, d8), saves as fighter 15."
+    },
+    {
+      "title": "2d10 Myconid Composters",
+      "page": 47,
+      "description": "Lumpen fungoid proletariat of the gardens. Four foot high vaguely humanoid masses of mycelium with raisin-like sensory organs studded into their puffballheads. <br>Their purpose is to gather dead, broken and dirty things, and pile them up in their great steaming compost-mounds to rot down. More composters sprout from the mass periodically, which is also used to fertilize the garden. <br>Myconids have huge nests in the depths of the gardens. Great rotting heaps of compost, with propped-up cavities within where they live. They don’t sleep, or eat, but instead replenish themselves by thrusting the mycelium roots from their hands and feet into the decaying mass that makes up their home. <br>Their consciousness is not as separated as other beings. Myconids can fuse together, letting the mycelium threads that make up their neural networks intertwine. Their consciousnesses merge, their personalities blurr together, they share memories The longer they’re fused, the more completely thei sentiences meld together. They can split apart again, and when they do they retain all the memories they once shared. Myconids greet one another by shaking hands, blurring conciousnesses enough to exchange information. Knowledge ripples through their culture rapidly, their personalities exist in a fluid pool. They are extraordinarily vulnerable to memetic corruption. <br>They wear dungarees and battered straw hats, and speak with regional British accents; Cockney or Cornish or Welsh. Stolid and practical, and single-mindedly dedicated to creating the best compost they can. PCs look compostable, too, they’ve got all those nutrients...<br>Can fuse with another Myconid. The two combine into a single being with all the knowledge both possessed. Combine the HP totals of both, up to the maximum 12.<br>Instead of attacking, the Composter can squirt spores from the top of its head, that do one of the following:<br>‣ Heal all fungi d4 hp.<br>‣ All non-fungi save vs poison or take d4 damage.<br>‣ Form a new Myconid with d4 HP, at the cost of that many HP from the donor.",
+      "stats": "HD 3, HP 12 Armour as leather, gardening tools (+0, d8), Save as cleric 3."
+    },
+    {
+      "title": "A Shepherd of the Trees",
+      "page": 63,
+      "description": "A tree, twenty or so feet tall. Faces seem to form in its gnarled bark. Limbs take the shape of clutching hands. Despite its lack of a humanoid shape, its posture conveys mood and intent.<br>Its mind is old and slow. It thinks in terms of decades and centuries. It is content to watch the lesser, faster inhabitants of the gardens go about their business, only intervening when the oldest orchards and forests are threatened.<br>It tends to the trees. Its intentions tend to work slowly, warping the gardens in subtle but wide-reaching ways. It emerges only rarely. Its anger is slow to rise but implacable in its fury.<br>It is respected as a sort of slumbering king of the garden by other residents. Only those remaining sidhe receive greater reverence.<br>Moves ponderously slowly. Double damage from fire and axes. Halve damage from other sources. Regenerates d6 HP a round.<br>Can cast Animate Plants for free each round (lasting only one round), as well as attacking.",
+      "stats": "HD 13, HP 40, Armour as chain, d6+1 branches (+10, d10), saves as cleric 13."
+    },
+    {
+      "title": "D6+1 Empty Robed Ones",
+      "page": 63,
+      "description": "When the sidhe those that remained sane, at least abandoned Ynn, they left behind the empty robed ones as sentinels. Their sole purpose is to prevent the Idea Of Thorns escaping.<br>Each empty robed one is an invisible, intangible bit of force, clad in hooded robes that drape over a form that isn’t there. They drift across the gardens rather than walking. Their empty hoods gaze about. Where their gaze lingers, the inhabitants of the garden cower, for fear of attracting the attention of these spiritual automata.<br>Mindless and thus immune to mental effects. Immune to non-magical damage.<br>Can cast each of the following once per turn: Hold Monster, Teleport, Wall of Force, Disintegrate, Time Stop",
+      "stats": "HD 9, HP 35, Armour as plate, touch (+9, d12), saves as cleric 9."
+    },
+    {
+      "title": "The Idea Of Thorns",
+      "page": 64,
+      "description": "The Idea Of Thorns is not a physical creature. It is, instead, somewhere between a disease, a hostile meme, and a spiritual presence. It is conscious. It wants to spread.<br>It does not need host minds to exist, but must find minds to infect if it wishes to affect the physical world. It will try to infect one mind, overtake it utterly, and then spread. It isolates, infects, subverts and controls.<br>When the Idea Of Thorns is first encountered, it will be as information. Writing scrawled on a wall, a little notebook with poetry in it, the sound of distant singing. Anybody who refuses to look, covers their ears, etc, is not attacked by the Idea.<br>Those exposed to the Idea must save vs Magic. Any who fail have the first seeds of the Idea planted in their mind. At this stage, the only sign is that they see all plant life as having thorns. The thorns are real to them, and can cause damage. Hearing somebody infected with the Idea talk about the Idea or their experience of it causes you to make a Save to avoid infection.<br>The Idea can compel an infected victim to take an action: roll a d20: if the result is equal to or higher than the victim’s Sense of Self (which equals charisma + constitution), the victim performs whatever action the Idea wishes.<br>The victim does not realise that the compulsion originated from outside their own mind. The Idea will attempt to lower its victims’ sense of self by <strong>attacking the victim’s minds in the following situations:</strong><br>‣ If a victim experiences an altered state of consciousness, such as drunkenness.<br>‣ If a victim sleeps.<br>‣ If a victim tries to work out an explanation for the Idea.<br>‣ If a victim tries to express the Idea or their experience of it to somebody not yet infected..<br><br>When one of these happens, all those nearby who are infected experience a sudden vision. They are faced with the Idea Of Thorns, incarnate as a towering being made of tangled vines, its form mimicking those whose minds are infected. It has all the moustache-twirling villainous bombast you can hope for. They must fight it. The fight lasts a single round and then ends. The next vision continues the fight where the last left off.<br><br><strong>Treat the Idea Of Thorns as having the following stats:</strong><br>‣ HD as the highest Intelligence out of those infected.<br>‣ 2 HP per HD.<br>‣ Armour Class is the highest Wisdom out of those infected.<br>‣ 3 Attacks with a bonus equal to the highest Charisma out of those infected.<br>‣ Saves as a fighter, level is the lowest Wisdom out of those infected.<br>‣ Immunity to mind-affecting effects. Immunity to poison. Double damage from fire and electricity.<br><br><strong>The Idea does not attack hit-points</strong>, instead it attacks Sense of Self. Each successful hit halves the victim’s Sense of Self (round down).<br>As the victim’s sense of self falls, they will be prone to increasingly irrational behaviour.<br>If a victim has lost any sense of self, the Idea will make the following actions seem appropriate:<br>‣ Producing texts and artworks that express the Idea Of Thorns.<br>‣ Killing those that seek to oppose the Idea Of Thorns.<br>‣ Planting roses, briars, thistles and other thorny plants in places where they will flourish.<br>‣ Abandoning the trappings of civilisation and returning to a more feral state.<br>‣ Destroying buildings and replacing them with plants.<br><br>A victim who does one of these in a way that amuses, impresses or surprises the GM can, at the GM’s whim, earn an XP reward. The amount of XP granted is 50 multiplied by the total amount of Sense of Self they have lost.<br>If the victim’s sense of self reaches 0, they become an NPC, totally enslaved by the Idea.",
+      "stats": "See description below."
+    },
+    {
+      "title": "A Sidhe",
+      "page": 66,
+      "description": "What elves are to humans, the Sidhe are to elves. These creatures are immortal, unnaturally beautiful, and undeniable geniuses. Their race combined the radiant beauty of angels, the ancient decadence of vampires, and the elegant grace of elves.<br>Once, the Sidhe were the masters of this place. It was built by them as a realm of sophisticated delight. Something changed. The gardens were abandoned, the sidhe are all gone.<br>Something introduced The Idea Of Thorns to the inhabitants, perhaps a visitor from another world or a crack in reality. The Idea swept through the population, seizing the minds of those who encountered it and driving them to bizarre, perverse and frequently deadly acts.<br>Many sidhe died, either from violence or as a result of their hubris leading them astray. Those outside sealed the gardens to prevent the meme-virus spreading. Those that remain are beautiful creatures. Taller and slenderer than humans, with the same delicacy to their features as elves, but more so. A sidhe’s appearance is beauty incarnate.<br>Every sidhe is unique, but they share the following basic characteristics:<br><br><strong>Roll a few d20s for what’s unusual about this Sidhe’s appearance:</strong><br>1. No/additional eyes<br>2. Six-inch-long fingers<br>3. Snake Fangs<br>4. Goat legs<br>5. Butterfly wings<br>6. Petals for hair<br>7. Green/Violet/Blue/Grey/Black/White skin.<br>8. Dressed in furs<br>9. Wearing a crown<br>10. Longhookedfingernails<br>11. Teeth made of glass/flint/silver<br>12. Weeping blood<br>13. Surroundedbyswarmingbutterflies<br>14. Flowers grow in their footsteps<br>15. Surrounded by mist<br>16. Glows with a radiant inner light<br>17. Thorns grow out of their skin where the bone is close to the surface<br>18. Dressed in armour<br>19. Antlers<br>20. Spiders crawling all over their skin.<br><br>All Sidhe carry the Idea Of Thorns.<br>Never surprised..<br>Halve damage from weapons (save those made of iron), poison, cold. Double damage from iron. 50% chance that any mental effect on them fails: their mind is too alien.<br>Animals will not willingly attack a sidhe. Native inhabitants of Ynn will obey any instruction a sidhe gives them; they were made to serve.<br>Each Sidhe is a spellcaster of unusual potency. If they spend their action in combat casting a spell, they can instead cast two spells so long as both are different.<br>At-will: Command, Unseen Servant, Crate Illusion, Forget, Detect Magic.<br>Twice per encounter: Hold Person, Suggestion, Dispel Magic, Invisibility.<br>Once an encounter: Animate Objects, Teleport.<br><br>Typically, the sidhe fights by using commands, illusions and suggestions to turn its enemies against one another, while protecting itself with its remaining spells. In addition, the Sidhe has some other spells it can cast, once per encounter. <br><strong>Roll d12 for what:</strong><br>1. Animate Dead Monsters (twice)<br>2. Fireball (twice)<br>3. Sleep (twice)<br>4. Wall of Stone & Shape Stone.<br>5. Animate Plants (twice)<br>6. Mass Suggestion<br>7. Time Stop<br>8. True Sight<br>9. Earthquake<br>10. Mind Reading (at will)<br>11. Control Weather<br>12. Flesh to Stone & Stone to Flesh<br><br>If the sidhe is reduced to 0 HP, instead of dying it transforms into a patch of flowers or mushrooms growing where their body falls. They regain 1 HP twice a day (sunrise and sunset) until fully healed, and return to flesh when on full HP or if blood soaks into the ground where they’re growing. A stake in the heart prevents this and freezes the sidhe at 0hp until the stake is removed. Destroying the body while it is staked kills the sidhe permanently.<br>Give them any other weird fairy-tale weaknesses, powers or traits you feel are interesting. Each sidhe is unique.",
+      "stats": "HD 10, HP 20, Armour as chain, Touch (+10, d6), saves as MU 10."
+    }
+  ],
+  "treasure": [
+    "Real-world coins worth 2d20 gold.",
+    "A bottle of fine wine, worth 20 gold, or enough to produce an evening of merriment.",
+    "A pack of playing cards, inlaid with gold leaf/a delicate hand-mirror/jewelled velvet gloves/a silver necklace. Worth 100 gold.",
+    "A healing potion in an emerald flask. Heals d8 HP.",
+    "A box of coins worth (d10 x depth x 10) gold.",
+    "A glass tube of poison. Save vs Poison or suffer 2d8 damage. D6+2 doses remain.",
+    "A stash of ammunition. 20 Shots.",
+    "A scroll of a random spell.",
+    "A delicate music box that place weird atonal music/an elaborate filigree lantern, with a candle in it/an ornate brass spyglass/set of golden cutlery. Worth 200 gold.",
+    "An armoury. Roll d4+3 weapons, and a suit of leather/chain/plate armour with each.",
+    "A magical glass eye. The wearer can (see magic/see in the dark/see invisible things/read any written language/see through walls).",
+    "A potion of (water breathing/ invisibility/spider climbing/ levitating). Lasts 1 turn.",
+    "A magical hunting weapon. +2 to hit and damage vs non-magical, unintelligent animals. Roll for weapon type (pg. 73).",
+    "A small pouch of gemstones worth d10 x depth x 100 gold.",
+    "A gold pocket watch that tells the time in Ynn (marked with 48 hours in a day)/a delicate circlet, somewhere between a wreath of thorns and a crown, made of gold with jade leaves/a clock made out of glass. Worth 500 gold.",
+    "A false tooth that grants the wearer (fire breath for d8 damage, save avoids/an extra bite attack for d4 damage/the ability to bite through anything/the ability to spit poison for d4 damage/immunity to ingested poison).",
+    "A pair of enchanted metal hoops 8 inches across. Anything passing into one passes out of the other, and visa versa.",
+    "A spellbook containing d4+1 totally random spells.",
+    "An enchanted fishhook. Any being that swallows the hook is unable to act against the person holding the other end of the fishing-line in any way.",
+    "A metal-bound chest of coins. Worth d20 x level x 100 gold.",
+    "A cloak that makes its wearer (immune to the cold/immune to fire/immune to electricity/able to blend into plants with a 4-in-6 chance to escape all notice/invisible to wild animals/able to pass through plants as if they were intangible).",
+    "A magical weapon intended for warfare. +3 to hit and damage against enemies that use weapons, and roll a magic weapon property. Roll for weapon type (pg. 73).",
+    "Magical powder which, when scattered on water, causes it to instantly freeze to solid ice. Bag contains 10 doses.",
+    "A wand that lets you cast (dispel magic/fireball/command plants/ shape stone/gaseous form/break curse/cure disease). 2d6+2 charges remain.",
+    "A suit of magical chainmail that protects against (weapons, natural attacks, fire, electricity, corrosion, poison). Half damage from the thing protected against.",
+    "A book of sidhe poetry. Will need translating/bags of seeds that will grow exotic new trees with expensive fruits. Worth 1000 gold.*",
+    "A collection of d10 jewelled rings. Each worth 200 gold.",
+    "An absolute masterpiece of a magical weapon. +2 to hit and damage, and roll twice for magic weapon properties. Roll for weapon type (pg. 73).",
+    "A magical ring that renders the wearer (invisible, able to walk on walls, able to breath water, a friend to all wild animals, immune to hunger, non-existent to the undead).",
+    "A spellbook containing 2d6 totally random spells.",
+    "A box of unearthly glowing gemstones, worth d10 x depth x 500 gold.",
+    "A collection of occultum coins. Occultum is a smokey, glassy metallic substance, magically potent and insanely valuable. You can bribe gods and purchase kingdoms with it. D4 coins, each worth depth x 1,000 gold",
+    "A little stone icon of a dead god/the crown of a lost kingdom/a book of sidhe political philosophy that will require translating and then revolutionise the world. Worth 2,500 gold.",
+    "A legendary monster-slaying weapon. +3 to hit and damage against non-mundane enemies, and roll 3 weapon properties. Roll for weapon type (pg. 73)."
+  ],
+  "searchBody": [
+    "Knitting needles.",
+    "Spider in a matchbox.",
+    "Packet of seeds.",
+    "A recipe for sausages made of something exotic.",
+    "Twine.",
+    "A delicate glass egg.",
+    "A miniature of absinthe.",
+    "Bird snares.",
+    "A set of pan-pipes.",
+    "Paintbrushes.",
+    "A signet ring.",
+    "Snail shells with copper filigree.",
+    "Pocket watch.",
+    "Fan.",
+    "Earrings made of human teeth.",
+    "Playing Cards.",
+    "Steel Mirror.",
+    "Key. Roll d%: this is the chance that it opens a lock you try it on. Once it fits a lock, that’s the lock it was for.",
+    "Padlock.",
+    "D6 weird silver coins.",
+    "Smoking pipe.",
+    "Secateurs.",
+    "Chalk and charcoal.",
+    "Swiss army knife.",
+    "Spectacles.",
+    "Hammer and nails.",
+    "Spool or copper wire.",
+    "Candle.",
+    "Beetle preserved in glass.",
+    "Rabbit skull.",
+    "Ginger Cake",
+    "Saffron Rice",
+    "Smoked Fish",
+    "Colourful Root Vegetables",
+    "Pickled Vegetables",
+    "Smoked Ham",
+    "Eel Pie",
+    "Pickled Shellfish",
+    "Salted Songbirds",
+    "Smoked Sausage",
+    "Peppermint Candy",
+    "Fruit in Syrup",
+    "Toffee",
+    "Cheese",
+    "Black Pudding",
+    "Dried Fruit",
+    "Strawberry Tarts",
+    "Madeira Cake",
+    "Oysters, stored in ice",
+    "Cured Peacock"
+  ],
+  "searchFlowerbed": [
+    "Birds nest, with eggs.",
+    "Empty wine-bottles.",
+    "Abandoned rake.",
+    "Patch of colourful mud; bright yellow/purple/orange/white.",
+    "Cast-off snake skin.",
+    "Wooden doll, all rotten.",
+    "Small pot of paint.",
+    "Stone that glows briefly if you hit it with a hammer.",
+    "2d6 human teeth.",
+    "Rabbit burrow.",
+    "Tiny funeral urn.",
+    "Snare with a long-dead songbird in it.",
+    "Patch of mint.",
+    "Collection of rusty gears.",
+    "Broken glass tube.",
+    "Abandoned scythe.",
+    "Humorously shaped root vegetable.",
+    "Small bag of cement.",
+    "Ash from an old campfire.",
+    "Spiderweb with words written in the silk.",
+    "Patch of strawberries.",
+    "Felling-axe still stuck into a tree trunk that now grows around it.",
+    "Dead frog skewered on a little wooden spike.",
+    "Puddle that smells like champagne.",
+    "Garden gnome.",
+    "Mouse-sized doorway leading to a mouse-sized home.",
+    "Lamp-post, fallen over and halfcovered in weeds.",
+    "Discarded glove.",
+    "Jam-jar full of angry bees.",
+    "Abandoned spade next to a small hole.",
+    "Mushrooms",
+    "Fish",
+    "Figs",
+    "Songbirds",
+    "Rabbits",
+    "Songbird Eggs",
+    "Cherries",
+    "Marrow",
+    "Pheasant",
+    "Peaches",
+    "Peacock Eggs",
+    "Liquorice Root",
+    "Quinces",
+    "Tiny Puddings",
+    "Pumpkins",
+    "Peas",
+    "Mice",
+    "Sorrel",
+    "Pomegranate",
+    "Honey"
+  ]
+}

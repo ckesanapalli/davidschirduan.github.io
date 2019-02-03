@@ -1,0 +1,319 @@
+
+Display Case
+A glass-fronted case to display valuable or interesting exhibits. Roll a d20 for what:
+1. Butterflies pinned to card.
+2. Snake skins.
+3. Various bits of a dead saint - teeth, fin-gerbones, bits of hair. Enough to recon-struct the entire saint if assembled.
+4. Exotic hats.
+5. Dried, pressed flowers.
+6. Deep-sea fish, squid, jellyfish and worms, all in jars of slightly yellow-tinted preservative.
+7. Spiders pinned to cards, their webs en-cased in blocks of glass.
+8. Interesting shoes.
+9. Surgical tools through the ages.
+10. Ancient pottery and glassware.
+11. Glass eyes.
+12. Candlesticks and lamps.
+13. Ancient coins.
+14. Signet rings of various noble houses, some from exotic lands or the distant past.
+15. Fabulous masks.
+16. Paraphernalia for consuming narcotics.
+17. Prosthetic limbs.
+18. Vials of blood from various animals.
+19. Samples of strange rocks and minerals.
+20. Exotic herbs and spices.
+Anything on display is either very old, very rare, or from very far away; possibly even all three. As a result, if take and sold to a collec-tor in the real world, the items on display are worth at least 100 silver multiplied by the display’s depth.
+Ink Vats
+Large brass vats of ink, the tops open to the air, stirred slowly by a clockwork whisk that hangs from the ceiling. Five vats total, providing black, red, green, blue and infernal ink.
+On the sides of each vat is a tap, labelled, that allows you to refill an inkwell or bottle from the vat.
+The black ink is mundane.
+The red ink stings when touched: anything written on flesh in it appears as if a it were a birthmark or scar.
+The green ink permanently stains anything it touches, and can never be washed off.
+The blue ink is invisible during the daytime.
+The infernal ink can be used to write infernal contracts. Any contract written in this ink is magically binding. Every signatory on the contract instinctively knows if anybody else has broken the contract as soon as it hap-pens.
+1-in-6 encounters here will always be with an Ink Elemental oozing out of the vats (P. 51).
+Map Gallery
+A number of maps on the walls, in picture frames. Some depict familiar lands. Others, more exotic places such as Voivodja, Leng, Ynn or Laputa. There’s a 1-in-6 chance that there’s a map of any particular exotic country that the PCs might wish to explore in future, or have visited in the past.
+If the PCs are looking for information about an exotic location, then observing the map gallery for a turn will give them clues: they add 2 to their Progress score.
+Section 3: Location
+19
+Boiler Room
+A room devoid of bookshelves. Against one wall, a huge black-iron furnace, over which a tank of water boils. Large pipes channel the steam elsewhere in the Library.
+If the boiler itself is broken (which will take some skilled sabotage, or 20 damage in one go), it ruptures and bursts, dealing 4d6 dam-age to all in the room.
+Steam vents on the front of the boiler or the pipes that snake away from it can be damaged or released: the blast of steam that issues deals d6 damage. Damage to the steam pipes can have a similar result.
+A successful save vs dragon breath halves the damage taken.
+Auditorium
+A large room empty of bookshelves, semi-circular in shape. In the middle of the flat side, there is a small stage with a desk and, behind it, a large blackboard. Around this in half-circles are rings of benches, each row a few feet higher than the one in front.
+Skeleton Collection
+Around a dozen skeletons in glass cases. Wired into position. Labelled neatly.
+Roll a d10 for what skeletons there are:
+1. Babies
+2. Children
+3. Human adults
+4. Human mutants
+5. Birds
+6. Snakes
+7. Long-extinct monsters
+8. Fish
+9. Giants
+10. Apes
+Section 3: Location
+20
+Chapel
+A long room supposedly dedicated to reli-gious devotion. A high arched ceiling, sup-ported by pillars. Rows of pews, and at the front a pulpit before the altar.
+The pulpit has, built in, a small lectern with an Extraordinary Book resting on it: roll for which (p. 64).
+The altar is a simple affair, with the suitable trappings of a common faith - maybe a cruci-fix and candles, perhaps a bowl and sacrificial knife, depending on the religion.
+Under the altar, there are a few stored trin-kets; roll for Treasure (p. 66).
+Tea-Room
+A small, well furnished room. Comfortable chairs, low tables. Cosy.
+To one side, there’s tables against the wall with food and drink, and the chinaware and cutlery required. Roll 3 d10s for what:
+1. Scones, jam and cream.
+2. Cake.
+3. Sandwiches.
+4. Port and sherry.
+5. Cheese and biscuits.
+6. Tea.
+7. Cocktails.
+8. Coffee.
+9. Fried breakfasts.
+10. Pastries - croissants etc.
+Every time the party visits the room, re-roll what food is present: Red Librarians re-stock the room periodically.
+Statuary
+A long gallery, filled with several dozen stat-ues on pedestals. Each life-size. Most reclin-ing, seated or otherwise relaxed. Each worth 300 silver multiplied by the room’s depth; being a life-sized statue, getting one out will be tricky.
+If the party is looking for a specific person, 50% chance there’s a statue of them here.
+Any corpse brought here slowly turns to stone over the course of a turn. Anybody sleeping or unconscious here likewise turns to stone after a night-cycle’s worth of sleep.
+The statues are all have a neat brass plate labelling their pedestal, detailing the subject. If looking for information about a historical figure, 50% chance there’s a statue of them here, and if there is increase the Progress score by 1.
+Stuffed Animals
+A gallery full of taxidermied animals, dis-played alongside detailed information. The animals are all interesting in some way: rare, foreign, extinct, mythical.
+If looking for information about a particular type of animal or legendary beast, 50% chance there’s a taxidermied example here. If there is, increase the Progress score by 1.
+Section 3: Location
+21
+Mausoleum
+Among the bookshelves, a large stone sar-cophagus. A rectangular block of stone, carved into rococo flutes and scrolls. The top has an inscription, and can be lifted up.
+Within, there is a skeletal corpse, and roll for Treasure (p. 66) twice to see what else got interred with them.
+Storage Vault
+Behind a closed, locked door, the material treasures of the Library are stored. The door’s lock will need to be picked, or else the door broken down to get in.
+Within, there are a wealth of materials in marked cases.
+Roll for Treasure (p. 66) twice to see any items of particular interest that are here. In addition, there are rare materials - pigments, silk, semiprecious stones, etc - worth 100 silver multiplied by the depth of the room.
+Lastly, roll 3d20s to see what mundane mate-rials are stored here:
+1. Sheaves of blank paper.
+2. Janitorial Equipment.
+3. Sealing wax.
+4. Unused furniture.
+5. Woodworking tools.
+6. Empty glass globes and bottles.
+7. Candles.
+8. Sawdust.
+9. Ladders.
+10. Paint and brushes.
+11. The hooded monastic robes of the Li-brarians.
+12. Barrels full of human teeth.
+13. Dyed leather.
+14. Salt.
+15. Glass tubes.
+16. Pens and similar stationary.
+17. Metalworking tools.
+18. Books that need repairing.
+19. Books that need replacing.
+20. Vats of ice.
+Section 3: Location
+22
+Planetarium
+A high domed ceiling, onto which lanterns project dots of light that resemble alien con-stellations.
+In the centre of the room, a large clockwork orrery modelling the solar system. A lamp burning in the centre, and long arms that hold model planets, moons and comets in place. The whole thing clicks and grinds as it slowly turns.
+The planetarium moves to represent accurate-ly the position of the celestial bodies outside in the real world. It can, however, be manual-ly re-set to a past or future position of the celestial bodies.
+Bookshelves at ground level contain infor-mation on astronomy and astrology.
+Anybody who uses the planetarium to cast an astrological horoscope for the subject of information they are seeking adds d6 to their Progress score. Furthermore, if they roll a d20 under their intelligence, they may ask a single yes-or-no question about the subject of the horoscope and get an accurate answer.
+Lastly, re-setting the position of the orrery has a distorting effect on the time-stream. Those present find their state re-set to the time shown on the orrery. If they set it to a point in the past, then the consequences of events after that point are negated for those present- injuries disappear, curses were never bestowed, healing never happened, etc etc. Likewise, if set forwards, then any healing, ageing, disease etc that might happen in the time set forward occurs immediately.
+The orrery can go forward or backwards in increments of one round, turn, hour, day, week, month, year or century.
+The time-stream for the rest of the world remains unaffected: only the PCs party skips back or forward in time.
+Section 3: Location
+23
+Calculation Engine
+The shelves give way to a huge machine made of clockwork and steam pumps. Incredibly complex, the machine hisses, creaks, clicks and turns.
+There is a terminal in the front-centre of the calculation engine. Tiles marked with letters a-z, numbers 0-9 and punctuation, that can be pushed.
+Above the tiles, there is a slot from which emerges a long ribbon of paper that winds down into a pile on the floor, like ticker-tape. A mechanical pen writes onto the paper rib-bon as more is extruded.
+It is, effectively, a mechanical computer, us-ing gears and valves rather than electrical components. It is only one part of a much greater whole that lies in a huge network spread through the library.
+Pushing a tile results in a series of clicks and new wheels within the machine starting to turn. You can type things into the engine using these tiles.
+Anything the players type in is input to the calculation engine. The output will be written on the paper ribbon, extruded out into the pile. The players can read the response, which will vary depending on what input they used. Go down the list in the next column, starting at the top, and use the first response that applies to their input.
+ If the players input a fact that is known to be true (which is to say, correctly recorded as factual in any book any-where in the world), the response is:
+###Data Confirmed###
+ If the players input a fact that is known to be false (which is to say, correctly refuted in any book anywhere in the world), the response is:
+###Data Contradictory###
+ If the players input a question that has an answer in any book anywhere in the world, the machine responds by naming the closest book which contains an an-swer. They get +1 Progress if the ques-tion asked is related to the information they are looking for. This +1 Progress applies for each related question they ask, each getting the response of a new book, until they have a list of 6 books (and so a total of +6 progress). After this, the calculation engine begins to repeat the same books.
+ If the players input a question to which no answer is recorded in any book any-where in the world, the response is:
+###Data Not Found###
+ If the players input anything which is neither a stated fact nor a question, the response is:
+###Unknown Input###
+###Recalibrating###
+The Calculation Engine is attended to by d4 Grey Librarians at all times. If they are slain or removed, more will arrive within a turn.
+Section 3: Location
+24
+Phantom Databanks
+The room contains a set of shelves against one wall. Each shelf holds a row of glass jars. Each jar has a set of wires emerging from it, linking it to a small machine at the end of each shelf that displays the pressure, tempera-ture, emotional state and acidity of each jar’s contents on a set of dials.
+There are 30 jars in total. 24 contain a phan-tom, the rest are currently empty. Each phan-tom appears as a condensed mist, thrashing wildly, flickering with colours and patterns, glowing softly.
+Opening a jar releases the contained phantom (see page 44). It doesn’t really want things or have a sense of self, but in the jar it was com-pressed unnaturally, and it will expand to its full size (about that of a human) when re-leased.
+A newly released phantom is agitated and energetic. Whilst it does not have enough awareness of its surroundings to attack per se, it will almost certainly cause problems.
+Alternatively, a phantom in a jar can be used as a dim source of light, illuminating out to a five-foot radius.
+Spider Trapdoor
+Under the floor of this location, there lurks a huge spider, an ambush-predator adapted for the Library’s environment. It can lift up a section of floor, and emerge to grab prey, dragging it down to feed on. It’s burrow is just about big enough to fit itself, and a few prey (either bundled up ready to eat, or else one still being subdued).
+When the players first enter this location, describe the floor-boards as being a little uneven, and that there are strands of cobweb over the floor. This is the only clue they get. If they test the floor, tell the players there is a hollow space beneath. If they don’t think to check, it’s their own fault when they get am-bushed.
+The spider can sense the footsteps of those walking above it as vibrations and sound. It knows how many are present, if any are in-jured, and how heavy they all are. From this, it can make a good guess as to who makes the best victim. Typically, this will be whoever is bringing up the rear. Sometimes, it waits for a group of victims to disperse to explore the room, and grabs somebody who stands over its pit undefended.
+When the spider makes its move, a section of floorboards lift up, and it’s front half (face and front legs) emerges from its pit. It grabs its victim and tries to drag them into its pit, closing the lid behind it.
+It makes a single surprise attack. If the attack hits, the victim is pulled into the spider’s pit as well as taking damage. Furthermore, there is a 3-in-6 chance that the spider does this quietly enough that (unless the victim states that they are going to cry out) that nobody notices it has happened unless they’re looking at the victim.
+Inside the spider’s pit, there are various valua-bles taken from its previous victims. Roll for Treasure.
+Trapdoor Spider: HD 4, HP 16, Armour as chain, Bite (+4, d10 damage and save vs poison), saves as fighter 4.
+3-in-6 chance to make no noise at all when it does something. If a victim fails their save vs the spider’s venom, they are paralysed for a turn.
+Section 3: Location
+25
+Printing Machine
+A large, steam-powered printing press, its operation automated. It is plumbed into the larger structure of the Library, powered by high-pressure steam piped in from the boil-ers. It produces replacement pages, important paperwork and so on, which slide from the printing press and into collection baskets.
+It creaks, clatters and grinds as it works. It is in constant motion, and the piles of paper it produces build up over time.
+Ossuary
+A collection of bones packed tetris-style into six glass-fronted display cases. Each neatly labelled with who it was taken from, when it was taken, the circumstances of their death, and what killed them.
+Of the bones present, only a handful are from somebody interesting enough to be of value. There are d4 interesting bones in each case, each bone worth 10 silver multiplied by the location’s depth.
+Trying to remove the bones will involve smashing open or unlocking the display cases. This releases the Bone Beast within: an ani-mated swarm of bones of indistinct for-mation that behaves like a cross between a swarm of hornets and a small landslide. Just hundred of bones all battering whoever tried to steal from them. Once the Bone Beast is defeated, the valuable bones from that cabi-net can be taken.
+Bone Beast: HD 6, HP 12, Armour as leather, Batter every nearby victim (hits automatically, d4 damage), saves as fighter 6.
+Swarm form reduces most physical damage to a max of 1, area attacks do double damage.
+Undead, with all the vulnerabilities and immunities which that implies. Cannot be backstabbed due to lack of vulnerable anatomy.
+Syphon of Phantoms
+In the centre of this room is a hollow metal cone, narrow at its base and broad at the top, riddled with holes the size of a finger. The whole thing is like a huge sea-sponge or coral made of etched metal.
+The hollow space within the conical syphon is filled with glass vials. Some are empty, some contain condensed phantoms as a wrig-gling turquoise mist. Thin glass tubes and wires link the vials to one another and to the exposed plumbing of the library, like some huge alchemist’s distillery.
+Whenever somebody dies in the library, their soul is inexorably drawn towards the Syphon. While they may only drift a few feet closer each day, the Syphon acts like the near-inescapable gravity-well of a black hole in the spiritual plane. A few souls, not yet converted to phantoms, can be seen hanging in the air as dim shimmers, oozing closer to the Sy-phon inch-by-inch.
+A soul that is sucked into the syphon is drawn through its various channels and tubes, compressed and distorted and rendered down by the process until only a phantom remains. Once this process is complete (which takes a few minutes) the machine gives a cheerful ‘DING!’ and another glass vial is filled with the new phantom.
+The room’s thanatropic machinery constantly tugs at your soul. Death comes easily here. Whenever damage is taken in this room, the syphon deals 1 additional damage the next round as it attempts to pull vulnerable souls free of their fleshy homes.
+Section 3: Location
+26
+Steam Vents
+Here, the steam-pipes that thread through the library are exposed. A large valve is set into the wall, that can be opened or closed by turning a huge wheel. If the valve is opened, the steam from the pipes is vented into the room, dealing d6 damage to everybody pre-sent as it scalds them and filling the room with blinding fog.
+Even if the vents aren’t fully opened, smaller pressure valves constantly release little bursts of steam into the room. The air is humid, hot and thick with mist, allowing those present to re-roll failed rolls to hide in the mist.
+Because of the damp air, the books here are all protected by a thin layer of wax, or else etched into paper-thin sheets of metal. Bring-ing in normal paper books will ruin them rapidly.
+Paper Beehive
+The room here has been infested with ver-min; bees the size of a human hand. They have built a hive against one wall out of pa-pier-mâché, layers of pages built up into a blister-like nest twelve feet across that stretches from floor to ceiling.
+Although the entrances the bees use are only a few inches across, you can get into the bee-hive pretty easily, simply by cutting through its paper walls. Within, chambers the size of a human head contain eggs, larvae, dormant bees, and the Black Honey that the bees make. If the entire hive is ransacked, there are 6 pints of Black Honey.
+Black Honey is made without flowers: instead the bees harvest ink from open books and blood from corpses. Over time, the honey is condensed and refined, producing a sub-stance dense with magical potential. Roll a d8 for anybody who consumes it to see what changes it works upon them:
+1. The consumer can speak to and under-stand any insects, mundane or other-wise.
+2. The consumer can see into the ultravio-let spectrum, allowing them to see through most camouflage and to per-ceive electrical charges by the ultraviolet glow they produce.
+3. The consumer’s skeleton becomes brit-tle. -2 HP, permanently, to a minimum of 1.
+4. Subtle yellow-and-black bands appear on the consumer’s skin.
+5. The consumer sprouts a sting over the course of the next few days. It can be used as a weapon, with a successful hit doing 2d12 damage to both the victim and the consumer (as the sting is wrenched free, bringing their viscera with it).
+6. The consumer’s body becomes light and filled with hollow spaces. Halve all fall-ing damage.
+7. The consumer sprouts two pairs of transparent wings from their shoulder blades, allowing them to hover a few feet above the floor.
+8. The consumer’s skin hardens into a brittle exoskeleton. +1 AC.
+There are 20 mouthfuls of honey in the hive.
+In the room, there are 2d6 bees on guard. So long as the PCs don’t harm the guard-bees or their hive, the bees will ignore them. If a fight is started, d8 bees emerge from the hive each round. The first time an 8 is rolled, then 8 bees emerge and their queen comes with them. There are 120 bees and their queen in total.
+Bee: HD 1, HP 3, Armour as leather, sting (+1, d8 damage to the bee and its victim) saves as fighter 1.
+Queen Bee: HD 4, HP 12, Armour as leather, sting (+4, d8 damage to the bee and its victim) saves as fighter 4.
+Section 3: Location
+27
+Furnace
+A metal chamber filled with coal burns fierce-ly, its heat used elsewhere to power steam engines or warm the library. Opening the shutters to the furnace produces a blast of hot air that deals d6 damage to those directly in front of it. Actually going inside the fur-nace does 4d6 damage a round.
+Holding Pen
+Within this room, a huge glass vat is set up, like the fish-tank in an aquarium. Copper tubes connect it to the rest of the library’s plumbing. A single brass hatch is set in one side, that can be opened from the outside but not from within. The hatch is locked.
+Within, there are d10 phantoms hanging like oily smears in the air. If the soul of a specific person is sought by the PCs, the chance that one of the phantoms encountered here is that soul is 1-in-10.
+Each turn either d4 more phantoms arrive in the pen, deposited by the tubes, or d4 are sucked out into the library’s plumbing.
+There’s a 50% chance that the first encounter here will be with d6 white librarians.
+Phantom Pumps
+Built into the wall of this room is a huge steam-powered machine, made of black iron, all tubes and pistons and valves. It serves to pump phantoms around the library to where they’re needed. The whole contraption clanks and groans constantly as it moves.
+There is a control panel nearby, with various dials, switches and levers to control what the pumps send where. A single white librarian is here, manning the controls.
+Section 3: Location
+28
+Infernal Gateway
+This room contains, as well as the normal exits, a single huge horrible doorway. Made of gnarled dark wood set into a stone frame, with black iron hinges and a sturdy lock. The whole thing - door, frame and lock - is en-graved with the sort of horrible sigils that hurt to look at for too long.
+The doorway leads to hell.
+Each turn, there is a chance that a minor devil will come through the doorway. This chance depends on how depraved the PCs are (sin attracts the devils): check the list of sins below for the chance.
+ Trespassing into another’s home, petty theft and other minor crimes give a 1-in-6 chance.
+ Serious theft, such as armed robbery, grave-robbing, extortion and so on gives a 2-in-6 chance.
+ Unnecessary violence or mayhem (such as arson, pointlessly attacking people, or acts designed to outrage the public) results in a 3-in-6 chance.
+ Murdering people results in a 4-in-6 chance.
+ Wilful sadism and cruelty - such as tor-ture, murder out of spite and so on - gives a 5-in-6 chance.
+If a devil shows up, it has the following basic statistics:
+HD 2d4, HP 2 per, HD Armour as chain, Whip/claws/pitchfork/flensing knife (bonus to-hit same as hit-dice, d8 damage), saves as fighter of equal HD.
+Halve damage not from holy, magical, or silver weap-ons. Double damage from holy sources. Immune to mind-control that doesn’t specifically target infernal beings.
+Roll a d6, d8 and d10 for it’s specifics.
+The d6 determines its appearance. It is:
+1. Angelic
+2. A goat-human hybrid.
+3. A bat-human hybrid.
+4. Serpentine.
+5. Corpselike.
+6. Perfectly human looking other than tiny horns.
+The d8 determines its role in the infernal hierarchy. It is:
+1. A thrall.
+2. A lawyer.
+3. A librarian.
+4. A jailer.
+5. A torturer.
+6. A tempter of mortals.
+7. A financier.
+8. A diplomat to other realms.
+The d10 determines a special ability the devil possesses.
+1. Can turn any object to solid gold by touching it, at will.
+2. Can grant a single wish in exchange for a mortal’s soul upon death.
+3. Can transform into a cloud of flies.
+4. Can transform into a harmless-looking animal.
+5. Can mimic the appearance of the view-er’s loved-ones.
+6. Touch drains memory (d12 damage to intelligence).
+7. Can teleport short distances in a puff of smoke.
+8. Can locate the soul of a specified indi-vidual unerringly.
+9. Immune to fire.
+10. Casts charm person when it shakes your hand.
+The devil wants you to damn yourself. It will seem helpful until you anger it. Everything it offers has an unforeseen price.
+Section 3: Location
+29
+Jarred Brains
+The shelves here are lined with glass jars, each filled with a clear fluid. Floating in the fluid is an intact human brain, with wires linking where the spinal column would be to a small mechanism set in the jar’s base. Each jar is labelled to say who’s brain it contains, and when they were interred.
+Each jar’s fluid is a nutrient solution designed to keep the brain within alive. Occasionally, a bubble rises to the surface as the jar’s mecha-nisms keep the fluid oxygenated. The mecha-nism links to a small metal grille in front of the jar; this is how the brain within communi-cates, in a tinny, staticky voice. The brains are torpid and dormant as the PCs enter, but can be roused by - for example - shaking their jars or speaking directly into the grille at the front of their jar.
+Of the brains present, at least one (perhaps more) will be an intellectual figure (recent or historical) known to the PCs. 1-in-4 chance that it’s somebody directly connected to the subject of the PCs’ research. Conversing with this figure might answer all sorts of questions, and adds 4 to the party’s progress score if their area of knowledge is relevant. Being stuck in a jar has almost certainly given the brain a long time to spend in self-reflection with little external stimulus. It has no doubt become deeply strange in its outlook and priorities.
+The remaining brains are split roughly evenly between those incapable of intelligible com-munication due to language barriers, those incapable of intelligible communication due to total jar-induced madness, those unable to be roused from their torpor, and those with little worth saying.
+A brain-in-a-jar exists in a weird halfway state between life and death. It is affected just as easily by magic that affects the living, the dead and the undead.
+1-in-4 encounters here will always be with Floating Brains (P. 48).
+Section 3: Location
+30
+Dissection Theatre
+A surgical table sits in the centre of this room, illuminated by bright lights and sur-rounded by seating for spectators. This is a space where researchers can take apart bodies (alive or dead) to see what’s inside them. Sometimes there is an audience when this happens, but always a grey librarian taking notes.
+Roll a d4 for who’s present when the PCs arrive.
+1. Nobody.
+2. A pair of black librarians preparing or cleaning up after a dissection.
+3. A neurovore performing a dissection, watched by 2d4 visitors and a grey li-brarian.
+4. An archivist-lich performing a dissec-tion, observed only by a grey librarian.
+Roll a d12 for what’s being dissected.
+1. A human baby.
+2. A monkey.
+3. A large spider.
+4. A pregnant ape.
+5. An injured human youth.
+6. An elderly human.
+7. A goat.
+8. A large shark.
+9. The egg of a huge serpent.
+10. A vampire, staked to keep it dormant.
+11. A lobotomized elf.
+12. An octopus.
+1-in-4 chance the subject is still alive.
+Mummy Vault
+This is where dead librarians go. Each is dried out, treated with the same chemicals used to preserve the books, and wrapped in a tight shroud. The shelves are packed with little corpses swaddled up in off-white grave-cloths. It smells of natron and vinegar here.
+The dead librarians won’t rise, ever.
+Section 3: Location
+31
+Sheol Computer
+The Sheol Computer is the heart of the li-brary, the vast machine whose calculation drives everything else that happens here.
+The computer fills the entire room. Mostly, it is a tangle of thin glass tubes and valves through which phantoms flow like electricity through a computer’s circuit-boards. Other, more odd, components are present though. There are a few each of::
+ Clockwork engines that tick up the count of souls in the machine.
+ Human brains wired into the computer.
+ Collections of dials and displays, allow-ing the white librarians to monitor the computer’s workings.
+As well as this, there are one each of the following components:
+ A huge canvas screen onto which is projected text that reflects what the computer is currently working on. The text flickers and scrolls past almost too fast to make out.
+ A keyboard, with the letters A-Z, num-bers 0-9, and punctuation, which can be used to input text to the computer.
+If text is inputted with the keyboard, it ap-pears on the screen, followed by the comput-er’s response.
+The possible inputs and responses are as follows:
+ All of those for a Calculation engine (P. 23)
+And also:
+ If the players include a dead person’s name in their input, the computer will state their date and cause of death.
+ If the players include a living person’s name in their input, the computer will state their most likely cause of death and then:
+
+###Date Unknown###
+For PCs, pick a cause of death that is most likely for that PC. The character takes maxi-mum damage from that danger, always fails all saves against it, is always the first affected by it, and so on.
+ If the players include the name of a deity, demon, angel, fairy or other im-mortal being in their input, the comput-er will list the date of their death as the accurate date of the end of the world, and the cause as ‘Armageddon’.
+ If the players ask about the purpose of the library of the computer, it simply answers:
+###Entropic Transcendence.###
+The Sheol Computer is attended to by d8 white librarians at all times. Damaging it will earn the enmity of all librarians, forever.
