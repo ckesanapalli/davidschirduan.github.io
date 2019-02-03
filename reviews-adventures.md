@@ -16,6 +16,30 @@ Oh! And unlike my [Game Reviews]({{site.url}}/david/extremely-interesting-role-p
 {:toc}
 <hr>
 
+## Gardens of Ynn
+
+![Stargazer.png]({{site.url}}/images/ynngenerator.png){: .leftSmallImg}
+
+[**PDF: $3**](https://www.drivethrurpg.com/product/237544/The-Gardens-Of-Ynn) / [**Print: $18**](https://www.drivethrurpg.com/product/237544/The-Gardens-Of-Ynn)
+
+Written by Emmy ["Cavegirl"](http://cavegirlgames.blogspot.com/) Allen
+
+Designed for OSR games.
+
+The Gardens of Ynn is a point-crawl adventure set in an ever-shifting extradimensional garden. Each expodition generates its route as it explores, resulting in new vistas being unlocked with every visit. 
+
+I bought Ynn about a year ago and thought "Wow this looks cool. I really should sit down and read it." _10 months later_ "Oh hey! I almost forgot about Ynn." And now I sorely regret not reading it sooner. 
+
+This book is a master-class on evocative details that impact the game. This is something I've REALLY struggled with while writing Bone Marshes.
+
+"The hot room causes d6-3 damage per turn" is mechanically sound, but very boring. "The sweltering heat burns your eyes and makes every cell in your body scream for water" is very evocative, but how do I communicate that through the gameplay? Here's how Emmy handles that:
+
+> At the bottom, liquid fire, something between molten metal and condensed plasma. Falling into the fire deals 2d6 damage a round. Merely being in the burning vapours coming off it deals 1 damage per round. 
+
+Brilliant. If you want evocative, fresh writing and bizarre, interesting gardens then you MUST grab a copy of Ynn. Especially for $3. This is so good and so cheap that it should be a CRIME!
+
+After you've bough a copy you can use my [Ynn Generator](/ynngenerator) to help you come up with locations quickly.
+
 ## Tower of the Stargazer
 
 ![Stargazer.png]({{site.url}}/images/posts/Stargazer.png){: .leftSmallImg}

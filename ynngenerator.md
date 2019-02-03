@@ -26,14 +26,13 @@ image: /images/ynngenerator.png
 
   <div id="location" class="tabcontent">
     <div class="tightSpacing h3" id="locationTitle">Gardens of Ynn</div>
-    <p id="locationDesc"><a href="https://www.drivethrurpg.com/product/237544/The-Gardens-Of-Ynn">Ynn</a> is a perpendicular world. It appears as a vast garden, now untended, overrun, and fallen into ruin. Once, this place was a realm of rarefied luxury, but its masters are long dead and the machinery that maintained it has fallen into disrepair.</p>
+    <p id="locationDesc"><a href="/david/extremely-interesting-adventures#gardens-of-ynn">Ynn</a> is a perpendicular world. It appears as a vast garden, now untended, overrun, and fallen into ruin. Once, this place was a realm of rarefied luxury, but its masters are long dead and the machinery that maintained it has fallen into disrepair.</p>
   </div>
 
   <div id="detail" class="tabcontent">
     <div class="tightSpacing h3" id="detailTitle"><a href="https://www.drivethrurpg.com/product/237544/The-Gardens-Of-Ynn">Buy
         it here</a></div>
-    <p id="detailDesc">Created by Emmy Allen, the book is beautifully written and criminally underpriced. After you've
-      bought a copy of the book, you can use the buttons above to generate locations and events.</p>
+    <p id="detailDesc">Created by Emmy Allen, the book is beautifully written and criminally underpriced. After you've bought a copy of the book, you can use the buttons above to generate locations and events.</p>
   </div>
 
   <div id="past" class="tabcontent">
@@ -143,12 +142,11 @@ function d20Button() {
   newEvent(20, day);
   day = !day;
 }
-
 function newEvent(dice, day) {
   var nextEvent = Math.floor(Math.random() * dice);
   var eventDescription = ynn.events[nextEvent].description;
   var encounters = "<br>";
-
+  var nextEncounter;
 
   for (i = 0; i < ynn.events[nextEvent].encounters; i++) {
     var depth20 = Math.floor(Math.random() * 20) + currentLayer;
@@ -158,21 +156,20 @@ function newEvent(dice, day) {
     }
 
     if (day) {
-      var nextEncounter = ynn.dayEncounters[depth20];
-
-      encounters = encounters + "<br><h3 class=\"tightSpacing\">" +
-        nextEncounter.title + "<small> pg " + nextEncounter.page + "</small></h3> <i>" + nextEncounter.stats + "</i><br><br> " + nextEncounter.description + " <br>";
-
-          document.getElementById("eventText").innerHTML = "<hr class=\"tightSpacing\"><h2  class=\"tightSpacing\">Day Event <small>(Re-roll for a Night event)</small></h2>" + eventDescription + encounters;
+      nextEncounter = ynn.dayEncounters[depth20];
     } else {
-      var nextEncounter = ynn.nightEncounters[depth20];
-
-      encounters = encounters + "<br><h3 class=\"tightSpacing\">" +
-        nextEncounter.title + "<small> pg " + nextEncounter.page + "</small></h3> <i>" + nextEncounter.stats + "</i><br><br> " + nextEncounter.description + " <br>";
-
-          document.getElementById("eventText").innerHTML = "<hr class=\"tightSpacing\"><h2  class=\"tightSpacing\">Night Event <small>(Re-roll for a Day event)</small></h2>" + eventDescription + encounters;
+      nextEncounter = ynn.nightEncounters[depth20];
     }
+    
+    encounters = encounters + "<br><h3 class=\"tightSpacing\">" +
+    nextEncounter.title + "<small> pg " + nextEncounter.page + "</small></h3> <i>" + nextEncounter.stats + "</i><br><br> " + nextEncounter.description + " <br>";
   }
+
+  if (day) {
+      document.getElementById("eventText").innerHTML = "<hr class=\"tightSpacing\"><h2 class=\"tightSpacing\"> Day Event <small>(Re-roll for a Night event)</small></h2>" + eventDescription + encounters;
+    } else {
+      document.getElementById("eventText").innerHTML = "<hr class=\"tightSpacing\"><h2 class=\"tightSpacing\"> Night Event <small>(Re-roll for a Day event)</small></h2>" + eventDescription + encounters;
+    }
 }
 
 function searchBody() {

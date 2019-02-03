@@ -12,11 +12,41 @@ redirect_from:
 show_collection: none
 ---
 
+## Generators
+<div class="columns">
+  <div class="column column-1-2">
+    <article class="project-card">
+      <a href="/bmchargen" class="no-hover no-print-link" tabindex="-1">
+        <div class="project-card-img img sixteen-nine">
+          <img src="/images/generatorPreview.png" alt="Bone Marshes Character Generator" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
+        </div>
+      </a>
+      <h3 class="project-card-title">
+        <a href="/bmchargen" class="flip-title">Bone Marshes Character Generator</a>
+      </h3>
+      <legend class="project-card-text fine faded">A simple character generator for OSR games.</legend>
+    </article>
+  </div>
+  <div class="column column-1-2">
+    <article class="project-card">
+      <a href="/ynngenerator" class="no-hover no-print-link" tabindex="-1">
+        <div class="project-card-img img sixteen-nine">
+          <img src="/images/ynngenerator.png" alt="Gardens of Ynn Generator" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
+        </div>
+      </a>
+      <h3 class="project-card-title">
+        <a href="/ynngenerator" class="flip-title">Gardens of Ynn Generator</a>
+      </h3>
+      <legend class="project-card-text fine faded">Generate locations, encounters, and treasure.</legend>
+    </article>
+  </div>
+</div>  
+
 ## Handouts
 <div class="columns">
   <div class="column column-1-2">
     <article class="project-card">
-      <a href="/files/Table_Rules.pdf" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/files/Table_Rules.pdf" class="no-hover no-print-link " tabindex="-1">
         <div class="project-card-img img sixteen-nine">
           <img src="/images/posts/tablerules.png" alt="Table Rules" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
         </div>
@@ -29,7 +59,7 @@ show_collection: none
   </div>
   <div class="column column-1-2">
     <article class="project-card">
-      <a href="/files/NPC_Voices.pdf" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/files/NPC_Voices.pdf" class="no-hover no-print-link " tabindex="-1">
         <div class="project-card-img img sixteen-nine">
           <img src="/images/posts/NPCvoices.png" alt="NPC Voices" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
         </div>
@@ -44,7 +74,7 @@ show_collection: none
 <div class="columns">
   <div class="column column-1-2">
     <article class="project-card">
-      <a href="/files/MemorableNames.pdf" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/files/MemorableNames.pdf" class="no-hover no-print-link " tabindex="-1">
         <div class="project-card-img img sixteen-nine">
           <img src="/images/posts/MemorableNames.png" alt="Memorable Names" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
         </div>
@@ -57,7 +87,7 @@ show_collection: none
   </div>
   <div class="column column-1-2">
     <article class="project-card">
-      <a href="/files/MerchantTables.pdf" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/files/MerchantTables.pdf" class="no-hover no-print-link " tabindex="-1">
         <div class="project-card-img img sixteen-nine">
           <img src="/images/posts/MerchantTables.png" alt="Merchant Tables" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
         </div>
@@ -75,7 +105,7 @@ show_collection: none
 <div class="columns">
 <div class="column column-1-2">
     <article class="project-card">
-      <a href="/files/VagabondsReference.pdf" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/files/VagabondsReference.pdf" class="no-hover no-print-link " tabindex="-1">
         <div class="project-card-img img sixteen-nine">
           <img src="/images/posts/vagabonds_cover.png" alt="Vagabonds of Dyfed Reference" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
         </div>
@@ -88,7 +118,7 @@ show_collection: none
   </div>
 <div class="column column-1-2">
     <article class="project-card">
-      <a href="/files/ForgedDarkSheet.pdf" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/files/ForgedDarkSheet.pdf" class="no-hover no-print-link " tabindex="-1">
         <div class="project-card-img img sixteen-nine">
           <img src="/images/posts/ForgedDarkSheet.png" alt="Forged in the Dark Reference" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
         </div>
@@ -101,7 +131,7 @@ show_collection: none
   </div>
     <div class="column column-1-2">
     <article class="project-card">
-      <a href="/files/ICRPG_Reference.pdf" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/files/ICRPG_Reference.pdf" class="no-hover no-print-link " tabindex="-1">
         <div class="project-card-img img sixteen-nine">
           <img src="/images/posts/ICRPG_Reference.png" alt="Index Card RPG Reference" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
         </div>
@@ -114,7 +144,7 @@ show_collection: none
   </div>
   <div class="column column-1-2">
     <article class="project-card">
-      <a href="/files/DCC_Bookmarks.pdf" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/files/DCC_Bookmarks.pdf" class="no-hover no-print-link " tabindex="-1">
         <div class="project-card-img img sixteen-nine">
           <img src="/images/posts/DCC_Bookmarks.jpg" alt="Dungeon Crawl Classics" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
         </div>
@@ -129,7 +159,7 @@ show_collection: none
 <div class="columns">
   <div class="column column-1-2">
     <article class="project-card">
-      <a href="/files/DungeonWorldReference.pdf" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/files/DungeonWorldReference.pdf" class="no-hover no-print-link " tabindex="-1">
         <div class="project-card-img img sixteen-nine">
           <img src="/images/posts/DungeonWorldReference.png" alt="Dungeon World" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
         </div>
@@ -142,7 +172,7 @@ show_collection: none
   </div>
   <div class="column column-1-2">
     <article class="project-card">
-      <a href="/files/UnchartedWorldsReference.pdf" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/files/UnchartedWorldsReference.pdf" class="no-hover no-print-link " tabindex="-1">
         <div class="project-card-img img sixteen-nine">
           <img src="/images/posts/UnchartedWorldsReference.png" alt="Uncharted Worlds" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
         </div>
@@ -157,7 +187,7 @@ show_collection: none
 <div class="columns">
   <div class="column column-1-2">
     <article class="project-card">
-      <a href="/files/Numenera_Reference.pdf" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/files/Numenera_Reference.pdf" class="no-hover no-print-link " tabindex="-1">
         <div class="project-card-img img sixteen-nine">
           <img src="/images/posts/numenaraReference.jpg" alt="Numenera" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
         </div>
@@ -170,7 +200,7 @@ show_collection: none
   </div>
   <div class="column column-1-2">
     <article class="project-card">
-      <a href="/files/Bastionland_Reference.pdf" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/files/Bastionland_Reference.pdf" class="no-hover no-print-link " tabindex="-1">
         <div class="project-card-img img sixteen-nine">
           <img src="/images/posts/Bastionland_Reference.png" alt="Into the Odd" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
         </div>
@@ -185,7 +215,7 @@ show_collection: none
 <div class="columns">
   <div class="column column-1-2">
     <article class="project-card">
-      <a href="/files/TBHReference_Core.pdf" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/files/TBHReference_Core.pdf" class="no-hover no-print-link " tabindex="-1">
         <div class="project-card-img img sixteen-nine">
           <img src="/images/posts/blackHackReference.png" alt="The Black Hack" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
         </div>
@@ -198,7 +228,7 @@ show_collection: none
   </div>
   <div class="column column-1-2">
     <article class="project-card">
-      <a href="/files/HeroicFantasyReference.pdf" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/files/HeroicFantasyReference.pdf" class="no-hover no-print-link " tabindex="-1">
         <div class="project-card-img img sixteen-nine">
           <img src="/images/posts/HeroicFantasyReference.png" alt="Heroic Fantasy" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
         </div>
@@ -215,7 +245,7 @@ show_collection: none
 <div class="columns">
   <div class="column column-1-2">
     <article class="project-card">
-      <a href="/files/HotSpringsReference.pdf" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/files/HotSpringsReference.pdf" class="no-hover no-print-link " tabindex="-1">
         <div class="project-card-img img sixteen-nine">
           <img src="/images/posts/HotSpringsReference.JPG" alt="Hot Springs Island OSR Stats" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
         </div>
@@ -228,7 +258,7 @@ show_collection: none
   </div>
   <div class="column column-1-2">
     <article class="project-card">
-      <a href="/files/Allomancer.pdf" class="no-hover no-print-link flip-project" tabindex="-1">
+      <a href="/files/Allomancer.pdf" class="no-hover no-print-link " tabindex="-1">
         <div class="project-card-img img sixteen-nine">
           <img src="/images/posts/allomancer.png" alt="Allomancer Playbook" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
         </div>
