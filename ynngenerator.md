@@ -93,19 +93,15 @@ function buttonDeeper() {
   currentLayer = 0;
   }
   document.getElementById("pastLocations").innerHTML = document.getElementById("pastLocations").innerHTML + document.getElementById("locationTitle").innerHTML + ", " + document.getElementById("detailTitle").innerHTML + "<br>";
-  garden();
+  garden("deeper");
 }
 
 function buttonHigher() {
-  currentLayer--;
-  if (currentLayer < 0){
-  currentLayer = 0;
-  }
   document.getElementById("pastLocations").innerHTML = document.getElementById("pastLocations").innerHTML + document.getElementById("locationTitle").innerHTML + ", " + document.getElementById("detailTitle").innerHTML + "<br>";
-  garden();
+  garden("higher");
 }
 
-function garden() {
+function garden(direction) {
   /*increase to the next Layer*/
 
   var nextLocation = Math.floor(Math.random() * 20) + currentLayer;
@@ -135,6 +131,16 @@ function garden() {
       document.getElementById("detailDesc").innerHTML = ynn.details[nextDetail].description;
   }
 
+	/*Need to adjust current layer AFTER calculations*/
+  if (direction == "higher"){
+    currentLayer--;
+  if (currentLayer < 0){
+  currentLayer = 0;
+  }
+  } else {
+  currentLayer++;
+  }
+  
   document.getElementById("locationTitle").innerHTML = currentLayer + ". " + ynn.locations[nextLocation].title + " <small>pg " + ynn.locations[nextLocation].page + "</small>";
   document.getElementById("detailTitle").innerHTML = ynn.details[nextDetail].title + " <small>pg " + ynn.details[nextDetail].page + "</small>";
 }
