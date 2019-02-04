@@ -1,5 +1,5 @@
 ---
-title: Categories and Tags
+title: Categories
 author: davidschirduan
 image: "/images/1200x600Logo.png"
 layout: page

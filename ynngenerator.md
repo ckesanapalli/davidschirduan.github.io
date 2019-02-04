@@ -128,13 +128,13 @@ function garden(direction) {
   }
 
 	/*Need to adjust current layer AFTER calculations*/
-  if (direction == "higher"){
+  if (direction == "higher") {
     currentLayer--;
-  if (currentLayer < 0){
-  currentLayer = 0;
-  }
+    if (currentLayer < 0) {
+      currentLayer = 0;
+    }
   } else {
-  currentLayer++;
+    currentLayer++;
   }
   
   document.getElementById("locationTitle").innerHTML = currentLayer + ". " + ynn.locations[nextLocation].title + " <small>pg " + ynn.locations[nextLocation].page + "</small>";
@@ -181,7 +181,7 @@ function newEvent(dice, day) {
 }
 
 function searchBody() {
-  document.getElementById("lootBox").innerHTML = ynn.searchBody[Math.floor(Math.random() * ynn.searchBody.length)];
+  document.getElementById("lootBox").innerHTML = ynn.searchBody[Math.floor(Math.random() * ynn.searchBody.length)] + "<br>" + ynn.searchBody[Math.floor(Math.random() * ynn.searchBody.length)] + "<br>" + ynn.searchBody[Math.floor(Math.random() * ynn.searchBody.length)]
 }
 
 function searchFlowerbed() {
