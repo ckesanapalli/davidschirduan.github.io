@@ -3,7 +3,7 @@ layout: page
 title: Stygian Library Generator
 permalink: stygiangenerator
 published: true
-image: /images/ynngenerator.png
+image: /images/stygiangenerator.png
 ---
 <div class="row">
   <div class="col-md-3 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="buttonDeeper()">Go
