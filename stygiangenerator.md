@@ -5,7 +5,6 @@ permalink: stygiangenerator
 published: true
 image: /images/ynngenerator.png
 ---
-## Still Under Construction. 75% Complete.
 <div class="row">
   <div class="col-md-3 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="buttonDeeper()">Go
       Deeper</button></div>
@@ -104,10 +103,6 @@ function library(direction) {
 
   var nextLocation = Math.floor(Math.random() * 20) + currentLayer;
   var nextDetail = Math.floor(Math.random() * 20) + currentLayer;
-
-  /*var nextLocation = currentLayer;
-  var nextDetail = currentLayer;
-  //Add to the list of past locations*/
 
   document.getElementById("eventText").innerHTML = "";
 

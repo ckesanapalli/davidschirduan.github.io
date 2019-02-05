@@ -12,7 +12,7 @@
     {
       "title": "Help Desk",
       "page": 17,
-      "description": "In an alcove, a small desk, laden with papers. Shelves behind it stuffed with more paper-work. Lit by an oil lamp. <br>The paperwork is largely useless to the PCs. It details things like supplies in the library, rotas for the librarians, and so on. There’s enough useful information here, however, that it can help with finding specific infor-mation. Each turn spent going through the records increases progress by 1, up to a maxi-mum of +3. <br>75% chance that the desk is manned by a Yellow Librarian (p. 43). The librarian is, in fact, genuinely helpful."
+      "description": "In an alcove, a small desk, laden with papers. Shelves behind it stuffed with more paper-work. Lit by an oil lamp. <br>The paperwork is largely useless to the PCs. It details things like supplies in the library, rotas for the librarians, and so on. There’s enough useful information here, however, that it can help with finding specific infor-mation. Each turn spent going through the records increases progress by 1, up to a maximum of +3. <br>75% chance that the desk is manned by a Yellow Librarian (p. 43). The librarian is, in fact, genuinely helpful."
     },
     {
       "title": "Reading Lounge",
@@ -22,12 +22,12 @@
     {
       "title": "Chained Lectern",
       "page": 17,
-      "description": "An ornate lectern, raised on a slight platform. On it, open, a large book.. Each corner of the book’s cover is fastened to the lectern, and the lectern is bolted to the floor. When no-body is observing it, it gives a soft creak or gentle rattle, as if straining against restraints.<br><strong>Roll random Extraordinary Book (p. 64) for what the book on the lectern is.</strong><br>This version, however, is dangerous. Reading it results in paper-cuts as the pages twist awk-wardly beneath your fingers, dealing 1 damage for each turn spent reading. If two corners of the book are unfastened (perhaps in order to remove it), the book animates and rips itself free of its bindings.<br><strong>Furious Book</strong><br><i>3 HD, 12 HP, Armour as leather, slam (+0, d6 and Intelligence Drain), saves as fighter 3.</i><br>Can levitate. Immune to poison, cold, backstabs and other things that need the victim to be alive. Double damage from fire.<br>Each successful hit by the book permanently reduces the victim’s Intelligence by 1: each time this happens, the book gains another chapter and a half-inch of thickness."
+      "description": "An ornate lectern, raised on a slight platform. On it, open, a large book.. Each corner of the book’s cover is fastened to the lectern, and the lectern is bolted to the floor. When no-body is observing it, it gives a soft creak or gentle rattle, as if straining against restraints.<br><strong>Roll random Extraordinary Book (p. 64) for what the book on the lectern is.</strong><br>This version, however, is dangerous. Reading it results in paper-cuts as the pages twist awk-wardly beneath your fingers, dealing 1 damage for each turn spent reading. If two corners of the book are unfastened (perhaps in order to remove it), the book animates and rips itself free of its bindings.<br><br><strong>Furious Book</strong><br><i>3 HD, 12 HP, Armour as leather, slam (+0, d6 and Intelligence Drain), saves as fighter 3.</i><br>Can levitate. Immune to poison, cold, backstabs and other things that need the victim to be alive. Double damage from fire.<br>Each successful hit by the book permanently reduces the victim’s Intelligence by 1: each time this happens, the book gains another chapter and a half-inch of thickness."
     },
     {
       "title": "Display Case",
       "page": 18,
-      "description": "A glass-fronted case to display valuable or interesting exhibits. <br><strong>Roll a d20 for what:</strong><br>1. Butterflies pinned to card.<br>2. Snake skins.<br>3. Various bits of a dead saint - teeth, fin-gerbones, bits of hair. Enough to recon-struct the entire saint if <br>assembled.<br>4. Exotic hats.<br>5. Dried, pressed flowers.<br>6. Deep-sea fish, squid, jellyfish and worms, all in jars of slightly yellow-tinted preservative.<br>7. Spiders pinned to cards, their webs en-cased in blocks of glass.<br>8. Interesting shoes.<br>9. Surgical tools through the ages.<br>10. Ancient pottery and glassware.<br>11. Glass eyes.<br>12. Candlesticks and lamps.<br>13. Ancient coins.<br>14. Signet rings of various noble houses, some from exotic lands or the distant past.<br>15. Fabulous masks.<br>16. Paraphernalia for consuming narcotics.<br>17. Prosthetic limbs.<br>18. Vials of blood from various animals.<br>19. Samples of strange rocks and minerals.<br>20. Exotic herbs and spices.<br>Anything on display is either very old, very rare, or from very far away; possibly even all three. As a result, if taken and sold to a collec-tor in the real world, the items on display are worth at least 100 silver multiplied by the display’s depth."
+      "description": "A glass-fronted case to display valuable or interesting exhibits. <br><strong>Roll a d20 for what:</strong><br>1. Butterflies pinned to card.<br>2. Snake skins.<br>3. Various bits of a dead saint - teeth, fingerbones, bits of hair. Enough to reconstruct the entire saint if assembled.<br>4. Exotic hats.<br>5. Dried, pressed flowers.<br>6. Deep-sea fish, squid, jellyfish and worms, all in jars of slightly yellow-tinted preservative.<br>7. Spiders pinned to cards, their webs en-cased in blocks of glass.<br>8. Interesting shoes.<br>9. Surgical tools through the ages.<br>10. Ancient pottery and glassware.<br>11. Glass eyes.<br>12. Candlesticks and lamps.<br>13. Ancient coins.<br>14. Signet rings of various noble houses, some from exotic lands or the distant past.<br>15. Fabulous masks.<br>16. Paraphernalia for consuming narcotics.<br>17. Prosthetic limbs.<br>18. Vials of blood from various animals.<br>19. Samples of strange rocks and minerals.<br>20. Exotic herbs and spices.<br>Anything on display is either very old, very rare, or from very far away; possibly even all three. As a result, if taken and sold to a collector in the real world, the items on display are worth at least 100 silver multiplied by the display’s depth."
     },
     {
       "title": "Ink Vats",
@@ -52,7 +52,7 @@
     {
       "title": "Skeleton Collection",
       "page": 19,
-      "description": "Around a dozen skeletons in glass cases. Wired into position. Labelled neatly.<strong>Roll a d10 for what skeletons there are:</strong><br>1. Babies<br>2. Children<br>3. Human adults<br>4. Human mutants<br>5. Birds<br>6. Snakes<br>7. Long - extinct monsters<br>8. Fish<br>9. Giants<br>10. Apes"
+      "description": "Around a dozen skeletons in glass cases. Wired into position. Labelled neatly.<br><strong>Roll a d10 for what skeletons there are:</strong><br>1. Babies<br>2. Children<br>3. Human adults<br>4. Human mutants<br>5. Birds<br>6. Snakes<br>7. Long-extinct monsters<br>8. Fish<br>9. Giants<br>10. Apes"
     },
     {
       "title": "Chapel",
@@ -92,7 +92,7 @@
     {
       "title": "Calculation Engine",
       "page": 23,
-      "description": "The shelves give way to a huge machine made of clockwork and steam pumps. Incredibly complex, the machine hisses, creaks, clicks and turns.<br>There is a terminal in the front-centre of the calculation engine. Tiles marked with letters a -z, numbers 0-9 and punctuation, that can be pushed.<br>Above the tiles, there is a slot from which emerges a long ribbon of paper that winds down into a pile on the floor, like ticker-tape. A mechanical pen writes onto the paper ribbon as more is extruded.<br>It is, effectively, a mechanical computer, using gears and valves rather than electrical components. It is only one part of a much greater whole that lies in a huge network spread through the library.<br>Pushing a tile results in a series of clicks and new wheels within the machine starting to turn. You can type things into the engine using these tiles.<br>Anything the players type in is input to the calculation engine. The output will be written on the paper ribbon, extruded out into the pile. The players can read the response, which will vary depending on what input they used. Go down the list in the next column, starting at the top, and use the first response that applies to their input.<br>‣ If the players input a fact that is known to be true (which is to say, correctly recorded as factual in any book anywhere in the world), the response is: <strong>###Data Confirmed###</strong><br>‣ If the players input a fact that is known to be false (which is to say, correctly refuted in any book anywhere in the world), the response is: <strong>###Data Contradictory###</strong><br>‣ If the players input a question that has an answer in any book anywhere in the world, the machine responds by naming the closest book which contains an answer. They get +1 Progress if the question asked is related to the information they are looking for. This +1 Progress applies for each related question they ask, each getting the response of a new book, until they have a list of 6 books (and so a total of +6 progress). After this, the calculation engine begins to repeat the same books.<br>‣ If the players input a question to which no answer is recorded in any book anywhere in the world, the response is: <strong>###Data Not Found###</strong><br>‣ If the players input anything which is neither a stated fact nor a question, the response is: <strong>###Unknown Input### ###Recalibrating###</strong><br>The Calculation Engine is attended to by d4 Grey Librarians at all times. If they are slain or removed, more will arrive within a turn."
+      "description": "The shelves give way to a huge machine made of clockwork and steam pumps. Incredibly complex, the machine hisses, creaks, clicks and turns.<br>There is a terminal in the front-centre of the calculation engine. Tiles marked with letters a -z, numbers 0-9 and punctuation, that can be pushed.<br>Above the tiles, there is a slot from which emerges a long ribbon of paper that winds down into a pile on the floor, like ticker-tape. A mechanical pen writes onto the paper ribbon as more is extruded.<br>It is, effectively, a mechanical computer, using gears and valves rather than electrical components. It is only one part of a much greater whole that lies in a huge network spread through the library.<br>Pushing a tile results in a series of clicks and new wheels within the machine starting to turn. You can type things into the engine using these tiles.<br>Anything the players type in is input to the calculation engine. The output will be written on the paper ribbon, extruded out into the pile. The players can read the response, which will vary depending on what input they used. Go down the list in the next column, starting at the top, and use the first response that applies to their input.<br>‣ If the players input a fact that is known to be true (which is to say, correctly recorded as factual in any book anywhere in the world), the response is: <code>###Data Confirmed###</code><br>‣ If the players input a fact that is known to be false (which is to say, correctly refuted in any book anywhere in the world), the response is: <code>###Data Contradictory###</code><br>‣ If the players input a question that has an answer in any book anywhere in the world, the machine responds by naming the closest book which contains an answer. They get +1 Progress if the question asked is related to the information they are looking for. This +1 Progress applies for each related question they ask, each getting the response of a new book, until they have a list of 6 books (and so a total of +6 progress). After this, the calculation engine begins to repeat the same books.<br>‣ If the players input a question to which no answer is recorded in any book anywhere in the world, the response is: <code>###Data Not Found###</code><br>‣ If the players input anything which is neither a stated fact nor a question, the response is: <code>###Unknown Input### ###Recalibrating###</code><br>The Calculation Engine is attended to by d4 Grey Librarians at all times. If they are slain or removed, more will arrive within a turn."
     },
     {
       "title": "Phantom Databanks",
@@ -112,7 +112,7 @@
     {
       "title": "Ossuary",
       "page": 25,
-      "description": "A collection of bones packed tetris-style into six glass-fronted display cases. Each neatly labelled with who it was taken from, when it was taken, the circumstances of their death, and what killed them.<br>Of the bones present, only a handful are from somebody interesting enough to be of value. There are d4 interesting bones in each case, each bone worth 10 silver multiplied by the location’s depth.<br>Trying to remove the bones will involve smashing open or unlocking the display cases. This releases the Bone Beast within: an animated swarm of bones of indistinct formation that behaves like a cross between a swarm of hornets and a small landslide. Just hundred of bones all battering whoever tried to steal from them. Once the Bone Beast is defeated, the valuable bones from that cabinet can be taken.<br><strong>Bone Beast:</strong> <br><i>HD 6, HP 12, Armour as leather, Batter every nearby victim (hits automatically, d4 damage), saves as fighter 6.</i><br>Swarm form reduces most physical damage to a max of 1, area attacks do double damage.<br>Undead, with all the vulnerabilities and immunities which that implies. Cannot be backstabbed due to lack of vulnerable anatomy."
+      "description": "A collection of bones packed tetris-style into six glass-fronted display cases. Each neatly labelled with who it was taken from, when it was taken, the circumstances of their death, and what killed them.<br>Of the bones present, only a handful are from somebody interesting enough to be of value. There are d4 interesting bones in each case, each bone worth 10 silver multiplied by the location’s depth.<br>Trying to remove the bones will involve smashing open or unlocking the display cases. This releases the Bone Beast within: an animated swarm of bones of indistinct formation that behaves like a cross between a swarm of hornets and a small landslide. Just hundred of bones all battering whoever tried to steal from them. Once the Bone Beast is defeated, the valuable bones from that cabinet can be taken.<br><strong>Bone Beast:</strong> <br><i>HD 6, HP 12, Armour as leather, Batter every nearby victim (hits automatically, d4 damage), saves as fighter 6.</i><br>Swarm form reduces most physical damage to a max of 1, area attacks do double damage. Undead, with all the vulnerabilities and immunities which that implies. Cannot be backstabbed due to lack of vulnerable anatomy."
     },
     {
       "title": "Syphon of Phantoms",
@@ -132,7 +132,7 @@
     {
       "title": "Furnace",
       "page": 27,
-      "description": "A metal chamber filled with coal burns fierce- ly, its heat used elsewhere to power steam engines or warm the library. Opening the shutters to the furnace produces a blast of hot air that deals d6 damage to those directly in front of it. Actually going inside the fur- nace does 4d6 damage a round."
+      "description": "A metal chamber filled with coal burns fiercely, its heat used elsewhere to power steam engines or warm the library. Opening the shutters to the furnace produces a blast of hot air that deals d6 damage to those directly in front of it. Actually going inside the furnace does 4d6 damage a round."
     },
     {
       "title": "Holding Pen",
@@ -147,7 +147,7 @@
     {
       "title": "Infernal Gateway",
       "page": 28,
-      "description": "This room contains, as well as the normal exits, a single huge horrible doorway. Made of gnarled dark wood set into a stone frame, with black iron hinges and a sturdy lock. The whole thing door, frame and lock is engraved with the sort of horrible sigils that hurt to look at for too long.<br>The doorway leads to hell.<br>Each turn, there is a chance that a minor devil will come through the doorway. This chance depends on how depraved the PCs are (sin attracts the devils): check the list of sins below for the chance.<br>‣ Trespassing into another’s home, petty theft and other minor crimes give a 1-in6 chance.<br>‣ Serious theft, such as armed robbery, grave-robbing, extortion and so on gives a 2-in-6 chance.<br>‣ Unnecessary violence or mayhem (such as arson, pointlessly attacking people, or acts designed to outrage the public) results in a 3-in-6 chance.<br>‣ Murdering people results in a 4-in-6 chance.<br>‣ Wilful sadism and cruelty such as torture, murder out of spite and so on gives a 5-in-6 chance.<br><br><strong>If a devil shows up</strong>, it has the following basic statistics:<br><i>HD 2d4, HP 2 per, HD Armour as chain, Whip/ claws/pitchfork/flensing knife (bonus to-hit same as hit-dice, d8 damage), saves as fighter of equal HD.<i> <br>Halve damage not from holy, magical, or silver weapons. Double damage from holy sources. Immune to mind-control that doesn’t specifically target infernal beings.<br><br>Roll a d6, d8 and d10 for it’s specifics. The d6 determines its appearance. It is:<br>1. Angelic<br>2. A goat-human hybrid.<br>3. A bat-human hybrid.<br>4. Serpentine.<br>5. Corpselike.<br>6. Perfectly human looking other than tiny horns.<br><br>The d8 determines its role in the infernal hierarchy. It is:<br>1. A thrall.<br>2. A lawyer.<br>3. A librarian.<br>4. A jailer.<br>5. A torturer.<br>6. A tempter of mortals.<br>7. A financier.<br>8. A diplomat to other realms.<br><br>The d10 determines a special ability the devil possesses.<br>1. Can turn any object to solid gold by touching it, at will.<br>2. Can grant a single wish in exchange for a mortal’s soul upon death.<br>3. Can transform into a cloud of flies.<br>4. Can transform into a harmless-looking animal.<br>5. Can mimic the appearance of the viewer’s loved-ones.<br>6. Touch drains memory (d12 damage to intelligence).<br>7. Can teleport short distances in a puff of smoke.<br>8. Can locate the soul of a specified individual unerringly.<br>9. Immune to fire.<br>10. Casts charm person when it shakes your hand.<br>The devil wants you to damn yourself. It will seem helpful until you anger it. Everything it offers has an unforeseen price."
+      "description": "This room contains, as well as the normal exits, a single huge horrible doorway. Made of gnarled dark wood set into a stone frame, with black iron hinges and a sturdy lock. The whole thing door, frame and lock is engraved with the sort of horrible sigils that hurt to look at for too long.<br>The doorway leads to hell.<br>Each turn, there is a chance that a minor devil will come through the doorway. This chance depends on how depraved the PCs are (sin attracts the devils): check the list of sins below for the chance.<br>‣ Trespassing into another’s home, petty theft and other minor crimes give a 1-in6 chance.<br>‣ Serious theft, such as armed robbery, grave-robbing, extortion and so on gives a 2-in-6 chance.<br>‣ Unnecessary violence or mayhem (such as arson, pointlessly attacking people, or acts designed to outrage the public) results in a 3-in-6 chance.<br>‣ Murdering people results in a 4-in-6 chance.<br>‣ Wilful sadism and cruelty such as torture, murder out of spite and so on gives a 5-in-6 chance.<br><br><strong>If a devil shows up</strong>, it has the following basic statistics:<br><i>HD 2d4, HP 2 per, HD Armour as chain, Whip/ claws/pitchfork/flensing knife (bonus to-hit same as hit-dice, d8 damage), saves as fighter of equal HD.</i> <br>Halve damage not from holy, magical, or silver weapons. Double damage from holy sources. Immune to mind-control that doesn’t specifically target infernal beings.<br><br>Roll a d6, d8 and d10 for it’s specifics. The d6 determines its appearance. It is:<br>1. Angelic<br>2. A goat-human hybrid.<br>3. A bat-human hybrid.<br>4. Serpentine.<br>5. Corpselike.<br>6. Perfectly human looking other than tiny horns.<br><br>The d8 determines its role in the infernal hierarchy. It is:<br>1. A thrall.<br>2. A lawyer.<br>3. A librarian.<br>4. A jailer.<br>5. A torturer.<br>6. A tempter of mortals.<br>7. A financier.<br>8. A diplomat to other realms.<br><br>The d10 determines a special ability the devil possesses.<br>1. Can turn any object to solid gold by touching it, at will.<br>2. Can grant a single wish in exchange for a mortal’s soul upon death.<br>3. Can transform into a cloud of flies.<br>4. Can transform into a harmless-looking animal.<br>5. Can mimic the appearance of the viewer’s loved-ones.<br>6. Touch drains memory (d12 damage to intelligence).<br>7. Can teleport short distances in a puff of smoke.<br>8. Can locate the soul of a specified individual unerringly.<br>9. Immune to fire.<br>10. Casts charm person when it shakes your hand.<br>The devil wants you to damn yourself. It will seem helpful until you anger it. Everything it offers has an unforeseen price."
     },
     {
       "title": "Jarred Brains",
@@ -167,7 +167,7 @@
     {
       "title": "Sheol Computer",
       "page": 31,
-      "description": "<br>The Sheol Computer is the heart of the library, the vast machine whose calculation drives everything else that happens here.<br>The computer fills the entire room. Mostly, it is a tangle of thin glass tubes and valves through which phantoms flow like electricity through a computer’s circuit-boards. Other, more odd, components are present though. There are a few each of:<br>‣ Clockwork engines that tick up the count of souls in the machine.<br>‣ Human brains wired into the computer.<br>‣ Collections of dials and displays, allowing the white librarians to monitor the computer’s workings.<br><br>As well as this, there are one each of the following components:<br>‣ A huge canvas screen onto which is projected text that reflects what the computer is currently working on. The text flickers and scrolls past almost too fast to make out.<br>‣ A keyboard, with the letters A-Z, numbers 0-9, and punctuation, which can be used to input text to the computer.<br>If text is inputted with the keyboard, it appears on the screen, followed by the computer’s response.<br><br>The possible inputs and responses are as follows:<br>‣ All of those for a Calculation engine (P.23)<br><br>And also:<br>‣ If the players include a dead person’s name in their input, the computer will state their date and cause of death.<br>‣ If the players include a living person’s name in their input, the computer will state their most likely cause of death and then: <strong>###Date Unknown###</strong><br><br>For PCs, pick a cause of death that is most likely for that PC. The character takes maximum damage from that danger, always fails all saves against it, is always the first affected by it, and so on.<br>‣ If the players include the name of a deity, demon, angel, fairy or other immortal being in their input, the computer will list the date of their death as the accurate date of the end of the world, and the cause as ‘Armageddon’.<br>‣ If the players ask about the purpose of the library of the computer, it simply answers: <strong>###Entropic Transcendence.###</strong><br><br>The Sheol Computer is attended to by d8 white librarians at all times. Damaging it will earn the enmity of all librarians, forever."
+      "description": "<br>The Sheol Computer is the heart of the library, the vast machine whose calculation drives everything else that happens here.<br>The computer fills the entire room. Mostly, it is a tangle of thin glass tubes and valves through which phantoms flow like electricity through a computer’s circuit-boards. Other, more odd, components are present though. There are a few each of:<br>‣ Clockwork engines that tick up the count of souls in the machine.<br>‣ Human brains wired into the computer.<br>‣ Collections of dials and displays, allowing the white librarians to monitor the computer’s workings.<br><br>As well as this, there are one each of the following components:<br>‣ A huge canvas screen onto which is projected text that reflects what the computer is currently working on. The text flickers and scrolls past almost too fast to make out.<br>‣ A keyboard, with the letters A-Z, numbers 0-9, and punctuation, which can be used to input text to the computer.<br>If text is inputted with the keyboard, it appears on the screen, followed by the computer’s response.<br><br>The possible inputs and responses are as follows:<br>‣ All of those for a Calculation engine (P.23)<br><br>And also:<br>‣ If the players include a dead person’s name in their input, the computer will state their date and cause of death.<br>‣ If the players include a living person’s name in their input, the computer will state their most likely cause of death and then: <code>###Date Unknown###</code><br><br>For PCs, pick a cause of death that is most likely for that PC. The character takes maximum damage from that danger, always fails all saves against it, is always the first affected by it, and so on.<br>‣ If the players include the name of a deity, demon, angel, fairy or other immortal being in their input, the computer will list the date of their death as the accurate date of the end of the world, and the cause as ‘Armageddon’.<br>‣ If the players ask about the purpose of the library of the computer, it simply answers: <code>###Entropic Transcendence.###</code><br><br>The Sheol Computer is attended to by d8 white librarians at all times. Damaging it will earn the enmity of all librarians, forever."
     }
   ],
   "details": [{
@@ -436,7 +436,7 @@
     {
       "title": "D6 Visitors",
       "page": 45,
-      "description": "These are harmless mortals who have wan- dered into the library and are now exploring. They are wholly unprepared for the strange and terrible things they will encounter within. <strong>Roll a d8 for who the visitors are:</strong><br>1. University students.<br>2. Schoolchildren, and one teacher.<br>3. A family on an outing.<br>4. Lost government archivists.<br>5. Aspiring adventurers.<br>6. Researchers into esoteric spaces.<br>7. An occultist and acolytes.<br>8. Very lost tourists.",
+      "description": "These are harmless mortals who have wandered into the library and are now exploring. They are wholly unprepared for the strange and terrible things they will encounter within. <strong>Roll a d8 for who the visitors are:</strong><br>1. University students.<br>2. Schoolchildren, and one teacher.<br>3. A family on an outing.<br>4. Lost government archivists.<br>5. Aspiring adventurers.<br>6. Researchers into esoteric spaces.<br>7. An occultist and acolytes.<br>8. Very lost tourists.",
       "stats": "Hit Dice 1, HP 1, Armour as unarmoured humans, Improvised weapons (+0, d4), save as magic user 1."
     },
     {
@@ -461,31 +461,31 @@
       "title": "A Dust Elemental",
       "page": 45,
       "description": "Little elemental incarnations, conglomerates of dust, grit, dirt and fluff. Like somebody scattered detritus on the ground in the rough shape of a human. It lurks under bookshelves, drifts on imperceptible drafts, creeps forward.<br>The quasi-elemental nature of dust is one of things broken down, crumbling, desiccated.It is not particularly compatible with life, and the attentions of such an elemental are likely extremely unpleasant.<br>Immune to normal weapons and physical attacks. Fire, cleaning with water, strong winds and so on all deal 2 d6 damage per round. Immune to poison, pain, fear, etc. Can seep through any crack or gap.",
-      "stats": "Hit Dice 5, HP 20, Armour as unarmoured, crum- bling touch (+5, d8 damage), save as fighter 5."
+      "stats": "Hit Dice 5, HP 20, Armour as unarmoured, crumbling touch (+5, d8 damage), save as fighter 5."
     },
     {
       "title": "A Lantern-Bearer",
       "page": 46,
-      "description": "",
-      "stats": ""
+      "description": "A little hunched figure, no larger than a child, in a faded red robe that conceals its form entirely. It carries a lamp hooked on the end of a long metal pole, that sways and bobs as the lantern-bearer shuffles through the library on its endless patrol.<br>This is the fate of those thieves who try to steal from the library, their bodies withered and their minds warped into loyal servants of the librarians, tasked with rooting out others of their kind.<br>As a librarian: They do not sleep or tire.<br>They are totally immune to any mind-controlling effect that would turn them against their work on the great calculation.<br>They can, if hidden behind a bookshelf, step to any other bookshelf in the library as if there was no intervening space, so long as the start and end points are both unobserved - effectively allowing teleportation.<br>All invisible beings within the area illuminated by the lantern-bearer are revealed, all illusions negated while the light touches them.",
+      "stats": "Hit Dice 3, Hit Points 10, Armour as leather, Smack with Lantern (+3, d4) or Radiant burst (everybody illuminated saves vs magic or takes 1 damage), saves as Thief 3."
     },
     {
       "title": "D6 Skeleton Crew",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 46,
+      "description": "Animated skeletons, tasked with the basic maintenance and cleaning of the library. They wear overalls, and carry mops and brooms. They make their way through the library slowly, washing, polishing, scrubbing and dusting as they go.<br>They are intelligent, and self-aware, but single-mindedly devoted to their task. If you engage with them while they work, they will happily talk with you, and prove to be well-educated and philosophical. Many of their conversations among themselves take an existential bent. It’s not clear how, without lungs or larynxes, they are able to talk at all, but this doesn’t bother them.<br>A conversation with the skeletons, if relevant to the information the players want, will give +1 progress.<br>All the normal undead immunities and vulnerabilities. If injured but not killed, can use their action to put themselves back together, healing all damage.",
+      "stats": "Hit Dice 1, Hit Points 5, Armour as leather, Improvised weapons (+1, d6), saves as fighter 1."
     },
     {
       "title": "2d6 Paper Bees",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 47,
+      "description": "Bees the size of a human hand that inhabit the less frequently visited corners of the library. They feed on ink and grime rather than nectar, and distil it into black honey.<br>When paper bees are encountered, they’ve probably got a hive not too far away. If the players decide to track where the bees go, then after d4 locations of Going Deeper they will find a paper beehive.",
+      "stats": "Bee: HD 1, HP 3, Armour as leather, sting (+1, d8 damage to the bee and its victim) saves as fighter 1."
     },
     {
       "title": "An Origami Golem",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 47,
+      "description": "A construct made of scrap paper, glued into a rough humanoid form, folding at the joints. Flat, angular, ragged and misshapen, it shambles and limps on asymmetric limbs.<br>The golem is built to serve the librarians when they need actual muscle, either in the manual labour of maintaining the library or in dealing with intruders. It obeys silently. It lacks identity of its own, and is a mere temporary thing that serves for a time before being taken apart for materials.<br>Halve all damage from non-magical weapons. Triple damage from fire. Immune to poison, cold, backstabs etc. Mindless.",
+      "stats": "8 HD, 28 HP, Armour as leather, 2 slams (+8, d6), saves as fighter 8."
     },
     {
       "title": "D6 Yellow Librarians",
@@ -495,39 +495,39 @@
     },
     {
       "title": "D4 Ogre Spiders",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 47,
+      "description": "Huge spiders the size of dogs that dwell in the ceilings and vents of the library. They hunt in the dark, creeping above their prey before dropping their webs over the victim like a net.<br>An ogre spider’ s abdomen is long and thin, resembling that of a praying mantis more than the normal bulbous appearance of typical spiders. Meanwhile, their faces feature huge black eyes and thick maxillae that resemble a human skull.",
+      "stats": "3 HD, 12 HP, Armour as leather, bite (+3, d6 and save vs poison) or net (+3, save vs paralysis or be entangled and helpless), saves as fighter 3. Can walk up walls and over ceilings. Poison does d8 damage to dexterity."
     },
     {
       "title": "D4 Researchers",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 48,
+      "description": "Academics who have, for whatever reason, travelled to the library in search of lost or forbidden knowledge. Cautious, erudite and experienced, they are aware of some of the hazards they face in search of information. Roll a d% twice on the table of Types of Book (p. 63) for what they’re researching.<br><br><strong>Roll a d8 for where they came from:</strong><br>1. University.<br>2. Noble’s Private Research.<br>3. Government Bureaucracy.<br>4. Monastery.<br>5. Intelligence Agency.<br>6. Heroic Adventurers.<br>7. Esoteric Order.<br>8. Nunnery.<br>If the topic of their research is related to the information sought by the PCs, conversing with the researchers about their findings so far adds d4 to the PC’s Progress score.",
+      "stats": "Hit Dice 3, Hit Points 6, Armour as unarmoured, Improvised weapons (+1, d4), saves as magic-user 3. Each can cast 3 spells (select them completely at random from the MU or Cleric list) once per day each."
     },
     {
       "title": "D6 Obsidian Marmosets",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 49,
+      "description": "Like little statues of monkeys made of interlocking shards of jagged black volcanic glass. As if made by a master artist who merely teased out the monkey-shape nascent in the stone. Not artificial constructs, silicaceous life.<br>It’s not clear how they got to the library, but they live here now. They form shy troops among the tall stacks of the shelves.They don’t need to feed, instead basking in the heat or electric glow of the library’s machinery.Alternatingly retiring and territorial.<br>Half damage from slashing or piercing weapons.Healed by heat/fire/electricity rather than taking damage. Double damage from cold.",
+      "stats": "Hit Dice 3, Hit Points 12, Armour as plate plus shield, two obsidian fists (+0, 2d4) , saves as thief 3."
     },
     {
       "title": "A Bandersnatch",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 49,
+      "description": "A strange monster that has escaped into the library from fairy realms.<br>It’s form is essentially avian, like a heron. Long legs, and a serpentine neck ending in its head. Instead of wings, it possesses two spindly arms that end in wide human-like hands with splayed fingers.<br>The Bandersnatch lurks. It has an uncanny ability to avoid drawing attention until its hands have closed around whatever it wishes to steal. This might be an object, a piece of equipment, or a person.<br><br>As a fairy creature, the Bandersnatch is as mad as a box of frogs. It’s a sort of kleptomaniac, collecting things with no seeming connection between its collection. If prevented from taking the object it desires, it becomes enraged.<br>3-in-6 chance to go unnoticed if it wants to and hasn’t done anything dramatic.<br>Long arms give 15 feet of reach.<br><br><strong>Each round, it can use each hand to do one of the following:</strong><br>‣ Slap (+10 to hit, d4 damage).<br>‣ Grab (+10 to hit, grabs the victim, no damage. Escaping from the grab requires 3 successful strength rolls).<br>‣ Squeeze (hits automatically, does 2d6 damage to a grabbed victim).<br>‣ Pick a Pocket (3-in-6 chance to succeed).<br>‣ Snatch a Held Item (5-in-6 chance to succeed). <br><br><strong>Roll a d12 every so often for what the Bandersnatch wishes to steal right now.</strong><br>1. Food<br>2. Shiny Things <br>3. BeautifulPeople <br>4. Eyes<br>5. Stolen Things <br>6. String & Rope <br>7. Tools<br>8. Weapons<br>9. Clothing<br>10. Skin<br>11. Tongues<br>12. Maps",
+      "stats": "Hit Dice 10, Hit Points 25, Armour as unarmoured, two hands (see below), saves as thief 10. Half damage from non-iron weapons, double from iron ones."
     },
     {
       "title": "A Flock of d6+1 Animate Books",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 50,
+      "description": "Knowledge is power. Power corrupts. Put enough knowledge in something and it will inevitably start to overreach itself, behaving in ways it was never meant to.<br>That’s what’s happened here. A text with sufficient information-density warps itself, achieves a sort of intelligence and a sort of life. It doesn’t realise it’s not alive.<br>Animate books roam the library like animals, hiding under bookshelves and making nests in the rafters. When the librarians catch them, they’re disenchanted and returned to their proper place, inanimate on the bookshelves.<br>Immune to poison, cold, backstabs and other things that need the victim to be alive. Double damage from fire.<br>Once grabbed by an animate book, breaking out requires a full round spent making a strength roll. Until this succeeds, d4 damage and 1 intelligence loss as the book chews on its victim and digests the data stored within them.",
+      "stats": "3 HD, 12 HP, Armour as leather, slam (+3, d6) or grab (+0, d4 and grab), saves as fighter 3."
     },
     {
       "title": "A Lost Soul",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 50,
+      "description": "The soul of one who died within the library, not yet drawn into the library’s machinery and distilled into a phantom.<br>A lost soul knows what happens to the souls of the dead here. They seek to avoid capture by the grey librarians and to preserve their own independence and sanity. Talking with one can reveal a great deal about the inner workings of the library and the nature of the engines and calculations within.<br><br><strong>Roll a d12 for who the Lost Soul once was.</strong><br>1. A mortal librarian.<br>2. A lost child.<br>3. A nun.<br>4. A mad nobleman.<br>5. A professor of mathematics. <br>6. A master burglar.<br>7. A famed assassin.<br>8. A plague-stricken doctor.<br>9. An emotionally tormented artist. <br>10. A mortal census-taker.<br>11. A historian.<br>12. A genteel necromancer.<br><br>Souls are gaseous beings, immune to all physical damage save that caused by magical items. They can pass through permeable objects, and are unaffected by fire, poison, and so on.<br><br><strong>Roll two d12s for what powers the lost soul has.</strong><br>1. Move objects about like a poltergeist. Roll to hit at +3 for d6 damage if it throws them at people.<br>2. Create illusions out of mist.<br>3. Cause wet inky writing to appear on things.<br>4. Alter the memories of those present in minor ways: a Save vs Magic resists and alerts the victim.<br>5. Cause something to catch fire for a few moments: a Save vs Breath might be needed to avoid fire, and it does d6 damage.<br>6. Cause ice to appear on things, potentially freezing them in place.<br>7. Extinguish lights and erase text. <br>8. Lock doors securely.<br>9. Speak in a loud voice.<br>10. Make vermin appear: masses of flies, cockroaches or woodlice attacking do d6 damage.<br>11. Create gusts of wind.<br>12. Make objects collapse or fall apart. Roll to hit at +3 for d6 damage if used to attack.",
+      "stats": "Hit Dice 4, HP 8, Armour as unarmoured humans, see below for attacks, save as fighter 4."
     },
     {
       "title": "D6 Black Librarians",
@@ -537,15 +537,15 @@
     },
     {
       "title": "An Ink Elemental and d4 Inkblots",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 51,
+      "description": "An oozing, creeping mass of ink. By turns, black, deep blue, or iridescent. Formless and fluid. As big as a horse. It seeps and drips. It leaves a sticky black residue behind it.<br>The semi-elemental nature of Ink is to spread, stain and flow. Whilst its own form is transient and ever-shifting, the marks it leaves behind are indelible. It is the constantlyshifting force that leaves a permanent record. <br>Immune to physical weapons. Set alight by fire (takes 1 less damage each subsequent round as it continues to burn), normal damage from cold, electricity and other elemental damage. Immune to backstabs due to lack of anatomy. Can take any shape, seep through gaps, creep up walls.<br>Anything it touches is permanently stained black. Each round, can ‘spend’ d6 HP to produce an Inkblot, or absorb an Inkblot to heal d6 damage.<br><br><h3 class=\"tightSpacing;\">Inkblot<small> pg 51</small></h3><br><i>Hit Dice 1, HP 1. Armour as unarmoured humans, engulf(+1,d10),save as fighter 1.</i><br>The residue created by Ink Elementals. Slithering black stains that trail behind the elemental, leaving a trail of black smudges. The size of a handprint.<br>Immune to physical weapons, normal damage from fire, cold, electricity and other elemental damage. Immune to backstabs due to lack of anatomy. Can take any shape, seep through gaps, creep up walls. Anything it touches is permanently stained black. Can combine with up to 4 other inkblots to produce a new Ink Elemental with d6 HP per inkblot.",
+      "stats": "Hit Dice 5, HP 30, Armour as unarmoured humans, engulf (+5, d10), save as fighter 5."
     },
     {
       "title": "An Animate Spell",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 53,
+      "description": "A spell that has broken free of its constraining spellbook and now roams the library as an independent entity. A data-cloud of disembodied text hanging in the air, paragraphs intersecting with one another at odd angles. Letters cast strange shadows from the emergent, occult-significant, shapes they form. The spell’s personality, nature and goals will depend on which spell it actually is, as will its powers. It wants to see itself cast and to see the effects of its magic repeated (IE an animated fireball spell just likes to see things burn in general, while an animated charm person spell likes people to be friends with each other).<br>Roll up a completely random spell from whichever game you’re using. If there are multiple spell lists, randomly select one, and then roll up a spell of a random level from that list.<br>Where the stats below refer to ‘spell level’, roll a d8 to determine the spell’s level if the system you’re using (Wonders & Wickedness, for example) doesn’t use spell levels.<br>Can cast itself once a round at no cost, with perfect control over the results.<br>As a spell rather than a creature, immune to all damage from non-magical sources. Furthermore, physical magical damage (IE from magic weapons) only ever deals 1 damage at a time.<br>Immune to damage and negative effects from sources that match up to the spell’s type (IE an animate ‘fireball spell’ is immune to fire).<br>Whenever the spell’s own spell (or a related spell) is cast nearby, that effect is controlled by the animate spell, not the spellcaster (IE if you try to cast any ’charm’ spell near an animate ’charm person’, that spell is controlled by the animate spell). Effectively you lose the spell and it gets to cast it instead.<br>A successful antimagic field, dispel magic, etc, neutralises the animated spell.<br>Any unfilled spell-slots in magicians are immediately filled by the animate spell’s own spell on encountering it. Likewise spellbooks immediately gain a copy of it for free.",
+      "stats": "Hit Dice = spell level, HP = double spell level Armour as unarmoured, cannot attack, save as magicuser level = spell level."
     },
     {
       "title": "D6 red and D6 yellow Librarians",
@@ -555,63 +555,63 @@
     },
     {
       "title": "A Neurovore",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 54,
+      "description": "Half-man, half-octopus, all-evil. Neurovores are strange creatures that feast on the data electrically encoded in the brains of mortals. They possess frightening psionic powers. A repository of knowledge like the library is a veritable buffet for them, if they can subdue its guards.<br>Needless to say, the librarians hate them for the way they consume and destroy knowledge.<br>If you’re the enemy of the librarians, the neurovores will be unwaveringly helpful and support you to the best of their power. They need all the allies they can get in here.<br><br>Instead of attacking, can do one of the following each round:<br>• Cast Charm Person, Hold Person or Suggestion (save resists).<br>• Cast Levitate, Invisibility or Detect Living.<br>• Attach one of its four tentacles to a helpless or willing victim’s skull.<br>• Attach the second, third or fourth tentacle to the skull of a victim with a tentacle already holding it.<br>• Consume the brain of a victim with all four tentacles attached, healing all lost HP.",
+      "stats": "Hit Dice 8, HP 30 Armour as chain, psionic blast (save vs magic to resist, stun for 3d4 rounds), save as magic-user 8."
     },
     {
       "title": "A Hungry Book",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 54,
+      "description": "Books exist to hold information. Of course, with the density of information present, sometimes this goes wrong. The books want more. They scour the data from every other book on their own shelf, absorbing it into themselves, and head off in search of more.<br>A hungry book is only clumsily animated by the dim intelligence stirring within it. It uses its pages to crawl along the ground, sniffing out data to absorb.<br>Immune to poison, cold, backstabs and other things that need the victim to be alive. Double damage from fire.<br><br>A hit from the book drains data from the victim. Pick one of the options below:<br>• The party loses d4 points of progress.<br>• Thevictimloses1pointofintelligence,permanently.<br>• A scroll carried by the victim is absorbed and becomes useless.<br>• A spell in the victim’s spell-book is absorbed and becomes useless.<br>• Another book carried is absorbed and becomes useless.",
+      "stats": "3 HD, 12 HP, Armour as leather, slam (+3, d4 and information drain), saves as fighter 3."
     },
     {
       "title": "2d6 Lantern-Bearers",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 46,
+      "description": "A little hunched figure, no larger than a child, in a faded red robe that conceals its form entirely. It carries a lamp hooked on the end of a long metal pole, that sways and bobs as the lantern-bearer shuffles through the library on its endless patrol.<br>This is the fate of those thieves who try to steal from the library, their bodies withered and their minds warped into loyal servants of the librarians, tasked with rooting out others of their kind.<br>As a librarian: They do not sleep or tire.<br>They are totally immune to any mind-controlling effect that would turn them against their work on the great calculation.<br>They can, if hidden behind a bookshelf, step to any other bookshelf in the library as if there was no intervening space, so long as the start and end points are both unobserved - effectively allowing teleportation.<br>All invisible beings within the area illuminated by the lantern-bearer are revealed, all illusions negated while the light touches them.",
+      "stats": "Hit Dice 3, Hit Points 10, Armour as leather, Smack with Lantern (+3, d4) or Radiant burst (everybody illuminated saves vs magic or takes 1 damage), saves as Thief 3."
     },
     {
       "title": "An Archivist-Lich",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 55,
+      "description": "A once-mortal scholar whose need to see their work finished has seen them seamlessly transition into undeath. Hundreds of years old, consumed by their research. Little more than a dusty skeleton in a robe by now.<br>An impressive intelligence. Highly educated, well spoken, polite and genteel. Obsessive. Has been exploring the library for decades. Roll two d%s on the table for random books (p. 63) to determine the current nature of the lich’s research. Conversation with the lich about the library and its layout gives you +3 Progress, or +5 if the topic of your research matches theirs.<br>Normal undead immunities and vulnerabilities. Cannot be turned.<br>The lich is a spellcaster. Each day it can cast the following once each:<br>‣ Hold Person <br>‣ Disintegrate<br>‣ Dispel Magic<br>‣ Detect Magic<br><br>Furthermore, roll three d20s on the list below for what other spells the lich has available.<br>1. Wall of Ice<br>2. Wall of Iron<br>3. Flesh to Stone and Stone to Flesh<br>4. Charm Person (twice)<br>5. Suggestion (twice)<br>6. Heat Metal<br>7. Teleport Self<br>8. Antimagic Sphere<br>9. Dominate Monster<br>10. Animate Dead (twice)<br>11. Sleep (twice)<br>12. Cloudkill & Mist Form<br>13. Magic Jar<br>14. Animate Object (twice)<br>15. Lightning Bolt (10d6)<br>16. Magic Missile (twice, for 5 missiles doing d4+1 each)<br>17. Mirror Images<br>18. Create Illusions (three times)<br>19. Power Words: Kill & Blind & Madness<br>20. Polymorph Self<br><br>Although the lich has a body that can be destroyed, it cannot be killed permanently. Somewhere in the library is its phylactery - an item to which the lich’s soul is bound. The lich’s body will slowly re-form at its phylactery over the course of a day, and it will come back angry. Only by first destroying the phylactery can the lich be killed properly.<br>To determine what the lich’s phylactery is, roll up an extraordinary book. The next time that exact book is encountered by the PCs, that’s the lich’s phylactery.",
+      "stats": "10 HD, 40 HP, Armour as plate, lich’s finger (+10, d10 and paralysis 1 turn), saves as MU 10."
     },
     {
       "title": "An Escaped Fiction",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 57,
+      "description": "Once, these beings were mere characters in a story-book, but now they’ve clawed their way out into the fractally-dense information-cloud of the library. They’re not really real, but its hard to tell because they’re so convincing. They subconsciously crave reality. To warp the real world around their narrative so that they are part of the everyday order of things. Reality obliges. Where they pass, things alter to fit the fiction they have emerged from. You’re playing by their rules, now.<br><br><strong>Roll a d12 to determine who you meet:</strong><br>1. Don Quixote, who tilted at windmills.<br>2. Frankenstein’s Monster, who was built from corpses.<br>3. Grendel, a monstrous inhabitant of the wilderness who hates noise and celebration, one arm torn clean off.<br>4. Doctor Faustus, an occultist regretting selling his soul.<br>5. Count Dracula, the monstrous vampire.<br>6. Lady Macbeth, ambitious and murderous, and of much-degraded sanity.<br>7. The Ghost of Christmas Future, who delivers dire warnings to the mean-spirited.<br>8. Bluebeard, a dashingly handsome murderer of his many wives.<br>9. Sir Lancelot, brilliant knight and enthusiastic adulterer.<br>10. Robin Hood, a charitable bandit and excellent shot.<br>11. Puck, the mischievous fairy sprite.<br>12. Jack the Giant-slayer, young and reckless but cunning.<br><br>Have any vulnerabilities, quirks, powers or immunities appropriate to their character.<br>Attacks or other actions against them that do not fit the setting or ‘narrative style’ of the work they are from fail automatically. (For example, guns simply don’t exist to Sir Lancelot, and he cannot be harmed by them).<br>Reality shifts to accommodate the character, and behaves like the setting they’re from, not ‘real’ reality. Actions intended to fit the character’s setting and narrative (such as deceiving Don Quixote into behaving chivalrously) automatically succeed.<br>In practice, this means that you should alter the tone and feel of your game while an escaped fiction is around. Some examples include:<br>‣ Blood doesn’t get spilled around characters written for children. Tone down any descriptions of gore or violence.<br>‣ Conversely, for characters from more bloody and brutal tales, ratchet the violence all the way up.<br>‣ Horror characters come with appropriately gothic lighting and effects.<br>‣ Technology reverts to that of the timeperiod of the character’s setting. Items from later in history (such as guns and clockwork, perhaps) simply cease to function.<br>‣ In extreme examples, the PCs may be able to hear the non-diegetic soundtrack (trumpet fanfares for Lancelot, or low, tense strings for Lady Macbeth for example).",
+      "stats": "5 HD, 15 HP, Armour as that worn by the character, as weapon carried by the character (+5, d8) or else unarmed (+0, d4), saves as Thief 5."
     },
     {
       "title": "A Throng of d6 Phantoms",
-      "page": 0,
-      "description": "",
-      "stats": ""
+"page": 44,
+"description": "Phantoms are, effectively, the spiritual remainders of a dead mortal, stripped down to their most basic form. Personality and thought are eroded, leaving little more than a spiritual automata laden with the collected data of that mortal's lifetime. Suffice to say, such beings are ripe for exploitation by the skilled necromancer. Thus, they have become invaluable to the infrastructure of the library, which stores them in glass tubes and uses them to power all manner of arcane machines.<br><br>Phantoms are gaseous beings, immune to all physical damage save that caused by magical items. They can pass through permeable objects, and are unaffected by fire, poison, and so on.<br>An emotional lash is not a physical attack (indeed a phantom is incapable of affecting the physical world directly) but rather a projection of raw emotion into the mind of its victim. The effects of a phantom's emotional lash depend on its current emotional state, as listed.<br>‣ Contentment or torpor: The victim gets disadvantage to all rolls to act in anger or other strong emotions for one round.<br>‣ Pain or irritation: d4 damage.<br>‣ Rage or anguish: The victim takes d8 damage if they don't spend their next action attacking the subject of the phantom's emotions.<br>‣ Fear or despair: The victim takes d8 damage if they don't spend their next action hiding or cowering.<br>‣ Hunger or envy: The victim takes d8 damage if they don't spend their next action presenting the phantom with what it desires.<br><br>A phantom's emotions are simple and direct, like those of an infant not yet able to talk or an unsophisticated animal. It understands speech only vaguely, able to detect emotion and tone but not precise meanings. Influencing its emotions to calm it, or agitate it and direct it against enemies is simple to achieve, perhaps requiring a charisma roll if the PCs have a sensible plan. It always fails saves to resist magical effects that manipulate its emotions.",
+"stats": "Hit Dice 1, HP 1, Armour as unarmoured humans, Emotional Lash (save vs paralysis to avoid, see below effects), save as fighter 1."
     },
     {
       "title": "D6 White Librarians",
       "page": 43,
-      "description": "Those who Tend to the Calculations. <br><br>Can cast the following each once per turn: Invisibility, Dispel Magic, Levitate, Inflict Blind- ness, Inflict Deafness.<br>All librarians possess the following abilities: They do not sleep or tire. They are totally immune to any mind-controlling effect that would turn them against their work on the great calculation.<br>They can, if hidden behind a bookshelf, step to any other bookshelf in the library as if there was no intervening space, so long as the start and end points are both unobserved - effectively allowing teleportation.",
+      "description": "Those who Tend to the Calculations. <br><br>Can cast the following each once per turn: Invisibility, Dispel Magic, Levitate, Inflict Blindness, Inflict Deafness.<br>All librarians possess the following abilities: They do not sleep or tire. They are totally immune to any mind-controlling effect that would turn them against their work on the great calculation.<br>They can, if hidden behind a bookshelf, step to any other bookshelf in the library as if there was no intervening space, so long as the start and end points are both unobserved effectively allowing teleportation.",
       "stats": "Hit Dice 4, HP 8, armour as unarmoured humans, unarmed attacks (+0, d2) or magic missiles (hits automatically, d6), saves as magicuser 8."
     },
     {
       "title": "2d6 Crawling Things",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 58,
+      "description": "Improbable chimerical organisms that should not be biologically viable, and yet somehow live. Twitching, shuddering, crawling. Driven by glitching muscle-memory and scrambled genetic instincts. A broken democracy of mismatched anatomies. Tragically incomplete. They want to be a whole organism. They do this by incorporating parts from those they encounter, torn off and jammed into the crawling thing’s amalgamated flesh.<br>Move only slowly. Basically blind and deaf, but not completely, allowing a dim awareness.<br>If its attack hits, it latches onto the victim and begins incorporating their flesh into itself. Each round thereafter it deals damage automatically and heals by that much. Removing it requires a strength check or killing it.",
+      "stats": "1 HD, 5 HP, Armour as leather, clawing and clutching (+1, d6), saves as fighter 1."
     },
     {
       "title": "2d6 Educated Rodents",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 58,
+      "description": "Mice that have achieved human-like self awareness simply by absorbing the residual knowledge of the library. They know things they’ve read, but have little to no direct experience of the outside world. They are somewhat credulous but formidably cunning. They enjoy cheese, wine, interesting conversation and elegant music. They dislike cats, ghosts and other scary things.<br>If angered, they attack with sophisticated tactics, gleaned from books on chess and famous battles. They outflank, pin enemies in place, cut off retreats and hold dominant positions.<br>In any brood of educated rodents, each will have studied different fields of knowledge. Go down the list to see what each rodent can do, starting with the first (IE if five rodents are encountered, the first five roles are present).<br><br>‣ The first mouse has studied the arcane arts. It can cast Detect Magic and Dispel Magic once per day each.<br>‣ The second has studied engineering. 50% chance if it wishes to open or seal any lock, fix or disable any mechanical item, etc. Takes only a round to do this.<br>‣ The third has studied military history. It’s bite is instead (+3, d8).<br>‣ The fourth has studied medicine. It can spend its action in combat healing d3 HP an ally has lost, taking the full round to do so.<br>‣ The fifth has studied theology and become devout. It’s attacks count as holy and magical and do double damage to undead or unholy things.<br>‣ The sixth has studied oratory. It can cast Charm Person once per day.<br>‣ The seventh has studied physics. It can cast levitate once per day.<br>‣ The eighth has studied zoology. It can cast Charm Animal and Speak With Animals once per day each.<br>‣ The ninth has studied thanatology and can cast Detect Undead and Speak With Dead once per day each.<br>‣ The tenth has studied fine cuisine. It is well nourished and healthy. It has 6 HP.<br>‣ The eleventh has studied politics. When it attacks a surprised or unaware enemy, it gets +4 to hit and does double damage.<br>‣ The twelfth has studied psychology. 5-in-6 chance to spot any lie told to it (all other mice believe any lie they hear).<br>‣ Any other mice have studied some interesting but ultimately useless field in the humanities.",
+      "stats": "1 HD, 3 HP, Armour as leather, clawing bite (+1, d4), saves as thief 1."
     },
     {
       "title": "An Eye Sentinel",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 60,
+      "description": "A single huge floating eyeball, levitated by psychic might alone.<br>Sometimes, a jarred brain develops mighty psionic powers and escapes its jar. Sometimes, such beings are re-captured by the librarians. This is what the librarians do to them.<br>The eye sentinels are used by the librarians to monitor less frequently-visited areas to ensure everything is kept running according to the librarians’ schedule.<br>Can levitate. Perceives the world through psychic resonances, so hiding behind things won’t help but emptying your mind of thoughts effectively makes you invisible to them.<br><br>An eye sentinel has mighty psionic powers. Each round, it can use them to do one of the following:<br>• Project pain (everybody must save vs magic or take d4 damage).<br>• Project fatigue (one victim must save vs magic or fall asleep)<br>• Read a mind. Edit one memory in the mind being read (save vs magic resists).<br>• Cast Suggestion (save vs magic resists).<br>• Summon Librarians. Either d6 from a particular order, or one of each order. The librarians step out from behind a bookshelf next round.",
+      "stats": "Hit Dice 8, Hit Points 8, Armour as chain (forcefield), Gentle Bump (+0, 1 damage) or see below, saves as MU 8."
     },
     {
       "title": "D6 Grey Librarians",
@@ -621,15 +621,15 @@
     },
     {
       "title": "A Black Ooze",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 60,
+      "description": "Like the green slime found infesting less genteel dungeons. Black ooze is a simple lifeform that grows in unattended nooks and crannies. It feeds on mental energy. Touching it allows it to digest your brainwaves, causing it to grow rapidly as it absorbs and incorporates your mind. It oozes like an amoeba. It creeps under floorboards and behind wallpaper. It’s hungry.<br>As an ooze, takes a maximum of 1 damage from any slashing or piercing attack. Immune to backstabs due to lack of anatomy. Mindless. Can climb up walls, squeeze through gaps, etc.<br>Mental Digestion gets a bonus to hit equal to the ooze’s current hit-dice (IE a 5HD ooze gets +5 to hit). Every time you touch it, it gets to make a free Mental Digestion attack against you (rolling to hit as normal).<br>It deals d6 damage to the victim’s intelligence score, plus the victim’s current Intelligence modifier. (IE an Int 8 victim takes d6-1 intelligence damage, because they have a –1 intelligence modifier). The ooze then gains as many hit dice as the damage dealt.",
+      "stats": "Hit Dice d8, Hit Points = Hit Dice, Armour as unarmoured. Mental Digestion (see below) saves as Fighter = Hit Dice."
     },
     {
       "title": "A Conceptual Well",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 61,
+      "description": "An intellectual absence, cosmic censorship. A space that cannot be perceived or conceptualized. Like a psychological black hole.<br>It cannot be perceived directly. Describe it in the negatives; for example ‘there isn’t something horrible in the room’ or ‘nothing has rolled a 6 for its initiative’ or ‘the thing that is not in front of you attacks’ or ‘nothing is definitely responsible for your comrade’s death’. The players might catch on eventually, it’s just a matter of how badly it will have mutilated their PCs.<br>The PCs can target it using the same language. ‘I’m going to shoot nothing’ or ‘I’m not fleeing from anything’. Likewise they can get details about it by asking negative questions, such as ‘where isn’t there anything?’ or ‘what does nothing here look like?’<br>(If it matters, the conceptual well doesn’t look like a helpless child of around four years old. It isn’t young and innocent, and it isn’t curious about its surroundings and playful. It isn’t basically helpless as soon as the PCs actually attack it, and it doesn’t die pitifully. It also might not be violent towards the PCs. It doesn’t fundamentally fail to comprehend them, and doesn’t try to take them apart to see how they work.)<br>It will get confusing. Good. This is an accurate simulation of what it’s like encountering something you can’t perceive and which directly assaults your ability to comprehend the external world.<br>Each round, for each PC that fails their save, the conceptual well drains their ability to comprehend some idea or concept. <br><br><strong>Roll a d20 for what they forget:</strong><br>1. That People Can Die<br>2. How To Use Mathematics<br>3. Money & Its Value<br>4. What Romance Is<br>5. That Violence Exists<br>6. Anybody Related To Them By Blood<br>7. What Fire Is<br>8. That Other People Have Feelings Too<br>9. Gravity & That Things Fall<br>10. Anybody Who is Their Superior & Why They Should Be Obeyed<br>11. That Animals Cannot Talk or Reason Like People<br>12. Anybody That They Currently Hate<br>13. That People Can Lie<br>14. What Pain Is<br>15. Where New People Come From (IE Babies etc)<br>16. What Families Are<br>17. That Social Inequality Exists<br>18. Why We Should Obey The Law & What Happens When We Don’t<br>19. Where Food Comes From<br>20. That Dreams Are Not Real<br><br>Acting in any way that suggests the PC is, in fact aware of an erased concept deals d20 damage to them unless they immediately retcon the action when prompted.",
+      "stats": "Hit Dice 1, Hit Points 1, Armour as unarmoured, Erase Concepts (save vs magic to resist, see below) and unreal knife (+1, d6), saves as magic user 1."
     }
   ],
   "intruderEncounters": [{
@@ -640,15 +640,15 @@
     },
     {
       "title": "D6+6 Tooth-wardens",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 52,
+      "description": "Little floating teeth, each perfectly preserved. They hang in the air in a roughly mouthshaped pattern. They talk in unity, the ‘mouth’ they create changing shape to match their words.<br>Their intelligence is somewhere between a group of children and a flock of birds. They chatter endlessly, think everything is exciting. If a skull-warden is present, then the toothwardens fawn over it like children over a favourite grandparent. Everything the skullwarden does is wise and interesting and brilliant.<br>Normal undead immunities & vulnerabilities. Levitate.<br>All the tooth-wardens make a single attack representing their collective jaws biting. It rolls to hit at +X, and does exactly X damage, where X is the amount of tooth-wardens in the jaws.",
+      "stats": "Hit Dice 1, HP 1 Armour as chain, chomp (see below), save as magic-user 1."
     },
     {
       "title": "A Giant Bookworm",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 45,
+      "description": "This creature appears as a huge, fleshy, pallid insect larvae. A fat segmented body, like that of a caterpillar or maggot, ends with a head studded with tiny black eyes, and bearing six waving tendrils around the creature’s mouth. The creature is about the size of a human torso, in length and thickness, with the tendrils extending another foot or so.<br>The bookworms can chew a tunnel through wood or paper, but this is not their preferred food and they favour hunting as ambush predators. Many bookshelves and floors hide - beneath a seemingly normal surface - a network of bookworm tunnels through which the creature crawls in search of prey, bursting from its burrows to pick off vulnerable visitors to the library.",
+      "stats": "Hit Dice 2, HP 11, Armour as leather, 6 tendrils (+0, paralysis for d6 rounds) or bite (d6 damage vs helpless victim), save as fighter 2."
     },
     {
       "title": "D4 Red Librarians",
@@ -658,39 +658,39 @@
     },
     {
       "title": "A Rust Moth",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 45,
+      "description": "Related to a wide variety of similar insectile creatures (most notably the cockroach-like rust monsters), these creatures feed by corroding metal into an oxidised powder that they can digest.<br>Rust moths resemble hand-sized moths, with orange - brown bodies covered in flaky metallic scales and wings like corroded metal foil.<br>Most noticeable are the antennae that sprout from their heads, which are their main form of attack.",
+      "stats": "Hit Dice 1, HP 4, Armour as plate, 2 Antennae (+0, ruins a piece of metal equipment), save as fighter 1."
     },
     {
       "title": "A Dust Elemental",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 45,
+      "description": "Little elemental incarnations, conglomerates of dust, grit, dirt and fluff. Like somebody scattered detritus on the ground in the rough shape of a human. It lurks under bookshelves, drifts on imperceptible drafts, creeps forward.<br>The quasi-elemental nature of dust is one of things broken down, crumbling, desiccated.It is not particularly compatible with life, and the attentions of such an elemental are likely extremely unpleasant.<br>Immune to normal weapons and physical attacks. Fire, cleaning with water, strong winds and so on all deal 2 d6 damage per round. Immune to poison, pain, fear, etc. Can seep through any crack or gap.",
+      "stats": "Hit Dice 5, HP 20, Armour as unarmoured, crumbling touch (+5, d8 damage), save as fighter 5."
     },
     {
       "title": "A Lantern-Bearer",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 46,
+      "description": "A little hunched figure, no larger than a child, in a faded red robe that conceals its form entirely. It carries a lamp hooked on the end of a long metal pole, that sways and bobs as the lantern-bearer shuffles through the library on its endless patrol.<br>This is the fate of those thieves who try to steal from the library, their bodies withered and their minds warped into loyal servants of the librarians, tasked with rooting out others of their kind.<br>As a librarian: They do not sleep or tire.<br>They are totally immune to any mind-controlling effect that would turn them against their work on the great calculation.<br>They can, if hidden behind a bookshelf, step to any other bookshelf in the library as if there was no intervening space, so long as the start and end points are both unobserved - effectively allowing teleportation.<br>All invisible beings within the area illuminated by the lantern-bearer are revealed, all illusions negated while the light touches them.",
+      "stats": "Hit Dice 3, Hit Points 10, Armour as leather, Smack with Lantern (+3, d4) or Radiant burst (everybody illuminated saves vs magic or takes 1 damage), saves as Thief 3."
     },
     {
       "title": "D4 Furious Books",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 46,
+      "description": "An animated book that, as a result of the horrible and inflammatory knowledge within, is really just... unreasonably pissed off at the world.<br>Flaps about using its covers like wings, and then hurls itself into anything that attracts its fury.<br>Each successful hit by the book permanently reduces the victim’ s Intelligence by 1: each time this happens, the book gains another chapter and a half - inch of thickness.",
+      "stats": "3 HD, 12 HP, Armour as leather, slam (+0, d6 and Intelligence Drain), saves as fighter 3. Can levitate. Immune to poison, cold, backstabs and other things that need the victim to be alive. Double damage from fire."
     },
     {
       "title": "2d6 Paper Bees",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 47,
+      "description": "Bees the size of a human hand that inhabit the less frequently visited corners of the library. They feed on ink and grime rather than nectar, and distil it into black honey.<br>When paper bees are encountered, they’ve probably got a hive not too far away. If the players decide to track where the bees go, then after d4 locations of Going Deeper they will find a paper beehive.",
+      "stats": "Bee: HD 1, HP 3, Armour as leather, sting (+1, d8 damage to the bee and its victim) saves as fighter 1."
     },
     {
       "title": "A Guardian Shade",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 47,
+      "description": "A human soul, compressed and refined into a weapon. Appears as a patch of darkness hanging in the air, vaguely reminiscent of a human silhouette. Like a miasma or shadow. It does not remember its former life. It exists to serve, to hunt and destroy those who threaten the library. It is single-minded and has little ability to conceptualize ideas outside of its role as a guard.<br>Conscious beings can tell that it is unnatural. It’s presence makes their skin crawl, their stomach churn.<br>Shades are gaseous beings, immune to all physical damage save that caused by magical items. They can pass through permeable objects, and are unaffected by fire, poison, and so on.<br>As well as damage, those affected by a shade’s aura lose d4 points of strength permanently. Those reduced to 0 strength by this are resurrected as another shade totally enslaved to their progenitor.",
+      "stats": "Hit Dice 2, HP 7, Armour as unarmoured humans, Chilling Aura (save vs paralysis to avoid, d4 damage and strength drain), save as fighter 1."
     },
     {
       "title": "D6 Yellow Librarians",
@@ -700,39 +700,39 @@
     },
     {
       "title": "D4 Ogre Spiders",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 47,
+      "description": "Huge spiders the size of dogs that dwell in the ceilings and vents of the library. They hunt in the dark, creeping above their prey before dropping their webs over the victim like a net.<br>An ogre spider’ s abdomen is long and thin, resembling that of a praying mantis more than the normal bulbous appearance of typical spiders. Meanwhile, their faces feature huge black eyes and thick maxillae that resemble a human skull.",
+      "stats": "3 HD, 12 HP, Armour as leather, bite (+3, d6 and save vs poison) or net (+3, save vs paralysis or be entangled and helpless), saves as fighter 3. Can walk up walls and over ceilings. Poison does d8 damage to dexterity."
     },
     {
       "title": "A Phantom",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 44,
+      "description": "Phantoms are, effectively, the spiritual remainders of a dead mortal, stripped down to their most basic form. Personality and thought are eroded, leaving little more than a spiritual automata laden with the collected data of that mortal's lifetime. Suffice to say, such beings are ripe for exploitation by the skilled necromancer. Thus, they have become invaluable to the infrastructure of the library, which stores them in glass tubes and uses them to power all manner of arcane machines.<br><br>Phantoms are gaseous beings, immune to all physical damage save that caused by magical items. They can pass through permeable objects, and are unaffected by fire, poison, and so on.<br>An emotional lash is not a physical attack (indeed a phantom is incapable of affecting the physical world directly) but rather a projection of raw emotion into the mind of its victim. The effects of a phantom's emotional lash depend on its current emotional state, as listed.<br>‣ Contentment or torpor: The victim gets disadvantage to all rolls to act in anger or other strong emotions for one round.<br>‣ Pain or irritation: d4 damage.<br>‣ Rage or anguish: The victim takes d8 damage if they don't spend their next action attacking the subject of the phantom's emotions.<br>‣ Fear or despair: The victim takes d8 damage if they don't spend their next action hiding or cowering.<br>‣ Hunger or envy: The victim takes d8 damage if they don't spend their next action presenting the phantom with what it desires.<br><br>A phantom's emotions are simple and direct, like those of an infant not yet able to talk or an unsophisticated animal. It understands speech only vaguely, able to detect emotion and tone but not precise meanings. Influencing its emotions to calm it, or agitate it and direct it against enemies is simple to achieve, perhaps requiring a charisma roll if the PCs have a sensible plan. It always fails saves to resist magical effects that manipulate its emotions.",
+      "stats": "Hit Dice 1, HP 1, Armour as unarmoured humans, Emotional Lash (save vs paralysis to avoid, see below effects), save as fighter 1."
     },
     {
       "title": "D6 Floating Brains",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 48,
+      "description": "Remember those brains in jars? Sometimes, the isolation of a brain-jar has an odd effect on the mind of the interred brain. Introspection and contemplation cut off from all sensory stimulus or ability to act result in profound shifts in outlook and ways of thinking. At its most dramatic extreme, such a paradigm shift in the imprisoned brain’s thinking can unlock the mind’s hidden psychoactive potential. Flexing newly-discovered psionic muscles, the brain breaks free of its glassy prison and escapes.<br>Such brains only interact with the world through their psychic powers, and thus form a beacon to others of their kind. Soon, they will gather together into a sort of psionic choir, a loose flock of floating brains bobbing along on invisible psychokinetic currents, trailing their useless spinal columns behind them.<br>Needless to say, such beings are not too fond of the librarians that imprisoned them. They’re not too fond of any neurovores in the library either, since they form those creatures’ main diet.<br>Can levitate. Blind. Perceives the world through psychic resonances, so hiding behind things won’t help but emptying your mind of thoughts effectively makes you invisible to them.<br><br><strong>Roll two d10s on the list below for what else the choir can do. All will have the same powers.</strong><br>1. Project pain (all nearby save vs magic or take d4 damage).<br>2. Communicate telepathically.<br>3. Cause hallucinations (save vs magic resists).<br>4. Teleport objects short distances.<br>5. Read memories. Erase memories read, if they want (save vs magic resists erasure).<br>6. Move things telekinetically (roll to hit at +8, damage is d4-d12 depending on what’s used to attack).<br>7. Cause inanimate objects to crumble to dust.<br>8. Predict the immediate future. (1-in-6 save to resist any effect through prescience).<br>9. Teleport self short distances.<br>10. Cause sleep (save vs magic or sleep).",
+      "stats": "Hit Dice 8, Hit Points 8, Armour as chain (forcefield), Gentle Bump (+0, 1 damage) or see below, saves as MU 8."
     },
     {
       "title": "A Bandersnatch",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 49,
+      "description": "A strange monster that has escaped into the library from fairy realms.<br>It’s form is essentially avian, like a heron. Long legs, and a serpentine neck ending in its head. Instead of wings, it possesses two spindly arms that end in wide human-like hands with splayed fingers.<br>The Bandersnatch lurks. It has an uncanny ability to avoid drawing attention until its hands have closed around whatever it wishes to steal. This might be an object, a piece of equipment, or a person.<br><br>As a fairy creature, the Bandersnatch is as mad as a box of frogs. It’s a sort of kleptomaniac, collecting things with no seeming connection between its collection. If prevented from taking the object it desires, it becomes enraged.<br>3-in-6 chance to go unnoticed if it wants to and hasn’t done anything dramatic.<br>Long arms give 15 feet of reach.<br><br><strong>Each round, it can use each hand to do one of the following:</strong><br>‣ Slap (+10 to hit, d4 damage).<br>‣ Grab (+10 to hit, grabs the victim, no damage. Escaping from the grab requires 3 successful strength rolls).<br>‣ Squeeze (hits automatically, does 2d6 damage to a grabbed victim).<br>‣ Pick a Pocket (3-in-6 chance to succeed).<br>‣ Snatch a Held Item (5-in-6 chance to succeed). <br><br><strong>Roll a d12 every so often for what the Bandersnatch wishes to steal right now.</strong><br>1. Food<br>2. Shiny Things <br>3. BeautifulPeople <br>4. Eyes<br>5. Stolen Things <br>6. String & Rope <br>7. Tools<br>8. Weapons<br>9. Clothing<br>10. Skin<br>11. Tongues<br>12. Maps",
+      "stats": "Hit Dice 10, Hit Points 25, Armour as unarmoured, two hands (see below), saves as thief 10. Half damage from non-iron weapons, double from iron ones."
     },
     {
       "title": "A Flock of d6+1 Animate Books",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 50,
+      "description": "Knowledge is power. Power corrupts. Put enough knowledge in something and it will inevitably start to overreach itself, behaving in ways it was never meant to.<br>That’s what’s happened here. A text with sufficient information-density warps itself, achieves a sort of intelligence and a sort of life. It doesn’t realise it’s not alive.<br>Animate books roam the library like animals, hiding under bookshelves and making nests in the rafters. When the librarians catch them, they’re disenchanted and returned to their proper place, inanimate on the bookshelves.<br>Immune to poison, cold, backstabs and other things that need the victim to be alive. Double damage from fire.<br>Once grabbed by an animate book, breaking out requires a full round spent making a strength roll. Until this succeeds, d4 damage and 1 intelligence loss as the book chews on its victim and digests the data stored within them.",
+      "stats": "3 HD, 12 HP, Armour as leather, slam (+3, d6) or grab (+0, d4 and grab), saves as fighter 3."
     },
     {
       "title": "A Lost Soul",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 50,
+      "description": "The soul of one who died within the library, not yet drawn into the library’s machinery and distilled into a phantom.<br>A lost soul knows what happens to the souls of the dead here. They seek to avoid capture by the grey librarians and to preserve their own independence and sanity. Talking with one can reveal a great deal about the inner workings of the library and the nature of the engines and calculations within.<br><br><strong>Roll a d12 for who the Lost Soul once was.</strong><br>1. A mortal librarian.<br>2. A lost child.<br>3. A nun.<br>4. A mad nobleman.<br>5. A professor of mathematics. <br>6. A master burglar.<br>7. A famed assassin.<br>8. A plague-stricken doctor.<br>9. An emotionally tormented artist. <br>10. A mortal census-taker.<br>11. A historian.<br>12. A genteel necromancer.<br><br>Souls are gaseous beings, immune to all physical damage save that caused by magical items. They can pass through permeable objects, and are unaffected by fire, poison, and so on.<br><br><strong>Roll two d12s for what powers the lost soul has.</strong><br>1. Move objects about like a poltergeist. Roll to hit at +3 for d6 damage if it throws them at people.<br>2. Create illusions out of mist.<br>3. Cause wet inky writing to appear on things.<br>4. Alter the memories of those present in minor ways: a Save vs Magic resists and alerts the victim.<br>5. Cause something to catch fire for a few moments: a Save vs Breath might be needed to avoid fire, and it does d6 damage.<br>6. Cause ice to appear on things, potentially freezing them in place.<br>7. Extinguish lights and erase text. <br>8. Lock doors securely.<br>9. Speak in a loud voice.<br>10. Make vermin appear: masses of flies, cockroaches or woodlice attacking do d6 damage.<br>11. Create gusts of wind.<br>12. Make objects collapse or fall apart. Roll to hit at +3 for d6 damage if used to attack.",
+      "stats": "Hit Dice 4, HP 8, Armour as unarmoured humans, see below for attacks, save as fighter 4."
     },
     {
       "title": "D6 Black Librarians",
@@ -742,15 +742,15 @@
     },
     {
       "title": "A Skull-warden and 2d6 Tooth-wardens",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 52,
+      "description": "A large skull with a single eye-socket, perhaps taken from a cyclops, perhaps from some beast such as an elephant or deformed whale. Bleached white, perfectly preserved. Hanging in the air as if from invisible threads. Intelligent. Pompous, impressed only by its own cleverness. Uses big words, belittles the intellect of those in discussion with it, loudly proclaims its own genius in conversation or battle. Despite its arrogance, a mighty foe that projects beams of necrotic power from the cavities and crevices in its skull.<br>Normal undead immunities & vulnerabilities. Levitates.<br>The skull-warden’s single eye-socket emits a gaze that supresses magic. All magic ceases functioning where it looks for as long as its gaze lingers.<br>Each round, it can use one each of any of the following rays instead of one of its laser-beams. (They roll to hit as normal).<br>• Levitation (subject is lifted 10 feet per round while in the ray).<br>• Expansion (subject doubles in size while in the ray).<br>• Contraction (subject halves in size while in the ray).<br>• Stasis (subject is held in place and cannot move from its current position while in the ray).<br>• Attraction (subject is pulled 10 feet closer to the skull-warden each round that they remain in the ray, and cannot escape or move back).<br>• Petrification (turned to stone for d6 rounds, save vs magic resists).<br><br><h3 class=\"tightSpacing;\">Tooth-wardens<small> pg 52</small></h3><br><i>Hit Dice 1, HP 1 Armour as chain, chomp (see below), save as magic-user 1.</i><br>Little floating teeth, each perfectly preserved. They hang in the air in a roughly mouthshaped pattern. They talk in unity, the ‘mouth’ they create changing shape to match their words.<br>Their intelligence is somewhere between a group of children and a flock of birds. They chatter endlessly, think everything is exciting. If a skull-warden is present, then the toothwardens fawn over it like children over a favourite grandparent. Everything the skullwarden does is wise and interesting and brilliant.<br>Normal undead immunities & vulnerabilities. Levitate.<br>All the tooth-wardens make a single attack representing their collective jaws biting. It rolls to hit at +X, and does exactly X damage, where X is the amount of tooth-wardens in the jaws.",
+      "stats": "Hit Dice 11, HP 22 Armour as chain, d6 necromantic laser-beams (+11, d6), save as magic-user 11."
     },
     {
       "title": "An Animate Spell",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 53,
+      "description": "A spell that has broken free of its constraining spellbook and now roams the library as an independent entity. A data-cloud of disembodied text hanging in the air, paragraphs intersecting with one another at odd angles. Letters cast strange shadows from the emergent, occult-significant, shapes they form. The spell’s personality, nature and goals will depend on which spell it actually is, as will its powers. It wants to see itself cast and to see the effects of its magic repeated (IE an animated fireball spell just likes to see things burn in general, while an animated charm person spell likes people to be friends with each other).<br>Roll up a completely random spell from whichever game you’re using. If there are multiple spell lists, randomly select one, and then roll up a spell of a random level from that list.<br>Where the stats below refer to ‘spell level’, roll a d8 to determine the spell’s level if the system you’re using (Wonders & Wickedness, for example) doesn’t use spell levels.<br>Can cast itself once a round at no cost, with perfect control over the results.<br>As a spell rather than a creature, immune to all damage from non-magical sources. Furthermore, physical magical damage (IE from magic weapons) only ever deals 1 damage at a time.<br>Immune to damage and negative effects from sources that match up to the spell’s type (IE an animate ‘fireball spell’ is immune to fire).<br>Whenever the spell’s own spell (or a related spell) is cast nearby, that effect is controlled by the animate spell, not the spellcaster (IE if you try to cast any ’charm’ spell near an animate ’charm person’, that spell is controlled by the animate spell). Effectively you lose the spell and it gets to cast it instead.<br>A successful antimagic field, dispel magic, etc, neutralises the animated spell.<br>Any unfilled spell-slots in magicians are immediately filled by the animate spell’s own spell on encountering it. Likewise spellbooks immediately gain a copy of it for free.",
+      "stats": "Hit Dice = spell level, HP = double spell level Armour as unarmoured, cannot attack, save as magicuser level = spell level."
     },
     {
       "title": "D6 red and D6 yellow Librarians",
@@ -760,81 +760,81 @@
     },
     {
       "title": "A Neurovore",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 54,
+      "description": "Half-man, half-octopus, all-evil. Neurovores are strange creatures that feast on the data electrically encoded in the brains of mortals. They possess frightening psionic powers. A repository of knowledge like the library is a veritable buffet for them, if they can subdue its guards.<br>Needless to say, the librarians hate them for the way they consume and destroy knowledge.<br>If you’re the enemy of the librarians, the neurovores will be unwaveringly helpful and support you to the best of their power. They need all the allies they can get in here.<br><br>Instead of attacking, can do one of the following each round:<br>• Cast Charm Person, Hold Person or Suggestion (save resists).<br>• Cast Levitate, Invisibility or Detect Living.<br>• Attach one of its four tentacles to a helpless or willing victim’s skull.<br>• Attach the second, third or fourth tentacle to the skull of a victim with a tentacle already holding it.<br>• Consume the brain of a victim with all four tentacles attached, healing all lost HP.",
+      "stats": "Hit Dice 8, HP 30 Armour as chain, psionic blast (save vs magic to resist, stun for 3d4 rounds), save as magic-user 8."
     },
     {
       "title": "A Hungry Book",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 54,
+      "description": "Books exist to hold information. Of course, with the density of information present, sometimes this goes wrong. The books want more. They scour the data from every other book on their own shelf, absorbing it into themselves, and head off in search of more.<br>A hungry book is only clumsily animated by the dim intelligence stirring within it. It uses its pages to crawl along the ground, sniffing out data to absorb.<br>Immune to poison, cold, backstabs and other things that need the victim to be alive. Double damage from fire.<br><br>A hit from the book drains data from the victim. Pick one of the options below:<br>• The party loses d4 points of progress.<br>• Thevictimloses1pointofintelligence,permanently.<br>• A scroll carried by the victim is absorbed and becomes useless.<br>• A spell in the victim’s spell-book is absorbed and becomes useless.<br>• Another book carried is absorbed and becomes useless.",
+      "stats": "3 HD, 12 HP, Armour as leather, slam (+3, d4 and information drain), saves as fighter 3."
     },
     {
       "title": "2d6 Floating Brains",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 48,
+      "description": "Remember those brains in jars? Sometimes, the isolation of a brain-jar has an odd effect on the mind of the interred brain. Introspection and contemplation cut off from all sensory stimulus or ability to act result in profound shifts in outlook and ways of thinking. At its most dramatic extreme, such a paradigm shift in the imprisoned brain’s thinking can unlock the mind’s hidden psychoactive potential. Flexing newly-discovered psionic muscles, the brain breaks free of its glassy prison and escapes.<br>Such brains only interact with the world through their psychic powers, and thus form a beacon to others of their kind. Soon, they will gather together into a sort of psionic choir, a loose flock of floating brains bobbing along on invisible psychokinetic currents, trailing their useless spinal columns behind them.<br>Needless to say, such beings are not too fond of the librarians that imprisoned them. They’re not too fond of any neurovores in the library either, since they form those creatures’ main diet.<br>Can levitate. Blind. Perceives the world through psychic resonances, so hiding behind things won’t help but emptying your mind of thoughts effectively makes you invisible to them.<br><br><strong>Roll two d10s on the list below for what else the choir can do. All will have the same powers.</strong><br>1. Project pain (all nearby save vs magic or take d4 damage).<br>2. Communicate telepathically.<br>3. Cause hallucinations (save vs magic resists).<br>4. Teleport objects short distances.<br>5. Read memories. Erase memories read, if they want (save vs magic resists erasure).<br>6. Move things telekinetically (roll to hit at +8, damage is d4-d12 depending on what’s used to attack).<br>7. Cause inanimate objects to crumble to dust.<br>8. Predict the immediate future. (1-in-6 save to resist any effect through prescience).<br>9. Teleport self short distances.<br>10. Cause sleep (save vs magic or sleep).",
+      "stats": "Hit Dice 8, Hit Points 8, Armour as chain (forcefield), Gentle Bump (+0, 1 damage) or see below, saves as MU 8."
     },
     {
       "title": "An Infernal Merchant",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 56,
+      "description": "A visitor from Hell. The library contains souls, trapped and catalogued, and considering that souls form the main currency of Hell, this has resulted in a certain degree of financial interest from the devils.<br>The infernal merchant is here to trade souls. He might buy them or trade them for some service, or else be willing to sell souls from his stock if a good price is offered.<br>He will seem helpful. He isn’t. His three goals are to enrich himself, to entice mortals into damning themselves and to cause mortals to suffer. Everything he offers is a trap, his contracts carefully worded to screw the mortal signee. Small print is written on an atomic scale.<br>His prices are, when you think about them, very reasonable.<br>Halve damage not from holy, magical, or silver weapons. Double damage from holy sources. Immune to mind-control that doesn’t specifically target infernal beings.<br><br><strong>Roll a d12 for its appearance. It is:</strong><br>1. Angelic<br>2. A goat-human hybrid.<br>3. A bat-human hybrid.<br>4. A huge serpent.<br>5. Corpselike.<br>6. Perfectly human looking. other than tiny horns.<br>7. Perfectly human looking, with an evil goatee and moustache.<br>8. A serpent-human hybrid.<br>9. An empty robe that oozes smoke.<br>10. A mass of chains and locks in a humanoid form.<br>11. An innocent-looking human child, with a forked tongue.<br>12. A savage-looking humanoid with six arms.<br><br><strong>Roll a d12 to determines a special ability the devil possesses.</strong><br>1. Can turn any object or being to solid gold by touching it, at will.<br>2. Can transform into a cloud of flies.<br>3. Can transform into a harmless-looking animal.<br>4. Can mimic the appearance of the viewer’s loved-ones.<br>5. Touch drains memory (d12 damage to intelligence).<br>6. Can teleport short distances in a puff ofsmoke.<br>7. Can sculpt flesh like soft wax (2d6 damage when used to mutilate).<br>8. Can locate the soul of a specified individual unerringly.<br>9. Immune to fire.<br>10. Casts charm person when it shakes your hand.<br>11. Casts suggestion at will, but requires the victim to answer a direct question to do so.<br>12. Can resurrect the dead. No need for an intact body. The dead come back... altered.<br><br>The devil can grant each mortal a single wish. It requires payment to do so. Perhaps their soul upon death. Perhaps the murder and delivery of somebody else’s soul. Perhaps some seemingly innocuous task. Unless you’re incredibly precise with your wording, the wish will be perverted and made evil. You’ll get precisely what you asked for, but you’ll wish you hadn’t.<br>It is evil. It is smarter than the PCs.",
+      "stats": "HD 8, HP 16, Armour as chain, Whip/claws/ pitchfork/flensing knife (+8, d8 damage), saves as fighter of equal HD."
     },
     {
       "title": "An Escaped Fiction",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 57,
+      "description": "Once, these beings were mere characters in a story-book, but now they’ve clawed their way out into the fractally-dense information-cloud of the library. They’re not really real, but its hard to tell because they’re so convincing. They subconsciously crave reality. To warp the real world around their narrative so that they are part of the everyday order of things. Reality obliges. Where they pass, things alter to fit the fiction they have emerged from. You’re playing by their rules, now.<br><br><strong>Roll a d12 to determine who you meet:</strong><br>1. Don Quixote, who tilted at windmills.<br>2. Frankenstein’s Monster, who was built from corpses.<br>3. Grendel, a monstrous inhabitant of the wilderness who hates noise and celebration, one arm torn clean off.<br>4. Doctor Faustus, an occultist regretting selling his soul.<br>5. Count Dracula, the monstrous vampire.<br>6. Lady Macbeth, ambitious and murderous, and of much-degraded sanity.<br>7. The Ghost of Christmas Future, who delivers dire warnings to the mean-spirited.<br>8. Bluebeard, a dashingly handsome murderer of his many wives.<br>9. Sir Lancelot, brilliant knight and enthusiastic adulterer.<br>10. Robin Hood, a charitable bandit and excellent shot.<br>11. Puck, the mischievous fairy sprite.<br>12. Jack the Giant-slayer, young and reckless but cunning.<br><br>Have any vulnerabilities, quirks, powers or immunities appropriate to their character.<br>Attacks or other actions against them that do not fit the setting or ‘narrative style’ of the work they are from fail automatically. (For example, guns simply don’t exist to Sir Lancelot, and he cannot be harmed by them).<br>Reality shifts to accommodate the character, and behaves like the setting they’re from, not ‘real’ reality. Actions intended to fit the character’s setting and narrative (such as deceiving Don Quixote into behaving chivalrously) automatically succeed.<br>In practice, this means that you should alter the tone and feel of your game while an escaped fiction is around. Some examples include:<br>‣ Blood doesn’t get spilled around characters written for children. Tone down any descriptions of gore or violence.<br>‣ Conversely, for characters from more bloody and brutal tales, ratchet the violence all the way up.<br>‣ Horror characters come with appropriately gothic lighting and effects.<br>‣ Technology reverts to that of the timeperiod of the character’s setting. Items from later in history (such as guns and clockwork, perhaps) simply cease to function.<br>‣ In extreme examples, the PCs may be able to hear the non-diegetic soundtrack (trumpet fanfares for Lancelot, or low, tense strings for Lady Macbeth for example).",
+      "stats": "5 HD, 15 HP, Armour as that worn by the character, as weapon carried by the character (+5, d8) or else unarmed (+0, d4), saves as Thief 5."
     },
     {
       "title": "A Throng of d6 Phantoms",
-      "page": 0,
-      "description": "",
-      "stats": ""
+"page": 44,
+"description": "Phantoms are, effectively, the spiritual remainders of a dead mortal, stripped down to their most basic form. Personality and thought are eroded, leaving little more than a spiritual automata laden with the collected data of that mortal's lifetime. Suffice to say, such beings are ripe for exploitation by the skilled necromancer. Thus, they have become invaluable to the infrastructure of the library, which stores them in glass tubes and uses them to power all manner of arcane machines.<br><br>Phantoms are gaseous beings, immune to all physical damage save that caused by magical items. They can pass through permeable objects, and are unaffected by fire, poison, and so on.<br>An emotional lash is not a physical attack (indeed a phantom is incapable of affecting the physical world directly) but rather a projection of raw emotion into the mind of its victim. The effects of a phantom's emotional lash depend on its current emotional state, as listed.<br>‣ Contentment or torpor: The victim gets disadvantage to all rolls to act in anger or other strong emotions for one round.<br>‣ Pain or irritation: d4 damage.<br>‣ Rage or anguish: The victim takes d8 damage if they don't spend their next action attacking the subject of the phantom's emotions.<br>‣ Fear or despair: The victim takes d8 damage if they don't spend their next action hiding or cowering.<br>‣ Hunger or envy: The victim takes d8 damage if they don't spend their next action presenting the phantom with what it desires.<br><br>A phantom's emotions are simple and direct, like those of an infant not yet able to talk or an unsophisticated animal. It understands speech only vaguely, able to detect emotion and tone but not precise meanings. Influencing its emotions to calm it, or agitate it and direct it against enemies is simple to achieve, perhaps requiring a charisma roll if the PCs have a sensible plan. It always fails saves to resist magical effects that manipulate its emotions.",
+"stats": "Hit Dice 1, HP 1, Armour as unarmoured humans, Emotional Lash (save vs paralysis to avoid, see below effects), save as fighter 1."
     },
     {
       "title": "d6 White Librarians",
       "page": 43,
-      "description": "Those who Tend to the Calculations.<br><br> Can cast the following each once per turn: Invis- ibility, Dispel Magic, Levitate, Inflict Blind- ness, Inflict Deafness.<br>All librarians possess the following abilities: They do not sleep or tire. They are totally immune to any mind-controlling effect that would turn them against their work on the great calculation.<br>They can, if hidden behind a bookshelf, step to any other bookshelf in the library as if there was no intervening space, so long as the start and end points are both unobserved - effectively allowing teleportation.",
+      "description": "Those who Tend to the Calculations.<br><br> Can cast the following each once per turn: Invisibility, Dispel Magic, Levitate, Inflict Blindness, Inflict Deafness.<br>All librarians possess the following abilities: They do not sleep or tire. They are totally immune to any mind-controlling effect that would turn them against their work on the great calculation.<br>They can, if hidden behind a bookshelf, step to any other bookshelf in the library as if there was no intervening space, so long as the start and end points are both unobserved - effectively allowing teleportation.",
       "stats": "Hit Dice 4, HP 8, armour as unarmoured humans, unarmed attacks (+0, d2) or magic missiles (hits automatically, d6), saves as magicuser 8."
     },
     {
       "title": "2d6 Crawling Things",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 58,
+      "description": "Improbable chimerical organisms that should not be biologically viable, and yet somehow live. Twitching, shuddering, crawling. Driven by glitching muscle-memory and scrambled genetic instincts. A broken democracy of mismatched anatomies. Tragically incomplete. They want to be a whole organism. They do this by incorporating parts from those they encounter, torn off and jammed into the crawling thing’s amalgamated flesh.<br>Move only slowly. Basically blind and deaf, but not completely, allowing a dim awareness.<br>If its attack hits, it latches onto the victim and begins incorporating their flesh into itself. Each round thereafter it deals damage automatically and heals by that much. Removing it requires a strength check or killing it.",
+      "stats": "1 HD, 5 HP, Armour as leather, clawing and clutching (+1, d6), saves as fighter 1."
     },
     {
       "title": "A Patrolling Apparition",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 59,
+      "description": "A spiritual monstrosity, dozens of souls stripped down to their barest essential nature and fused into an amalgamated weapon. Like the spiritual equivalent of weaponizing nuclear waste.<br>It’s barely more than a presence. A shimmer in the air, a mirage. Out of the corner of your eye, an impression of humanoid silhouettes, screaming faces, grasping hands. The smell of dust and rusty water.<br>It should not be. Every conscious being knows that what has been done is degenerate, instinctively finds the presence horrifying. They loathe and fear it.<br>The librarians use these beings to track down thieves and spies. They don’t seem to mind their presence at all.<br>Apparitions are gaseous beings, immune to all physical damage save that caused by magical items. They can pass through permeable objects, and are unaffected by fire, poison, and so on.<br>Merely being in an apparition’s presence is painful. Each round, take 1 automatic damage.<br>Attacking it (in melee, at range, with spells, or in any other way) likewise forces you to concentrate on it, dealing another 1 automatic damage.<br>Any damage dealt by the apparition also permanently reduces your lowest stat by that much.<br>If anybody is killed by damage by the apparition, their soul is ripped from their body, twisted and mutilated by the apparition, and becomes a shade (See P. 47) under its total control.<br>If anybody is reduced to 0 in an attribute by the apparition, their soul is syphoned out by the apparition and consumed. It is gone forever, that person can never be recovered or resurrected. As a final insult, the apparition heals all damage when they consume a soul in this way.",
+      "stats": "Hit Dice 3, HP 9, Armour as unarmoured humans, Chill Miasma (save vs paralysis to avoid, d8 damage), save as fighter 3."
     },
     {
       "title": "An Eye Sentinel",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 60,
+      "description": "A single huge floating eyeball, levitated by psychic might alone.<br>Sometimes, a jarred brain develops mighty psionic powers and escapes its jar. Sometimes, such beings are re-captured by the librarians. This is what the librarians do to them.<br>The eye sentinels are used by the librarians to monitor less frequently-visited areas to ensure everything is kept running according to the librarians’ schedule.<br>Can levitate. Perceives the world through psychic resonances, so hiding behind things won’t help but emptying your mind of thoughts effectively makes you invisible to them.<br><br>An eye sentinel has mighty psionic powers. Each round, it can use them to do one of the following:<br>• Project pain (everybody must save vs magic or take d4 damage).<br>• Project fatigue (one victim must save vs magic or fall asleep)<br>• Read a mind. Edit one memory in the mind being read (save vs magic resists).<br>• Cast Suggestion (save vs magic resists).<br>• Summon Librarians. Either d6 from a particular order, or one of each order. The librarians step out from behind a bookshelf next round.",
+      "stats": "Hit Dice 8, Hit Points 8, Armour as chain (forcefield), Gentle Bump (+0, 1 damage) or see below, saves as MU 8."
     },
     {
       "title": "D6 Grey Librarians",
       "page": 43,
-      "description": "Those who Shepherd the Restless Dead.<br><br> Can cast the following each once per turn: De- tect Undead, See Invisible, Trap the Soul, Command Undead, Reduce to Phantom. Reduce to Phantom targets a single un- dead being or trapped soul. If a save vs magic is failed, the target is stripped of its individuality and becomes a phantom.<br>All librarians possess the following abilities: They do not sleep or tire. They are totally immune to any mind-controlling effect that would turn them against their work on the great calculation.<br>They can, if hidden behind a bookshelf, step to any other bookshelf in the library as if there was no intervening space, so long as the start and end points are both unobserved - effectively allowing teleportation.",
+      "description": "Those who Shepherd the Restless Dead.<br><br> Can cast the following each once per turn: Detect Undead, See Invisible, Trap the Soul, Command Undead, Reduce to Phantom. Reduce to Phantom targets a single undead being or trapped soul. If a save vs magic is failed, the target is stripped of its individuality and becomes a phantom.<br>All librarians possess the following abilities: They do not sleep or tire. They are totally immune to any mind-controlling effect that would turn them against their work on the great calculation.<br>They can, if hidden behind a bookshelf, step to any other bookshelf in the library as if there was no intervening space, so long as the start and end points are both unobserved - effectively allowing teleportation.",
       "stats": "Hit Dice 4, HP 8, armour as unarmoured humans, unarmed attacks (+0, d2) or magic missiles (hits automatically, d6), saves as magicuser 8."
     },
     {
       "title": "A Black Ooze",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 60,
+      "description": "Like the green slime found infesting less genteel dungeons. Black ooze is a simple lifeform that grows in unattended nooks and crannies. It feeds on mental energy. Touching it allows it to digest your brainwaves, causing it to grow rapidly as it absorbs and incorporates your mind. It oozes like an amoeba. It creeps under floorboards and behind wallpaper. It’s hungry.<br>As an ooze, takes a maximum of 1 damage from any slashing or piercing attack. Immune to backstabs due to lack of anatomy. Mindless. Can climb up walls, squeeze through gaps, etc.<br>Mental Digestion gets a bonus to hit equal to the ooze’s current hit-dice (IE a 5HD ooze gets +5 to hit). Every time you touch it, it gets to make a free Mental Digestion attack against you (rolling to hit as normal).<br>It deals d6 damage to the victim’s intelligence score, plus the victim’s current Intelligence modifier. (IE an Int 8 victim takes d6-1 intelligence damage, because they have a –1 intelligence modifier). The ooze then gains as many hit dice as the damage dealt.",
+      "stats": "Hit Dice d8, Hit Points = Hit Dice, Armour as unarmoured. Mental Digestion (see below) saves as Fighter = Hit Dice."
     },
     {
       "title": "A Conceptual Well",
-      "page": 0,
-      "description": "",
-      "stats": ""
+      "page": 61,
+      "description": "An intellectual absence, cosmic censorship. A space that cannot be perceived or conceptualized. Like a psychological black hole.<br>It cannot be perceived directly. Describe it in the negatives; for example ‘there isn’t something horrible in the room’ or ‘nothing has rolled a 6 for its initiative’ or ‘the thing that is not in front of you attacks’ or ‘nothing is definitely responsible for your comrade’s death’. The players might catch on eventually, it’s just a matter of how badly it will have mutilated their PCs.<br>The PCs can target it using the same language. ‘I’m going to shoot nothing’ or ‘I’m not fleeing from anything’. Likewise they can get details about it by asking negative questions, such as ‘where isn’t there anything?’ or ‘what does nothing here look like?’<br>(If it matters, the conceptual well doesn’t look like a helpless child of around four years old. It isn’t young and innocent, and it isn’t curious about its surroundings and playful. It isn’t basically helpless as soon as the PCs actually attack it, and it doesn’t die pitifully. It also might not be violent towards the PCs. It doesn’t fundamentally fail to comprehend them, and doesn’t try to take them apart to see how they work.)<br>It will get confusing. Good. This is an accurate simulation of what it’s like encountering something you can’t perceive and which directly assaults your ability to comprehend the external world.<br>Each round, for each PC that fails their save, the conceptual well drains their ability to comprehend some idea or concept. <br><br><strong>Roll a d20 for what they forget:</strong><br>1. That People Can Die<br>2. How To Use Mathematics<br>3. Money & Its Value<br>4. What Romance Is<br>5. That Violence Exists<br>6. Anybody Related To Them By Blood<br>7. What Fire Is<br>8. That Other People Have Feelings Too<br>9. Gravity & That Things Fall<br>10. Anybody Who is Their Superior & Why They Should Be Obeyed<br>11. That Animals Cannot Talk or Reason Like People<br>12. Anybody That They Currently Hate<br>13. That People Can Lie<br>14. What Pain Is<br>15. Where New People Come From (IE Babies etc)<br>16. What Families Are<br>17. That Social Inequality Exists<br>18. Why We Should Obey The Law & What Happens When We Don’t<br>19. Where Food Comes From<br>20. That Dreams Are Not Real<br><br>Acting in any way that suggests the PC is, in fact aware of an erased concept deals d20 damage to them unless they immediately retcon the action when prompted.",
+      "stats": "Hit Dice 1, Hit Points 1, Armour as unarmoured, Erase Concepts (save vs magic to resist, see below) and unreal knife (+1, d6), saves as magic user 1."
     }
   ],
   "treasure": [
