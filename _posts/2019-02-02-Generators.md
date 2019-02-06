@@ -55,7 +55,7 @@ The first is a character generator for Bone Marshes. Super useful for playtests;
 
 The second one was a Gardens of Ynn generator. I took almost the complete text of the book and distilled it into an easy, mobile friendly tool that lets you create garden with a SNAP. Or CLICK. You get the idea...
 
-### [Gardens of Ynn Generator](/stygiangenerator)
+### [Stygian Library Generator](/stygiangenerator)
 
 The third one was a Stygian Library generator. Written by the creator of Ynn, this one generates libraries!
 

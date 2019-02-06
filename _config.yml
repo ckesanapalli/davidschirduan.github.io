@@ -123,7 +123,7 @@ defaults:
       menu: true
       order: 2
   - scope:
-      path: blog.md
+      path: generators.md
     values:
       menu: true
       order: 3
@@ -132,6 +132,11 @@ defaults:
     values:
       menu: true
       order: 4
+  - scope:
+      path: blog.md
+    values:
+      menu: true
+      order: 5
   - scope:
       path: ""
     values:
