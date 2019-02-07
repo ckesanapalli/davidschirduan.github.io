@@ -62,8 +62,8 @@ legal:
 permalink: /david/:year/:month/:title
 
 # Pagination configuration (used by the `blog` layout)
-paginate:              5
-paginate_path:         /blog/page-:num/
+#paginate:              5
+#paginate_path:         /blog/page-:num/
 
 
 # Customizaton
@@ -113,27 +113,27 @@ defaults:
     values:
       comments: true
   - scope:
-      path: projects.md
+      path: _pages/projects.md
     values:
       menu: true
       order: 1
   - scope:
-      path: downloads.md
+      path: _pages/downloads.md
     values:
       menu: true
       order: 2
   - scope:
-      path: generators.md
+      path: _pages/generators.md
     values:
       menu: true
       order: 3
   - scope:
-      path: reviews.md
+      path: _pages/reviews.md
     values:
       menu: true
       order: 4
   - scope:
-      path: blog.md
+      path: _pages/blog.md
     values:
       menu: true
       order: 5
@@ -266,7 +266,7 @@ exclude:
   - "*.gemspec"
 include:
   - LICENSE.md
-
+  - _pages
 
 # Plugins
 # ========================================================================================

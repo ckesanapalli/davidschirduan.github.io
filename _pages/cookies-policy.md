@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Cookies Policy
+permalink: cookies-policy
 ---
 
 <h1>Cookie Policy for Technical Grimoire</h1>

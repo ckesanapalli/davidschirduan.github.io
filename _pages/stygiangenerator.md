@@ -85,7 +85,7 @@ xmlhttp.onreadystatechange = function () {
     stygian = JSON.parse(this.responseText);
   }
 };
-xmlhttp.open("GET", "/stygian.json", true);
+xmlhttp.open("GET", "/_pages/stygian.json", true);
 xmlhttp.send();
 
 function buttonDeeper() {

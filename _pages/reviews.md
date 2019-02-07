@@ -19,6 +19,21 @@ I also review a bunch of [Interesting Adventures]({{site.url}}/david/extremely-i
 {:toc}
 <hr>
 
+## Knave
+
+![images/posts/knave.png]({{site.url}}/images/posts/knave.png){: .leftSmallImg}
+
+[**PDF: $3**](https://www.drivethrurpg.com/product/250888/Knave)
+
+Created by [Ben Milton](https://www.youtube.com/channel/UCvYwePdbWSEwUa-Pk02u3Zw)
+
+I didn't really like Knave at the time...but now it's become my go-to system for running older modules. 
+
+Built to be compatible with old modules while distilling the rules down to a smooth shine, it succeeds beautifullly!
+
+[**Read More**]({{site.url}}/david/2019/02/SystemofChoice)
+
+
 ## Black Hack Second Edition
 
 ![images/posts/blackhackcover.png]({{site.url}}/images/posts/blackhackcover.png){: .leftSmallImg}

@@ -14,52 +14,42 @@ image: /images/generatorPreview.png
 
 <div class="container generatorCard">
   <div class="row">
-    <div class="col tightSpacing h1" id="charName">Captain Silver</div>
+    <div class="col tightSpacing h1" id="charName">Click the Button!</div>
   </div>
   <div class="row">
-		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charSTR">STR: 9</div>
-		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charDEX">DEX: 8</div>
-		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charCON">CON: 7</div>
-		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charINT">INT: 6</div>
-		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charWIS">WIS: 5</div>
-		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charCHA">CHA: 4</div>
+		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charSTR"></div>
+		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charDEX"></div>
+		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charCON"></div>
+		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charINT"></div>
+		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charWIS"></div>
+		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charCHA"></div>
 	</div>
   <p style="text-align: right;font-style: italic;"><small>You may swap any two ability bonuses</small></p>
   <hr class="tightSpacing">
-  <p id="charHistory">
-    You used to be a sea captain<br> but your crew mutinied and left.
-  </p>
+  <p id="charHistory"></p>
   <div class="row">
-		<div class="col-xl-3 col-md-6 tightSpacing" id="charPhysique">Flamboyant</div>
-		<div class="col-xl-3 col-md-6 tightSpacing" id="charSkin">Flamboyant</div>
-		<div class="col-xl-3 col-md-6 tightSpacing" id="charFace">Flamboyant</div>
-		<div class="col-xl-3 col-md-6 tightSpacing" id="charHair">Flamboyant</div>
-		<div class="col-xl-3 col-md-6 tightSpacing" id="charSpeech">Flamboyant</div>
-		<div class="col-xl-3 col-md-6 tightSpacing" id="charClothing">Flamboyant</div>
-		<div class="col-xl-3 col-md-6 tightSpacing" id="charVirtue">Flamboyant</div>
-		<div class="col-xl-3 col-md-6 tightSpacing" id="charVice">Flamboyant</div>
+		<div class="col-xl-3 col-md-6 tightSpacing" id="charPhysique"></div>
+		<div class="col-xl-3 col-md-6 tightSpacing" id="charSkin"></div>
+		<div class="col-xl-3 col-md-6 tightSpacing" id="charFace"></div>
+		<div class="col-xl-3 col-md-6 tightSpacing" id="charHair"></div>
+		<div class="col-xl-3 col-md-6 tightSpacing" id="charSpeech"></div>
+		<div class="col-xl-3 col-md-6 tightSpacing" id="charClothing"></div>
+		<div class="col-xl-3 col-md-6 tightSpacing" id="charVirtue"></div>
+		<div class="col-xl-3 col-md-6 tightSpacing" id="charVice"></div>
   </div>
   <div class="row">
     <div class="col-xl-6 col-md-9" style="border-right: 1px solid var(--border-color);">
-      <h2 id="charHP" class="tightSpacing">Hit Points: 6</h2>
-      <p id="charArmor">
-        <strong>Armor:</strong> Fancy Hat		
-      </p>
-      <h2 id="charSlots" class="tightSpacing">
-        Equipment: 19 Slots
-      </h2>
+      <h2 id="charHP" class="tightSpacing"></h2>
+      <p id="charArmor"></p>
+      <h2 id="charSlots" class="tightSpacing"></h2>
       <p>
         You can choose from <strong>any or all</strong> of the items below to fill your inventory slots. Unless otherwise noted, each item takes up one slot. 
       </p>
-      <p id="charItems">
-        1 Day's Rations<br>1 Day's Rations<br>Gambeson: A12 Q3<br>Helmet: Armor+1 Q1<br>Bow: 1d6, Q3, 2H, 2 Slots<br>Quiver with 20 arrows<br>Manacles<br>Grappling Hook<br>Hourglass<br>Bottle			
-      </p>
+      <p id="charItems"></p>
     </div>
     <div class="col-xl-6 col-md-9">
     <h2 class="tightSpacing">Starting Weapon:</h2>
-      <p id="charWeapon">
-        <strong>Armor:</strong> Fancy Hat		
-      </p>
+      <p id="charWeapon"></p>
     <h2 class="tightSpacing">Or choose another:</h2>
       <ul>
         <li>Small Melee (d6, 1 hand, 1 slot)</li>
@@ -85,7 +75,7 @@ xmlhttp.onreadystatechange = function() {
     knave = JSON.parse(this.responseText);
   }
 };
-xmlhttp.open("GET", "/knave.json", true);
+xmlhttp.open("GET", "/_pages/knave.json", true);
 xmlhttp.send(); 
 
 function generate() {

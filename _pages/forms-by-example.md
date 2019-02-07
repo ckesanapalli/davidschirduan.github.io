@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Forms by Example
+permalink: forms-by-example
 description: >
   Hydejack PRO allows you to build your own forms, using [the same CSS classes as Bootstrap](https://getbootstrap.com/docs/4.0/components/forms/).
   Below you can find examples to help you get started.
