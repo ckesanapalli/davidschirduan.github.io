@@ -57,7 +57,7 @@ This is the best I could do. This is what we will suffer through if I can't hire
 
 Ugh. Gross. No. 
 
-![Garbage1.jpg]({{site.url}}/images/posts/Garbage1.jpg)
+![Garbage2.jpg]({{site.url}}/images/posts/Garbage2.jpg)
 
 Stop. No more! 
 
