@@ -108,8 +108,8 @@ function nextLocation() {
 }
 
 function nextPaths() {
-  var numPaths = Math.floor(Math.random() * 3) + 1;
-  var pathsText = "Several paths lead away from this place: <br>• The path you came from."
+  var numPaths = Math.floor(Math.random() * 4) + 1;
+  var pathsText = "Several paths lead away from this place: <br>• The path you came from.";
 
   for (i = 0; i < numPaths; i++) {
     pathsText = pathsText + "<br><br>• " + wyrd.paths[Math.floor(Math.random() * wyrd.paths.length)] + 
@@ -166,7 +166,7 @@ function dailyProgress() {
 }
 
 function searchBody() {
-  document.getElementById("lootBox").innerHTML = wyrd.searchBody[Math.floor(Math.random() * wyrd.searchBody.length)] + "<br>" + wyrd.searchBody[Math.floor(Math.random() * wyrd.searchBody.length)] + "<br>" + wyrd.searchBody[Math.floor(Math.random() * wyrd.searchBody.length)]
+  document.getElementById("lootBox").innerHTML = wyrd.searchBody[Math.floor(Math.random() * wyrd.searchBody.length)] + "<br>" + wyrd.searchBody[Math.floor(Math.random() * wyrd.searchBody.length)] + "<br>" + wyrd.searchBody[Math.floor(Math.random() * wyrd.searchBody.length)];
 }
 
 function artifact() {
@@ -180,8 +180,11 @@ function spell() {
     "<br><strong>Spell Level:</strong> " + spell.level +
     "<br><strong>Casting Time:</strong> " + spell.castingTime +
     "<br><strong>Range:</strong> " + spell.range +
-    "<br><strong>Duration:</strong> " + spell.duration +
-    "<br><strong>Material Component:</strong> " + spell.material;
+    "<br><strong>Duration:</strong> " + spell.duration;
+    
+  if (spell.material != "") {
+    spellText = spellText + "<br><strong>Material Component:</strong> " + spell.material;
+  }
 
   if (spell.higher != "") {
     spellText = spellText + "<br><strong>At Higher Levels:</strong> " + spell.higher;

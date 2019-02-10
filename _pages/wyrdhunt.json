@@ -219,7 +219,397 @@
       "material": "A source of flame or heat and a piece of the creature you intend to bind.",
       "higher": "You may bind one extra creature for each spell level beyond 5 (two creatures at level 6, three at 7, etc.",
       "effect": "You bind a source of fire or heat to a single creature, burning them away just like the fuel they are bound to. You select a single creature and source of heat within range, dealing damage to the creature each turn based on how hot the source of heat is.<br>A match - 1 damage<br>A candle - 1d4<br>A torch - 1d6<br>A bullseye lantern - 1d8 A campfire - 2d6<br>A burning wagon - 4d8<br>A tree on fire - 8d8<br>A house burning down - 10d8 A wildfire - 20d8<br>You may shift the target of the spell once the previous target has died or retreated out of range. Increasing or decreasing the heat source affects the damage of the spell. The heat source does not have to be fire(a cauldron of boiling water has just as much heat as, if not more than, a large campfire.)"
-    }
+    },
+    {
+      "name": "Avenging Flesh",
+      "level": 2,
+      "castingTime": "Action",
+      "range": "30ft radius",
+      "duration": "1 Minute",
+      "material": "A fingernail or tooth from a corpse.",
+      "higher": "Every two spell levels beyond level 2 increase the amount of Hit Dice and Hit Points of the Corpse-Swarm, as well as an extra attack.",
+      "effect": "You cause severed limbs and dessiccated corpses to snap back to life in a flurry of strikes. You create a writhing Corpse-Swarm from the bodies of creatures within range of you that attack anything hostile to you. The Corpse-Swarm has 1d12 Hit Dice or 1d3 Hit Dice for every body within range (caster’s choice), and has 2 Hit Points for every Hit Dice. It can attack anything within the spell’s range for 1d6 damage as it claws, cuts, and clubs with its flailing parts."
+    },
+    {
+      "name": "Bark Blast",
+      "level": 1,
+      "castingTime": "Action",
+      "range": "Touch",
+      "duration": "1 Hour",
+      "material": "",
+      "higher": "Each spell level beyond Level 1 deals an extra 1d10 damage.",
+      "effect": "By touching a tree and uttering the magic words, you create a magical explosive that detonates on your command with the force of a black-powder bomb, dealing 1d10 damage to everything within 5 feet of the tree as they are shredded with splinters and fire. The tree must be alive and the caster needs to be within visual range of the tree in order to detonate it. When cast, it is almost impossible to spot, save for a subtle bulge of the bark and a strong heat that radiates from said bulge."
+    },
+    {
+      "name": "Bind with Steam",
+      "level": 3,
+      "castingTime": "Action",
+      "range": "60ft",
+      "duration": "1 Minute (Concentration)",
+      "material": "A mouthful of salty water",
+      "higher": "You may bind one extra creature for each additional spell level.",
+      "effect": "You unleash a cloud of steam that clings and surrounds a creature, blinding, slowing, and burning it. A cloud of steam surrounds a creature of your choosing within range; the cloud blinds it as well as halves its speed; flying creatures risk falling from the sky. Each round the creature also takes 1d8 points of damage as the steam burns it alive."
+    },
+    {
+      "name": "Bone Dart",
+      "level": 2,
+      "castingTime": "Action",
+      "range": "120ft",
+      "duration": "1 Minute (Concentration)",
+      "material": "A chunk of bone or tooth, shaved to a point.",
+      "higher": "",
+      "effect": "A sharpened dart of bone fires off and burrows into the flesh of another creature before slowly making its way into the bones. The dart fires in a straight line for 2d6 damage. The next turn, the bone dart begins to drill into the bones of the creature, causing indescribable pain and stunning it. As long as the caster maintains concentration the creature remains stunned."
+    },
+    {
+      "name": "Breath of Bees",
+      "level": 2,
+      "castingTime": "Action",
+      "range": "30ft",
+      "duration": "Instant",
+      "material": "A handful of dried bees, hornets, or wasps (which you eat).",
+      "higher": "At 5th Level, double the damage and blindness dice used.",
+      "effect": "You open your mouth and exhale a swarm of stinging, angry bees. The bees are expelled from your mouth and immediately attack one target of your choosing for 3d6 damage and blinding them for 1d6 rounds. The following turn, the swarm begins to disperse, attacking anything within 10 feet of the original target for 2d6 damage (not including the original target). The following turn after that, the bees attack everyone within 30ft of the original target for 1d6 damage (not including anyone who has already been damaged in this way). For the next hour, the area is plagued with furious bees, giving disadvantage on skill checks as they constantly sting and bite every living thing in the immediate area."
+    },
+    {
+      "name": "Burnt Offerings",
+      "level": 1,
+      "castingTime": "1 Hour, Ritual",
+      "range": "Touch",
+      "duration": "24 Hours",
+      "material": "Fire and a supply, a day’s worth of food or rations, or some other equal sacrifice.",
+      "higher": "",
+      "effect": "You provide an offering to the Wyrd in the hopes of a small guidance. You must set aside a day’s worth of food or rations to be burnt away to ash, as you meditate on the dancing smoke and embers. As long as you are not interrupted, you gain a small pittance from the Wyrd and may reroll any one roll for the next 24 hours"
+    },
+    {
+      "name": "Burst with Briar",
+      "level": 3,
+      "castingTime": "Action",
+      "range": "30ft",
+      "duration": "Instant",
+      "material": "A sprig of bloodied thorns.",
+      "higher": "Increase the dice roll by 1d6 for every spell level beyond 3.",
+      "effect": "You cause a small patch of briar or shrubs to rapidly grow within a creature, bursting it from the inside out with a shower of gore and vegetation. You select a target; if it has less than 1d8 Hit Dice it explodes into a gnarled shrub, killing it. Creatures with more Hit Dice suffer 8d6 damage as the shub rapidly grows within them, but fails to burst out of their bodies."
+    },
+    {
+      "name": "Cinder Shard",
+      "level": 1,
+      "castingTime": "Action",
+      "range": "120ft",
+      "duration": "1 Minute (Concentration)",
+      "material": "A still warm ember or piece of fresh charcoal.",
+      "higher": "",
+      "effect": "You fire off a bolt of smoldering energy at an enemy, burying it into its body for 1d6 fire damage. Every turn that you maintain concentration on the spell burns the enemy for an additional 1d6 fire damage, as the shard of cinder slowly burns the victim away into nothing."
+    },
+        {
+          "name": "Coffin Nail",
+          "level": 5,
+          "castingTime": "Action",
+          "range": "120ft",
+          "duration": "Permanent",
+          "material": "A nail from a coffin.",
+          "higher": "You may attack an additional creature for every level beyond 5.",
+          "effect": "A single nail flies from your hand with a bang, immediately implanting itself into the head of another creature, paralyzing it and rendering it helpless. The caster makes a ranged attack. If it hits, the target of the spell is immediately and permanently paralyzed, crumpling to the ground in a limp, motionless state. It is utterly unresponsive and incapable of moving or acting on its own. The only way to undo this state is by forcibly removing the nail from the victim’s skull with a successful strength check."
+        },
+        {
+          "name": "Curse-Mend",
+          "level": 3,
+          "castingTime": "1 Hour, Ritual",
+          "range": "Touch",
+          "duration": "Permanent",
+          "material": "A spool of silver thread.",
+          "higher": "Incur disadvantage against an additional save, attack, or skill for every level beyond 3.",
+          "effect": "You weave a thread through the body of a dying being, restoring them to health but twisting them to your own desire. You may revive one creature or being that has died within the last hour, quietly sewing them back together with a magic thread. They are restored to 1 Hit Point at the end of the spell and bear a series of silvered stitch-marks across their body. The caster may also choose to have the target hobbled or changed in some way by sewing on different body parts or reorganizing their limbs. In addition to any superficial changes the caster may incur a permanent disadvantage against one of the victim's saves, attacks, or skills. The only way to reverse this effect is by having the original caster redo the spell on the affected victim."
+        },
+        {
+          "name": "Disgusting Flesh",
+          "level": 3,
+          "castingTime": "Action",
+          "range": "Touch or Self",
+          "duration": "1 Hour",
+          "material": "A lump of rotten fat (which you ingest).",
+          "higher": "At level 4, the save to avoid the illness is at disadvantage. At level 5, the a failed save also infects the attacker with one random disease.",
+          "effect": "Your flesh becomes rancid and foul smelling; ingesting it causes illness. For the next hour anything that attempts to bite, taste, or eat you must make a saving throw against poison or become violently ill for 1d10 rounds. You also have a rotten stench about you that wards off lesser predators."
+        },
+        {
+          "name": "Dream Lure",
+          "level": 2,
+          "castingTime": "1 Hour, Ritual",
+          "range": "2 Miles",
+          "duration": "1 Hour",
+          "material": "",
+          "higher": "",
+          "effect": "Across the plane of sleep, you reach into the dreams of another, drawing them to you like a moth to flame. You reach out to a single person or creature within 2 miles who is asleep. The sleeper becomes charmed and begins to move to your location in a trance-like state. The sleeper is unaware of their surroundings, still technically asleep, but move purposefully and in the most direct and seemingly safest path towards you."
+        },
+        {
+          "name": "Etherskip",
+          "level": 3,
+          "castingTime": "Action",
+          "range": "Other or Self",
+          "duration": "1 Minute",
+          "material": "A tuft of EtherRat fur.",
+          "higher": "",
+          "effect": "You skip between one dimension and the next, using it to move in erratic teleporting jumps. Each round you may teleport to any location within 30ft of you. However, each time you do so there is a 50% chance you end up in a random location 10ft away from your intended destination."
+        },
+        {
+          "name": "Forceful Stitch",
+          "level": 4,
+          "castingTime": "Action",
+          "range": "60ft",
+          "duration": "1 Minute",
+          "material": "A spool of silver thread and needle made of bone.",
+          "higher": "You may bind one extra creature for every level beyond 4.",
+          "effect": "A line of silver thread burrows into and stitches the flesh of two creatures, binding them together forcefully and painfully. You select two creatures and immediately bind them together with silver thread. They each suffer 3d6 damage as the thread rapidly weaves through their flesh and are immediately pulled tightly next to one another. They remained restrained and suffer 3d6 damage each turn until the spell ends or either one of them makes a successful strength check."
+        },
+        {
+          "name": "Furry Pelt",
+          "level": 1,
+          "castingTime": "Action",
+          "range": "Other or Self",
+          "duration": "8 Hours",
+          "material": "A tuft of your hair and hair from another creature.",
+          "higher": "",
+          "effect": "Your skin sprouts a thin layer of fur all across your body that protects you from the cold. The type and color of your hair depends, but it is always warm and dry enough to provide you with a comfortable sleep during the night as well as avoid most harmful effects of the natural elements."
+        },
+        {
+          "name": "Gentle Moonlight",
+          "level": 4,
+          "castingTime": "1 Hour, Ritual",
+          "range": "Other or Self",
+          "duration": "8 Hours",
+          "material": "A mirror to reflect the moonlight.",
+          "higher": "",
+          "effect": "You commune with the moonlight, letting it soothe and heal your wounds. Once cast, your body heals itself while exposed to moonlight. You heal hit points every hour based on the phase of the moon.<br>New Moon: 1HP/hour.<br>Quarter: 1d4HP/hour.<br>Half: 2d4HP/hour.<br>Three Quarters: 3d4HP/hour.<br>Full: 6d4HP/hour."
+        },
+        {
+          "name": "Gluttonous Consumption",
+          "level": 2,
+          "castingTime": "Instant",
+          "range": "Other or Self",
+          "duration": "1 Hour",
+          "material": "A single mint candy.",
+          "higher": "You may eat an extra 1d6 worth of food for every spell level beyond 2.",
+          "effect": "A hunger descends upon you; there is no limit to how much you can eat! You gain the ability to eat beyond your body's physical limits and store the calories in your body until they are needed. For one hour, you may eat 2d6 days worth of food, relieving you of the need to eat for the following days. You may attempt to eat more, but every day's worth of food beyond the spell’s limit requires a successful save versus poison. Failure causes you to vomit up all of the food you’ve eaten, wasting it."
+        },
+        {
+          "name": "Grisly Retrospect",
+          "level": 3,
+          "castingTime": "Action",
+          "range": "Touch",
+          "duration": "10 Minutes",
+          "material": "A corpse.",
+          "higher": "You may review 10 extra minutes of memories for every spell level beyond 3.",
+          "effect": "You tap into the last memories of a corpse; every sense washes over you as you relive its last moments. You may relive the sensory memories of a single corpse by touching it. The spell is dependant on the state of the corpse: if the eyes are missing or destroyed you are unable to “see” the corpse's memories; if the ears are gone, you cannot “hear,” etc. While the spell is limited to 10 minutes you can review any moment of the corpse’s past but only review 10 minutes worth of memories."
+        },
+        {
+          "name": "Grow Horns",
+          "level": 1,
+          "castingTime": "Action",
+          "range": "Other or Self",
+          "duration": "1 Hour",
+          "material": "A piece of antler or horn.",
+          "higher": "",
+          "effect": "You sprout a pair of magnificent horns or antlers. Shedding their velvet after sprouting, they take whatever form you specify and fall off after the spell’s duration ends. They function as a crude weapon for 1d6. Most lesser creatures give you and your glorious horns a respectful berth."
+        },
+        {
+          "name": "Honey Bolt",
+          "level": 1,
+          "castingTime": "Action",
+          "range": "120ft",
+          "duration": "1 Hour",
+          "material": "A chunk of sticky honeycomb.",
+          "higher": "",
+          "effect": "You fire off a volleyball-sized glob of sticky and sweet honey with enough force to knock a person off of their feet. When the honey bolt hits, the target is knocked prone and engulfed in the sugary gel. Creatures engulfed by the honey are slowed in action and speed, and require a full round-action to clean the honey off themselves. The honey also tends to attract animals, bees, and various other creatures within the vicinity, who attack the engulfed creature in a mad scramble for the delicious honey."
+        },
+        {
+          "name": "Ironguts",
+          "level": 1,
+          "castingTime": "Action",
+          "range": "Self",
+          "duration": "1 Hour",
+          "material": "Some chunks of smooth iron and grain alcohol (which you swallow).",
+          "higher": "At level 2 you can rapidly digest 1 cubic foot worth of wooden materials within an hour due to your gastric juices. At level 3 this includes non magical metals and stone. At level 4, magical items. (You will still have to defecate the remains of your eating...)",
+          "effect": "Your digestive tract becomes so caustic and fortified that even harmful microbial life is eradicated within your stomach. For the next hour you are immune to the harmful effects of anything ingested including, but not limited to: poison, acid, disease, and spoiled food."
+        },
+        {
+          "name": "Pack Mule",
+          "level": 2,
+          "castingTime": "10 Minutes, Ritual",
+          "range": "Other or Self",
+          "duration": "8 Hours",
+          "material": "Mule Jerky.",
+          "higher": "",
+          "effect": "Your back grows strong, the muscles grow tight and durable as they ripple under your skin. Upon casting this spell you double your carry weight for 8 hours. You are not stronger in any other way that exists outside of carrying, lifting, or dragging."
+        },
+        {
+          "name": "Root Bridge",
+          "level": 1,
+          "castingTime": "Action",
+          "range": "Touch",
+          "duration": "Permanent",
+          "material": "",
+          "higher": "For every level beyond 1, multiply the bridge size by the spell level. (10 feet by 40 feet at level 2, 15 feet by 60 feet at level 3, etc.)",
+          "effect": "You touch a patch of tree, root, or vegetation and command a bridge to slowly creep and form before you. It is no wider than 5 ft across and can extend up to 20 ft in length. The bridge can easily hold 500 pounds of weight indefinitely or up to 1000 pounds of weight for a minute. Any weight over that causes it to immediately collapse."
+        },
+        {
+          "name": "Sap Blood",
+          "level": 1,
+          "castingTime": "Action",
+          "range": "Self",
+          "duration": "1 Hour",
+          "material": "A vial of sap mixed with blood.",
+          "higher": "",
+          "effect": "Your blood grows thick, making it harder to bleed out, at least for a time... You change the consistency of your blood to avoid some harm from attacks. The next damage you take after casting this spell is reduced by 1d6 for every Hit Dice you have. The damage you take can never be fully negated; you will always receive at least one point of damage from an attack. After the initial damage, the spell ends and subsequent attacks deal damage normally."
+        },
+        {
+          "name": "Seek Standing Stone",
+          "level": 2,
+          "castingTime": "10 Minutes",
+          "range": "5 Mile Radius",
+          "duration": "Instant",
+          "material": "A piece of a standing stone.",
+          "higher": "Increase the range of the spell by 5 miles for every spell level beyond 2.",
+          "effect": "You close your eyes, your consciousness speeds across the land, seeking a standing stone. You seek out the location and direction of all standing stones within 5 miles of you. Once cast, you know exactly where they are in comparison to yourself. However, the location becomes fuzzy as time goes on, much like regular memory."
+        },
+        {
+          "name": "Shoulder the Burden",
+          "level": 1,
+          "castingTime": "10 Minutes, Ritual",
+          "range": "Other or Self",
+          "duration": "Instant",
+          "material": "Strong brew and a pair of fine drinking cups.",
+          "higher": "You may transfer one extra level of exhaustion for every spell level beyond 1.",
+          "effect": "The weight of travel, hunger, and sleeplessness lifts from you to another willing host. You can transfer one level of exhaustion from one person to another. All rules for exhaustion still apply, and someone who takes on more exhaustion than one can handle will still die"
+        },
+        {
+          "name": "Smoke Signal",
+          "level": 1,
+          "castingTime": "Action",
+          "range": "Touch",
+          "duration": "Until Dispelled",
+          "material": "A fistful of ash.",
+          "higher": "",
+          "effect": "The smoke and vapor twists to your will, the shapes both delicate and incredible. You gain control over the physical shape and appearance of the smoke produced by a source of fire. Save for the size, which is dependent on the size of the fire, there is no limit to the shape of the smoke and it will persist so long as the fire continues to burn or is dispelled."
+        },
+        {
+          "name": "Soothing Moss",
+          "level": 2,
+          "castingTime": "10 Minutes",
+          "range": "Touch",
+          "duration": "8 Hours",
+          "material": "A clump of Kingsleep Moss.",
+          "higher": "",
+          "effect": "Moss erupts from beneath your feet, carpeting the ground in a soft pleasant moss-bed. You temporarily summon a patch of Kingsleep Moss in a 10 foot by 10 foot patch. Sleeping on a bed of Kingsleep Moss has reinvigorating properties. Every full night’s rest on the moss relieves one level of exhaustion."
+        },
+        {
+          "name": "Soul Rot",
+          "level": 4,
+          "castingTime": "Action",
+          "range": "Touch",
+          "duration": "Until Dispelled",
+          "material": "A piece of brain matter.",
+          "higher": "",
+          "effect": "You bestow a terrible curse upon the soul of another, eating away at their very being until there is nothing left but a husk. You curse another being with a horrible ailment that strips away the mind, personality, and soul. The moment the victim becomes inflicted with the spell and every day thereafter, they must make a save versus poison or lose 1d6 to their wisdom, intelligence, or charisma score, chosen randomly. The only way to remove the spell is rolling three consecutive successful saves, the caster dispelling it, or casting a remove curse spell."
+        },
+        {
+          "name": "Speak with Fungus",
+          "level": 1,
+          "castingTime": "Action",
+          "range": "Self",
+          "duration": "1 Hour",
+          "material": "A plump morel.",
+          "higher": "",
+          "effect": "The fungus chatters with small words and curious questions, but with a library of everything they have tasted. For a brief period of time, you gain the ability to communicate with fungus. Most fungi tend to be rather ambivalent but they are always willing to answer questions, seeing no reason not to. They know of anything that may have passed through, what the weather will likely be, and what has died in the area recently. Giant and ancient colonies of fungus become incredibly dense with information, collecting ages of death records and lists of the local wildlife."
+        },
+        {
+          "name": "Swarm Form",
+          "level": 4,
+          "castingTime": "Action",
+          "range": "Self",
+          "duration": "1 Hour",
+          "material": "A clay effigy of yourself to break into pieces.",
+          "higher": "At level 5 you may choose to give your swarm form the power of flight.",
+          "effect": "Your body twists and crumbles away; in its place a swarm of vermin and wretched life writhes and spills across the ground in horrid unison. You transform your body into a collection of tiny rat-sized or smaller creatures. You gain advantage on attacks and attacks against you are at disadvantage. Smaller diminutive tasks that require coordination are at advantage, but strength based checks are at disadvantage. In addition, you take double damage from explosions or area based attacks. The swarm weighs the same as you did and moves across the ground at standard speed. Staying in the swarm form for longer than an hour does not end the spell, but every hour after requires a save against charm or be permanently stuck in your swarm form, as the various pieces of you develop semi-sentience and refuse to reform."
+        },
+        {
+          "name": "Take Root",
+          "level": 2,
+          "castingTime": "Action",
+          "range": "Other or Self",
+          "duration": "1 Minute",
+          "material": "A gnarled piece of oak root.",
+          "higher": "",
+          "effect": "Your legs sprout roots, embedding into the ground and rooting you in place. You enroot yourself to the ground, growing stronger and less likely to be buffeted. While under the effects of the spell you move at half speed, cannot be knocked down, and have advantage on all strength-based checks. If you fail to dispell the spell before its allotted time, you must make a save versus poison or have your limbs atrophy and perma- nently take root into the ground."
+        },
+        {
+          "name": "Taste for Blood",
+          "level": 3,
+          "castingTime": "Action",
+          "range": "Other or Self",
+          "duration": "1 Hour",
+          "material": "A drop of Vampire or Vampylf blood.",
+          "higher": "",
+          "effect": "You drink from bloody sap that fills the bodies of living things, which is warm and soothing like honey. You gain the ability to heal yourself from drinking blood. For every pint of blood you drink, you heal 1d6 hit points. There is no limit to the amount of blood you can drink in this fashion as long as the spell persists, your body magically metabolizing it. However, there is a risk. If you heal more than 19 hit points in this fashion there is a 10% chance you gain a terrible addiction to the taste of blood. Even after the spell ends and you gain no healing benefits you will find yourself constantly seeking out blood and even harming others just for a taste."
+        },
+        {
+          "name": "Thorn Cloak",
+          "level": 2,
+          "castingTime": "Action",
+          "range": "Self",
+          "duration": "1 Minute",
+          "material": "A garland of thorns.",
+          "higher": "Increase the damage by 1d4 for every spell level beyond 2.",
+          "effect": "A jumble of bramble vines twist and weave into a cloak around you, their thorns twitch in cruel anticipation. You gain a cloak of thorns that wards off attackers. Each time an enemy successfully attacks you in melee, it suffers 1d4 damage as the thorns lash out and cut it."
+        },
+        {
+          "name": "Tongue of Raven",
+          "level": 1,
+          "castingTime": "Action",
+          "range": "Self",
+          "duration": "Until dispelled.",
+          "material": "A raven's tongue.",
+          "higher": "",
+          "effect": "Your tongue and mind shift, you deconstruct the very fabric of the sounds another person makes, repeating them with your new-found tongue. You gain the ability to perfectly repeat a phrase or word you hear. After casting this spell you lose the ability to speak or communicate in your own words, leaving you only able to repeat words or sounds you hear. You are masterful, and any checks to see through the charade are at disadvantage."
+        },
+        {
+          "name": "Water to Wine",
+          "level": 1,
+          "castingTime": "10 Minutes",
+          "range": "Touch",
+          "duration": "Instant",
+          "material": "A sprig of barley for whiskey, corn kernels for bourbon, a potato for vodka (etc.).",
+          "higher": "You may double the amount of liquid you can transmute and the monetary value of each gallon of liquor produced, for each spell level beyond 1 (2 gallons for 2sp each at level 2, 4 gallons at 4sp each at level 3, etc).",
+          "effect": "You bend the molecules and atoms present in water, breaking and binding them into something “stronger.” You transmute one gallon of water into a gallon of crude spirits. You can choose what proof the drink is, from 40 all the way to 200. It’s not particularly good quality, only fetching 1 silver piece for the full gallon."
+        },
+        {
+          "name": "Whispers on the Wind",
+          "level": 2,
+          "castingTime": "Action",
+          "range": "See Below",
+          "duration": "Instant",
+          "material": "A single dandelion.",
+          "higher": "",
+          "effect": "You utter a phrase or word into the wind, listening as your voice dances and twirls as its carried off with the wind. You may send messages over long distances, dependant on how strong the wind is blowing. You choose a person who you want to hear your message and speak it into the wind. Your message begins traveling at a steady pace and arrives at your chosen target if it is within range.<br>A light breeze - 1 mile per hour. Maximum distance of 12 miles.<br>A moderate wind - 12 miles per hour. Maximum distance of 50 miles.<br>Strong gusts - 36 miles per hour. Maximum distance of 75 miles.<br>Severe wind - 60 miles per hour. Maximum distance of 100 miles.<br>Windstorm or Hurricane - 100 miles per hour. Maximum distance of 300 miles.<br>A tornado - 300 miles per hour. No maximum distance and can even pass into other planes."
+        },
+        {
+          "name": "Wolf Scent",
+          "level": 2,
+          "castingTime": "Action",
+          "range": "Self",
+          "duration": "24 Hours",
+          "material": "A block of wolf or dog fat.",
+          "higher": "",
+          "effect": "Your nose bursts with sensory overload, as the secret world hidden in scents and pheromones opens up to you. You gain the ability to smell like a wolf or hound. In addition to gaining advantage on all perception checks related to smell, you are able to track and hunt other creatures based on smell. All you need to begin your search is a sample of your quarry’s scent and trail."
+        },
+        {
+          "name": "Wyrd Trance",
+          "level": 4,
+          "castingTime": "1 Hour, Ritual",
+          "range": "Self",
+          "duration": "1 Week",
+          "material": "A single eye from an intelligent being.",
+          "higher": "",
+          "effect": "You gaze deeply into the Wyrd, dancing across the infinite branches of fate to discover what lies ahead. You gain 1d3 premonitions about the future. Roll a d20 for each premonition and record their results. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these recorded rolls. You must declare your intention to do so before any roll is made."
+        }
   ],
   "plants": [
     {
