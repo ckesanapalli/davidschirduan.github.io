@@ -29,19 +29,19 @@
     "SMELL: The smell of rotting cheese chokes your senses", "SOUND: Thousands of skittering legs move about unseen.", "SMELL: Freshly cut grass burns itself deep into your nostrils.", "SOUND: The faint plucking of a strings wafts through the air.", "SOUND: The area fills with bird noises, eventually becoming deafening.", "SMELL: Oddly sweet, like fresh cinnamon rolls. Marked only by a twinge of ozone.", "SOUND: Standing to close to certain areas triggers agonizing tinnitus.", "SMELL: Heavy with burnt wood and cooked flesh.", "SMELL: Tainted by the smell of spoiled meat, but you find yourself wanting more...", "SOUND: A droning noise, like that of a single colossal hornet, surrounds you.", "SMELL: Acrid and pungent like fresh cat urine and spillled alcohol.", "SOUND: Someone or something weeping softly. There is no one.", "SMELL: The scent of stale bread clogs your nostrils.", "SMELL: Something has died and long since rotted, its scent lingers in the air.", "SOUND: A series of owls call to each other. They seem to be talking about you.", "SMELL: Pine sap, acrid and overpowering, its smell clings to everything.", "SMELL: Loamy earthen scents waft all around, they greedily fill your lungs.", "SMELL: Electric coppery scents occasionally strike your nostrils.", "SOUND: The woods go dead silent suddenly, save for your cautious steps.", "SMELL: Almost undetectable, but a warm pheromone. You begin to feel... strange...", "SOUND: The sound of running water deep underneath the ground.", "SOUND: Voices in the darkness chitter and chatter amongst themselves, they know your names.", "SMELL: Pockets of oily burnt air seem to rise up from the ground.", "SOUND: A single piercing note, like an out of tune violin, is heard in the distance.", "SOUND: Pained, shrieking howls from a cat or some animal.", "SMELL: The scent of freshly fallen rain and faint ozone.", "SMELL: Musk and odor stifles the air, growing stronger the deeper you go.", "SOUND: A single unseen bird makes a single note every two seconds without fail.", "SMELL: Expelled bowels and rotted flesh fills the air like a miasma.", "SOUND: Something is stifiling a laughter, malicious chuckles slip out...", "SMELL: The warm comforting smell of cooking food, but something is terribly wrong.", "SOUND: A low rumbling drone from deep under the earth.", "SMELL: Mother's milk, warm and sickly sweet, overwhelming and unenjoyable.", "SOUND: Strange deafening trumpets from beyond the clouds, terrifying and unearthly.", "SMELL: Pungent body oder mxed with the musk of some unkempt animal.", "SOUND: Animal calls, distorted and otherworldly, all as if in pain.", "SMELL: The smell of a tea-shop, pleasantly aromatic at first but overpowering at certain spots.", "SMELL: Animal dung, earthy and foul, especially in the heat of day.", "SOUND: The sound of things dropping from high in the trees. Oddly rhythmic and growing closer.", "SOUND: Iron and metal grinding against one another. Grating and angry.", "SOUND: Piercing cracks, followed by the gentle sound of air escaping from below.", "SOUND: Constant, angry bird calls surrond you from all sides as if they are mocking you.", "SMELL: The smell of rotted eggs and sulfur hangs low to the ground. The scent makes you dizzy...", "SMELL: Fresh air rushes in, but grows steadily foul. You can bear with it for the time.", "SMELL: Pungent like lantern oil, the fumes make it hard to concentrate.", "SOUND: A crackling fire off in the distance, it must be massive to be heard from here...", "SMELL: No smell, in fact it is uncannily devoid of scent. Your own odor creeps into your nose.", "SOUND: The croaks from frogs hidden in the underbrush, a gutteral and gentle song.", "SMELL: A choking loamy scent of mold and moss. It comes in waves and creeps into your lungs.", "SOUND: The gentle hum of a folk song, the singer nearby. Are they friend or foe?"
   ],
   "locations": [{
-      "name": "1. Abbey to the Godflesh",
+      "name": "Abbey to the Godflesh",
       "description": "Through a corroded iron gate, past a line of weeping statues, a great stone abbey sits untouched by the surrounding woods. The inside is rotted and the floorboards give way with a single step. Something wriggles and pulses on the altar, and the world seems to distort.<br>A single piece of still-living flesh from a divine being rests here. Its power untapped, its great influence runs wild in this area.Nothing is what it seems."
     },
     {
-      "name": "2. Abstersion Pool",
+      "name": "Abstersion Pool",
       "description": "The air grows calm here, and the trees form a thick lattice above. The light that shines through seems to form shapes of symbols and beings that dance on a clear crystal pool as the trees sway in the wind. The water is the cleanest you’ve ever seen and no animals dare disturb its shores. <br>Created from the single tear of a god, the pool cleans any impurity or ailment, scars and sickness washing away into the sacred waters. It does not sit unguarded, however; the elder Dryads Ardgal and Aife watch over it judging those worthy who might attempt to bath in the pool."
     },
     {
-      "name": "3. Ale Spring",
+      "name": "Ale Spring",
       "description": "A small rocky pool of liquid arises from deep in the ground and flows into a stream.Foamy and gold it smells of hops and ale. It is ale! Well, lager technically.<br> It has a well-rounded flavor and a slight hint of malted sweetness. It flows out cold at 50C, at a rate of about 2 pints a minute, or 15 gallons an hour. There is no detectable magic, but it does beg the question of how it’s being made."
     },
     {
-      "name": "4. Altioc's Grave",
+      "name": "Altioc's Grave",
       "description": "Across this forest of sickly oak trees you see the hints of struggle. Not just a struggle, a great battle. Scattered about the forest floor, under a layer of dirt and leaves piled several bodies deep, you find the ancient corpses of warriors long past, their armor rusted to dust, their weapons sticking up like saplings.<br>These are the remains of an army's failed attempt to combat the Wilds. Led by a self-proclaimed \"Saint Altioc\" they did battle with the beasts of the Wild for many years, before finally perishing here. <br>Altioc's spirit still haunts these woods, appearing as a regal ghost, torn to shreds, ribbons of flesh floating in the invisible wind. His army will fight again, but only if his heart, taken from him by a great beast, can be retrieved."
     }
   ],
@@ -68,7 +68,7 @@
     "move": "Standard",
     "damage": "1d8 Ragged Nails",
     "quantity": "Cluster 1d3x10 or Swarm 2d4x10",
-    "XP": 10 each,
+    "XP": 10,
     "extra": "Inherent Magics: As long as their webs are unaffected, the Arcanis Arachni can collectively cast one spell per turn. Spell-WebsL A group of Arcanis Arachni know 1d6 random spells between level 0-3."
   },  {
     "name": "Bauik",
@@ -128,7 +128,7 @@
     "move": "Standard",
     "damage": "1d2-1",
     "quantity": "2d10, Wave 3d20",
-    "XP": 5 each,
+    "XP": 5,
     "extra": "Stick and Prick: Briarscoffs are covered in spikes that stick into skin and clothing, making it hard to move. Lose 5 feet of movement for every 10 that stick into you."
   },  {
     "name": "Cacophonous Crowmen",
@@ -164,7 +164,7 @@
     "move": "Standard (Unaffected by Natural Terrain)",
     "damage": "As Weapon",
     "quantity": "Solo",
-    "XP": 1,000,
+    "XP": 1000,
     "extra": "Wyrd Aura: Anyone in the company of a Child of the Woods for more than a day suffers a random Call of the Wild (pg.20). Lords of the Wild: Lesser animals within eyesight of a Child of the Woods obey any command it may give."
   },  {
     "name": "Cindershams",
@@ -178,558 +178,26 @@
     "quantity": "Solo or Pack 1d6",
     "XP": 500,
     "extra": "Cinder Breath: As Attack, the Cindersham belches out a gout of sparks and ash. Save versus breath weapon or suffer 2d6 fire damage. Hot Flare: As Attack, the Cindersham releases an explosive burst of light. Save versus breath weapon or suffer blindness for 1 minute."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },  {
-    "name": "creature2",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },
+  }
 ],
   "mutations": [
     "You read by eating. Written language makes no sense to you anymore, you instead comprehend words and 1 writing by eating them. Each book, scroll, or written word you eat is immediately comprehended as if you had just read it.", "Barkskin. Your skin grows hard and pebbled with bark, much like a tree. You are less susceptible to damage but fine motor skills are made difficult.", "Lunar paranoia. The moon is watching you and every move you make. You need to protect yourself from its vision and touch, lest it finally decides to ambush you.", "Fertile Skin. Small seedlings and miniature life sprouts from under your skin. They are painful at times and will continue to grow despite your best efforts.", "Blood Scent. By smelling and tasting the air you can detect the faint traces of recently spilled blood within 5 100 feet of you. By tasting the blood with your tongue you are able to accurately predict the size and general physiology of the creature.", "You can sense heartbeats within 15 feet of you. It comes as a slight vibration inside your skull, allowing you to sense the exact location of a living creature even without vision or sound.", "Echolocation. You absentmindedly click your tongue in various directions and sense the returning vibrations. You can \"see\" with your echolocation out to a range of 50ft.", "Societal Disdain. You begin to hate cities, towns, and civilization as a whole. Any interactions you make with people who are unfamiliar with the Wilds tend to be hostile or unhelpful.", "Your body slowly loses all fat and your skin begins to tighten, giving you the visage of a corpse.", "You never forget a smell. Your olfactory organs keen and you pick up on subtle scents and aromas. Once you have smelled something you can immediately identify it if you smell it again.", "You body hair lengthens. Growing thick in places where it already grows heavily, it provides you some warmth in the night.", "Internal Alarm Clock. Your mind subconsciously keeps a timer running, giving you the ability to perfectly count a set amount of time. You can specify how long you sleep down to the second and awake without tardiness.", "You come to believe and accept your utter insignificance in the Wilds, becoming ambivalent to your own suffering.", "Twitchy eyes. Your eyes are constantly darting about and taking in your surroundings, making you excellent at spotting tiny details or avoiding possible traps.", "Overgrown Antlers. Sharp and boney horns or antlers grow from your skull. They must be shaved every week or grow out of control.", "Magic Sense. You can smell magic within close proximity and the stronger the magic the stronger the smell. Various magics have different scents, but you are able to distinguish them as magic at any given point.", "A terrible and powerful word has taken residence inside your gut. Once per day you must scream it out, dealing 1d10 sonic damage to all who can hear it, or risk having it burst from your stomach.", "You hate to be seen by \"the civilized folk.\" When travelling, you avoid caravans or travelling merchants, prefering to hide amongst the trees and underbrush.", "You are compelled to eat every possible piece of your hunting prey. Organs, cartilage, even bones by either boiling or grinding. You cannot waste anything.", "Perfect Weather Prediction. By standing on the very top of a tree and strenuously observing with all of your senses for 30 minutes, you can accurately predict the weather for the next 24 hours.", "Scrawl Carver. Strange symbols and designs dance in your head. You need to carve them onto trees or the symbols will begin to appear on your body in painful fashion. Some of the symbols and scrawl hold power.", "The trees sing to you. If you tilt your head back, close your eyes and hum, you pick up a subtle melodic vibration from the trees around you. The trees can communicate direction, emotions, or danger if they feel like helping you.", "You are followed by a ghost that terrifies you. It is always just at the edge of your vision and never speaks. It warns you when an ambush is near by producing either a song or whistle that only you can hear. Don’t let it touch you, or it will possess you.", "Hypersensitive ears. Your ears become attuned to even the smallest of noises including the wingbeats of a moth or the footfalls of a single spider. You are susceptible to noises and can become easily deafened.", "Night Speak. In the dead of night, if you gaze into the darkness between the trees long enough, you begin to understand its language. It is whispers and drones, almost impossible to understand; but still attainable. It is the language of secrets.", "Your flesh re-grows rapidly. You heal 1d4 hit points every hour as your flesh warps and stitches itself together. However, it has a habit of sprouting large horrible growths that must be cut off or else sprout a mutant pygmy of yourself.", "Your fingernails lengthen into claws. They grow to a point, thickening and growing strong as iron. They function as daggers.", "A strange fungus is growing inside your digestive tract. It is excellent at neutralizing ingested poisons and toxins, but requires you to eat twice the normal amount.", "Your limbs lengthen and toughen, allowing you to gallop on all fours. If not wielding anything in your hands you can move using all four limbs, doubling your speed.", "Your eyes go slitted and cat-like. They reflect in the night and are slightly better at seeing in the dark. More importantly they’re quite intimidating.", "Dreamseek. At least once a month you are visited by a terrifying vivid dream that reveals the location of a demigod. The dreams are broken, fractured, and surreal, but with enough time they can be used to plot a course to whatever great and terrible entity plagues your dreams.", "You are incapable of digesting cooked food. Meat and vegetables must be eaten raw or you immediately grow ill and vomit them up. You suffer no ill effects from eating the food raw, however.", "Bestial howl. You can let loose a terrible howling roar from deep within your gut, terrifying lesser beings within ear shot. It hurts to do and is loud enough to send a small vibration through the air.", "Feral eating tendencies. Anytime something dies or falls unconscious near you, you must make a concerted effort in order to not immediately begin devouring them. You will not do this to your close friends or allies, unless you’re starving.", "Terraphobia. You are terrified of the ground swallowing you whole. You will not sleep on the ground at night, choosing raised platforms or trees and actively avoiding caves or caverns. It’s not as crazy a fear as others might believe...", "Voiceless. You grow used to the strange silence of the Wilds. You avoid speaking when possible but are adept at picking up on the sublest of body language, even scents, tics, and pheromones.", "Your skeleton begins to shift into a more feral shape. Over time, your skull begins to lengthen, your teeth fall out to be replaced with fangs, and your limbs extend. You suffer -1 Charisma but gain +1 Strength and Dexterity.", "You can speak to vermin. They understand you and follow your commands if they are willing to do so. Offering them food or a favor can increase the chances of them accompanying you.", "Faceless. You can’t bear to show your face. You must find or make a face covering object and are loathe to remove it.", "Hyperdontia. New teeth grow sharp like fangs, giving you a vicious bite for 1d6 damage. Unfortunately, they continuously grow and must be pried out weekly or risk a mouth crowded with teeth.", "Stoic Mind. It is difficult for you to display or feel emotions. It is unnerving to most but gives you advantage against madness and mind-affecting spells.", "Wyrd Mood. Your mind swims with designs and schema of something strange and powerful. You have the knowledge and skill necessary to begin construction of one random artifact. The materials, time, and magic necessary are all known to you as well as where to find them.", "You eyes go pale and irisless. They unnerve civilized folk and grant the respect of wilder folk.", "Saint’s Blood. Your blood has healing qualities! Drinking a pint of you blood heals 1d6 hit points and allows an extra save against poisons and disease.", "Sigils and glyphs begin to appear on your body like tattoos. They can be deciphered with dedicated study and can be everything from eldritch spells to anecdotes that make little sense.", "Your strength ebbs and flows with the phases of the moon. One random ability score increases and decreases based on how full the moon is.", "You can hear precious metals, gems, and treasure \"calling\" to you. If you close your eyes and hum you can detect a strange frequency of buried or hidden treasure within 50 ft. Mundane items are a more \"soft\" frequency while magical items are hard and grating.", "Chameleon. Your skin slowly changes color and texture over the course of 1d6 days to better suit the environment you're in. Once fully changed you have advantage on hiding and not being seen.", "You understand FANGSPEK, the language of Ravagers. It is crude and vicious, but has a primal charm to it.", "Your hair grows 1 foot per day, and is stringy and tough. It can be fashioned into rope and is as strong as silk"
   ],
   "artifacts": [{
       "name": "Bottle of Briarblood Beer",
-      "description": "Thick and tinted with the taste of blood, its color a dark burgundy.",
-      "Usage": "A favorite amongst fighters and thugs. EFFECT: Gain 1d10 temporary hit points.<br><br>Each drink requires a save versus poison to avoid becoming increasingly drunk, while the effects of the drink last one hour.<br>1 Failed Save: Tipsy - Advantage on charisma checks, disadvantage on dexterity checks.<br>2 Failed Save: Drunk - Disadvantage on attacks.<br>3 Failed Save: Plastered - Half speed, disadvantage on all skills. <br>4 Failed Save: Wasted - Incoherent and illiterate.<br>5 Failed Save: Blackout - You go unconscious."
+      "description": "Thick and tinted with the taste of blood, its color a dark burgundy.<br>A favorite amongst fighters and thugs. EFFECT: Gain 1d10 temporary hit points.<br><br>Each drink requires a save versus poison to avoid becoming increasingly drunk, while the effects of the drink last one hour.<br>1 Failed Save: Tipsy - Advantage on charisma checks, disadvantage on dexterity checks.<br>2 Failed Save: Drunk - Disadvantage on attacks.<br>3 Failed Save: Plastered - Half speed, disadvantage on all skills. <br>4 Failed Save: Wasted - Incoherent and illiterate.<br>5 Failed Save: Blackout - You go unconscious."
     },
     {
       "name": "Blood of the First",
-      "description": "A crimson ichor lies eerily still, its surface reflects odd shapes and images. You swear it moves while you aren’t looking...",
-      "Usage": "In an age long forgotten, a single being made pilgrimage into the Wilds. It was here that they ascended to divinity and were the first mortal to ever transcend into godhood. All that they left in their wake was a pool of their blood, a great and terrible gift.<br>Drinking from the Blood of the First causes your very essence to change and grow closer to a divine state, giving you 1d20 points to add to your various ability scores. However, containing such power wracks the mind, body, and soul in unimaginable ways and one minute later you lose 1d20 points to your various ability scores."
+      "description": "A crimson ichor lies eerily still, its surface reflects odd shapes and images. You swear it moves while you aren’t looking...<br>In an age long forgotten, a single being made pilgrimage into the Wilds. It was here that they ascended to divinity and were the first mortal to ever transcend into godhood. All that they left in their wake was a pool of their blood, a great and terrible gift.<br>Drinking from the Blood of the First causes your very essence to change and grow closer to a divine state, giving you 1d20 points to add to your various ability scores. However, containing such power wracks the mind, body, and soul in unimaginable ways and one minute later you lose 1d20 points to your various ability scores."
     },
     {
       "name": "Bloody Maw Charm",
-      "description": "A disk of tarnished bronze, a spiral terminates in its center. Along the spiral are the crude etchings of a hundred teeth. The charm bleeds steadily, as if it has a slit vein.",
-      "Usage": "A charm once used by hunters was twisted and perverted by Ravagers into its current bastardized state. It grants fury and strength in combat, but at a terrible cost. While wearing the Bloody Maw Charm you gain advantage on attack rolls as you transform into a whirling dervish. However, you can only eat the flesh of those you have killed. All other food and drink provides no sustenance and only makes you ill. You cannot remove the Bloody Maw Charm until you have ended 1d20 lives while under its power."
+      "description": "A disk of tarnished bronze, a spiral terminates in its center. Along the spiral are the crude etchings of a hundred teeth. The charm bleeds steadily, as if it has a slit vein.<br>A charm once used by hunters was twisted and perverted by Ravagers into its current bastardized state. It grants fury and strength in combat, but at a terrible cost. While wearing the Bloody Maw Charm you gain advantage on attack rolls as you transform into a whirling dervish. However, you can only eat the flesh of those you have killed. All other food and drink provides no sustenance and only makes you ill. You cannot remove the Bloody Maw Charm until you have ended 1d20 lives while under its power."
     },
     {
       "name": "Bone Shard Shiv",
-      "description": "A knife appears made from a femur or humerus. Its edge is serrated and hard as steel. There are no marks of craft or make, as if it grew this way.",
-      "Usage": "A blade sung into shape by the Wild Elves, created as a perfect weapon for an assassin or backstabber.<br>The Bone Shard Shiv functions in all ways like a dagger or knife; however, when pressed against the owner’s skin and gently hummed to, the knife melds into the flesh. It can be summoned at any time, bursting out without any harm to the wielder."
+      "description": "A knife appears made from a femur or humerus. Its edge is serrated and hard as steel. There are no marks of craft or make, as if it grew this way.<br>A blade sung into shape by the Wild Elves, created as a perfect weapon for an assassin or backstabber.<br>The Bone Shard Shiv functions in all ways like a dagger or knife; however, when pressed against the owner’s skin and gently hummed to, the knife melds into the flesh. It can be summoned at any time, bursting out without any harm to the wielder."
     }
   ],
   "spells": [{
@@ -740,7 +208,7 @@
       "duration": "1 Minute",
       "material": "A vial of Blukstound Sap.",
       "higher": "",
-      "Effect": "A spike of adrenaline bursts through your veins. For 1 minute your speed is doubled and you may perform one extra attack or non-combat action during your turn. As well, each turn you may also choose to boost your body beyond its physical limits for one turn by making a constitution check. Success means you gain advantage on attacks, dexterity and strength checks; enemies have disadvantage on attacks against you; and you may double the amount of actions you perform in a turn (rather than just having one extra). Failure automatically knocks you unconscious, as your heart stops beating."
+      "effect": "A spike of adrenaline bursts through your veins. For 1 minute your speed is doubled and you may perform one extra attack or non-combat action during your turn. As well, each turn you may also choose to boost your body beyond its physical limits for one turn by making a constitution check. Success means you gain advantage on attacks, dexterity and strength checks; enemies have disadvantage on attacks against you; and you may double the amount of actions you perform in a turn (rather than just having one extra). Failure automatically knocks you unconscious, as your heart stops beating."
     },
     {
       "name": "Ashes to Ashes",
@@ -750,7 +218,205 @@
       "duration": "1 Minute",
       "material": "A source of flame or heat and a piece of the creature you intend to bind.",
       "higher": "You may bind one extra creature for each spell level beyond 5 (two creatures at level 6, three at 7, etc.",
-      "Effect": "You bind a source of fire or heat to a single creature, burning them away just like the fuel they are bound to. You select a single creature and source of heat within range, dealing damage to the creature each turn based on how hot the source of heat is.<br>A match - 1 damage<br>A candle - 1d4<br>A torch - 1d6<br>A bullseye lantern - 1d8 A campfire - 2d6<br>A burning wagon - 4d8<br>A tree on fire - 8d8<br>A house burning down - 10d8 A wildfire - 20d8<br>You may shift the target of the spell once the previous target has died or retreated out of range. Increasing or decreasing the heat source affects the damage of the spell. The heat source does not have to be fire(a cauldron of boiling water has just as much heat as, if not more than, a large campfire.)"
+      "effect": "You bind a source of fire or heat to a single creature, burning them away just like the fuel they are bound to. You select a single creature and source of heat within range, dealing damage to the creature each turn based on how hot the source of heat is.<br>A match - 1 damage<br>A candle - 1d4<br>A torch - 1d6<br>A bullseye lantern - 1d8 A campfire - 2d6<br>A burning wagon - 4d8<br>A tree on fire - 8d8<br>A house burning down - 10d8 A wildfire - 20d8<br>You may shift the target of the spell once the previous target has died or retreated out of range. Increasing or decreasing the heat source affects the damage of the spell. The heat source does not have to be fire(a cauldron of boiling water has just as much heat as, if not more than, a large campfire.)"
     }
+  ],
+  "plants": [
+    {
+      "name": "Banshee Morel",
+      "description": "A mushroom sprouts from warm shaded soil. Its neck is fat as a log and its head is a soft flesh that resembles many skulls fused together. A dull whistle can be heard from its head.",
+      "uses": "When threatened, the mushrooms will push air from their head, creating a piercing wail that causes deafness for 1d6 hours [save versus poison to avoid]. They can be cut down and dried, and have been used as odd makeshift trumpets."
+    },
+        {
+          "name": "Beedlesprouts",
+          "description": "Long hardened vines, covered with plump trumpet-shaped buds the color of amber. Growing where it is warm and with plenty of water, they cling to the middle of trees drawing sap from deep within the trunks.",
+          "uses": "When the buds are eaten (and after the vomiting stops), one can faintly hear the trees “singing” for the rest of the day. Soft ephemeral notes without words drift through the air, and grow shrill and venomous when predators are near."
+        },
+        {
+          "name": "Boletus Posterum",
+          "description": "A mushroom, also known as “Fortune-teller’s Folly,” appears as an apple-sized magenta lattice made of impossibly delicate shapes, speckled with white and glowing faintly pink in the dark.",
+          "uses": "It is edible but poisonous, causing weakness and lethargy. Once eaten, the eater will experience a plethora of colorful and vivid hallucinations. Some of these hallucinations are actually visions of the future and allow the character to make 1d3 rerolls for the next week as the visions guide the eater for the near future."
+        },
+        {
+          "name": "Canticle Holly",
+          "description": "A tall strong tree with spiky blue-tinted leaves. Bright white berries cluster together and seem to glow slightly. They grow in the darker parts of the Wilds, and appear as soft beacons to some.",
+          "uses": "Sleeping near these trees relives a level of exhaustion, and dreams are filled with a soft and gentle singing. The berries, which bloom only once in the tree’s lifetime, can be mashed and distilled into a potent mind-altering drug called “Saints’ Respite.”"
+        },
+        {
+          "name": "Carol Trees",
+          "description": "Tall elegant conifer trees grow in fertile and temperate soil. Their trunks and limbs stretch high into the air, the rustling of their silver tinted leaves sound like gentle ringing.",
+          "uses": "Resting near a Carol Tree and hearing its gentle song has soothing properties, healing 1d8 hit point for every hour spent listening. However, listening for any longer than one hour risks falling into a deep slumber that does not end unless woken up. [Save versus charm or fall asleep, with success still causing one level of exhaustion.] Groves of Carol Trees are dangerous, and many adventurers have fallen to their death in a peaceful slumber, all from the trees' sonorous lullaby."
+        },
+        {
+          "name": "Coal-nettle",
+          "description": "Stiff brittle shrubs of this foul-smelling plant appear as tufts of black, prickly spruce pine. Present in the colder reaches, they reek of sulfur and have needles that can pierce leather.",
+          "uses": "Burns incredibly well, if not foul-smelling and with ridiculous amounts of smoke. However, when dried and ground into the finest grain possible it takes on an almost explosive quality when exposed to fire, much like gunpowder."
+        },
+        {
+          "name": "Dame’s Seal",
+          "description": "A regal and elegant flower resembling an extremely elongated tulip. It is white with delicate veins of crimson and purple.",
+          "uses": "They fetch a fair price to certain nobles who care for their beauty. Alchemists pay for the preservative qualities they give to liquids if dried and ground to a powder."
+        },
+        {
+          "name": "Deer Weed",
+          "description": "A leafless sprout made of tall hard branches that resemble antlers. Their color transitions from a dark mottled grey to a pristine bone.",
+          "uses": "Deceitful but enterprising individuals may be able to pass off the weed as legitimate antler. While it may fool a noble, skilled craftsmen and deepwood hunters know the difference."
+        },
+        {
+          "name": "Dirkberry",
+          "description": "A wretched and mottled brown bush clings to the ground. It is a maze of stiff dagger-length thorns that jealousy hide clumps of soft, jewel-like berries.",
+          "uses": "The berries are required for a pair of incredibly rare and special brews. One is called \"Dirk-Fighter Brandy\", a stiff liquor which invigorates the body and a favorite among pit-fighters and prize-fighters. The other is a sharp wine called “Bladed Caress”, which allows one’s mind to flow more freely and is popular among noble or wealthy artisans."
+        },
+        {
+          "name": "Elf-ear",
+          "description": "A type of grass. Green with fat blades that curve and taper to a point resembling elf ears. They make strange harmonic sounds in the wind.",
+          "uses": "After dried and if properly placed between the thumbs, they can be used as a makeshift whistle that attracts some wildlife with its unearthly hum."
+        }, {
+          "name": "Gristle Pear",
+          "description": "A fat squat tree grows in scree at high elevations. Its bark is warted and coated in a viscous film, the leaves droop like wet mayfly wings, and several plum fruits dangle like melted tallow. The fruit is a fistful of fat and gristled meat, always warm and wet.",
+          "uses": "Despite its disgusting nature (and difficulty to chew), Gristle Pears are quite nutritious; eating just one is enough to feed a grown adult for a day."
+        }, {
+          "name": "Kingsleep Moss",
+          "description": "Large soft beds of pale turquoise moss coat the ground. It is soft as down pillows and smells of home.",
+          "uses": "Sleeping on a bed of Kingsleep Moss has reinvigorating properties. Every full night’s rest on the moss relieves one level of exhaustion."
+        }, {
+          "name": "Knitting Onion",
+          "description": "Long green threads of grass weave together in uncanny geometric patterns. The onions themselves are slender like carrots and have white flesh that brings tears and runny noses.",
+          "uses": "Children look for images and words in the oddly woven grass of their stalks. The onion can be eaten or used like smelling salts if cracked open in front of someone’s nose, reviving even someone who has fallen unconscious or asleep."
+        }, {
+          "name": "Night Cherry",
+          "description": "A dark tree grows near dark, warm marshes. Its flowers the color of night, roots gripping the ground lecherously. There are cherries as black as obsidian, but insides bleed red like blood.",
+          "uses": "Eating one causes a comatose state for nearly an hour per cherry, the mind of the victim plagued with unpleasant visions. If processed into an extract it becomes a dangerous poison called Red Slumber."
+        }, {
+          "name": "Obsequy Ragwort",
+          "description": "Clusters of thin weeds grow tall near fresh moving water and cold streams. Small wildflowers crown the stems, with bone white flowers touched by ultramarine veins.",
+          "uses": "Highly prized in funeral rites for their protection against necromancy. Clerics pay a healthy sum for fresh bundles. Bodies buried with the flower as garland or stuffed into them will never rise as an undead or vengeful spirit."
+        }, {
+          "name": "Pissboils",
+          "description": "Lumps of foul smelling fungus grow where much is rotting. They smell of hot cat urine and resemble half buried cow stomachs that have bloated in the sun.",
+          "uses": "Stepping on a Pissboil causes it to explode in a shower of caustic and foul smelling liquid. The liquid has a tendency to cause short term memory loss and attract predators with a sense of smell. If properly harvested, the liquid is sought after by artificers and metal smiths for use in metal etching and tinting."
+        }, {
+          "name": "Plump Friars",
+          "description": "A tall weed grows where sun and water are plenty. As tall as a man, thin vines end in twisting filigree-like flowers and produce plump berries the size of plums and color of blushed cheeks.",
+          "uses": "Eating Plump Friar fruit causes a slight dizziness and spotty vision, but is altogether delicious and pleasant. Brewing the fruit into a wine or distilling it into a concentrate creates a potent elixir that produces feelings of intense euphoria and vivid hallucinations for hours on end. Illegal almost everywhere, the black market pays handsomely for the fruits and a small fortune for the elixir."
+        }, {
+          "name": "Ring Root",
+          "description": "A sweet smelling shrub grows wide and thick in lower elevations. The leaves are sharp like thorns, while their roots form in conjoined rings, looking like earthen chainmail.",
+          "uses": "The roots can be boiled and eaten for a good meal. More importantly, when eaten raw and fresh it is able to help neutralize poison in the body [Immediately make a save against any poison consumed in the last day at advantage]."
+        }, {
+          "name": "Scribe’s Birch",
+          "description": "A tall pale tree with ashen leaves. Its white bark comes off in thin vellum-like sheets and it grows straight as a fencepost. It can be found in temperate mountains, the elevation being preferable to its growth.",
+          "uses": "Its bark comes off easily and can be used as a decent substitute for parchment. Scribes and paper dealers pay handsomely for pounds of the sheets."
+        }, {
+          "name": "Swineweed",
+          "description": "Tall loathsome green stalks sprout from damp soil. They stretch two meters tall with wide leaves coated in thorns and limbs terminating in tiny grey flowers.",
+          "uses": "When burned, the plant produces torrents of a thick, horrid smelling smoke. The smoke causes blindness for 1d6 hours [save versus poison to avoid]."
+        }
+  ],
+  "traps": [
+    {
+    "name": "Amoeba Bog",
+    "description": "Stagnant water that is surprisingly clean sits still, save for the occasional rhythmic shimmer. It is a swamp that is host to a single giant amoeba that grew out of control and consumed everything in the water. It now hunts those who enter or draw too close, attacking with fat pseudopods.",
+    "detect": "The water shimmers and moves like a living gelatin.",
+    "effect": "Entering its body or close enough for it to lash out causes it to attack. [Save versus breath weapon each turn or suffer 1d6 acid damage as it burns away and digests flesh.]",
+    "disable": "Throwing a sufficient bait near it distracts and pacifies it for a time."
+  }, {
+    "name": "Blistering Ivy",
+    "description": "An ivy grows close to the ground and up the sides of trees in thick starshaped leaves with crimson-tinted tips. Merely touching the ivy causes exposed skin to break out in painfully itchy blisters that last for days on end.",
+    "detect": "A nature check or previous experience identifies the ivy for what it is.",
+    "effect": "Making contact with the leaves coats bare skin in a oil that causes a terrible allergic reaction. [Roll 1d100. On a 1-99 Contact with the leaves causes the victim’s skin to be inflamed and covered in boils, suffering disadvantage on all skill checks for the next 1d3 days. On a 100, the victim is miraculously immune to Blistering Ivy, and permanently suffers no ill effects.]",
+    "disable": "Avoiding skin contact is the best choice.The blistering can be cured with a special herbal soap made from Wild-elf fat and Gristle Pears."
+  }, {
+    "name": "Bonemeal Quicksand",
+    "description": "The ground is coated in a rough bleached scree, made of broken and polished bones. It is a deep pit of partially animated bones that work together to feed on those who unwittingly cross over-top of it.",
+    "detect": "Anything that lands on it is quickly dragged below.",
+    "effect": "Moving over-top of the pile at a steady pace produces no effect. The moment someone stands still, the Bonemeal Quicksand activates, quickly dragging its victim below. [Save versus breath weapon or begin to be dragged below. One failed save immobilizes the victim, while two failed saves in a row sees the character drop below the surface of the pit, whereupon taking 3d6 crushing damage every turn as the victim is ground apart. They must make two successful saves in a row to free themselves.]",
+    "disable": "Move quickly over top and do not stop."
+  }, {
+    "name": "Cutting Scrawl",
+    "description": "A series of angry runes and symbols are carved into a surface, their corners drip viscous blood and fluids. Terrible cursed words and images that cause harm to anyone who accidentally gazes upon them.",
+    "detect": "Detection magic, merely reading them triggers their effect.",
+    "effect": "The moment someone gazes upon the scrawl, they are immediately understood and impart a truth, secret, or image so terrible it causes pain to the viewer. [Save versus charm/magic or suffer 1d6 psychic damage and lose all memory of the last hour.]",
+    "disable": "Close eyes, do not make eye contact."
+  }, {
+    "name": "Doom Stones",
+    "description": "An enormous standing stone seems tarnished and decayed, the scent of brimstone fills the air, and its surface is carved in all manner of lurid and profane script. Trapped inside the stone is a terrible spirit or fiend. Its malicious consciousness surpassing its prison and eager to torment passerbys. They were made and used in a time long before any written record.",
+    "detect": "Soft horrid voices can be heard from the stone if concentrated on.",
+    "effect": "Passing near the stone causes anyone near to go mad, as the monster bound within presses its conscious against the victim. [Save versus charm or become inflicted with one random madness.]",
+    "disable": "Hold onto a holy symbol to ward off the madness. Splashing the stone with holy water nullifies its power for an hour."
+  }, {
+    "name": "Drowning Pond",
+    "description": "A serene pond of cattails and lily pads is filled with the harmonious singing of wildlife. A group of animals and insects learned a secret chord and now use it to charm mortals into drowning themselves in the pond.",
+    "detect": "The music is too perfect to be natural, and the many skeletal remains of its victims sit half-buried in the weeds.",
+    "effect": "Those that listen to the animals’ song for more than a minute find themselves losing control of themselves. [After one minute, save versus charm or find yourself under the effects of a Charm Person spell, commanding you to swim out into the pond and touch the bottom.]",
+    "disable": "Sing an equally bad or discordant tune to counteract the song. Optionally, if you sing a song BETTER than the animals, they become friendly."
+  }, {
+    "name": "Euphoria Stream",
+    "description": "A warm teal stream seems to gently hum as vapor gently bubbles up and insects lazily bat against its surface. This stream is full of a potent euphoriant that absorbs through the skin and is strong enough to send a horse into a dizzying, blissful coma.",
+    "detect": "The air is akin to that of a drug-den and the flies and small animals seem to happily drown themselves in the water.",
+    "effect": "Skin contact to the water does not immediately cause the feelings of euphoria. Instead, after one minute of contact the drug kicks in and the victim turns into a giggling, mindless addict. [After one minute, save versus poison or become addicted to the euphoric sensation for an hour, refusing to leave the stream and oblivious to the world around you. A successful save gives you the presence of mind to act logical for 1 minute.]",
+    "disable": "Avoid skin contact."
+  }, {
+    "name": "Hallucinogenic Moss",
+    "description": "Patches of thick purple moss that glimmers iridescent like an oil slick. This moss has a habit of spewing out clouds of spore that causes vivid and sometimes dangerous hallucinations.",
+    "detect": "A nature check or previous experience identifies the moss for what it is.",
+    "effect": "Stepping on or coming within arm's reach of the moss causes it to release a cloud of hallucinogenic spores in a 10ft by 10ft area. [Save versus poison or suffer one random hallucination for 1 hour.]<br>1. Their friend is their worst enemy.<br>2. They are surrounded by the thing they fear most.<br>3. Everything is on fire.<br>4. The ground is swallowing them up.<br>5. The trees are shouting profanities and insults.<br>6. The Skulk is watching them.",
+    "disable": "A crude gasmask is enough to avoid the effects of the spores, as well as holding your breath for an extended time."
+  }, {
+    "name": "Hideous Totems",
+    "description": "Monstrous decaying wooden totems, adorned with hideous faces and scrawl, stand with hundreds of rusted blades buried deep in their bodies. These totems are placed along roads and trails, cursing the trail to become impassable, as those who pass them find themselves walking in circles, always returning to the totem.",
+    "detect": "The totems give off a strong and malicious magical presence to anyone who can detect it.",
+    "effect": "Those who pass by the totem travel for maybe half of an hour before arriving back at the totem. There is no way to pass beyond the totem without paradoxically ending back exactly where you started.",
+    "disable": "Impaling and leaving the totems with a weapon is enough to suppress their power for a group to pass."
+  }, {
+    "name": "Hungry Lilies",
+    "description": "Patches of ivory lilies are speckled with red like blood, they move in slow seductive motions. The lilies are a colony of ravenously carnivorous plants that can bleed a cow dry in a matter of minutes. They drain their prey of blood before devouring their limp exsanguinated corpse.",
+    "detect": "The lilies have tiny mouths full of teeth that click together in anticipation.",
+    "effect": "Those who enter the patch of lilies are immediately attacked and begin to bleed profusely as the lilies are adept at honing in on arteries and veins. [Each turn the lilies make one attack. If successful, the victim bleeds 1d4 damage every round until the bleeding is staunched or they recieve medical aid.)",
+    "disable": "The lilies despise the smell of garlic, and rubbing yourself with a crushed clove is enough to avert their attention."
+  }, {
+    "name": "Papa Sleep",
+    "description": "A tall corpse of man in burlap rags drags an enormous ornate grandfather clock, leaving gouges in the earth and wailing a gentle lullaby the entire time. A strange and solemn thing, forever roving the trails of the Wilds and leaving a wave of sleep and exhaustion in his wake.",
+    "detect": "The sound of a children’s lullaby and feeling of drowsiness.",
+    "effect": "Those who hear Papa Sleep’s sonorous song find themselves becoming drowsy, having to stave off waves of exhaustion. [Save versus charm or fall asleep. A successful saving throw avoids sleep, but leaves the character with one point of exhaustion.]",
+    "disable": "The clock appears to be broken and inactive. Offering to fix Papa Sleep’s clock stops him from singing his lullaby. Successfully repairing his clock fills him with joy, offering the helpful soul a magic ring before disappearing into the woods while humming a jig."
+  }, {
+    "name": "Reaper's Fingers",
+    "description": "Thin, bone colored protrusions jut up from the ground like greedy little fingerbones. A small, grim looking fungus, its surface is coated in a deadly toxin that causes illness with a single touch, and risks death with sustained contact.",
+    "detect": "A nature check or previous experience identifies the fungus for what it is.",
+    "effect": "Merely touching a Reaper’s Finger is enough to send a dangerous amount of toxins into the bloodstream. [On contact, save versus touch or become nauseated for 1 hour, suffering disadvantage on attack rolls and skill checks. In addition, touching the mushrooms for a second time requires a second save, or the victim falls unconscious. A third touch requires a save or the victim drops to zero hit points.]",
+    "disable": "As long as the mushrooms do not make skin contact, the toxin does not have an effect."
+  }, {
+    "name": "Skull Children",
+    "description": "They skulk and dart behind trees and into shadows, strange figures like children wearing masks of bone laughing at some monstrous joke. Small spirits of the restless youthful dead, Skull Children are physical apparitions bent on causing chaos wherever they go.",
+    "detect": "The sound of laughing children and figures wearing skull-faced masks moving just out of sight.",
+    "effect": "Passing into the territory of Skull Children causes them to mercilessly haunt unsuspecting victims with dangerous pranks and mischief while they sleep. [Roll on the chart each night to determine the prank the Skull Children pull]<br>1. Pilfered Food - 1d6 supplies worth of food is eaten.<br>2. Firebug - They pour oil over victim’s clothing, igniting at the slightest touch of fire.<br>3. Stones - They throw stones at least 1d3 times a day for 1d4 damage each.<br>4. Thieving Hands - They steal 1d6 gold or items equal to that amount.<br>5. Hide-and-Seek - A great monster is lured to your location<br>6. The Skull Children grow bored with you and leave, ending their haunting.",
+    "disable": "Giving the Skull Children a single piece of candy or toy causes them to immediately cease their mischief, departing into the dark with a haunting laugh."
+
+  }, {
+    "name": "Spite Beds",
+    "description": "The ground is littered with the bones of a thousand tiny beings, while the air seems to radiate a foul heat that does not warm the skin, but the blood. Spite Beds are the precursor to a Vermincaust; a collection of thousands of minute corpses, simmering in hatred at the world around them. Their hatred and rage radiates outward, spilling into the minds of those who come too near.",
+    "detect": "A feeling of nausea, and the sounds of dying vermin if you close your eyes.",
+    "effect": "Passing over the Spite Bed triggers their psychic energy to rise up and claw at the minds of those nearby. [Save versus Charm or Magic or be overcome with a wave dizzying sickness, making all attacks against you at advantage for the next hour. Lingering any longer than a minute requires another save or you become enraged, striking out at any living thing within range of you. You may attempt to break free of the rage with a successful save the next round.]",
+    "disable": "Splashing the area with a gallon of holy water or a pound of sacred salt is enough to pacify the Spitebed."
+  }, {
+    "name": "Stink Stalks",
+    "description": "Tall fungal stalks stand as tall as a child, thin as broomsticks, the color of rotted leather and smelling of spoiled marrow; their bodies are covered in pores that open and close slowly. A fungus that spews foul smelling spores when creatures are near, the scent attracts carnivores.",
+    "detect": "The smell is that of animal bait, as spores puff in anticipation.",
+    "effect": "Passing within 5 feet of Stink Stalks causes them to vomit a cloud of spores in a 20 foot area, coating anyone near in the foul-smelling pores that attract predators. [Save versus breath weapon or double the amount of random wilderness encounters for 1d12 hours.]",
+    "disable": "A successful stealth check allows one to avoid detection. They sense life via vibrations in the ground."
+  }, {
+    "name": "Volatile Cadaver",
+    "description": "Fat corpses of the fresh and long dead lie side-by-side, bloated beyond recognition, looking more like balloons made of flesh than actual bodies. These are bodies that have become hotspots for twisted and dangerous microbial life, so full that the slightest touch causes them to explode.",
+    "detect": "The bodies pulse and heave as small seams hint to the dangerous pressure within.",
+    "effect": "The slightest touch provokes the Volatile Cadaver to burst violently in a shower of shrapnel and disease. [Save versus breath weapon or suffer 2d6 piercing and bludgeoning damage. As well, save versus poison or suffer one random disease.]",
+    "disable": "Chucking a stone at one is enough to cause it to explode."
+  }, {
+    "name": "Wyrd Flare",
+    "description": "The world seems strange here, twisting in subtle ways, changing just out of your sensory peripherals.These are dangerous areas where the power of the Wyrd has burst or flared, spilling out and morphing the fabric of reality.",
+    "detect": "Those capable of sensing magic perceive the distortion of reality, while those attuned to the Wyrd immediately know of the danger posed.",
+    "effect": "The Wyrd magics are so strong that the very rules that govern reality breakdown and distort. Entering into the Wyrd Flare causes a random effect from the “Wyrd Effects and Curses” chart [pg. 183].",
+    "disable": "Bearing items, treasures or pieces from a Wild Elf."
+  }
   ]
 }
