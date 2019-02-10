@@ -9,10 +9,8 @@ image: /images/wyrdhuntgenerator.png
 <p class="tightSpacing" id="huntText"></p>
 
 <div class="row">
-  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button id="start" class="btn btn-primary btn-lg" onclick="startHunt()">Start
-      Hunt</button></div>
-  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button id="start" class="btn btn-primary btn-lg" onclick="nextEncounter()">Random
-      Encounter</button></div>
+  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button id="start" class="btn btn-primary btn-lg" onclick="startHunt()">Start Hunt</button></div>
+  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button id="start" class="btn btn-primary btn-lg" onclick="nextEncounter()">Random Encounter</button></div>
 </div>
 
 <div class="container generatorCard" style="margin-bottom: 30px;">
@@ -25,10 +23,7 @@ image: /images/wyrdhuntgenerator.png
 
   <div id="location" class="tabcontent">
     <div class="tightSpacing h3" id="locationTitle">Wyrd and Wild</div>
-    <p id="locationDesc">Into the Wyrd and Wild is a book for those seeking to incorporate a weird and terrifying
-      wilderness into their game.<br><br>Created by Charles B.F. Avery, this book is gorgeously illustration and PACKED
-      with cool ideas for wanting a dark forest adventure. After you <a href="http://google.com">BUY IT HERE</a> you
-      can use this page to generate quick hunts.<br><br><strong>The woods do not care for you. Never forget that.</strong>
+    <p id="locationDesc">Into the Wyrd and Wild is a book for those seeking to incorporate a weird and terrifying wilderness into their game.<br><br>Created by Charles B.F. Avery, this book is gorgeously illustration and PACKED with cool ideas for wanting a dark forest adventure. After you <a href="http://google.com">BUY IT HERE</a> you can use this page to generate quick hunts.<br><br><strong>The woods do not care for you. Never forget that.</strong>
     </p>
   </div>
 
@@ -61,12 +56,10 @@ function openTab(evt, tabName) {
 </script>
 
 <div class="row">
-  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn-wide btn btn-primary btn-lg" onclick="searchBody()">Search
-      Body</button></div>
+  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn-wide btn btn-primary btn-lg" onclick="searchBody()">Search Body</button></div>
   <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn-wide btn btn-primary btn-lg" onclick="spell()">Spell</button></div>
   <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn-wide btn btn-primary btn-lg" onclick="artifact()">Artifact</button></div>
-  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn-wide btn btn-primary btn-lg" onclick="mutation()">Wild
-      Mutation</button></div>
+  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn-wide btn btn-primary btn-lg" onclick="mutation()">Wild Mutation</button></div>
 </div>
 
 <div class="container generatorCard">
@@ -75,8 +68,7 @@ function openTab(evt, tabName) {
   </div>
 </div>
 
-<small>Thanks to <a href="https://twitter.com/CharlieFergaves">Charles Avery</a> for making such a beautiful world and
-  to <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the code!</small>
+<small>Thanks to <a href="https://twitter.com/CharlieFergaves">Charles Avery</a> for making such a beautiful world and to <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the code!</small>
 
 <script>
 var huntStarted = false;
