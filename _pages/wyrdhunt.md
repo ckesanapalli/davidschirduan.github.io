@@ -8,52 +8,19 @@ image: /images/wyrdhuntgenerator.png
 
 <p class="tightSpacing" id="huntText"></p>
 
-<div class="row">
+<div class="row" id="newButtons">
   <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button id="start" class="btn btn-primary btn-lg" onclick="startHunt()">Start Hunt</button></div>
-  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button id="start" class="btn btn-primary btn-lg" onclick="nextEncounter()">Random Encounter</button></div>
 </div>
+
+<div class="tightSpacing" id="encounterText"></div>
 
 <div class="container generatorCard" style="margin-bottom: 30px;">
-
-  <div class="tab">
-    <button class="tablinks" onclick="openTab(event, 'location')" id="defaultOpen">Location</button>
-    <button class="tablinks" onclick="openTab(event, 'encounter')">Encounter</button>
-    <button class="tablinks" onclick="openTab(event, 'paths')">Paths</button>
-  </div>
-
-  <div id="location" class="tabcontent">
-    <div class="tightSpacing h3" id="locationTitle">Wyrd and Wild</div>
-    <p id="locationDesc">Into the Wyrd and Wild is a book for those seeking to incorporate a weird and terrifying wilderness into their game.<br><br>Created by Charles B.F. Avery, this book is gorgeously illustration and PACKED with cool ideas for wanting a dark forest adventure. After you <a href="http://google.com">BUY IT HERE</a> you can use this page to generate quick hunts.<br><br><strong>The woods do not care for you. Never forget that.</strong>
-    </p>
-  </div>
-
-  <div id="encounter" class="tabcontent">
-    <div class="tightSpacing" id="encounterText">Click the button to start the hunt.</div>
-  </div>
-
-  <div id="paths" class="tabcontent">
-    <div class="col-lg-12 h4 tightSpacing" id="pathsText">Click the button to start the hunt.</div>
-  </div>
-
+  <div class="tightSpacing h3" id="locationTitle">Wyrd and Wild</div>
+  <p id="locationDesc">Into the Wyrd and Wild is a book for those seeking to incorporate a weird and terrifying wilderness into their game.<br><br>Created by Charles B.F. Avery, this book is gorgeously illustration and PACKED with cool ideas for wanting a dark forest adventure. After you <a href="http://google.com">BUY IT HERE</a> you can use this page to generate quick hunts.<br><br><strong>The woods do not care for you. Never forget that.</strong>
+  </p>
+  <hr class="tightSpacing">
+  <p id="pathsText"></p>
 </div>
-
-<script>
-document.getElementById("defaultOpen").click();
-
-function openTab(evt, tabName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-</script>
 
 <div class="row">
   <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn-wide btn btn-primary btn-lg" onclick="searchBody()">Search Body</button></div>
@@ -86,7 +53,6 @@ function startHunt() {
   if (huntStarted) {
     nextLocation();
     nextPaths();
-    nextEncounter();
 
   } else {
     /*generate the hunt name and hook*/
@@ -94,7 +60,7 @@ function startHunt() {
     document.getElementById("huntText").innerHTML = "Within the <strong>" + wyrd.names.prefix[Math.floor(Math.random() * wyrd.names.prefix.length)] + " Of " + wyrd.names.suffix[Math.floor(Math.random() * wyrd.names.suffix.length)] + "</strong> there is rumored to be " + wyrd.secrets[Math.floor(Math.random() * wyrd.secrets.length)] + " But beware! " + wyrd.dangers[Math.floor(Math.random() * wyrd.dangers.length)] + "<br><br> You are hunting one or more <strong>" + target.name + "</strong> (pg. " + target.page + ") for fortune, fame, flesh, or some other reason altogether. You will need <strong>" + target.marks + " Marks</strong> to complete the hunt.";
 
     /*set started to false and change the button text*/
-    document.getElementById("start").innerHTML = "Next Location";
+    document.getElementById("newButtons").innerHTML =  "<div class=\"col-md-6 col-6 tightSpacing buttonWrapper\"><button id=\"start\" class=\"btn btn-primary btn-lg\" onclick=\"startHunt()\">Next Location</button></div><div class=\"col-md-6 col-6 tightSpacing buttonWrapper\"><button id=\"start\" class=\"btn btn-primary btn-lg\" onclick=\"nextEncounter()\">Random Encounter</button></div>";
     huntStarted = true;
     startHunt();
   }
@@ -105,11 +71,13 @@ function nextLocation() {
   var nextLocation = wyrd.locations[Math.floor(Math.random() * wyrd.locations.length)];
   document.getElementById("locationTitle").innerHTML = nextLocation.name;
   document.getElementById("locationDesc").innerHTML = nextLocation.description;
+  document.getElementById("encounterText").innerHTML = "";
+
 }
 
 function nextPaths() {
-  var numPaths = Math.floor(Math.random() * 4) + 1;
-  var pathsText = "Several paths lead away from this place: <br>• The path you came from.";
+  var numPaths = Math.floor(Math.random() * 3) + 1;
+  var pathsText = "<strong>Several paths lead away from this place:</strong><br>• The path you came from.";
 
   for (i = 0; i < numPaths; i++) {
     pathsText = pathsText + "<br><br>• " + wyrd.paths[Math.floor(Math.random() * wyrd.paths.length)] + 
@@ -118,32 +86,31 @@ function nextPaths() {
     " " + wyrd.senses[Math.floor(Math.random() * wyrd.senses.length)];
   }
 
-  document.getElementById("pathsText").innerHTML = pathsText;
+  document.getElementById("pathsText").innerHTML = pathsText + "</p>";
 }
 
 function nextEncounter() {
   if (huntStarted) {
     var percentage = Math.floor(Math.random() * 100);
+    var encounterText = "<hr class=\"tightSpacing\">";
 
     switch (true) {
       case (percentage <= 20):
         var plant = wyrd.plants[Math.floor(Math.random() * wyrd.plants.length)];
-        document.getElementById("encounterText").innerHTML = "<h3 class=\"tightSpacing\">" + plant.name + "</h3>" +
-          "<br>" + plant.description +
+        encounterText = encounterText + "<h3 class=\"tightSpacing\">" + plant.name + "</h3>" + plant.description +
           "<br><strong>Uses:</strong> " + plant.uses;
         break;
       case (percentage > 20 && percentage <= 40):
         var trap = wyrd.traps[Math.floor(Math.random() * wyrd.traps.length)];
-        document.getElementById("encounterText").innerHTML = "<h3 class=\"tightSpacing\">" + trap.name + "</h3>" +
-          "<br>" + trap.description +
+        encounterText = encounterText + "<h3 class=\"tightSpacing\">" + trap.name + "</h3>" + trap.description +
           "<br><strong>Detect:</strong> " + trap.detect + 
           "<br><strong>Effect:</strong> " + trap.effect + 
           "<br><strong>Disable/Avoid:</strong> " + trap.disable;          
         break;
       case (percentage > 40 && percentage <= 80):
         var creature = wyrd.creatures[Math.floor(Math.random() * wyrd.creatures.length)];
-        document.getElementById("encounterText").innerHTML = "<h3 class=\"tightSpacing\">" + creature.name + " <i>(pg. " + creature.page + ")</i></h3>" +
-          "<br><strong>Quantity:</strong> " + creature.quantity +
+        encounterText = encounterText +  "<h3 class=\"tightSpacing\">" + creature.name + " <i>(pg. " + creature.page + ")</i></h3>" +
+          "<strong>Quantity:</strong> " + creature.quantity +
           "<br><strong>Armor Class:</strong> " + creature.ac +
           "<br><strong>Hit Dice:</strong> " + creature.hd +
           "<br><strong>Hit Points:</strong> " + creature.hp +
@@ -153,8 +120,10 @@ function nextEncounter() {
           "<br>" + creature.extra;
         break;
       default:
-        document.getElementById("encounterText").innerHTML = "No Encounter. Just an empty, restless silence.";
+        encounterText = encounterText +  "No Encounter. Just an empty, restless silence.";
     }
+document.getElementById("encounterText").innerHTML = encounterText;
+
   } else {
     startHunt();
   }
@@ -177,11 +146,11 @@ function artifact() {
 function spell() {
   var spell = wyrd.spells[Math.floor(Math.random() * wyrd.spells.length)];
   var spellText = "<h3 class=\"tightSpacing\">" + spell.name + "</h3>" +
-    "<br><strong>Spell Level:</strong> " + spell.level +
+    "<strong>Spell Level:</strong> " + spell.level +
     "<br><strong>Casting Time:</strong> " + spell.castingTime +
     "<br><strong>Range:</strong> " + spell.range +
     "<br><strong>Duration:</strong> " + spell.duration;
-    
+
   if (spell.material != "") {
     spellText = spellText + "<br><strong>Material Component:</strong> " + spell.material;
   }

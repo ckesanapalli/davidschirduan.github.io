@@ -29,163 +29,582 @@
     "SMELL: The smell of rotting cheese chokes your senses", "SOUND: Thousands of skittering legs move about unseen.", "SMELL: Freshly cut grass burns itself deep into your nostrils.", "SOUND: The faint plucking of a strings wafts through the air.", "SOUND: The area fills with bird noises, eventually becoming deafening.", "SMELL: Oddly sweet, like fresh cinnamon rolls. Marked only by a twinge of ozone.", "SOUND: Standing to close to certain areas triggers agonizing tinnitus.", "SMELL: Heavy with burnt wood and cooked flesh.", "SMELL: Tainted by the smell of spoiled meat, but you find yourself wanting more...", "SOUND: A droning noise, like that of a single colossal hornet, surrounds you.", "SMELL: Acrid and pungent like fresh cat urine and spillled alcohol.", "SOUND: Someone or something weeping softly. There is no one.", "SMELL: The scent of stale bread clogs your nostrils.", "SMELL: Something has died and long since rotted, its scent lingers in the air.", "SOUND: A series of owls call to each other. They seem to be talking about you.", "SMELL: Pine sap, acrid and overpowering, its smell clings to everything.", "SMELL: Loamy earthen scents waft all around, they greedily fill your lungs.", "SMELL: Electric coppery scents occasionally strike your nostrils.", "SOUND: The woods go dead silent suddenly, save for your cautious steps.", "SMELL: Almost undetectable, but a warm pheromone. You begin to feel... strange...", "SOUND: The sound of running water deep underneath the ground.", "SOUND: Voices in the darkness chitter and chatter amongst themselves, they know your names.", "SMELL: Pockets of oily burnt air seem to rise up from the ground.", "SOUND: A single piercing note, like an out of tune violin, is heard in the distance.", "SOUND: Pained, shrieking howls from a cat or some animal.", "SMELL: The scent of freshly fallen rain and faint ozone.", "SMELL: Musk and odor stifles the air, growing stronger the deeper you go.", "SOUND: A single unseen bird makes a single note every two seconds without fail.", "SMELL: Expelled bowels and rotted flesh fills the air like a miasma.", "SOUND: Something is stifiling a laughter, malicious chuckles slip out...", "SMELL: The warm comforting smell of cooking food, but something is terribly wrong.", "SOUND: A low rumbling drone from deep under the earth.", "SMELL: Mother's milk, warm and sickly sweet, overwhelming and unenjoyable.", "SOUND: Strange deafening trumpets from beyond the clouds, terrifying and unearthly.", "SMELL: Pungent body oder mxed with the musk of some unkempt animal.", "SOUND: Animal calls, distorted and otherworldly, all as if in pain.", "SMELL: The smell of a tea-shop, pleasantly aromatic at first but overpowering at certain spots.", "SMELL: Animal dung, earthy and foul, especially in the heat of day.", "SOUND: The sound of things dropping from high in the trees. Oddly rhythmic and growing closer.", "SOUND: Iron and metal grinding against one another. Grating and angry.", "SOUND: Piercing cracks, followed by the gentle sound of air escaping from below.", "SOUND: Constant, angry bird calls surrond you from all sides as if they are mocking you.", "SMELL: The smell of rotted eggs and sulfur hangs low to the ground. The scent makes you dizzy...", "SMELL: Fresh air rushes in, but grows steadily foul. You can bear with it for the time.", "SMELL: Pungent like lantern oil, the fumes make it hard to concentrate.", "SOUND: A crackling fire off in the distance, it must be massive to be heard from here...", "SMELL: No smell, in fact it is uncannily devoid of scent. Your own odor creeps into your nose.", "SOUND: The croaks from frogs hidden in the underbrush, a gutteral and gentle song.", "SMELL: A choking loamy scent of mold and moss. It comes in waves and creeps into your lungs.", "SOUND: The gentle hum of a folk song, the singer nearby. Are they friend or foe?"
   ],
   "locations": [{
-      "name": "Abbey to the Godflesh",
+      "name": "1. Abbey to the Godflesh",
       "description": "Through a corroded iron gate, past a line of weeping statues, a great stone abbey sits untouched by the surrounding woods. The inside is rotted and the floorboards give way with a single step. Something wriggles and pulses on the altar, and the world seems to distort.<br>A single piece of still-living flesh from a divine being rests here. Its power untapped, its great influence runs wild in this area.Nothing is what it seems."
     },
     {
-      "name": "Abstersion Pool",
+      "name": "2. Abstersion Pool",
       "description": "The air grows calm here, and the trees form a thick lattice above. The light that shines through seems to form shapes of symbols and beings that dance on a clear crystal pool as the trees sway in the wind. The water is the cleanest you’ve ever seen and no animals dare disturb its shores. <br>Created from the single tear of a god, the pool cleans any impurity or ailment, scars and sickness washing away into the sacred waters. It does not sit unguarded, however; the elder Dryads Ardgal and Aife watch over it judging those worthy who might attempt to bath in the pool."
     },
     {
-      "name": "Ale Spring",
+      "name": "3. Ale Spring",
       "description": "A small rocky pool of liquid arises from deep in the ground and flows into a stream.Foamy and gold it smells of hops and ale. It is ale! Well, lager technically.<br> It has a well-rounded flavor and a slight hint of malted sweetness. It flows out cold at 50C, at a rate of about 2 pints a minute, or 15 gallons an hour. There is no detectable magic, but it does beg the question of how it’s being made."
     },
     {
-      "name": "Altioc's Grave",
+      "name": "4. Altioc's Grave",
       "description": "Across this forest of sickly oak trees you see the hints of struggle. Not just a struggle, a great battle. Scattered about the forest floor, under a layer of dirt and leaves piled several bodies deep, you find the ancient corpses of warriors long past, their armor rusted to dust, their weapons sticking up like saplings.<br>These are the remains of an army's failed attempt to combat the Wilds. Led by a self-proclaimed \"Saint Altioc\" they did battle with the beasts of the Wild for many years, before finally perishing here. <br>Altioc's spirit still haunts these woods, appearing as a regal ghost, torn to shreds, ribbons of flesh floating in the invisible wind. His army will fight again, but only if his heart, taken from him by a great beast, can be retrieved."
+    },
+    {
+      "name": "5. Bathing Pools",
+      "description": "At the top of a stony hill, surrounded by poplar trees, a series of 4d6 shallow pools lie embedded in rocky ground. Faint warm mist radiates from them and the trees block out most of the surrounding sound. A natural hot spring location, its temperature fluctuates between 35 to 380C all times of the year. As well, the waters do wonders on the skin thanks to a natural water softener."
+    },
+    {
+      "name": "6. Bauik Hive",
+      "description": "A range of forested mountains make travel difficult. They smell foul and the treeline is broken by stony outcroppings of massive metamorphic rock. There are cracks between these stones that run deep into lightless passages, just barely wide enough to squeeze into the hungry fissures. There are voices in the tunnel, sweet like honey and dripping with loving promises. Every passage and opening interconnects to one another, a spiderweb of dirt and earth. Countless Bauiks make their home in these tunnels, their monstrous lord presiding over this lightless kingdom of tunnels. Who knows what riches are hidden within."
+    },
+    {
+      "name": "7. Bliss Fields",
+      "description": "It is hard to see here. The air is thick with a sweet, fragrant green mist that pours in from all sides. You can only see a few paces in front of you, everything else is just shapes. There is lush, tall grass and flowers, while every few yards large dead trees, stripped of bark and branch, stand like lonely standing stones. There is life here, animals dance about and come close, oblivious even when you kill them for their meat. Many soft voices, speaking like lovers, beckon you deeper into the mist. You feel you mind go blank with euphoria."
+    },
+    {
+      "name": "8. Boreal Woods",
+      "description": "The crunch of pine-needle and dry branch. The smell of pine and fresh sap. A massive forest of pine, spruce, and larch trees sprout high into the air, looking like thousands of toothpicks stuck into the landscape."
+    },
+    {
+      "name": "9. Bramble Maze",
+      "description": "Thick vicious undergrowth chokes everything. Caverns of wild thorns and vines hunger for fresh blood. The path that winds through follows strange geometric patterns, and the brush seems to shift when no one is looking at it. It needs to feed; only flesh will do."
+    },
+    {
+      "name": "10. Bristlepine Grove",
+      "description": "Ancient gnarled pine trees, looking more like dignified shrubs, grasp tightly to the side of their skree hillside. They are ancient beyond measure. The stories they could tell of a world long gone."
+    },
+    {
+      "name": "11. Broken Shrine",
+      "description": "Pieces of worn stone scatter this grove of moss and leaves. The pieces seem to have been ornately carved once, but now age and vandalism has taken its toll. It once stood as an altar for a cabal of druids and their profane sacrifices. Until something catastrophic happened in a single night."
+    },
+    {
+      "name": "12. Cairn of the First Hunters",
+      "description": "A seemingly innocent pile of stones are gathered here. However, each one is decorated with a crude image of a prehistoric beast. The first mortals to call themselves hunters would gather here, recording their bloody deeds and triumphs on rock and stone. This is their monument."
+    },
+    {
+      "name": "13. Cenotaph to a Dead Seraph",
+      "description": "Great stones, roughly carved and formed into a classical structure, stand solemnly in a boreal clearing. Upon the largest face is a vast scripture a hundred lines long. The script is beautiful, but the image of a great winged monstrosity sits in its center. A divine beast fell here once; for a time its corpse lay and its dead form was worshipped. Then one day it was gone. In despair, a memorial was built and the worshippers buried themselves alive."
+    },
+    {
+      "name": "14. Clifface Amphitheatre",
+      "description": "A great semicircle depression of terraces sink into the ground facing a concave cliff-face. The acoustics at the bottom project sound quite well, much like a stage. Perhaps a show is in order?"
+    },
+    {
+      "name": "15. Clonal Forest",
+      "description": "The trees here, white bark and sickly green leaves, all look the same. For miles in all directions the only tree found is this one. It shares a great single root structure, stretching miles into the earth. Interconnected under a single will it reigns as king of this plot of land. It would be wise to show it the respect it deserves."
+    },
+    {
+      "name": "16. Collector's Statue Garden",
+      "description": "A thing of rags and occasional mutterings wanders this stretch of rotted woods. \"The Collector\", it goes by, and scattered through the trees are many beautiful alabaster statues. The statues are always of mortals or animals in throes of anguish or terror, the details impossibly fine. One would suspect foul play. The Collector denies any such allegation."
+    },
+    {
+      "name": "17. Council of Blind Archmages",
+      "description": "In a clearing you spot them. Once fine robes, now tattered rags, adorn five decrepit figures. They call out and beckon you close with staffs made of rusted iron and dry-rot wood. All five of them are blind and desperate for company. They will talk at great lengths about all manner of things from the mundane (weather, books, favorite soup), to the esoteric (arcane spells, artifact locations, potion ingredients). They were mighty once, until they gazed upon some terrible secret. Afterwards, they fled to the woods and gouged out their eyes to remove what they'd seen and now live as blind hermits."
+    },
+    {
+      "name": "18. Darkly Lake",
+      "description": "A smooth beach of salt and pepper colored sand surrounds a great lake. Small gentle waves lap at the shore while its depths are the color of dark emeralds."
+    },
+    {
+      "name": "19. Deciduous Growth",
+      "description": "The trees here have wide trunks and thick canopies. The branches will either be dense with leaves or empty and barren, depending on the season. Small animals can be found throughout this woods, their quick movements echoing through the leafy ground."
+    },
+    {
+      "name": "20. Desolate Crater",
+      "description": "The ground gives way to blasted stone and gravel. A depression in the earth, like some giant's bowl, collects rain-water and flies. A meteor fell here, who knows how long ago; its ashen remnants buried deep in the center of this crater."
+    },
+    {
+      "name": "21. Devil's Garden",
+      "description": "The usual diversity of plants and trees disappear here. Only evenly spaced larch trees and a bed of crabgrass can be found here. This is not coincidence, but the careful machinations of a cabal of demonic sprites. They love larch trees and crabgrass and have slowly poisoned anything outside of that, killing it over the course of years. This treatment extends to anything that passes through their little garden."
+    },
+    {
+      "name": "22. Dwelling of the Scroll Man",
+      "description": "Inside a cave buried into the side of a hill, surrounded by piles of crude vellum scrolls, sits a lone grey-haired being by the name of Gallinade. His skin is etched with thousands of words which he carves off in long vellum sheets every day, only to be healed come sunrise; his skin replaced with new words. He does not age and prefers to be left alone, slowly building his collection of skin-scrolls for a purpose he refuses to answer. For the price of food or entertainment (and only when he feels like it), Gallinade can produce any written work or magic scroll, if he doesn't already have it in his collection."
+    },
+    {
+      "name": "23. Elk Haven",
+      "description": "A grove of trees and tall grass that smells of musk and fresh animal droppings sits at the edge of a creek. A herd of elk gather here, one of the few areas they have found to be remotely considered safe."
+    },
+    {
+      "name": "24. Enormous Owl Statue",
+      "description": "The statue of a great owl sits at the base of a cliff, small tendrils of ivy climbing up its legs. Its gaze is ominous and almost alien. You don't like it."
+    },
+    {
+      "name": "25. Exile's Camp",
+      "description": "3d20 renegades and criminals call this collection of makeshift buildings and tents their home. Giving in to their savage impulses and without the laws of civilization, they are constantly in a state of orderly chaos. If you're careful and they're in a good mood you might be able to trade or interact with them. Keep a weapon at the ready though, and be prepared for a scrap."
+    },
+    {
+      "name": "26. Fairy Grove",
+      "description": "The trees here, all healthy and lively, all form concentric circles around a fixed point. At the center is a final small ring of mushrooms. A small gathering place for tiny fey beings, they can usually be found here conducting their business and weaving their magic."
+    },
+    {
+      "name": "27. Fester Pond",
+      "description": "The air reeks of spoiled cheese and sour meat. The air grows thick with clouds of stinging flies. A great pond, green with decaying sludge, bubbles and belches up gas like lazy farts. The pond was not always like this; a group of things lurk at the bottom of this pond, buried in the sludge. They have spoiled it over the many years."
+    },
+    {
+      "name": "28. Fields of Silence",
+      "description": "A field of silent grass is dotted with the tall flagpole remains of dead pine trees. The light seems to dim here, color desaturates, and the air goes utterly silent. No sound is ever heard or can ever be made while in this spot. An ideal place for an opportunistic hunter."
+    },
+    {
+      "name": "29. The Fisher King's River",
+      "description": "You hear the sound of running water. A single fast-moving river cuts deep into the earth, creating a trench of dirt and stone a good 15 feet deep. The water itself is black; it goes much, much deeper. Trees grow close to it sticking their jagged, hungry roots into the space above the river. You see corpses tangled in the roots, dangling above the river like horrid lures. Some of them still have gear with them, armor that sparkles and weapons that glint with power. But something big lurks below that darkened water. Something smart. Something hungry."
+    },
+    {
+      "name": "30. Foetid Garden",
+      "description": "The ground goes soft like pulp here. An abhorrent evil smell surrounds you. The trees and foliage here all seem sickly and in the throes of death, but there is a rabid life here as well. Slimes, molds, fungus, and sickness all thrive and burst with life in this area, clinging to anything they come in contact with. This twisted mockery of a garden swarms with foul protist life as well as clouds of the most diabolical diseases."
+    },
+    {
+      "name": "31. Fossil Graveyard",
+      "description": "The side of a cliff has collapsed into a great slope of gravel and skree, some smaller trees and weeds finding purchase in this rock. The detritus is not as mundane as it seems though. In each chunk of stone is clustered of hundreds of tiny fossilized trilobites and shells. It's not just minute fossils, for the remains of great ancient and alien beasts, uncovered after eons, can be found embedded in the stone."
+    },
+    {
+      "name": "32. Fruit Trees of Rotten Truth",
+      "description": "A grove of twisted, sickly fruit trees cling to life in this misty hollow. Their fruits are maggot-ridden and long spoiled. Anyone who manages to stomach a piece of this rotten fruit is imparted with 1d6 seemingly useless facts (the average airspeed of an unladen swallow, the recipe for a sub-par tart). As well there is a 5% chance that the fruit will impart an uncomfortable truth on the eater (your jokes really aren't that funny, your father wishes you had been a boy). The knowledge is erased the next time the eater vomits."
+    },
+    {
+      "name": "33. Fungal Carpet",
+      "description": "The area is dark, an unnatural ceiling of vines and moss blocks all light as well as traps a damp cool air. The ground is spongy with massive colonies of fungal growth. You can see corroded blades and armor covered in slime molds and night caps, their owners long since digested by the fungal carpet below."
+    },
+    {
+      "name": "34. Giant Spider Web",
+      "description": "The branches above seem to shimmer. Millions of gossamer spiderwebs coat every surface like an enormous threadbare blanket of silver. The spiders rule this place, and the bones of their many meals fill their webs. The multitude of these beings are not unreasonable however, and are willing to bargain for safe passage, provided you bring enough for everyone to eat."
+    },
+    {
+      "name": "35. Glowlight Swamp",
+      "description": "This egg-scented marsh of brackish water and lumps of vegitation are perpetually coated in a thick fog. The occasional island of roots and grass is the only solid footing here and the bodies of various beings lazily drift by in the water. 1d10 small colored lights dance in the distance. Do not follow them, they are lures for the swamp."
+    },
+    {
+      "name": "36. Gorm's Flesh Weald",
+      "description": "The ground grows soft here, squishing under your feet. A foul stench of body odor begins to creep up from all around and you notice the landscape and life begin to take on a grisly form. The trees have ridges like bone, their roots become thick veins pumping blood, and the ground like long slabs of unskinned flesh. It quakes, it breathes, it is alive. It calls itself Gorm through many mouths. It hungers for more flesh to add to its form. This thing hides a secret, though; a single piece of Godflesh that it keeps within itself and acts as the source of its power."
+    },
+    {
+      "name": "37. The Great Honey Comb",
+      "description": "An immense sound like a thousand snare drums in unison drones and echoes from a massive fissure in the side of a hill. Bees the size of cats flow in and out of this cavern, some laden in pounds of sticky pollen. Inside this cave is a hive of immense proportions crawling with an army of workers, drones, and larva. Those willing or able to brave the guards and queen of this hive find glistening combs laden with honey; the royal jelly, in particular, is said to have strange magical properties."
+    },
+    {
+      "name": "38. The Grove of Tea and Candles",
+      "description": "It is dark here. The trees are gnarled and old but smell of exotic fragrances; their limbs are adorned with waxen candles, each glowing with a soft warm light. If you follow the trail through this grove of candle-lit trees, you will come upon a campfire, smelling of fresh tea, surrounded by a group of reverent tea-lovers and their kettles. They mean no harm, and will trade their teas for coin or good. Their wares are of the most exotic variety and highest quality."
+    },
+    {
+      "name": "39. Grove of Millennia Trees",
+      "description": "The trees grow impossibly large. Each one the height of a tower, their branches are as wide as a mountain trail. There is no light here, the canopy blocks all light, and life has made due in the eternal dark. Many things, civilized or savage, make their home upon these great trees, each one large enough to host a village. Things call out in the dark. Great blind Owl-Gryphons hunt the denizens of the treetops, silent as they fly through the darkened maze of these great trees. They never stop growing."
+    },
+    {
+      "name": "40. Hearthstone of Frost",
+      "description": "The air is much colder here, breath turning to mist. The remains of a great hall lay scattered like common detritus. Only one piece remains untouched: a single flat stone in the center of the ruins with strange runes carefully etched along its base; its surface is freezing to the touch. Cursed by an old god, who was slighted by the original owners, the hearthstone is cursed to alway be freezing."
+    },
+    {
+      "name": "41. Hungry Ground",
+      "description": "Small clicks like porcelain cups tapping together spring up from the ground. There is a slight movement from under the dead leaves and dirt. A tiny human mouth is imbedded into the ground, its teeth slowly clicking together and tongue hungrily tasting the air. The mouths bite down on anything, chewing it if they can. Alone they are a odd nuisance, but in clusters they prove to be dangerous, ravenously chewing apart unlucky flesh and metal. Some say the mouths can grow to the size of doors, teeth strong enough to sever a man in half."
+    },
+    {
+      "name": "42. Hysterial Hermit",
+      "description": "A pile of weeds, mud, and detritus make up a crude shabby hovel. A plume of blue acrid smoke rises up from within and crazed laughter can be heard inside. A mad hermit lives within this ramshackle dwelling, constantly shouting random quips or predictions into the air. The hermit always has something to trade if you have something he wants. His wares range from artifacts of power to a petrified cat holding a little lute. All wares are equal in the hermit's eyes."
+    },
+    {
+      "name": "43. Idol of Bones",
+      "description": "It looks like a tree at first. A tall, pale, fractal thing made of jagged points and ragged velvet. Thousands of skeletal pieces, both human and animal, weave together in a horrid monstrous form. It speaks to you in your sleep. It fills your mind with its twisted alien plans, pressing its vast manipulative consciousness against your own. Only when you speak its name does it show its true self; and then, madness grips you."
+    },
+    {
+      "name": "44. Infectious Scrawl-Stone",
+      "description": "A single decrepit stone, every inch is covered in an angry primitive scrawl. Crude degenerate caricatures and jagged curses make up just some of the content. Touching the stone transfers the scrawl to the one touching it. In one swift motion the scrawl shoots across the body of the victim, covering skin in degenerate tattoos and insults. They are permanent, but only skin deep."
+    },
+    {
+      "name": "45. Ire Briar",
+      "description": "Thin waist-high briars coat the ground. Their tiny limbs occasionally whip and snap as if of their own volition. Their thorns, while smaller than a sewing needle, sting like dagger cuts. Any show of aggravation or anger only seems to excite the briars, riling them up into a frenzy of strikes and lashes. It feeds off of this anger, be it people or animals."
+    },
+    {
+      "name": "46. Jeweled Trees",
+      "description": "Trees of wondrous chromatic greys spread their branches in wide joyous arcs. Their leaves glisten and shimmer in the light like silver. Small nodules sprout out of the trunks of these trees. Digging into these nodules will reveal fat uncarved gems, each tree containing 1d8 of them valued at 1d6 x 10 gold pieces each. These jewel trees are well known by beast and bandit alike though, and adventurers attempting a quick payday should watch their backs."
+    },
+    {
+      "name": "47. Junkyard",
+      "description": "A colossal kidney-shaped gorge slopes down at a sharp angle on all sides. Inside the gorge lies mountains upon mountains of trash and garbage. It reeks of rot and is alive with pathetic life that picks through the filth for sustenance. The junkyard is filled with almost any common good, typically broken or ruined, but legend has it that there are great treasures buried within the mounds of garbage. So prevalent are these rumors that roving gangs of violent prospectors prowl the tunnels and trenches of this junkyard."
+    },
+    {
+      "name": "48. Kaleidescopic Trail",
+      "description": "The trail goes straight, that’s what the map says, that’s what it looks like, so it must be so. Yet as you travel deeper down this path, your vision begins to refract. Slightly at first, until it finally splits and reflections in reality begin to occur. Returning the way you came returns the world to normal, but pressing on causes greater and greater divides, sundering reality in a hellish hallucinatory mandala of shape and color. Who knows what might lie on the other side of this path, perhaps the face of a long hidden god."
+    },
+    {
+      "name": "49. Knowledgeable Knotgrass",
+      "description": "A small field of knotgrass surrounds a lone standing stone, split in half with age. The grass seems to sway on its own, and gently strokes the legs of those passing through it, motioning for them to lie down. Anyone who sleeps on this bed of knotgrass finds dreams filled with visions of histories and philosophies, an attempted gift of knowledge from the kindly knotgrass. There may be no limit to what it knows and it imparts its gift to anyone."
+    },
+    {
+      "name": "50. Kudzu-ville",
+      "description": "House-sized masses of kudzu vine spread out, strangling everything in their thick leafy vines. Everything appears as sculptures made of the wretched little plant. A once proud village is now being devoured by kudzu. Searching through the masses of kudzu will find houses, wells, stables, and other edifices. Beware exploring the inside though, the kudzu-folk are scared of trespassers."
+    },
+    {
+      "name": "51. Lair of the Mega-Raccoon",
+      "description": "It reeks of death at the base of this mountain. Great claw marks have sundered trees and innumerable shattered bones mix with the scree. Gouged into the mountainside is a great black cave, its rim coated in dried blood. This is the unholy den of the legendary Mega-Raccoon. You have been warned!"
+    },
+    {
+      "name": "52. Log Hollow",
+      "description": "Great giant trees have fallen here and been hollowed out over time. Almost like little huts, the largest are two whole arm-lengths in diameter. Some animals and predators have taken up residence in the various hollowed-out logs, and are adept at skulking through the makeshift network of tunnels."
+    },
+    {
+      "name": "53. Lost Fortress",
+      "description": "A once great bastion now sits empty and in disrepair. Four small towers of wood and stone, as well as a wall of crumbling rock surround a small but well-built keep. While various animals have taken residence here, most of the wealthy furnishings are still intact, as if abandoned overnight. It begs the question of why the residents left in such a hurry."
+    },
+    {
+      "name": "54. Mead Tree",
+      "description": " Somebody, whether a whimsical fey or a group of deranged brewers, have turned this fat hollowed-out oak tree into an enormous aging barrel. Its contents: the finest honey mead across the land. Tapping this tree produces 10d8 gallons of this sweet yellow mead. There is a 2% chance, however, that the tree's structure will give out and explode in a deadly shower of splinters and alcoholic beverage."
+    },
+    {
+      "name": "55. Megacolony Mound",
+      "description": "The trees are stripped of bark around this enormous mound of loam and clay. The ground is crawling with a multitude of miniature life; crawling black insects form a network of trails in and out of the mound. The tunnels weave for miles in all directions, crossing leylines deep within the earth. The colony’s queen has a plan."
+    },
+    {
+      "name": "56. Megalith Circle",
+      "description": "Giant granite slabs are arranged in a pair of concentric circles. Dark in color and cool to the touch, there are faint hints of elaborate petroglyphs, now worn to only a series of shallow grooves. Their placement is no accident. Each megalith is aligned to various star paths and heavenly bodies, acting as a cryptic and primitive astrological clock. Studying the heavens here grants great knowledge, some dangerous."
+    },
+    {
+      "name": "57. Mirror Copse",
+      "description": "A path runs through this slightly hilly copse, the various trees and undergrowth seem to repeat themselves every so often. Sure enough, they are exact duplicates, down to the cellular level. Be wary, something moves amongst the trees off the path. Perhaps a duplicate of you?"
+    },
+    {
+      "name": "58. Mocking Ossuary",
+      "description": "Deep in the ground, under a crude burial mound made of stacked stone, sits a chamber with holes carved into the earth, each one a resting place for a single skull. The skulls immediately begin berating you as you enter, casting mocking jokes and poigniant insults all for a cheap laugh. They can be quite knowledgeable and are willing to part with a wealth of information, but only if you can take and receive in their den of insult-comedy."
+    },
+    {
+      "name": "59. Moebius Creek",
+      "description": "A quick freezing creek winds between the trees. Following it “downstream” just finds you back where you started. A self-contained stream, eternally flowing in a circle."
+    },
+    {
+      "name": "60. Moot of the Dryadi",
+      "description": "A single hilltop is populated by 2d6 Dryadi elders. Ancient beings who have seen the world when it was young and now decide the direction of the surrounding Wilds. Depending upon their mood, they may ask for your assistance with some monumental task. At worse they strike you down for your insolence."
+    },
+    {
+      "name": "61. Mossbed",
+      "description": "Thick soft moss carpets every surface, be it rock or tree. Some patches are as thick as a man’s fist while others are just thin dry tendrils. The air becomes choked with their allergy-inducing spore if upset too much."
+    },
+    {
+      "name": "62. Mushroom Forest",
+      "description": "The trunks of the trees around you are strange. Looking up reveals them not to be trees at all, but gigantic mushrooms. Growing as tall as trees, with caps the size of houses, life has adapted to the strange formations. At night, some of them glow brilliant phosphorescent greens and blues."
+    },
+    {
+      "name": "63. Muulifans's Myconid Farm",
+      "description": "The canopy is thick and the air is moist, smelling of compost. Clusters of mushrooms bloom all about, planted neatly into row after row of great decaying logs. Every type of mushroom, magic or mundane, can be found here. Carefully maintained by an enormous mirthful grub named Muulifan, who is willing to part with some of its specimens, but only for sufficient help with its garden."
+    },
+    {
+      "name": "64. Old Growth",
+      "description": "A carpet of pulsing root-like growths cover and strangle everything within sight. The air grows heavy and airless, while life and color is drained from the surroundings. The Old Growth is a primordial lifeform, old when the world was young. It is driven by an insatiable hunger and seeks to consume all in its path."
+    },
+    {
+      "name": "65. Owl-Gryphon Lair",
+      "description": "A crude covered animal hovel sits upon a mountaintop. Tree branches and broken trunks weave together with animal carcasses and feathers the size of boat oars. A giant owl-gryphon lives in this nest, resting here during the daytime. Occasionally, a clutch of 1d6 owl-gryphon eggs can be found within."
+    },
+    {
+      "name": "66. Palace of Antlers",
+      "description": "A strange jagged edifice of neatly stacked antlers sits at the bottom of a steep gorge. Inside, the walls and ceiling are all a similar construction of menacing pointed antlers. The mad hunter who built this strange building now stalks the various passageways, bringing ruin to anyone who might disturb this sanctuary."
+    },
+    {
+      "name": "67. Pete's Shack",
+      "description": "Nestled amongst the trees atop a gradual mountain is the shack of a legendary moonshiner. Stories abound of the medicinal, fortifying, and downright apocryphal qualities of his mythical liquor. He claims to be the absolute greatest brewer in all the land (no matter what his rival Petunia might say)."
+    },
+    {
+      "name": "68. Petrified Forest",
+      "description": "Great trees devoid of branches rise high into the air like archaic columns. A touch is all it takes to reveal they are made of stone. A fossilized grove, millions of years old, has somehow withstood the test of time. There are markings on these trees, markings made when they were still alive in eons past. By whom may never be known, but there is great power in something as old as this."
+    },
+    {
+      "name": "69. Petroglyph Cove",
+      "description": "A river snakes past a large hill, carving a cliff into its side. A small, dark gap between the top of the water and bottom of the cliff hints to a cave underneath. If you hold your breath and pass under the stone, a great cavern network is revealed. The first room, after emerging from the water, is a massive circular antechamber of limestone, the walls painted in layers upon layers of prehistoric paintings and carvings. They depict everything from hunting long extinct beasts, to the rituals of daily life. They also depict something darker, great monsters, ancient gods, and practices too nightmarish to speak of."
+    },
+    {
+      "name": "70. Petunia's Shack",
+      "description": "Nestled amongst the trees atop a gradual mountain is the shack of a legendary moonshiner. Stories abound of the medicinal, fortifying, and downright apocryphal qualities of her mythical liquor. She claims to be the absolute greatest brewer in all the land (no matter what her rival Pete might say)."
+    },
+    {
+      "name": "71. Pit of Bodies",
+      "description": "The smell of spoiled meat and feces. A wide pit the size of a pond lies filled with grey and mottled mud. Slogging through the pit reveals a terrible detail: the pit is filled with the semi-liquid remains of countless bodies."
+    },
+    {
+      "name": "72. Plummeting Waterfall",
+      "description": "A running creek points to the sound of gallons of crashing water. The ground rises up into a massive cliff-face of layered stone. A giant waterfall courses over the edge, crashing into a rocky pool below."
+    },
+    {
+      "name": "73. Ponderous Silhouette",
+      "description": "A shale cliff-face juts out awkwardly. When observing it from a particular spot, the rock formation looks a lot like a pensive and thoughtful face."
+    },
+    {
+      "name": "74. Prehistoric Butte",
+      "description": "A great plateau rises nearly a hundred men tall, reaching high above the treetops. Vast columns of volcanic rock create this flat-top platform with impenetrable vertical cliff-faces. Scaling this plateau is no trivial matter; there are no handholds, no spots to rest, and the rock is hard for even steel pitons. Rumor has it that dark figures can be seen silhouetted on its top during the full moon, gazing motionlessly from their vantage."
+    },
+    {
+      "name": "75. Quail God",
+      "description": "A beautiful and opulent quail the size of a dog radiates a nimbus of iridescent and gold light. It stalks the forest with a grand host of other beautiful quails. Uncontested and undisturbed by all beasts, it is a divine being that brings life wherever it travels. It was once the pet of a god and has miraculously outlived its master. Whoever eats of its divine flesh gains incomprehensible power, provided they manage to catch the thing first."
+    },
+    {
+      "name": "76. Quarry ",
+      "description": "The ground here is cut into clean, geometric shapes, revealing a great marble quarry deeper than a giant is tall. Its bottom has filled with a sludgy pool of rainwater, and all manner of avian creatures have built their nests onto the rocky cuts. Some creatures lie trapped at the bottom, fighting amongst each other for scraps of food or drops of water that fall from above."
+    },
+    {
+      "name": "77. Respite of the Grey Knight",
+      "description": "Within a glen of ancient trees, upon a mountain of stone and blades, a lone knight sits cross-legged, meditating with its sword. Clad in resplendent silver armor, now greying and tarnished, the knight sits unmoving and silent, wrapped in a tattered blue cape with designs worthy of the greatest tapestries. It will not move unless attacked or challenged to a duel; with the latter, the knight rises into an elegant bow before attacking with a whirlwind of strikes. If the knight is defeated or deems its opponent worthy, it will speak and impart great martial wisdom from an age long-gone."
+    },
+    {
+      "name": "78. Returning Mound",
+      "description": "Flowering cherry trees, maples, and magnolias paint the world with color. Wildflowers cover the ground and animals skitter about in the tall grass. In the midst of it all sits a great mound of earth, knotted with roots, and a single ancient cherry tree perched upon its summit. It remains unflowered and at its base is a small earthen opening that burrows deep into the center of this loamy mound. Legend says that if you carry a body deep into the tunnels under the tree and bury it there in the dark with a garland of wildflowers, the body will come back to life during the next full moon. But there is a price, for the ones who arise are stripped of their memory in life, and will see their loved ones as strangers."
+    },
+    {
+      "name": "79. Scrawl Trees",
+      "description": "The pine trees grow large and healthy here. They are covered in strange writing, some painted on with white paint, others carved intricately with fine tools. There must be thousands, each one telling a story in rune and pictograph. The ones who do this hide in the shadows, dressed in crimson cloaks and armed with carver's tools. They make no noise, only ensuring no one defiles the trees. Who knows what can be learned from the writings if they are deciphered and studied. What power or prophecy is kept amongst this library of bark?"
+    },
+    {
+      "name": "80. Shale Field",
+      "description": "A field of splintered shale spreads out without tree cover. Both great slabs and diminutive chips make up this terrain. Falling down here proves damaging as the edges of the rock cut into exposed flesh quite easily."
+    },
+    {
+      "name": "81. Singer's Domain",
+      "description": "This copse of trees seems like any other. The only noticeable difference is the lack of any animals or insects. A closer inspection reveals old signs of violence and occasional decaying bones. At night, the dreams of travellers through this area are plagued with a hollow high-pitched sound, almost resembling a song. Day after day they begin to hear this sound while they are awake. The sound pushes them to acts of violence and self-destruction. This is all at the behest of The Singers, strange beings who live in the dirt and call this place home. They hate all visitors."
+    },
+    {
+      "name": "82. The Slate",
+      "description": "The ground is thick with the roots of many trees, in some places so thick that the very earth disappears. The roots all point to a single area, looking like millions of worms crawling and writhing to some unseen location. In the heart of this forest stands a single crude megalith of slate. Ten men wide by twenty men tall, it is ruined with scratch marks, and covered in the grasping tendrils of many roots. The scratches are not defacements, but thousands of tiny writings in languages both alive and long dead. They tell of constellations, legends, curses, rituals, and of course the end of all things."
+    },
+    {
+      "name": "83. Sleeping Linnorm",
+      "description": "A great wyrm sleeps here, stretched out like a giant snaking log. Dirt, moss, and underbrush coats its body as it rests, unmoving, through the passage of time. While hard to wake, it can be done, but at the cost of risking its primordial ire."
+    },
+    {
+      "name": "84. Smoldering Woods",
+      "description": "The smell of burning wood and the fog of a smoldering fire choke your view. Rather than come upon a raging forest fire, you approach a wood blackened with fire and coated with ash. Tiny trails of smouldering cinder slowly crawl across the surface of everything in this area. Cursed to a lifetime of suffering by some powerful thing, the woods here will smoulder but never burn for all eternity. Only a powerful enough fire will finally be enough to spark a blaze and let the forest burn away."
+    },
+    {
+      "name": "85. Soot Crag",
+      "description": "The air is choked with acrid smoke and the trees are coated in black soot. Fissures spew hot noxious gas as small flecks of ash and occasional sparks rise out of their depths. A massive underground coal deposit has caught fire here. It will continue to burn for 1d6 centuries. With any luck, it hasn't disturbed anything deep below the earth."
+    },
+    {
+      "name": "86. Spike Throne",
+      "description": "A great throne of dry thorns and bramble sits within a shaded fen of flies and cattails. Who knows who constructed it and to what purpose, as its thorns are quite sharp and as hard as nails."
+    },
+    {
+      "name": "87. In a clearing of trees a great white and grey earthwork forms a gigantic spiral across the ground. It is constructed of small stones and salt, and serves some ceremonial purpose. It is unknown whether this is the work of a small collection of craftsmen or a single deranged artist.",
+      "description": ""
+    },
+    {
+      "name": "88. Switchback River",
+      "description": "A large and slow river courses through this stretch of land, flowing gently along a beach of river sand and stones. It goes into a dog-leg shape further up, picking up some speed and peppered with large rounded stones."
+    },
+    {
+      "name": "89. Talisman Garden",
+      "description": "The tree limbs extend in long stretching trails. The sound of wooden wind chimes echoes from somewhere above. There, tied throughout the tree-top canopy, are thousands of tiny little effigies and talismans, each more hideous than the last."
+    },
+    {
+      "name": "90. Tar Pits",
+      "description": "The smell of hot asphalt and sound of gas escaping from below greets your senses. A great pool of loathsome black sludge bubbles and quakes in the ground. Covered in clusters of leaves and branches, the pit hungrily pulls down anything that weighs too much. There are the remains of once living things, both new and ancient, buried in the bottom of this pit. A literal graveyard of tar and bones."
+    },
+    {
+      "name": "91. Time-Warped Weald",
+      "description": "The trees and plants seem to grow and regress with terrible rapidity. In one spot ancient trees regress into saplings over the course of an hour, while in another spot ferns spring up and wilt into nothing in a matter of minutes. Affected by some time paradox, travel through this place is quite dangerous. Each day spent in this area either increases or decreases one's age by 1d6 years."
+    },
+    {
+      "name": "92. Tomb of the First Mortals",
+      "description": "A pile of giant flat stones and packed earth serve as an marker to a primitive tomb. Climbing in through a small crawl-space between the stones and the ground leads to a vertical shaft of dirt. At the bottom is a circular room with several skeletons along the wall. Each is adorned in primitive jewelry and hunting tools, and all sit upon thrones made of bone and horns. These were some of the first mortals. In their time they were heros, and laid the groundwork for all civilizations after theirs."
+    },
+    {
+      "name": "93. Torpid Marshlands",
+      "description": "A expansive fen of river trees, cattails, and moss form clusters of landmass in slow, almost stagnant, water. The air smells brackish and muddy, and is filled with both dragonflies and mosquitoes. Travel by boat is the only convenient form of travel and safer due to the multitude of leeches that make their home in the waters."
+    },
+    {
+      "name": "94. Trees Marked by a Dark Touch",
+      "description": "A strange path of decayed and desolate earth blazes a trail. Every so often a dead tree will be spotted along this trail with a single stained handprint, like tar and rot painted upon it. Something terrible made its way through this spot, leaving only tracks and its corrupting mark upon the trees."
+    },
+    {
+      "name": "95. Vast Mound",
+      "description": "A giant hill seems out of place with the surrounding terrain. Walking across its surface, you can detect a faint hollow sound within. This man-made hill covers a hollow ritual space within. Who knows what Wyrd magics took place inside of its lightless belly."
+    },
+    {
+      "name": "96. Vermin Fields",
+      "description": "The ground cracks and snaps underfoot. The floor is nothing but animal bones. In the darkened corners of this spot, under root and stone, a multitude of hungry things writhe and gaze out of their hiding spots. Best not to stay here after dark..."
+    },
+    {
+      "name": "97. Watching Trees",
+      "description": "Tall lonely trees stand like wayward sentinels. The bark is marked with long hard grooves that run up and down. At times, the grooves fold open revealing large glassy eyes. The trees are always watching in this neck of the Wilds. To what purpose is unknown."
+    },
+    {
+      "name": "98. The Weaver's Den",
+      "description": "A strange knotted structure of branches, twine, and spiderweb contains a single circular entrance into its depths. Within this darkened maze of woven garbage are the remains of previous heros, their bodies covered in web, crammed into the walls like brick and mortar. Swarms of spider-like aberrations patrol the halls, and in the center the Great Weaver sits, weaving away at infinitely intricate designs with twisted bloodied hands."
+    },
+    {
+      "name": "99. Wyrd Stones",
+      "description": "Stones of shale stand tall and solemn like lonely men. Their surfaces are carved with the most intricate of designs and script. Flowing across their form, the etchings are in perfect harmony with their natural forms. A spell caster who studies these stones for more than a week can learn their secrets, gaining knowledge of 1d4 new spells."
+    },
+    {
+      "name": "100. Yaruinne's Haven",
+      "description": "A dragon was felled from the sky and impaled on a tree. Through some twisted miracle she survived. Too weak to escape, her wounds healed around it and the tree wove throughout her body. She holds court here with many followers, and deals in information on the location of great and terrible beasts throughout the Wilds."
     }
   ],
   "creatures": [{
-    "name": "Ailiper",
-	"page": 30,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard",
-    "damage": "1d4 + disease",
-    "quantity": "Solo or Clutch 1d6",
-    "XP": 100,
-    "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
-  },
-  {
-    "name": "Arcanus Arachni",
-	"page": 32,
-    "marks": 10,
-    "ac": "None (automatically hit)",
-    "hd": 1,
-    "hp": 1,
-    "move": "Standard",
-    "damage": "1d8 Ragged Nails",
-    "quantity": "Cluster 1d3x10 or Swarm 2d4x10",
-    "XP": 10,
-    "extra": "Inherent Magics: As long as their webs are unaffected, the Arcanis Arachni can collectively cast one spell per turn. Spell-WebsL A group of Arcanis Arachni know 1d6 random spells between level 0-3."
-  },  {
-    "name": "Bauik",
-	"page": 34,
-    "marks": 10,
-    "ac": "As Studded Leather",
-    "hd": 4,
-    "hp": 22,
-    "move": "Standard",
-    "damage": "1d8 Ragged Nails",
-    "quantity": "Solo or Pack 1d4",
-    "XP": 800,
-    "extra": "Silver Tongue: Save versus Charm or be compelled to follow the orders of the Bauik. Nimble Body: Despite its size, the Bauik can fit through spaces as small as 1 foot by 1 foot. Lightless Lair: Light sources, magical or otherwise, become supernaturally dimmed within a Bauik's lair, providing light only out of 5 feet."
-  },  {
-    "name": "Blight Motes",
-	"page": 36,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 2,
-    "hp": 10,
-    "move": "Move Standard, Fly Double, Burrow Half",
-    "damage": "Rotting Needle Teeth 1d4 and Festering Wounds.",
-    "quantity": "Solo, Pair, or Troupe 1d6+1",
-    "XP": 150,
-    "extra": "Rotting Touch: Anything the Blight Mote touches begins to spoil and rot. Food or water will spoil on contact with their bodies making it dangerous to consume. Festering Wounds: They bite jagged rotted teeth. With each bite, characters must save versus poison or receive a disgusting wound that refuses to close, reducing their hit point maximum by 1d2 for a week."
-  },  {
-    "name": "Blukstound",
-	"page": 38,
-    "marks": 10,
-    "ac": "As Hide",
-    "hd": 6,
-    "hp": 32,
-    "move": "Double Standard",
-    "damage": "Splinter bite and claws 1d6/1d6 and Splinters",
-    "quantity": "Solo, or pack 1d6",
-    "XP": 750,
-    "extra": "Splinters: The attacks from a Blukstound are painful and splinter-filled. Save versus breath weapon or take disadvantage on all dexterity based checks until you spend an hour removing the splinters. Blitz: Leap 15 feet, then attack with advantage for 1d10 and Splinters. Vulnerable to Cold: Frost and cold damage slows their circulation, reducing them to only one attack and half standard speed for one round."
-  },  {
-    "name": "Bramble Beast",
-	"page": 40,
-    "marks": 10,
-    "ac": "As Scale",
-    "hd": 10,
-    "hp": 50,
-    "move": "Standard",
-    "damage": "Reaping Claws 1d8/1d8",
-    "quantity": "Solo",
-    "XP": 1400,
-    "extra": "Mauling Strike: If the Bramble Beast hits with both of its attacks, it gets to make a third for 1d10 damage as it rips its victims apart. Ensnaring Tendrils: Each time the Bramble Beast attacks, save versus breath or become grappled in its vines and branches. Implant: Anything unconscious or entangled in the Bramble Beast's Ensnaring Tendrils for more than a round must save versus poison or be implanted with a Bramble Spawn. Vulnerable to Fire: The Bramble Beast takes double damage from fire as its body bursts into flames."
-  },  {
-    "name": "Briarscoffs",
-	"page": 42,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 1,
-    "move": "Standard",
-    "damage": "1d2-1",
-    "quantity": "2d10, Wave 3d20",
-    "XP": 5,
-    "extra": "Stick and Prick: Briarscoffs are covered in spikes that stick into skin and clothing, making it hard to move. Lose 5 feet of movement for every 10 that stick into you."
-  },  {
-    "name": "Cacophonous Crowmen",
-	"page": 44,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 6,
-    "move": "Standard, Fly Double Standard",
-    "damage": "1d4 Beak and claws",
-    "quantity": "Clutch 2d6, Flock 3d8",
-    "XP": 100,
-    "extra": "Future Sight: The Crowmen have already seen their death. They can never be caught by surprise. Swarming Noise: The noise surrounding the Crowmen is thick and dangerous. Make a constitution save or suffer 1 sonic damage as your ears bleed."
-  },  {
-    "name": "Cherub",
-	"page": 46,
-    "marks": 10,
-    "ac": "As Leather",
-    "hd": 1,
-    "hp": 5,
-    "move": "Standard, Fly Double Standard",
-    "damage": "Bite 1d4",
-    "quantity": "Troupe 1d6, Choir 2d6",
-    "XP": 100,
-    "extra": "Withering Words: A group of more than 3 Cherubs can hurl a scathing and withering insult at a target within its vision. Save versus Charm or suffer one level of exhaustion."
-  },  {
-    "name": "Children of the Woods",
-	"page": 48,
-    "marks": 10,
-    "ac": "As Scale",
-    "hd": 8,
-    "hp": 40,
-    "move": "Standard (Unaffected by Natural Terrain)",
-    "damage": "As Weapon",
-    "quantity": "Solo",
-    "XP": 1000,
-    "extra": "Wyrd Aura: Anyone in the company of a Child of the Woods for more than a day suffers a random Call of the Wild (pg.20). Lords of the Wild: Lesser animals within eyesight of a Child of the Woods obey any command it may give."
-  },  {
-    "name": "Cindershams",
-	"page": 50,
-    "marks": 10,
-    "ac": "As Hide",
-    "hd": 4,
-    "hp": 20,
-    "move": "Standard",
-    "damage": "Vicious Maw 1d6 + 1d4 fire",
-    "quantity": "Solo or Pack 1d6",
-    "XP": 500,
-    "extra": "Cinder Breath: As Attack, the Cindersham belches out a gout of sparks and ash. Save versus breath weapon or suffer 2d6 fire damage. Hot Flare: As Attack, the Cindersham releases an explosive burst of light. Save versus breath weapon or suffer blindness for 1 minute."
-  }
-],
+      "name": "Ailiper",
+      "page": 30,
+      "marks": 10,
+      "ac": "As Leather",
+      "hd": 1,
+      "hp": 5,
+      "move": "Standard",
+      "damage": "1d4 + disease",
+      "quantity": "Solo or Clutch 1d6",
+      "XP": 100,
+      "extra": "Disease-Ridden-Bite: Save versus poison or contract a random disease (changes with each bite)."
+    },
+    {
+      "name": "Arcanus Arachni",
+      "page": 32,
+      "marks": 10,
+      "ac": "None (automatically hit)",
+      "hd": 1,
+      "hp": 1,
+      "move": "Standard",
+      "damage": "1d8 Ragged Nails",
+      "quantity": "Cluster 1d3x10 or Swarm 2d4x10",
+      "XP": 10,
+      "extra": "Inherent Magics: As long as their webs are unaffected, the Arcanis Arachni can collectively cast one spell per turn. Spell-WebsL A group of Arcanis Arachni know 1d6 random spells between level 0-3."
+    }, {
+      "name": "Bauik",
+      "page": 34,
+      "marks": 10,
+      "ac": "As Studded Leather",
+      "hd": 4,
+      "hp": 22,
+      "move": "Standard",
+      "damage": "1d8 Ragged Nails",
+      "quantity": "Solo or Pack 1d4",
+      "XP": 800,
+      "extra": "Silver Tongue: Save versus Charm or be compelled to follow the orders of the Bauik. Nimble Body: Despite its size, the Bauik can fit through spaces as small as 1 foot by 1 foot. Lightless Lair: Light sources, magical or otherwise, become supernaturally dimmed within a Bauik's lair, providing light only out of 5 feet."
+    }, {
+      "name": "Blight Motes",
+      "page": 36,
+      "marks": 10,
+      "ac": "As Leather",
+      "hd": 2,
+      "hp": 10,
+      "move": "Move Standard, Fly Double, Burrow Half",
+      "damage": "Rotting Needle Teeth 1d4 and Festering Wounds.",
+      "quantity": "Solo, Pair, or Troupe 1d6+1",
+      "XP": 150,
+      "extra": "Rotting Touch: Anything the Blight Mote touches begins to spoil and rot. Food or water will spoil on contact with their bodies making it dangerous to consume. Festering Wounds: They bite jagged rotted teeth. With each bite, characters must save versus poison or receive a disgusting wound that refuses to close, reducing their hit point maximum by 1d2 for a week."
+    }, {
+      "name": "Blukstound",
+      "page": 38,
+      "marks": 10,
+      "ac": "As Hide",
+      "hd": 6,
+      "hp": 32,
+      "move": "Double Standard",
+      "damage": "Splinter bite and claws 1d6/1d6 and Splinters",
+      "quantity": "Solo, or pack 1d6",
+      "XP": 750,
+      "extra": "Splinters: The attacks from a Blukstound are painful and splinter-filled. Save versus breath weapon or take disadvantage on all dexterity based checks until you spend an hour removing the splinters. Blitz: Leap 15 feet, then attack with advantage for 1d10 and Splinters. Vulnerable to Cold: Frost and cold damage slows their circulation, reducing them to only one attack and half standard speed for one round."
+    }, {
+      "name": "Bramble Beast",
+      "page": 40,
+      "marks": 10,
+      "ac": "As Scale",
+      "hd": 10,
+      "hp": 50,
+      "move": "Standard",
+      "damage": "Reaping Claws 1d8/1d8",
+      "quantity": "Solo",
+      "XP": 1400,
+      "extra": "Mauling Strike: If the Bramble Beast hits with both of its attacks, it gets to make a third for 1d10 damage as it rips its victims apart. Ensnaring Tendrils: Each time the Bramble Beast attacks, save versus breath or become grappled in its vines and branches. Implant: Anything unconscious or entangled in the Bramble Beast's Ensnaring Tendrils for more than a round must save versus poison or be implanted with a Bramble Spawn. Vulnerable to Fire: The Bramble Beast takes double damage from fire as its body bursts into flames."
+    }, {
+      "name": "Briarscoffs",
+      "page": 42,
+      "marks": 10,
+      "ac": "As Leather",
+      "hd": 1,
+      "hp": 1,
+      "move": "Standard",
+      "damage": "1d2-1",
+      "quantity": "2d10, Wave 3d20",
+      "XP": 5,
+      "extra": "Stick and Prick: Briarscoffs are covered in spikes that stick into skin and clothing, making it hard to move. Lose 5 feet of movement for every 10 that stick into you."
+    }, {
+      "name": "Cacophonous Crowmen",
+      "page": 44,
+      "marks": 10,
+      "ac": "As Leather",
+      "hd": 1,
+      "hp": 6,
+      "move": "Standard, Fly Double Standard",
+      "damage": "1d4 Beak and claws",
+      "quantity": "Clutch 2d6, Flock 3d8",
+      "XP": 100,
+      "extra": "Future Sight: The Crowmen have already seen their death. They can never be caught by surprise. Swarming Noise: The noise surrounding the Crowmen is thick and dangerous. Make a constitution save or suffer 1 sonic damage as your ears bleed."
+    }, {
+      "name": "Cherub",
+      "page": 46,
+      "marks": 10,
+      "ac": "As Leather",
+      "hd": 1,
+      "hp": 5,
+      "move": "Standard, Fly Double Standard",
+      "damage": "Bite 1d4",
+      "quantity": "Troupe 1d6, Choir 2d6",
+      "XP": 100,
+      "extra": "Withering Words: A group of more than 3 Cherubs can hurl a scathing and withering insult at a target within its vision. Save versus Charm or suffer one level of exhaustion."
+    }, {
+      "name": "Children of the Woods",
+      "page": 48,
+      "marks": 10,
+      "ac": "As Scale",
+      "hd": 8,
+      "hp": 40,
+      "move": "Standard (Unaffected by Natural Terrain)",
+      "damage": "As Weapon",
+      "quantity": "Solo",
+      "XP": 1000,
+      "extra": "Wyrd Aura: Anyone in the company of a Child of the Woods for more than a day suffers a random Call of the Wild (pg.20). Lords of the Wild: Lesser animals within eyesight of a Child of the Woods obey any command it may give."
+    }, {
+      "name": "Cindershams",
+      "page": 50,
+      "marks": 10,
+      "ac": "As Hide",
+      "hd": 4,
+      "hp": 20,
+      "move": "Standard",
+      "damage": "Vicious Maw 1d6 + 1d4 fire",
+      "quantity": "Solo or Pack 1d6",
+      "XP": 500,
+      "extra": "Cinder Breath: As Attack, the Cindersham belches out a gout of sparks and ash. Save versus breath weapon or suffer 2d6 fire damage. Hot Flare: As Attack, the Cindersham releases an explosive burst of light. Save versus breath weapon or suffer blindness for 1 minute."
+    }
+  ],
   "mutations": [
     "You read by eating. Written language makes no sense to you anymore, you instead comprehend words and 1 writing by eating them. Each book, scroll, or written word you eat is immediately comprehended as if you had just read it.", "Barkskin. Your skin grows hard and pebbled with bark, much like a tree. You are less susceptible to damage but fine motor skills are made difficult.", "Lunar paranoia. The moon is watching you and every move you make. You need to protect yourself from its vision and touch, lest it finally decides to ambush you.", "Fertile Skin. Small seedlings and miniature life sprouts from under your skin. They are painful at times and will continue to grow despite your best efforts.", "Blood Scent. By smelling and tasting the air you can detect the faint traces of recently spilled blood within 5 100 feet of you. By tasting the blood with your tongue you are able to accurately predict the size and general physiology of the creature.", "You can sense heartbeats within 15 feet of you. It comes as a slight vibration inside your skull, allowing you to sense the exact location of a living creature even without vision or sound.", "Echolocation. You absentmindedly click your tongue in various directions and sense the returning vibrations. You can \"see\" with your echolocation out to a range of 50ft.", "Societal Disdain. You begin to hate cities, towns, and civilization as a whole. Any interactions you make with people who are unfamiliar with the Wilds tend to be hostile or unhelpful.", "Your body slowly loses all fat and your skin begins to tighten, giving you the visage of a corpse.", "You never forget a smell. Your olfactory organs keen and you pick up on subtle scents and aromas. Once you have smelled something you can immediately identify it if you smell it again.", "You body hair lengthens. Growing thick in places where it already grows heavily, it provides you some warmth in the night.", "Internal Alarm Clock. Your mind subconsciously keeps a timer running, giving you the ability to perfectly count a set amount of time. You can specify how long you sleep down to the second and awake without tardiness.", "You come to believe and accept your utter insignificance in the Wilds, becoming ambivalent to your own suffering.", "Twitchy eyes. Your eyes are constantly darting about and taking in your surroundings, making you excellent at spotting tiny details or avoiding possible traps.", "Overgrown Antlers. Sharp and boney horns or antlers grow from your skull. They must be shaved every week or grow out of control.", "Magic Sense. You can smell magic within close proximity and the stronger the magic the stronger the smell. Various magics have different scents, but you are able to distinguish them as magic at any given point.", "A terrible and powerful word has taken residence inside your gut. Once per day you must scream it out, dealing 1d10 sonic damage to all who can hear it, or risk having it burst from your stomach.", "You hate to be seen by \"the civilized folk.\" When travelling, you avoid caravans or travelling merchants, prefering to hide amongst the trees and underbrush.", "You are compelled to eat every possible piece of your hunting prey. Organs, cartilage, even bones by either boiling or grinding. You cannot waste anything.", "Perfect Weather Prediction. By standing on the very top of a tree and strenuously observing with all of your senses for 30 minutes, you can accurately predict the weather for the next 24 hours.", "Scrawl Carver. Strange symbols and designs dance in your head. You need to carve them onto trees or the symbols will begin to appear on your body in painful fashion. Some of the symbols and scrawl hold power.", "The trees sing to you. If you tilt your head back, close your eyes and hum, you pick up a subtle melodic vibration from the trees around you. The trees can communicate direction, emotions, or danger if they feel like helping you.", "You are followed by a ghost that terrifies you. It is always just at the edge of your vision and never speaks. It warns you when an ambush is near by producing either a song or whistle that only you can hear. Don’t let it touch you, or it will possess you.", "Hypersensitive ears. Your ears become attuned to even the smallest of noises including the wingbeats of a moth or the footfalls of a single spider. You are susceptible to noises and can become easily deafened.", "Night Speak. In the dead of night, if you gaze into the darkness between the trees long enough, you begin to understand its language. It is whispers and drones, almost impossible to understand; but still attainable. It is the language of secrets.", "Your flesh re-grows rapidly. You heal 1d4 hit points every hour as your flesh warps and stitches itself together. However, it has a habit of sprouting large horrible growths that must be cut off or else sprout a mutant pygmy of yourself.", "Your fingernails lengthen into claws. They grow to a point, thickening and growing strong as iron. They function as daggers.", "A strange fungus is growing inside your digestive tract. It is excellent at neutralizing ingested poisons and toxins, but requires you to eat twice the normal amount.", "Your limbs lengthen and toughen, allowing you to gallop on all fours. If not wielding anything in your hands you can move using all four limbs, doubling your speed.", "Your eyes go slitted and cat-like. They reflect in the night and are slightly better at seeing in the dark. More importantly they’re quite intimidating.", "Dreamseek. At least once a month you are visited by a terrifying vivid dream that reveals the location of a demigod. The dreams are broken, fractured, and surreal, but with enough time they can be used to plot a course to whatever great and terrible entity plagues your dreams.", "You are incapable of digesting cooked food. Meat and vegetables must be eaten raw or you immediately grow ill and vomit them up. You suffer no ill effects from eating the food raw, however.", "Bestial howl. You can let loose a terrible howling roar from deep within your gut, terrifying lesser beings within ear shot. It hurts to do and is loud enough to send a small vibration through the air.", "Feral eating tendencies. Anytime something dies or falls unconscious near you, you must make a concerted effort in order to not immediately begin devouring them. You will not do this to your close friends or allies, unless you’re starving.", "Terraphobia. You are terrified of the ground swallowing you whole. You will not sleep on the ground at night, choosing raised platforms or trees and actively avoiding caves or caverns. It’s not as crazy a fear as others might believe...", "Voiceless. You grow used to the strange silence of the Wilds. You avoid speaking when possible but are adept at picking up on the sublest of body language, even scents, tics, and pheromones.", "Your skeleton begins to shift into a more feral shape. Over time, your skull begins to lengthen, your teeth fall out to be replaced with fangs, and your limbs extend. You suffer -1 Charisma but gain +1 Strength and Dexterity.", "You can speak to vermin. They understand you and follow your commands if they are willing to do so. Offering them food or a favor can increase the chances of them accompanying you.", "Faceless. You can’t bear to show your face. You must find or make a face covering object and are loathe to remove it.", "Hyperdontia. New teeth grow sharp like fangs, giving you a vicious bite for 1d6 damage. Unfortunately, they continuously grow and must be pried out weekly or risk a mouth crowded with teeth.", "Stoic Mind. It is difficult for you to display or feel emotions. It is unnerving to most but gives you advantage against madness and mind-affecting spells.", "Wyrd Mood. Your mind swims with designs and schema of something strange and powerful. You have the knowledge and skill necessary to begin construction of one random artifact. The materials, time, and magic necessary are all known to you as well as where to find them.", "You eyes go pale and irisless. They unnerve civilized folk and grant the respect of wilder folk.", "Saint’s Blood. Your blood has healing qualities! Drinking a pint of you blood heals 1d6 hit points and allows an extra save against poisons and disease.", "Sigils and glyphs begin to appear on your body like tattoos. They can be deciphered with dedicated study and can be everything from eldritch spells to anecdotes that make little sense.", "Your strength ebbs and flows with the phases of the moon. One random ability score increases and decreases based on how full the moon is.", "You can hear precious metals, gems, and treasure \"calling\" to you. If you close your eyes and hum you can detect a strange frequency of buried or hidden treasure within 50 ft. Mundane items are a more \"soft\" frequency while magical items are hard and grating.", "Chameleon. Your skin slowly changes color and texture over the course of 1d6 days to better suit the environment you're in. Once fully changed you have advantage on hiding and not being seen.", "You understand FANGSPEK, the language of Ravagers. It is crude and vicious, but has a primal charm to it.", "Your hair grows 1 foot per day, and is stringy and tough. It can be fashioned into rope and is as strong as silk"
   ],
   "artifacts": [{
       "name": "Bottle of Briarblood Beer",
-      "description": "Thick and tinted with the taste of blood, its color a dark burgundy.<br>A favorite amongst fighters and thugs. EFFECT: Gain 1d10 temporary hit points.<br><br>Each drink requires a save versus poison to avoid becoming increasingly drunk, while the effects of the drink last one hour.<br>1 Failed Save: Tipsy - Advantage on charisma checks, disadvantage on dexterity checks.<br>2 Failed Save: Drunk - Disadvantage on attacks.<br>3 Failed Save: Plastered - Half speed, disadvantage on all skills. <br>4 Failed Save: Wasted - Incoherent and illiterate.<br>5 Failed Save: Blackout - You go unconscious."
+      "description": "Thick and tinted with the taste of blood, its color a dark burgundy. A favorite amongst fighters and thugs.<br>EFFECT: Gain 1d10 temporary hit points.<br><br>Each drink requires a save versus poison to avoid becoming increasingly drunk, while the effects of the drink last one hour.<br>1 Failed Save: Tipsy - Advantage on charisma checks, disadvantage on dexterity checks.<br>2 Failed Save: Drunk - Disadvantage on attacks.<br>3 Failed Save: Plastered - Half speed, disadvantage on all skills. <br>4 Failed Save: Wasted - Incoherent and illiterate.<br>5 Failed Save: Blackout - You go unconscious."
+    },
+    {
+      "name": "Bottle of Blackout",
+      "description": "A grain alcohol, smelling of paint thinner, it is the color of a stormy sky. A legendarily strong alcohol, it forces the mind to calm and reorder itself.<br>EFFECT: While under the effects of madness, if a bottle of Blackout is drunk within the next 24 hours, the character may automatically reroll a save to uplift a particular madness or mind-altering effect.<br><br>Each drink requires a save versus poison to avoid becoming increasingly drunk, while the effects of the drink last one hour.<br>1 Failed Save: Tipsy - Advantage on charisma checks, disadvantage on dexterity checks.<br>2 Failed Save: Drunk - Disadvantage on attacks.<br>3 Failed Save: Plastered - Half speed, disadvantage on all skills. <br>4 Failed Save: Wasted - Incoherent and illiterate.<br>5 Failed Save: Blackout - You go unconscious."
+    },
+    {
+      "name": "Bottle of Chainbreaker Stout",
+      "description": "Dark and heady, strong enough for a howl, and heavy as rye bread. A favorite among laborers, the “lumberjack breakfast” as it’s sometimes known.<br>EFFECT: Advantage on strength checks, disadvantage on intelligence checks.<br><br>Each drink requires a save versus poison to avoid becoming increasingly drunk, while the effects of the drink last one hour.<br>1 Failed Save: Tipsy - Advantage on charisma checks, disadvantage on dexterity checks.<br>2 Failed Save: Drunk - Disadvantage on attacks.<br>3 Failed Save: Plastered - Half speed, disadvantage on all skills. <br>4 Failed Save: Wasted - Incoherent and illiterate.<br>5 Failed Save: Blackout - You go unconscious."
+    },
+    {
+      "name": "Bottle of Coldflesh Ale",
+      "description": "A crisp and dry brew the color of a chill morning, it is always cold and smells of winter nights. Commonly drunk when the seasons change for the worse, it steadies the body against the cold.<br>EFFECT: You take half damage from cold and ice, but are vulnerable to fire damage.<br><br>Each drink requires a save versus poison to avoid becoming increasingly drunk, while the effects of the drink last one hour.<br>1 Failed Save: Tipsy - Advantage on charisma checks, disadvantage on dexterity checks.<br>2 Failed Save: Drunk - Disadvantage on attacks.<br>3 Failed Save: Plastered - Half speed, disadvantage on all skills. <br>4 Failed Save: Wasted - Incoherent and illiterate.<br>5 Failed Save: Blackout - You go unconscious."
+    },
+    {
+      "name": "Bottle of Doomseer's Draught",
+      "description": "A dark drink that sparkles like stars, it smells of foreboding. Spiritualists, seers, and diviners are never far from a bottle of this drink.<br>EFFECT: There is a 50/50 chance you gain either an insight into the future or a false premonition.<br><br>Each drink requires a save versus poison to avoid becoming increasingly drunk, while the effects of the drink last one hour.<br>1 Failed Save: Tipsy - Advantage on charisma checks, disadvantage on dexterity checks.<br>2 Failed Save: Drunk - Disadvantage on attacks.<br>3 Failed Save: Plastered - Half speed, disadvantage on all skills. <br>4 Failed Save: Wasted - Incoherent and illiterate.<br>5 Failed Save: Blackout - You go unconscious."
+    },
+    {
+      "name": "Bottle of Fat Jester Cider",
+      "description": "A golden yellow brew, smelling of fruit with a hint of revelry. A drink for jovial times and conversation. <br>EFFECT: Advantage on charisma checks, at risk of letting slip secrets.<br><br>Each drink requires a save versus poison to avoid becoming increasingly drunk, while the effects of the drink last one hour.<br>1 Failed Save: Tipsy - Advantage on charisma checks, disadvantage on dexterity checks.<br>2 Failed Save: Drunk - Disadvantage on attacks.<br>3 Failed Save: Plastered - Half speed, disadvantage on all skills. <br>4 Failed Save: Wasted - Incoherent and illiterate.<br>5 Failed Save: Blackout - You go unconscious."
+    },
+    {
+      "name": "Bottle of Happy Times",
+      "description": "A jovial wine, its color is never consistent and it smells of debauchery. “The Drink of Hedonists,” known for feelings of euphoria and intoxicating bliss.<br>EFFECT: Drinking this gives disadvantage on all skill checks, but advantage against madness and other mind-altering effects.<br><br>Each drink requires a save versus poison to avoid becoming increasingly drunk, while the effects of the drink last one hour.<br>1 Failed Save: Tipsy - Advantage on charisma checks, disadvantage on dexterity checks.<br>2 Failed Save: Drunk - Disadvantage on attacks.<br>3 Failed Save: Plastered - Half speed, disadvantage on all skills. <br>4 Failed Save: Wasted - Incoherent and illiterate.<br>5 Failed Save: Blackout - You go unconscious."
+    },
+    {
+      "name": "Bottle of Vizier's Friend",
+      "description": "A wine the color of raspberries and ultramarine, it smells elegant and wise. Favored for its calming effects and ability to loosen the mind.<br>EFFECT: Advantage on intelligence checks, but disadvantage on strength checks. <br><br>Each drink requires a save versus poison to avoid becoming increasingly drunk, while the effects of the drink last one hour.<br>1 Failed Save: Tipsy - Advantage on charisma checks, disadvantage on dexterity checks.<br>2 Failed Save: Drunk - Disadvantage on attacks.<br>3 Failed Save: Plastered - Half speed, disadvantage on all skills. <br>4 Failed Save: Wasted - Incoherent and illiterate.<br>5 Failed Save: Blackout - You go unconscious."
+    },
+    {
+      "name": "Bottle of Stonehead",
+      "description": "A dour beer, dark and colorless, almost a shade of grey and smelling of loam. A drink that rests the mind and body.<br>EFFECT: After drinking it you have disadvantage on attacks and skills, but if you fall asleep after drinking a bottle you may remove one point of exhaustion.<br><br>Each drink requires a save versus poison to avoid becoming increasingly drunk, while the effects of the drink last one hour.<br>1 Failed Save: Tipsy - Advantage on charisma checks, disadvantage on dexterity checks.<br>2 Failed Save: Drunk - Disadvantage on attacks.<br>3 Failed Save: Plastered - Half speed, disadvantage on all skills. <br>4 Failed Save: Wasted - Incoherent and illiterate.<br>5 Failed Save: Blackout - You go unconscious."
+    }, {
+      "name": "Bottle of Wake the Devil Whiskey",
+      "description": "Erratic acrid liquor, the color of bloodshot eyes and scent of lightning. A drink that excites the mind and fends off sleep.<br>EFFECT: You may ignore the effects of exhaustion. This does not remove it from you, but allows you to operate without the drawbacks.<br><br>Each drink requires a save versus poison to avoid becoming increasingly drunk, while the effects of the drink last one hour.<br>1 Failed Save: Tipsy - Advantage on charisma checks, disadvantage on dexterity checks.<br>2 Failed Save: Drunk - Disadvantage on attacks.<br>3 Failed Save: Plastered - Half speed, disadvantage on all skills. <br>4 Failed Save: Wasted - Incoherent and illiterate.<br>5 Failed Save: Blackout - You go unconscious."
     },
     {
       "name": "Blood of the First",
@@ -198,6 +617,50 @@
     {
       "name": "Bone Shard Shiv",
       "description": "A knife appears made from a femur or humerus. Its edge is serrated and hard as steel. There are no marks of craft or make, as if it grew this way.<br>A blade sung into shape by the Wild Elves, created as a perfect weapon for an assassin or backstabber.<br>The Bone Shard Shiv functions in all ways like a dagger or knife; however, when pressed against the owner’s skin and gently hummed to, the knife melds into the flesh. It can be summoned at any time, bursting out without any harm to the wielder."
+    },
+    {
+      "name": "Bonegrinder's Flute",
+      "description": "A wretched flute, made of aged and decaying bone. It feels jagged to the touch and hums with a sadistic energy. A single worn inscription along the bottom reads: “I have heard the Seraph’s song: sickly, sweet, and terrible.”<br>An instrument crafted by an obsessive and darkly bard. Haunted by a single song that no one could name, they travelled the Wilds in order to replicate it. All that remains of their search and legacy is this flute.<br>Those that play a song on the flute release a terrible and monstrous sound, reaching a tonal frequency that shatters bone, tree, and stone. Anyone within 60 feet of the flute as it is played must save versus poison or hold, or have the bones in their body break and shatter from the sound."
+    },
+    {
+      "name": "Book of Ash and Cinder",
+      "description": "A leather-bound grimoire, burnt beyond recognition. Its pages of ash crumble into the wind but never seem to fade. It is still hot, and trails of cinder dance along its surface.<br> A book from an arrogant wizard that sought counsel with the Primal Wheel. It was Fire that answered the call, and so the wizard was incinerated. All that remains is their spell-book, which still bears the touch of a Primal deity. While wielding this spell-book a caster may replace any instance of an element or conjuration with fire instead."
+    },
+    {
+      "name": "Bottomless Jug",
+      "description": "An innocuous clay jug, coated in simple black glaze. Ocean sounds can be heard if you place your ear against it. Its surface is always wet with water. Gifted to a melancholy bard by a Royal Fox, to \"drain them of all of their tears.\" <br>This magical jug can hold a ridiculous amount of fluids; up to 660,430 gal- lons, or 2,500,000 litres, the equivalent of an olympic sized swimming pool. It always pours at a steady rate for a jug its size no matter the amount of fluid within. Overfilling the jug causes it to vibrate and grow hot and, unless it is emptied, it explodes violently, releasing all of its contents in an explosive wave of fluid."
+    },
+    {
+      "name": "Clotter",
+      "description": "A small glass jar holds a writhing crea- ture the size of a mouse. The color and texture of a scab, it is constantly in motion with an array of thin translucent feelers. In the center of its body is a single lamprey mouth.<br> Originally a small swamp parasite that suckled from unsuspecting prey, an aspiring alchemist found it contained a chemical that could clot and staunch the flow of blood.<br>Consuming the Clotter causes your body to quickly scab and clot fresh wounds. For the next 24 hours all dam- age you take is reduced by 1."
+    },
+    {
+      "name": "Coldfire Lantern",
+      "description": "A lantern of blackened iron and etched with delicate silver filigree. Its fire burns the color of moonlight on a field of snow.<br>A lantern that lights the way but is devoid of warmth. It is said to house a Mire Ghost bound tightly inside of it.<br>A Coldfire Lantern produces light and acts in all ways as a regular lantern, but does not produce any heat when lit. Instead, the lantern fire radiates a faint chill. When used as a weapon, the lantern deals cold damage rather than fire. As well, Snuff Hounds are loathe to come near it for some reason."
+    },
+    {
+      "name": "Curse Bells",
+      "description": "A tarnished silver bell, innocuous at first glance. Its surface is a mess of maddening runes and etchings. It feels cold to the touch, and stings slightly when stroked.<br>A terrible artifact crafted by a sect of in- quisitors. Its purpose was to bring low a group of scholars and wizards who had fled into the Wilds. They hunted them down and delivered their false justice upon them.<br>The bane of intelligent and wise beings, the bell resonates with conscious thought. When rung, the Curse Bell causes a number of cumulative effects,depedent on the intelligence or wis- dom of those within earshot.<br>Dumb - No Sound, The listener hears nothing.<br>Below average - A Simple Chime, A small, unpleasant noise. Listen- ing for more than a minute causes light nausea.<br>Clever - Painful Rings, The sound is noticeably painful. Skills and spellcasting are at dis- advantage.<br>Smart - Piercing Noise, The noise cuts deep, drowning out all else. You are deafened and cannot speak while the bell rings.<br>Genius - Shattering Resonance, Your mind swims in utter agony. You drop to your knees and are immobile while the bell rings."
+    },
+    {
+      "name": "Curseweald Staff",
+      "description": "Dark, rotted wood the color of bruises and corpse-flesh. Its surface is hard and knobbed, etched with profane symbols and adorned in grisly trophies.<br>A staff made from the limbs of Curse- wealds retains their profane conscious- ness and power deep inside the very wood.<br>When holding the staff, the caster may spend 1 of its 10 charges to cast Burst with Briar, Dream Lure, Sap Blood or Take Root.<br>The staff regains 1d3 charges for every night the caster goes without sleep. Additionally, the staff allows the wielder to communicate on friendly terms with other Cursewealds, so long as they hold onto the staff.<br>If the Curseweald Staff ever drops to 0 charges, the caster is immediately infected with the Treewylding (pg. 204)."
+    },
+    {
+      "name": "Darkwood",
+      "description": "A great wooden shield the color of dark- ened Purpleheart. Its surface is carved and cratered with the scars of battle, yet it remains sturdy and sure.<br>Long ago, a lone Dryadi betrayed their grove and sundered their mother tree, from it they carved this mighty shield to combat an ancient threat. To this day, the very trees make enemy with their legacy.<br>Darkwood is an impressive and sturdy shield that is stronger, lighter, and more durable than even dwarven mithril. Spells cast against it rarely have effect, dampened or even negated in most cases. However, it bears a mighty curse, for anyone who wields Darkwood is immediately the greatest enemy of both trees and Dryadi."
+    },
+    {
+      "name": "Face of the Maniac",
+      "description": "A terrible mask, made of knotted wood and adorned in scraps of skin, bone, and teeth. Painted in woad and smeared with dry blood, it is horrifying to behold.<br> It is said a mortal warrior slaughtered 1,000 innocent people and dined on their flesh before finally being struck down. The Ruin took notice and made this mask from the warrior’s remains. Wearing this mask immediately grants extraordinary and unparalleled martial abilities. <br>All attacks made by the wearer are at advantage, all successful attacks deal maximum damage, and all attacks against the wearer are at disadvantage. However, each time someone dons the mask they are immediately afflicted with one random madness [pg. 24]."
+    },
+    {
+      "name": "Fester Blade",
+      "description": "A weapon of corroded, rusted metal and decaying wood. Its jagged edges leak a foul ichor and its terrible scent attracts swarms of flies.<br> Blades crafted by a clan of Curserot Dryadi, who retain a shard of their sanity. They wield and distribute these infected blades in the hopes of spread- ing misery.<br> Fester Blade is the name given to a select type of enchanted weapons. They act in all ways as regular weapons, save for the fact that anything they touch becomes diseased and befouled. Any- one they make direct contact with must make a save versus poison or become infected with one random disease; this includes the wielder."
+    },
+    {
+      "name": "Fey Jump Shoes",
+      "description": "A pair of fine silken shoes, embroidered with colored thread and of wondrous craftsmanship. The air around them seems to hum with faint song, like that of a skipping rhyme.<br> A treasure from the Wild Elf cobblers. They have always been a tool for trick- ery and speedy departure.<br> A pair of Fey Jump Shoes is assigned a single element upon their creation. Anyone who wears these shoes cannot set foot on anything that is NOT the assigned element, and upon donning the shoes are immediately teleported to the nearest source of one such ele- ment. Instead of regular movement, the wearer moves by teleporting 60ft in any direction to the nearest unobstructed source of the assigned element. The shoes can only be taken off during the full moon.<br>1. Stone<br>2. Tree<br>3. Shadow<br>4. Ash<br>5. Light<br>6. Gold<br>7. Blood<br>8. Coals<br>9. Feather<br>10. Water<br>"
     }
   ],
   "spells": [{
@@ -300,411 +763,409 @@
       "higher": "",
       "effect": "You fire off a bolt of smoldering energy at an enemy, burying it into its body for 1d6 fire damage. Every turn that you maintain concentration on the spell burns the enemy for an additional 1d6 fire damage, as the shard of cinder slowly burns the victim away into nothing."
     },
-        {
-          "name": "Coffin Nail",
-          "level": 5,
-          "castingTime": "Action",
-          "range": "120ft",
-          "duration": "Permanent",
-          "material": "A nail from a coffin.",
-          "higher": "You may attack an additional creature for every level beyond 5.",
-          "effect": "A single nail flies from your hand with a bang, immediately implanting itself into the head of another creature, paralyzing it and rendering it helpless. The caster makes a ranged attack. If it hits, the target of the spell is immediately and permanently paralyzed, crumpling to the ground in a limp, motionless state. It is utterly unresponsive and incapable of moving or acting on its own. The only way to undo this state is by forcibly removing the nail from the victim’s skull with a successful strength check."
-        },
-        {
-          "name": "Curse-Mend",
-          "level": 3,
-          "castingTime": "1 Hour, Ritual",
-          "range": "Touch",
-          "duration": "Permanent",
-          "material": "A spool of silver thread.",
-          "higher": "Incur disadvantage against an additional save, attack, or skill for every level beyond 3.",
-          "effect": "You weave a thread through the body of a dying being, restoring them to health but twisting them to your own desire. You may revive one creature or being that has died within the last hour, quietly sewing them back together with a magic thread. They are restored to 1 Hit Point at the end of the spell and bear a series of silvered stitch-marks across their body. The caster may also choose to have the target hobbled or changed in some way by sewing on different body parts or reorganizing their limbs. In addition to any superficial changes the caster may incur a permanent disadvantage against one of the victim's saves, attacks, or skills. The only way to reverse this effect is by having the original caster redo the spell on the affected victim."
-        },
-        {
-          "name": "Disgusting Flesh",
-          "level": 3,
-          "castingTime": "Action",
-          "range": "Touch or Self",
-          "duration": "1 Hour",
-          "material": "A lump of rotten fat (which you ingest).",
-          "higher": "At level 4, the save to avoid the illness is at disadvantage. At level 5, the a failed save also infects the attacker with one random disease.",
-          "effect": "Your flesh becomes rancid and foul smelling; ingesting it causes illness. For the next hour anything that attempts to bite, taste, or eat you must make a saving throw against poison or become violently ill for 1d10 rounds. You also have a rotten stench about you that wards off lesser predators."
-        },
-        {
-          "name": "Dream Lure",
-          "level": 2,
-          "castingTime": "1 Hour, Ritual",
-          "range": "2 Miles",
-          "duration": "1 Hour",
-          "material": "",
-          "higher": "",
-          "effect": "Across the plane of sleep, you reach into the dreams of another, drawing them to you like a moth to flame. You reach out to a single person or creature within 2 miles who is asleep. The sleeper becomes charmed and begins to move to your location in a trance-like state. The sleeper is unaware of their surroundings, still technically asleep, but move purposefully and in the most direct and seemingly safest path towards you."
-        },
-        {
-          "name": "Etherskip",
-          "level": 3,
-          "castingTime": "Action",
-          "range": "Other or Self",
-          "duration": "1 Minute",
-          "material": "A tuft of EtherRat fur.",
-          "higher": "",
-          "effect": "You skip between one dimension and the next, using it to move in erratic teleporting jumps. Each round you may teleport to any location within 30ft of you. However, each time you do so there is a 50% chance you end up in a random location 10ft away from your intended destination."
-        },
-        {
-          "name": "Forceful Stitch",
-          "level": 4,
-          "castingTime": "Action",
-          "range": "60ft",
-          "duration": "1 Minute",
-          "material": "A spool of silver thread and needle made of bone.",
-          "higher": "You may bind one extra creature for every level beyond 4.",
-          "effect": "A line of silver thread burrows into and stitches the flesh of two creatures, binding them together forcefully and painfully. You select two creatures and immediately bind them together with silver thread. They each suffer 3d6 damage as the thread rapidly weaves through their flesh and are immediately pulled tightly next to one another. They remained restrained and suffer 3d6 damage each turn until the spell ends or either one of them makes a successful strength check."
-        },
-        {
-          "name": "Furry Pelt",
-          "level": 1,
-          "castingTime": "Action",
-          "range": "Other or Self",
-          "duration": "8 Hours",
-          "material": "A tuft of your hair and hair from another creature.",
-          "higher": "",
-          "effect": "Your skin sprouts a thin layer of fur all across your body that protects you from the cold. The type and color of your hair depends, but it is always warm and dry enough to provide you with a comfortable sleep during the night as well as avoid most harmful effects of the natural elements."
-        },
-        {
-          "name": "Gentle Moonlight",
-          "level": 4,
-          "castingTime": "1 Hour, Ritual",
-          "range": "Other or Self",
-          "duration": "8 Hours",
-          "material": "A mirror to reflect the moonlight.",
-          "higher": "",
-          "effect": "You commune with the moonlight, letting it soothe and heal your wounds. Once cast, your body heals itself while exposed to moonlight. You heal hit points every hour based on the phase of the moon.<br>New Moon: 1HP/hour.<br>Quarter: 1d4HP/hour.<br>Half: 2d4HP/hour.<br>Three Quarters: 3d4HP/hour.<br>Full: 6d4HP/hour."
-        },
-        {
-          "name": "Gluttonous Consumption",
-          "level": 2,
-          "castingTime": "Instant",
-          "range": "Other or Self",
-          "duration": "1 Hour",
-          "material": "A single mint candy.",
-          "higher": "You may eat an extra 1d6 worth of food for every spell level beyond 2.",
-          "effect": "A hunger descends upon you; there is no limit to how much you can eat! You gain the ability to eat beyond your body's physical limits and store the calories in your body until they are needed. For one hour, you may eat 2d6 days worth of food, relieving you of the need to eat for the following days. You may attempt to eat more, but every day's worth of food beyond the spell’s limit requires a successful save versus poison. Failure causes you to vomit up all of the food you’ve eaten, wasting it."
-        },
-        {
-          "name": "Grisly Retrospect",
-          "level": 3,
-          "castingTime": "Action",
-          "range": "Touch",
-          "duration": "10 Minutes",
-          "material": "A corpse.",
-          "higher": "You may review 10 extra minutes of memories for every spell level beyond 3.",
-          "effect": "You tap into the last memories of a corpse; every sense washes over you as you relive its last moments. You may relive the sensory memories of a single corpse by touching it. The spell is dependant on the state of the corpse: if the eyes are missing or destroyed you are unable to “see” the corpse's memories; if the ears are gone, you cannot “hear,” etc. While the spell is limited to 10 minutes you can review any moment of the corpse’s past but only review 10 minutes worth of memories."
-        },
-        {
-          "name": "Grow Horns",
-          "level": 1,
-          "castingTime": "Action",
-          "range": "Other or Self",
-          "duration": "1 Hour",
-          "material": "A piece of antler or horn.",
-          "higher": "",
-          "effect": "You sprout a pair of magnificent horns or antlers. Shedding their velvet after sprouting, they take whatever form you specify and fall off after the spell’s duration ends. They function as a crude weapon for 1d6. Most lesser creatures give you and your glorious horns a respectful berth."
-        },
-        {
-          "name": "Honey Bolt",
-          "level": 1,
-          "castingTime": "Action",
-          "range": "120ft",
-          "duration": "1 Hour",
-          "material": "A chunk of sticky honeycomb.",
-          "higher": "",
-          "effect": "You fire off a volleyball-sized glob of sticky and sweet honey with enough force to knock a person off of their feet. When the honey bolt hits, the target is knocked prone and engulfed in the sugary gel. Creatures engulfed by the honey are slowed in action and speed, and require a full round-action to clean the honey off themselves. The honey also tends to attract animals, bees, and various other creatures within the vicinity, who attack the engulfed creature in a mad scramble for the delicious honey."
-        },
-        {
-          "name": "Ironguts",
-          "level": 1,
-          "castingTime": "Action",
-          "range": "Self",
-          "duration": "1 Hour",
-          "material": "Some chunks of smooth iron and grain alcohol (which you swallow).",
-          "higher": "At level 2 you can rapidly digest 1 cubic foot worth of wooden materials within an hour due to your gastric juices. At level 3 this includes non magical metals and stone. At level 4, magical items. (You will still have to defecate the remains of your eating...)",
-          "effect": "Your digestive tract becomes so caustic and fortified that even harmful microbial life is eradicated within your stomach. For the next hour you are immune to the harmful effects of anything ingested including, but not limited to: poison, acid, disease, and spoiled food."
-        },
-        {
-          "name": "Pack Mule",
-          "level": 2,
-          "castingTime": "10 Minutes, Ritual",
-          "range": "Other or Self",
-          "duration": "8 Hours",
-          "material": "Mule Jerky.",
-          "higher": "",
-          "effect": "Your back grows strong, the muscles grow tight and durable as they ripple under your skin. Upon casting this spell you double your carry weight for 8 hours. You are not stronger in any other way that exists outside of carrying, lifting, or dragging."
-        },
-        {
-          "name": "Root Bridge",
-          "level": 1,
-          "castingTime": "Action",
-          "range": "Touch",
-          "duration": "Permanent",
-          "material": "",
-          "higher": "For every level beyond 1, multiply the bridge size by the spell level. (10 feet by 40 feet at level 2, 15 feet by 60 feet at level 3, etc.)",
-          "effect": "You touch a patch of tree, root, or vegetation and command a bridge to slowly creep and form before you. It is no wider than 5 ft across and can extend up to 20 ft in length. The bridge can easily hold 500 pounds of weight indefinitely or up to 1000 pounds of weight for a minute. Any weight over that causes it to immediately collapse."
-        },
-        {
-          "name": "Sap Blood",
-          "level": 1,
-          "castingTime": "Action",
-          "range": "Self",
-          "duration": "1 Hour",
-          "material": "A vial of sap mixed with blood.",
-          "higher": "",
-          "effect": "Your blood grows thick, making it harder to bleed out, at least for a time... You change the consistency of your blood to avoid some harm from attacks. The next damage you take after casting this spell is reduced by 1d6 for every Hit Dice you have. The damage you take can never be fully negated; you will always receive at least one point of damage from an attack. After the initial damage, the spell ends and subsequent attacks deal damage normally."
-        },
-        {
-          "name": "Seek Standing Stone",
-          "level": 2,
-          "castingTime": "10 Minutes",
-          "range": "5 Mile Radius",
-          "duration": "Instant",
-          "material": "A piece of a standing stone.",
-          "higher": "Increase the range of the spell by 5 miles for every spell level beyond 2.",
-          "effect": "You close your eyes, your consciousness speeds across the land, seeking a standing stone. You seek out the location and direction of all standing stones within 5 miles of you. Once cast, you know exactly where they are in comparison to yourself. However, the location becomes fuzzy as time goes on, much like regular memory."
-        },
-        {
-          "name": "Shoulder the Burden",
-          "level": 1,
-          "castingTime": "10 Minutes, Ritual",
-          "range": "Other or Self",
-          "duration": "Instant",
-          "material": "Strong brew and a pair of fine drinking cups.",
-          "higher": "You may transfer one extra level of exhaustion for every spell level beyond 1.",
-          "effect": "The weight of travel, hunger, and sleeplessness lifts from you to another willing host. You can transfer one level of exhaustion from one person to another. All rules for exhaustion still apply, and someone who takes on more exhaustion than one can handle will still die"
-        },
-        {
-          "name": "Smoke Signal",
-          "level": 1,
-          "castingTime": "Action",
-          "range": "Touch",
-          "duration": "Until Dispelled",
-          "material": "A fistful of ash.",
-          "higher": "",
-          "effect": "The smoke and vapor twists to your will, the shapes both delicate and incredible. You gain control over the physical shape and appearance of the smoke produced by a source of fire. Save for the size, which is dependent on the size of the fire, there is no limit to the shape of the smoke and it will persist so long as the fire continues to burn or is dispelled."
-        },
-        {
-          "name": "Soothing Moss",
-          "level": 2,
-          "castingTime": "10 Minutes",
-          "range": "Touch",
-          "duration": "8 Hours",
-          "material": "A clump of Kingsleep Moss.",
-          "higher": "",
-          "effect": "Moss erupts from beneath your feet, carpeting the ground in a soft pleasant moss-bed. You temporarily summon a patch of Kingsleep Moss in a 10 foot by 10 foot patch. Sleeping on a bed of Kingsleep Moss has reinvigorating properties. Every full night’s rest on the moss relieves one level of exhaustion."
-        },
-        {
-          "name": "Soul Rot",
-          "level": 4,
-          "castingTime": "Action",
-          "range": "Touch",
-          "duration": "Until Dispelled",
-          "material": "A piece of brain matter.",
-          "higher": "",
-          "effect": "You bestow a terrible curse upon the soul of another, eating away at their very being until there is nothing left but a husk. You curse another being with a horrible ailment that strips away the mind, personality, and soul. The moment the victim becomes inflicted with the spell and every day thereafter, they must make a save versus poison or lose 1d6 to their wisdom, intelligence, or charisma score, chosen randomly. The only way to remove the spell is rolling three consecutive successful saves, the caster dispelling it, or casting a remove curse spell."
-        },
-        {
-          "name": "Speak with Fungus",
-          "level": 1,
-          "castingTime": "Action",
-          "range": "Self",
-          "duration": "1 Hour",
-          "material": "A plump morel.",
-          "higher": "",
-          "effect": "The fungus chatters with small words and curious questions, but with a library of everything they have tasted. For a brief period of time, you gain the ability to communicate with fungus. Most fungi tend to be rather ambivalent but they are always willing to answer questions, seeing no reason not to. They know of anything that may have passed through, what the weather will likely be, and what has died in the area recently. Giant and ancient colonies of fungus become incredibly dense with information, collecting ages of death records and lists of the local wildlife."
-        },
-        {
-          "name": "Swarm Form",
-          "level": 4,
-          "castingTime": "Action",
-          "range": "Self",
-          "duration": "1 Hour",
-          "material": "A clay effigy of yourself to break into pieces.",
-          "higher": "At level 5 you may choose to give your swarm form the power of flight.",
-          "effect": "Your body twists and crumbles away; in its place a swarm of vermin and wretched life writhes and spills across the ground in horrid unison. You transform your body into a collection of tiny rat-sized or smaller creatures. You gain advantage on attacks and attacks against you are at disadvantage. Smaller diminutive tasks that require coordination are at advantage, but strength based checks are at disadvantage. In addition, you take double damage from explosions or area based attacks. The swarm weighs the same as you did and moves across the ground at standard speed. Staying in the swarm form for longer than an hour does not end the spell, but every hour after requires a save against charm or be permanently stuck in your swarm form, as the various pieces of you develop semi-sentience and refuse to reform."
-        },
-        {
-          "name": "Take Root",
-          "level": 2,
-          "castingTime": "Action",
-          "range": "Other or Self",
-          "duration": "1 Minute",
-          "material": "A gnarled piece of oak root.",
-          "higher": "",
-          "effect": "Your legs sprout roots, embedding into the ground and rooting you in place. You enroot yourself to the ground, growing stronger and less likely to be buffeted. While under the effects of the spell you move at half speed, cannot be knocked down, and have advantage on all strength-based checks. If you fail to dispell the spell before its allotted time, you must make a save versus poison or have your limbs atrophy and perma- nently take root into the ground."
-        },
-        {
-          "name": "Taste for Blood",
-          "level": 3,
-          "castingTime": "Action",
-          "range": "Other or Self",
-          "duration": "1 Hour",
-          "material": "A drop of Vampire or Vampylf blood.",
-          "higher": "",
-          "effect": "You drink from bloody sap that fills the bodies of living things, which is warm and soothing like honey. You gain the ability to heal yourself from drinking blood. For every pint of blood you drink, you heal 1d6 hit points. There is no limit to the amount of blood you can drink in this fashion as long as the spell persists, your body magically metabolizing it. However, there is a risk. If you heal more than 19 hit points in this fashion there is a 10% chance you gain a terrible addiction to the taste of blood. Even after the spell ends and you gain no healing benefits you will find yourself constantly seeking out blood and even harming others just for a taste."
-        },
-        {
-          "name": "Thorn Cloak",
-          "level": 2,
-          "castingTime": "Action",
-          "range": "Self",
-          "duration": "1 Minute",
-          "material": "A garland of thorns.",
-          "higher": "Increase the damage by 1d4 for every spell level beyond 2.",
-          "effect": "A jumble of bramble vines twist and weave into a cloak around you, their thorns twitch in cruel anticipation. You gain a cloak of thorns that wards off attackers. Each time an enemy successfully attacks you in melee, it suffers 1d4 damage as the thorns lash out and cut it."
-        },
-        {
-          "name": "Tongue of Raven",
-          "level": 1,
-          "castingTime": "Action",
-          "range": "Self",
-          "duration": "Until dispelled.",
-          "material": "A raven's tongue.",
-          "higher": "",
-          "effect": "Your tongue and mind shift, you deconstruct the very fabric of the sounds another person makes, repeating them with your new-found tongue. You gain the ability to perfectly repeat a phrase or word you hear. After casting this spell you lose the ability to speak or communicate in your own words, leaving you only able to repeat words or sounds you hear. You are masterful, and any checks to see through the charade are at disadvantage."
-        },
-        {
-          "name": "Water to Wine",
-          "level": 1,
-          "castingTime": "10 Minutes",
-          "range": "Touch",
-          "duration": "Instant",
-          "material": "A sprig of barley for whiskey, corn kernels for bourbon, a potato for vodka (etc.).",
-          "higher": "You may double the amount of liquid you can transmute and the monetary value of each gallon of liquor produced, for each spell level beyond 1 (2 gallons for 2sp each at level 2, 4 gallons at 4sp each at level 3, etc).",
-          "effect": "You bend the molecules and atoms present in water, breaking and binding them into something “stronger.” You transmute one gallon of water into a gallon of crude spirits. You can choose what proof the drink is, from 40 all the way to 200. It’s not particularly good quality, only fetching 1 silver piece for the full gallon."
-        },
-        {
-          "name": "Whispers on the Wind",
-          "level": 2,
-          "castingTime": "Action",
-          "range": "See Below",
-          "duration": "Instant",
-          "material": "A single dandelion.",
-          "higher": "",
-          "effect": "You utter a phrase or word into the wind, listening as your voice dances and twirls as its carried off with the wind. You may send messages over long distances, dependant on how strong the wind is blowing. You choose a person who you want to hear your message and speak it into the wind. Your message begins traveling at a steady pace and arrives at your chosen target if it is within range.<br>A light breeze - 1 mile per hour. Maximum distance of 12 miles.<br>A moderate wind - 12 miles per hour. Maximum distance of 50 miles.<br>Strong gusts - 36 miles per hour. Maximum distance of 75 miles.<br>Severe wind - 60 miles per hour. Maximum distance of 100 miles.<br>Windstorm or Hurricane - 100 miles per hour. Maximum distance of 300 miles.<br>A tornado - 300 miles per hour. No maximum distance and can even pass into other planes."
-        },
-        {
-          "name": "Wolf Scent",
-          "level": 2,
-          "castingTime": "Action",
-          "range": "Self",
-          "duration": "24 Hours",
-          "material": "A block of wolf or dog fat.",
-          "higher": "",
-          "effect": "Your nose bursts with sensory overload, as the secret world hidden in scents and pheromones opens up to you. You gain the ability to smell like a wolf or hound. In addition to gaining advantage on all perception checks related to smell, you are able to track and hunt other creatures based on smell. All you need to begin your search is a sample of your quarry’s scent and trail."
-        },
-        {
-          "name": "Wyrd Trance",
-          "level": 4,
-          "castingTime": "1 Hour, Ritual",
-          "range": "Self",
-          "duration": "1 Week",
-          "material": "A single eye from an intelligent being.",
-          "higher": "",
-          "effect": "You gaze deeply into the Wyrd, dancing across the infinite branches of fate to discover what lies ahead. You gain 1d3 premonitions about the future. Roll a d20 for each premonition and record their results. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these recorded rolls. You must declare your intention to do so before any roll is made."
-        }
-  ],
-  "plants": [
     {
+      "name": "Coffin Nail",
+      "level": 5,
+      "castingTime": "Action",
+      "range": "120ft",
+      "duration": "Permanent",
+      "material": "A nail from a coffin.",
+      "higher": "You may attack an additional creature for every level beyond 5.",
+      "effect": "A single nail flies from your hand with a bang, immediately implanting itself into the head of another creature, paralyzing it and rendering it helpless. The caster makes a ranged attack. If it hits, the target of the spell is immediately and permanently paralyzed, crumpling to the ground in a limp, motionless state. It is utterly unresponsive and incapable of moving or acting on its own. The only way to undo this state is by forcibly removing the nail from the victim’s skull with a successful strength check."
+    },
+    {
+      "name": "Curse-Mend",
+      "level": 3,
+      "castingTime": "1 Hour, Ritual",
+      "range": "Touch",
+      "duration": "Permanent",
+      "material": "A spool of silver thread.",
+      "higher": "Incur disadvantage against an additional save, attack, or skill for every level beyond 3.",
+      "effect": "You weave a thread through the body of a dying being, restoring them to health but twisting them to your own desire. You may revive one creature or being that has died within the last hour, quietly sewing them back together with a magic thread. They are restored to 1 Hit Point at the end of the spell and bear a series of silvered stitch-marks across their body. The caster may also choose to have the target hobbled or changed in some way by sewing on different body parts or reorganizing their limbs. In addition to any superficial changes the caster may incur a permanent disadvantage against one of the victim's saves, attacks, or skills. The only way to reverse this effect is by having the original caster redo the spell on the affected victim."
+    },
+    {
+      "name": "Disgusting Flesh",
+      "level": 3,
+      "castingTime": "Action",
+      "range": "Touch or Self",
+      "duration": "1 Hour",
+      "material": "A lump of rotten fat (which you ingest).",
+      "higher": "At level 4, the save to avoid the illness is at disadvantage. At level 5, the a failed save also infects the attacker with one random disease.",
+      "effect": "Your flesh becomes rancid and foul smelling; ingesting it causes illness. For the next hour anything that attempts to bite, taste, or eat you must make a saving throw against poison or become violently ill for 1d10 rounds. You also have a rotten stench about you that wards off lesser predators."
+    },
+    {
+      "name": "Dream Lure",
+      "level": 2,
+      "castingTime": "1 Hour, Ritual",
+      "range": "2 Miles",
+      "duration": "1 Hour",
+      "material": "",
+      "higher": "",
+      "effect": "Across the plane of sleep, you reach into the dreams of another, drawing them to you like a moth to flame. You reach out to a single person or creature within 2 miles who is asleep. The sleeper becomes charmed and begins to move to your location in a trance-like state. The sleeper is unaware of their surroundings, still technically asleep, but move purposefully and in the most direct and seemingly safest path towards you."
+    },
+    {
+      "name": "Etherskip",
+      "level": 3,
+      "castingTime": "Action",
+      "range": "Other or Self",
+      "duration": "1 Minute",
+      "material": "A tuft of EtherRat fur.",
+      "higher": "",
+      "effect": "You skip between one dimension and the next, using it to move in erratic teleporting jumps. Each round you may teleport to any location within 30ft of you. However, each time you do so there is a 50% chance you end up in a random location 10ft away from your intended destination."
+    },
+    {
+      "name": "Forceful Stitch",
+      "level": 4,
+      "castingTime": "Action",
+      "range": "60ft",
+      "duration": "1 Minute",
+      "material": "A spool of silver thread and needle made of bone.",
+      "higher": "You may bind one extra creature for every level beyond 4.",
+      "effect": "A line of silver thread burrows into and stitches the flesh of two creatures, binding them together forcefully and painfully. You select two creatures and immediately bind them together with silver thread. They each suffer 3d6 damage as the thread rapidly weaves through their flesh and are immediately pulled tightly next to one another. They remained restrained and suffer 3d6 damage each turn until the spell ends or either one of them makes a successful strength check."
+    },
+    {
+      "name": "Furry Pelt",
+      "level": 1,
+      "castingTime": "Action",
+      "range": "Other or Self",
+      "duration": "8 Hours",
+      "material": "A tuft of your hair and hair from another creature.",
+      "higher": "",
+      "effect": "Your skin sprouts a thin layer of fur all across your body that protects you from the cold. The type and color of your hair depends, but it is always warm and dry enough to provide you with a comfortable sleep during the night as well as avoid most harmful effects of the natural elements."
+    },
+    {
+      "name": "Gentle Moonlight",
+      "level": 4,
+      "castingTime": "1 Hour, Ritual",
+      "range": "Other or Self",
+      "duration": "8 Hours",
+      "material": "A mirror to reflect the moonlight.",
+      "higher": "",
+      "effect": "You commune with the moonlight, letting it soothe and heal your wounds. Once cast, your body heals itself while exposed to moonlight. You heal hit points every hour based on the phase of the moon.<br>New Moon: 1HP/hour.<br>Quarter: 1d4HP/hour.<br>Half: 2d4HP/hour.<br>Three Quarters: 3d4HP/hour.<br>Full: 6d4HP/hour."
+    },
+    {
+      "name": "Gluttonous Consumption",
+      "level": 2,
+      "castingTime": "Instant",
+      "range": "Other or Self",
+      "duration": "1 Hour",
+      "material": "A single mint candy.",
+      "higher": "You may eat an extra 1d6 worth of food for every spell level beyond 2.",
+      "effect": "A hunger descends upon you; there is no limit to how much you can eat! You gain the ability to eat beyond your body's physical limits and store the calories in your body until they are needed. For one hour, you may eat 2d6 days worth of food, relieving you of the need to eat for the following days. You may attempt to eat more, but every day's worth of food beyond the spell’s limit requires a successful save versus poison. Failure causes you to vomit up all of the food you’ve eaten, wasting it."
+    },
+    {
+      "name": "Grisly Retrospect",
+      "level": 3,
+      "castingTime": "Action",
+      "range": "Touch",
+      "duration": "10 Minutes",
+      "material": "A corpse.",
+      "higher": "You may review 10 extra minutes of memories for every spell level beyond 3.",
+      "effect": "You tap into the last memories of a corpse; every sense washes over you as you relive its last moments. You may relive the sensory memories of a single corpse by touching it. The spell is dependant on the state of the corpse: if the eyes are missing or destroyed you are unable to “see” the corpse's memories; if the ears are gone, you cannot “hear,” etc. While the spell is limited to 10 minutes you can review any moment of the corpse’s past but only review 10 minutes worth of memories."
+    },
+    {
+      "name": "Grow Horns",
+      "level": 1,
+      "castingTime": "Action",
+      "range": "Other or Self",
+      "duration": "1 Hour",
+      "material": "A piece of antler or horn.",
+      "higher": "",
+      "effect": "You sprout a pair of magnificent horns or antlers. Shedding their velvet after sprouting, they take whatever form you specify and fall off after the spell’s duration ends. They function as a crude weapon for 1d6. Most lesser creatures give you and your glorious horns a respectful berth."
+    },
+    {
+      "name": "Honey Bolt",
+      "level": 1,
+      "castingTime": "Action",
+      "range": "120ft",
+      "duration": "1 Hour",
+      "material": "A chunk of sticky honeycomb.",
+      "higher": "",
+      "effect": "You fire off a volleyball-sized glob of sticky and sweet honey with enough force to knock a person off of their feet. When the honey bolt hits, the target is knocked prone and engulfed in the sugary gel. Creatures engulfed by the honey are slowed in action and speed, and require a full round-action to clean the honey off themselves. The honey also tends to attract animals, bees, and various other creatures within the vicinity, who attack the engulfed creature in a mad scramble for the delicious honey."
+    },
+    {
+      "name": "Ironguts",
+      "level": 1,
+      "castingTime": "Action",
+      "range": "Self",
+      "duration": "1 Hour",
+      "material": "Some chunks of smooth iron and grain alcohol (which you swallow).",
+      "higher": "At level 2 you can rapidly digest 1 cubic foot worth of wooden materials within an hour due to your gastric juices. At level 3 this includes non magical metals and stone. At level 4, magical items. (You will still have to defecate the remains of your eating...)",
+      "effect": "Your digestive tract becomes so caustic and fortified that even harmful microbial life is eradicated within your stomach. For the next hour you are immune to the harmful effects of anything ingested including, but not limited to: poison, acid, disease, and spoiled food."
+    },
+    {
+      "name": "Pack Mule",
+      "level": 2,
+      "castingTime": "10 Minutes, Ritual",
+      "range": "Other or Self",
+      "duration": "8 Hours",
+      "material": "Mule Jerky.",
+      "higher": "",
+      "effect": "Your back grows strong, the muscles grow tight and durable as they ripple under your skin. Upon casting this spell you double your carry weight for 8 hours. You are not stronger in any other way that exists outside of carrying, lifting, or dragging."
+    },
+    {
+      "name": "Root Bridge",
+      "level": 1,
+      "castingTime": "Action",
+      "range": "Touch",
+      "duration": "Permanent",
+      "material": "",
+      "higher": "For every level beyond 1, multiply the bridge size by the spell level. (10 feet by 40 feet at level 2, 15 feet by 60 feet at level 3, etc.)",
+      "effect": "You touch a patch of tree, root, or vegetation and command a bridge to slowly creep and form before you. It is no wider than 5 ft across and can extend up to 20 ft in length. The bridge can easily hold 500 pounds of weight indefinitely or up to 1000 pounds of weight for a minute. Any weight over that causes it to immediately collapse."
+    },
+    {
+      "name": "Sap Blood",
+      "level": 1,
+      "castingTime": "Action",
+      "range": "Self",
+      "duration": "1 Hour",
+      "material": "A vial of sap mixed with blood.",
+      "higher": "",
+      "effect": "Your blood grows thick, making it harder to bleed out, at least for a time... You change the consistency of your blood to avoid some harm from attacks. The next damage you take after casting this spell is reduced by 1d6 for every Hit Dice you have. The damage you take can never be fully negated; you will always receive at least one point of damage from an attack. After the initial damage, the spell ends and subsequent attacks deal damage normally."
+    },
+    {
+      "name": "Seek Standing Stone",
+      "level": 2,
+      "castingTime": "10 Minutes",
+      "range": "5 Mile Radius",
+      "duration": "Instant",
+      "material": "A piece of a standing stone.",
+      "higher": "Increase the range of the spell by 5 miles for every spell level beyond 2.",
+      "effect": "You close your eyes, your consciousness speeds across the land, seeking a standing stone. You seek out the location and direction of all standing stones within 5 miles of you. Once cast, you know exactly where they are in comparison to yourself. However, the location becomes fuzzy as time goes on, much like regular memory."
+    },
+    {
+      "name": "Shoulder the Burden",
+      "level": 1,
+      "castingTime": "10 Minutes, Ritual",
+      "range": "Other or Self",
+      "duration": "Instant",
+      "material": "Strong brew and a pair of fine drinking cups.",
+      "higher": "You may transfer one extra level of exhaustion for every spell level beyond 1.",
+      "effect": "The weight of travel, hunger, and sleeplessness lifts from you to another willing host. You can transfer one level of exhaustion from one person to another. All rules for exhaustion still apply, and someone who takes on more exhaustion than one can handle will still die"
+    },
+    {
+      "name": "Smoke Signal",
+      "level": 1,
+      "castingTime": "Action",
+      "range": "Touch",
+      "duration": "Until Dispelled",
+      "material": "A fistful of ash.",
+      "higher": "",
+      "effect": "The smoke and vapor twists to your will, the shapes both delicate and incredible. You gain control over the physical shape and appearance of the smoke produced by a source of fire. Save for the size, which is dependent on the size of the fire, there is no limit to the shape of the smoke and it will persist so long as the fire continues to burn or is dispelled."
+    },
+    {
+      "name": "Soothing Moss",
+      "level": 2,
+      "castingTime": "10 Minutes",
+      "range": "Touch",
+      "duration": "8 Hours",
+      "material": "A clump of Kingsleep Moss.",
+      "higher": "",
+      "effect": "Moss erupts from beneath your feet, carpeting the ground in a soft pleasant moss-bed. You temporarily summon a patch of Kingsleep Moss in a 10 foot by 10 foot patch. Sleeping on a bed of Kingsleep Moss has reinvigorating properties. Every full night’s rest on the moss relieves one level of exhaustion."
+    },
+    {
+      "name": "Soul Rot",
+      "level": 4,
+      "castingTime": "Action",
+      "range": "Touch",
+      "duration": "Until Dispelled",
+      "material": "A piece of brain matter.",
+      "higher": "",
+      "effect": "You bestow a terrible curse upon the soul of another, eating away at their very being until there is nothing left but a husk. You curse another being with a horrible ailment that strips away the mind, personality, and soul. The moment the victim becomes inflicted with the spell and every day thereafter, they must make a save versus poison or lose 1d6 to their wisdom, intelligence, or charisma score, chosen randomly. The only way to remove the spell is rolling three consecutive successful saves, the caster dispelling it, or casting a remove curse spell."
+    },
+    {
+      "name": "Speak with Fungus",
+      "level": 1,
+      "castingTime": "Action",
+      "range": "Self",
+      "duration": "1 Hour",
+      "material": "A plump morel.",
+      "higher": "",
+      "effect": "The fungus chatters with small words and curious questions, but with a library of everything they have tasted. For a brief period of time, you gain the ability to communicate with fungus. Most fungi tend to be rather ambivalent but they are always willing to answer questions, seeing no reason not to. They know of anything that may have passed through, what the weather will likely be, and what has died in the area recently. Giant and ancient colonies of fungus become incredibly dense with information, collecting ages of death records and lists of the local wildlife."
+    },
+    {
+      "name": "Swarm Form",
+      "level": 4,
+      "castingTime": "Action",
+      "range": "Self",
+      "duration": "1 Hour",
+      "material": "A clay effigy of yourself to break into pieces.",
+      "higher": "At level 5 you may choose to give your swarm form the power of flight.",
+      "effect": "Your body twists and crumbles away; in its place a swarm of vermin and wretched life writhes and spills across the ground in horrid unison. You transform your body into a collection of tiny rat-sized or smaller creatures. You gain advantage on attacks and attacks against you are at disadvantage. Smaller diminutive tasks that require coordination are at advantage, but strength based checks are at disadvantage. In addition, you take double damage from explosions or area based attacks. The swarm weighs the same as you did and moves across the ground at standard speed. Staying in the swarm form for longer than an hour does not end the spell, but every hour after requires a save against charm or be permanently stuck in your swarm form, as the various pieces of you develop semi-sentience and refuse to reform."
+    },
+    {
+      "name": "Take Root",
+      "level": 2,
+      "castingTime": "Action",
+      "range": "Other or Self",
+      "duration": "1 Minute",
+      "material": "A gnarled piece of oak root.",
+      "higher": "",
+      "effect": "Your legs sprout roots, embedding into the ground and rooting you in place. You enroot yourself to the ground, growing stronger and less likely to be buffeted. While under the effects of the spell you move at half speed, cannot be knocked down, and have advantage on all strength-based checks. If you fail to dispell the spell before its allotted time, you must make a save versus poison or have your limbs atrophy and permanently take root into the ground."
+    },
+    {
+      "name": "Taste for Blood",
+      "level": 3,
+      "castingTime": "Action",
+      "range": "Other or Self",
+      "duration": "1 Hour",
+      "material": "A drop of Vampire or Vampylf blood.",
+      "higher": "",
+      "effect": "You drink from bloody sap that fills the bodies of living things, which is warm and soothing like honey. You gain the ability to heal yourself from drinking blood. For every pint of blood you drink, you heal 1d6 hit points. There is no limit to the amount of blood you can drink in this fashion as long as the spell persists, your body magically metabolizing it. However, there is a risk. If you heal more than 19 hit points in this fashion there is a 10% chance you gain a terrible addiction to the taste of blood. Even after the spell ends and you gain no healing benefits you will find yourself constantly seeking out blood and even harming others just for a taste."
+    },
+    {
+      "name": "Thorn Cloak",
+      "level": 2,
+      "castingTime": "Action",
+      "range": "Self",
+      "duration": "1 Minute",
+      "material": "A garland of thorns.",
+      "higher": "Increase the damage by 1d4 for every spell level beyond 2.",
+      "effect": "A jumble of bramble vines twist and weave into a cloak around you, their thorns twitch in cruel anticipation. You gain a cloak of thorns that wards off attackers. Each time an enemy successfully attacks you in melee, it suffers 1d4 damage as the thorns lash out and cut it."
+    },
+    {
+      "name": "Tongue of Raven",
+      "level": 1,
+      "castingTime": "Action",
+      "range": "Self",
+      "duration": "Until dispelled.",
+      "material": "A raven's tongue.",
+      "higher": "",
+      "effect": "Your tongue and mind shift, you deconstruct the very fabric of the sounds another person makes, repeating them with your new-found tongue. You gain the ability to perfectly repeat a phrase or word you hear. After casting this spell you lose the ability to speak or communicate in your own words, leaving you only able to repeat words or sounds you hear. You are masterful, and any checks to see through the charade are at disadvantage."
+    },
+    {
+      "name": "Water to Wine",
+      "level": 1,
+      "castingTime": "10 Minutes",
+      "range": "Touch",
+      "duration": "Instant",
+      "material": "A sprig of barley for whiskey, corn kernels for bourbon, a potato for vodka (etc.).",
+      "higher": "You may double the amount of liquid you can transmute and the monetary value of each gallon of liquor produced, for each spell level beyond 1 (2 gallons for 2sp each at level 2, 4 gallons at 4sp each at level 3, etc).",
+      "effect": "You bend the molecules and atoms present in water, breaking and binding them into something “stronger.” You transmute one gallon of water into a gallon of crude spirits. You can choose what proof the drink is, from 40 all the way to 200. It’s not particularly good quality, only fetching 1 silver piece for the full gallon."
+    },
+    {
+      "name": "Whispers on the Wind",
+      "level": 2,
+      "castingTime": "Action",
+      "range": "See Below",
+      "duration": "Instant",
+      "material": "A single dandelion.",
+      "higher": "",
+      "effect": "You utter a phrase or word into the wind, listening as your voice dances and twirls as its carried off with the wind. You may send messages over long distances, dependant on how strong the wind is blowing. You choose a person who you want to hear your message and speak it into the wind. Your message begins traveling at a steady pace and arrives at your chosen target if it is within range.<br>A light breeze - 1 mile per hour. Maximum distance of 12 miles.<br>A moderate wind - 12 miles per hour. Maximum distance of 50 miles.<br>Strong gusts - 36 miles per hour. Maximum distance of 75 miles.<br>Severe wind - 60 miles per hour. Maximum distance of 100 miles.<br>Windstorm or Hurricane - 100 miles per hour. Maximum distance of 300 miles.<br>A tornado - 300 miles per hour. No maximum distance and can even pass into other planes."
+    },
+    {
+      "name": "Wolf Scent",
+      "level": 2,
+      "castingTime": "Action",
+      "range": "Self",
+      "duration": "24 Hours",
+      "material": "A block of wolf or dog fat.",
+      "higher": "",
+      "effect": "Your nose bursts with sensory overload, as the secret world hidden in scents and pheromones opens up to you. You gain the ability to smell like a wolf or hound. In addition to gaining advantage on all perception checks related to smell, you are able to track and hunt other creatures based on smell. All you need to begin your search is a sample of your quarry’s scent and trail."
+    },
+    {
+      "name": "Wyrd Trance",
+      "level": 4,
+      "castingTime": "1 Hour, Ritual",
+      "range": "Self",
+      "duration": "1 Week",
+      "material": "A single eye from an intelligent being.",
+      "higher": "",
+      "effect": "You gaze deeply into the Wyrd, dancing across the infinite branches of fate to discover what lies ahead. You gain 1d3 premonitions about the future. Roll a d20 for each premonition and record their results. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these recorded rolls. You must declare your intention to do so before any roll is made."
+    }
+  ],
+  "plants": [{
       "name": "Banshee Morel",
       "description": "A mushroom sprouts from warm shaded soil. Its neck is fat as a log and its head is a soft flesh that resembles many skulls fused together. A dull whistle can be heard from its head.",
       "uses": "When threatened, the mushrooms will push air from their head, creating a piercing wail that causes deafness for 1d6 hours [save versus poison to avoid]. They can be cut down and dried, and have been used as odd makeshift trumpets."
     },
-        {
-          "name": "Beedlesprouts",
-          "description": "Long hardened vines, covered with plump trumpet-shaped buds the color of amber. Growing where it is warm and with plenty of water, they cling to the middle of trees drawing sap from deep within the trunks.",
-          "uses": "When the buds are eaten (and after the vomiting stops), one can faintly hear the trees “singing” for the rest of the day. Soft ephemeral notes without words drift through the air, and grow shrill and venomous when predators are near."
-        },
-        {
-          "name": "Boletus Posterum",
-          "description": "A mushroom, also known as “Fortune-teller’s Folly,” appears as an apple-sized magenta lattice made of impossibly delicate shapes, speckled with white and glowing faintly pink in the dark.",
-          "uses": "It is edible but poisonous, causing weakness and lethargy. Once eaten, the eater will experience a plethora of colorful and vivid hallucinations. Some of these hallucinations are actually visions of the future and allow the character to make 1d3 rerolls for the next week as the visions guide the eater for the near future."
-        },
-        {
-          "name": "Canticle Holly",
-          "description": "A tall strong tree with spiky blue-tinted leaves. Bright white berries cluster together and seem to glow slightly. They grow in the darker parts of the Wilds, and appear as soft beacons to some.",
-          "uses": "Sleeping near these trees relives a level of exhaustion, and dreams are filled with a soft and gentle singing. The berries, which bloom only once in the tree’s lifetime, can be mashed and distilled into a potent mind-altering drug called “Saints’ Respite.”"
-        },
-        {
-          "name": "Carol Trees",
-          "description": "Tall elegant conifer trees grow in fertile and temperate soil. Their trunks and limbs stretch high into the air, the rustling of their silver tinted leaves sound like gentle ringing.",
-          "uses": "Resting near a Carol Tree and hearing its gentle song has soothing properties, healing 1d8 hit point for every hour spent listening. However, listening for any longer than one hour risks falling into a deep slumber that does not end unless woken up. [Save versus charm or fall asleep, with success still causing one level of exhaustion.] Groves of Carol Trees are dangerous, and many adventurers have fallen to their death in a peaceful slumber, all from the trees' sonorous lullaby."
-        },
-        {
-          "name": "Coal-nettle",
-          "description": "Stiff brittle shrubs of this foul-smelling plant appear as tufts of black, prickly spruce pine. Present in the colder reaches, they reek of sulfur and have needles that can pierce leather.",
-          "uses": "Burns incredibly well, if not foul-smelling and with ridiculous amounts of smoke. However, when dried and ground into the finest grain possible it takes on an almost explosive quality when exposed to fire, much like gunpowder."
-        },
-        {
-          "name": "Dame’s Seal",
-          "description": "A regal and elegant flower resembling an extremely elongated tulip. It is white with delicate veins of crimson and purple.",
-          "uses": "They fetch a fair price to certain nobles who care for their beauty. Alchemists pay for the preservative qualities they give to liquids if dried and ground to a powder."
-        },
-        {
-          "name": "Deer Weed",
-          "description": "A leafless sprout made of tall hard branches that resemble antlers. Their color transitions from a dark mottled grey to a pristine bone.",
-          "uses": "Deceitful but enterprising individuals may be able to pass off the weed as legitimate antler. While it may fool a noble, skilled craftsmen and deepwood hunters know the difference."
-        },
-        {
-          "name": "Dirkberry",
-          "description": "A wretched and mottled brown bush clings to the ground. It is a maze of stiff dagger-length thorns that jealousy hide clumps of soft, jewel-like berries.",
-          "uses": "The berries are required for a pair of incredibly rare and special brews. One is called \"Dirk-Fighter Brandy\", a stiff liquor which invigorates the body and a favorite among pit-fighters and prize-fighters. The other is a sharp wine called “Bladed Caress”, which allows one’s mind to flow more freely and is popular among noble or wealthy artisans."
-        },
-        {
-          "name": "Elf-ear",
-          "description": "A type of grass. Green with fat blades that curve and taper to a point resembling elf ears. They make strange harmonic sounds in the wind.",
-          "uses": "After dried and if properly placed between the thumbs, they can be used as a makeshift whistle that attracts some wildlife with its unearthly hum."
-        }, {
-          "name": "Gristle Pear",
-          "description": "A fat squat tree grows in scree at high elevations. Its bark is warted and coated in a viscous film, the leaves droop like wet mayfly wings, and several plum fruits dangle like melted tallow. The fruit is a fistful of fat and gristled meat, always warm and wet.",
-          "uses": "Despite its disgusting nature (and difficulty to chew), Gristle Pears are quite nutritious; eating just one is enough to feed a grown adult for a day."
-        }, {
-          "name": "Kingsleep Moss",
-          "description": "Large soft beds of pale turquoise moss coat the ground. It is soft as down pillows and smells of home.",
-          "uses": "Sleeping on a bed of Kingsleep Moss has reinvigorating properties. Every full night’s rest on the moss relieves one level of exhaustion."
-        }, {
-          "name": "Knitting Onion",
-          "description": "Long green threads of grass weave together in uncanny geometric patterns. The onions themselves are slender like carrots and have white flesh that brings tears and runny noses.",
-          "uses": "Children look for images and words in the oddly woven grass of their stalks. The onion can be eaten or used like smelling salts if cracked open in front of someone’s nose, reviving even someone who has fallen unconscious or asleep."
-        }, {
-          "name": "Night Cherry",
-          "description": "A dark tree grows near dark, warm marshes. Its flowers the color of night, roots gripping the ground lecherously. There are cherries as black as obsidian, but insides bleed red like blood.",
-          "uses": "Eating one causes a comatose state for nearly an hour per cherry, the mind of the victim plagued with unpleasant visions. If processed into an extract it becomes a dangerous poison called Red Slumber."
-        }, {
-          "name": "Obsequy Ragwort",
-          "description": "Clusters of thin weeds grow tall near fresh moving water and cold streams. Small wildflowers crown the stems, with bone white flowers touched by ultramarine veins.",
-          "uses": "Highly prized in funeral rites for their protection against necromancy. Clerics pay a healthy sum for fresh bundles. Bodies buried with the flower as garland or stuffed into them will never rise as an undead or vengeful spirit."
-        }, {
-          "name": "Pissboils",
-          "description": "Lumps of foul smelling fungus grow where much is rotting. They smell of hot cat urine and resemble half buried cow stomachs that have bloated in the sun.",
-          "uses": "Stepping on a Pissboil causes it to explode in a shower of caustic and foul smelling liquid. The liquid has a tendency to cause short term memory loss and attract predators with a sense of smell. If properly harvested, the liquid is sought after by artificers and metal smiths for use in metal etching and tinting."
-        }, {
-          "name": "Plump Friars",
-          "description": "A tall weed grows where sun and water are plenty. As tall as a man, thin vines end in twisting filigree-like flowers and produce plump berries the size of plums and color of blushed cheeks.",
-          "uses": "Eating Plump Friar fruit causes a slight dizziness and spotty vision, but is altogether delicious and pleasant. Brewing the fruit into a wine or distilling it into a concentrate creates a potent elixir that produces feelings of intense euphoria and vivid hallucinations for hours on end. Illegal almost everywhere, the black market pays handsomely for the fruits and a small fortune for the elixir."
-        }, {
-          "name": "Ring Root",
-          "description": "A sweet smelling shrub grows wide and thick in lower elevations. The leaves are sharp like thorns, while their roots form in conjoined rings, looking like earthen chainmail.",
-          "uses": "The roots can be boiled and eaten for a good meal. More importantly, when eaten raw and fresh it is able to help neutralize poison in the body [Immediately make a save against any poison consumed in the last day at advantage]."
-        }, {
-          "name": "Scribe’s Birch",
-          "description": "A tall pale tree with ashen leaves. Its white bark comes off in thin vellum-like sheets and it grows straight as a fencepost. It can be found in temperate mountains, the elevation being preferable to its growth.",
-          "uses": "Its bark comes off easily and can be used as a decent substitute for parchment. Scribes and paper dealers pay handsomely for pounds of the sheets."
-        }, {
-          "name": "Swineweed",
-          "description": "Tall loathsome green stalks sprout from damp soil. They stretch two meters tall with wide leaves coated in thorns and limbs terminating in tiny grey flowers.",
-          "uses": "When burned, the plant produces torrents of a thick, horrid smelling smoke. The smoke causes blindness for 1d6 hours [save versus poison to avoid]."
-        }
-  ],
-  "traps": [
     {
+      "name": "Beedlesprouts",
+      "description": "Long hardened vines, covered with plump trumpet-shaped buds the color of amber. Growing where it is warm and with plenty of water, they cling to the middle of trees drawing sap from deep within the trunks.",
+      "uses": "When the buds are eaten (and after the vomiting stops), one can faintly hear the trees “singing” for the rest of the day. Soft ephemeral notes without words drift through the air, and grow shrill and venomous when predators are near."
+    },
+    {
+      "name": "Boletus Posterum",
+      "description": "A mushroom, also known as “Fortune-teller’s Folly,” appears as an apple-sized magenta lattice made of impossibly delicate shapes, speckled with white and glowing faintly pink in the dark.",
+      "uses": "It is edible but poisonous, causing weakness and lethargy. Once eaten, the eater will experience a plethora of colorful and vivid hallucinations. Some of these hallucinations are actually visions of the future and allow the character to make 1d3 rerolls for the next week as the visions guide the eater for the near future."
+    },
+    {
+      "name": "Canticle Holly",
+      "description": "A tall strong tree with spiky blue-tinted leaves. Bright white berries cluster together and seem to glow slightly. They grow in the darker parts of the Wilds, and appear as soft beacons to some.",
+      "uses": "Sleeping near these trees relives a level of exhaustion, and dreams are filled with a soft and gentle singing. The berries, which bloom only once in the tree’s lifetime, can be mashed and distilled into a potent mind-altering drug called “Saints’ Respite.”"
+    },
+    {
+      "name": "Carol Trees",
+      "description": "Tall elegant conifer trees grow in fertile and temperate soil. Their trunks and limbs stretch high into the air, the rustling of their silver tinted leaves sound like gentle ringing.",
+      "uses": "Resting near a Carol Tree and hearing its gentle song has soothing properties, healing 1d8 hit point for every hour spent listening. However, listening for any longer than one hour risks falling into a deep slumber that does not end unless woken up. [Save versus charm or fall asleep, with success still causing one level of exhaustion.] Groves of Carol Trees are dangerous, and many adventurers have fallen to their death in a peaceful slumber, all from the trees' sonorous lullaby."
+    },
+    {
+      "name": "Coal-nettle",
+      "description": "Stiff brittle shrubs of this foul-smelling plant appear as tufts of black, prickly spruce pine. Present in the colder reaches, they reek of sulfur and have needles that can pierce leather.",
+      "uses": "Burns incredibly well, if not foul-smelling and with ridiculous amounts of smoke. However, when dried and ground into the finest grain possible it takes on an almost explosive quality when exposed to fire, much like gunpowder."
+    },
+    {
+      "name": "Dame’s Seal",
+      "description": "A regal and elegant flower resembling an extremely elongated tulip. It is white with delicate veins of crimson and purple.",
+      "uses": "They fetch a fair price to certain nobles who care for their beauty. Alchemists pay for the preservative qualities they give to liquids if dried and ground to a powder."
+    },
+    {
+      "name": "Deer Weed",
+      "description": "A leafless sprout made of tall hard branches that resemble antlers. Their color transitions from a dark mottled grey to a pristine bone.",
+      "uses": "Deceitful but enterprising individuals may be able to pass off the weed as legitimate antler. While it may fool a noble, skilled craftsmen and deepwood hunters know the difference."
+    },
+    {
+      "name": "Dirkberry",
+      "description": "A wretched and mottled brown bush clings to the ground. It is a maze of stiff dagger-length thorns that jealousy hide clumps of soft, jewel-like berries.",
+      "uses": "The berries are required for a pair of incredibly rare and special brews. One is called \"Dirk-Fighter Brandy\", a stiff liquor which invigorates the body and a favorite among pit-fighters and prize-fighters. The other is a sharp wine called “Bladed Caress”, which allows one’s mind to flow more freely and is popular among noble or wealthy artisans."
+    },
+    {
+      "name": "Elf-ear",
+      "description": "A type of grass. Green with fat blades that curve and taper to a point resembling elf ears. They make strange harmonic sounds in the wind.",
+      "uses": "After dried and if properly placed between the thumbs, they can be used as a makeshift whistle that attracts some wildlife with its unearthly hum."
+    }, {
+      "name": "Gristle Pear",
+      "description": "A fat squat tree grows in scree at high elevations. Its bark is warted and coated in a viscous film, the leaves droop like wet mayfly wings, and several plum fruits dangle like melted tallow. The fruit is a fistful of fat and gristled meat, always warm and wet.",
+      "uses": "Despite its disgusting nature (and difficulty to chew), Gristle Pears are quite nutritious; eating just one is enough to feed a grown adult for a day."
+    }, {
+      "name": "Kingsleep Moss",
+      "description": "Large soft beds of pale turquoise moss coat the ground. It is soft as down pillows and smells of home.",
+      "uses": "Sleeping on a bed of Kingsleep Moss has reinvigorating properties. Every full night’s rest on the moss relieves one level of exhaustion."
+    }, {
+      "name": "Knitting Onion",
+      "description": "Long green threads of grass weave together in uncanny geometric patterns. The onions themselves are slender like carrots and have white flesh that brings tears and runny noses.",
+      "uses": "Children look for images and words in the oddly woven grass of their stalks. The onion can be eaten or used like smelling salts if cracked open in front of someone’s nose, reviving even someone who has fallen unconscious or asleep."
+    }, {
+      "name": "Night Cherry",
+      "description": "A dark tree grows near dark, warm marshes. Its flowers the color of night, roots gripping the ground lecherously. There are cherries as black as obsidian, but insides bleed red like blood.",
+      "uses": "Eating one causes a comatose state for nearly an hour per cherry, the mind of the victim plagued with unpleasant visions. If processed into an extract it becomes a dangerous poison called Red Slumber."
+    }, {
+      "name": "Obsequy Ragwort",
+      "description": "Clusters of thin weeds grow tall near fresh moving water and cold streams. Small wildflowers crown the stems, with bone white flowers touched by ultramarine veins.",
+      "uses": "Highly prized in funeral rites for their protection against necromancy. Clerics pay a healthy sum for fresh bundles. Bodies buried with the flower as garland or stuffed into them will never rise as an undead or vengeful spirit."
+    }, {
+      "name": "Pissboils",
+      "description": "Lumps of foul smelling fungus grow where much is rotting. They smell of hot cat urine and resemble half buried cow stomachs that have bloated in the sun.",
+      "uses": "Stepping on a Pissboil causes it to explode in a shower of caustic and foul smelling liquid. The liquid has a tendency to cause short term memory loss and attract predators with a sense of smell. If properly harvested, the liquid is sought after by artificers and metal smiths for use in metal etching and tinting."
+    }, {
+      "name": "Plump Friars",
+      "description": "A tall weed grows where sun and water are plenty. As tall as a man, thin vines end in twisting filigree-like flowers and produce plump berries the size of plums and color of blushed cheeks.",
+      "uses": "Eating Plump Friar fruit causes a slight dizziness and spotty vision, but is altogether delicious and pleasant. Brewing the fruit into a wine or distilling it into a concentrate creates a potent elixir that produces feelings of intense euphoria and vivid hallucinations for hours on end. Illegal almost everywhere, the black market pays handsomely for the fruits and a small fortune for the elixir."
+    }, {
+      "name": "Ring Root",
+      "description": "A sweet smelling shrub grows wide and thick in lower elevations. The leaves are sharp like thorns, while their roots form in conjoined rings, looking like earthen chainmail.",
+      "uses": "The roots can be boiled and eaten for a good meal. More importantly, when eaten raw and fresh it is able to help neutralize poison in the body [Immediately make a save against any poison consumed in the last day at advantage]."
+    }, {
+      "name": "Scribe’s Birch",
+      "description": "A tall pale tree with ashen leaves. Its white bark comes off in thin vellum-like sheets and it grows straight as a fencepost. It can be found in temperate mountains, the elevation being preferable to its growth.",
+      "uses": "Its bark comes off easily and can be used as a decent substitute for parchment. Scribes and paper dealers pay handsomely for pounds of the sheets."
+    }, {
+      "name": "Swineweed",
+      "description": "Tall loathsome green stalks sprout from damp soil. They stretch two meters tall with wide leaves coated in thorns and limbs terminating in tiny grey flowers.",
+      "uses": "When burned, the plant produces torrents of a thick, horrid smelling smoke. The smoke causes blindness for 1d6 hours [save versus poison to avoid]."
+    }
+  ],
+  "traps": [{
     "name": "Amoeba Bog",
     "description": "Stagnant water that is surprisingly clean sits still, save for the occasional rhythmic shimmer. It is a swamp that is host to a single giant amoeba that grew out of control and consumed everything in the water. It now hunts those who enter or draw too close, attacking with fat pseudopods.",
     "detect": "The water shimmers and moves like a living gelatin.",
@@ -807,6 +1268,5 @@
     "detect": "Those capable of sensing magic perceive the distortion of reality, while those attuned to the Wyrd immediately know of the danger posed.",
     "effect": "The Wyrd magics are so strong that the very rules that govern reality breakdown and distort. Entering into the Wyrd Flare causes a random effect from the “Wyrd Effects and Curses” chart [pg. 183].",
     "disable": "Bearing items, treasures or pieces from a Wild Elf."
-  }
-  ]
+  }]
 }
