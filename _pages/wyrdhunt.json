@@ -432,7 +432,7 @@
   "creatures": [{
       "name": "Ailiper",
       "page": 30,
-      "marks": 10,
+      "marks": 4,
       "ac": "As Leather",
       "hd": 1,
       "hp": 5,
@@ -445,7 +445,7 @@
     {
       "name": "Arcanus Arachni",
       "page": 32,
-      "marks": 10,
+      "marks": 2,
       "ac": "None (automatically hit)",
       "hd": 1,
       "hp": 1,
@@ -457,7 +457,7 @@
     }, {
       "name": "Bauik",
       "page": 34,
-      "marks": 10,
+      "marks": 7,
       "ac": "As Studded Leather",
       "hd": 4,
       "hp": 22,
@@ -469,7 +469,7 @@
     }, {
       "name": "Blight Motes",
       "page": 36,
-      "marks": 10,
+      "marks": 6,
       "ac": "As Leather",
       "hd": 2,
       "hp": 10,
@@ -481,7 +481,7 @@
     }, {
       "name": "Blukstound",
       "page": 38,
-      "marks": 10,
+      "marks": 11,
       "ac": "As Hide",
       "hd": 6,
       "hp": 32,
@@ -493,7 +493,7 @@
     }, {
       "name": "Bramble Beast",
       "page": 40,
-      "marks": 10,
+      "marks": 17,
       "ac": "As Scale",
       "hd": 10,
       "hp": 50,
@@ -505,7 +505,7 @@
     }, {
       "name": "Briarscoffs",
       "page": 42,
-      "marks": 10,
+      "marks": 3,
       "ac": "As Leather",
       "hd": 1,
       "hp": 1,
@@ -517,7 +517,7 @@
     }, {
       "name": "Cacophonous Crowmen",
       "page": 44,
-      "marks": 10,
+      "marks": 4,
       "ac": "As Leather",
       "hd": 1,
       "hp": 6,
@@ -529,7 +529,7 @@
     }, {
       "name": "Cherub",
       "page": 46,
-      "marks": 10,
+      "marks": 4,
       "ac": "As Leather",
       "hd": 1,
       "hp": 5,
@@ -541,7 +541,7 @@
     }, {
       "name": "Children of the Woods",
       "page": 48,
-      "marks": 10,
+      "marks": 12,
       "ac": "As Scale",
       "hd": 8,
       "hp": 40,
@@ -550,10 +550,11 @@
       "quantity": "Solo",
       "XP": 1000,
       "extra": "Wyrd Aura: Anyone in the company of a Child of the Woods for more than a day suffers a random Call of the Wild (pg.20). Lords of the Wild: Lesser animals within eyesight of a Child of the Woods obey any command it may give."
-    }, {
+    },
+    {
       "name": "Cindershams",
       "page": 50,
-      "marks": 10,
+      "marks": 6,
       "ac": "As Hide",
       "hd": 4,
       "hp": 20,
@@ -562,6 +563,605 @@
       "quantity": "Solo or Pack 1d6",
       "XP": 500,
       "extra": "Cinder Breath: As Attack, the Cindersham belches out a gout of sparks and ash. Save versus breath weapon or suffer 2d6 fire damage. Hot Flare: As Attack, the Cindersham releases an explosive burst of light. Save versus breath weapon or suffer blindness for 1 minute."
+    },
+    {
+      "name": "Curseweald",
+      "page": 51,
+      "marks": 5,
+      "ac": "As Plate",
+      "hd": 15,
+      "hp": 140,
+      "move": "None",
+      "damage": "Noose vines, range 50 ft, 1d8 and Strangle",
+      "quantity": "Solo",
+      "XP": 3200,
+      "extra": "Unholy: Divine magic has advantage against it. Despoiled Aura: The land around a Curseweald is poisonous and foul. If within one mile of a Curseweald for more than 1 hour, save versus poison or suffer 1 level of exhaustion. Strangle: Save versus hold or suffer another 1d8 points of nonlethal damage from asphyxiation. Spells - 3/day: Dream Lure, Sleep"
+    },
+    {
+      "name": "Devil Stag",
+      "page": 54,
+      "marks": 15,
+      "ac": "As Hide",
+      "hd": 7,
+      "hp": 35,
+      "move": "Double Standard",
+      "damage": "Horns 1d8",
+      "quantity": "Solo",
+      "XP": 900,
+      "extra": "Visions of Grandeur: As a Gaze Attack, save versus charm or see a grand and impossibly glorious future for yourself. You are blinded and charmed."
+    },
+    {
+      "name": "Dire Horsehair Worm",
+      "page": 56,
+      "marks": 8,
+      "ac": "As Hide",
+      "hd": 5,
+      "hp": 25,
+      "move": "Standard, Swim Double Standard",
+      "damage": "Bite 1d6 and Burrow",
+      "quantity": "Solo or Cluster 1d4",
+      "XP": 500,
+      "extra": "Burrow: Save versus breath, failure means the Dire Horsehair Worm begins to burrow into the body, dealing 1d6 automatic damage for 1d4+5 rounds, after which it is fully burrowed into the victim’s body. A successful strength check stops this process by violently ripping the Dire Horsehair Worm away."
+    },
+    {
+      "name": "Dragon Ticks",
+      "page": 57,
+      "marks": 6,
+      "ac": "As Scale (or Leather if engorged)",
+      "hd": 2,
+      "hp": 10,
+      "move": "Half Standard",
+      "damage": "Bite 1d10 and Blood Drain",
+      "quantity": "Solo, Pair, or Cluster 1d6",
+      "XP": 150,
+      "extra": "Adamantine Teeth: Non-magical armor provides no protection from the Dragon Tick’s bite attack. Blood Drain: Save versus breath, failure means the Dragon Tick begins to burrow into the body, dealing 1d4 automatic damage each round as it drains the victim’s blood. A successful strength check stops this process by violently ripping the Dragon Tick away."
+    },
+    {
+      "name": "Dryadi Hunter",
+      "page": 60,
+      "marks": 6,
+      "ac": "As Hide",
+      "hd": 2,
+      "hp": 10,
+      "move": "Standard",
+      "damage": "As Weapon (Shortbow & Dagger)",
+      "quantity": "Solo, Pair, or Party (1d6)",
+      "XP": 100,
+      "extra":""
+    },
+    {
+      "name": "Dryadi Wytch",
+      "page": 60,
+      "marks": 8,
+      "ac": "As Hide",
+      "hd": 4,
+      "hp": 20,
+      "move": "Standard",
+      "damage": "As Weapon",
+      "quantity": "Solo, Pair, or Circle 1d6",
+      "XP": 500,
+      "extra": "Spells: A Dryadi Wytch knows 1d6 spells from levels 1 through 3 and can cast 1d6 per day."
+    },
+    {
+      "name": "Rotwood Dryadi",
+      "page": 61,
+      "marks": 10,
+      "ac": "As Leather",
+      "hd": 2,
+      "hp": 11,
+      "move": "Standard",
+      "damage": "As Weapon or Claws 1d4",
+      "quantity": "Solo, Gang 1d6, or Mob 3d6",
+      "XP": 125,
+      "extra": "Mob Mentality: A Rotwood Dryadi has advantage on attacks against an opponent if another Rotwood is attacking the same target. Rotted: Rotwood Dryadi are immune to poison. Vulnerable to Fire: Rotwood Dryadis’ dry-rotted bodies are vulnerable to fire. They take double damage from fire and they actively flee from it."
+    },
+    {
+      "name": "Fell Hunter",
+      "page": 61,
+      "marks": 12,
+      "ac": "As Chain",
+      "hd": 8,
+      "hp": 40,
+      "move": "Double Standard",
+      "damage": "As Weapon (Longbow & Longsword)",
+      "quantity": "Solo, Pair, or Doomhunt (1d6 and 1d4 Trained Blukstounds)",
+      "XP": 1000,
+      "extra": "Adamantine Weapons: Non-magical armor provides no protection from the Fell Hunter’s blades and arrows. Fell Strike: A Fell Hunter will study a single target for weeks on end, learning its weaknesses. The Fell Hunter has advantage on attacks against its chosen target."
+    },
+    {
+      "name": "Ether-Rat",
+      "page": 62,
+      "marks": 4,
+      "ac": "As Leather",
+      "hd": 1,
+      "hp": 4,
+      "move": "Standard",
+      "damage": "Bite and Claw 1d4",
+      "quantity": "Solo, Pair, or Pack 1d6",
+      "XP": 75,
+      "extra": "Ethereal Jaunt: The Ether-Rat can 'hop' between dimensions, disappearing for one round, before reappearing one round later in a random space 1d20x5 feet away."
+    },
+    {
+      "name": "False Beggar",
+      "page": 64,
+      "marks": 13,
+      "ac": "As Hide",
+      "hd": 11,
+      "hp": 55,
+      "move": "Standard",
+      "damage": "Petrified Cane 1d10/1d10",
+      "quantity": "Solo",
+      "XP": 2000,
+      "extra": "False Beggar's Curse: Once per day as Attack, Shouts a vicious sing-song rhyme at a character. Save versus charm, poison, or breath weapon (GM determines) or suffer a curse. Pummel: Attack for 1d10, then save versus hold or be knocked back 1d4x5 feet and prone."
+    },
+    {
+      "name": "Feral Knight",
+      "page": 66,
+      "marks": 7,
+      "ac": "As Plate (and shield if wielding one).",
+      "hd": 8,
+      "hp": 45,
+      "move": "Standard",
+      "damage": "As Weapon",
+      "quantity": "Solo",
+      "XP": 1100,
+      "extra": "Relentless: Immune to fear, will never flee from a battle, and fights for 1d3 rounds after dropping to 0 HP. Leaping Strike: Leap 30 feet, then land on opponent and attack with weapon. Save versus breath weapon or be knocked prone."
+      
+    },
+    {
+      "name": "Gastropal",
+      "page": 68,
+      "marks": 5,
+      "ac": "As Leather",
+      "hd": 1,
+      "hp": 2,
+      "move": "Half Standard",
+      "damage": "Nibble 1d2",
+      "quantity": "Solo or Clutch 1d6",
+      "XP": 15,
+      "extra":""
+    },
+    {
+      "name": "Goeroe",
+      "page": 70,
+      "marks": 8,
+      "ac": "As Scale",
+      "hd": 9,
+      "hp": 45,
+      "move": "Half Standard, Swim Standard",
+      "damage": "Bite 2d6 and Swallow Whole.",
+      "quantity": "Solo",
+      "XP": 1150,
+      "extra": "Goeroe Cry: Save versus fear, or become Frightened. Swallow Whole: Save versus breath weapon or become swallowed in its gullet."
+    },
+    {
+      "name": "Grimmking",
+      "page": 71,
+      "marks": 20,
+      "ac": "As Scale",
+      "hd": 20,
+      "hp": 300,
+      "move": "Standard",
+      "damage": "Crushing Blows and Nightmare Maws 1d10/1d10/1d10",
+      "quantity": "Solo",
+      "XP": 20000,
+      "extra": "Consume: A creature rendered unconcious near a Grimmking must save vesus poison. Failure means the victum is pulled in and added to its form, immediately killing it and healing the Grimmking a number of hit points equal to the HD of the creature consumed. Master of the Wyrd and Wild: Grimmkings are the chaotic will of the Wyrd and Wild made flesh. Any interaction with the Grimmking has a random effect (see table). Unbroken March: The Grimmking's movement is unaffected by terrain or magic. Its stride remains unbroken. Wyrd Aura: The Wyrd power embodied within the Grimmking causes bodies and minds to twist and warp. Every minute spent within eyesight of the Grimmking requires a roll on the Call of the Wild Table (pg. 20). Spells: 1d12 random spells from level 1 to 9."
+    },
+    {
+      "name": "Gripple Bats",
+      "page": 74,
+      "marks": 4,
+      "ac": "As Scale",
+      "hd": 3,
+      "hp": 18,
+      "move": "Fly Double Standard",
+      "damage": "Wing Slam, 1d6 and Grapple",
+      "quantity": "Solo, Clutch 1d6, or Swarm 2d6",
+      "XP": 250,
+      "extra": "Flesh Meld: Once grappled the Gripple Bat adheres to the skin of the victim and drains 1d8 Hit Points each round until forcibly removed or killed. It heals 1d4 Hitpoints every time it does this. Removing it forcibly deals 1d6 damage as it is ripped from the body. Eyeless Sight: The Gripple Bat uses hearing, smelling, and heat detection to find its prey."
+    },
+    {
+      "name": "Hermit Spider",
+      "page": 76,
+      "marks": 5,
+      "ac": "As Plate",
+      "hd": 8,
+      "hp": 40,
+      "move": "Standard",
+      "damage": "Bite 1d10",
+      "quantity": "Solo or Pair",
+      "XP": 900,
+      "extra": "Snatch: As Attack, if target is below half HP, they are dragged into the log and suffer 2d6 damage every round until they are freed or escape."
+    },
+    {
+      "name": "Jukkenrotter",
+      "page": 78,
+      "marks": 13,
+      "ac": "As Scale",
+      "hd": 12,
+      "hp": 65,
+      "move": "Standard",
+      "damage": "Claws 1d8/1d8 and Decay",
+      "quantity": "Solo",
+      "XP": 2400,
+      "extra": "Eyes of Time: The Jukkenrotter makes attacks at advantage, as it peers into the future. Life Bloom: Colorful microbial and fungal life sprouts around the Jukkenrotter. The terrain around it is always treated as rough and save versus poison or suffer one random disease. Decay: Anything touched by the Jukkenrotter must save versus magic or suffer 1d4x1d4 damage as flesh decays, mold blooms, and armor rusts to dust."
+    },
+    {
+      "name": "Kair",
+      "page": 80,
+      "marks": 23,
+      "ac": "As Hide",
+      "hd": 20,
+      "hp": "Cannot be Damaged",
+      "move": "None",
+      "damage": "See below (Metaphysical Consumption)",
+      "quantity": "Solo",
+      "XP": "???",
+      "extra": "Metaphysical Consumption: The moment adventurers set foot into a Kair's mouth, they must make a save versus charm or magic a number of times until they roll a successful save, to avoid being drawn further into the Kair and consumed. (See Sidebar for details on the various effects.)"
+    },
+    {
+      "name": "Kyrkogrim",
+      "page": 82,
+      "marks": 11,
+      "ac": "As Hide",
+      "hd": 8,
+      "hp": 45,
+      "move": "Standard",
+      "damage": "Slam and horns 1d8/1d6",
+      "quantity": "Solo",
+      "XP": 1100,
+      "extra": "Primal Terror: The first moment you witness the Kyrkogrim, make a save versus fear. Failure means you become panicked. Shadow Jaunt: Can appear in any shadow within 50 feet of it as a move. Dimensional Snatch: Once per day, if it hits with an attack, it may choose to do no damage. Instead, pulling the victim into itself, trans- porting them to a dimension between moments for 1d4 rounds. At the end of the time, the victim reappears 100 feet from where they were last standing and suffers 1d6 cold damage."
+    },
+    {
+      "name": "Linnorm",
+      "page": 84,
+      "marks": 16,
+      "ac": "As Plate",
+      "hd": 20,
+      "hp": 400,
+      "move": "Standard",
+      "damage": "1d8 Hands 1d4, Bite 2d12",
+      "quantity": "Solo",
+      "XP": 20000,
+      "extra": "Expel Vermin: Once per Day, the Linnorm clenches the eroded and filth-ridden muscles across its body, expelling 10HD worth of vermin and other creatures that may be hiding in its body. Vile Breath: As Attack, The Linnorm vomits a primordial and cancerous bile. All within a 20ft by 50ft save versus breath weapon or take 10d6 acid damage. Those who inhale the fumes the round after must save versus poison or take 1 Constitution damage for the next 1d6 rounds. Swallow Whole: As Attack, Grapple, Victim is swallowed whole. They take 4d6 damage every turn unless they cut themselves out or are cut out by another. The Old Magic: The Linnorm is adept in magics older than anything that exists today. Casting spells on a Linnorm have a 50% of reflecting back at the caster. Spells: 4d6+2 Spells Between Level 1-9."
+    },
+    {
+      "name": "Living Idol",
+      "page": 86,
+      "marks": 4,
+      "ac": "Varies, Dependent on construction",
+      "hd": "1 per 5 followers (Avg. 6)",
+      "hp": "30 (As 6 Hit Dice)",
+      "move": "Standard",
+      "damage": "1d6 Slam",
+      "quantity": "Solitary",
+      "XP": "50XP per Hit Dice",
+      "extra": "False God's Favor: Each turn, the Living Idol can grant one of its followers advantage on all rolls for one turn. Follower must be within eyesight. Call to Worship: Each turn can attempt to CHARM ENEMIES into becoming worshipers. Must save vesus Charm or become a follower. Reroll save with advantage if attacked."
+    },
+    {
+      "name": "Mire Ghost",
+      "page": 6,
+      "marks": 10,
+      "ac": "As Leather",
+      "hd": 5,
+      "hp": 25,
+      "move": "Fly Standard",
+      "damage": "Chill Touch 1d8 cold",
+      "quantity": "Solo",
+      "XP": 600,
+      "extra": "Undying: As a spectre, there is only a 50% chance that defeating the Mire Ghost actually kills it. If not killed, it returns. The Chills: Every minute the Mire Ghost drops the surrounding temperature by 10 degrees Farenheit or 6 degrees Celcius."
+    },
+    {
+      "name": "Moonslaver",
+      "page": 90,
+      "marks": 7,
+      "ac": "As Leather",
+      "hd": 6,
+      "hp": 30,
+      "move": "Fly Standard",
+      "damage": "Tendrils 1d6 acid",
+      "quantity": "Solo or Congregation (1 plus 4d6 enslaved thralls)",
+      "XP": 750,
+      "extra": "Lure: Anyone within sight must save versus charm or become entranced with the Moonslaver, slowly moving towards it while disposing of weapons and armor. Enslave: As Attack, the Moonslaver implants a long thin tendril into the skull of an unconscious, paralyzed, or willing victim; reorganizing their brain in an attempt to turn them into a thrall. Save versus madness or charm; a success leaves the victim conscious but paralyzed, while a failure causes them to become a thrall to the Moonslaver."
+    },
+    {
+      "name": "Mycelium Zombie",
+      "page": 92,
+      "marks": 4,
+      "ac": "As Leather",
+      "hd": 2,
+      "hp": 12,
+      "move": "Standard",
+      "damage": "Claws 1d4/1d4 or Bite 1d8",
+      "quantity": "Solo, Group 1d6, Outbreak 4d6",
+      "XP": 125,
+      "extra": "Spore Breath: As Attack, 15ft cone of Rotten Masque spores (see sidebar), save versus breath to avoid. Explosive Death: When killed there is a 1-in-4 chance the Mycelium Zombie explodes in a cloud of spores. All within 15ft of the corpse must save versus breath or inhale Rotten Masque spores (see sidebar)."
+    },
+    {
+      "name": "Oracle Sludge",
+      "page": 94,
+      "marks": 6,
+      "ac": "As Hide",
+      "hd": 6,
+      "hp": 30,
+      "move": "Half Standard",
+      "damage": "Tendril 1d8 acid",
+      "quantity": "Solo or Cluster 1d6",
+      "XP": 750,
+      "extra": "Absorb Memories: The Oracle Sludge reads the surface thoughts and memories of anyone it touches. It gains advantage on attacks and defense against the last creature that made contact with its body. Divide: Anytime the Oracle Sludge is dealt damage by a physical weapon, it splits its body in two, creating two identical creatures with half the Hit Points and half the Hit Dice of the original. Vulnerable to Cold: Cold damage deals double damage to an Oracle Sludge."
+    },
+    {
+      "name": "Primal Skaal",
+      "page": 96,
+      "marks": 8,
+      "ac": "As Hide or Chain",
+      "hd": 7,
+      "hp": 64,
+      "move": "Double Standard",
+      "damage": "1d10 Bite or Hoof and Horns 1d6/1d6",
+      "quantity": "Solo or Chorus 1d6",
+      "XP": 900,
+      "extra": "Cacophonous Destruction: Range of 40ft, save versus breath weapon or suffer 2d20 sonic damage as everything explodes with noise. Overwhelming Noise: Spells with verbal components are drowned out, you must concentrate to cast. The Primal Song: The Primal Skaal is constantly droning a strange melody that bends reality. Each turn the sound is either: 1. Sweet Like Honey: Disadvantage on attacks, 2. Sour Like Vinegar: Disadvantage on skills, 3. Soft Like a Lullaby: You move at half speed, 4. Sharp Like Knives: 1d4 sonic damage, 5. Twisted Like Madness: Save versus charm or begin to go mad."
+    },
+    {
+      "name": "Quilluffs",
+      "page": 98,
+      "marks": 4,
+      "ac": "As Chainmail",
+      "hd": 2,
+      "hp": 11,
+      "move": "Standard",
+      "damage": "Quills 1d4/1d4",
+      "quantity": "Solo or Pack 1d10",
+      "XP": 150,
+      "extra": "Quills: Save versus breath weapon of have a painful quill implanted into your skin. The quill makes concentration and fine motor skill difficult. “The Quilluff Special”: As Attack, the Quilluff launches all of its spikes in an explosive fashion. Everyone within 30ft of the Quilluff must save versus breath weapon or suffer 1d8x1d4 damage and be covered in painful quills. The Quilluff is left naked and defenseless after this."
+    },
+    {
+      "name": "Ravager Pups",
+      "page": 102,
+      "marks": 3,
+      "ac": "As Leather",
+      "hd": 1,
+      "hp": 8,
+      "move": "Standard",
+      "damage": "As Weapon",
+      "quantity": "Solo, Pack 2d4",
+      "XP": 75,
+      "extra":""
+    },
+    {
+      "name": "Ravager Claw-Dogs",
+      "page": 102,
+      "marks": 5,
+      "ac": "As Hide",
+      "hd": 6,
+      "hp": 54,
+      "move": "Double Standard",
+      "damage": "Claws 1d6/1d6",
+      "quantity": "Solo, Pack 2d4",
+      "XP": 600,
+      "extra": "Maul: If both Claws hit the same target, the Claw-dog makes another attack at 1d10 as it bites, rips, and tears at its prey."
+    },
+    {
+      "name": "Ravager Blooders",
+      "page": 102,
+      "marks": 6,
+      "ac": "As Armor",
+      "hd": 4,
+      "hp": 22,
+      "move": "Standard",
+      "damage": "As Weapon",
+      "quantity": "Pack 1 and 1d4 Pups; Raiding Party 1d6, 2d6 Pups, and 1d4 Claw-Dogs",
+      "XP": 500,
+      "extra": "Rage: Once per day for a minute, the Blooder gains advantage on attacks, 1d10 temporary hit points, but disadvantage on defense."
+    },
+    {
+      "name": "Ravager Skaalmage",
+      "page": 103,
+      "marks": 6,
+      "ac": "As Hide",
+      "hd": 5,
+      "hp": 24,
+      "move": "Standard",
+      "damage": "As Staff or Wyrdbolt (1d6 magic at 120ft)",
+      "quantity": "Solo; Circle 1d4+1; Raiding Party 1, 2d4 Pups, and 1d6 Blooders",
+      "XP": 600,
+      "extra": "Stir the Blood: The Skaalmage chants a vile verse that send everyone into a primal frenzy; all within earshot gain advantage on attacks and disadvantage on defense. Wyrd-Curse: 1d6 times per day, a Skaalmage can utter a powerful word from the Wyrd at a single ally or enemy. The target gains one random trait from the Call of the Wild Table (pg. 20). Spells: 1d8 Level 1, 1d3 Level 2."
+    },
+    {
+      "name": "Ravager Fangs",
+      "page": 103,
+      "marks": 7,
+      "ac": "As Armor",
+      "hd": 8,
+      "hp": 70,
+      "move": "Standard",
+      "damage": "As Weapon",
+      "quantity": "Solo, Pack 2d4, Raid 2d4 and 1d8 Claw-Dogs",
+      "XP": 900,
+      "extra": "Rage: Once per day for a minute, the Fang gains advantage on attacks, 1d10 temporary hit points, but disadvantage on defense."
+    },
+    {
+      "name": "Rittermotte",
+      "page": 104,
+      "marks": 11,
+      "ac": "As Armor",
+      "hd": 7,
+      "hp": 40,
+      "move": "Standard, Fly Double Standard",
+      "damage": "As Weapon (up to 4)",
+      "quantity": "Solo, Pair, or Trio",
+      "XP": 900,
+      "extra": "Buffet: As Attack, The Rittermotte flaps its wings vigorously. All within striking distance must save versus hold or become knocked prone. Le Danse Rittermotte: With age and experience the Rittermotte accumulates various fighting styles, referred to as “dances.” It knows one random dance for every worthy opponent it has beaten (usually 1d4), but only knows “The Dance of Death” if it has accumulated all other dances. (See Sidebar)."
+    },
+    {
+      "name": "Root Troll",
+      "page": 108,
+      "marks": 12,
+      "ac": "As Scale",
+      "hd": 10,
+      "hp": 50,
+      "move": "Half Standard",
+      "damage": "Claw 1d6/1d6 or Bite 1d12",
+      "quantity": "Solo",
+      "XP": 1600,
+      "extra": "Tree Sense: Within 1 mile the Root Troll can hear the words of the trees and sense their pain. Regeneration: Heal 1d6 Hit Points every turn, except from fire damage. Tree Control: As Attack, the Root Troll can command trees near it to act in its defense, turning the ground into difficult terrain, using vines to ensnare opponents, or making tree limbs strike at interlopers."
+    },
+    {
+      "name": "Royal Fox",
+      "page": 110,
+      "marks": 15,
+      "ac": "As Hide",
+      "hd": 5,
+      "hp": 25,
+      "move": "Double Standard",
+      "damage": "Bite 1d4",
+      "quantity": "Solo",
+      "XP": 750,
+      "extra": "Diplomatic Immunity: The Royal Fox has made bargains with vari- ous objects and concepts, making it completely immune to them and their ill effects. Spells: The Royal Fox knows 1d6 random spells between level 1-5."
+    },
+    {
+      "name": "Shamblers",
+      "page": 112,
+      "marks": 4,
+      "ac": "None",
+      "hd": 1,
+      "hp": 5,
+      "move": "Standard",
+      "damage": "Claw and Bash 1d4",
+      "quantity": "Party 1d6, Pack 3d6, Horde 6d10",
+      "XP": "50 each",
+      "extra": "Gangpile: If two or more sham- blers attack the same target, they gain advantage. Diseased: Each shambler has a 50% chance of carrying a random disease."
+    },
+    {
+      "name": "Skunk Ape",
+      "page": 114,
+      "marks": 4,
+      "ac": "As Hide",
+      "hd": 3,
+      "hp": 18,
+      "move": "Standard",
+      "damage": "Fists 1d6",
+      "quantity": "Solo, Pack 1d6, Tribe 3d6",
+      "XP": 250,
+      "extra": "Brutal Strength: Once per day for a single round, a skunk ape can go berserk. It attacks at advantage and deals maximum damage. Stench: Those within sight of a skunk ape must save versus poison or become nauseated. Illusive: The Skunk Ape is sometimes little more than a rumor. Tracking, hunting, and collecting information on them is always at disadvantage."
+    },
+    {
+      "name": "Slavern",
+      "page": 116,
+      "marks": 6,
+      "ac": "As Leather",
+      "hd": 4,
+      "hp": 20,
+      "move": "Double Standard",
+      "damage": "Slobber 1d6 and Slavern Acid, or Spit, Range 40ft 1d4 and Slavern Acid (see below)",
+      "quantity": "Solo or Pair",
+      "XP": 500,
+      "extra": "Slavern Acid: Deals 1d6 dam- age for 1d4 rounds. Dissolves most metals and organic material after a minute of exposure. Immunity: Acid."
+    },
+    {
+      "name": "Snuff Hounds",
+      "page": 118,
+      "marks": 5,
+      "ac": "As Leather",
+      "hd": 2,
+      "hp": 9,
+      "move": "Double Standard",
+      "damage": "Claws 1d6",
+      "quantity": "Pack 1d12",
+      "XP": 150,
+      "extra": "Light Eater: Any source of light the Snuff Hound comes in contact with, magic or mundane, is immediately put out and rendered unusable. The hound then heals 1d4. Distortion: Ranged attacks against the Snuff Hound suffer disadvantage as the light plays tricks on its form."
+    },
+    {
+      "name": "Sparklight Canaries",
+      "page": 120,
+      "marks": 3,
+      "ac": "As Leather",
+      "hd": 1,
+      "hp": 2,
+      "move": "Fly Double Standard",
+      "damage": "Peck 1d4 Fire",
+      "quantity": "Solo, Flock 1d12",
+      "XP": 50,
+      "extra": "Explode: On death, the Sparklight Canary deals 2d6 fire damage to everyone within 10ft."
+    },
+    {
+      "name": "Spindle Cats",
+      "page": 88,
+      "marks": 4,
+      "ac": "As Hide",
+      "hd": 3,
+      "hp": 15,
+      "move": "Double Standard",
+      "damage": "Claws 1d6 and reach of 10ft",
+      "quantity": "Solo, Pair, or Pack 1d6",
+      "XP": 250,
+      "extra": "Hypnotic Gaze: All within eyesight, save versus charm or become paralyzed in a stupified trance."
+    },
+    {
+      "name": "The Skulk",
+      "page": 122,
+      "marks": 11,
+      "ac": "As Plate",
+      "hd": 15,
+      "hp": 80,
+      "move": "Double Standard",
+      "damage": "Vicious Claws 1d10/1d10",
+      "quantity": "Solo",
+      "XP": 3200,
+      "extra": "Tree-Hop: Can enter through and exit out of any tree at no cost of movement or action. Lights Out: Light sources, both magic and mundane, grow dim and lightless around The Skulk. Whenever fighting The Skulk, there is never more than dim light to see with."
+    },
+    {
+      "name": "Trunk Worms",
+      "page": 124,
+      "marks": 2,
+      "ac": "None",
+      "hd": 1,
+      "hp": 4,
+      "move": "Standard, Burrow Half Standard",
+      "damage": "Bite 1d4",
+      "quantity": "Colony d3x10",
+      "XP": "50 each",
+      "extra": "Topple: As Attack, if encountered in their biovac, Trunk Worms may topple the full weight of the colony onto an unsuspecting opponent for 10d6 damage."
+    },
+    {
+      "name": "Weald Sirens",
+      "page": 126,
+      "marks": 6,
+      "ac": "As Leather",
+      "hd": 5,
+      "hp": 25,
+      "move": "Standard",
+      "damage": "Claws 1d4 and Maw 1d10",
+      "quantity": "Solo or Grove 1d6",
+      "XP": 600,
+      "extra": "Lure: Weald Sirens constantly produce an attractive and beguiling scent that grows stronger the closer one is to them (See Sidebar). Vicious Maw: As Attack, the Weald Siren attempts to swallow a person whole. If the attack hits, save versus hold or breath weapon or be swallowed whole and automatically suffer 1d10 damage each round until you escape or are freed."
+    },
+    {
+      "name": "Vampylf",
+      "page": 128,
+      "marks": 5,
+      "ac": "As Hide",
+      "hd": 10,
+      "hp": 50,
+      "move": "Double Standard",
+      "damage": "Claws 1d6/1d6 or Bite 1d12 and Feral Vampirism (see sidebar)",
+      "quantity": "Solo",
+      "XP": 1600,
+      "extra": "Frenzy: As Attack, once per day all attacks are at advantage for 1d4 rounds."
+    },
+    {
+      "name": "Vermincaust",
+      "page": 130,
+      "marks": 7,
+      "ac": "As Chainmail",
+      "hd": 12,
+      "hp": 60,
+      "move": "Standard",
+      "damage": "1d10 Bites 1d6 each",
+      "quantity": "Solo",
+      "XP": 2200,
+      "extra": "Aura of Fury: Those within proximity to the Vermincaust find themselves overcome with a radiant uncontrollable anger against life. Save versus magic or madness, or lash out against the nearest living thing that isn’t the Vermincaust. Noise Without End: The constant maddening noise is disorienting. Any who can hear the Vermincaust must save versus poison or become nauseated. Cannibal Undead: Any corpse the Vermincaust touches is immediately absorbed into its form, granting it +1HD and healing it of 1d6 hit points."
     }
   ],
   "mutations": [
@@ -573,7 +1173,7 @@
     },
     {
       "name": "Bottle of Blackout",
-      "description": "A grain alcohol, smelling of paint thinner, it is the color of a stormy sky. A legendarily strong alcohol, it forces the mind to calm and reorder itself.<br>EFFECT: While under the effects of madness, if a bottle of Blackout is drunk within the next 24 hours, the character may automatically reroll a save to uplift a particular madness or mind-altering effect.<br><br>Each drink requires a save versus poison to avoid becoming increasingly drunk, while the effects of the drink last one hour.<br>1 Failed Save: Tipsy - Advantage on charisma checks, disadvantage on dexterity checks.<br>2 Failed Save: Drunk - Disadvantage on attacks.<br>3 Failed Save: Plastered - Half speed, disadvantage on all skills. <br>4 Failed Save: Wasted - Incoherent and illiterate.<br>5 Failed Save: Blackout - You go unconscious."
+      "description": "A grain alcohol, smelling of paint thinner, it is the color of a stormy sky. A legendarily strong alcohol, it forces the mind to calm and reorder itself.<br>Effect: While under the effects of madness, if a bottle of Blackout is drunk within the next 24 hours, the character may automatically reroll a save to uplift a particular madness or mind-altering effect.<br><br>Each drink requires a save versus poison to avoid becoming increasingly drunk, while the effects of the drink last one hour.<br>1 Failed Save: Tipsy - Advantage on charisma checks, disadvantage on dexterity checks.<br>2 Failed Save: Drunk - Disadvantage on attacks.<br>3 Failed Save: Plastered - Half speed, disadvantage on all skills. <br>4 Failed Save: Wasted - Incoherent and illiterate.<br>5 Failed Save: Blackout - You go unconscious."
     },
     {
       "name": "Bottle of Chainbreaker Stout",
@@ -632,7 +1232,7 @@
     },
     {
       "name": "Clotter",
-      "description": "A small glass jar holds a writhing crea- ture the size of a mouse. The color and texture of a scab, it is constantly in motion with an array of thin translucent feelers. In the center of its body is a single lamprey mouth.<br> Originally a small swamp parasite that suckled from unsuspecting prey, an aspiring alchemist found it contained a chemical that could clot and staunch the flow of blood.<br>Consuming the Clotter causes your body to quickly scab and clot fresh wounds. For the next 24 hours all dam- age you take is reduced by 1."
+      "description": "A small glass jar holds a writhing crea- ture the size of a mouse. The color and texture of a scab, it is constantly in motion with an array of thin translucent feelers. In the center of its body is a single lamprey mouth.<br> Originally a small swamp parasite that suckled from unsuspecting prey, an aspiring alchemist found it contained a chemical that could clot and staunch the flow of blood.<br>Consuming the Clotter causes your body to quickly scab and clot fresh wounds. For the next 24 hours all damage you take is reduced by 1."
     },
     {
       "name": "Coldfire Lantern",
@@ -640,15 +1240,15 @@
     },
     {
       "name": "Curse Bells",
-      "description": "A tarnished silver bell, innocuous at first glance. Its surface is a mess of maddening runes and etchings. It feels cold to the touch, and stings slightly when stroked.<br>A terrible artifact crafted by a sect of in- quisitors. Its purpose was to bring low a group of scholars and wizards who had fled into the Wilds. They hunted them down and delivered their false justice upon them.<br>The bane of intelligent and wise beings, the bell resonates with conscious thought. When rung, the Curse Bell causes a number of cumulative effects,depedent on the intelligence or wis- dom of those within earshot.<br>Dumb - No Sound, The listener hears nothing.<br>Below average - A Simple Chime, A small, unpleasant noise. Listen- ing for more than a minute causes light nausea.<br>Clever - Painful Rings, The sound is noticeably painful. Skills and spellcasting are at dis- advantage.<br>Smart - Piercing Noise, The noise cuts deep, drowning out all else. You are deafened and cannot speak while the bell rings.<br>Genius - Shattering Resonance, Your mind swims in utter agony. You drop to your knees and are immobile while the bell rings."
+      "description": "A tarnished silver bell, innocuous at first glance. Its surface is a mess of maddening runes and etchings. It feels cold to the touch, and stings slightly when stroked.<br>A terrible artifact crafted by a sect of inquisitors. Its purpose was to bring low a group of scholars and wizards who had fled into the Wilds. They hunted them down and delivered their false justice upon them.<br>The bane of intelligent and wise beings, the bell resonates with conscious thought. When rung, the Curse Bell causes a number of cumulative effects, depedent on the intelligence or wisdom of those within earshot.<br>Dumb - No Sound, The listener hears nothing.<br>Below average - A Simple Chime, A small, unpleasant noise. Listen- ing for more than a minute causes light nausea.<br>Clever - Painful Rings, The sound is noticeably painful. Skills and spellcasting are at disadvantage.<br>Smart - Piercing Noise, The noise cuts deep, drowning out all else. You are deafened and cannot speak while the bell rings.<br>Genius - Shattering Resonance, Your mind swims in utter agony. You drop to your knees and are immobile while the bell rings."
     },
     {
       "name": "Curseweald Staff",
-      "description": "Dark, rotted wood the color of bruises and corpse-flesh. Its surface is hard and knobbed, etched with profane symbols and adorned in grisly trophies.<br>A staff made from the limbs of Curse- wealds retains their profane conscious- ness and power deep inside the very wood.<br>When holding the staff, the caster may spend 1 of its 10 charges to cast Burst with Briar, Dream Lure, Sap Blood or Take Root.<br>The staff regains 1d3 charges for every night the caster goes without sleep. Additionally, the staff allows the wielder to communicate on friendly terms with other Cursewealds, so long as they hold onto the staff.<br>If the Curseweald Staff ever drops to 0 charges, the caster is immediately infected with the Treewylding (pg. 204)."
+      "description": "Dark, rotted wood the color of bruises and corpse-flesh. Its surface is hard and knobbed, etched with profane symbols and adorned in grisly trophies.<br>A staff made from the limbs of Cursewealds retains their profane consciousness and power deep inside the very wood.<br>When holding the staff, the caster may spend 1 of its 10 charges to cast Burst with Briar, Dream Lure, Sap Blood or Take Root.<br>The staff regains 1d3 charges for every night the caster goes without sleep. Additionally, the staff allows the wielder to communicate on friendly terms with other Cursewealds, so long as they hold onto the staff.<br>If the Curseweald Staff ever drops to 0 charges, the caster is immediately infected with the Treewylding (pg. 204)."
     },
     {
       "name": "Darkwood",
-      "description": "A great wooden shield the color of dark- ened Purpleheart. Its surface is carved and cratered with the scars of battle, yet it remains sturdy and sure.<br>Long ago, a lone Dryadi betrayed their grove and sundered their mother tree, from it they carved this mighty shield to combat an ancient threat. To this day, the very trees make enemy with their legacy.<br>Darkwood is an impressive and sturdy shield that is stronger, lighter, and more durable than even dwarven mithril. Spells cast against it rarely have effect, dampened or even negated in most cases. However, it bears a mighty curse, for anyone who wields Darkwood is immediately the greatest enemy of both trees and Dryadi."
+      "description": "A great wooden shield the color of darkened Purpleheart. Its surface is carved and cratered with the scars of battle, yet it remains sturdy and sure.<br>Long ago, a lone Dryadi betrayed their grove and sundered their mother tree, from it they carved this mighty shield to combat an ancient threat. To this day, the very trees make enemy with their legacy.<br>Darkwood is an impressive and sturdy shield that is stronger, lighter, and more durable than even dwarven mithril. Spells cast against it rarely have effect, dampened or even negated in most cases. However, it bears a mighty curse, for anyone who wields Darkwood is immediately the greatest enemy of both trees and Dryadi."
     },
     {
       "name": "Face of the Maniac",
@@ -656,11 +1256,111 @@
     },
     {
       "name": "Fester Blade",
-      "description": "A weapon of corroded, rusted metal and decaying wood. Its jagged edges leak a foul ichor and its terrible scent attracts swarms of flies.<br> Blades crafted by a clan of Curserot Dryadi, who retain a shard of their sanity. They wield and distribute these infected blades in the hopes of spread- ing misery.<br> Fester Blade is the name given to a select type of enchanted weapons. They act in all ways as regular weapons, save for the fact that anything they touch becomes diseased and befouled. Any- one they make direct contact with must make a save versus poison or become infected with one random disease; this includes the wielder."
+      "description": "A weapon of corroded, rusted metal and decaying wood. Its jagged edges leak a foul ichor and its terrible scent attracts swarms of flies.<br> Blades crafted by a clan of Curserot Dryadi, who retain a shard of their sanity. They wield and distribute these infected blades in the hopes of spreading misery.<br> Fester Blade is the name given to a select type of enchanted weapons. They act in all ways as regular weapons, save for the fact that anything they touch becomes diseased and befouled. Anyone they make direct contact with must make a save versus poison or become infected with one random disease; this includes the wielder."
     },
     {
       "name": "Fey Jump Shoes",
-      "description": "A pair of fine silken shoes, embroidered with colored thread and of wondrous craftsmanship. The air around them seems to hum with faint song, like that of a skipping rhyme.<br> A treasure from the Wild Elf cobblers. They have always been a tool for trick- ery and speedy departure.<br> A pair of Fey Jump Shoes is assigned a single element upon their creation. Anyone who wears these shoes cannot set foot on anything that is NOT the assigned element, and upon donning the shoes are immediately teleported to the nearest source of one such ele- ment. Instead of regular movement, the wearer moves by teleporting 60ft in any direction to the nearest unobstructed source of the assigned element. The shoes can only be taken off during the full moon.<br>1. Stone<br>2. Tree<br>3. Shadow<br>4. Ash<br>5. Light<br>6. Gold<br>7. Blood<br>8. Coals<br>9. Feather<br>10. Water<br>"
+      "description": "A pair of fine silken shoes, embroidered with colored thread and of wondrous craftsmanship. The air around them seems to hum with faint song, like that of a skipping rhyme.<br> A treasure from the Wild Elf cobblers. They have always been a tool for trick- ery and speedy departure.<br> A pair of Fey Jump Shoes is assigned a single element upon their creation. Anyone who wears these shoes cannot set foot on anything that is NOT the assigned element, and upon donning the shoes are immediately teleported to the nearest source of one such element. Instead of regular movement, the wearer moves by teleporting 60ft in any direction to the nearest unobstructed source of the assigned element. The shoes can only be taken off during the full moon. Roll 1d10:<br>1. Stone<br>2. Tree<br>3. Shadow<br>4. Ash<br>5. Light<br>6. Gold<br>7. Blood<br>8. Coals<br>9. Feather<br>10. Water<br>"
+    },
+    {
+      "name": "Flute of the Swamp-Piper",
+      "description": "A simple reed flute, its surface bur- nished with images of dragonfly wings and cattails. It smells of pond-water, and its mouth is adorned with the skull of a frog.<br> The trusty flute of a bard, known as the “Swamp-Piper” who used this flute to bewitch the creatures of the swamp for both heroic deeds and cunning mischief.<br> Playing the Flute of the Swamp-Piper allows you to command the various small creatures of the mires and swamps as if you had cast a dominate spell on them. This allows you, but is not limited to:<br>Clouds of pesky, obscuring gnats.<br>Swarms of angry, stinging flies.<br>Plagues of leaping, slippery frogs.<br>Schools of hungry, biting fish.<br> However, if the player of the flute is ever interrupted or stops playing, the various creatures become angry and confused, instantly striking out."
+    },
+    {
+      "name": "Grifter's Bone",
+      "description": "A small charm, made from a single fingerbone dangles from a string necklace. Inauspicious, and of simple make, gazing upon it feels like watching a loved one lie to your face.<br> Made from the fingerbone of the “Saint of Liars,” this charm has passed from grifter to thief for ages. Highwaymen and criminals speak of it in reverent whispers, a kingly relic for unsavory sorts.<br> As long as you wear it, no one can read through your lies. Small lies and likely stories are immediately believable, while outright lies and impossible tales are met with, at most, cautious suspicion. However, this ability only works as long as the charm is hidden or obscured. If the charm is seen or visible, the opposite effect befalls the wearer, and any interaction is met with hostility or mistrust."
+    },
+    {
+      "name": "Gristle Whip",
+      "description": "A fat coil of fleshy, intestine-like rope. Veins of blood pulse through its length as it twitches with unnatural life.<br> A terrible relic crafted from the intes- tines of a Grimmking.<br> Usable as a whip or weapon of equivalent design, whenever the gristle whip makes contact with exposed flesh, it immediately bonds to the victim at a biological level. There is no limit to the amount of creatures that can be bonded in this fashion and extra care must be taken when touching the Gristle Whip, so as not to become accidentally bonded as well. This bond is not just skin deep; anyone bonded combines their hit points and shares this collective hit point pool, as well as any diseases, ailments, enchantments, or effects. Each bonded creature still operates individually, and the only way to be released from the bond is by severing the connection to the Gristle Whip. Any damage to the Gristle Whip regenerates after 1d6 days."
+    },
+    {
+      "name": "Hunter's Charm",
+      "description": "A tarnished bronze disk is etched with the image of single lupine skull and the phases of the moon. It hums gently, and glows faintly in the moonlight.<br> A magical tool, bequeathed to hunters who frequent the Wilds. It grants many useful tricks and abilities to survive the horrors and hardships within.<br> Once per day the Hunter’s Charm can grant one of the following abilities:<br>Dodge - One attack against you automatically misses.<br>Commune - Meditate for one hour and know the general terrain, wildlife, and dangers within 3 miles.<br>Hunt - You gain advantage on a tracking, hunting, or survival check."
+    },
+    {
+      "name": "Jacques, Rabbit",
+      "description": "A tiny pile of bleached bones that once made a rabbit. They still feel warm to the touch.<br> The remains of a tiny cursed or blessed rabbit. Long ago it was cursed or blessed with the power of true rejuvenation. It lives as it always did, albeit confused and worried much of the time.<br> Speaking the name “Jacques” while in the presence of the bones immediately returns them to life in the form of a large, brown rabbit. It acts and is in all ways as a normal wild animal. However, if the rabbit is killed and a piece of its remains are found, it can immediately be brought back to life by speaking its name."
+    },
+    {
+      "name": "Krethuus",
+      "description": "A ancient dagger fashioned with a hilt of crumbling twine and gold. Its blade is crafted of pristine bone, inlaid with a string of intricate silver symbols.<br> A knife made from the shinbone of a divine wolf and named after the god who did it. The god has long since been killed, but its legacy lives on in this weapon.<br> Those who wield Krethuus have all noise removed from them. Everything from the sound of their footsteps to the gentle whisper of their breathing is utterly silent. However, this also extends to their speech and any noises they attempt to make intentionally."
+    },
+    {
+      "name": "The Lone Penny",
+      "description": "A single, copper penny. It appears old, and its markings unfamiliar; yet utterly unremarkable otherwise.<br> The Lone Penny is an object as old as money itself. Passed down and swapped from the highest ruler to the lowliest grifter, its history is immeasurable.<br> The Lone Penny is a small odd artifact with a few quirks. It can only be acquired if the previous owner has died or has freely given it to you. Once in possession, it cannot be discarded or gotten rid of, always returning to its owner’s pockets. What’s more, all previous owners know the exact location of The Lone Penny, able to track it down no matter the distance."
+    },
+    {
+      "name": "Louse-Tamer Comb",
+      "description": "A small, polished wooden comb of expert craftsmanship. Its teeth are short and close together, while a small lacquer inlay illustrates fleas dancing a jig.<br> An item crafted by a fussy, yet clever young mage who hated camping and the outdoors. Originally used for grooming, its potential was never realized by its creator.<br> Running this comb through hair causes all lice, ticks, bugs, and fleas present in it to fall utterly under your control. They can be ordered to attack enemies, sending them into a frenzy of scratching and disorienting itchiness. As well, dependant upon the amount of vermin under your control, they can be used to perform small tasks."
+    },
+    {
+      "name": "Lure Gunk",
+      "description": "A vial the size of a jam jar, its contents the color of an impacted zit. The contents are semi-liquid, and even with an air-tight seal seem to smell.<br> Developed by hunters long ago, it still finds use to this day for both hunting and as an unorthodox weapon.<br> Shattering the jar of Lure Gunk releases a foul and overpowering scent that is irresistible to predators and monsters of the Wilds. 1d4 random monsters are immediately alerted to the location of the scent and arrive within 1d10 rounds. If the Lure Gunk has spilled on another being they beset it with a ravenous fury."
+    },
+    {
+      "name": "Mantle of the Lunar'idari",
+      "description": "A cloak made from enormous moth wings. They flow like the finest silk and glow like a moonlit night.<br> Made from the wings of the legendary Rittermotte known as “Lunar’idari, The Moon Warrior,” greatest servant of the Lady of Broken Branches, who disap- peared suddenly. Their legacy lives on in this glorious artifact.<br> Wearing this mantle infuses your body and soul with the power of the Moon Warrior, ebbing and flowing with phases of the moon. Depending upon the phase of the moon, you gain powers as listed below:<br>No Moon: No powers or abilities.<br>Quarter Moon: Armor increases to that of Chainmail.<br>Half Moon: Add 1d4 to your attack rolls, armor increases to Splint Mail.<br>Three-Quarters Moon: Add 1d6 to your attack rolls, armor increases to Plate.<br>Full Moon: As above and gain the power of flight.<br> However, wearing the Mantle of the Lunar’idari during a Full Moon has a 50% chance of overwhelming your psyche with the spirit of The Moon Warrior (see pg. 163), eroding your personality and instilling a specific madness."
+    },
+    {
+      "name": "Megalith Maul",
+      "description": "A great and crude looking great-hammer. Its handle is that of roughly hammered iron, and head is that of an intricately carved stone.<br> A weapon fashioned by druids in an age long passed. Wielded only in times of great despair, it channels the Wyrd through the ancient druidic constructions.<br> The Megalith Maul is a two-handed hammer made with the head of a standing stone. It draws its strength from the other standing stones and megaliths that dot the Wilds, empowering it by harnessing the Wyrd. Touching the hammer against another standing stone and meditating for an hour grants it a single charge; once a standing stone has been used in such a way it cannot be used again for a full century. Each charge can be spent to either add 1d6 to an attack roll or add 1d6 to a damage roll. There is no limit to the amount of charges the Megalith Maul can hold or how many can be spent in a single attack."
+    },
+    {
+      "name": "Næturhiminn Sword",
+      "description": "A mighty greatsword of ancient and wondrous craftsmanship. Its blade is dark and transluciet, yet seems to glimmer and shine like a sky full of stars...<br> A sword made from an ingot of the night sky, forged in moonlight by the Lady of Broken Branches. The blade was gifted to a mighty warrior and provided them with a terrible wisdom.<br> During the day the Næturhiminn Sword is nothing more than an odd-looking greatsword. However, at night the sword comes alive, its surface gleaming with stars and humming of cosmic energy. During the night, all attacks made with the Næturhiminn sword are at advantage and your Intelligence and Wisdom increase by 1d6 each. As well, once per year, under a full moon, you may gaze deeply into the blade and reveal some cosmic truth or secret, granting you complete and utter knowledge on any one subject of your choice. However, there is a 5% chance that the cosmic truth is too much for your mind to handle and you go mad in the process."
+    },
+    {
+      "name": "Pelt of the Beast",
+      "description": "A great cloak made from a ragged pelt with the mummified head still attached. Its leathery insides are tattooed with strange and savage looking symbols.<br> Ceremonially given to berzerkers in ancient times, the beastial magic within proved too strong for many.<br> Donning the Pelt of the Beast and chanting its sacred words transforms you into a dangerous and bestial creature. After activating, several things happen depending upon how long you wear the cloak:<br>Instant - Your senses keen, gaining advantage on perception rolls.<br>1 hour - You senses keen further, you can smell and track like a wolf.<br>1 day - Your skin becomes covered in fur, providing some protection against the elements.<br>2 days - You grow claws that deal 1d4 damage each.<br>3 days - Your limbs lengthen, doubling your normal speed.<br>4 days - You can enter a feral rage, gaining advantage on attacks but disadvantage on defense.<br>5 days - Your jaw and teeth lengthen, giving you an extra bite attack for 1d6 damage.<br> However, wearing the Pelt of the Beast for an extended time risks your mind permanently reverting into a feral state. Each day you must save versus magic or lose 1d4 intelligence as you slip into an animal psyche."
+    },
+    {
+      "name": "Protean Vaccine",
+      "description": "A small vial of thin brownish liquid. It shimmers in the light and faintly changes color.<br> Known as a rare, miracle elixir and cure-all. Distilled and crafted from the contents of an Ailiper’s diseased glands.<br> Drinking a vial of Protean Vaccine removes a single disease without fail. Multiple diseases require extra doses, and the elixir only extends to diseases that can be cured by conventional means."
+    },
+    {
+      "name": "Quiet Crown",
+      "description": "A slight, yet beauteous silver crown. Its surface gives the illusion of being woven from countless diminutive threads of silver and silk.<br> There once was a girl who played with the spiders. As she grew older her mind began to grow dark and weary, so the spiders wove for her a crown of silk and silver to protect her.<br> Wearing this crown for more than a day removes all madness or mind-affecting ailments. In addition, wearers remain immune to any psychological maladies or mind-influencing effects so long as they wear the crown."
+    },
+    {
+      "name": "Reeking Candles",
+      "description": "They appear as candle-sticks made of earwax. Discolored, crusty, and peppered with odd fibers, they reek of pungent spices and dead skunk.<br> A tool developed by early hunters to ward off animal attacks. Wise travellers never go without a few on hand.<br> When lit, Reeking Candles ward off animals and monsters. Each candle burns for approximately 4 hours, during which time animal attacks and random wilderness encounters are significantly decreased."
+    },
+    {
+      "name": "Reliquary Necklace",
+      "description": "Hundreds of tiny crowded bones, haphazardly held together by a twine necklace. Bones from fingers, skulls, and unknown fragments all seem to twitch and undulate with touch.<br> Powerful artifacts, bestowed upon graven warrior-clerics long ago. They offered a chance to commune and offer supplication with their deceased foes.<br> Each time you end the life of someone or something while wearing the Reliquary Necklace, a small fragment of their body flies up to attach itself to the necklace, burying deep inbetween the multitudes of bone. The wearer knows the name of every person or being the bones belong to and, after meditating for 1 hour, may have a single question answered by the bones once per day. The bones know only what the various victims knew in life and always answer truthfully."
+    },
+    {
+      "name": "Sanctified Salt",
+      "description": "Salt, the color of marble dust, glittering like unpolished diamonds. It radiates a gentle warmth and remain unmarred by any impurity or dirt.<br> Salt, distilled from holy water, leaving only a highly concentrated crystal.<br> Sanctified Salt acts in all ways as holy water, with a few exceptions.<br> Pouring it out in a line creates a barrier that ghosts and spirits cannot cross.<br> A spoonful is enough to turn a gallon of ordinary water into holy water.<br> Prevents resurrection or necromancy if poured over a dead body or corpse."
+    },
+    {
+      "name": "Spell Eater",
+      "description": "A fat, writhing worm that shifts color in rhythmic pulses. It is the size and shape of a thick carrot covered in thin whipping tendrils.<br> Odd creatures bred into existence by paranoid mortals for combating the Wild Elves. They feast on the Wyrd and magics of the world.<br> A Spell Eater is a parasite that can be implanted into the host’s body via a minor surgery involving a knife and hard spirits. Once implanted, the host’s physiology is hijacked by the Spell Eater and their defense against magic is bolstered. Harmful spells, magics, and other such powers (including the Wyrd) are always at disadvantage when cast against the host. As well, the host may heal 1d6 hit points, or remove a level of exhaustion whenever a spell is cast against them. However, the physiological changes require the host to consume at least one spell a day for sustenance, as food and water provide absolutely no nutrients or benefit."
+    },
+    {
+      "name": "Stalwart Pins",
+      "description": "Small cruel pins, like serrated roofing nails. The surface is inlaid with strange symbols of gold.<br> Metal pins crafted by a sadistic Wild Elf warrior to bolster his strength. There are nine hundred and ninety-nine of these pins, with the final pin being unmade.<br> Implanting a Stalwart Pin into your flesh increases your strength. The more you manage to find and bury into your flesh the stronger you become, albeit at the cost of your mind and sanity. The first pin you embed into your skin grants you +1 to strength. An additional 10 pins further increase this bonus by +1, however, at the cost of -1 to either Wisdom or Intelligence. There is no limit to the amount of pins you may embed in yourself."
+    },
+    {
+      "name": "The Tangle",
+      "description": "The size of a large picnic basket, gnarled and twisted on itself. Pieces of everything from leaf to string are impossibly bound and knotted together.<br> Strange artifacts made by some trickster god. “All that you could ever need is found within, you just have to find it first...”<br> The Tangle is a magical amalgamation of every possible material component a mage or wizard would need for spellcasting. However, in order to access it they must search through the various knots and crannies for 1 hour. Even this does not guarantee a successful search. Roll 2d6 and you find...<br>2-4: A nasty cut from something sharp (1d4 damage)<br>5-6: Not quite what you were look- ing for. (A random material component)<br>7-9: Close to what you were looking for. (Might be usable in a pinch?)<br>10-12: Exactly what you were looking for!<br>"
+    },
+    {
+      "name": "Thistle's Embrace",
+      "description": "A cloak the color of dried wood and mossbed. Its surface is rough and covered in long thorns the color of dried blood.<br> Woven by a nameless hunter who sought repentance for some great misdeed. The cloak bled both them and their enemies dry.<br> A magical cloak woven from ivy and thorn brush. It provides fantastic concealment when hiding in the wilderness. As well, anytime an attack is made again the wearer, the Thistle's Embrace snaps out to attack the assailant for 1d4 damage. However, anytime the wearer is hit or damaged, they take an additional 1d2 damage as the thorns on the cloak contract and cut into their skin."
+    },
+    {
+      "name": "Traveller's Cloak",
+      "description": "A cloak, as if designed by a daft clown. It is made from countless haphazard patches and cuts of cloth, with hundreds of crudely sewn pockets brimming with parchment and scrap paper.<br> A cloak belonging to an intrepid and utterly “daft” traveller. It is said you will always find your way in this cloak, although whether this was where you intended to go in the first place is debatable.<br> A ragamuffin cloak with entirely too many pockets. While wearing this cloak, you may reach into its pockets to reveal a map, note, or sketch revealing a random point of interest or piece of small information. Each note is always hastily handwritten and more often than not hard to read. If you have an intended destination while rifling through the pockets, there is a 1-in-4 chance the paper you produce is of use."
+    },
+    {
+      "name": "Urn of the Thieving Wretch",
+      "description": "A large hideous urn made of stoneware and covered in an oxblood glaze. Crudely sculpted on its side is the visage of a deformed human; its mouth twisted in a monstrous grin.<br> Long ago, a witch trapped a creature from beyond the shadows in this urn. It gifted her many great and terrible things, each stolen from a rightful owner.<br> The Urn of the Thieving Wretch can be used once per day to steal any one object, no matter the distance or security placed over it. Owners of the urn need to have only seen the object in question, speak their desire into the mouth of the urn, and wait one night; after which the item will miraculously wind up in the bottom of the urn. However, the creature in the urn is somewhat of a kleptomaniac, and if it goes unused for a day it will steal one random thing from the owner, never to be seen again. Roll 1d20 and the Urn steals...<br>1-3: A weapon<br>4-6: Clothing<br>7-9: Potions or liquids<br>10-12: Money<br>13-15: Armor<br>16: Magic item<br>17: Spells<br>18: Titles<br>19: Body Part<br>20: A name<br>"
+    },
+    {
+      "name": "Weaver's Whistle",
+      "description": "A small silver whistle, delicate beyond compare. It is ancient, battered, and tarnished, yet a motif of spiderwebs gleams from beneath the damage.<br> Crafted by the spiders who first sought refuge in the wilds. It was a gift given to the firstborn child of a great ruler, in order to better watch over and guard them.<br> Within 1d6 minutes of blowing into this whistle, a beautiful, elegant, and well-spoken arachnid will introduce itself to the character. This is an emissary of all of spider-kind, a mannered and intelligent spider that acts as ambassador for the characters. If the characters travel with the emissary, all spiders will treat the players with either ambivalence or friendliness. The emissary is usually helpful, but may ask the players for assistance on behalf of the spiders. Accidentally or intentionally killing the spider emissary marks the players for death in the eyes of all spiders."
     }
   ],
   "spells": [{
