@@ -15,8 +15,6 @@ Before you know it, you have a bunch of incredible games and adventures that you
 
 Most RPG products are designed for books. The nicer ones have tabs along the side to aid navigation, or present information in spreads for easy reading. Beautiful works of art spread across the pages, and handy tables are clean and simple. 
 
-[Maze of the Blue Medusa](http://satyr.press/) is a great example. The book is beautiful, and although they did a lot of great work with the PDF, it still isn't **nearly** as easy to use as the physical book...too bad the book is out of print and unavailable!
-
 So what can you do if you own the PDF of a cool RPG product?
 
 ## Loose Pages (10 cents a page)
@@ -46,14 +44,6 @@ So far I've made two of these collections, and they turned out far better than I
 ![coilBooks.JPG]({{site.url}}/images/posts/coilBooks.JPG)
 
 ![coilBoundSide.JPG]({{site.url}}/images/posts/coilBoundSide.JPG)
-
-## Maze of the Blue Medusa (300 pgs): $30
-
-Actual pages are 5x7, so these are blown up a bit while still leaving room for notes around the edges.
-
-![BlueMedusa1.JPG]({{site.url}}/images/posts/BlueMedusa1.JPG)
-![BlueMedusa3.JPG]({{site.url}}/images/posts/BlueMedusa3.JPG)
-![BlueMedusa2.JPG]({{site.url}}/images/posts/BlueMedusa2.JPG)
 
 ## Adventure Collection (350 pgs): $33
 
