@@ -64,21 +64,21 @@ image: /images/generatorPreview.png
   </div>
 </div>
 
-<small>Thanks to <a href="http://questingblog.com/">Ben Milton</a> for making an incredible RPG and to <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the code! For the curious I'll list some of the house-rules that Bone Marshes uses. If HP is less than 5, set it equal to 5. Renames copper to gold, just for convenience and familiarity. PCs start with equipment AND 2d6x10 gold. PCs start with a random spellbook. PCs can fit two rations per slot, to facilitate more exploration.</small>
+<small>Thanks to <a href="http://questingblog.com/">Ben Milton</a> for making an incredible RPG and to <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the code! For the curious I'll list some of the house-rules that Bone Marshes uses. If HP is less than 4, set it equal to 4. Renames copper to coins, just for convenience and familiarity. PCs start with equipment AND 2d6x10 coins. PCs start with a random spellbook. PCs can fit two rations per slot, to facilitate more exploration.</small>
 
 <script>
 var knave;
 
-var xmlhttp = new XMLHttpRequest();
-xmlhttp.onreadystatechange = function() {
-  if (this.readyState == 4 && this.status == 200) {
-    knave = JSON.parse(this.responseText);
-  }
-};
-xmlhttp.open("GET", "/_pages/knave.json", true);
-xmlhttp.send(); 
-
 function generate() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      knave = JSON.parse(this.responseText);
+    }
+  };
+  xmlhttp.open("GET", "/_pages/knave.json", true);
+  xmlhttp.send(); 
+
   /* ======= NAMES ======= */
   document.getElementById("charName").innerText = "Name: " + knave.Names[Math.floor(Math.random() * knave.Names.length)];
 
@@ -150,7 +150,7 @@ function generate() {
   startGold = startGold * 10;
 
   document.getElementById("charItems").innerHTML = "<ul><li>" +
-    startGold + " gold (100 coins per slot)</li><li>2 days of rations</li><li>" +
+    startGold + " coins (100 coins per slot)</li><li>2 days of rations (2 rations per slot)</li><li>" +
     knave.Dungeoneering[Math.floor(Math.random() * knave.Dungeoneering.length)] + "</li><li>" +
     knave.Dungeoneering[Math.floor(Math.random() * knave.Dungeoneering.length)] + "</li><li>" +
     knave.General1[Math.floor(Math.random() * knave.General1.length)] + "</li><li>" +

@@ -2,8 +2,7 @@
 layout: projects
 title: Generators
 caption: Random Generators
-screenshot:
-  src: /images/generators.jpg
+image: /images/generators.png
 permalink: generators
 show_collection: none
 ---

@@ -1,15 +1,16 @@
 ---
 layout: page
-title: Wyrd Hunt Generator
-permalink: wyrdhuntgenerator
-published: true
+title: Skelton Community Generator
+permalink: skeletongenerator
+published: false
 image: /images/wyrdhuntgenerator.png
 ---
 
-<p class="tightSpacing" id="huntText"></p>
+Contents of this generator were submitted by the community. Contribute to this generator [here](https://docs.google.com/document/d/1mwmTy6fTIJSwMf-vJ3UlEf6kStcpC7BZvFlNZP8NMcg/edit?usp=sharing)!
 
 <div class="row" id="newButtons">
-  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button id="start" class="btn btn-primary btn-lg" onclick="startHunt()">Start Hunt</button></div>
+  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button id="start" class="btn btn-primary btn-lg" onclick="community()">Generate a Community</button></div>
+  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button id="start" class="btn btn-primary btn-lg" onclick="community()">Generate some Skeletons</button></div>
 </div>
 
 <div class="tightSpacing" id="encounterText"></div>
