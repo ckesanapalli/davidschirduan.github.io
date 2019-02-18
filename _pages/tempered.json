@@ -4,43 +4,78 @@
       "Dyrnwyn", "Hrunting and Nægling", "Shamshir-e Zomorrodnegar", "Skofnung", "Thunderbolt", "Vajra", "Gan Jiang and Mo Xie", "Sharur", "Ru Yi Jing Gu Bang", "The Jem of Kukulkan", "Asi", "Astra", "Chandrahas", "Chentu", "Gada", "Gandiva", "Halayudha", "Kaladanda", "Kaumodaki", "Khaṭvāṅga", "Kodandam", "Nandaka", "Parashu", "Pasha", "Pattayudha", "Pinaka", "Sharanga", "Sharkha", "Shiva Dhanush", "Sudarshana Chakra", "Teen Baan", "Trishula", "Vajra", "Vasavi Shakti", "Vel", "Vijaya", "Zulfiqar", "Angurvadal", "Dáinsleif", "Dragvandil", "Gambanteinn", "Gram", "Gríðarvölr", "Gungnir", "Hǫfuð", "Hrotti", "Lævateinn", "Legbiter", "Mistilteinn", "Mjölnir", "Quern-biter", "Ridill", "Skofnung", "Tyrfing", "Fragarach", "Caladbolg", "Moralltach", "Gáe Buide and Gáe Derg", "Claíomh Solais", "Gáe Bulg", "Spear of Lugh", "Excalibur", "Caliburn", "Clarent", "Carnwennan", "Pridwen", "Rhongomiant", "Almace", "Durendal", "Hauteclere", "Joyeuse", "Cortana or Curtana", "Ame-no-nuhoko", "Kusanagi", "Tonbogiri", "Honjo Masamune", "Tizona", "Colada", "Caesura", "Anaklusmos", "Brisingr", "Callandor", "Chance", "Charon's Claw", "Curoch", "Dragnipur", "Heosphoros", "Grayswandir", "Frakir", "Nehima", "Ruyi Jingu Bang", "Snaga the Sender", "The subtle knife", "The Vorpal", "Vasilis", "Werewindle", "Malachai", "Anglachel", "Glamdring", "Orcrist", "Sting", "Morgul", "Caudimordax", "Andúril", "Narsil", "Aiglos", "Mournblade", "Kanajana", "The Runestaff", "Stormbringer", "Ebony Blade", "Dragonslayer", "Hammer of Kharas", "Dragonlance", "Dragonslayer", "The Brightblade", "Staff of Magius", "Mace of Cuthbert", "Crown rend", "Craven Edge", "Fenthras", "Mythcarver", "The Spire of Conflux", "Whisper", "The Silver of Gith", "Dagger of Time", "Falchion", "Gradivus", "Mercurius", "Parthia", "Tyrfing", "Book Of Naga", "Binding Blade", "Mani Katti", "Sol Katti", "Durandal", "Armads", "Forblaze", "Aureola", "Mulagir", "Maltet", "Apocalypse", "Eckesachs", "Siegmund", "Sieglinde", "Ragnell", "Alondite", "Siegfried", "Brynhildr", "Fujin Yumi", "Rajinto", "Yato", "Ganglari", "Soul Reaver", "Soul Calibur", "Soul Edge", "Monado", "Keyblade", "Star Rod", "Crystalis", "Ashbringer", "Frostmourne", "Thunderfury", "Avo's Tear", "Arondight", "Umbra", "Only Friend ", "New Friend", "Juana Stabadude"
     ],
     "adj": [
-      "Rusty", "Dark", "Green", "Red", "Blue", "Yellow", "Newborn", "Faded", "Strong", "Superior", "Silent"
+      "Ancient", "Antideluvian", "Arcane", "Blazing", "Bleeding", "Bloodied", "Blooming", "Blue", "Bound", "Coiled", "Crafty", "Cratered", "Craven", "Crying", "Cunning", "Cursed", "Curved", "Dark", "Divine", "Elder", "Eldritch", "Faded", "Fatal", "Fluffy", "Flying", "Fractured", "Freezing", "Frozen", "Galactic", "Gilded", "Glittering", "Glowing", "Green", "Grinning", "Groaning", "Hallowed", "Haunted", "Heaven's ", "Hypnotic", "Infected", "Infested", "Innocent", "Jumping", "Laughing", "Light", "Lonely", "Lunar", "Merciful", "Mocking", "Molten", "Mournful", "Muddy", "Newborn", "Painted", "Pierced", "Piercing", "Pious", "Pitted", "Rambling", "Red", "Rended", "Restless", "Righteous", "Rotten", "Rusty", "Sad ", "Sanguine", "Screaming", "Shattered", "Shining", "Silent", "Smiling", "Soft", "Solar", "Spoiled", "Stillborn", "Stinging", "Strong", "Sundered", "Sunken", "Superior", "Supple", "Swift", "Swimming", "Tangled", "Twisted", "Ubmral", "Undying", "Vexing", "Wandering", "Weak", "Weeping", "Wild", "Wily", "Wistful", "Wretched", "Yellow", "Tempered", "Seething", "Furious", "Sacred"
     ],
     "noun": [
-      "Spike", "Steel", "Edge", "Force", "Stinger", "Tooth", "Claw", "Strike", "Visage", "Terror", "Anger", "Love", "Snow", "Grass", "Tree", "Volcano", "Eruption", "Wind", "Cloud", "Sky", "Earth", "Moon", "Star", "Echoes"
+      "Agony", "Ally", "Amber", "Ambush", "Anger", "Apex", "Bane", "Beast", "Beetle", "Blossom", "Branch", "Bud", "Cage", "Claw", "Cloud", "Dark", "Darkness", "Day", "Death", "Demon", "Devil", "Dream", "Earth ", "Echoes", "Edge", "Eruption", "Eye", "Fate ", "Feather", "Fire", "Flame", "Flower", "Footfall", "Force", "Frost", "Fury", "Game", "Glory", "Goose", "Grace", "Grass", "Grasshopper", "Grave", "Guardian", "Hawk", "Hope", "Hound", "Hunter", "Joy", "Justice", "Knight", "Lady", "Leaf", "Legacy", "Life", "Light", "Love", "Magnificence", "Man ", "Mark", "Memory", "Menace", "Mirth", "Monster", "Moon", "Night", "Nightmare", "Noise", "Nova", "Patience", "Peace", "Plague", "Point", "Raven", "Razor", "Reverie", "Root", "Rot ", "Sanctuary", "Savior", "Scourge", "Seed", "Shard", "Shardlight", "Silence", "Sky", "Smoke", "Snow", "Song", "Spike", "Star", "Steel", "Stinger", "Strike", "Sun", "Swallow", "Terror", "Thistle", "Tooth", "Tree", "Trick", "Vengance", "Venom", "Victim", "Vigor", "Visage", "Vision", "Void", "Volcano", "Wasp", "Water", "Wind", "Witness", "Wound", "Wrath"
     ],
     "types": [
       "<strong>Dagger</strong> (d6, 1 hand, 1 slot)",
+      "<strong>Whip</strong> (d6, 1 hand, 1 slot)",
+      "<strong>Chain Whip</strong> (d6, 1 hand, 1 slot)",
+      "<strong>Chain Whip</strong> (d6, 1 hand, 1 slot)",
+      "<strong>Bladed Fan</strong> (d6, 1 hand, 1 slot)",
+      "<strong>Cestus</strong> (d6, 1 hand, 1 slot)",
+      "<strong>Butterfly Sword</strong> (d6, 1 hand, 1 slot)",
       "<strong>Cudgel</strong> (d6, 1 hand, 1 slot)",
       "<strong>Sickle</strong> (d6, 1 hand, 1 slot)",
+      "<strong>Gladius</strong> (d6, 1 hand, 1 slot)",
+      "<strong>Kukri</strong> (d6, 1 hand, 1 slot)",
+      "<strong>Rungu</strong> (d6, 1 hand, 1 slot)",
+      "<strong>Kama</strong> (d6, 1 hand, 1 slot)",
       "<strong>Staff</strong> (d6, 1 hand, 1 slot)",
-      "<strong>Club</strong> (d6, 1 hand, 1 slot)",
-      "<strong>Hammer</strong> (d6, 1 hand, 1 slot)",
+      "<strong>Baton</strong> (d6, 1 hand, 1 slot)",
+      "<strong>Cane</strong> (d6, 1 hand, 1 slot)",
+      "<strong>Sai</strong> (d6, 1 hand, 1 slot)",
       "<strong>Sword</strong> (d8, 1 hand, 2 slots)",
+      "<strong>Sceptor</strong> (d8, 1 hand, 2 slots)",
+      "<strong>Quarterstaff</strong> (d8, 1 hand, 2 slots)",
+      "<strong>Tonfa</strong> (d8, 1 hand, 2 slots)",
+      "<strong>Gavel</strong> (d8, 1 hand, 2 slots)",
+      "<strong>Hammer</strong> (d8, 1 hand, 2 slots)",
+      "<strong>Javelin</strong> (d8, 1 hand, 2 slots)",
+      "<strong>Morning Star</strong> (d8, 1 hand, 2 slots)",
+      "<strong>Bearded Axe</strong> (d8, 1 hand, 2 slots)",
+      "<strong>Scimitar</strong> (d8, 1 hand, 2 slots)",
+      "<strong>Machete</strong> (d8, 1 hand, 2 slots)",
+      "<strong>Estoc</strong> (d8, 1 hand, 2 slots)",
+      "<strong>Sickle</strong> (d8, 1 hand, 2 slots)",
       "<strong>Spear</strong> (d8, 1 hand, 2 slots)",
       "<strong>Flail</strong> (d8, 1 hand, 2 slots)",
       "<strong>Axe</strong> (d8, 1 hand, 2 slots)",
       "<strong>Mace</strong> (d8, 1 hand, 2 slots)",
       "<strong>Longsword</strong> (d10, 2 hands, 3 slots)",
+      "<strong>Labrys</strong> (d10, 2 hands, 3 slots)",
+      "<strong>Zweihänder</strong> (d10, 2 hands, 3 slots)",
+      "<strong>Katana</strong> (d10, 2 hands, 3 slots)",
+      "<strong>Scythe</strong> (d10, 2 hands, 3 slots)",
+      "<strong>Claymore</strong> (d10, 2 hands, 3 slots)",
+      "<strong>Flambard</strong> (d10, 2 hands, 3 slots)",
+      "<strong>Pike</strong> (d8, 1 hand, 2 slots)",
+      "<strong>Trident</strong> (d8, 1 hand, 2 slots)",
+      "<strong>Bardiche</strong> (d10, 2 hands, 3 slots)",
+      "<strong>Glaive</strong> (d10, 2 hands, 3 slots)",
       "<strong>Battle Axe</strong> (d10, 2 hands, 3 slots)",
       "<strong>Warhammer</strong> (d10, 2 hands, 3 slots)",
       "<strong>Halberd</strong> (d10, 2 hands, 3 slots)",
       "<strong>Guandao</strong> (d10, 2 hands, 3 slots)",
       "<strong>Bow</strong> (d6, 2 hands, 2 slots)",
+      "<strong>Longbow</strong> (d6, 2 hands, 2 slots)",
+      "<strong>Shortbow</strong> (d6, 2 hands, 2 slots)",
+      "<strong>Pistol Crossbow</strong> (d6, 2 hands, 2 slots)",
       "<strong>Bow</strong> (d6, 2 hands, 2 slots)",
-      "<strong>Bow</strong> (d6, 2 hands, 2 slots)",
-      "<strong>Crossbow</strong> (d8, 2 hands, 3 slots)",
+      "<strong>Arbalest</strong> (d8, 2 hands, 3 slots)",
       "<strong>Crossbow</strong> (d8, 2 hands, 3 slots)",
       "<strong>Crossbow</strong> (d8, 2 hands, 3 slots)"
     ],
     "common": [
-      "oak wood", "cherry wood", "driftwood", "charred wood", "twisted branches", "bronze", "steel", "iron", "leather", "bone", "horn", "obsidian shards", "large monster teeth"
+      "oak wood", "cherry wood", "driftwood", "charred wood", "twisted branches", "bronze", "steel", "iron", "leather", "bone", "horn", "obsidian shards", "large monster teeth", "amber", "bamboo", "coral", "petrified wood", "turtle shell", "glass", "snakeskin", "ice", "rusted spikes"
     ],
     "rare": [
-      "diamond", "gold", "jade", "silver", "aluminum", "colorless metal", "crystal", "blood of a god", "ghost stone (turns invisible during a full moon)", "elder hide", "dragon scales"
+      "diamond", "gold", "jade", "silver", "aluminum", "colorless metal", "crystal", "blood of a god", "ghost stone (turns invisible during a full moon)", "elder hide", "dragon scales", "silfer", "fulgerite", "mythril"
     ],
     "decorations": [
-      "a single red ruby", "a single green emerald", "a single blue topaz", "a single tigers eye", "mother of pearl", "a detailed inlay of vines and flowers", "indecipherable runes", "a crystal that drips blood", "a small flower that blooms in sunlight", "a cloudy gem that shows a foggy scene of the last wielders death", "a grip that stains wielder hands dark green", "hidden, detachable throwing knife in the grip"
+      "a single red ruby", "a single green emerald", "a single blue topaz", "a single tigers eye", "mother of pearl", "a detailed inlay of vines and flowers", "indecipherable runes", "a crystal that drips blood", "a small flower that blooms in sunlight", "a cloudy gem that shows a foggy scene of the last wielders death", "a grip that stains wielder hands dark green", "hidden, detachable throwing knife in the grip", "several seastars", "a peacock feather", "rose thorns", "exotic furs", "glowing mushrooms", "soft moss", "maps engraved into the weapon", "a blinking eyeball", "colorful tassles", "spiderwebs"
     ]
   },
   "wielder": {
@@ -550,32 +585,10 @@
       "suspected"
     ],
     "Weapons": [
-      "<strong>Dagger</strong> (d6, 1 hand, 1 slot)",
-      "<strong>Cudgel</strong> (d6, 1 hand, 1 slot)",
-      "<strong>Sickle</strong> (d6, 1 hand, 1 slot)",
-      "<strong>Staff</strong> (d6, 1 hand, 1 slot)",
-      "<strong>Baton</strong> (d6, 1 hand, 1 slot)",
-      "<strong>Sword</strong> (d8, 1 hand, 2 slots)",
-      "<strong>Spear</strong> (d8, 1 hand, 2 slots)",
-      "<strong>Flail</strong> (d8, 1 hand, 2 slots)",
-      "<strong>Axe</strong> (d8, 1 hand, 2 slots)",
-      "<strong>Mace</strong> (d8, 1 hand, 2 slots)",
-      "<strong>Longsword</strong> (d10, 2 hands, 3 slots)",
-      "<strong>Battle Axe</strong> (d10, 2 hands, 3 slots)",
-      "<strong>Warhammer</strong> (d10, 2 hands, 3 slots)",
-      "<strong>Halberd</strong> (d10, 2 hands, 3 slots)",
-      "<strong>Guandao</strong> (d10, 2 hands, 3 slots)",
-      "<strong>5 Throwing Knives</strong> <br>(d6, 1 hand, 5 per slot)",
-      "<strong>5 Darts</strong> (d6, 1 hand, 5 per slot)",
-      "<strong>5 Throwing Axes</strong> <br>(d6, 1 hand, 5 per slot)",
-      "<strong>Sling</strong> (d4, 1 slot) <br>and a bag of 20 stones (1 slot)",
-      "<strong>Sling</strong> (d4, 1 slot) <br>and a bag of 20 stones (1 slot)",
-      "<strong>Bow</strong> (d6, 2 hands, 2 slots) <br>and a quiver of 20 arrows (1 slot)",
-      "<strong>Bow</strong> (d6, 2 hands, 2 slots) <br>and a quiver of 20 arrows (1 slot)",
-      "<strong>Bow</strong> (d6, 2 hands, 2 slots) <br>and a quiver of 20 arrows (1 slot)",
-      "<strong>Crossbow</strong> (d8, 2 hands, 3 slots) <br>and a pack of 20 bolts (1 slot)",
-      "<strong>Crossbow</strong> (d8, 2 hands, 3 slots) <br>and a pack of 20 bolts (1 slot)",
-      "<strong>Crossbow</strong> (d8, 2 hands, 3 slots) <br>and a pack of 20 bolts (1 slot)"
+    "<strong>Dagger</strong> (d6, 1 hand, 1 slot)",
+    "<strong>Sword</strong> (d8, 1 hand, 2 slots)",
+    "<strong>Warhammer</strong> (d10, 2 hands, 3 slots)",
+    "<strong>Bow</strong> (d6, 2 hands, 2 slots) <br>and a quiver of 20 arrows (1 slot)"         
     ],
     "Armor": [
       "<strong>Armor:</strong> 11 (No Armor)",
@@ -740,7 +753,7 @@
       "Wizard Mark: Your finger can shoot a stream of ulfire-colored paint. This paint is only visible to you, and can be seen at any distance, even through solid objects."
     ],
     "goals": [
-"Earn 50 gold to buy medicine for your dying parent.","Defeat a foe worthy of song."
+    "Acquire rare and expensive medication to cure a loved one.", "Defeat a foe worthy of song.", "Overcome a challenge worthy of song.", "Witness an event/scene worthy of song", "Duel a mighty warrior and earn respect for your family.", "Earn the trust of a local noble.", "Discover a powerful spellbook.", "Invent a new spell.", "Retrieve a rare plant from the area.", "Retrieve a rare monster part from the area.", "Retrieve a rare material from the area.", "Complete a bounty to defeat a terrible creature in the area.", "Earn/find/steal 100 gold.", "Earn/find/steal 150 gold.", "Earn/find/steal 200 gold.", "Earn/find/steal 300 gold.", "Earn/find/steal 400 gold.", "Earn/find/steal 500 gold.", "Earn/find/steal 1000 gold.", "Discover what lies beyond death.", "Survive long enough to see the another sunrise.", "Leave this place and never return.", "Tame a wild, dangerous creature and keep it as a pet.", "Keep another party member alive until the adventure is complete.", "Sacrifice your life to save another.", "Find your true family.", "Find true love.", "Create something beautiful.", "Create life.", "Complete this adventure where your father failed to do."
     ],
     "skills": [
 "Boomerang. Launch a weapon at a nearby target and make an attack roll. If it hits the weapon deals damage and falls to the floor. If it misses the weapon returns to you.", "Climber. While climbing you gain an advantage to all rolls and suffer half damage from falling.", "Butcher. You can turn a mangled corpse into d6 rations."

@@ -77,7 +77,7 @@ The GM describes the adventure to the players, and places their Weapons just pas
 1. Use the [Wielder Generator](linkhere) on your phone to create a Wielder. _or grab one of the [Pre-Made Wielder Sheets](linkhere)_
 2. Copy down their details on the character sheet. _Make enough room in your slots to store your Tempered Weapon!_
 3. You may increase three different stats by +1. Repeat for every additional level of your weapon.
-4. Roll a number of d8s equal to Weapon level to determine the Wielders new max HP. If the result is lower than the current HP, increase max HP by +1.
+4. Roll a number of d8s equal to Weapon level to determine the Wielders new max HP. If the result is lower than the max HP, increase max HP by +1.
 5. Your Wielder now has access to all the skills, spells, and goals stored in your Weapon.
 
 ## When a Wielder dies...
@@ -91,8 +91,8 @@ After a group dies it will probably be a while before more people come wandering
 
  - After **a few days** very little changes. Perishables left behind are still good.
  - After **a week or two** the perishables have spoiled, a few monsters have returned.
- - After **several months** the dungeons have re-populated, reset traps, repaired hazards, etc.
- - After **a year or two** most of the Weapons and valuables left behind to have been moved to another area.
+ - After **several months** the area has been re-populated, reset traps, repaired hazards, etc.
+ - After **a year or two** most of the Weapons and valuables left behind to have been moved to another room/region.
  - After **decades** the monsters and traps have changed. Re-populate with new creatures and switch out some of the traps.
  - **Centuries, or longer**, basically a new area. This is the GM's opportunity to transition to a completely new adventure altogether. _"As aeons passed, your Weapons lay forgotten among the piles of treasure that travel between kingdoms and realities. Then, one day, you feel a new Wielder lift you from the dusty floor..."_ 
 
@@ -100,8 +100,8 @@ After a group dies it will probably be a while before more people come wandering
 
 Wielders don't have levels or experience. However Weapons can increase their level, allowing them store more memories and grant more stat bonuses. They increase their level by accomplishing the goals of past wielders. You have a few ways to tweak this:
 
- - **Story goals.** This is what the generator uses by default, smaller specific goals that come from the Wielder. Level two requires completing two goals. Level three requires completing three goals, etc. _Recover enough gold to buy medicine for a dying parent, prove yourself to the gang, discover something never before seen by human eyes._
- - **Simple goals.** Give all Wielders the simple goal of completing the adventure. _Defeat the wizard, recover the black pearl, rob the dragon, or whatever adventure you're running at the time. When they complete an adventure, they level up._
+ - **Random goals.** This is what the generator uses by default; goals that come from the Wielder and range from the small (earn 100 gold) to the legendary (become immortal). Level two requires completing two goals. Level three requires completing three goals, etc. The GM should feel free to tweak or alter the provided goals.
+ - **Simple goals.** Give all Wielders the simple goal of completing the adventure. Weapons level up when they complete it. _Defeat the wizard, recover the black pearl, rob the dragon, or whatever adventure you're running at the time. When they complete an adventure, they level up._
  - **No goals.** Use the gold-as-XP systems in other games, or just hand out levels whenever you think it seems right.
 
 ## Health and Hirelings

@@ -6,6 +6,7 @@ menu: true
 redirect_from:
   - "/david/category/creations"
   - "/david/category/creations/"
+  - "/david/mycreations/"
   - "/projects"
 Permalink: games
 ---
