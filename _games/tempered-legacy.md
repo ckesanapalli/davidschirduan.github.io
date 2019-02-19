@@ -36,8 +36,6 @@ Wielders can be heroes, thieves, lost villagers, or even a lowly goblin. They ar
 
 When a Wielder dies they drop their Weapon on the ground. The player decides what skills, spells, and memories to store in the Weapon for the next Wielder. As Wielders fight and die the Weapon grows stronger, shaped by the player and the Wielders.
 
-This is less a set of rules, and more of a bunch of ideas and dials you can tweak and change to fit your group. 
-
 ## Questions for the group
 
 Some of the people I play with don't care about lore and worldbuilding; they just want to explore dungeons, solve puzzles and get loot. For groups that want more lore, you'll have to decide a few questions for yourselves:
@@ -53,9 +51,9 @@ Every weapon has a few characteristics that make it unique and useful.
  - **Type.** Determines the damage, size, and description of the Weapon.
  - **Level.** The level of the Weapon determines how many things it can store, and what stat bonuses it can grant.
  - A weapon can only store a limited number of things from past Wielders: 
-    - **Skills** grant new abilitie and talents, and often give advantage on some rolls. 
-    - **Spells** always work once, then the Wielder must make a successful INT save or lose the spell for the rest of the day. 
-    - **Goals** are the unfinished business of past Wielders. Accomplishing these goals grants the Weapon more levels.
+    - **Skills** grant new abilitie and talents, and often give advantage on some rolls. They are passive.
+    - **Spells** always work once, then the Wielder must make a successful INT save or lose the spell for the rest of the day. They must be activated on your turn.
+    - **Goals** are the unfinished business of past Wielders. Accomplishing these goals grants the Weapon more levels. 
 
 ## Wielders are fragile but contain useful memories.
 
@@ -70,13 +68,13 @@ Every weapon has a few characteristics that make it unique and useful.
 
 The GM should buy a copy of Knave, read the rules, and make sure all the players understand the basics. Hand each player a [Blank Character Sheet](linkedhere).
 
-Players can generate a Weapon using the [Tempered Weapon Generator](linkhere) on their phones, or grab one of the [Pre-Made Weapon Sheets](linkhere).
+Players can generate a Weapon using the [Tempered Weapon Generator](/temperedgenerators) on their phones.
 
 The GM describes the adventure to the players, and places their Weapons just past the starting point. A group of Wielders stumble by and pick up them up. A new legend begins.
 
 ## When a Wielder picks up a weapon...
 
-1. Use the [Wielder Generator](linkhere) on your phone to create a Wielder. _or grab one of the [Pre-Made Wielder Sheets](linkhere)_
+1. Use the [Wielder Generator](/temperedgenerators) on your phone to create a Wielder.
 2. Copy down their details on the character sheet. _Make enough room in your slots to store your Tempered Weapon!_
 3. You may increase three different stats by +1. Repeat for every additional level of your weapon.
 4. Roll a number of d8s equal to Weapon level to determine the Wielders new max HP. If the result is lower than the max HP, increase max HP by +1.
@@ -104,6 +102,10 @@ Wielders don't have levels or experience. However Weapons can increase their lev
  - **Random goals.** This is what the generator uses by default; goals that come from the Wielder and range from the small (earn 100 gold) to the legendary (become immortal). Level two requires completing two goals. Level three requires completing three goals, etc. The GM should feel free to tweak or alter the provided goals.
  - **Simple goals.** Give all Wielders the simple goal of completing the adventure. Weapons level up when they complete it. _Defeat the wizard, recover the black pearl, rob the dragon, or whatever adventure you're running at the time. When they complete an adventure, they level up._
  - **No goals.** Use the gold-as-XP systems in other games, or just hand out levels whenever you think it seems right.
+
+## Tempered Weapons are powerful
+
+A character wielding a level 1 Tempered Weapon is equivalent to a level 2 character. A character wielding a level 2 Tempered Weapon is equivalent to a level 4 character. Feel free to tweak the numbers on how much a Weapon can store, stat bonuses given, etc.
 
 ## Health and Hirelings
 

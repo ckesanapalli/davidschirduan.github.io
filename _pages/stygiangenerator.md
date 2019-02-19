@@ -200,7 +200,7 @@ function findTreasure() {
 }
 
 function books() {
-  document.getElementById("lootBox").innerHTML = stygian.books[Math.floor(Math.random() * stygian.books.length)] + ", " + stygian.books[Math.floor(Math.random() * stygian.books.length)] + ", " + stygian.books[Math.floor(Math.random() * stygian.books.length)] + ", " + stygian.books[Math.floor(Math.random() * stygian.books.length)] + ", " + stygian.books[Math.floor(Math.random() * stygian.books.length)];
+  document.getElementById("lootBox").innerHTML = stygian.books[Math.floor(Math.random() * stygian.books.length)] + "<br>" + stygian.books[Math.floor(Math.random() * stygian.books.length)] + "<br>" + stygian.books[Math.floor(Math.random() * stygian.books.length)] + "<br>" + stygian.books[Math.floor(Math.random() * stygian.books.length)] + "<br>" + stygian.books[Math.floor(Math.random() * stygian.books.length)];
 }
 
 function extraBooks() {

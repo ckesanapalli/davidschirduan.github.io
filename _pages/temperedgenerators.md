@@ -8,7 +8,8 @@ image: /images/wyrdhuntgenerator.png
 
 Tempered Legacy is a framework for running your fantasy adventure games in a [rogue-like](https://en.wikipedia.org/wiki/Roguelike) way. Old-school adventure games are lethal by design. With this framework players can keep their "character" through multiple adventures, campaigns, and deaths. It's also an easy way to connect adventures that might otherwise be in different worlds/realities.
 
-You can find the rules for Tempered Legacy [online here](tempered-legacy).
+* [**Rules**](/tempered-legacy)
+* [**Character Sheets**](/linkhere)
 
 <div class="row">
   <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button id="weaponButton" class="btn btn-primary btn-lg" onclick="weapon()">Generate Weapon</button></div>
@@ -238,8 +239,7 @@ function wielder() {
     tempered.wielder.Dungeoneering[Math.floor(Math.random() * tempered.wielder.Dungeoneering.length)] + "</li><li>" +
     tempered.wielder.Dungeoneering[Math.floor(Math.random() * tempered.wielder.Dungeoneering.length)] + "</li><li>" +
     tempered.wielder.General1[Math.floor(Math.random() * tempered.wielder.General1.length)] + "</li><li>" +
-    tempered.wielder.General2[Math.floor(Math.random() * tempered.wielder.General2.length)] +
-    + "</li><li>" + tempered.wielder.Weapons[Math.floor(Math.random() * tempered.wielder.Weapons.length)] +
+    tempered.wielder.General2[Math.floor(Math.random() * tempered.wielder.General2.length)] + "</li><li>" + tempered.wielder.Weapons[Math.floor(Math.random() * tempered.wielder.Weapons.length)] +
     tempered.wielder.ExtraArmor[Math.floor(Math.random() * tempered.wielder.ExtraArmor.length)] +
     "</li><li>Spellbook - " + tempered.wielder.Spells[Math.floor(Math.random() * tempered.wielder.Spells.length)];
 }
