@@ -67,17 +67,16 @@ image: /images/generatorPreview.png
 <small>Thanks to <a href="http://questingblog.com/">Ben Milton</a> for making an incredible RPG and to <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the code! For the curious I'll list some of the house-rules that Bone Marshes uses. If HP is less than 4, set it equal to 4. Renames copper to coins, just for convenience and familiarity. PCs start with equipment AND 2d6x10 coins. PCs start with a random spellbook. PCs can fit two rations per slot, to facilitate more exploration.</small>
 
 <script>
-var knave;
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    knave = JSON.parse(this.responseText);
+  }
+};
+xmlhttp.open("GET", "/_pages/knave.json", true);
+xmlhttp.send(); 
 
 function generate() {
-  var xmlhttp = new XMLHttpRequest();
-  xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      knave = JSON.parse(this.responseText);
-    }
-  };
-  xmlhttp.open("GET", "/_pages/knave.json", true);
-  xmlhttp.send(); 
 
   /* ======= NAMES ======= */
   document.getElementById("charName").innerText = "Name: " + knave.Names[Math.floor(Math.random() * knave.Names.length)];

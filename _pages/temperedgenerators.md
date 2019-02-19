@@ -2,7 +2,7 @@
 layout: page
 title: Tempered Legacy Generators
 permalink: temperedgenerators
-published: false
+published: true
 image: /images/wyrdhuntgenerator.png
 ---
 
