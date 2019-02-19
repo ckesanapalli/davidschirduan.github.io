@@ -106,31 +106,25 @@ function weaponName(){
   var random = Math.random();
 
   switch (true) {
-    case (random < 0.2):
-      nameStr = tempered.wielder.Names[Math.floor(Math.random() * tempered.wielder.Names.length)] + "'s " + tempered.weapon.noun[Math.floor(Math.random() * tempered.weapon.noun.length)];
+    case (random < 0.1):
+      nameStr = tempered.weapon.Names[Math.floor(Math.random() * tempered.weapon.Names.length)] + "'s " + tempered.weapon.noun[Math.floor(Math.random() * tempered.weapon.noun.length)];
     break;
-    case (random < 0.4):
+    case (random < 0.3):
       nameStr = tempered.weapon.adj[Math.floor(Math.random() * tempered.weapon.adj.length)] + " " + tempered.weapon.noun[Math.floor(Math.random() * tempered.weapon.noun.length)];
     break;
-    case (random < 0.5):
+    case (random < 0.4):
       nameStr = tempered.weapon.adj[Math.floor(Math.random() * tempered.weapon.adj.length)] + " yet " + tempered.weapon.adj[Math.floor(Math.random() * tempered.weapon.adj.length)];
     break;
-    case (random < 0.55):
+    case (random < 0.5):
       nameStr = tempered.weapon.adj[Math.floor(Math.random() * tempered.weapon.adj.length)] + " but " + tempered.weapon.adj[Math.floor(Math.random() * tempered.weapon.adj.length)];
     break;
     case (random < 0.6):
-      nameStr = tempered.weapon.adj[Math.floor(Math.random() * tempered.weapon.adj.length)] + " so " + tempered.weapon.adj[Math.floor(Math.random() * tempered.weapon.adj.length)];
-    break;
-    case (random < 0.7):
-      nameStr = tempered.weapon.noun[Math.floor(Math.random() * tempered.weapon.noun.length)] + " so " + tempered.weapon.adj[Math.floor(Math.random() * tempered.weapon.adj.length)];
-    break;
-    case (random < 0.75):
       nameStr = tempered.weapon.noun[Math.floor(Math.random() * tempered.weapon.noun.length)] + " and " + tempered.weapon.noun[Math.floor(Math.random() * tempered.weapon.noun.length)];
     break;
-    case (random < 0.8):
+    case (random < 0.7):
       nameStr = tempered.weapon.noun[Math.floor(Math.random() * tempered.weapon.noun.length)] + " for " + tempered.weapon.noun[Math.floor(Math.random() * tempered.weapon.adj.length)];
     break;
-    case (random < 0.85):
+    case (random < 0.8):
       nameStr = tempered.weapon.adj[Math.floor(Math.random() * tempered.weapon.adj.length)] + " for " + tempered.weapon.noun[Math.floor(Math.random() * tempered.weapon.noun.length)];
     break;
     case (random < 0.9):
@@ -245,7 +239,7 @@ function wielder() {
     tempered.wielder.Dungeoneering[Math.floor(Math.random() * tempered.wielder.Dungeoneering.length)] + "</li><li>" +
     tempered.wielder.General1[Math.floor(Math.random() * tempered.wielder.General1.length)] + "</li><li>" +
     tempered.wielder.General2[Math.floor(Math.random() * tempered.wielder.General2.length)] +
-    + "</li><li>" + tempered.wielder.Weapons[Math.floor(Math.random() * tempered.wielder.Weapons.length)] + "</li><li>" +
+    + "</li><li>" + tempered.wielder.Weapons[Math.floor(Math.random() * tempered.wielder.Weapons.length)] +
     tempered.wielder.ExtraArmor[Math.floor(Math.random() * tempered.wielder.ExtraArmor.length)] +
     "</li><li>Spellbook - " + tempered.wielder.Spells[Math.floor(Math.random() * tempered.wielder.Spells.length)];
 }

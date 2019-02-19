@@ -3,6 +3,9 @@
     "classicNames": [
       "Dyrnwyn", "Hrunting and Nægling", "Shamshir-e Zomorrodnegar", "Skofnung", "Thunderbolt", "Vajra", "Gan Jiang and Mo Xie", "Sharur", "Ru Yi Jing Gu Bang", "The Jem of Kukulkan", "Asi", "Astra", "Chandrahas", "Chentu", "Gada", "Gandiva", "Halayudha", "Kaladanda", "Kaumodaki", "Khaṭvāṅga", "Kodandam", "Nandaka", "Parashu", "Pasha", "Pattayudha", "Pinaka", "Sharanga", "Sharkha", "Shiva Dhanush", "Sudarshana Chakra", "Teen Baan", "Trishula", "Vajra", "Vasavi Shakti", "Vel", "Vijaya", "Zulfiqar", "Angurvadal", "Dáinsleif", "Dragvandil", "Gambanteinn", "Gram", "Gríðarvölr", "Gungnir", "Hǫfuð", "Hrotti", "Lævateinn", "Legbiter", "Mistilteinn", "Mjölnir", "Quern-biter", "Ridill", "Skofnung", "Tyrfing", "Fragarach", "Caladbolg", "Moralltach", "Gáe Buide and Gáe Derg", "Claíomh Solais", "Gáe Bulg", "Spear of Lugh", "Excalibur", "Caliburn", "Clarent", "Carnwennan", "Pridwen", "Rhongomiant", "Almace", "Durendal", "Hauteclere", "Joyeuse", "Cortana or Curtana", "Ame-no-nuhoko", "Kusanagi", "Tonbogiri", "Honjo Masamune", "Tizona", "Colada", "Caesura", "Anaklusmos", "Brisingr", "Callandor", "Chance", "Charon's Claw", "Curoch", "Dragnipur", "Heosphoros", "Grayswandir", "Frakir", "Nehima", "Ruyi Jingu Bang", "Snaga the Sender", "The subtle knife", "The Vorpal", "Vasilis", "Werewindle", "Malachai", "Anglachel", "Glamdring", "Orcrist", "Sting", "Morgul", "Caudimordax", "Andúril", "Narsil", "Aiglos", "Mournblade", "Kanajana", "The Runestaff", "Stormbringer", "Ebony Blade", "Dragonslayer", "Hammer of Kharas", "Dragonlance", "Dragonslayer", "The Brightblade", "Staff of Magius", "Mace of Cuthbert", "Crown rend", "Craven Edge", "Fenthras", "Mythcarver", "The Spire of Conflux", "Whisper", "The Silver of Gith", "Dagger of Time", "Falchion", "Gradivus", "Mercurius", "Parthia", "Tyrfing", "Book Of Naga", "Binding Blade", "Mani Katti", "Sol Katti", "Durandal", "Armads", "Forblaze", "Aureola", "Mulagir", "Maltet", "Apocalypse", "Eckesachs", "Siegmund", "Sieglinde", "Ragnell", "Alondite", "Siegfried", "Brynhildr", "Fujin Yumi", "Rajinto", "Yato", "Ganglari", "Soul Reaver", "Soul Calibur", "Soul Edge", "Monado", "Keyblade", "Star Rod", "Crystalis", "Ashbringer", "Frostmourne", "Thunderfury", "Avo's Tear", "Arondight", "Umbra", "Only Friend ", "New Friend", "Juana Stabadude"
     ],
+    "Names":[
+      "Griselda", "Jaina", "Aurora", "Esper", "Saryn", "Nova", "Galvander", "Stormrend", "Armstrong", "Schirduan", "Gaia", "Ravachol", "Rincewind"
+    ],
     "adj": [
       "Ancient", "Antideluvian", "Arcane", "Blazing", "Bleeding", "Bloodied", "Blooming", "Blue", "Bound", "Coiled", "Crafty", "Cratered", "Craven", "Crying", "Cunning", "Cursed", "Curved", "Dark", "Divine", "Elder", "Eldritch", "Faded", "Fatal", "Fluffy", "Flying", "Fractured", "Freezing", "Frozen", "Galactic", "Gilded", "Glittering", "Glowing", "Green", "Grinning", "Groaning", "Hallowed", "Haunted", "Heaven's ", "Hypnotic", "Infected", "Infested", "Innocent", "Jumping", "Laughing", "Light", "Lonely", "Lunar", "Merciful", "Mocking", "Molten", "Mournful", "Muddy", "Newborn", "Painted", "Pierced", "Piercing", "Pious", "Pitted", "Rambling", "Red", "Rended", "Restless", "Righteous", "Rotten", "Rusty", "Sad ", "Sanguine", "Screaming", "Shattered", "Shining", "Silent", "Smiling", "Soft", "Solar", "Spoiled", "Stillborn", "Stinging", "Strong", "Sundered", "Sunken", "Superior", "Supple", "Swift", "Swimming", "Tangled", "Twisted", "Ubmral", "Undying", "Vexing", "Wandering", "Weak", "Weeping", "Wild", "Wily", "Wistful", "Wretched", "Yellow", "Tempered", "Seething", "Furious", "Sacred"
     ],
@@ -69,13 +72,13 @@
       "<strong>Crossbow</strong> (d8, 2 hands, 3 slots)"
     ],
     "common": [
-      "oak wood", "cherry wood", "driftwood", "charred wood", "twisted branches", "bronze", "steel", "iron", "leather", "bone", "horn", "obsidian shards", "large monster teeth", "amber", "bamboo", "coral", "petrified wood", "turtle shell", "glass", "snakeskin", "ice", "rusted spikes"
+      "oak wood", "cherry wood", "driftwood", "charred wood", "twisted branches", "bronze", "steel", "iron", "leather", "bone", "horn", "obsidian shards", "large monster teeth", "amber", "bamboo", "coral", "petrified wood", "glass", "snakeskin", "ice", "rusted spikes", "metal wire", "braided rope"
     ],
     "rare": [
-      "diamond", "gold", "jade", "silver", "aluminum", "colorless metal", "crystal", "blood of a god", "ghost stone (turns invisible during a full moon)", "elder hide", "dragon scales", "silfer", "fulgerite", "mythril"
+      "diamond", "gold", "jade", "silver", "aluminum", "colorless metal", "crystal", "the blood of a god", "ghost stone (turns invisible during a full moon)", "elder hide", "dragon scales", "silfer", "fulgerite", "mythril", "paper", "turtle shells", "insect barbs"
     ],
     "decorations": [
-      "a single red ruby", "a single green emerald", "a single blue topaz", "a single tigers eye", "mother of pearl", "a detailed inlay of vines and flowers", "indecipherable runes", "a crystal that drips blood", "a small flower that blooms in sunlight", "a cloudy gem that shows a foggy scene of the last wielders death", "a grip that stains wielder hands dark green", "hidden, detachable throwing knife in the grip", "several seastars", "a peacock feather", "rose thorns", "exotic furs", "glowing mushrooms", "soft moss", "maps engraved into the weapon", "a blinking eyeball", "colorful tassles", "spiderwebs"
+      "a single red ruby", "a single green emerald", "a single blue topaz", "a single tigers eye", "mother of pearl", "a detailed inlay of vines and flowers", "indecipherable runes", "a crystal that drips blood", "a small flower that blooms in sunlight", "a cloudy gem that shows a foggy scene of the last wielders death", "a grip that stains wielder's hands dark green", "hidden, detachable throwing knife in the grip", "several seastars", "a peacock feather", "rose thorns", "exotic furs", "glowing mushrooms", "soft moss", "maps engraved into the weapon", "a blinking eyeball", "colorful tassles", "spiderwebs"
     ]
   },
   "wielder": {
@@ -585,10 +588,10 @@
       "suspected"
     ],
     "Weapons": [
-    "<strong>Dagger</strong> (d6, 1 hand, 1 slot)",
-    "<strong>Sword</strong> (d8, 1 hand, 2 slots)",
-    "<strong>Warhammer</strong> (d10, 2 hands, 3 slots)",
-    "<strong>Bow</strong> (d6, 2 hands, 2 slots) <br>and a quiver of 20 arrows (1 slot)"         
+    "Dagger (d6, 1 hand, 1 slot)",
+    "Sword (d8, 1 hand, 2 slots)",
+    "Warhammer (d10, 2 hands, 3 slots)",
+    "Bow (d6, 2 hands, 2 slots) and a quiver of 20 arrows (1 slot)"         
     ],
     "Armor": [
       "<strong>Armor:</strong> 11 (No Armor)",

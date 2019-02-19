@@ -32,14 +32,16 @@ You exist as a collection of memories: faint visions, blurry spellbooks, and ech
 
 Each player controls a Tempered Weapon lying on the ground in some forgotten area. The GM then describes a group of Wielders discovering and equipping the weapons.
 
-Wielders can be heroes, thieves, lost villagers, or even a lowly goblin. They are randomly generated with their own skills, spells, and goals. Once they pick up a Tempered Weapon, they gain access to all the skills and spells stored within the Weapon. Wielders are weak and short-lived.
+Wielders can be heroes, thieves, lost villagers, or even a lowly goblin. They are randomly generated with their own skills, spells, and goals. Once they pick up a Tempered Weapon, they gain access to all the skills and spells stored within the Weapon. Wielders can use other mundane weapons they are carrying; owning the Tempered Weapon is enough to benefit from its properties.
 
 When a Wielder dies they drop their Weapon on the ground. The player decides what skills, spells, and memories to store in the Weapon for the next Wielder. As Wielders fight and die the Weapon grows stronger, shaped by the player and the Wielders.
+
+This is less a set of rules, and more of a bunch of ideas and dials you can tweak and change to fit your group. 
 
 ## Questions for the group
 
 Some of the people I play with don't care about lore and worldbuilding; they just want to explore dungeons, solve puzzles and get loot. For groups that want more lore, you'll have to decide a few questions for yourselves:
- - Are the weapons actually sentient or are they just vessels for past memories/skills/spells?
+ - Are the weapons actually sentient or are they just vessels for past goals/skills/spells?
  - How does holding a Weapon change the Wielder? Do they have a choice in the matter?
  - How rare are Tempered Weapons: common tools or priceless artifacts?
 
@@ -49,8 +51,8 @@ Every weapon has a few characteristics that make it unique and useful.
 
  - **Name.** The name of the Weapon will change as it goes through Wielders.
  - **Type.** Determines the damage, size, and description of the Weapon.
- - **Level.** The level of the Weapon determines how many memories it can store, and what stat bonuses it can grant.
- - **Memories.** A weapon can only store a limited number of memories from past Wielders. Memories can be one of three things: 
+ - **Level.** The level of the Weapon determines how many things it can store, and what stat bonuses it can grant.
+ - A weapon can only store a limited number of things from past Wielders: 
     - **Skills** grant new abilitie and talents, and often give advantage on some rolls. 
     - **Spells** always work once, then the Wielder must make a successful INT save or lose the spell for the rest of the day. 
     - **Goals** are the unfinished business of past Wielders. Accomplishing these goals grants the Weapon more levels.
@@ -82,8 +84,7 @@ The GM describes the adventure to the players, and places their Weapons just pas
 
 ## When a Wielder dies...
 
-1. You MUST replace one memory of the Weapon with the goal of the Wielder. Record their name along with the goal.
-2. You MAY replace any other memories of the Weapon with skills or spells from the Wielder. _Even though spells are written in books, and skills are known to the Wielder, both can be transferred and stored in the Weapon._
+You MAY replace any skill/spell/goal of the Weapon with a skill/spell/goal from the Wielder. You con only replace a spell with another spell, or a skill with another skill, or a goal with another goal. _Even though spells are written in books they can still be transferred and stored in the Weapon._
 
 ## Passage of Time
 
