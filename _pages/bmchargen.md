@@ -3,8 +3,9 @@ layout: page
 title: Bone Marshes Character Generator
 permalink: bmchargen
 published: true
-image: /images/generatorPreview.png
+image: /images/posts/bonemarshes_KS.jpg
 ---
+![bonemarshes_KS.jpg]({{site.url}}/images/posts/bonemarshes_KS.jpg)
 
 <p>A <a href="/bone-marshes">Bone Marshes</a> character generator for <a href="https://www.drivethrurpg.com/product/250888/Knave">Knave</a> and other OSR games.</p>
 

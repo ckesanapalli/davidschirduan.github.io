@@ -18,10 +18,10 @@ The Bone Marshes is a tabletop adventure about getting lost. It’s tailor-made 
 The Bone Marshes is an adventure filled with mapping and exploration challenges for the players. Great care and effort have been taken to ease the burden on the GM and provide players with a difficult but not impossible challenge. We use clean organization, special time-keeping and travel rules, and player handouts to keep people engaged and on the same page in this topsy-turvey land.
 
 <div class="row">
-  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/bmchargen'" type="button">Character Generator</button></div>
-  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/files/BoneMarshes_characterSheet.pdf'" type="button">Character Sheet</button></div>
-  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/files/BoneMarshes_handouts.pdf'" type="button">Handouts & Maps</button></div>
-  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/files/BoneMarshes_LostThings.pdf'" type="button">Items & Loot</button></div>
+  <div class="col-md-6 col-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/bmchargen'" type="button">Character Generator</button></div>
+  <div class="col-md-6 col-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/files/BoneMarshes_characterSheet.pdf'" type="button">Character Sheet</button></div>
+  <div class="col-md-6 col-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/files/BoneMarshes_handouts.pdf'" type="button">Handouts & Maps</button></div>
+  <div class="col-md-6 col-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/files/BoneMarshes_LostThings.pdf'" type="button">Items & Loot</button></div>
 </div>
 
 ![spirequotes.png](/images/posts/SpireQuote.png)

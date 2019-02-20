@@ -5,6 +5,8 @@ permalink: stygiangenerator
 published: true
 image: /images/stygiangenerator.png
 ---
+![stygiangenerator.png]({{site.url}}/images/stygiangenerator.png)
+
 <div class="row">
   <div class="col-md-3 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="buttonDeeper()">Go
       Deeper</button></div>

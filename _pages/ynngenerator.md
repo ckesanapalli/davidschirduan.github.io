@@ -5,6 +5,8 @@ permalink: ynngenerator
 published: true
 image: /images/ynngenerator.png
 ---
+![ynngenerator.png]({{site.url}}/images/ynngenerator.png)
+
 <div class="row">
   <div class="col-md-3 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="buttonDeeper()">Go
       Deeper</button></div>

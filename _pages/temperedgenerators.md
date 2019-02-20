@@ -11,8 +11,8 @@ Tempered Legacy is a rogue-like OSR framework where you are a Weapon wielded by 
 
 
 <div class="row">
-  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button id="weaponButton" class="btn btn-primary btn-lg" onclick="weapon()">Generate Weapon</button></div>
-  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button id="wielderButton" class="btn btn-primary btn-lg" onclick="wielder()">Generate Wielder</button></div>
+  <div class="col-md-6 col-12 tightSpacing buttonWrapper"><button id="weaponButton" class="btn btn-primary btn-lg" onclick="weapon()">Generate Weapon</button></div>
+  <div class="col-md-6 col-12 tightSpacing buttonWrapper"><button id="wielderButton" class="btn btn-primary btn-lg" onclick="wielder()">Generate Wielder</button></div>
 </div>
 
 <div class="container generatorCard" id="weaponCard" style="display:none;">

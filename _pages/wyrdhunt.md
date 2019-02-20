@@ -5,6 +5,7 @@ permalink: wyrdhuntgenerator
 published: true
 image: /images/wyrdhuntgenerator.png
 ---
+![wyrdhuntgenerator.png]({{site.url}}/images/wyrdhuntgenerator.png)
 
 <p class="tightSpacing" id="huntText"></p>
 
