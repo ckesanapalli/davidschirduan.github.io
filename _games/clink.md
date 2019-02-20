@@ -18,7 +18,10 @@ image: /images/posts/ClinkCover.png
 
 Clink is a tabletop RPG about drifters, the creeds that bring them together, and the history that drives them apart. The game uses coins to tell a story inspired by spaghetti westerns, ronin tales, and shows like Firefly or Supernatural. 
 
-## Buy the PDF on [DrivethruRPG](http://www.drivethrurpg.com/product/236659/Clink-RPG)
+<div class="row">
+  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='http://www.drivethrurpg.com/product/236659/Clink-RPG'" type="button">
+  Buy the PDF on DrivethruRPG</button></div>
+</div>
 
 **A few people have requested some "Grittier" rules for Clink. [You can download them here.]({{site.url}}/files/Clink _Gritty_ Rules.pdf)**
 

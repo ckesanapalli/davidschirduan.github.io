@@ -20,9 +20,10 @@ comments: True
 
 A Star Wars hack of the Wushu System by Daniel Bayn. It allows for incredible fighting and actions scenes to take place, giving players complete freedom to choreograph epic Matrix-like Kung-fu battles. It’s the only game that makes you FEEL like a jedi!
 
-[**Downlad PDF**]({{site.url}}/files/JediWushu2.0.pdf)
-
-[**Printer-friendly Version**]({{site.url}}/files/JediWushu2.0Printer.pdf)
+<div class="row">
+  <div class="col-lg-6 col-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/files/JediWushu2.0.pdf'" type="button">Download PDF</button></div>
+  <div class="col-lg-6 col-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/files/JediWushu2.0Printer.pdf'" type="button">Printer-friendly Version</button></div>
+</div>
 
 ## GM Inspiration
 

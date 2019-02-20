@@ -17,9 +17,14 @@ Horror adventure inspired by a nightmare I once had.
 
 ![OnlyThe-Cover.png]({{site.url}}/images/posts/OnlyThe-Cover.png){: .leftSmallImg}
 
-[**Download PDF**]({{site.url}}/files/OnlytheFood-Digital.pdf)
+<div class="row">
+  <div class="col-md-6 col-6 tightSpacing buttonWrapper">
+<button class="btn btn-primary btn-lg" onclick="location.href='/files/OnlytheFood-Digital.pdf'" type="button">Download PDF</button></div>
 
-[**Or the Printer-friendly Version**]({{site.url}}/files/OnlytheFood-Print.pdf)
+  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/files/OnlytheFood-Print.pdf'" type="button">Printer-friendly Version</button></div>
+
+  </div>
+
 
 A Sci-Fi horror adventure for the [Dread system]({{site.url}}/david/extremely-interesting-role-playing-games#dread). Dread is perfect for running a horror/thriller game, and uses a Jenga tower instead of dice to keep the tension high! Players are stranded on a damaged ship with a broken AI, and must survive long enough to repair their vessel and try to escape with their lives.
 

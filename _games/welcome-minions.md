@@ -19,9 +19,12 @@ Welcome Minions is a simple card game of friendly backstabbing. You’ll be work
  * Four or more players. Plays well with up to twelve.
  * You need a deck of cards for every 4 players.
  * Games last 20-30 minutes.
- 
-### [Download the PDF]({{site.url}}/files/WelcomeMinions_March2017.pdf)
 
+
+<div class="row">
+  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/files/WelcomeMinions_March2017.pdf'" type="button">Download PDF</button></div>
+</div>
+ 
 *The fantastic art is done by Andrew Barton, checkout his other work at <a href="http://andrewbartondesign.com/" target="_blank">andrewbartondesign.com</a>.*
 
 ![minions.png]({{site.url}}/images/posts/minions.png)

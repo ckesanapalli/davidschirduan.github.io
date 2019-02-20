@@ -14,11 +14,14 @@ image: /images/posts/MM_Cover_Digital.jpg
 ---
 Mythic Mortals is a Tabletop Role-Playing Game where you and your friends play as your real-world selves suddenly granted unstable powers. A visual and tactile joy, Mythic Mortals is easy to teach and fast to play.
 
-## Order a [print copy from DriveThru](http://www.drivethrurpg.com/product/178248/Mythic-Mortals).
+<div class="row">
+  <div class="col-lg-6 col-12 tightSpacing buttonWrapper">
+<button class="btn btn-primary btn-lg" onclick="location.href='http://www.drivethrurpg.com/product/178248/Mythic-Mortals'" type="button">Order a Print Copy</button></div>
 
-## Download the PDF:
+  <div class="col-lg-6 col-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='https://davidschirduan.itch.io/mythic-mortals'" type="button">Buy the Digital PDF</button></div>
 
-<iframe frameborder="0" src="https://itch.io/embed/58786" width="552" height="167"></iframe>
+  </div>
+
 
 ## How Does it Play?
 

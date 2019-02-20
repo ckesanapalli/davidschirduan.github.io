@@ -19,11 +19,14 @@ A simple game where failure only makes you stronger!
 
 Kintsugi began as a 200 Word RPG but has since expanded across 2-pages! Play as a Robot, Mutant, or a Magical Golem; someone who can’t die and quickly learns new skills or abilities. Simple but elegant rules allow you to create your characters as you play, building them up one failure at a time. 
 
-[**Download PDF**]({{site.url}}/files/Kintsugi_Digital.pdf)
+<div class="row">
+  <div class="col-lg-6 col-12 tightSpacing buttonWrapper">
+<button class="btn btn-primary btn-lg" onclick="location.href='/files/Kintsugi_Digital.pdf'" type="button">Download PDF</button></div>
 
-[Or the **Printer-Friendly Version**]({{site.url}}/files/Kintsugi_Print.pdf)
+  <div class="col-lg-6 col-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/files/Kintsugi_Print.pdf'" type="button">Printer-Friendly Version</button></div>
+    <div class="col-lg-6 col-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='http://www.storiediruolo.com/kintsugi-edizione-italiana/'" type="button">Edizione Italiana</button></div>
+  </div>
 
-[**Edizione Italiana**](http://www.storiediruolo.com/kintsugi-edizione-italiana/)
 
 ## Starting Scenario
 _Inspired by SteamWorld Heist._

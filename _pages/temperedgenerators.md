@@ -3,13 +3,12 @@ layout: page
 title: Tempered Legacy Generators
 permalink: temperedgenerators
 published: true
-image: /images/wyrdhuntgenerator.png
+image: /images/temperedlegacy.png
 ---
+![temperedlegacy.png]({{site.url}}/images/temperedlegacy.png)
 
-Tempered Legacy is a framework for running your fantasy adventure games in a [rogue-like](https://en.wikipedia.org/wiki/Roguelike) way. Old-school adventure games are lethal by design. With this framework players can keep their "character" through multiple adventures, campaigns, and deaths. It's also an easy way to connect adventures that might otherwise be in different worlds/realities.
+Tempered Legacy is a rogue-like OSR framework where you are a Weapon wielded by many. [**You read the rules here**](/tempered-legacy).
 
-* [**Rules**](/tempered-legacy)
-* [**Character Sheets**](/linkhere)
 
 <div class="row">
   <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button id="weaponButton" class="btn btn-primary btn-lg" onclick="weapon()">Generate Weapon</button></div>
@@ -43,7 +42,7 @@ Tempered Legacy is a framework for running your fantasy adventure games in a [ro
 	</div>
   <hr class="tightSpacing">
   <p id="charGoal"><strong>Goal:</strong> Seek revenge for your failed fashion sense.</p>
-  <p id="charSkill"><strong>Skill:</strong> Jump higher than most.</p>
+  <p id="charSkill"></p>
   <div class="row">
 		<div class="col-xl-3 col-md-6 tightSpacing" id="charPhysique"></div>
 		<div class="col-xl-3 col-md-6 tightSpacing" id="charSkin"></div>
@@ -79,86 +78,85 @@ xmlhttp.onreadystatechange = function () {
 xmlhttp.open("GET", "/_pages/tempered.json", true);
 xmlhttp.send();
 
-function weapon() {
+function selectRandom(jsonList){
+  result = jsonList[Math.floor(Math.random() * jsonList.length)];
+  if (Array.isArray(result)){
+    result = selectRandom(result);
+  }
+  return result;
+}
+
+function weapon(){
   document.getElementById("wielderCard").style = "display:none";
   document.getElementById("weaponCard").style = "";
 
   weaponName();
   weaponDesc();
   weaponMemories();
-
 }
 
-/**
-20% - Name's noun
-20% - adj noun
-10% - adj yet adj
-5% - adj but adj
-5% - adj so adj
-10% - noun so adj
-5% - noun and noun
-5% - noun for noun
-5% - adj and noun
-5% - adj for noun
-10% - classic
-**/
 function weaponName(){
   var nameStr = "";
   var random = Math.random();
 
   switch (true) {
     case (random < 0.1):
-      nameStr = tempered.weapon.Names[Math.floor(Math.random() * tempered.weapon.Names.length)] + "'s " + tempered.weapon.noun[Math.floor(Math.random() * tempered.weapon.noun.length)];
+      nameStr = selectRandom(tempered.weapon.Names) + "'s " + selectRandom(tempered.weapon.noun);
     break;
     case (random < 0.3):
-      nameStr = tempered.weapon.adj[Math.floor(Math.random() * tempered.weapon.adj.length)] + " " + tempered.weapon.noun[Math.floor(Math.random() * tempered.weapon.noun.length)];
+      nameStr = selectRandom(tempered.weapon.adj) + " " + selectRandom(tempered.weapon.noun);
     break;
     case (random < 0.4):
-      nameStr = tempered.weapon.adj[Math.floor(Math.random() * tempered.weapon.adj.length)] + " yet " + tempered.weapon.adj[Math.floor(Math.random() * tempered.weapon.adj.length)];
+      nameStr = selectRandom(tempered.weapon.adj) + " yet " + selectRandom(tempered.weapon.adj);
     break;
     case (random < 0.5):
-      nameStr = tempered.weapon.adj[Math.floor(Math.random() * tempered.weapon.adj.length)] + " but " + tempered.weapon.adj[Math.floor(Math.random() * tempered.weapon.adj.length)];
+      nameStr = selectRandom(tempered.weapon.adj) + " but " + selectRandom(tempered.weapon.adj);
     break;
     case (random < 0.6):
-      nameStr = tempered.weapon.noun[Math.floor(Math.random() * tempered.weapon.noun.length)] + " and " + tempered.weapon.noun[Math.floor(Math.random() * tempered.weapon.noun.length)];
+      nameStr = selectRandom(tempered.weapon.noun) + " and " + selectRandom(tempered.weapon.noun);
     break;
     case (random < 0.7):
-      nameStr = tempered.weapon.noun[Math.floor(Math.random() * tempered.weapon.noun.length)] + " for " + tempered.weapon.noun[Math.floor(Math.random() * tempered.weapon.adj.length)];
+      nameStr = selectRandom(tempered.weapon.noun) + " for " + selectRandom(tempered.weapon.noun);
     break;
     case (random < 0.8):
-      nameStr = tempered.weapon.adj[Math.floor(Math.random() * tempered.weapon.adj.length)] + " for " + tempered.weapon.noun[Math.floor(Math.random() * tempered.weapon.noun.length)];
+      nameStr = selectRandom(tempered.weapon.adj) + " for " + selectRandom(tempered.weapon.noun);
     break;
     case (random < 0.9):
-      nameStr = tempered.weapon.adj[Math.floor(Math.random() * tempered.weapon.adj.length)] + " and " + tempered.weapon.noun[Math.floor(Math.random() * tempered.weapon.noun.length)];
+      nameStr = selectRandom(tempered.weapon.adj) + " and " + selectRandom(tempered.weapon.noun);
     break;
     default:
-      nameStr = tempered.weapon.classicNames[Math.floor(Math.random() * tempered.weapon.classicNames.length)];
+      nameStr = selectRandom(tempered.weapon.classicNames);
   }
 
   document.getElementById("weaponName").innerHTML = nameStr;
 }
 
-
 function weaponDesc(){
+  var type = Math.floor(Math.random() * 4);
+  var weaponType = "<strong>";
 
-  document.getElementById("weaponDesc").innerHTML = "A " + 
-  tempered.weapon.types[Math.floor(Math.random() * tempered.weapon.types.length)] + 
-  " crafted from " + 
-  tempered.weapon.common[Math.floor(Math.random() * tempered.weapon.common.length)] +
-  " and " +
-  tempered.weapon.rare[Math.floor(Math.random() * tempered.weapon.rare.length)] +
-  ". It is decorated with " + 
-  tempered.weapon.decorations[Math.floor(Math.random() * tempered.weapon.decorations.length)] +
-  ".";
+  switch (type) {
+    case (0):
+      weaponType = weaponType + selectRandom(tempered.weapon.smallType) + "</strong> (d6, 1 hand, 1 slot)";
+      break;
+    case (1):
+      weaponType = weaponType + selectRandom(tempered.weapon.mediumType) + "</strong> (d8, 1 hand, 2 slots)";
+      break;
+    case (2):
+      weaponType = weaponType + selectRandom(tempered.weapon.largeType) + "</strong> (d10, 2 hands, 3 slots)";
+      break;
+    case (3):
+      weaponType = weaponType + selectRandom(tempered.weapon.rangedType) + "</strong> (d6, 2 hands, 2 slots)";
+      break;
+  }
 
+  document.getElementById("weaponDesc").innerHTML = "A " + weaponType + " crafted from " + selectRandom(tempered.weapon.common) + " and " + selectRandom(tempered.weapon.rare) + ". It is decorated with " + selectRandom(tempered.weapon.decorations) + ".";
 }
 
 function weaponMemories(){
-  document.getElementById("weaponGoal").innerHTML = "<strong>Goal:</strong> " + tempered.wielder.goals[Math.floor(Math.random() * tempered.wielder.goals.length)];
-
-  document.getElementById("weaponSkill").innerHTML = "<strong>Skill:</strong> " + tempered.wielder.skills[Math.floor(Math.random() * tempered.wielder.skills.length)];
-
-  document.getElementById("weaponSpell").innerHTML = "<strong>Spell:</strong> " + tempered.wielder.Spells[Math.floor(Math.random() * tempered.wielder.Spells.length)];
+  document.getElementById("weaponGoal").innerHTML = "<strong>Goal:</strong> " + selectRandom(tempered.wielder.goals);
+  document.getElementById("weaponSkill").innerHTML = "<strong>Skill:</strong> " + selectRandom(tempered.wielder.skills);
+  document.getElementById("weaponSpell").innerHTML = "<strong>Spell:</strong> " + selectRandom(tempered.wielder.Spells);
 }
 
 
@@ -168,7 +166,7 @@ function wielder() {
   document.getElementById("weaponCard").style = "display:none";
 
   /* ======= NAMES ======= */
-  document.getElementById("charName").innerText = "Name: " + tempered.wielder.Names[Math.floor(Math.random() * tempered.wielder.Names.length)];
+  document.getElementById("charName").innerText = "Name: " + selectRandom(tempered.wielder.Names);
 
   /* ======= STATS ======= */
   var die1 = Math.floor(Math.random() * 6) + 1;
@@ -198,50 +196,61 @@ function wielder() {
   document.getElementById("charCHA").innerText = "CHA: " + Math.min(die1, die2, die3);
 
   /* ======= HP ======= */
-  document.getElementById("charHP").innerText = "Hit Points: " + tempered.wielder.HP[Math.floor(Math.random() * tempered.wielder.HP.length)];
+  var health = Math.floor(Math.random() * 8) + 1;
+  document.getElementById("charHP").innerText = "Hit Points: " + health;
 
-  /* ======= Goals / Skills ======= */
+  /* ======= Gold / Goals / Skills / Spells ======= */
 
-  document.getElementById("charGoal").innerHTML = "<strong>Goal:</strong> " + tempered.wielder.goals[Math.floor(Math.random() * tempered.wielder.goals.length)];
+  /*50% chance to have a spell book. 50% change to have a skill*/
+  if (Math.random() >= .5){
+    spellbook = "</li><li>Spellbook - " + selectRandom(tempered.wielder.Spells);
+  } else {
+    spellbook = "";
+  }
 
-  document.getElementById("charSkill").innerHTML = "<strong>Skill:</strong> " + tempered.wielder.skills[Math.floor(Math.random() * tempered.wielder.skills.length)];
+  if (Math.random() >= .5){
+    document.getElementById("charSkill").innerHTML = "<strong>Skill:</strong> " + selectRandom(tempered.wielder.skills);
+  } else {
+    document.getElementById("charSkill").innerHTML = "<strong>Skill:</strong> None.";
+  }
+
+  document.getElementById("charGoal").innerHTML = "<strong>Goal:</strong> " + selectRandom(tempered.wielder.goals);
+
 
   /* ======= TRAITS ======= */
-  document.getElementById("charPhysique").innerHTML = "<strong>Physique</strong><br>" + tempered.wielder.Physique[Math.floor(Math.random() * tempered.wielder.Physique.length)];
+  document.getElementById("charPhysique").innerHTML = "<strong>Physique</strong><br>" + selectRandom(tempered.wielder.Physique);
 
-  document.getElementById("charFace").innerHTML = "<strong>Face</strong><br>" + tempered.wielder.Face[Math.floor(Math.random() * tempered.wielder.Face.length)];
+  document.getElementById("charFace").innerHTML = "<strong>Face</strong><br>" + selectRandom(tempered.wielder.Face);
 
-  document.getElementById("charSkin").innerHTML = "<strong>Skin</strong><br>" + tempered.wielder.Skin[Math.floor(Math.random() * tempered.wielder.Skin.length)];
+  document.getElementById("charSkin").innerHTML = "<strong>Skin</strong><br>" + selectRandom(tempered.wielder.Skin);
 
-  document.getElementById("charHair").innerHTML = "<strong>Hair</strong><br>" + tempered.wielder.Hair[Math.floor(Math.random() * tempered.wielder.Hair.length)];
+  document.getElementById("charHair").innerHTML = "<strong>Hair</strong><br>" + selectRandom(tempered.wielder.Hair);
 
-  document.getElementById("charClothing").innerHTML = "<strong>Clothing</strong><br>" + tempered.wielder.Clothing[Math.floor(Math.random() * tempered.wielder.Clothing.length)];
+  document.getElementById("charClothing").innerHTML = "<strong>Clothing</strong><br>" + selectRandom(tempered.wielder.Clothing);
 
-  document.getElementById("charVirtue").innerHTML = "<strong>Virtue</strong><br>" + tempered.wielder.Virtues[Math.floor(Math.random() * tempered.wielder.Virtues.length)];
+  document.getElementById("charVirtue").innerHTML = "<strong>Virtue</strong><br>" + selectRandom(tempered.wielder.Virtues);
 
-  document.getElementById("charVice").innerHTML = "<strong>Vice</strong><br>" + tempered.wielder.Vices[Math.floor(Math.random() * tempered.wielder.Vices.length)];
+  document.getElementById("charVice").innerHTML = "<strong>Vice</strong><br>" + selectRandom(tempered.wielder.Vices);
 
-  document.getElementById("charSpeech").innerHTML = "<strong>Speech</strong><br>" + tempered.wielder.Speech[Math.floor(Math.random() * tempered.wielder.Speech.length)];
+  document.getElementById("charSpeech").innerHTML = "<strong>Speech</strong><br>" + selectRandom(tempered.wielder.Speech);
 
   /* ======= ARMOR ======= */
   document.getElementById("charSlots").innerText = "Equipment: " + (charCON + 10) + " Slots";
 
-  document.getElementById("charArmor").innerHTML = tempered.wielder.Armor[Math.floor(Math.random() * tempered.wielder.Armor.length)];
+  document.getElementById("charArmor").innerHTML = selectRandom(tempered.wielder.Armor);
 
   /* ======= EQUIPMENT ======= */
   var die1 = Math.floor(Math.random() * 6) + 1;
-  var die2 = Math.floor(Math.random() * 6) + 1;
-  var startGold = die1 + die2;
+  var startGold = die1;
   startGold = startGold * 10;
 
   document.getElementById("charItems").innerHTML = "<ul><li>" +
     startGold + " coins (100 coins per slot)</li><li>2 days of rations (2 rations per slot)</li><li>" +
-    tempered.wielder.Dungeoneering[Math.floor(Math.random() * tempered.wielder.Dungeoneering.length)] + "</li><li>" +
-    tempered.wielder.Dungeoneering[Math.floor(Math.random() * tempered.wielder.Dungeoneering.length)] + "</li><li>" +
-    tempered.wielder.General1[Math.floor(Math.random() * tempered.wielder.General1.length)] + "</li><li>" +
-    tempered.wielder.General2[Math.floor(Math.random() * tempered.wielder.General2.length)] + "</li><li>" + tempered.wielder.Weapons[Math.floor(Math.random() * tempered.wielder.Weapons.length)] +
-    tempered.wielder.ExtraArmor[Math.floor(Math.random() * tempered.wielder.ExtraArmor.length)] +
-    "</li><li>Spellbook - " + tempered.wielder.Spells[Math.floor(Math.random() * tempered.wielder.Spells.length)];
+    selectRandom(tempered.wielder.Dungeoneering) + "</li><li>" +
+    selectRandom(tempered.wielder.Dungeoneering) + "</li><li>" +
+    selectRandom(tempered.wielder.General1) + "</li><li>" +
+    selectRandom(tempered.wielder.General2) + "</li><li>" + selectRandom(tempered.wielder.Weapons) +
+    selectRandom(tempered.wielder.ExtraArmor) + spellbook;
 }
 
 </script>
