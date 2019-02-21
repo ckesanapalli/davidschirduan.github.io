@@ -9,7 +9,7 @@ screenshot:
 hide_description: true
 permalink: tempered-legacy
 featured: false
-published: false
+published: true
 ---
 
 <div class="row">
@@ -34,7 +34,7 @@ A meteor crashed near the wagon of a clever trader. She awoke from her sleep and
 
 After the metal cooled she bent down to pick it up and upon touching the still-warm surface she was overwhelmed with visions and memories from another world. Shocked she dropped the metal and pondered it for a long time. She retrieved a large knife and cut the metal into 100 tiny pieces. Each piece was so small that she could carry them while almost ignoring the echoing memories.
 
-The trader sold the small chunks for a tidy profit, scattering them across the land. Smiths forged these chunks of sky-steel into great weapons of legend, never truly understanding the potential that lay deep inside each one. It is said that anyone who carried a Tempered Weapons could accomplish anything they wished.
+The trader sold the small chunks for a tidy profit, distributing them across the land. Smiths forged these chunks of sky-steel into great weapons of legend, never truly understanding the potential that lay deep inside each one.
 
 You are one of those weapons, but your legend has yet to be forged.
 
@@ -44,7 +44,7 @@ You exist as a collection of memories: faint visions, blurry spellbooks, and ech
 
 ## The Framework
 
-Each player controls a Tempered Weapon lying on the ground in some forgotten area. The GM then describes a group of Wielders coming along and picking up the weapons.
+Each player generates a Tempered Weapon lying on the ground in some forgotten area. The GM then describes a group of Wielders coming along and picking up the weapons.
 
 Wielders can be heroes, thieves, lost villagers, or even a lowly goblin. They are randomly generated with their own skills, spells, and goals. Once they pick up a Tempered Weapon, they gain access to all the skills and spells stored within the Weapon. 
 
@@ -55,7 +55,7 @@ When a Wielder dies they drop their Weapon on the ground. The player decides wha
 To play Tempered Legacy, you will need:
 
  - One player to be the Game Master, or GM.
- - 1-5 other players. _Tempered Legacy works suprisingly well for [duet gaming]!(/david/2017/12/DuetGaming)_
+ - 1-5 other players. _Tempered Legacy works suprisingly well for _[duet gaming](/david/2017/12/DuetGaming)_
  - Pencils and paper (or [character sheets](/files/temperedSheets.pdf))
  - A set of polyhedral dice (d20, d10, d8, d6)
  - A phone/tablet/computer to [generate Weapons and Wielders](/temperedgenerators).
@@ -78,20 +78,17 @@ Every weapon has a few characteristics that make it unique and useful.
 
  - **Name.** The name of the Weapon (one of them, at least).
  - **Type.** Determines the damage, size, and description of the Weapon.
- - **Level.** The level of the Weapon determines how many Memories it can store, and what bonuses it grants the Wielder.
- - A weapon can only store a limited number of **Memories** from past Wielders. Memories can be one of three things: 
-    - **Skills** grant new abilitie and talents. They are passive.
+ - A weapon can only store 8 **Memories** from past Wielders. Memories can be one of two things: 
+    - **Temperaments** grant new abilities and talents. They are passive.
     - **Spells** always work once, then the Wielder must make a successful INT save or lose access to that spell for the rest of the day.
-    - **Goals** are the unfinished business of past Wielders. Accomplishing these goals grants the Weapon more levels. 
 
 ## Wielders are fragile but their Memories grant incredible strength.
 
  - **Stat Bonuses.** The [character sheet](/files/temperedSheets.pdf) explains what each Stat is used for; simply add that number to the d20 roll. 
  - **Inventory.** Wielders come with a few items already in their inventory, and may even use other weapons in addition to their Tempered Weapon.
  - **Appearance/Personality.** Some optional details to help players portray their Wielders.
- - **Spells.** Spells are written in books. Each spellbook takes up an inventory slot. _Not every Wielder starts with a spellbook._
- - **Skills.** Skills are known to the Wielder, and don't take up inventory slots. _Not every Wielder starts with a skill._
- - **Goal.** Each Wielder has a goal that they are trying to accomplish. Goals don't take up inventory slots. _Every Wielder starts with a goal._
+ - **Spells.** Spells are written in books. Each spellbook takes up an inventory slot.
+ - **Temperaments.** Temperaments not only reveal how the character perceives with the world, but it also grants some special passive abilities/talents.
 
 ![bardsweapons.jpg]({{site.url}}/images/posts/bardsweapons.jpg)
 
@@ -99,13 +96,11 @@ Every weapon has a few characteristics that make it unique and useful.
 
 1. Use the [Wielder Generator](/temperedgenerators) on your phone to make a new Wielder.
 2. Copy down their details on the character sheet. _Make enough room in your inventory to store your Tempered Weapon!_
-3. You may increase three different stats by +1. Repeat for every additional level of your weapon.
-4. Roll a number of d8s equal to Weapon level to determine the Wielders new max HP. If the result is lower than the current max HP, increase max HP by +1.
-5. Your Wielder now has access to all the skills, spells, and goals stored in your Weapon.
+5. Your Wielder now has access to all the temperaments and spells stored in your Weapon.
 
 ## When a Wielder dies...
 
-You MAY replace any number of Memories stored in your Weapon with skills or spells or goals from the Wielder. _Yes, even spells! Enough magical energy is stored in Wielder memories for the Weapon to absorb the spell._
+You may add to or replace Memories stored in your Weapon with spells or temperaments from the Wielder. _Yes, even spells! Enough magical energy is stored in Wielder memories for the Weapon to absorb the spell._
 
 ## Passage of Time
 
@@ -118,19 +113,7 @@ After a group dies it will probably be a while before more people come wandering
  - After **decades** the monsters and traps have changed. Re-populate with new creatures and switch out some of the traps.
  - **Centuries, or longer**, basically a new area. This is the GM's opportunity to transition to a completely new adventure altogether. _"As aeons passed, your Weapons lay forgotten among the piles of treasure that travel between kingdoms and realities. Then, one day, you feel a new Wielder lift you from the dusty floor..."_ 
 
-## Advancement and Goals
-
-Wielders don't have levels or experience. However Weapons can increase their level, allowing them store more memories and grant more stat bonuses. They increase their level by accomplishing the goals of past wielders. You have a few ways to tweak this:
-
- - **Random goals.** This is what the generator uses by default; goals that come from the Wielder and range from the small (earn 100 gold) to the legendary (become immortal). Level two requires completing two goals. Level three requires completing three goals, etc. The GM should feel free to tweak or alter the provided goals.
- - **Simple goals.** Give all Wielders the simple goal of completing the adventure. Weapons level up when they complete it. _Defeat the wizard, recover the black pearl, rob the dragon, or whatever adventure you're running at the time. When they complete an adventure, they level up._
- - **No goals.** Use the gold-as-XP systems in other games, or just hand out levels whenever you think it seems right.
-
 [karolusmagnus.jpg]({{site.url}}/images/posts/karolusmagnus.jpg)
-
-## Tempered Weapons are powerful
-
-A character wielding a level 1 Tempered Weapon is equivalent to a level 2 character. A character wielding a level 2 Tempered Weapon is equivalent to a level 4 character. Feel free to tweak the numbers on how much a Weapon can store, stat bonuses given, etc.
 
 ## Health and Hirelings
 
