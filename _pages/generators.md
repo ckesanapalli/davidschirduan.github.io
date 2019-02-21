@@ -14,7 +14,7 @@ show_collection: none
     <article class="project-card">
       <a href="/bmchargen" class="no-hover no-print-link" tabindex="-1">
         <div class="project-card-img img sixteen-nine">
-          <img src="/images/generatorPreview.png" alt="Bone Marshes Character Generator" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
+          <img src="/images/posts/bonemarshes_KS.jpg" alt="Bone Marshes Character Generator" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
         </div>
       </a>
       <h3 class="project-card-title">
