@@ -55,7 +55,7 @@ To play Tempered Legacy, you will need:
 
  - One player to be the Game Master, or GM.
  - 1-5 other players. _Tempered Legacy works suprisingly well for [duet gaming](/david/2017/12/DuetGaming)._
- - Pencils and paper (or [character sheets](/files/temperedSheets.pdf))
+ - Pencils and [character sheets](/files/temperedSheets.pdf)
  - A set of polyhedral dice (d20, d10, d8, d6)
  - A phone/tablet/computer to [generate Weapons and Wielders](/temperedgenerators).
  - A copy of [Knave](https://www.drivethrurpg.com/product/250888/Knave) _(or the slightly tweaked RPG system of your choice)_. Make sure everyone at the table understands the basic rules about saves, inventory, healing, attacking, etc.
@@ -77,7 +77,7 @@ Every weapon has a few characteristics that make it unique and useful.
 
  - **Name.** The name of the Weapon (one of them, at least).
  - **Type.** Determines the damage, size, and description of the Weapon.
- - A weapon can only store three kinds of things from past Wielders:
+ - **Five Things.** A weapon can only store five things from past Wielders. These things could be:
     - **Temperaments** grant new abilities and talents. They are passive.
     - **Spells**. When you cast a spell, make an INT save. If unsuccessful, the spell still works, but you lose access to it for the rest of the day. _Normally they take up a slot, but Tempered weapons may contain multiple spells!_
     - **Histories** are jobs, skills, and experiences from past Wielders. If one of these histories would give you an edge when taking certain actions, you gain advantage to those rolls. _E.g. if your weapon has the history of a sailor, you would gain advantage when you attempt to navigate by the stars._
@@ -101,7 +101,7 @@ In addition to the normal Knave characteristics (HP, Stats, etc.) each Wielder h
 
 ## When a Wielder dies...
 
-You MUST choose at least one history, spell, or temperament from the Wielder to store in your Weapon. You can choose more than one thing to store if you wish. Tempered Weapons can only store a limited number of things, so if you run out of space you may have to replace something. 
+You MUST choose one history, spell, or temperament from this Wielder to store in your Weapon. Tempered Weapons can only store five things, so if you run out of space you may have to replace something. 
 
 Be sure to record the name of the Wielder that the history/spell/temperament came from. _David's Fireball spell, Lauren's history as a trader, Andrew's noble temperament, etc._
 
