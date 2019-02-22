@@ -7,7 +7,7 @@ image: /images/temperedlegacy.png
 ---
 ![temperedlegacy.png]({{site.url}}/images/temperedlegacy.png)
 
-Tempered Legacy is a rogue-like OSR framework where you are a Weapon wielded by many. [**You read the rules here**](/tempered-legacy).
+Tempered Legacy is a rogue-like OSR framework where you are a weapon wielded by many. [**Read the rules here**](/tempered-legacy).
 
 
 <div class="row">
@@ -18,12 +18,13 @@ Tempered Legacy is a rogue-like OSR framework where you are a Weapon wielded by 
 <div class="container generatorCard" id="weaponCard" style="display:none;">
   <h1 class="tightSpacing" id="weaponName">Silver Rapier</h1>
   <p id="weaponDesc">A simple but well-crafted blade</p>
-  <p style="text-align: right;font-style: italic;"><small>If you have a ranged weapon, you also find a quiver of 20 arrows/bolts (1 slot).</small></p>
-  <h2 class="tightSpacing">Stored Memories</h2>
+  <h2 class="tightSpacing">Already Stored in the Weapon:</h2>
   <div class="row">
 		<div class="col-md-5 col-12 tightSpacing p" id="weaponSpell" style="border:darkgray dashed;">Fireball</div>
     <div class="col tightSpacing"></div>
 		<div class="col-md-6 col-12 tightSpacing p" id="weaponTemperament" style="border:darkgray dashed;">Run to the end of the world and defeat the legion-demon Yog Soggoth who not only killed your family but all past family as well. Also you will need to return to the place of darkness and secure the shadow heart for your divine blade.</div>
+    <div class="col-12 tightSpacing p" id="weaponMemory" style="border:darkgray dashed;">Fireball</div>
+
   </div>
 </div>
 
@@ -32,23 +33,23 @@ Tempered Legacy is a rogue-like OSR framework where you are a Weapon wielded by 
     <div class="col tightSpacing h1" id="charName">Click the Button!</div>
   </div>
   <div class="row">
-		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charSTR"></div>
-		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charDEX"></div>
-		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charCON"></div>
-		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charINT"></div>
-		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charWIS"></div>
-		<div class="col-xl-2 col-md-4 tightSpacing h3" id="charCHA"></div>
+		<div class="col-lg-2 col-4 tightSpacing h3" id="charSTR"></div>
+		<div class="col-lg-2 col-4 tightSpacing h3" id="charDEX"></div>
+		<div class="col-lg-2 col-4 tightSpacing h3" id="charCON"></div>
+		<div class="col-lg-2 col-4 tightSpacing h3" id="charINT"></div>
+		<div class="col-lg-2 col-4 tightSpacing h3" id="charWIS"></div>
+		<div class="col-lg-2 col-4 tightSpacing h3" id="charCHA"></div>
 	</div>
   <hr class="tightSpacing">
   <p id="charTemperament"></p>
   <p id="charHistory"></p>
   <div class="row">
-		<div class="col-xl-4 col-md-6 tightSpacing" id="charPhysique"></div>
-		<div class="col-xl-4 col-md-6 tightSpacing" id="charSkin"></div>
-		<div class="col-xl-4 col-md-6 tightSpacing" id="charFace"></div>
-		<div class="col-xl-4 col-md-6 tightSpacing" id="charHair"></div>
-		<div class="col-xl-4 col-md-6 tightSpacing" id="charSpeech"></div>
-		<div class="col-xl-4 col-md-6 tightSpacing" id="charClothing"></div>
+		<div class="col-lg-4 col-6 tightSpacing" id="charPhysique"></div>
+		<div class="col-lg-4 col-6 tightSpacing" id="charSkin"></div>
+		<div class="col-lg-4 col-6 tightSpacing" id="charFace"></div>
+		<div class="col-lg-4 col-6 tightSpacing" id="charHair"></div>
+		<div class="col-lg-4 col-6 tightSpacing" id="charSpeech"></div>
+		<div class="col-lg-4 col-6 tightSpacing" id="charClothing"></div>
   </div>
   <div class="row">
     <div class="col-12">
@@ -75,52 +76,53 @@ xmlhttp.onreadystatechange = function () {
 xmlhttp.open("GET", "/_pages/tempered.json", true);
 xmlhttp.send();
 
-function selectRandom(jsonList){
+function selectRandom(jsonList) {
   result = jsonList[Math.floor(Math.random() * jsonList.length)];
-  if (Array.isArray(result)){
+  if (Array.isArray(result)) {
     result = selectRandom(result);
   }
   return result;
 }
 
-function weapon(){
+function weapon() {
   document.getElementById("wielderCard").style = "display:none";
   document.getElementById("weaponCard").style = "";
 
   weaponName();
   weaponDesc();
-  weaponMemories();
+  weaponThings();
 }
 
-function weaponName(){
+function weaponName() {
   var nameStr = "";
   var random = Math.random();
+  classicName = selectRandom(tempered.weapon.Names);
 
   switch (true) {
     case (random < 0.1):
-      nameStr = selectRandom(tempered.weapon.Names) + "'s " + selectRandom(tempered.weapon.noun);
-    break;
+      nameStr = classicName + "'s " + selectRandom(tempered.weapon.noun);
+      break;
     case (random < 0.3):
       nameStr = selectRandom(tempered.weapon.adj) + " " + selectRandom(tempered.weapon.noun);
-    break;
+      break;
     case (random < 0.4):
       nameStr = selectRandom(tempered.weapon.adj) + " yet " + selectRandom(tempered.weapon.adj);
-    break;
+      break;
     case (random < 0.5):
       nameStr = selectRandom(tempered.weapon.adj) + " but " + selectRandom(tempered.weapon.adj);
-    break;
+      break;
     case (random < 0.6):
       nameStr = selectRandom(tempered.weapon.noun) + " and " + selectRandom(tempered.weapon.noun);
-    break;
+      break;
     case (random < 0.7):
       nameStr = selectRandom(tempered.weapon.noun) + " for " + selectRandom(tempered.weapon.noun);
-    break;
+      break;
     case (random < 0.8):
       nameStr = selectRandom(tempered.weapon.adj) + " for " + selectRandom(tempered.weapon.noun);
-    break;
+      break;
     case (random < 0.9):
-      nameStr = selectRandom(tempered.weapon.adj) + " and " + selectRandom(tempered.weapon.noun);
-    break;
+      nameStr = selectRandom(tempered.weapon.nount) + " but " + selectRandom(tempered.weapon.adj);
+      break;
     default:
       nameStr = selectRandom(tempered.weapon.classicNames);
   }
@@ -128,7 +130,7 @@ function weaponName(){
   document.getElementById("weaponName").innerHTML = nameStr;
 }
 
-function weaponDesc(){
+function weaponDesc() {
   var type = Math.floor(Math.random() * 4);
   var weaponType = "<strong>";
 
@@ -150,33 +152,35 @@ function weaponDesc(){
   document.getElementById("weaponDesc").innerHTML = "A " + weaponType + " crafted from " + selectRandom(tempered.weapon.common) + " and " + selectRandom(tempered.weapon.rare) + ". It is decorated with " + selectRandom(tempered.weapon.decorations) + ".";
 }
 
-function weaponMemories(){
+function weaponThings() {
 
-  document.getElementById("weaponTemperament").innerHTML = "<strong>Temperament:</strong> " + selectRandom(tempered.wielder.temperaments);
+  document.getElementById("weaponTemperament").innerHTML = "<strong>" + classicName + "'s Temperament:</strong> " + selectRandom(tempered.wielder.temperaments);
 
   var spellbook = "";
   var random = Math.random();
 
   switch (true) {
     case (random < 0.5):
-      spellbook = "<strong>Spell</strong>: " + selectRandom(tempered.wielder.Spells);
-    break;
+      spellbook = selectRandom(tempered.wielder.Spells);
+      break;
     case (random < 0.66):
-      spellbook = "<strong>Spell</strong>: " + selectRandom(tempered.wielder.spellEffects) + 
-      " " + selectRandom(tempered.wielder.spellForms) + " (work with your GM to determine the details of this spell before you start playing)";
-    break;
+      spellbook = selectRandom(tempered.wielder.spellEffects) +
+        " " + selectRandom(tempered.wielder.spellForms) + "<br><i>(work with your GM to determine the details of this spell before you start playing)</i>";
+      break;
     case (random < 0.82):
-      spellbook = "<strong>Spell</strong>: " + selectRandom(tempered.wielder.spellElements) + 
-      " " + selectRandom(tempered.wielder.spellForms) + " (work with your GM to determine the details of this spell before you start playing)";    
+      spellbook = selectRandom(tempered.wielder.spellElements) +
+        " " + selectRandom(tempered.wielder.spellForms) + "<br><i>(work with your GM to determine the details of this spell before you start playing)</i>";
       break;
     default:
-      spellbook = "<strong>Spell</strong>: " + selectRandom(tempered.wielder.spellElements) + 
-      " " + selectRandom(tempered.wielder.spellEffects) + " (work with your GM to determine the details of this spell before you start playing)";
+      spellbook = selectRandom(tempered.wielder.spellEffects) +
+        " " + selectRandom(tempered.wielder.spellElements) + "<br><i>(work with your GM to determine the details of this spell before you start playing)</i>";
   }
 
-  document.getElementById("weaponSpell").innerHTML = spellbook;
-}
+  document.getElementById("weaponSpell").innerHTML = "<strong>" + classicName + "'s Spell</strong> -  " + spellbook;
 
+  document.getElementById("weaponMemory").innerHTML = "<strong>" + classicName + "'s History</strong>: They were " + selectRandom(tempered.wielder.Background) + ".";
+
+}
 
 function wielder() {
 
@@ -217,35 +221,31 @@ function wielder() {
   var health = Math.floor(Math.random() * 8) + 1;
   document.getElementById("charHP").innerText = "Hit Points: " + health;
 
-  /* ======= Temperaments / Spells ======= */
+  /* ======= Spells ======= */
 
   var spellbook = "";
   var random = Math.random();
 
+  /*30% chance to start with a spellbook*/
   switch (true) {
-    case (random < 0.5):
-      spellbook = "</li><li>Spellbook - " + selectRandom(tempered.wielder.Spells);
-    break;
-    case (random < 0.66):
-      spellbook = "</li><li>Spellbook - " + selectRandom(tempered.wielder.spellEffects) + 
-      " " + selectRandom(tempered.wielder.spellForms) + " (work with your GM to determine the details of this spell before you start playing)";
-    break;
-    case (random < 0.82):
-      spellbook = "</li><li>Spellbook - " + selectRandom(tempered.wielder.spellElements) + 
-      " " + selectRandom(tempered.wielder.spellForms) + " (work with your GM to determine the details of this spell before you start playing)";    
+    case (random < 0.15):
+      spellbook = "<li>Spellbook - " + selectRandom(tempered.wielder.Spells) + "</li>";
       break;
-    default:
-      spellbook = "</li><li>Spellbook - " + selectRandom(tempered.wielder.spellEffects) + 
-      " " + selectRandom(tempered.wielder.spellElements) + " (work with your GM to determine the details of this spell before you start playing)";
+    case (random < 0.2):
+      spellbook = "<li>Spellbook - " + selectRandom(tempered.wielder.spellEffects) + " " + selectRandom(tempered.wielder.spellForms) + " <i>(work with your GM to determine the details of this spell before you start playing)</i></li>";
+      break;
+    case (random < 0.25):
+      spellbook = "<li>Spellbook - " + selectRandom(tempered.wielder.spellElements) + " " + selectRandom(tempered.wielder.spellForms) + " <i>(work with your GM to determine the details of this spell before you start playing)</i></li>";
+      break;
+    case (random < 0.3):
+      spellbook = "<li>Spellbook - " + selectRandom(tempered.wielder.spellEffects) + " " + selectRandom(tempered.wielder.spellElements) + " <i>(work with your GM to determine the details of this spell before you start playing)</i></li>";
   }
 
   document.getElementById("charTemperament").innerHTML = "<strong>Temperament:</strong> " + selectRandom(tempered.wielder.temperaments);
 
   /* ======= HISTORY ======= */
-  document.getElementById("charHistory").innerHTML = "<strong>History</strong>: They used to be " +
-    selectRandom(tempered.wielder.Background) +
-    " but then they were " + 
-    selectRandom(tempered.wielder.Misfortune) + ".";
+  document.getElementById("charHistory").innerHTML = "<strong>History</strong>: They were " +
+    selectRandom(tempered.wielder.Background) + ".";
 
   /* ======= TRAITS ======= */
   document.getElementById("charPhysique").innerHTML = "<strong>Physique</strong><br>" + selectRandom(tempered.wielder.Physique);
@@ -255,7 +255,7 @@ function wielder() {
   document.getElementById("charSkin").innerHTML = "<strong>Skin</strong><br>" + selectRandom(tempered.wielder.Skin);
 
   var random = Math.random();
-  if (random < 0.5){
+  if (random < 0.5) {
     document.getElementById("charHair").innerHTML = "<strong>Hair</strong><br>" + selectRandom(tempered.wielder.Hair);
   } else {
     document.getElementById("charHair").innerHTML = "<strong>Hair</strong><br>" + selectRandom(tempered.wielder.colors);
@@ -268,7 +268,42 @@ function wielder() {
   /* ======= ARMOR ======= */
   document.getElementById("charSlots").innerText = "Equipment: " + (charCON + 10) + " Slots";
 
-  document.getElementById("charArmor").innerHTML = selectRandom(tempered.wielder.Armor);
+  var armor = Math.floor(Math.random() * 20) + 1;
+  armorText = "11 (No Armor)";
+  switch (true) {
+    case (armor >= 4 && armor <= 14):
+      armorText = "12 (Gambeson, 1 slot)";
+      break;
+    case (armor >= 15 && armor <= 19):
+      armorText = "13 (Brigandine, 2 slots)";
+      break;
+    case (armor == 20):
+      armorText = "14 (Chainmail, 3 slots)";
+      break;
+  }
+  document.getElementById("charArmor").innerHTML = "<strong>Armor:</strong> " + armorText;
+
+  var extra = Math.floor(Math.random() * 20) + 1;
+  extraArmor = "";
+  switch (true) {
+    case (extra >= 14 && extra <= 16):
+      extraArmor = "<li>Helmet (+1 armor, 1 slot)</li>";
+      break;
+    case (extra >= 17 && extra <= 19):
+      extraArmor = "<li>Shield (+1 armor, 1 hand, 1 slot)</li>";
+      break;
+    case (extra == 20):
+      extraArmor = "<li>Shield (+1 armor, 1 hand, 1 slot)</li><li>Helmet (+1 armor, 1 slot)</li>";
+      break;
+  }
+
+  /* ======= Junk ======= */
+  var junkNum = Math.floor(Math.random() * 6) + 1;
+  var junkText = "";
+
+  for (i = 0 ; i < junkNum; i++) {
+    junkText = junkText + "<li>" + selectRandom(tempered.wielder.Junk) + "</li>";
+  }
 
   /* ======= EQUIPMENT ======= */
   var die1 = Math.floor(Math.random() * 6) + 1;
@@ -276,11 +311,15 @@ function wielder() {
   startGold = startGold * 10;
 
   document.getElementById("charItems").innerHTML = "<ul><li>" +
-    startGold + " coins (100 coins per slot)</li><li>2 days of rations (2 rations per slot)</li><li>" +
-    selectRandom(tempered.wielder.Dungeoneering) + "</li><li>" +
-    selectRandom(tempered.wielder.Dungeoneering) + "</li><li>" +
-    selectRandom(tempered.wielder.General1) + "</li><li>" +
-    selectRandom(tempered.wielder.General2) + "</li><li>" + selectRandom(tempered.wielder.Weapons) + selectRandom(tempered.wielder.ExtraArmor) + spellbook;
+      selectRandom(tempered.wielder.Weapons) + "</li>" + 
+      extraArmor + 
+    spellbook +
+    "<li>" + startGold + " coins (100 coins per slot)</li>" + 
+    "<li>2 days of rations</li><li>" +
+    selectRandom(tempered.wielder.coreItems) + "</li><li>" +
+    selectRandom(tempered.wielder.coreItems) + "</li><li>" +
+    selectRandom(tempered.wielder.coreItems) + "</li>" +
+    junkText;
 }
 
 </script>
