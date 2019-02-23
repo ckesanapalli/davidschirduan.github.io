@@ -9,7 +9,7 @@ screenshot:
 hide_description: true
 permalink: tempered-legacy
 featured: false
-published: true
+published: false
 ---
 
 <div class="row">
