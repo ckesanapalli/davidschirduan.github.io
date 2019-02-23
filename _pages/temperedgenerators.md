@@ -7,7 +7,7 @@ image: /images/temperedlegacy.png
 ---
 ![temperedlegacy.png]({{site.url}}/images/temperedlegacy.png)
 
-Tempered Legacy is a rogue-like tabletop RPG framework where you are a Weapon wielded by many. [Rules, GM advice, and character sheets here](/tempered-legacy).
+Tempered Legacy is a rogue-lite tabletop RPG framework where you are a Weapon wielded by many. [Rules, GM advice, and character sheets here](/tempered-legacy).
 
 <div class="row">
   <div class="col-md-6 col-12 tightSpacing buttonWrapper"><button id="weaponButton" class="btn btn-primary btn-lg" onclick="weapon()">Generate Weapon</button></div>

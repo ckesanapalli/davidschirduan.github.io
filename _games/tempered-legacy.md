@@ -2,7 +2,7 @@
 date: 2018-08-01
 layout: project
 title: Tempered Legacy
-caption: A rogue-like tabletop RPG framework where you are a Weapon wielded by many.
+caption: A rogue-lite tabletop RPG framework where you are a Weapon wielded by many.
 image: images/temperedlegacy.png
 screenshot:
   src: images/temperedlegacy.png
@@ -18,7 +18,7 @@ published: true
   <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/files/temperedSheets.pdf'" type="button">Character Sheets</button></div>
 </div>
 
-Tempered Legacy is a [rogue-like](https://en.wikipedia.org/wiki/Roguelike) tabletop RPG framework where you are a weapon wielded by many. Old-school adventure games are fun, exciting, and often lethal. With this framework, players maintain a sense of progression through multiple adventures, campaigns, and even character deaths. It’s also an easy way to connect adventures that might otherwise be in different worlds/realities.
+Tempered Legacy is a [rogue-lite](https://en.wikipedia.org/wiki/Roguelike) tabletop RPG framework where you are a weapon wielded by many. Old-school adventure games are fun, exciting, and often lethal. With this framework, players maintain a sense of progression through multiple adventures, campaigns, and even character deaths. It’s also an easy way to connect adventures that might otherwise be in different worlds/realities.
 
 My wife Lauren and I designed it using [Knave](https://www.drivethrurpg.com/product/250888/Knave) by Ben Milton. Knave is awesome because it’s streamlined, simple, and compatible with a bunch of old-school RPG adventures. You should definitely go buy a copy of Knave; however, you could make “Tempered Legacy” work with any RPG system.
 

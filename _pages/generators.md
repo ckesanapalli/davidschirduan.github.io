@@ -20,7 +20,7 @@ The GM can take random results and combine them with their own ideas to create s
       <h3 class="project-card-title">
         <a href="/temperedgenerators" class="flip-title">Weapon and Character Generator</a>
       </h3>
-      <legend class="project-card-text fine faded">Tempered Legacy is a rogue-like tabletop RPG framework where you are a Weapon wielded by many.</legend>
+      <legend class="project-card-text fine faded">Roll up powerful Weapons and frail Wielders.</legend>
     </article>
   </div>
   <div class="column column-1-2">
