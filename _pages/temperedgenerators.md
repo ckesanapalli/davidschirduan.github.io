@@ -143,7 +143,7 @@ function weaponDesc() {
   var random = Math.random();
   var weaponType = "<strong>";
 
-  switch (type) {
+  switch (true) {
     case (random < 0.3):
       weaponType = weaponType + selectRandom(tempered.weapon.smallType) + "</strong> (d6, 1 hand, 1 slot)";
       break;
