@@ -40,7 +40,7 @@ Each player generates a Tempered Weapon, laying on the ground of a dusty tomb, s
 
 Wielders can be heroes, thieves, lost villagers, or even a lowly goblin. Once they pick up a Tempered Weapon they gain access to all the histories, temperaments, and spells stored within.
 
-When a Wielder dies the player decides what to store in the Weapon. As Wielders fight and die the Weapon grows stronger, shaped by the player and what they store in the Weapon.
+When a Wielder dies the player decides what to store in the Weapon. As Wielders fight and die the Weapon grows stronger, shaped by the player and the memories stored within.
 
 ## How to Play
 
@@ -74,12 +74,12 @@ Every weapon has a few characteristics that make it unique and useful.
  - **Type.** Determines the damage, size, and description of the Weapon.
  - **Five Things.** A weapon can only store five things from past Wielders. These things could be:
     - **Temperaments** that grant new abilities and talents.
-    - **Spells**. When you cast a spell, make an INT save. If unsuccessful, the spell still works, but you lose access to it for the rest of the day. _Normally they take up a slot, but Tempered weapons may contain multiple spells!_
-    - **Histories** are jobs, skills, and experiences from past Wielders. If one of these histories would give you an edge when taking certain actions, you gain advantage to those rolls. _E.g. if your weapon contains the History of a sailor, you would gain advantage when you attempt to navigate by the stars, tie complex knots, or swim for long periods of time._
+    - **Spells**. When you cast a spell, make an INT save. If unsuccessful, the spell still works, but you lose access to it for the rest of the day.
+    - **Histories** are jobs, skills, and experiences from past Wielders. If one of these histories would give you an edge when taking certain actions, you gain advantage to those rolls. _If your weapon contains the History of a sailor, you would gain advantage when you attempt to navigate by the stars, tie complex knots, or swim for long periods of time._
 
 ## When a Wielder picks up a weapon...
 
-1. The player can use the [Wielder Generator](/temperedgenerators) on their phone to make a new Wielder.
+1. Players use the [Wielder Generator](/temperedgenerators) on their phone to roll up a new Wielder.
 2. Copy down the Wielder details to the [character sheet](/files/temperedSheets.pdf). _Make sure the player leaves enough room in their inventory to store their Tempered Weapon!_
 5. Their Wielder now has access to all the histories, temperaments, and spells stored in their Weapon.
 
