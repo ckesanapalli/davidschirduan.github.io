@@ -114,6 +114,9 @@ function weaponName() {
     case (random < 0.3):
       nameStr = selectRandom(tempered.weapon.adj) + " " + selectRandom(tempered.weapon.noun);
       break;
+    case (random < 0.4):
+      nameStr = selectRandom(tempered.wielder.colors) + " " + selectRandom(tempered.weapon.noun);
+      break;
     case (random < 0.5):
       nameStr = selectRandom(tempered.weapon.adj) + " yet " + selectRandom(tempered.weapon.adj);
       break;
@@ -137,23 +140,22 @@ function weaponName() {
 }
 
 function weaponDesc() {
-  var type = Math.floor(Math.random() * 4);
+  var random = Math.random();
   var weaponType = "<strong>";
 
   switch (type) {
-    case (0):
+    case (random < 0.3):
       weaponType = weaponType + selectRandom(tempered.weapon.smallType) + "</strong> (d6, 1 hand, 1 slot)";
       break;
-    case (1):
+    case (random < 0.6):
       weaponType = weaponType + selectRandom(tempered.weapon.mediumType) + "</strong> (d8, 1 hand, 2 slots)";
       break;
-    case (2):
+    case (random < 0.8):
       weaponType = weaponType + selectRandom(tempered.weapon.largeType) + "</strong> (d10, 2 hands, 3 slots)";
       break;
-    case (3):
+    default:
       weaponType = weaponType + selectRandom(tempered.weapon.rangedType) + "</strong> (d6, 2 hands, 2 slots)";
-      break;
-  }
+    }
 
   document.getElementById("weaponDesc").innerHTML = "A " + weaponType + " crafted from " + selectRandom(tempered.weapon.common) + " and " + selectRandom(tempered.weapon.rare) + ". It is decorated with " + selectRandom(tempered.weapon.decorations) + ".";
 }
