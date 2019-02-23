@@ -114,20 +114,17 @@ function weaponName() {
     case (random < 0.3):
       nameStr = selectRandom(tempered.weapon.adj) + " " + selectRandom(tempered.weapon.noun);
       break;
-    case (random < 0.4):
+    case (random < 0.5):
       nameStr = selectRandom(tempered.weapon.adj) + " yet " + selectRandom(tempered.weapon.adj);
       break;
-    case (random < 0.5):
+    case (random < 0.6):
       nameStr = selectRandom(tempered.weapon.adj) + " but " + selectRandom(tempered.weapon.adj);
       break;
-    case (random < 0.6):
+    case (random < 0.7):
       nameStr = selectRandom(tempered.weapon.noun) + " and " + selectRandom(tempered.weapon.noun);
       break;
-    case (random < 0.7):
-      nameStr = selectRandom(tempered.weapon.noun) + " for " + selectRandom(tempered.weapon.noun);
-      break;
     case (random < 0.8):
-      nameStr = selectRandom(tempered.weapon.adj) + " for " + selectRandom(tempered.weapon.noun);
+      nameStr = selectRandom(tempered.weapon.noun) + " for " + selectRandom(tempered.weapon.noun);
       break;
     case (random < 0.9):
       nameStr = selectRandom(tempered.weapon.noun) + " but " + selectRandom(tempered.weapon.adj);
