@@ -17,9 +17,9 @@ Tempered Legacy is a [rogue-lite](https://en.wikipedia.org/wiki/Roguelike) table
 My wife Lauren and I designed it using [Knave](https://www.drivethrurpg.com/product/250888/Knave) by Ben Milton. Knave is awesome because it’s streamlined, simple, and compatible with a bunch of old-school RPG adventures. You should definitely go buy a copy of Knave; however, you could make “Tempered Legacy” work with any RPG system.
 
 <div class="row">
-  <div class="col-md-6 col-6 tightSpacing buttonWrapper">
+  <div class="col-md-6 col-12 tightSpacing buttonWrapper">
   <button class="btn btn-primary btn-lg" onclick="location.href='/temperedgenerators'" type="button">Random Generators</button></div>
-  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/files/temperedSheets.pdf'" type="button">Character Sheets</button></div>
+  <div class="col-md-6 col-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/files/temperedSheets.pdf'" type="button">Character Sheets</button></div>
 </div>
 
 ## Tempered Weapons
