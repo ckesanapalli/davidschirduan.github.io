@@ -7,9 +7,7 @@ image: /images/temperedlegacy.png
 ---
 ![temperedlegacy.png]({{site.url}}/images/temperedlegacy.png)
 
-Tempered Legacy is a rogue-like OSR framework where you are a weapon wielded by many. 
-
-<div class="h2 tightSpacing"><a href="/tempered-legacy">Read the rules here.</a></div>
+Tempered Legacy is a rogue-like OSR framework where you are a weapon wielded by many. Full rules, GM advice, and character sheets coming tomorrow!
 
 <div class="row">
   <div class="col-md-6 col-12 tightSpacing buttonWrapper"><button id="weaponButton" class="btn btn-primary btn-lg" onclick="weapon()">Generate Weapon</button></div>
@@ -70,7 +68,7 @@ Tempered Legacy is a rogue-like OSR framework where you are a weapon wielded by 
 **Thanks to:**
 
  - Lauren Schirduan, the love of my life and partner in crime. 
- - [Ben Milton](https://www.youtube.com/channel/UCvYwePdbWSEwUa-Pk02u3Zw) for making Knave, Maze Rats, incredible Youtube reviews, and a bunch of cool stuff. I stole SO many ideas from Ben. Chances are if you like an idea, I stole it from him.
+ - [Ben Milton](https://www.youtube.com/channel/UCvYwePdbWSEwUa-Pk02u3Zw) for making Knave, Maze Rats, incredible Youtube reviews, and tons of other cool stuff. I stole SO many ideas from Ben. Chances are if you like an idea, I stole it from him.
  - [Joseph Manola](https://udan-adan.blogspot.com/) for a bunch of the strangely useful random items that Knaves can start with.
  - [Freehold games](http://www.cavesofqud.com/) for making the rogue-like I keep coming back to again and again.
  - And to the [OSR community](https://discord.gg/kJjMvC) for being such an encouraging, welcoming place.
