@@ -12,15 +12,15 @@ featured: false
 published: true
 ---
 
+Tempered Legacy is a [rogue-lite](https://en.wikipedia.org/wiki/Roguelike) tabletop RPG framework where you are a weapon wielded by many. Old-school adventure games are fun, exciting, and often lethal. With this framework, players maintain a sense of progression through multiple adventures, campaigns, and even character deaths. It’s also an easy way to connect adventures that might otherwise be in different worlds/realities.
+
+My wife Lauren and I designed it using [Knave](https://www.drivethrurpg.com/product/250888/Knave) by Ben Milton. Knave is awesome because it’s streamlined, simple, and compatible with a bunch of old-school RPG adventures. You should definitely go buy a copy of Knave; however, you could make “Tempered Legacy” work with any RPG system.
+
 <div class="row">
   <div class="col-md-6 col-6 tightSpacing buttonWrapper">
   <button class="btn btn-primary btn-lg" onclick="location.href='/temperedgenerators'" type="button">Random Generators</button></div>
   <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/files/temperedSheets.pdf'" type="button">Character Sheets</button></div>
 </div>
-
-Tempered Legacy is a [rogue-lite](https://en.wikipedia.org/wiki/Roguelike) tabletop RPG framework where you are a weapon wielded by many. Old-school adventure games are fun, exciting, and often lethal. With this framework, players maintain a sense of progression through multiple adventures, campaigns, and even character deaths. It’s also an easy way to connect adventures that might otherwise be in different worlds/realities.
-
-My wife Lauren and I designed it using [Knave](https://www.drivethrurpg.com/product/250888/Knave) by Ben Milton. Knave is awesome because it’s streamlined, simple, and compatible with a bunch of old-school RPG adventures. You should definitely go buy a copy of Knave; however, you could make “Tempered Legacy” work with any RPG system.
 
 ## Tempered Weapons
 
