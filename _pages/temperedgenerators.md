@@ -7,8 +7,9 @@ image: /images/temperedlegacy.png
 ---
 ![temperedlegacy.png]({{site.url}}/images/temperedlegacy.png)
 
-Tempered Legacy is a rogue-like OSR framework where you are a weapon wielded by many. [**Read the rules here**](/tempered-legacy).
+Tempered Legacy is a rogue-like OSR framework where you are a weapon wielded by many. 
 
+<div class="h2 tightSpacing"><a href="/tempered-legacy">Read the rules here.</a></div>
 
 <div class="row">
   <div class="col-md-6 col-12 tightSpacing buttonWrapper"><button id="weaponButton" class="btn btn-primary btn-lg" onclick="weapon()">Generate Weapon</button></div>
@@ -24,13 +25,17 @@ Tempered Legacy is a rogue-like OSR framework where you are a weapon wielded by 
     <div class="col tightSpacing"></div>
 		<div class="col-md-6 col-12 tightSpacing p" id="weaponTemperament" style="border:darkgray dashed;">Run to the end of the world and defeat the legion-demon Yog Soggoth who not only killed your family but all past family as well. Also you will need to return to the place of darkness and secure the shadow heart for your divine blade.</div>
     <div class="col-12 tightSpacing p" id="weaponMemory" style="border:darkgray dashed;">Fireball</div>
+    <div class="col-md-5 col-12 tightSpacing p" style="border:darkgray dashed;">Empty slot. Room for a History, Temperament, or Spell from a future Wielder.</div>
+    <div class="col tightSpacing"></div>
+    <div class="col-md-5 col-12 tightSpacing p" style="border:darkgray dashed;">Empty slot. Room for a History, Temperament, or Spell from a future Wielder.</div>
 
   </div>
 </div>
 
 <div class="container generatorCard" id="wielderCard" style="display:none;">
   <div class="row">
-    <div class="col tightSpacing h1" id="charName">Click the Button!</div>
+    <div class="col-8 tightSpacing h1" id="charName">Click the Button!</div>
+    <div class="col-xl-4 col-6 tightSpacing h1" id="charHP"></div>
   </div>
   <div class="row">
 		<div class="col-lg-2 col-4 tightSpacing h3" id="charSTR"></div>
@@ -53,8 +58,6 @@ Tempered Legacy is a rogue-like OSR framework where you are a weapon wielded by 
   </div>
   <div class="row">
     <div class="col-12">
-      <h2 id="charHP" class="tightSpacing"></h2>
-      <p id="charArmor"></p>
       <h2 id="charSlots" class="tightSpacing"></h2>
       <p>
         You can choose from <strong>any or all</strong> of the items below to fill your inventory slots. Unless otherwise noted, each item takes up one slot. 
@@ -64,7 +67,13 @@ Tempered Legacy is a rogue-like OSR framework where you are a weapon wielded by 
   </div>
 </div>
 
-<small>Thanks to <a href="http://questingblog.com/">Ben Milton</a> for making an incredible RPG and to <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the code!</small>
+**Thanks to:**
+
+ - Lauren Schirduan, the love of my life and partner in crime. 
+ - [Ben Milton](https://www.youtube.com/channel/UCvYwePdbWSEwUa-Pk02u3Zw) for making Knave, Maze Rats, incredible Youtube reviews, and a bunch of cool stuff. I stole SO many ideas from Ben. Chances are if you like an idea, I stole it from him.
+ - [Joseph Manola](https://udan-adan.blogspot.com/) for a bunch of the strangely useful random items that Knaves can start with.
+ - [Freehold games](http://www.cavesofqud.com/) for making the rogue-like I keep coming back to again and again.
+ - And to the [OSR community](https://discord.gg/kJjMvC) for being such an encouraging, welcoming place.
 
 <script>
 var xmlhttp = new XMLHttpRequest();
@@ -121,7 +130,7 @@ function weaponName() {
       nameStr = selectRandom(tempered.weapon.adj) + " for " + selectRandom(tempered.weapon.noun);
       break;
     case (random < 0.9):
-      nameStr = selectRandom(tempered.weapon.nount) + " but " + selectRandom(tempered.weapon.adj);
+      nameStr = selectRandom(tempered.weapon.noun) + " but " + selectRandom(tempered.weapon.adj);
       break;
     default:
       nameStr = selectRandom(tempered.weapon.classicNames);
@@ -176,9 +185,9 @@ function weaponThings() {
         " " + selectRandom(tempered.wielder.spellElements) + "<br><i>(work with your GM to determine the details of this spell before you start playing)</i>";
   }
 
-  document.getElementById("weaponSpell").innerHTML = "<strong>" + classicName + "'s Spell</strong> -  " + spellbook;
+  document.getElementById("weaponSpell").innerHTML = "<strong>" + selectRandom(tempered.weapon.Names) + "'s Spell</strong> -  " + spellbook;
 
-  document.getElementById("weaponMemory").innerHTML = "<strong>" + classicName + "'s History</strong>: They were " + selectRandom(tempered.wielder.Background) + ".";
+  document.getElementById("weaponMemory").innerHTML = "<strong>" + selectRandom(tempered.weapon.Names) + "'s History</strong>: They were " + selectRandom(tempered.wielder.Background) + ".";
 
 }
 
@@ -269,19 +278,18 @@ function wielder() {
   document.getElementById("charSlots").innerText = "Equipment: " + (charCON + 10) + " Slots";
 
   var armor = Math.floor(Math.random() * 20) + 1;
-  armorText = "11 (No Armor)";
+  armorText = "";
   switch (true) {
     case (armor >= 4 && armor <= 14):
-      armorText = "12 (Gambeson, 1 slot)";
+      armorText = "Gambeson (12 armor, 1 slot)</li><li>";
       break;
     case (armor >= 15 && armor <= 19):
-      armorText = "13 (Brigandine, 2 slots)";
+      armorText = "Brigandine (13 armor), 2 slots)</li><li>";
       break;
     case (armor == 20):
-      armorText = "14 (Chainmail, 3 slots)";
+      armorText = "Chainmail (14, 3 slots)</li><li>";
       break;
   }
-  document.getElementById("charArmor").innerHTML = "<strong>Armor:</strong> " + armorText;
 
   var extra = Math.floor(Math.random() * 20) + 1;
   extraArmor = "";
@@ -311,6 +319,7 @@ function wielder() {
   startGold = startGold * 10;
 
   document.getElementById("charItems").innerHTML = "<ul><li>" +
+  armorText +
       selectRandom(tempered.wielder.Weapons) + "</li>" + 
       extraArmor + 
     spellbook +

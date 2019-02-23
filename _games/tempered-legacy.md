@@ -9,7 +9,7 @@ screenshot:
 hide_description: true
 permalink: tempered-legacy
 featured: false
-published: false
+published: true
 ---
 
 <div class="row">
@@ -18,36 +18,29 @@ published: false
   <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/files/temperedSheets.pdf'" type="button">Character Sheets</button></div>
 </div>
 
-Tempered Legacy is a [rogue-like](https://en.wikipedia.org/wiki/Roguelike) OSR framework where you are a weapon wielded by many. Old-school adventure games are fun, exciting, and usually lethal. With this framework players maintain a sense of progression through multiple adventures, campaigns, and even character deaths. It's also an easy way to connect adventures that might otherwise be in different worlds/realities. 
+Tempered Legacy is a [rogue-like](https://en.wikipedia.org/wiki/Roguelike) OSR framework where you are a weapon wielded by many. Old-school adventure games are fun, exciting, and often lethal. With this framework players maintain a sense of progression through multiple adventures, campaigns, and even character deaths. It's also an easy way to connect adventures that might otherwise be in different worlds/realities. 
 
 My wife Lauren and I designed it using [Knave](https://www.drivethrurpg.com/product/250888/Knave) by Ben Milton. Knave is awesome because it's streamlined, simple, and compatible with a bunch of old-school RPG adventures. You should definitely go buy a copy of Knave; however you could make "Tempered Legacy" work with any RPG system. 
-
-## Table of Contents
-{:.no_toc}
-* this unordered seed list will be replaced by toc as unordered list
-{:toc}
 
 ## Tempered Weapons
 
 A meteor crashed near the wagon of a clever trader. She awoke from her sleep and carefully went out to investigate. When she saw the small crater made by a chunk of glowing metal she was overjoyed. Everyone knew the legends of sky-steel, and she could expect to earn its weight in gold twice over! 
 
-After the metal cooled she bent down to pick it up and upon touching the still-warm surface she was overwhelmed with visions and memories from another world. Shocked she dropped the metal and pondered it for a long time. She retrieved a large knife and cut the metal into 100 tiny pieces. Each piece was so small that she could carry them without being overwhelmed.
+She bent down to pick up the metorite and upon touching the still-warm surface she was overwhelmed with visions and memories from another world. Shocked she dropped the metal and pondered it for a long time. She retrieved a large knife and cut the soft metal into 100 tiny pieces. Each piece was small enough that she could carry it without being overwhelmed.
 
-The trader sold the small chunks for a tidy profit, distributing them across the land. Smiths forged these chunks of sky-steel into great weapons of legend, never truly understanding the potential that lay deep inside each one.
+The trader sold the small chunks for a tidy profit along her trade route, distributing them across the land. Blacksmiths and forged turned these chunks of meteorite into great weapons of legend, never truly understanding the potential that lay deep inside each one.
 
 You are one of those weapons, but your legend has yet to be forged.
-
-You contain echoes of previous adventures. You live only while someone wields you, and may grant your Wielder access to the stored spells, temperaments, and histories of past owners.
 
 ![smithsforge.jpg]({{site.url}}/images/posts/smithsforge.jpg)
 
 ## The Framework
 
-Each player randomly generates a Tempered Weapon lying on the ground in some forgotten area. The GM then describes a group of randomly generated Wielders coming along and picking up the weapons.
+Each player generates a Tempered Weapon, laying on the ground of a dusty tomb, stored in an ancient vault, or forgotten in a castle's armory. The GM then describes a group of Wielders coming along and picking up the weapons.
 
 Wielders can be heroes, thieves, lost villagers, or even a lowly goblin. Once they pick up a Tempered Weapon they gain access to all the histories, temperaments, and spells stored within. 
 
-When a Wielder dies they drop their Weapon on the ground. The player decides what to store in the Weapon for the next Wielder. As Wielders fight and die the Weapon grows stronger, shaped by the player and what they choose to store from past Wielders.
+When a Wielder dies the player decides what to store in the Weapon. As Wielders fight and die the Weapon grows stronger, shaped by the player and what they store in the Weapon.
 
 ## How to Play
 
@@ -58,38 +51,28 @@ To play Tempered Legacy, you will need:
  - Pencils and [character sheets](/files/temperedSheets.pdf)
  - A set of polyhedral dice (d20, d10, d8, d6)
  - A phone/tablet/computer to [generate Weapons and Wielders](/temperedgenerators).
- - A copy of [Knave](https://www.drivethrurpg.com/product/250888/Knave) _(or the slightly tweaked RPG system of your choice)_. Make sure everyone at the table understands the basic rules about saves, inventory, healing, attacking, etc.
+ - A copy of [Knave](https://www.drivethrurpg.com/product/250888/Knave) _(or the RPG system of your choice)_. Make sure everyone at the table understands the basic rules about saves, inventory, healing, attacking, etc.
 
 The GM describes the adventure to the players, and places their Weapons just past the starting point. A group of Wielders stumble by and pick up them up and a new legend begins.
-
-## Questions for the group
-
-Some of the people I play with don't care about lore and worldbuilding; they just want to explore dungeons, solve puzzles and get loot. For groups that want more lore, you'll have to decide a few questions for yourselves:
- - Are the weapons actually sentient or are they just vessels for past memories?
- - How does holding a Weapon change the Wielder? Do they have a choice in the matter?
- - How rare are Tempered Weapons: common tools or priceless artifacts?
- - Does the Weapon remember anything else about past Wielders? Names? Goals? Trauma?
- - How much remains of their alien origin? Do they have a plan?
 
 ## This is my Weapon. There are none like it.
 
 Every weapon has a few characteristics that make it unique and useful.
 
- - **Name.** The name of the Weapon (one of them, at least).
+ - **Name.** The name of the Weapon.
  - **Type.** Determines the damage, size, and description of the Weapon.
  - **Five Things.** A weapon can only store five things from past Wielders. These things could be:
-    - **Temperaments** grant new abilities and talents. They are passive.
+    - **Temperaments** that grant new abilities and talents.
     - **Spells**. When you cast a spell, make an INT save. If unsuccessful, the spell still works, but you lose access to it for the rest of the day. _Normally they take up a slot, but Tempered weapons may contain multiple spells!_
     - **Histories** are jobs, skills, and experiences from past Wielders. If one of these histories would give you an edge when taking certain actions, you gain advantage to those rolls. _E.g. if your weapon has the history of a sailor, you would gain advantage when you attempt to navigate by the stars._
 
 ## Wielders are fragile.
 
-In addition to the normal Knave characteristics (HP, Stats, etc.) each Wielder has:
+In addition to their normal Knave characteristics (HP, Stats, etc.) each Wielder has:
 
- - **Inventory.** Wielders come with a few items already in their inventory, and may even use other weapons in addition to their Tempered Weapon.
- - **Spellbook.** Each spellbook takes up an inventory slot. _Not all Wielders will start with a spellbook._
- - **Temperament.** Temperaments affect how the Wielder perceives the world and also grant special abilities and talents.
- - **History.** Their History is their primary career, skills, and area of expertise. 
+ - **An Inventory.** Wielders come with a few items already in their inventory, and may even use other weapons in addition to their Tempered Weapon. _Some Wielders even start with a Spellbook!_
+ - **Temperament.** Temperaments determine how the Wielder interacts with the world and also grant special abilities and talents.
+ - **History.** Their History was their primary job and area of expertise. _Maybe they still have their old jobs...maybe not._
 
 ![bardsweapons.jpg]({{site.url}}/images/posts/bardsweapons.jpg)
 
@@ -103,19 +86,19 @@ In addition to the normal Knave characteristics (HP, Stats, etc.) each Wielder h
 
 You MUST choose one history, spell, or temperament from this Wielder to store in your Weapon. Tempered Weapons can only store five things, so if you run out of space you may have to replace something. 
 
-Be sure to record the name of the Wielder that the history/spell/temperament came from. _David's Fireball spell, Lauren's history as a trader, Andrew's noble temperament, etc._
+Be sure to record the name of the Wielder along with the history, spell, or temperament. _David's Fireball spell, Lauren's history as a trader, Ben's noble temperament, etc._
 
 ## Health and Hirelings
 
-If one Wielder dies before the rest, that player just twiddles their thumbs waiting for another Wielder to come along and pick them up. That sucks. Here are a few ways to solve this issue:
+If one Wielder dies before the rest their player just twiddles their thumbs waiting for another Wielder to come along and pick them up. That sucks. Here are a few ways to solve this issue:
 
  - **Hirelings.** The classic solution to deadly adventures. 8-10 characters go into a dungeon, and the players control the whole group with various mechanics and rules. When a Wielder dies, a hireling immediately picks up the Weapon and the adventure continues. 
  - **Health Pool.** For a more abstract solution you can combine the HP of all Wielders into a central pool. So instead of 4 characters with 5 HP each, the Group has a shared Health of 20. Whenever a character takes damage it comes from the shared pool, and when the pool depletes, the entire group dies at the same time. Individual Wielders can still suffer injuries, penalties, diseases, curses, etc. But Health Points are lost/recovered as a group. When one when character suffers, the entire group must pick up the slack.
- - **Highlander.** When a Wielder dies, another Wielder picks up the fallen Weapon and now gains the benefits of carrying TWO Tempered Weapons. Players work together to control this Wielder, taking turns when deciding actions, or just working out disagreements with dice rolls. Eventually only one Wielder will be left carrying around a bunch of Tempered Weapons...until they also perish.
+ - **Highlander.** When a Wielder dies, another Wielder picks up the fallen Weapon and now gains the benefits of carrying TWO Tempered Weapons. Both Players work together to control this Wielder, taking turns when deciding actions, or just working out disagreements with dice rolls. Eventually all players will be controlling a single Wielder carrying a bunch of Tempered Weapons...until they too perish.
 
 ## Passage of Time
 
-After a group dies it will probably be a while before more people come wandering by to pick up the Weapons. How long that takes can drastically affect the situation in the dungeon:
+After a group of Wielders perish it may take some time before more people come wandering by to pick up the Weapons. How long that takes can drastically affect the situation in the dungeon:
 
  - After **a few days** very little changes. New Wielders start off where the last ones died.
  - After **a week or two** the perishables have spoiled, a few monsters have returned.
@@ -123,6 +106,15 @@ After a group dies it will probably be a while before more people come wandering
  - After **a year or two** most of the Weapons and valuables left behind to have been moved to another room/region.
  - After **decades** the monsters and traps have changed. Re-populate with new creatures and switch out some of the traps.
  - **Centuries, or longer**, basically a new area. This is the GM's opportunity to transition to a completely new adventure altogether. _"As aeons passed, your Weapons lay forgotten among the piles of treasure that travel between kingdoms and realities. Then, one day, you feel a new Wielder lift you from the dusty floor..."_ 
+
+## Questions for the group
+
+Some of the people I play with don't care about lore and worldbuilding; they just want to explore dungeons, solve puzzles and get loot. For groups that want more lore, you'll have to decide a few questions for yourselves:
+ - Are the weapons actually sentient or are they just vessels for past memories?
+ - How does holding a Weapon change the Wielder? Do they have a choice in the matter?
+ - How rare are Tempered Weapons: common tools or priceless artifacts?
+ - Does the Weapon remember anything else about past Wielders? Names? Goals? Trauma?
+ - How much remains of their alien origin? Do they have a plan?
 
 ## [Some Recommended Adventures](/david/extremely-interesting-adventures)
 
