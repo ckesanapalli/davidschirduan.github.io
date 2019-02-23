@@ -284,10 +284,10 @@ function wielder() {
       armorText = "Gambeson (12 armor, 1 slot)</li><li>";
       break;
     case (armor >= 15 && armor <= 19):
-      armorText = "Brigandine (13 armor), 2 slots)</li><li>";
+      armorText = "Brigandine (13 armor, 2 slots)</li><li>";
       break;
     case (armor == 20):
-      armorText = "Chainmail (14, 3 slots)</li><li>";
+      armorText = "Chainmail (14 armor, 3 slots)</li><li>";
       break;
   }
 
