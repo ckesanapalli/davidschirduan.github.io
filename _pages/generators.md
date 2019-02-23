@@ -20,7 +20,7 @@ The GM can take random results and combine them with their own ideas to create s
       <h3 class="project-card-title">
         <a href="/temperedgenerators" class="flip-title">Weapon and Character Generator</a>
       </h3>
-      <legend class="project-card-text fine faded">Tempered Legacy is a rogue-like OSR framework where you are a weapon wielded by many.</legend>
+      <legend class="project-card-text fine faded">Tempered Legacy is a rogue-like tabletop RPG framework where you are a Weapon wielded by many.</legend>
     </article>
   </div>
   <div class="column column-1-2">
@@ -33,7 +33,7 @@ The GM can take random results and combine them with their own ideas to create s
       <h3 class="project-card-title">
         <a href="/bmchargen" class="flip-title">Bone Marshes Character Generator</a>
       </h3>
-      <legend class="project-card-text fine faded">A simple character generator for OSR games.</legend>
+      <legend class="project-card-text fine faded">Whip up random characters for Bone Marshes.</legend>
     </article>
   </div>
   <div class="column column-1-2">
