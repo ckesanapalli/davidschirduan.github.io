@@ -18,24 +18,25 @@ Tempered Legacy is a rogue-like OSR framework where you are a weapon wielded by 
   <h1 class="tightSpacing" id="weaponName">Silver Rapier</h1>
   <p id="weaponDesc">A simple but well-crafted blade</p>
   <h2 class="tightSpacing">Already Stored in the Weapon:</h2>
-  <div class="row">
+  <div class="row" style="justify-content: space-around !important;">
 		<div class="col-md-5 col-12 tightSpacing p" id="weaponSpell" style="border:darkgray dashed;">Fireball</div>
-    <div class="col tightSpacing"></div>
-		<div class="col-md-6 col-12 tightSpacing p" id="weaponTemperament" style="border:darkgray dashed;">Run to the end of the world and defeat the legion-demon Yog Soggoth who not only killed your family but all past family as well. Also you will need to return to the place of darkness and secure the shadow heart for your divine blade.</div>
-    <div class="col-12 tightSpacing p" id="weaponMemory" style="border:darkgray dashed;">Fireball</div>
+		<div class="col-md-5 col-12 tightSpacing p" id="weaponTemperament" style="border:darkgray dashed;">Run to the end of the world and defeat the legion-demon Yog Soggoth who not only killed your family but all past family as well. Also you will need to return to the place of darkness and secure the shadow heart for your divine blade.</div>
+  </div>
+  <div class="row" style="justify-content: space-around !important;">
+    <div class="col-md-5 col-12 tightSpacing p" id="weaponHistory" style="border:darkgray dashed;">Fireball</div>
+  </div>
+  <div class="row" style="justify-content: space-around !important;">
     <div class="col-md-5 col-12 tightSpacing p" style="border:darkgray dashed;">Empty slot. Room for a History, Temperament, or Spell from a future Wielder.</div>
-    <div class="col tightSpacing"></div>
     <div class="col-md-5 col-12 tightSpacing p" style="border:darkgray dashed;">Empty slot. Room for a History, Temperament, or Spell from a future Wielder.</div>
-
   </div>
 </div>
 
 <div class="container generatorCard" id="wielderCard" style="display:none;">
   <div class="row">
-    <div class="col-8 tightSpacing h1" id="charName">Click the Button!</div>
-    <div class="col-xl-4 col-6 tightSpacing h1" id="charHP"></div>
+    <div class="col-xl-8 col-12 tightSpacing h1" id="charName">Click the Button!</div>
+    <div class="col-xl-4 col-12 tightSpacing h1" id="charHP"></div>
   </div>
-  <div class="row">
+  <div class="row" style="justify-content: space-around !important;">
 		<div class="col-lg-2 col-4 tightSpacing h3" id="charSTR"></div>
 		<div class="col-lg-2 col-4 tightSpacing h3" id="charDEX"></div>
 		<div class="col-lg-2 col-4 tightSpacing h3" id="charCON"></div>
@@ -185,7 +186,7 @@ function weaponThings() {
 
   document.getElementById("weaponSpell").innerHTML = "<strong>" + selectRandom(tempered.weapon.Names) + "'s Spell</strong> -  " + spellbook;
 
-  document.getElementById("weaponMemory").innerHTML = "<strong>" + selectRandom(tempered.weapon.Names) + "'s History</strong>: They were " + selectRandom(tempered.wielder.Background) + ".";
+  document.getElementById("weaponHistory").innerHTML = "<strong>" + selectRandom(tempered.weapon.Names) + "'s History</strong>: They were " + selectRandom(tempered.wielder.Background) + ".";
 
 }
 
