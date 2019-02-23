@@ -85,7 +85,7 @@ Every weapon has a few characteristics that make it unique and useful.
 
 ## When a Wielder dies...
 
-The player MUST choose one history, spell, or temperament from this Wielder to store in their Weapon. Tempered Weapons can only store five things, so if there isn't any space left something will have to be replaced. 
+The player MUST choose one (and only one) history, spell, or temperament from this Wielder to store in their Weapon. Tempered Weapons can only store five things, so if there isn't any space left something will have to be replaced. 
 
 Be sure to record the name of the Wielder along with the history, spell, or temperament. _David's Fireball spell, Lauren's history as a trader, Ben's noble temperament, etc._
 
