@@ -331,3 +331,5 @@ function wielder() {
 }
 
 </script>
+
+<a href="/_pages/tempered.json"></a>

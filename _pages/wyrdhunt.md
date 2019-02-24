@@ -168,3 +168,5 @@ function mutation() {
   document.getElementById("lootBox").innerHTML = wyrd.mutations[Math.floor(Math.random() * wyrd.mutations.length)];
 }
 </script>
+
+<a href="/_pages/wyrdhunt.json"></a>

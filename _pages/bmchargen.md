@@ -162,3 +162,5 @@ function generate() {
     "</li><li>Spellbook - " + knave.Spells[Math.floor(Math.random() * knave.Spells.length)];
 }
 </script>
+
+<a href="/_pages/knave.json"></a>

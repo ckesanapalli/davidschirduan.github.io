@@ -209,3 +209,5 @@ function extraBooks() {
   document.getElementById("lootBox").innerHTML = stygian.extraordinaryBooks[Math.floor(Math.random() * stygian.extraordinaryBooks.length)];
 }
 </script>
+
+<a href="/_pages/stygian.json"></a>
