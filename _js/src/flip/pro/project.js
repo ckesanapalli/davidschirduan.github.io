@@ -90,11 +90,10 @@ export function setupFLIPProject(start$, ready$, fadeIn$, { animationMain, setti
               fadeIn$
             ).pipe(
               tap(() => ((imgWrapper.style.opacity = 1), (animationMain.style.opacity = 0))),
-              switchMap(
-                () =>
-                  !img
-                    ? of({})
-                    : animate(animationMain, [{ opacity: 1 }, { opacity: 0 }], { duration: 500 })
+              switchMap(() =>
+                !img
+                  ? of({})
+                  : animate(animationMain, [{ opacity: 1 }, { opacity: 0 }], { duration: 500 })
               ),
               finalize(() => (animationMain.style.opacity = 0))
             );

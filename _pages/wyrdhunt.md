@@ -169,4 +169,3 @@ function mutation() {
 }
 </script>
 
-<a href="/_pages/wyrdhunt.json"></a>

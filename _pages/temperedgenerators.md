@@ -34,7 +34,6 @@ Tempered Legacy is a rogue-lite tabletop RPG framework where you are a Weapon wi
 <div class="container generatorCard" id="wielderCard" style="display:none;">
   <div class="row">
     <div class="col-xl-8 col-12 tightSpacing h1" id="charName">Click the Button!</div>
-    <div class="col-xl-4 col-12 tightSpacing h1" id="charHP"></div>
   </div>
   <div class="row" style="justify-content: space-around !important;">
 		<div class="col-lg-2 col-4 tightSpacing h3" id="charSTR"></div>
@@ -45,18 +44,24 @@ Tempered Legacy is a rogue-lite tabletop RPG framework where you are a Weapon wi
 		<div class="col-lg-2 col-4 tightSpacing h3" id="charCHA"></div>
 	</div>
   <hr class="tightSpacing">
-  <p id="charTemperament"></p>
-  <p id="charHistory"></p>
   <div class="row">
-		<div class="col-lg-4 col-6 tightSpacing" id="charPhysique"></div>
-		<div class="col-lg-4 col-6 tightSpacing" id="charSkin"></div>
-		<div class="col-lg-4 col-6 tightSpacing" id="charFace"></div>
-		<div class="col-lg-4 col-6 tightSpacing" id="charHair"></div>
-		<div class="col-lg-4 col-6 tightSpacing" id="charSpeech"></div>
-		<div class="col-lg-4 col-6 tightSpacing" id="charClothing"></div>
+
   </div>
   <div class="row">
-    <div class="col-12">
+    <div class="col-xl-6 col-12">
+      <div class="tightSpacing h2" id="charHP"></div>
+      <p id="charTemperament"></p>
+      <p id="charHistory"></p>
+      <div class="row">
+        <div class="col-6 tightSpacing" id="charPhysique"></div>
+        <div class="col-6 tightSpacing" id="charSkin"></div>
+        <div class="col-6 tightSpacing" id="charFace"></div>
+        <div class="col-6 tightSpacing" id="charHair"></div>
+        <div class="col-6 tightSpacing" id="charSpeech"></div>
+        <div class="col-6 tightSpacing" id="charClothing"></div>
+      </div>
+    </div>
+    <div class="col-xl-6 col-12">
       <h2 id="charSlots" class="tightSpacing"></h2>
       <p>
         You can choose from <strong>any or all</strong> of the items below to fill your inventory slots. Unless otherwise noted, each item takes up one slot. 
@@ -71,7 +76,7 @@ Tempered Legacy is a rogue-lite tabletop RPG framework where you are a Weapon wi
  - Lauren Schirduan, the love of David's life and his partner in crime. 
  - [Ben Milton](https://www.youtube.com/channel/UCvYwePdbWSEwUa-Pk02u3Zw) for making Knave, Maze Rats, incredible Youtube reviews, and a bunch of cool stuff. we stole SO many ideas from Ben. Chances are if you like an idea, we stole it from him.
  - [Christopher P. Wolf](http://chrispwolf.com/) for the code that inspired these generators.
- - [Joseph Manola](https://udan-adan.blogspot.com/) for a bunch of the strangely useful random items that Knaves can start with.
+ - [Joseph Manola](https://udan-adan.blogspot.com/2018/02/when-all-you-have-is-hammer-item-based.html) for a bunch of the strangely useful random items that Knaves can start with.
  - [Freehold games](http://www.cavesofqud.com/) for making the rogue-like David keep coming back to again and again.
  - And to the [OSR community](https://discord.gg/kJjMvC) for being such an encouraging, welcoming place.
 
@@ -280,13 +285,13 @@ function wielder() {
   armorText = "";
   switch (true) {
     case (armor >= 4 && armor <= 14):
-      armorText = "Gambeson (12 armor, 1 slot)</li><li>";
+      armorText = "<li>Gambeson (12 armor, 1 slot)</li>";
       break;
     case (armor >= 15 && armor <= 19):
-      armorText = "Brigandine (13 armor, 2 slots)</li><li>";
+      armorText = "<li>Brigandine (13 armor, 2 slots)</li>";
       break;
     case (armor == 20):
-      armorText = "Chainmail (14 armor, 3 slots)</li><li>";
+      armorText = "<li>Chainmail (14 armor, 3 slots)</li>";
       break;
   }
 
@@ -305,7 +310,7 @@ function wielder() {
   }
 
   /* ======= Junk ======= */
-  var junkNum = Math.floor(Math.random() * 6) + 1;
+  var junkNum = Math.floor(Math.random() * 4);
   var junkText = "";
 
   for (i = 0 ; i < junkNum; i++) {
@@ -317,19 +322,18 @@ function wielder() {
   var startGold = die1;
   startGold = startGold * 10;
 
-  document.getElementById("charItems").innerHTML = "<ul><li>" +
-  armorText +
-      selectRandom(tempered.wielder.Weapons) + "</li>" + 
-      extraArmor + 
+  document.getElementById("charItems").innerHTML = 
+    "<ul>" + armorText +
+    "<li>" + selectRandom(tempered.wielder.Weapons) + "</li>" + 
+    extraArmor + 
     spellbook +
     "<li>" + startGold + " coins (100 coins per slot)</li>" + 
-    "<li>2 days of rations</li><li>" +
-    selectRandom(tempered.wielder.coreItems) + "</li><li>" +
-    selectRandom(tempered.wielder.coreItems) + "</li><li>" +
-    selectRandom(tempered.wielder.coreItems) + "</li>" +
-    junkText;
+    "<li>2 days of rations</li>" +
+    "<li>" + selectRandom(tempered.wielder.coreItems) + "</li>" + 
+    "<li>" + selectRandom(tempered.wielder.coreItems) + "</li>" + 
+    "<li>" + selectRandom(tempered.wielder.coreItems) + "</li>" +
+    junkText + 
+    "<li>A quiver of 20 arrows/bolts (1 slot)</li>";
 }
 
 </script>
-
-<a href="/_pages/tempered.json"></a>

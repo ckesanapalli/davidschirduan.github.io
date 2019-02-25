@@ -16,6 +16,7 @@
 
 import "@webcomponents/webcomponentsjs";
 import "intersection-observer";
+import ResizeObserver from "resize-observer-polyfill";
 import "web-animations-js";
 import smoothscroll from "smoothscroll-polyfill";
 import "../lib/request-idle-callback";
@@ -30,4 +31,5 @@ import "./katex";
 import "./pro/dark-mode";
 import "./pro/cookies-banner";
 
+window.ResizeObserver = window.ResizeObserver || ResizeObserver;
 smoothscroll.polyfill();

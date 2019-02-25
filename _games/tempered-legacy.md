@@ -75,7 +75,7 @@ Every weapon has a few characteristics that make it unique and useful.
  - **Five Things.** A weapon can only store five things from past Wielders. These things could be:
     - **Temperaments** that grant new abilities and talents.
     - **Spells**. When you cast a spell, make an INT save. If unsuccessful, the spell still works, but you lose access to it for the rest of the day.
-    - **Histories** are jobs, skills, and experiences from past Wielders. If one of these histories would give you an edge when taking certain actions, you gain advantage to those rolls. _If your weapon contains the History of a sailor, you would gain advantage when you attempt to navigate by the stars, tie complex knots, or swim for long periods of time._
+    - **Histories** are jobs, skills, and experiences from past Wielders. If one of these histories would give you an edge when taking certain actions, you gain advantage. _If your weapon contains the History of a sailor, you would gain advantage when you attempt to navigate by the stars, tie complex knots, or swim for long periods of time._
 
 ## When a Wielder picks up a weapon...
 

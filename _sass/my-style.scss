@@ -58,13 +58,13 @@ visibility: hidden;
 
 //ynn generator
 .pastRecords {
-color:darkgrey;
+  color: darkgrey;
 }
 
 //Bone Marshes Character Generator
 .tightSpacing {
-  margin-top:10px;
-  margin-bottom:15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 .buttonWrapper {
@@ -78,7 +78,7 @@ color:darkgrey;
   border-radius: 5px;
   border: 3px currentColor;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
-  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 20px 30px;
   background-color: whitesmoke;
   color: black;
@@ -95,8 +95,8 @@ color:darkgrey;
 }
 
 .categories td {
-text-align: center;
-width:30%;
+  text-align: center;
+  width: 30%;
 }
 
 /*move images to top*/
@@ -134,4 +134,15 @@ h1,
 h2,
 h3 {
   clear: left;
+}
+
+
+.dl-table {
+  a {
+    padding-bottom: 0.4rem;
+  }
+
+  .btn {
+    margin: 1.5rem 0;
+  }
 }

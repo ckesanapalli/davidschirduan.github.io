@@ -56,7 +56,6 @@ image: /images/posts/bonemarshes_KS.jpg
         <li>Small Melee (d6, 1 hand, 1 slot)</li>
         <li>Medium (d8, 1 hand, 2 slots)</li>
         <li>Large (d10, 2 hands, 3 slots)</li>
-        <li>Thrown Weapons (d6, 5 per slot)</li>
         <li>Sling (d4, 1 slot)<br>and a bag of 20 stones (1 slot)</li>
         <li>Bow (d6, 2 hands, 2 slots)<br>and a quiver of 20 arrows (1 slot)</li>
         <li>Crossbow (d8, 2 hands, 3 slots)<br>and a pack of 20 bolts (1 slot)</li>
@@ -162,5 +161,3 @@ function generate() {
     "</li><li>Spellbook - " + knave.Spells[Math.floor(Math.random() * knave.Spells.length)];
 }
 </script>
-
-<a href="/_pages/knave.json"></a>

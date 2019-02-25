@@ -205,5 +205,3 @@ function findTreasure() {
 }
 
 </script>
-
-<a href="/_pages/ynn.json"></a>

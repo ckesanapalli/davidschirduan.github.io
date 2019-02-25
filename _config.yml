@@ -50,8 +50,21 @@ author:
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:            David Schirduan © 2018. All rights reserved.
 
+# Add links to the sidebar.
+menu:
+  - title:             Games
+    url:               /_pages/games
+  - title:             Downloads
+    url:               /downloads/
+  - title:             Generators
+    url:               /generators/
+  - title:             Reviews
+    url:               /david/extremely-interesting-role-playing-games/
+  - title:             Blog
+    url:               /blog/
+
 # Add links to the footer.
-# Typically you'll want to link to your impress, cookies or privacy policy, etc.
+# Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
 #   - title:             Impress
 #     href:              /impress/
@@ -113,35 +126,11 @@ defaults:
     values:
       comments: true
   - scope:
-      path: _pages/projects.md
-    values:
-      menu: true
-      order: 1
-  - scope:
-      path: _pages/downloads.md
-    values:
-      menu: true
-      order: 2
-  - scope:
-      path: _pages/generators.md
-    values:
-      menu: true
-      order: 3
-  - scope:
-      path: _pages/reviews.md
-    values:
-      menu: true
-      order: 4
-  - scope:
-      path: _pages/blog.md
-    values:
-      menu: true
-      order: 5
-  - scope:
       path: ""
     values:
       author: davidschirduan
       image: /images/1200x600Logo.png
+
 
 # 3rd Party Integrations
 # ----------------------------------------------------------------------------------------
@@ -184,8 +173,12 @@ hydejack:
   no_img:              true
 
   # Set to `true` if you do not want parts of the css inlined in <head/>
-  # This *may* be benefitial when serving the site over HTTP/2.
-  no_inline_css:       false
+  # This will increase site build speed dramatically!
+  no_inline_css:       true
+
+  # Set to `true` if you don't intend on changing the accent color on a per-page basis.
+  # This will increase site build speed!
+  no_page_style:       true
 
   # Code blocks and tables "break" the layout by spanning the full available width.
   # Set this to true if you want them to be the same width as other content.
@@ -207,7 +200,7 @@ hydejack:
   cookies_banner:      true
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
-  advertise:           true
+  advertise:           false
 
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
@@ -226,7 +219,6 @@ hydejack:
   # ----------------
   # This is an _experimental_ feature.
   # Only use if you know what Service Workers are and how they can impact your site!
-  # Coding skills highly recommended.
   offline:
     enabled:           false
     cache_version:     1
@@ -264,9 +256,13 @@ exclude:
   - package-lock.json
   - webpack.config.js
   - "*.gemspec"
+  - _js
+  - _plugins
+  - .sass-cache
 include:
   - LICENSE.md
   - _pages
+
 
 # Plugins
 # ========================================================================================
@@ -275,14 +271,13 @@ plugins:
   - jekyll-default-layout
   - jekyll-feed
   - jekyll-optional-front-matter
-  #- jekyll-paginate
+#  - jekyll-paginate
   - jekyll-readme-index
   - jekyll-redirect-from
   - jekyll-relative-links
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-titles-from-headings
-  - jekyll-admin
 
 # Theme
 # ---------------------------------------------------------------------------------------
