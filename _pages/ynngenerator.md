@@ -4,6 +4,8 @@ title: Gardens of Ynn Generator
 permalink: ynngenerator
 published: true
 image: /images/ynngenerator.png
+description: >
+  A mobile-friendly generator for the Gardens of Ynn.
 ---
 ![ynngenerator.png]({{site.url}}/images/ynngenerator.png)
 

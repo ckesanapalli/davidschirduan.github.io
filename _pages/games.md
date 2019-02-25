@@ -10,4 +10,6 @@ redirect_from:
   - "/games"
   - "/games/"
   - "/david/mycreations"
+description: >
+  Games and Adventures by David Schirduan.
 ---

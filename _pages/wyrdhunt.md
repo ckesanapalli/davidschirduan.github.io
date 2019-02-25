@@ -4,6 +4,8 @@ title: Wyrd Hunt Generator
 permalink: wyrdhuntgenerator
 published: true
 image: /images/wyrdhuntgenerator.png
+description: >
+  A mobile-friendly Hunt generator for the Wyrd and Wild.
 ---
 ![wyrdhuntgenerator.png]({{site.url}}/images/wyrdhuntgenerator.png)
 
@@ -98,19 +100,19 @@ function nextEncounter() {
     switch (true) {
       case (percentage <= 20):
         var plant = wyrd.plants[Math.floor(Math.random() * wyrd.plants.length)];
-        encounterText = encounterText + "<h3 class=\"tightSpacing\">" + plant.name + "</h3>" + plant.description +
+        encounterText = encounterText + "<h3 class=\"tightSpacing\">Plant: " + plant.name + "</h3>" + plant.description +
           "<br><strong>Uses:</strong> " + plant.uses;
         break;
       case (percentage > 20 && percentage <= 40):
         var trap = wyrd.traps[Math.floor(Math.random() * wyrd.traps.length)];
-        encounterText = encounterText + "<h3 class=\"tightSpacing\">" + trap.name + "</h3>" + trap.description +
+        encounterText = encounterText + "<h3 class=\"tightSpacing\">Trap: " + trap.name + "</h3>" + trap.description +
           "<br><strong>Detect:</strong> " + trap.detect + 
           "<br><strong>Effect:</strong> " + trap.effect + 
           "<br><strong>Disable/Avoid:</strong> " + trap.disable;          
         break;
       case (percentage > 40 && percentage <= 80):
         var creature = wyrd.creatures[Math.floor(Math.random() * wyrd.creatures.length)];
-        encounterText = encounterText +  "<h3 class=\"tightSpacing\">" + creature.name + " <i>(pg. " + creature.page + ")</i></h3>" +
+        encounterText = encounterText +  "<h3 class=\"tightSpacing\">Creature: " + creature.name + " <i>(pg. " + creature.page + ")</i></h3>" +
           "<strong>Quantity:</strong> " + creature.quantity +
           "<br><strong>Armor Class:</strong> " + creature.ac +
           "<br><strong>Hit Dice:</strong> " + creature.hd +

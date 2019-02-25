@@ -3,6 +3,8 @@ layout: page
 title: Adventure Reviews
 permalink: david/extremely-interesting-adventures
 published: true
+description: >
+  RPG Adventure reviews by David Schirduan.
 ---
 I want to take a break from designing games and try my hand at writing some adventures. To that end I've been playing as many adventures as I can get my hands on! 
 

@@ -4,6 +4,8 @@ title: Tempered Legacy Generators
 permalink: temperedgenerators
 published: true
 image: /images/temperedlegacy.png
+description: >
+  A mobile-friendly Weapon and Character generator for Tempered Legacy.
 ---
 ![temperedlegacy.png]({{site.url}}/images/temperedlegacy.png)
 

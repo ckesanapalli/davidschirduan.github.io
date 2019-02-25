@@ -10,6 +10,8 @@ redirect_from:
   - "/tablerules"
   - "/references"
 show_collection: none
+description: >
+  Free handouts, references, and useful tidbits.
 --- 
 
 ## Handouts

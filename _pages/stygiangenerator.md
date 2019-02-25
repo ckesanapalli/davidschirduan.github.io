@@ -4,6 +4,8 @@ title: Stygian Library Generator
 permalink: stygiangenerator
 published: true
 image: /images/stygiangenerator.png
+description: >
+  A mobile-friendly generator for the Stygian Library.
 ---
 ![stygiangenerator.png]({{site.url}}/images/stygiangenerator.png)
 

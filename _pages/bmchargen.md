@@ -4,6 +4,8 @@ title: Bone Marshes Character Generator
 permalink: bmchargen
 published: true
 image: /images/posts/bonemarshes_KS.jpg
+description: >
+  Character generator for Bone Marshes.
 ---
 ![bonemarshes_KS.jpg]({{site.url}}/images/posts/bonemarshes_KS.jpg)
 

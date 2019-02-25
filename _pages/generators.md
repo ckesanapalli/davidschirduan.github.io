@@ -2,12 +2,14 @@
 layout: projects
 title: Generators
 caption: Random Generators
-image: /images/generators.png
+image: /images/generators.jpg
 permalink: generators
 show_collection: none
+description: >
+  A bunch of random generators for various games and adventures.
 ---
 
-The GM can take random results and combine them with their own ideas to create something truly unique. Here are some useful random results.
+The Game Master can take random results and combine them with their own ideas to create something truly unique. Here are some useful random results.
 
 <div class="columns">
   <div class="column column-1-2">

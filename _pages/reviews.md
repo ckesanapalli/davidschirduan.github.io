@@ -5,7 +5,8 @@ permalink: david/extremely-interesting-role-playing-games
 published: true
 redirect_from:
   - "/david/2014/04/rpg-micro-review-mega-list.html"
-icon: icon-eye
+description: >
+  Tabletop RPG Reviews by David Schirduan.
 ---
 I read WAY more tabletop RPGs than I’ll ever get to play. This review list exists to justify the time and money I’m spending on these things.
 
