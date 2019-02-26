@@ -66,8 +66,7 @@ I put in a lot of time and effort to make sure the generators and rules look goo
 
 All of this is to say that I'm curious to see how popular this format will be. Will people bookmark this on their phone an use it to run games? Or will it be treated like another blog post; enjoyed but lost among the detritus online.
 
-![lemurianhairtrees.jpg]({{site.baseurl}}/images/posts/lemurianhairtrees.jpg)
-*Photo by [Lauren Schirduan](https://lemurianvault.tumblr.com/post/178652959118)*
+![temperedsheets.png]({{site.baseurl}}/images/posts/temperedsheets.png)
 
 ## A Bright Future
 
