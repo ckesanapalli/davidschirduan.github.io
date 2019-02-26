@@ -29,7 +29,8 @@ description: >
 
   <div id="location" class="tabcontent">
     <div class="tightSpacing h3" id="locationTitle">The Stygian Library</div>
-    <p id="locationDesc">Books are condensed collections of knowledge, and knowledge is power. As any physicist will tell you, power is a function of energy, and energy and mass are interchangeable, and enough mass warps space time. Knowledge is power. Power corrupts. The more power, the more it corrupts. Sufficient knowledge twists the world around it into strange shapes.<br>Put enough books in one place, and they distort the world. Space bends in on itself, forming a sort of wormhole, linking the library to other libraries likewise afflicted. The space between is a sort of pocket realm, budded off from reality, maintained by the sheer power of books.</p>
+    <p id="locationDesc">Books are condensed collections of knowledge, and knowledge is power. As any physicist will tell you, power is a function of energy, and energy and mass are interchangeable, and enough mass warps space time. Knowledge is power. Power corrupts. The more power, the more it corrupts. Sufficient knowledge twists the world around it into strange shapes.<br>Put enough books in one place, and they distort the world. Space bends in on itself, forming a sort of wormhole, linking the library to other libraries likewise afflicted. The space between is a sort of pocket realm, budded off from reality, maintained by the sheer power of books.<br><br>
+    Created by Emmy Allen, the book is beautifully written and criminally underpriced. After you've bought a copy of the book, you can use the buttons above to generate locations and events. <a href="https://www.drivethrurpg.com/product/257113/The-Stygian-Library">Buy it here.</a></p>
   </div>
 
   <div id="detail" class="tabcontent">

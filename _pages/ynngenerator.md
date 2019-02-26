@@ -29,13 +29,14 @@ description: >
 
   <div id="location" class="tabcontent">
     <div class="tightSpacing h3" id="locationTitle">Gardens of Ynn</div>
-    <p id="locationDesc"><a href="/david/extremely-interesting-adventures#gardens-of-ynn">Ynn</a> is a perpendicular world. It appears as a vast garden, now untended, overrun, and fallen into ruin. Once, this place was a realm of rarefied luxury, but its masters are long dead and the machinery that maintained it has fallen into disrepair.</p>
+    <p id="locationDesc"><a href="/david/extremely-interesting-adventures#gardens-of-ynn">Ynn</a> is a perpendicular world. It appears as a vast garden, now untended, overrun, and fallen into ruin. Once, this place was a realm of rarefied luxury, but its masters are long dead and the machinery that maintained it has fallen into disrepair.<br><br>
+    Created by Emmy Allen, the book is beautifully written and criminally underpriced. After you've bought a copy of the book, you can use the buttons above to generate locations and events. <a href="https://www.drivethrurpg.com/product/237544/The-Gardens-Of-Ynn">Buy it here.</a></p>
   </div>
 
   <div id="detail" class="tabcontent">
     <div class="tightSpacing h3" id="detailTitle"><a href="https://www.drivethrurpg.com/product/237544/The-Gardens-Of-Ynn">Buy
         it here</a></div>
-    <p id="detailDesc">Created by Emmy Allen, the book is beautifully written and criminally underpriced. After you've bought a copy of the book, you can use the buttons above to generate locations and events.</p>
+    <p id="detailDesc"></p>
   </div>
 
   <div id="past" class="tabcontent">

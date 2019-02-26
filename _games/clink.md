@@ -13,7 +13,6 @@ redirect_from:
   - "/david/clink"
 hide_description: true
 image: /images/posts/ClinkCover.png
-
 ---
 
 Clink is a tabletop RPG about drifters, the creeds that bring them together, and the history that drives them apart. The game uses coins to tell a story inspired by spaghetti westerns, ronin tales, and shows like Firefly or Supernatural. 
