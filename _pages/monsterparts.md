@@ -8,6 +8,7 @@ description: >
   Generates mechanically engaging OSR monster encounters.
 comments: true
 ---
+![monsterparts.jpg]({{sire.url}}/images/monsterparts.jpg)
 
 This generator aims to help Game Masters comes up with mechanically engaging OSR monster encounters. Use these results as a starting skeleton and flesh them out with your own descriptions and lore. Put your completed monsters in the comments so we can all enjoy them!
 
