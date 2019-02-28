@@ -127,8 +127,8 @@ Tempered Legacy is an on-going project. We're constantly adding stuff to the gen
 
 **Image Sources:**
 
- - Title image: [Eene halve Eeuw, 1848-1898](https://www.flickr.com/photos/britishlibrary/11292680064/in/photolist-icTWmq-idE6XH-i7SMSH-i8wpHP-i7aN2K-idUQG3-i7RaNb-i7HyNf-i3VueW-i5bHsq-i7JJ75-hNA28K-hP2e85-hXuAew-hZ7Dyj-i8aKjL-i6D775-i7TGXR-hRe1QK-i84Dzk-i7zAMy-i8f5Fd-idNTNp-i8B7gV-jYWRMx-hTjkEp-ieao2Y-i7Dpnk-i6gKf5-i7rN7d-i7JDut-hXy4eQ-hQJm3R-idntTw-i82NDq-hZmwH9-i7Nq4F-i84tp8-hRxGny-i8qir1-hYUF1d-hTsHQn-idyWTG-i89oZN-hTENLb-i8pUCf-hXRYKU-i7WUyc-hTWFPd-i88GDr)
+ - Title image: [Eene halve Eeuw, 1848-1898](https://www.flickr.com/photos/britishlibrary/11292680064)
  - Blacksmith: [Jan Toorop](https://commons.wikimedia.org/wiki/File:Affiche_Arbeid_voor_de_vrouw.jpg)
- - Bard's Weapons: [Martial Deeds of Pennsylvania](https://www.flickr.com/photos/britishlibrary/11068186856/in/photolist-hS4mkS-jYXCYH-i8822n-i7Jq7L-i7NLw7-i8uDYq-hTYQ2t-hSGAGd-hNvKT2-hSHizf-hTqE4Y-hTGxzf-i8NRCn-ie9Rru-i8woyq-i89X1J-i2ij5Y-hSHpKQ-icv9Kb-i8dUci-idZDo1-i8bpvd-hNAyJF-icMUax-iazeAe-i9dYNf-i2uZjX-i8sLMb-i7MwvS-i7NS13-i8bE52-i5Whxh-i7Muui-i7NUcW-hUnBWy-hYnSvP-i2Thzd-i8rhds-i82uwd-i6PLuX-i8uTCm-icTWmq-idE6XH-i7SMSH-i8wpHP-i7aN2K-idUQG3-i7RaNb-i7HyNf-i3VueW)
+ - Bard's Weapons: [Martial Deeds of Pennsylvania](https://www.flickr.com/photos/britishlibrary/11068186856)
 
 ![temperedlegacy.png]({{site.url}}/images/temperedlegacy.png)

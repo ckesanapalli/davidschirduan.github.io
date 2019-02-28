@@ -27,15 +27,15 @@ The Game Master can take random results and combine them with their own ideas to
   </div>
   <div class="column column-1-2">
     <article class="project-card">
-      <a href="/bmchargen" class="no-hover no-print-link" tabindex="-1">
+      <a href="/monsterparts" class="no-hover no-print-link" tabindex="-1">
         <div class="project-card-img img sixteen-nine">
-          <img src="/images/posts/bonemarshes_KS.jpg" alt="Bone Marshes Character Generator" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
+          <img src="/images/monsterparts.jpg" alt="Monster Parts Generator" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
         </div>
       </a>
       <h3 class="project-card-title">
-        <a href="/bmchargen" class="flip-title">Bone Marshes Character Generator</a>
+        <a href="/monsterparts" class="flip-title">Monster Parts Generator</a>
       </h3>
-      <legend class="project-card-text fine faded">Whip up random characters for Bone Marshes.</legend>
+      <legend class="project-card-text fine faded">Generates mechanically engaging OSR monster encounters.</legend>
     </article>
   </div>
   <div class="column column-1-2">

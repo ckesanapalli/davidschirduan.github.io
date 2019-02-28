@@ -1,0 +1,35 @@
+{
+  "Roles":[
+    ["Brute", "Curio Solus", "Health Points x 1.5", "Damage x 1.5", "Armor x 0.5"],
+    ["Assassin","Curio Solus","Health Points x 0.5","Damage x 1.5","Speed x 1.5","Stealth (Can avoid being detected with ease)"],
+    ["Artillery","Curio Solus","Armor x 0.5","Ranged Attacks (from unseen or unexpected directions)"],
+    ["Minion", "David Schirduan","Health Points = 1","Damage x 0.5","Numerous (Swarms, hordes, overwhelming numbers)"],
+    ["Controller","Curio Solus","Debuffs enemies (Lowers their stats, speed, damage, etc.)"],
+    ["Support","Curio Solus","Buffs and heals allies (Raises their stats, HP, damage, etc.)"],
+    ["Defender", "Curio Solus", "Armor x 1.5", "Damage x 0.5"],
+    ["Solo", "Curio Solus", "Health Points x 4", "Damage x 2"],
+    ["Unremarkable", "David Schirduan", "Unremarkable (No change to default stats)"]
+  ],
+  "Types":[
+    ["Undead (corporeal)","Curio Solus","Resistant: Necrotic and Cold damage","Immune: Poison, Disease, Fear, Charm, Hunger","Vulnerable: Holy damage and effects"],
+    ["Undead (incorporeal)","Curio Solus","Resistant: Necrotic and Cold damage","Immune: Non-magical/silver physical damage, Poison, Disease, Fear, Charm, Hunger","Vulnerable: Silver, Holy damage and effects"],
+    ["Beast","Curio Solus"],
+    ["Beast (aerial)","Curio Solus","Has flying speed"],
+    ["Beast (aquatic)","Curio Solus","Has swimming speed. Can breathe underwater"],
+    ["Elemental","Curio Solus","Immune: Own element, Hunger","Vulnerable: Opposed element"],
+    ["Plant","Curio Solus","Immune: Mind-altering effects","Vulnerable: Cold and/or Fire damage"],
+    ["Ooze", "Curio Solus", "Resistant: Piercing and/or Bludgeoning damage", "Immune: Acid damage, Mind-altering effects", "Vulnerable: Fire"],
+    ["Celestial", "Curio Solus", "Resistant: Holy damage", "Immune: Poison, Disease", "Vulnerable: Necrotic damage, Prayer"]
+  ],
+  "Traits":[
+    ["Immediate Attack","David Schirduan","Once per round, no matter whose turn it is the creature can make an unexpected attack."], 
+    ["Unblockable Strike", "David Schirduan", "Make an attack at half-damage that cannot be blocked or avoided."],
+    ["Teleport Swap", "David Schirduan", "At any time, even in the middle of another players turn the creature may swap places with any target it can see."]
+  ],
+  "Weaknesses":[
+    ["Time of day", "David Schirduan", "Only vulnerable at certain times of the day. Evident by the shimmering energy that dissipates when vulnerable."],
+    ["Pure Element", "David Schirduan", "Fire, Water, Acid, etc. The applied element must be as pure as possible (mud doesn' work, etc)"],
+    ["Mixed Element", "David Schirduan", "Mud, Smoke, Ice. Something that is altered or slightly off."]
+  ]
+
+}
