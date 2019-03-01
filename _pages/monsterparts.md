@@ -18,19 +18,21 @@ This generator aims to help Game Masters comes up with mechanically engaging OSR
 <div id="monsterCard" class="container" style="display:none;">
   <div class="row" style="justify-content: space-around !important;">
 		<div class="col-md-8 col-12 tightSpacing generatorCard">
-      <h2 id="creatureTitle" class="tightSpacing">Role: Blank</h2> 
-      <p id="creatureRole">This part described how the Role works and what it does</p>
-      <p id="creatureType">This part described how the Role works and what it does</p>
-      <h3 class="tightSpacing">Trait</h3> 
-      <p id="creatureTrait">This part described how the Role works and what it does</p>
+      <h2 id="creatureTitle" class="tightSpacing">Role: Blank</h2>
+		  <p class="tightSpacing" id="roleDesc"></p>
+		  <p class="tightSpacing" id="typeDesc"></p>
+      <h3 class="tightSpacing" id="traitName">Trait</h3> 
+      <p id="traitDesc">This part described how the Role works and what it does</p>
+      <p class="tightSpacing" style="text-align: right;"><small id="traitCont"></small></p>
       <h3 class="tightSpacing">Flaw</h3> 
-      <p id="creatureFlaw">This part described how the Role works and what it does</p>
+      <p id="flawDesc">This part described how the Role works and what it does</p>
+      <p class="tightSpacing" style="text-align: right;"><small id="flawCont"></small></p>
     </div>
     <div id="infoSection" class="col-md-4 col-12 tightSpacing">
       <h3 class="tightSpacing">Stat Explanations</h3> 
       <p><small><strong>Roles</strong> determine base stats and combat behaviors.</small></p>
       <p><small><strong>Types</strong> describe weaknesses and resistances shared by this family of this creature.</small></p>
-      <p><small><strong>Traits</strong> are various powers and abilities the monster uses.</small></p>   
+      <p><small><strong>Traits</strong> are abilities/powers the monster may utilize.</small></p>   
       <p><small><strong>Flaws</strong> are things the PCs can take advantage of.</small></p>   
       <p><small><i>You can contribute to the generator by <a href="https://docs.google.com/spreadsheets/d/1W7Yw_iVHe792CmeQgMg356SoxW8LCC3_oXBr3FlRdjE/edit?usp=sharing">adding to this document</a> (or simply look at all the cool options).</i></small></p>
     </div>
@@ -55,43 +57,29 @@ xmlhttp.send();
 
 function monster() {
 
-  monsterStats();
-  monsterFlaw();
-  monsterTrait();
-
   document.getElementById("monsterCard").style = "";
-}
 
-function monsterStats() {
+  /*0 = name
+    1 = descr
+    2 = contr*/
+
   var role = monsterparts.Roles[Math.floor(Math.random() * monsterparts.Roles.length)];
-  /*Skip the first two things, the rest are listed*/
-  var descRole = "";
-  for (i=2; i<role.length; i++){
-    descRole = descRole + role[i] + ", ";
-  }
-
   var type = monsterparts.Types[Math.floor(Math.random() * monsterparts.Types.length)];
-  /*Skip the first two things, the rest are listed*/
-  var descType = "";
-  for (i=2; i<type.length; i++){
-    descType = descType + type[i] + "<br>";
-  }
-
-  document.getElementById("creatureTitle").innerHTML = role[0] + " " + type[0];
-  document.getElementById("creatureRole").innerHTML = descRole;
-  document.getElementById("creatureType").innerHTML = descType;
-}
-
-function monsterFlaw() {
+  var trait = monsterparts.Traits[Math.floor(Math.random() * monsterparts.Traits.length)];
   var flaw = monsterparts.Flaws[Math.floor(Math.random() * monsterparts.Flaws.length)];
 
-  document.getElementById("creatureFlaw").innerHTML = flaw[0] + ": " + flaw[2];
-}
+  document.getElementById("creatureTitle").innerHTML = role[0] + " " + type[0];
 
-function monsterTrait() {
-  var trait = monsterparts.Traits[Math.floor(Math.random() * monsterparts.Traits.length)];
+  document.getElementById("roleDesc").innerHTML = role[1];
+  document.getElementById("typeDesc").innerHTML = type[1];
+  
+  document.getElementById("traitName").innerHTML = trait[0];
+  document.getElementById("traitDesc").innerHTML = trait[1];
+  document.getElementById("traitCont").innerHTML = " - Contributed by " + trait[2];
 
-  document.getElementById("creatureTrait").innerHTML = trait[0] + ": " + trait[2];
+  document.getElementById("flawDesc").innerHTML = flaw[0] + ": " + flaw[1];
+  document.getElementById("flawCont").innerHTML = " - Contributed by " + flaw[2];
+
 }
 
 </script>

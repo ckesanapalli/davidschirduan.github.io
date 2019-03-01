@@ -1,35 +1,39 @@
 {
   "Roles":[
-    ["Brute", "Curio Solus", "Health Points x 1.5", "Damage x 1.5", "Armor x 0.5"],
-    ["Assassin","Curio Solus","Health Points x 0.5","Damage x 1.5","Speed x 1.5","Stealth (Can avoid being detected with ease)"],
-    ["Artillery","Curio Solus","Armor x 0.5","Ranged Attacks (from unseen or unexpected directions)"],
-    ["Minion", "David Schirduan","Health Points = 1","Damage x 0.5","Numerous (Swarms, hordes, overwhelming numbers)"],
-    ["Controller","Curio Solus","Debuffs enemies (Lowers their stats, speed, damage, etc.)"],
-    ["Support","Curio Solus","Buffs and heals allies (Raises their stats, HP, damage, etc.)"],
-    ["Defender", "Curio Solus", "Armor x 1.5", "Damage x 0.5"],
-    ["Solo", "Curio Solus", "Health Points x 4", "Damage x 2"],
-    ["Unremarkable", "David Schirduan", "Unremarkable (No change to default stats)"]
+    ["Brute", "HP x 1.5<br>DMG x 1.5<br>Armor x 0.5"],
+    ["Assassin", "HP x 0.5<br>DMG x 1.5<br>Speed x 1.5<br>Stealth"],
+    ["Artillery", "Armor x 0.5<br>Ranged"],
+    ["Minion", "HP = 1<br>DMG x 0.5<br>Numerous"],
+    ["Controller","Debuffs enemies (Lowers their stats, speed, damage, etc.)"],
+    ["Support","Buffs allies (Raises their stats, HP, damage, etc.)"],
+    ["Defender", "Armor x 1.5<br>Damage x 0.5"],
+    ["Solo", "HP x 4<br>Damage x 2"]
   ],
   "Types":[
-    ["Undead (corporeal)","Curio Solus","Resistant: Necrotic and Cold damage","Immune: Poison, Disease, Fear, Charm, Hunger","Vulnerable: Holy damage and effects"],
-    ["Undead (incorporeal)","Curio Solus","Resistant: Necrotic and Cold damage","Immune: Non-magical/silver physical damage, Poison, Disease, Fear, Charm, Hunger","Vulnerable: Silver, Holy damage and effects"],
-    ["Beast","Curio Solus"],
-    ["Beast (aerial)","Curio Solus","Has flying speed"],
-    ["Beast (aquatic)","Curio Solus","Has swimming speed. Can breathe underwater"],
-    ["Elemental","Curio Solus","Immune: Own element, Hunger","Vulnerable: Opposed element"],
-    ["Plant","Curio Solus","Immune: Mind-altering effects","Vulnerable: Cold and/or Fire damage"],
-    ["Ooze", "Curio Solus", "Resistant: Piercing and/or Bludgeoning damage", "Immune: Acid damage, Mind-altering effects", "Vulnerable: Fire"],
-    ["Celestial", "Curio Solus", "Resistant: Holy damage", "Immune: Poison, Disease", "Vulnerable: Necrotic damage, Prayer"]
+    ["Undead (corporeal)", "Resistant: Necrotic and/or Cold<br>Immune: Poison, Disease, Fear, Charm, Hunger<br>Vulnerable: Holy damage and effects"],
+    ["Undead (incorporeal)", "Resistant: Necrotic and Cold damage<br>Immune: Non-magical/silver physical damage, Poison, Disease, Fear, Charm, Hunger<br>Vulnerable: Silver, Holy damage and effects"],
+    ["Beast","Low intelligence.<br>May have flying speed.<br>May have swimming speed and breathe underwater."],
+    ["Elemental","Immune: Own element, Poison, Disease, Hunger<br>Vulnerable: Opposed element"],
+    ["Plant","Immune: Mind-altering effects","Vulnerable: Cold and/or Fire damage"],
+    ["Ooze", "Speed x 0.5<br>Resistant: Piercing and/or Bludgeoning damage<br>Immune: Acid damage, Mind-altering effects<br>Vulnerable: Fire"],
+    ["Celestial", "Resistant: Holy damage<br>Immune: Poison, Disease<br>Vulnerable: Necrotic damage, Prayer"],
+    ["Construct (mechanical)", "Resistant: Non-adamantine physical damage<br>Immune: Mind-altering effects, Poison, Disease, Hunger<br>Vulnerable: Lightning, Water"],
+    ["Construct (mineral)", "Resistant: Non-adamantine physical damage<br>Immune: Mind-altering effects, Poison, Disease, Hunger<br>Vulnerable: Thunder damage"],
+    ["Construct (organic)", "Resistant: Piercing, Lightning<br>Immune: Mind - altering effects, Poison, Disease, Hunger<br>Vulnerable: Fire"],
+    ["Aberration", "Resistant: Any one type of damage, Mind-altering effects<br>Immune:  Psychic damage<br>Vulnerable: Any one type of damage"],
+    ["Fey", "Resistant: Charms<br>Vulnerable: Cold iron"],
+    ["Humanoid", ""]
   ],
   "Traits":[
-    ["Immediate Attack","David Schirduan","Once per round, no matter whose turn it is the creature can make an unexpected attack."], 
-    ["Unblockable Strike", "David Schirduan", "Make an attack at half-damage that cannot be blocked or avoided."],
-    ["Teleport Swap", "David Schirduan", "At any time, even in the middle of another players turn the creature may swap places with any target it can see."]
+    ["Immediate Attack", "No matter whose turn it is the creature can make an attack whenever it wants to.Bump up the threat by giving the creature several immediate attacks each round.For even more threat, allow it to interrupt player actions with attacks of its own.", "David Schirduan"],
+    ["Unblockable Strike", "Either telegraph the strong nature of the attack, or reduce the damage of the unblockable strike. Make it clear that there's nothing players can do to avoid this. Explosion of energy, lightning fast strike, laser beams, etc. It's not a matter of dodging, but of withstanding.", "David Schirduan"],
+    ["Teleport Swap", "At any time, even in the middle of another's turn the creature may swap places with any target it can see. Give this ability a cooldown of some kind so players can catch up to and adapt after the switch. Works particularly well with an already hectic encounter.", "David Schirduan"],
+    ["Knowledge Grab", "The monster touches a target and steals all of their memories from the past day. The target is left dazed and confused in the middle of a hectic battle while the monster now knows about party weaknesses, inventory, and recent history. This it your chance, as the GM, to let the monster fight dirty. It attacks the character carrying health potions, or steals a magic wand from the mage.", "David Schirduan"]
   ],
   "Flaws":[
-    ["Time of day", "David Schirduan", "Only vulnerable at certain times of the day. Evident by the shimmering energy that dissipates when vulnerable."],
-    ["Pure Element", "David Schirduan", "Fire, Water, Acid, etc. The applied element must be as pure as possible (mud doesn' work, etc)"],
-    ["Mixed Element", "David Schirduan", "Mud, Smoke, Ice. Something that is altered or slightly off."]
+    ["Time of day", "1-2 hour period of vulnerability. Evident by the shimmering energy that dissipates when vulnerable.", "David Schirduan"],
+    ["Sight Dependent", "The monster will not go where it cannot see. If light sources go out, or clouds of smoke obscure vision the monster will retreat to where it can see.", "David Schirduan"],
+    ["Smell Dependent", "The monster is blind but has an excellent sense of smell. The monster will not go where it cannot smell. If strong fumes are spread, or the nose damaged it will retreat.", "David Schirduan"],
+    ["Motion Blindness", "As long as a character is moving at top speed the creature cannot see it. Communicate this by having it attack where characters used to be, or attack the only stationary character (mage, archer, etc)", "David Schirduan"]
   ]
-
 }
