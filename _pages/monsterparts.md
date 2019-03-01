@@ -23,7 +23,6 @@ This generator aims to help Game Masters comes up with mechanically engaging OSR
 		  <p class="tightSpacing" id="typeDesc"></p>
       <h3 class="tightSpacing" id="traitName">Trait</h3> 
       <p id="traitDesc">This part described how the Role works and what it does</p>
-      <p class="tightSpacing" style="text-align: right;"><small id="traitCont"></small></p>
       <h3 class="tightSpacing">Flaw</h3> 
       <p id="flawDesc">This part described how the Role works and what it does</p>
       <p class="tightSpacing" style="text-align: right;"><small id="flawCont"></small></p>
@@ -74,11 +73,11 @@ function monster() {
   document.getElementById("typeDesc").innerHTML = type[1];
   
   document.getElementById("traitName").innerHTML = trait[0];
-  document.getElementById("traitDesc").innerHTML = trait[1];
-  document.getElementById("traitCont").innerHTML = " - Contributed by " + trait[2];
+  document.getElementById("traitDesc").innerHTML = trait[1] + 
+  "<small><br> - Contributed by " + trait[2] + "</small>";
 
-  document.getElementById("flawDesc").innerHTML = flaw[0] + ": " + flaw[1];
-  document.getElementById("flawCont").innerHTML = " - Contributed by " + flaw[2];
+  document.getElementById("flawDesc").innerHTML = flaw[0] + ": " + flaw[1] + 
+  "<small><br> - Contributed by " + flaw[2] + "</small>";
 
 }
 

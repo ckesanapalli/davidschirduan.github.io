@@ -25,15 +25,42 @@
     ["Humanoid", ""]
   ],
   "Traits":[
-    ["Immediate Attack", "No matter whose turn it is the creature can make an attack whenever it wants to.Bump up the threat by giving the creature several immediate attacks each round.For even more threat, allow it to interrupt player actions with attacks of its own.", "David Schirduan"],
+    ["Immediate Attack", "No matter whose turn it is the creature can make an attack whenever it wants to. Bump up the threat by giving the creature several immediate attacks each round. For even more threat, allow it to interrupt player actions with attacks of its own.", "David Schirduan"],
     ["Unblockable Strike", "Either telegraph the strong nature of the attack, or reduce the damage of the unblockable strike. Make it clear that there's nothing players can do to avoid this. Explosion of energy, lightning fast strike, laser beams, etc. It's not a matter of dodging, but of withstanding.", "David Schirduan"],
-    ["Teleport Swap", "At any time, even in the middle of another's turn the creature may swap places with any target it can see. Give this ability a cooldown of some kind so players can catch up to and adapt after the switch. Works particularly well with an already hectic encounter.", "David Schirduan"],
-    ["Knowledge Grab", "The monster touches a target and steals all of their memories from the past day. The target is left dazed and confused in the middle of a hectic battle while the monster now knows about party weaknesses, inventory, and recent history. This it your chance, as the GM, to let the monster fight dirty. It attacks the character carrying health potions, or steals a magic wand from the mage.", "David Schirduan"]
+    ["Teleport Swap", "At any time, even in the middle of another players turn the creature may swap places with any target it can see. Give this ability a cooldown of some kind so players can catch up to and adapt after the switch. Works particularly well with an already hectic encounter.", "David Schirduan"],
+    ["Knowledge Grab", "The monster touches a target and steals all of their memories from the past day. The target is left dazed and confused in the middle of a hectic battle while the monster now knows about party weaknesses, inventory, and recent history. This it your chance, as the GM, to let the monster fight dirty. It attacks the character carrying health potions, or steals a magic wand from the mage. ", "David Schirduan"],
+    ["Anti-magic Field", "All spells dissipate and fail within 20' of the monster. A large gem/crystal is what produces this field.", "David Schirduan"],
+    ["Poison Barbs", "Attacks with a poisonous barb-covered limb OR can fire a volley of poisonous barbs. If the limb is severed the leaking poisons affect the monster causing significant damage over time", "David Schirduan"],
+    ["Phase Touch", "The touched target becomes incorporeal for the next 10 minutes. A great way to temporarily disable a character. To make things even more potent, the monster becomes incorporeal as well and only the two can affect one another.", "David Schirduan"],
+    ["Form Barrier", "Forms a thick barrier from the objects/materials around it. Opponents must penetrate this barrier while it recovers health/powers up/tunnels away.", "David Schirduan"],
+    ["Mirror Clones", "Create d6 identical clones that spread out and confuse the opponents. Clones look completely real, but are incorporeal. To make it even more dangerous, the weapons that the clones attack and defend with are real.", "David Schirduan"],
+    ["Future Sight", "The monster may always take two different actions (rolls and all), and then decide which one actually happened. The PCs remember both actions, even though only one actually happened.", "David Schirduan"],
+    ["Invulnerabilty Phase", "For a short time becomes completely invunlnerable. Could be because it's blocking every attack, or has a magical shield, or hardened skin. Be sure to add a telegraph and a pattern for the character to adapt.", "Lauren Schirduan"],
+    ["Dying Howl", "When this creature dies it lets out a terrifying howl that draws hostile attention from all around. If you must, generate NEW monsters that can respond to this call.", "Lauren Schirduan"],
+    ["Mesmorize", "Instead of taking an action, the monster can control an opponent.", "Lauren Schirduan"],
+    ["Divide and Conquer", "When reduced to half or less health it splits into two smaller creatures, each with the current HP of the original, and half the damage.", "Lauren Schirduan"],
+    ["Molting", "When reduced to half or less health it covers itself in thick armor and begins to molt it's outer layer. When it emerges it has full health but much lower armor.", "Lauren Schirduan"],
+    ["Adaptive Armor", "The more it is attacked, the stronger it's armor becomes. This could be because it's weakening the characters, growing stronger itself, or dulling their weapons. Increasing the armor by 1 for every time it is hit is a safe escalation.", "Lauren Schirduan"],
+    ["Burrower", "Can tunnel beneath the ground and create shockwaves, attack unexpectedly, flee the area, etc. After it performs an attack, be sure to give it a period of vulnerability so the characters can counter-attack.", "Lauren Schirduan"],
+    ["Toxic", "Releases gasses of poisonous clouds, fires clumps of spores, or simply attacks with poisoned limbs. Make the dangerous zone clear to the characters.", "Lauren Schirduan"],
+    ["Quantum Movement", "This creature doesn't move from place to place, it simply exists somewhere else. It has increased armor, can attack with shocking speed, and is only vulnerable after it's recently moved.", "Lauren Schirduan"]
   ],
   "Flaws":[
     ["Time of day", "1-2 hour period of vulnerability. Evident by the shimmering energy that dissipates when vulnerable.", "David Schirduan"],
     ["Sight Dependent", "The monster will not go where it cannot see. If light sources go out, or clouds of smoke obscure vision the monster will retreat to where it can see.", "David Schirduan"],
     ["Smell Dependent", "The monster is blind but has an excellent sense of smell. The monster will not go where it cannot smell. If strong fumes are spread, or the nose damaged it will retreat.", "David Schirduan"],
-    ["Motion Blindness", "As long as a character is moving at top speed the creature cannot see it. Communicate this by having it attack where characters used to be, or attack the only stationary character (mage, archer, etc)", "David Schirduan"]
+    ["Motion Blindness", "As long as a character is moving at top speed the creature cannot see it. Communicate this by having it attack where characters used to be, or attack the only stationary character (mage, archer, etc)", "David Schirduan"],
+    ["Silent", "Cannot cry for help, cannot cast spells, makes no sound whatsoever. Could be a useful flaw for a stealthy monster.", "David Schirduan"],
+    ["Amplified", "The creature can be heard from a long way off, even through thick walls. With a little effort a character can identify it's actions just by listening (walking, eating, sleeping, etc). Turn this Flaw into a Trait by making the noise so loud that it's paralyzing up close. ", "David Schirduan"],
+    ["Dangerous", "Attacks affect everything nearby with no regard for friend or foe. Be sure to sprinkle some weak allies to drive home this flaw.", "David Schirduan"],
+    ["Obedient", "This monster is utterly obedient to someone else. If that person can be found and killed, the monster will follow whoever killed their former becomes their new one.", "David Schirduan"],
+    ["Lumbering", "Moves very slowly, but each large movement is an attack in and of itself. Every step is a shockwave, a slow jog can topple buildings.", "Lauren Schirduan"],
+    ["Colorblind", "The monster cannot see a particular color, or anything wearing that color. Drop hints to the group by having something of that color in the area that the monster runs into.", "David Schirduan"],
+    ["Sticky Trail", "The monster can't backtrack or return to a spot it's already stood. To turn this into a trait, say that the Sticky Trail adversely affects PCs. To make this an even weaker flaw: the trail is flammable.", "Lauren Schirduan"],
+    ["Frail Appendages", "Many of the parts can be easily cut off (arms, legs, wings, etc).", "Lauren Schirduan"],
+    ["Invisible Escape", "When reduced to half health this creatures becomes invisible and flees the room. Leaves an obvious trail despite the cloak, and while invisible it can't see anything.", "Lauren Schirduan"],
+    ["Passive", "As long as it isn't harmed, it will act passively and allow itself to be moved, captured, etc.", "Lauren Schirduan"],
+    ["Easily Distracted", "If something shiny, valuable, tasty, or unique is thrown in a direction, the creature will forget what it was doing and pursue the object.", "Lauren Schirduan"],
+    ["Dying", "This monster will die after a few rounds of combat, even if the characters don't deal any damage to it. Give them some clues and some idea of how long they need to maintain combat.", "David Schirduan"]
   ]
 }
