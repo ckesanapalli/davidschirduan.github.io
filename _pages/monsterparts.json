@@ -26,7 +26,7 @@
     ["Unblockable Strike", "David Schirduan", "Make an attack at half-damage that cannot be blocked or avoided."],
     ["Teleport Swap", "David Schirduan", "At any time, even in the middle of another players turn the creature may swap places with any target it can see."]
   ],
-  "Weaknesses":[
+  "Flaws":[
     ["Time of day", "David Schirduan", "Only vulnerable at certain times of the day. Evident by the shimmering energy that dissipates when vulnerable."],
     ["Pure Element", "David Schirduan", "Fire, Water, Acid, etc. The applied element must be as pure as possible (mud doesn' work, etc)"],
     ["Mixed Element", "David Schirduan", "Mud, Smoke, Ice. Something that is altered or slightly off."]

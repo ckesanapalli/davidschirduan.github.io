@@ -25,7 +25,7 @@ Tempered Legacy is a rogue-lite tabletop RPG framework where you are a Weapon wi
 		<div class="col-md-5 col-12 tightSpacing p" id="weaponTemperament" style="border:darkgray dashed;">Run to the end of the world and defeat the legion-demon Yog Soggoth who not only killed your family but all past family as well. Also you will need to return to the place of darkness and secure the shadow heart for your divine blade.</div>
   </div>
   <div class="row" style="justify-content: space-around !important;">
-    <div class="col-md-5 col-12 tightSpacing p" id="weaponHistory" style="border:darkgray dashed;">Fireball</div>
+    <div class="col-md-9 col-12 tightSpacing p" id="weaponHistory" style="border:darkgray dashed;">Fireball</div>
   </div>
   <div class="row" style="justify-content: space-around !important;">
     <div class="col-md-5 col-12 tightSpacing p" style="border:darkgray dashed;">Empty slot. Room for a History, Temperament, or Spell from a future Wielder.</div>
