@@ -79,6 +79,7 @@ Tempered Legacy is a rogue-lite tabletop RPG framework where you are a Weapon wi
  - [Ben Milton](https://www.youtube.com/channel/UCvYwePdbWSEwUa-Pk02u3Zw) for making Knave, Maze Rats, incredible Youtube reviews, and a bunch of cool stuff. we stole SO many ideas from Ben. Chances are if you like an idea, we stole it from him.
  - [Christopher P. Wolf](http://chrispwolf.com/) for the code that inspired these generators.
  - [Joseph Manola](https://udan-adan.blogspot.com/2018/02/when-all-you-have-is-hammer-item-based.html) for a bunch of the strangely useful random items that Knaves can start with.
+ - [Arnold Kemp](http://goblinpunch.blogspot.com/2015/01/d100-minor-magical-items.html) for even more useful magical items to start with.
  - [Freehold games](http://www.cavesofqud.com/) for making the rogue-like David keep coming back to again and again.
  - And to the [OSR community](https://discord.gg/kJjMvC) for being such an encouraging, welcoming place.
 
@@ -314,7 +315,6 @@ function wielder() {
   /* ======= Junk ======= */
   var junkNum = Math.floor(Math.random() * 4);
   var junkText = "";
-
   for (i = 0 ; i < junkNum; i++) {
     junkText = junkText + "<li>" + selectRandom(tempered.wielder.Junk) + "</li>";
   }
