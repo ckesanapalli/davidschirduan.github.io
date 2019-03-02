@@ -66,9 +66,9 @@ Tempered Legacy is a rogue-lite tabletop RPG framework where you are a Weapon wi
     </div>
     <div class="col-xl-6 col-12">
       <h2 id="charSlots" class="tightSpacing"></h2>
-      <p>
-        You can choose from <strong>any or all</strong> of the items below to fill your inventory slots. Unless otherwise noted, each item takes up one slot. 
-      </p>
+      <p><small>
+        You can choose from <strong>any or all</strong> of the items below to fill your inventory slots. Unless otherwise noted, each item takes up one slot. <i>The GM reserves the right to reject anything from the list below.</i>
+      </small></p>
       <p id="charItems"></p>
     </div>
   </div>
@@ -315,7 +315,7 @@ function wielder() {
   }
 
   /* ======= Junk ======= */
-  var junkNum = Math.floor(Math.random() * 3);
+  var junkNum = Math.floor(Math.random() * 3) + 1;
   var junkText = "";
   for (i = 0 ; i < junkNum; i++) {
     junkText = junkText + "<li>" + selectRandom(tempered.wielder.Junk) + "</li>";
@@ -331,13 +331,12 @@ function wielder() {
     "<li>" + selectRandom(tempered.wielder.Weapons) + "</li>" + 
     extraArmor + 
     spellbook +
-    "<li>" + startGold + " coins (100 coins per slot)</li>" + 
+    /*"<li>" + startGold + " coins (100 coins per slot)</li>" + */
     "<li>2 days of rations</li>" +
     "<li>" + selectRandom(tempered.wielder.coreItems) + "</li>" + 
     "<li>" + selectRandom(tempered.wielder.coreItems) + "</li>" + 
     "<li>" + selectRandom(tempered.wielder.coreItems) + "</li>" +
-    junkText + 
-    "<li>A quiver of 20 arrows/bolts (1 slot)</li>";
+    junkText;
 }
 
 </script>
