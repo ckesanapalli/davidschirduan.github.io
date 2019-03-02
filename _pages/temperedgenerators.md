@@ -31,6 +31,7 @@ Tempered Legacy is a rogue-lite tabletop RPG framework where you are a Weapon wi
     <div class="col-md-5 col-12 tightSpacing p" style="border:darkgray dashed;">Empty slot. Room for a History, Temperament, or Spell from a future Wielder.</div>
     <div class="col-md-5 col-12 tightSpacing p" style="border:darkgray dashed;">Empty slot. Room for a History, Temperament, or Spell from a future Wielder.</div>
   </div>
+  <h3 style="text-align: center;">TAKE A SCREENSHOT SO YOU DON'T LOSE YOUR CHARACTER</h3>
 </div>
 
 <div class="container generatorCard" id="wielderCard" style="display:none;">
@@ -71,6 +72,7 @@ Tempered Legacy is a rogue-lite tabletop RPG framework where you are a Weapon wi
       <p id="charItems"></p>
     </div>
   </div>
+  <h3 style="text-align: center;">TAKE A SCREENSHOT SO YOU DON'T LOSE YOUR CHARACTER</h3>
 </div>
 
 **Thanks to:**
