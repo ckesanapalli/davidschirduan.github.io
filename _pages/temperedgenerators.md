@@ -315,7 +315,7 @@ function wielder() {
   }
 
   /* ======= Junk ======= */
-  var junkNum = Math.floor(Math.random() * 4);
+  var junkNum = Math.floor(Math.random() * 3);
   var junkText = "";
   for (i = 0 ; i < junkNum; i++) {
     junkText = junkText + "<li>" + selectRandom(tempered.wielder.Junk) + "</li>";
