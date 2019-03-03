@@ -315,7 +315,7 @@ function wielder() {
   }
 
   /* ======= Junk ======= */
-  var junkNum = Math.floor(Math.random() * 3) + 1;
+  var junkNum = Math.floor(Math.random() * 4);
   var junkText = "";
   for (i = 0 ; i < junkNum; i++) {
     junkText = junkText + "<li>" + selectRandom(tempered.wielder.Junk) + "</li>";
@@ -331,11 +331,12 @@ function wielder() {
     "<li>" + selectRandom(tempered.wielder.Weapons) + "</li>" + 
     extraArmor + 
     spellbook +
-    /*"<li>" + startGold + " coins (100 coins per slot)</li>" + */
+    "<li>" + startGold + " coins (100 coins per slot)</li>" + 
     "<li>2 days of rations</li>" +
     "<li>" + selectRandom(tempered.wielder.coreItems) + "</li>" + 
     "<li>" + selectRandom(tempered.wielder.coreItems) + "</li>" + 
     "<li>" + selectRandom(tempered.wielder.coreItems) + "</li>" +
+    "<li>A quiver of 20 arrows (1 slot)</li>" + 
     junkText;
 }
 
