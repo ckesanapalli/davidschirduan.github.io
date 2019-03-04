@@ -4,29 +4,107 @@ title: Adventure Reviews
 permalink: david/extremely-interesting-adventures
 published: true
 description: >
-  RPG Adventure reviews by David Schirduan.
+  Adventure reviews by David Schirduan.
 ---
 I want to take a break from designing games and try my hand at writing some adventures. To that end I've been playing as many adventures as I can get my hands on! 
 
 What follows are my thoughts on some of those adventures. Not all of these adventures are good. But they are all interesting in some way or another. Enjoy!
 
-Oh! And unlike my [Game Reviews]({{site.url}}/david/extremely-interesting-role-playing-games), I've played or run all of these adventures.
+Oh! And unlike my [Game Reviews]({{site.url}}/david/extremely-interesting-role-playing-games), I've played through all of these adventures.
 
 ## Table of Contents
 {:.no_toc}
-* this unordered seed list will be replaced by toc as unordered list
+1. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 <hr>
 
+## The Sunken Fort
+
+![sunkenfort.png]({{site.url}}/images/posts/sunkenfort.png){: .leftSmallImg}
+
+[**PDF: $5**](https://www.drivethrurpg.com/product/248347/The-Sunken-Fort?affiliate_id=1892600)
+
+Created by Nickolas Zachary Brown
+
+This 80 room dungeon starts off with a promis to the GM:
+
+> Preparation: None required!
+
+And I was shocked to find it was true. 
+
+This thing really is a breeze to run. The rooms are well-explained and straightforward. Here's an example room: 
+
+> 09: Two heavily armored figures spar in a small pit of sand with sword and shield. There are weapon racks around the room, with old decrepit weapons.
+
+> **Armored Figures** – (These are armored oozes who are focused on their spar, but will immediately attack the party as soon as they notice them being too loud or obnoxious.)
+
+> **Weapon Racks** – (Primarily hooks drilled into wall bricks. One such hook is attached to a loose brick, which if pulled out will reveal a piece of jewelry worth 500gp.)
+
+> **ARMORED OOZE x 2** – *Wield sword & shield*
+<br/>HD2+2 AC19 SPD9
+<br/>*Upon Death: The black ooze will seep out of the
+armor, dead.
+
+It's so clean and clear. Filled with cleverly hidden treasure, ingenious traps, and probably too much oil, the Sunken Fort is a joy to play through.
+
+But it's an even bigger joy to GM. I put it up there with [Hot Springs island]({{site.url}}/david/2017/10/HotSpringsIsland) in ease of use. And that is high praise indeed!
+
+
+## The Mysterious Menagerie of Doctor Orville Boros
+
+![doctorboros.png]({{site.url}}/images/posts/doctorboros.png){: .leftSmallImg}
+
+[**PDF: Free**](https://coinsandscrolls.blogspot.com/2018/07/osr-mysterious-menagerie-of-doctor.html)
+
+Created by [Skerples](https://coinsandscrolls.blogspot.com/)
+
+This is wildly creative, outrageously fun, and 100% free. Buy it now.
+
+Try to imagine Jurrasic Park as run by Willy Wonka with the humor of Douglas Adams.
+
+The adventure begins with the PCs being invited to explore a theme park created by a an unstable genius. To quote my favorite part:
+
+> The Menagerie was not designed to handle typical human behavior. If the PCs kill, mind control, intimidate, or otherwise neutralize all rivals AND keep their hands to themselves AND listen politely to the Doctor's tour then nothing goes wrong.
+
+> Almost everything in the Menagerie is unsafe, precariously balanced, or fragile. In summary, if the PCs do anything they typically do when exploring a new area, or merely interact with the exhibits, Things Go Awry.
+
+The adventure also includes SONGS that the GM sings at different parts of the adventure. If nothing else you should download this to read the "Fossils Song". It's a hoot.
+
+This adventure is just everything I want from a fun-house dungeon adventure. My only complaint is that it's a little too long for a one-shot. 
+
+## Stygian Garden of Abelia Prymm
+
+![abeliaprem.png]({{site.url}}/images/posts/abeliaprem.png){: .leftSmallImg}
+
+[**PDF: $5**](https://www.drivethrurpg.com/product/152829/The-Stygian-Garden-of-Abelia-Prem) / [**Print: $10**](https://www.drivethrurpg.com/product/152829/The-Stygian-Garden-of-Abelia-Prem)
+
+Created by [Red Moon Medicine Show](http://redmoonmedicineshow.com/)
+
+I played this one way before I heard about Gardens of Ynn, and I was excited to try something creepy and garden-y. 
+
+This adventure delivered a little more than that, at a slower pace than I expected.
+
+The adventure is spread over a few locations:
+
+ - A multi-level manor overrun with spiders, goats, and statues; some of which come to life and some of which don't. Your players will probably destroy them all just to be sure.
+ - A garden path with a dozen or so locations.
+ - A few smaller buildings and underground areas.
+
+While there are a lot of interesting locations, things are fairly spread out. This is not an action-packed romp but a careful excavation of an abandoned property. 
+
+The maps are beautiful, and the players also get a version of the map without all the secrets and details, which is really cool!
+
+I love all the neat plants as well. Instructions on what they do, how to cultivate them, etc. 
+
+Really fun adventure if you want a break from your garden variety dungeon crawl.
+
 ## Gardens of Ynn
 
-![Stargazer.png]({{site.url}}/images/ynngenerator.png){: .leftSmallImg}
+![ynngenerator.png]({{site.url}}/images/ynngenerator.png){: .leftSmallImg}
 
 [**PDF: $3**](https://www.drivethrurpg.com/product/237544/The-Gardens-Of-Ynn) / [**Print: $18**](https://www.drivethrurpg.com/product/237544/The-Gardens-Of-Ynn)
 
 Written by Emmy ["Cavegirl"](http://cavegirlgames.blogspot.com/) Allen
-
-Designed for OSR games.
 
 The Gardens of Ynn is a point-crawl adventure set in an ever-shifting extradimensional garden. Each expodition generates its route as it explores, resulting in new vistas being unlocked with every visit. 
 
@@ -41,6 +119,20 @@ This book is a master-class on evocative details that impact the game. This is s
 Brilliant. If you want evocative, fresh writing and bizarre, interesting gardens then you MUST grab a copy of Ynn. Especially for $3. This is so good and so cheap that it should be a CRIME!
 
 After you've bough a copy you can use my [Ynn Generator](/ynngenerator) to help you come up with locations quickly.
+
+## The Stygian Library
+
+![stygiangenerator.png]({{site.url}}/images/stygiangenerator.png){: .leftSmallImg}
+
+[**PDF: $4**](https://www.drivethrurpg.com/product/257113/The-Stygian-Library)
+
+Written by Emmy ["Cavegirl"](http://cavegirlgames.blogspot.com/) Allen
+
+Remember the Gardens of Ynn? Just above this one? It's like that, but LIBRARIES!
+
+What more do you need to know? Why haven't you bought this already?
+
+After you've bough a copy you can use my [Stygian Generator](/stygiangenerator) to help you come up with locations quickly.
 
 ## Tower of the Stargazer
 

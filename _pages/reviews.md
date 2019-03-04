@@ -8,15 +8,15 @@ redirect_from:
 description: >
   Tabletop RPG Reviews by David Schirduan.
 ---
-I read WAY more tabletop RPGs than I’ll ever get to play. This review list exists to justify the time and money I’m spending on these things.
+I read WAY more tabletop RPGs than I’ll ever get to play. This review list exists to justify the time and money I’m spending on these things. _I have NOT played all of these...but I did read them front start to finish._
 
 Rather than giving a review or recommendation, I’m going to list games that I find interesting. I’m not saying that all of these games are good, or whether you should buy them. But I can promise you that each game has value and does something well.
 
-I also review a bunch of [Interesting Adventures]({{site.url}}/david/extremely-interesting-adventures).
+<h3>I also <a href="/david/extremely-interesting-adventures">review Adventures</a>.</h3>
 
 ## Table of Contents
 {:.no_toc}
-* this unordered seed list will be replaced by toc as unordered list
+1. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 <hr>
 
