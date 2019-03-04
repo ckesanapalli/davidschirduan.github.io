@@ -245,18 +245,18 @@ function wielder() {
   var spellbook = "";
   var random = Math.random();
 
-  /*30% chance to start with a spellbook*/
+  /*40% chance to start with a spellbook*/
   switch (true) {
-    case (random < 0.15):
+    case (random < 0.25):
       spellbook = "<li>Spellbook - " + selectRandom(tempered.wielder.Spells) + "</li>";
       break;
-    case (random < 0.2):
+    case (random < 0.30):
       spellbook = "<li>Spellbook - " + selectRandom(tempered.wielder.spellEffects) + " " + selectRandom(tempered.wielder.spellForms) + " <i>(work with your GM to determine the details of this spell before you start playing)</i></li>";
       break;
-    case (random < 0.25):
+    case (random < 0.35):
       spellbook = "<li>Spellbook - " + selectRandom(tempered.wielder.spellElements) + " " + selectRandom(tempered.wielder.spellForms) + " <i>(work with your GM to determine the details of this spell before you start playing)</i></li>";
       break;
-    case (random < 0.3):
+    case (random < 0.40):
       spellbook = "<li>Spellbook - " + selectRandom(tempered.wielder.spellEffects) + " " + selectRandom(tempered.wielder.spellElements) + " <i>(work with your GM to determine the details of this spell before you start playing)</i></li>";
   }
 
