@@ -10,7 +10,7 @@ comments: true
 ---
 ![monsterparts.jpg]({{sire.url}}/images/monsterparts.jpg)
 
-This generator aims to help Game Masters comes up with unique creatures. Use these results as a starting skeleton and flesh them out with your own descriptions and lore. Put your completed monsters in the comments so we can all enjoy them!
+This generator aims to help Game Masters come up with unique creatures. Use these results as a starting skeleton and flesh them out with your own descriptions and lore. Put your completed monsters in the comments so we can all enjoy them!
 
 <button id="monsterButton" class="btn btn-primary btn-lg" onclick="monster()">Generate Monster</button>
 
