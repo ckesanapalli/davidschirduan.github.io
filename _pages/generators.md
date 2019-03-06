@@ -35,7 +35,7 @@ The Game Master can take random results and combine them with their own ideas to
       <h3 class="project-card-title">
         <a href="/monsterparts" class="flip-title">Monster Parts Generator</a>
       </h3>
-      <legend class="project-card-text fine faded">Generates mechanically engaging OSR monster encounters.</legend>
+      <legend class="project-card-text fine faded">Generate unique creatures.</legend>
     </article>
   </div>
   <div class="column column-1-2">
