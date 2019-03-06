@@ -25,11 +25,10 @@ This generator aims to help Game Masters comes up with unique creatures. Use the
     </div>
 	</div>
 </div>
-
+<p><small>You can contribute to the generator by <a href="https://docs.google.com/spreadsheets/d/1W7Yw_iVHe792CmeQgMg356SoxW8LCC3_oXBr3FlRdjE/edit?usp=sharing">adding to this document</a> (or simply look at all the cool options).</small></p>
 <p><small>Thanks to Curio Solus for inspiring this idea and doing the bulk of the work. 
 <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the code that inspired these generators. And to the <a href="https://discord.gg/kJjMvC">OSR community</a> and <a href="https://discord.gg/hUDPZu">Knave community</a> for being such an encouraging, welcoming place. 
 <a href="https://www.flickr.com/photos/britishlibrary/11300855894/">Monster Image</a> from “Historisches Festbuch zur Basler Vereinigungsfeier, 1892”</small></p>
-<p><small>You can contribute to the generator by <a href="https://docs.google.com/spreadsheets/d/1W7Yw_iVHe792CmeQgMg356SoxW8LCC3_oXBr3FlRdjE/edit?usp=sharing">adding to this document</a> (or simply look at all the cool options).</small></p>
 
 <script>
 var xmlhttp = new XMLHttpRequest();
@@ -54,16 +53,30 @@ function monster() {
   var trait = monsterparts.Traits[Math.floor(Math.random() * monsterparts.Traits.length)];
   var flaw = monsterparts.Flaws[Math.floor(Math.random() * monsterparts.Flaws.length)];
 
-  document.getElementById("creatureTitle").innerHTML = type[0] + " " + role[0];
+  document.getElementById("creatureTitle").innerHTML = role[0] + " " + type[0];
 
   document.getElementById("roleDesc").innerHTML = role[1];
   document.getElementById("typeDesc").innerHTML = type[1];
-  
-  document.getElementById("traitDesc").innerHTML = "<strong>Trait:</strong> " + trait[0] + 
-  "<small><br> - Contributed by " + trait[1] + "</small>";
 
-  document.getElementById("flawDesc").innerHTML =  "<strong>Flaw:</strong> " + flaw[0] + 
-  "<small><br> - Contributed by " + flaw[1] + "</small>";
+  /*If contributor blank, don't show*/
+  traitCont = trait[1];
+
+  if (traitCont != ""){
+    traitCont = "<small><br> - Contributed by " + trait[1] + "</small>";
+  }
+
+  flawCont = flaw[1];
+
+  if (flawCont != ""){
+    flawCont = "<small><br> - Contributed by " + flaw[1] + "</small>";
+  }
+  
+  
+  
+  document.getElementById("traitDesc").innerHTML = "<strong>Trait:</strong> " + trait[0] + traitCont;
+  
+
+  document.getElementById("flawDesc").innerHTML =  "<strong>Flaw:</strong> " + flaw[0] + flawCont;
 
 }
 
