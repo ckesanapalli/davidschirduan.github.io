@@ -1,0 +1,62 @@
+{
+  "regionTables":{
+    "Mountainous": ["Intelligent", "Intelligent", "Intelligent", "Intelligent", "Elemental", "Elemental", "Beast", "Beast", "Beast", "Beast", "Elemental", "Elemental", "Intelligent", "Intelligent", "Intelligent", "Intelligent"]
+  },
+
+  "Beast": {
+    "Motivations": ["Sleeping", "Dying", "Mating", "Eating/Being Eaten by...", "Patrolling", "Walking", "Territorial Display", "In Combat with...", "Wounded", "Walking", "Territorial Display", "Rest/Relax/Nest", "Fleeing/Pursuit of...", "Hunting/Gathering", "Altered State", "Defecating"],
+    "Mountainous": ["Spine ", "Dragon ", "Bone Wydarr ", "Coppermane ", "Giant Bat ", "Boltforager ", "Coppermane ", "Giant Centipede ", "Copperback Boar", "Giant Rat ", "Zip Bird ", "Blindfire Vine ", "Vyderac", "Blindfire Carpet", "Obsidian Digger", "Poison Dart Frog"]
+  },
+
+  "Elemental": {
+    "Motivations": ["Art", "Meditating", "Ritual", "Wounded", "Diplomacy", "Laboring", "Lost/Searching", "Fleeing/Pursuit of...", "In Combat with...", "Walking", "Patrolling", "Altered", "State", "Hunting/Gathering", "Mating", "Resting/Camp", "Sleeping"],
+    "Mountainous": ["Steam Imp", "Earth Imp", "Steam Imp", "Magma Imp", "Water Imp", "Fire Imp", "Ooze Imp", "Earth Imp", "Earth Elemental", "Ooze Elemental", "Fire Elemental", "Water Elemental", "Magma Elemental", "Steam Elemental", "Earth Elemental", "Steam Elemental"]
+  },
+
+  "Intelligent": {
+    "Motivations": ["Art", "Meditating", "Ritual", "Wounded", "Diplomacy", "Laboring", "Lost/Searching", "Fleeing/Pursuit of...", "In Combat with...", "Walking", "Patrolling", "Altered", "State", "Hunting/Gathering", "Mating", "Resting/Camp", "Sleeping"],
+    "Mountainous": ["Lizardmen", "Nereid", "Night Axe", "Night Axe", "Adventurer", "Adventurer", "Fuegonauts", "Fuegonauts", "Fuegonauts", "Fuegonauts", "Adventurer", "Adventurer", "Night Axe", "Night Axe", "Nereid", "Lizardmen"],
+
+    "Fuegonauts": {
+      "Obsidian Giants":      [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+      "Obsidian Bladeguard":  [2, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3],
+      "Salamander Trickster": [5, 2, 2, 0, 2, 2, 0, 1, 1, 0, 0, 1, 2, 2, 5, 6],
+      "Salamander Warrior":   [20, 8, 0, 0, 8, 0, 6, 4, 4, 0, 0, 0, 0, 0, 20, 28],
+      "Combustarino":         [0, 0, 2, 6, 2, 3, 0, 0, 0, 2, 4, 2, 3, 2, 0, 0]
+    },
+
+    "Night Axe": {
+      "Warrior":    [10, 4, 6, 5, 0, 4, 2, 2, 2, 1, 1, 4, 0, 9, 7, 7],
+      "Edgesworn":  [4, 9, 4, 2, 3, 0, 2, 0, 0, 2, 4, 2, 0, 5, 6, 2],
+      "Bonebinder": [1, 3, 7, 4, 3, 1, 0, 1, 0, 0, 0, 1, 2, 4, 5, 5]
+    },
+    "Lizardmen": {
+      "Goa":          [2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0],
+      "Kiru Shaman":  [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 2],
+      "Kiru Ranger":  [0, 4, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 4],
+      "Arva":         [0, 0, 0, 0, 0, 4, 1, 2, 2, 6, 0, 0, 0, 0, 0, 0]
+    },
+    "Nereid": {
+      "Nereid":           [1, 4, 3, 3, 2, 2, 1, 2, 1, 2, 2, 3, 3, 0, 0, 4],
+      "Water Imp":        [0, 0, 5, 4, 1, 0, 1, 2, 1, 0, 1, 1, 2, 3, 0, 7],
+      "Earth Imp":        [0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1],
+      "Water Elemental":  [0, 0, 3, 2, 3, 2, 0, 0, 1, 0, 0, 1, 0, 3, 5, 3]
+    },
+    "Vyderac": {
+      "Seeker":   [0, 6, 2, 0, 0, 1, 2, 1, 1, 1, 1, 2, 2, 1, 6, 9],
+      "Swarmer":  [0, 12, 0, 12, 5, 9, 0, 0, 0, 5, 11, 7, 9, 12, 24, 34],
+      "Feeder":   [0, 2, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 5],
+      "Matron":   [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+    },
+
+    "Adventurer": [
+      "Ada (p. 178)", "Alphonse (p. 179)", "Audrey (p. 178)", "Bamvo (p. 181)", "Baxter (p. 178)", "Benedict (p. 179)", "Benjamin (p. 179)", "Bokel (p. 181)", "Bryan (p. 178)", "Charlie (p. 178)", "Claire (p. 179)", "Dale (p. 180)", "Eunice (p. 178)", "Felor & Blix (p. 181)", "(p. 181)", "Golok (p. 181)", "Gretchen (p. 180)", "Horatio (p. 179)", "Horoch (p. 180)", "Ivan (p. 179)", "Jack (p. 178)", "Jelex (p. 181)", "Jenny (p. 179)", "Joni (p. 178)", "Jus (p. 180)", "Luther (p. 180)", "Marcia (p. 180)", "Neville (p. 179)", "Orrin (p. 181)", "Rocky (p. 181)", "Ruben (p. 179)", "Six (p. 180)", "Skletch (p. 181)", "Sssa (p. 180)", "Tabitha (p. 179)", "Travis (p. 179)", "Trevor (p. 178)", "Ulysses (p. 180)", "Wild Eye (p. 180)", "Zulok (p. 181)"
+    ]
+  },
+
+
+  "creatureDetails": {
+    "Blindfire Carpet": ["Maw 3’ to 10’ in diameter. Carpet of woven vines 5’ to 20’ in diameter. Blindfire carpets fight like an avalanche mixed with an octopus. The carpet rises up and simultaneously attempts to grab, constrict, smother, and consume its target. The plants can slowly regrow damaged portions and are most effectively killed by targeting the maw.", "/images/HSI/blindfirevine.png"],
+    "Magma Imp": ["<strong>What Do Magma Imps Want?<strong><br>To always be building or making something. To be a needed part of a team.To know how things work and what they’ re made of.To prove to themselves they can make anything.<br><br><strong>What Do Magma Imps Not Want?</strong>To see anything left unfinished. To see their creations senselessly broken by intelligent creatures. To be unneeded or without a project. To repeatedly fail at building, making, or creating something", "/images/HSI/magmaimp.png"]
+  }
+}
