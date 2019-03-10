@@ -1,142 +1,189 @@
 {
- "regionTables": {
-   "Mountainous": ["Intelligent","Intelligent","Intelligent","Intelligent","Elemental","Elemental","Beast","Beast","Beast","Beast","Elemental","Elemental","Intelligent","Intelligent","Intelligent","Intelligent"]
+  "regionTables": {
+    "Light": ["Intelligent", "Intelligent", "Intelligent", "Elemental", "Elemental", "Beast", "Beast", "Beast", "Beast", "Beast", "Beast", "Beast", "Elemental", "Elemental", "Intelligent", "Intelligent"],
+    "Heavy": ["Elemental", "Elemental", "Intelligent", "Intelligent", "Intelligent", "Beast", "Beast", "Beast", "Beast", "Beast", "Intelligent", "Intelligent", "Intelligent", "Elemental", "Elemental", "Elemental"],
+    "Mountainous": ["Intelligent", "Intelligent", "Intelligent", "Intelligent", "Elemental", "Elemental", "Beast", "Beast", "Beast", "Beast", "Elemental", "Elemental", "Intelligent", "Intelligent", "Intelligent", "Intelligent"],
+    "Volcano": ["Beast", "Beast", "Beast", "Intelligent", "Elemental", "Elemental", "Fuegonauts", "Fuegonauts", "Fuegonauts", "Fuegonauts", "Elemental", "Elemental", "Intelligent", "Intelligent", "Beast", "Beast"],
+    "Volcanic": ["Beast", "Beast", "Intelligent", "Intelligent", "Elemental", "Elemental", "Fuegonauts", "Fuegonauts", "Night Axe", "Night Axe", "Elemental", "Elemental", "Intelligent", "Intelligent", "Beast", "Beast"],
+    "Ruins": ["Intelligent", "Intelligent", "Intelligent", "Elemental", "Elemental", "Elemental", "Beast", "Beast", "Beast", "Beast", "Beast", "Elemental", "Elemental", "Elemental", "Intelligent", "Intelligent"],
+    "Village": ["Intelligent", "Elemental", "Beast", "Beast", "Night Axe", "Intelligent", "Night Axe", "Night Axe", "Night Axe", "Night Axe", "Intelligent", "Night Axe", "Beast", "Beast", "Elemental", "Intelligent"]
   },
 
- "Beast": {
-   "Motivations": ["Sleeping","Dying","Mating","Eating/Being Eaten by...","Patrolling","Walking","Territorial Display","In Combat with...","Wounded","Walking","Territorial Display","Rest/Relax/Nest","Fleeing/Pursuit of...","Hunting/Gathering","Altered State","Defecating"],
-   "Mountainous": ["Spine Dragon","Boneback Wydarr","Coppermane Prowler","Giant Bat","Boltforager","Coppermane Prowler","Giant Centipede","Copperback","Boar","Giant Rat","Zip Bird","Blindfire Vine","Vyderac","Blindfire Carpet","Obsidian Digger","Poison Dart Frog"]
+  "Beast": {
+    "Light": ["Crystal Frog", "Flayfiend", "Duecadre", "Muttering Serpent", "Broadback", "Singing Golem", "Tabibari", "Giant Centipede", "Boar", "Giant Rat", "Zip Bird", "Vyderac", "Blindfire Vine", "Dire Boar", "Spine Dragon", "Poison Dart Frog"],
+    "Heavy": ["Poison Dart Frog", "Obsidian Digger", "Blindfire Carpet", "Dire Boar", "Boltforager", "Vyderac", "Giant Bat", "Boar", "Giant Centipede", "Giant Rat", "Copperback", "Blindfire Vine", "Vyderac", "Giant Centipede", "Boneback Wydarr", "Spine Dragon"],
+    "Mountainous": ["Spine Dragon", "Boneback Wydarr", "Coppermane Prowler", "Giant Bat", "Boltforager", "Coppermane Prowler", "Giant Centipede", "Copperback", "Boar", "Giant Rat", "Zip Bird", "Blindfire Vine", "Vyderac", "Blindfire Carpet", "Obsidian Digger", "Poison Dart Frog"],
+    "Volcano": ["Spine Dragon", "Obsidian Digger", "Obsidian Digger", "Boneback Wydarr", "Astral Spinner", "Boneback Wydarr", "Boltforager", "Giant Rat", "Giant Centipede", "Boltforager", "Boneback Wydarr", "Boneback Wydarr", "Astral Spinner", "Obsidian Digger", "Obsidian Digger", "Spine Dragon"],
+    "Volcanic": ["Spine Dragon", "Obsidian Digger", "Obsidian Digger", "Astral Spinner", "Boneback Wydarr", "Boneback Wydarr", "Boltforager", "Giant Rat", "Giant Centipede", "Boltforager", "Boneback Wydarr", "Boneback Wydarr", "Astral Spinner", "Obsidian Digger", "Obsidian Digger", "Spine Dragon"],
+    "Ruins": ["Crystal Frog", "Flayfiend", "Duecadre", "Muttering Serpent", "Giant Rat", "Singing Golem", "Shadow", "Giant Centipede", "Zip Bird", "Orange Sludge", "Astral Spinner", "Vyderac", "Blindfire Vine", "Dire Boar", "Spine Dragon", "Poison Dart Frog"],
+    "Village": ["Crystal Frog", "Poison Dart Frog", "Obsidian Digger", "Dire Boar", "Boltforager", "Giant Centipede", "Giant Bat", "Boar", "Giant Rat", "Giant Rat", "Broadback", "Boltforager", "Copperback", "Giant Centipede", "Spine Dragon", "Astral Spinner"]
   },
 
- "Elemental": {
-   "Motivations": ["Art","Meditating","Ritual","Wounded","Diplomacy","Laboring","Lost/Searching","Fleeing/Pursuit of...","In Combat with...","Walking","Patrolling","Altered","State","Hunting/Gathering","Mating","Resting/Camp","Sleeping"],
-   "Mountainous": ["Steam Imp","Earth Imp","Steam Imp","Magma Imp","Water Imp","Fire Imp","Ooze Imp","Earth Imp","Earth Elemental","Ooze Elemental","Fire Elemental","Water Elemental","Magma Elemental","Steam Elemental","Earth Elemental","Steam Elemental"]
+  "Elemental": {
+    "Motivations": ["Art", "Meditating", "Ritual", "Wounded", "Diplomacy", "Laboring", "Lost/Searching", "Fleeing/Pursuit of...", "In Combat with...", "Walking", "Patrolling", "Altered", "State", "Hunting/Gathering", "Mating", "Resting/Camp", "Sleeping"],
+    "Light": ["Magma Imp", "Ooze Imp", "Steam Imp", "Water Imp", "Water Imp", "Earth Imp", "Earth Imp", "Fire Imp", "Fire Elemental", "Earth Elemental", "Earth Elemental", "Water Elemental", "Water Elemental", "Steam Elemental", "Ooze Elemental", "Magma Elemental"],
+    "Heavy": ["Magma Imp", "Ooze Imp", "Steam Imp", "Water Imp", "Water Imp", "Earth Imp", "Fire Imp", "Fire Imp", "Fire Elemental", "Fire Elemental", "Earth Elemental", "Water Elemental", "Water Elemental", "Steam Elemental", "Ooze Elemental", "Magma Elemental"],
+    "Mountainous": ["Steam Imp", "Earth Imp", "Steam Imp", "Magma Imp", "Water Imp", "Fire Imp", "Ooze Imp", "Earth Imp", "Earth Elemental", "Ooze Elemental", "Fire Elemental", "Water Elemental", "Magma Elemental", "Steam Elemental", "Earth Elemental", "Steam Elemental"],
+    "Volcano": ["Water Imp", "Ooze Imp", "Ooze Imp", "Steam Imp", "Earth Imp", "Fire Imp", "Magma Imp", "Magma Imp", "Magma Elemental", "Magma Elemental", "Fire Elemental", "Earth Elemental", "Steam Elemental", "Ooze Elemental", "Ooze Elemental", "Water Elemental"],
+    "Volcanic": ["Water Imp", "Ooze Imp", "Ooze Imp", "Steam Imp", "Earth Imp", "Fire Imp", "Magma Imp", "Magma Imp", "Magma Elemental", "Magma Elemental", "Fire Elemental", "Earth Elemental", "Steam Elemental", "Ooze Elemental", "Ooze Elemental", "Water Elemental"],
+    "Ruins": ["Magma Imp", "Ooze Imp", "Ooze Imp", "Steam Imp", "Fire Imp", "Earth Imp", "Earth Imp", "Water Imp", "Water Elemental", "Earth Elemental", "Earth Elemental", "Fire Elemental", "Steam Elemental", "Ooze Elemental", "Ooze Elemental", "Magma Elemental"],
+    "Village": ["Fire Imp", "Steam Imp", "Ooze Imp", "Ooze Imp", "Earth Imp", "Earth Imp", "Water Imp", "Water Imp", "Water Elemental", "Water Elemental", "Earth Elemental", "Earth Elemental", "Ooze Elemental", "Ooze Elemental", "Steam Elemental", "Fire Elemental"]
   },
 
- "Intelligent": {
-   "Motivations": ["Art","Meditating","Ritual","Wounded","Diplomacy","Laboring","Lost/Searching","Fleeing/Pursuit of...","In Combat with...","Walking","Patrolling","Altered","State","Hunting/Gathering","Mating","Resting/Camp","Sleeping"],
-   "Mountainous": ["Lizardmen","Nereid","Night Axe","Night Axe","Adventurer","Adventurer","Fuegonauts","Fuegonauts","Fuegonauts","Fuegonauts","Adventurer","Adventurer","Night Axe","Night Axe","Nereid","Lizardmen"],
+  "Intelligent": {
+    "Motivations": ["Art", "Meditating", "Ritual", "Wounded", "Diplomacy", "Laboring", "Lost/Searching", "Fleeing/Pursuit of...", "In Combat with...", "Walking", "Patrolling", "Altered", "State", "Hunting/Gathering", "Mating", "Resting/Camp", "Sleeping"],
+    "Light": ["Night Axe", "Nereid", "Lizardmen", "Lizardmen", "Adventurer", "Adventurer", "Fuegonauts", "Fuegonauts", "Fuegonauts", "Fuegonauts", "Adventurer", "Adventurer", "Lizardmen", "Lizardmen", "Lizardmen", "Nereid"],
+    "Heavy": ["Lizardmen", "Lizardmen", "Nereid", "Adventurer", "Adventurer", "Night Axe", "Night Axe", "Night Axe", "Fuegonauts", "Fuegonauts", "Fuegonauts", "Adventurer", "Adventurer", "Nereid", "Lizardmen", "Lizardmen"],
+    "Mountainous": ["Lizardmen", "Nereid", "Night Axe", "Night Axe", "Adventurer", "Adventurer", "Fuegonauts", "Fuegonauts", "Fuegonauts", "Fuegonauts", "Adventurer", "Adventurer", "Night Axe", "Night Axe", "Nereid", "Lizardmen"],
+    "Volcano": ["Lizardmen", "Nereid", "Night Axe", "Night Axe", "Adventurer", "Adventurer", "Fuegonauts", "Fuegonauts", "Fuegonauts", "Fuegonauts", "Adventurer", "Adventurer", "Night Axe", "Night Axe", "Nereid", "Lizardmen"],
+    "Volcanic": ["Lizardmen", "Adventurer", "Adventurer", "Nereid", "Night Axe", "Night Axe", "Night Axe", "Night Axe", "Fuegonauts", "Fuegonauts", "Fuegonauts", "Fuegonauts", "Nereid", "Adventurer", "Adventurer", "Lizardmen"],
+    "Ruins": ["Night Axe", "Nereid", "Fuegonauts", "Fuegonauts", "Lizardmen", "Lizardmen", "Adventurer", "Adventurer", "Adventurer", "Adventurer", "Lizardmen", "Lizardmen", "Fuegonauts", "Fuegonauts", "Nereid", "Night Axe"],
+    "Village": ["Lizardmen", "Adventurer", "Adventurer", "Fuegonauts", "Fuegonauts", "Nereid", "Night Axe", "Night Axe", "Night Axe", "Night Axe", "Nereid", "Fuegonauts", "Fuegonauts", "Adventurer", "Adventurer", "Lizardmen"],
 
-   "Fuegonauts": {
-     "Obsidian Giant": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
-     "Obsidian Bladeguard": [2, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3],
-     "Salamander Trickster": [5, 2, 2, 0, 2, 2, 0, 1, 1, 0, 0, 1, 2, 2, 5, 6],
-     "Salamander Warrior": [20, 8, 0, 0, 8, 0, 6, 4, 4, 0, 0, 0, 0, 0, 20, 28],
-     "Combustarino": [0, 0, 2, 6, 2, 3, 0, 0, 0, 2, 4, 2, 3, 2, 0, 0]
-    },
-
-   "Night Axe": {
-     "Warrior": [10, 4, 6, 5, 0, 4, 2, 2, 2, 1, 1, 4, 0, 9, 7, 7],
-     "Edgesworn": [4, 9, 4, 2, 3, 0, 2, 0, 0, 2, 4, 2, 0, 5, 6, 2],
-     "Bonebinder": [1, 3, 7, 4, 3, 1, 0, 1, 0, 0, 0, 1, 2, 4, 5, 5]
-    },
-   "Lizardmen": {
-     "Goa": [2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0],
-     "Kiru Shaman": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 2],
-     "Kiru Ranger": [0, 4, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 4],
-     "Arva": [0, 0, 0, 0, 0, 4, 1, 2, 2, 6, 0, 0, 0, 0, 0, 0]
-    },
-   "Nereid": {
-     "Nereid": [1, 4, 3, 3, 2, 2, 1, 2, 1, 2, 2, 3, 3, 0, 0, 4],
-     "Water Imp": [0, 0, 5, 4, 1, 0, 1, 2, 1, 0, 1, 1, 2, 3, 0, 7],
-     "Earth Imp": [0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1],
-     "Water Elemental": [0, 0, 3, 2, 3, 2, 0, 0, 1, 0, 0, 1, 0, 3, 5, 3]
-    },
-   "Vyderac": {
-     "Seeker": [0, 6, 2, 0, 0, 1, 2, 1, 1, 1, 1, 2, 2, 1, 6, 9],
-     "Swarmer": [0, 12, 0, 12, 5, 9, 0, 0, 0, 5, 11, 7, 9, 12, 24, 34],
-     "Feeder": [0, 2, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 5],
-     "Matron": [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+    "Fuegonauts": {
+      "Obsidian Giant": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1],
+      "Obsidian Bladeguard": [2, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3],
+      "Salamander Trickster": [5, 2, 2, 0, 2, 2, 0, 1, 1, 0, 0, 1, 2, 2, 5, 6],
+      "Salamander Warrior": [20, 8, 0, 0, 8, 0, 6, 4, 4, 0, 0, 0, 0, 0, 20, 28],
+      "Combustarino": [0, 0, 2, 6, 2, 3, 0, 0, 0, 2, 4, 2, 3, 2, 0, 0]
     },
 
-   "Adventurer": [
-     "Ada"
+    "Night Axe": {
+      "Warrior": [10, 4, 6, 5, 0, 4, 2, 2, 2, 1, 1, 4, 0, 9, 7, 7],
+      "Edgesworn": [4, 9, 4, 2, 3, 0, 2, 0, 0, 2, 4, 2, 0, 5, 6, 2],
+      "Bonebinder": [1, 3, 7, 4, 3, 1, 0, 1, 0, 0, 0, 1, 2, 4, 5, 5]
+    },
+    "Lizardmen": {
+      "Goa": [2, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0],
+      "Kiru Shaman": [0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 2],
+      "Kiru Ranger": [0, 4, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 2, 4],
+      "Arva": [0, 0, 0, 0, 0, 4, 1, 2, 2, 6, 0, 0, 0, 0, 0, 0]
+    },
+    "Nereid": {
+      "Nereid": [1, 4, 3, 3, 2, 2, 1, 2, 1, 2, 2, 3, 3, 0, 0, 4],
+      "Water Imp": [0, 0, 5, 4, 1, 0, 1, 2, 1, 0, 1, 1, 2, 3, 0, 7],
+      "Earth Imp": [0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1],
+      "Water Elemental": [0, 0, 3, 2, 3, 2, 0, 0, 1, 0, 0, 1, 0, 3, 5, 3]
+    },
+    "Vyderac": {
+      "Seeker": [0, 6, 2, 0, 0, 1, 2, 1, 1, 1, 1, 2, 2, 1, 6, 9],
+      "Swarmer": [0, 12, 0, 12, 5, 9, 0, 0, 0, 5, 11, 7, 9, 12, 24, 34],
+      "Feeder": [0, 2, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 5],
+      "Matron": [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+    },
+
+    "Adventurer": [
+      "Ada (p. 178)", "Alphonse (p. 179)", "Audrey (p. 178)", "Bamvo (p. 181)", "Baxter (p. 178)", "Benedict (p. 179)", "Benjamin (p. 179)", "Bokel (p. 181)", "Bryan (p. 178)", "Charlie (p. 178)", "Claire (p. 179)", "Dale (p. 180)", "Eunice (p. 178)", "Felor & Blix (p. 181)", "(p. 181)", "Golok (p. 181)", "Gretchen (p. 180)", "Horatio (p. 179)", "Horoch (p. 180)", "Ivan (p. 179)", "Jack (p. 178)", "Jelex (p. 181)", "Jenny (p. 179)", "Joni (p. 178)", "Jus (p. 180)", "Luther (p. 180)", "Marcia (p. 180)", "Neville (p. 179)", "Orrin (p. 181)", "Rocky (p. 181)", "Ruben (p. 179)", "Six (p. 180)", "Skletch (p. 181)", "Sssa (p. 180)", "Tabitha (p. 179)", "Travis (p. 179)", "Trevor (p. 178)", "Ulysses (p. 180)", "Wild Eye (p. 180)", "Zulok (p. 181)"
     ]
   },
 
- "creatureDetails": {
-   "Arva":"8’ tall, black-green scales with tribal swirls. Muscular. Very aggressive, use traps and dirty tricks to kill.",
-   "Astral Spinner":"Spiderlike footlong metallic creatures, big butt with red/blue sphere. shift between Planes. Defensive. Try to getvictims tangled into webs, often won’t attack directly.",
-   "Blindfire Carpet":"Feathery leaves and 20’ vines, orange peppers. Solitary. Silent. 5’ maw in center uses vines to grab and eatcreatures. Rears up. Target maw.",
-   "Blindfire Vine":"Like carpet, long vines with grabby tips, dangles ceilings.",
-   "Boar":"Brown, 5’ long 3’ tall, sleep in shallow holes, attempt to wound and flee, flame retardant",
-   "Boltforager":"Red feathers, bony yellow ridge spike, 3’ tall. Attack from above with spike/talons, emit puffs of orange smoke to infect targets with worms. Worms hatch in d6 days.",
-   "Boneback Wydarr":"4’ tall stout bony-ridged creature. Long pink tongues reptile head. Hooks instead of forelegs. Vicious andenergetic, slashing, biting, tripping, working with group tactics.",
-   "Bonebinder":"10’ tall, gaunt pale skin, covered in bags and pouches. Peaceful thinkers.<ul><li>Peaceful thinkers and shaman</li><li>Leaders of the Night Axe</li><li>Bind spells into bones</li><li>Long-term goals and prosperity</li></ul>",
-   "Broadback":"25’ tall, wide misshapen lizards, hunches forward, thick scaly hides, spikes and armored plates. Gentle Herbivores.Loud mating call. Paths of devastation in wake.",
-   "Combustarino":"<ul><li>Sadistic Fire Imps who follow Svarku</li><li>Amused by inflicting pain and killing</li><li>Love new identity, not just Fire Imp</li><li>Butterfly knives, metal emblem</li></ul>",
-   "Copperback":"Large 5’ snake with copper scales. Strike with incredible speed, venom puts enemies to sleep. Prefers to attackonce, and then flee danger.",
-   "Coppermane Prowler":"Body of a cat, birdlike head wingless griffin. 10’ long, 4’ tall. Mane of copper shards. Solitary. Bites withelectric power. Can teleport 40’, leaving trail of electricity",
-   "Coralkin Angler":"Slimy green bipedal armored. 7’ tall, fish tail, webbed hands/feet. Lives with Spawn. Awkward on land, leapingattack. Prefer fight underwater and kick against walls.",
-   "Coralkin Spawn":"1’ tadpoles with large teeth. Swarm will attack anything nearby. Venom worsens each bite.",
-   "Crystal Frog":"small crystal frog, thumb-sized. Can bond with creatures like a dog. Twitter like birds. Can heal owner.",
-   "Crystalback Wydarr":"4’ tall hunchback crystal spined creatures. Metallic iron/steel/ silver plates, reptile head. Forelegs are crystalscythes. Digs through dense stone. Snapping jaws and smashing crystals. Launch one another at targets.",
-   "Dire Boar":"Huge tusks, 20’ long 10’ tall, destroys environments, solitary. Charge &amp; trample enemies with tusks",
-   "Duecadre":"8’ tall flightless birds, speckled browns and greys, tails yellow. Qwop, Qwop, Qwop every sunrise. Carnivores.Solitary. Kicks and claws. Extremely sharp beak. Docile.",
-   "Earth Elemental":"2 feet tell d20 made of stone. Can create earth from nothing and manipulate it.",
-   "Earth Imp":"3’ tall, short and fat stone, talkative and extremely friendly. Eager to tell stories and hear stories. Nonviolent. Don’t like mocking.",
-   "Edgesworn":"11’ tall, thickly muscled with bony protrusions. <ul><li>Vicious and terrible warriors</li><li>No tongues</li><li>Can shape obsidian with bare hands</li><li>Embrace anger. Live for battle</li><li>Path of Speed - faster attacks</li><li>Path of Fury - can berserk</li><li>Path of Terror - strike fear foes &amp; allies</li></ul>",
-   "Feeder":"3’ long, 5’ wingspan. Slowly flies. Large legs, long propitious to drain blood. Docile.",
-   "Fire Elemental":"2 feet tell d10 made of glowing metal. Can create fire from nothing and manipulate it.",
-   "Fire Imp":"3’ tall, red skin with small wings. obsessed with fair fights and grappling. Rarely fight to the death, but always“fight fair”.",
-   "Flayfiend":"12’ long, 6’ tall, covered in grey hide and bone-spines curving back. 4 large tusks. Spines break easily, difficultto remove. Eat only skin. Solitary. Aggressive and territorial. Charge and trample with tusks.",
-   "Giant Bat":"Large black wings, eyes reflect hypnotic lights, sounds like barking, 4-5’ tall. Swoop down at eyes and face. Willretreat if losing, return with entire colony, bringing 20+ more.",
-   "Giant Centipede":"Red, yellow, or black, 3-6 feet long. Snapping mandibles, tail barb. Found in corpses. Crawl up opponents, snappingand stabbing with tails. Venom paralyzes.",
-   "Giant Rat":"3’ long, 1’ tall. Thick fur of various colors. Semi-opposable thumbs, good climbers. Will fight to the death. Swarm,bite.",
-   "Goa":"7’ tall, thick dark green scales, slitted yellow eyes. Covered in beads, feathers, boar skin bracers. Fight withhonor, seek glory from trophies",
-   "Kiru Ranger":"6’ tall, deep blue scales, orange ridge. Carry little besides longbows. Stealthy. Seek knowledge.",
-   "Kiru Shaman":"6’ tall, light bright blue scales., fur cloak, mithril necklace, bright feathers and flowers. Obsidian spears. Seekknowledge. Peaceful.",
-   "Kujibird":"3’ tall flightless birds. Patches golden scales. run quickly, attack with poison claws. Songs can cause madness.",
-   "Magma Elemental":"2 feet tell d12 glowing from beneath dark rock shards. Can create magma from nothing and manipulate it.",
-   "Magma Imp":"4’ tall, armored glowing form. Try to look cool. Love building something and working with a team. Hate to leavesomething unfinished or be interrupted.",
-   "Matron":"50’ long armored quivering birth sacs. Attached to a cliffside or large trees. Surrounded by other vyderacs. Largeclaws, spits acid. Can explode releasing acid.",
-   "Muttering Serpent":"15’ large snake, mirror like scales. Face resembles your own. Smells like wood shavings. Intelligent, communicatestelepathically, plays with and confuses prey with questions from themselves. Tries to separate and attack.",
-   "Nereid":"5’ tall, smooth blue skin in a humanoid shape; often with tentacles or shark fins or something. Can command water. A troupe of singers trapped in paintings by the Elves and kept by Svarku. 29 free Nereids want to free Meltalia, work with Night Axe revenge.",
-   "Obsidian Bladeguard":"10’ tall vaguely humanoid of jagged obsidian. 8 randomly scattered eyes. Automatons.",
-   "Obsidian Digger":"Chunk of obsidian, gives off blue light. 3” to 3’ large. Floating shards used to dig and shape rock. Ignore prettymuch everything. Difficult to damage. fling stone shards.",
-   "Obsidian Giant":"20’ tall, 4 massive legs, body a random jumble of obsidian, two large tusks with spiked trunk.<ul><li>Seven Six Giants, 25 Bladeguards each</li><li>Work for Ash Barons, assist Svarku</li><li>Afraid of Edgesworn and Bavmorda</li><li>Want Svarku to fail, fuel hostilities</li><li>Order Fuegonauts around, sabotage</li></ul>",
-   "Ooze Elemental":"2’ jelly-like cube. Can create ooze from nothing and manipulate it.",
-   "Ooze Imp":"3’ tall, translucent goop shape shifters. Can take small humanoid form with wings. Love gross pranks. Can mergetogether.",
-   "Orange Sludge":"6’ in diameter. Coat things with orange goo. Crystallizes in dark, evaporate in light. humanoid forms. Attempt tocover and consume. Drop from above, or side paths. Attack anything that moves. Dulls and rusts metal. May be coveredin poison Ambermoss.",
-   "Poison Dart Frog":"thumb sized frogs. Toxin extremely potent. Red, Blue, Green, Yellow, Orange, White, Purple or Black.",
-   "Salamander Trickster":"7’ tall, serpentine bodies, 7’ tail. Blue white leathery scales, can cast magic.<ul><li>Ordered to serve Svarku by the Shah</li><li>Like bullying people</li><li>Reluctantly following orders</li><li>Boar meat is intoxicating</li></ul>",
-   "Salamander Warrior":"7’ tall, serpentine bodies, 7’ tail. Yellow orange leathery scales, spears.<ul><li>Ordered to serve Svarku by the Shah</li><li>Like bullying people</li><li>Reluctantly following orders</li><li>Boar meat is intoxicating</li></ul>",
-   "Seeker":"1’ long, 2’ wingspan, large butt. Move very quickly, can sense warm blooded creatures. Rapid fly-by attacks, spitout clouds of itchy powder, numbs and paralyzes.",
-   "Shadow":"6’ tall, fanged shadows with wide mouths. Silent.. Stalk magic creatures. Get faster when struck with spells. Feralattack with claws and appendages.",
-   "Singing Golem":"6’ tall, carved from stone. Naked elven statues. Sing with chimes inside. Often damaged, performing random tasks.",
-   "Spine Dragon":"Dense 12’ long, 4’ tall docile. Dull metallic plates protect body. Impervious to all attacks. Dislike cold.Peaceful.",
-   "Steam Elemental":"2’ shining metallic rings covered in water droplets and steam. Can create steam from nothing and manipulate it.",
-   "Steam Imp":"3’ tall, large noses, large ears, grey skin. Can transform into a cloud of steam. Love to gamble on anything andeverything. Telepathic. Fights are for betting, not participating.",
-   "Swarmer":"grapefruit sized scarabs, hard red shells. Can hop/fly 10’m. Overwhelm, bite prey, venomous. Does not let go.",
-   "Tabibary":"6’ long, 3’ tall. Short grey fur. Horns grow from fleshy nose. Shared consciousness. Docile.",
-   "Warrior":"10’ tall, large tusks, large bellies. No lips, skeleton grin. Obsidian weapons.<ul><li>Most of the Night Axe</li><li>Huge, powerful, efficient, good workers</li><li>Need direction</li><li>Want freedom and children</li><li>Struggle with emotions and freedom</li></ul>",
-   "Water Elemental":"2’ pale spheres. Can create water from nothing and manipulate it.",
-   "Water Imp":"2’ tall, blue skin &amp; green gills. Holds their core like a polished soap bubble. Good natured and curious. Lovemysterious and puzzles.",
-   "Zip Bird":"Flightless 4’ tall white birds. Small wings. Can leap up to 30’. Can run quickly. Fearless, rush past foes,harassing them with quick attacks. Slash with beak and talons."
+  "creatureDetails": {
+    "Arva": "8’ tall, black-green scales with tribal swirls. Muscular. Very aggressive, use traps and dirty tricks to kill.",
+    "Astral Spinner": "Spiderlike footlong metallic creatures, big butt with red/blue sphere. shift between Planes. Defensive. Try to getvictims tangled into webs, often won’t attack directly.",
+    "Blindfire Carpet": "Feathery leaves and 20’ vines, orange peppers. Solitary. Silent. 5’ maw in center uses vines to grab and eatcreatures. Rears up. Target maw.",
+    "Blindfire Vine": "Like carpet, long vines with grabby tips, dangles ceilings.",
+    "Boar": "Brown, 5’ long 3’ tall, sleep in shallow holes, attempt to wound and flee, flame retardant",
+    "Boltforager": "Red feathers, bony yellow ridge spike, 3’ tall. Attack from above with spike/talons, emit puffs of orange smoke to infect targets with worms. Worms hatch in d6 days.",
+    "Boneback Wydarr": "4’ tall stout bony-ridged creature. Long pink tongues reptile head. Hooks instead of forelegs. Vicious andenergetic, slashing, biting, tripping, working with group tactics.",
+    "Bonebinder": "10’ tall, gaunt pale skin, covered in bags and pouches. Peaceful thinkers.<ul><li>Peaceful thinkers and shaman</li><li>Leaders of the Night Axe</li><li>Bind spells into bones</li><li>Long-term goals and prosperity</li></ul>",
+    "Broadback": "25’ tall, wide misshapen lizards, hunches forward, thick scaly hides, spikes and armored plates. Gentle Herbivores.Loud mating call. Paths of devastation in wake.",
+    "Combustarino": "<ul><li>Sadistic Fire Imps who follow Svarku</li><li>Amused by inflicting pain and killing</li><li>Love new identity, not just Fire Imp</li><li>Butterfly knives, metal emblem</li></ul>",
+    "Copperback": "Large 5’ snake with copper scales. Strike with incredible speed, venom puts enemies to sleep. Prefers to attackonce, and then flee danger.",
+    "Coppermane Prowler": "Body of a cat, birdlike head wingless griffin. 10’ long, 4’ tall. Mane of copper shards. Solitary. Bites withelectric power. Can teleport 40’, leaving trail of electricity",
+    "Coralkin Angler": "Slimy green bipedal armored. 7’ tall, fish tail, webbed hands/feet. Lives with Spawn. Awkward on land, leapingattack. Prefer fight underwater and kick against walls.",
+    "Coralkin Spawn": "1’ tadpoles with large teeth. Swarm will attack anything nearby. Venom worsens each bite.",
+    "Crystal Frog": "small crystal frog, thumb-sized. Can bond with creatures like a dog. Twitter like birds. Can heal owner.",
+    "Crystalback Wydarr": "4’ tall hunchback crystal spined creatures. Metallic iron/steel/ silver plates, reptile head. Forelegs are crystalscythes. Digs through dense stone. Snapping jaws and smashing crystals. Launch one another at targets.",
+    "Dire Boar": "Huge tusks, 20’ long 10’ tall, destroys environments, solitary. Charge &amp; trample enemies with tusks",
+    "Duecadre": "8’ tall flightless birds, speckled browns and greys, tails yellow. Qwop, Qwop, Qwop every sunrise. Carnivores.Solitary. Kicks and claws. Extremely sharp beak. Docile.",
+    "Earth Elemental": "2 feet tell d20 made of stone. Can create earth from nothing and manipulate it.",
+    "Earth Imp": "3’ tall, short and fat stone, talkative and extremely friendly. Eager to tell stories and hear stories. Nonviolent. Don’t like mocking.",
+    "Edgesworn": "11’ tall, thickly muscled with bony protrusions. <ul><li>Vicious and terrible warriors</li><li>No tongues</li><li>Can shape obsidian with bare hands</li><li>Embrace anger. Live for battle</li><li>Path of Speed - faster attacks</li><li>Path of Fury - can berserk</li><li>Path of Terror - strike fear foes &amp; allies</li></ul>",
+    "Feeder": "3’ long, 5’ wingspan. Slowly flies. Large legs, long propitious to drain blood. Docile.",
+    "Fire Elemental": "2 feet tell d10 made of glowing metal. Can create fire from nothing and manipulate it.",
+    "Fire Imp": "3’ tall, red skin with small wings. obsessed with fair fights and grappling. Rarely fight to the death, but always“fight fair”.",
+    "Flayfiend": "12’ long, 6’ tall, covered in grey hide and bone-spines curving back. 4 large tusks. Spines break easily, difficultto remove. Eat only skin. Solitary. Aggressive and territorial. Charge and trample with tusks.",
+    "Giant Bat": "Large black wings, eyes reflect hypnotic lights, sounds like barking, 4-5’ tall. Swoop down at eyes and face. Willretreat if losing, return with entire colony, bringing 20+ more.",
+    "Giant Centipede": "Red, yellow, or black, 3-6 feet long. Snapping mandibles, tail barb. Found in corpses. Crawl up opponents, snappingand stabbing with tails. Venom paralyzes.",
+    "Giant Rat": "3’ long, 1’ tall. Thick fur of various colors. Semi-opposable thumbs, good climbers. Will fight to the death. Swarm,bite.",
+    "Goa": "7’ tall, thick dark green scales, slitted yellow eyes. Covered in beads, feathers, boar skin bracers. Fight withhonor, seek glory from trophies",
+    "Kiru Ranger": "6’ tall, deep blue scales, orange ridge. Carry little besides longbows. Stealthy. Seek knowledge.",
+    "Kiru Shaman": "6’ tall, light bright blue scales., fur cloak, mithril necklace, bright feathers and flowers. Obsidian spears. Seekknowledge. Peaceful.",
+    "Kujibird": "3’ tall flightless birds. Patches golden scales. run quickly, attack with poison claws. Songs can cause madness.",
+    "Magma Elemental": "2 feet tell d12 glowing from beneath dark rock shards. Can create magma from nothing and manipulate it.",
+    "Magma Imp": "4’ tall, armored glowing form. Try to look cool. Love building something and working with a team. Hate to leavesomething unfinished or be interrupted.",
+    "Matron": "50’ long armored quivering birth sacs. Attached to a cliffside or large trees. Surrounded by other vyderacs. Largeclaws, spits acid. Can explode releasing acid.",
+    "Muttering Serpent": "15’ large snake, mirror like scales. Face resembles your own. Smells like wood shavings. Intelligent, communicatestelepathically, plays with and confuses prey with questions from themselves. Tries to separate and attack.",
+    "Nereid": "5’ tall, smooth blue skin in a humanoid shape; often with tentacles or shark fins or something. Can command water. A troupe of singers trapped in paintings by the Elves and kept by Svarku. 29 free Nereids want to free Meltalia, work with Night Axe revenge.",
+    "Obsidian Bladeguard": "10’ tall vaguely humanoid of jagged obsidian. 8 randomly scattered eyes. Automatons.",
+    "Obsidian Digger": "Chunk of obsidian, gives off blue light. 3” to 3’ large. Floating shards used to dig and shape rock. Ignore prettymuch everything. Difficult to damage. fling stone shards.",
+    "Obsidian Giant": "20’ tall, 4 massive legs, body a random jumble of obsidian, two large tusks with spiked trunk.<ul><li>Seven Six Giants, 25 Bladeguards each</li><li>Work for Ash Barons, assist Svarku</li><li>Afraid of Edgesworn and Bavmorda</li><li>Want Svarku to fail, fuel hostilities</li><li>Order Fuegonauts around, sabotage</li></ul>",
+    "Ooze Elemental": "2’ jelly-like cube. Can create ooze from nothing and manipulate it.",
+    "Ooze Imp": "3’ tall, translucent goop shape shifters. Can take small humanoid form with wings. Love gross pranks. Can mergetogether.",
+    "Orange Sludge": "6’ in diameter. Coat things with orange goo. Crystallizes in dark, evaporate in light. humanoid forms. Attempt tocover and consume. Drop from above, or side paths. Attack anything that moves. Dulls and rusts metal. May be coveredin poison Ambermoss.",
+    "Poison Dart Frog": "thumb sized frogs. Toxin extremely potent. Red, Blue, Green, Yellow, Orange, White, Purple or Black.",
+    "Salamander Trickster": "7’ tall, serpentine bodies, 7’ tail. Blue white leathery scales, can cast magic.<ul><li>Ordered to serve Svarku by the Shah</li><li>Like bullying people</li><li>Reluctantly following orders</li><li>Boar meat is intoxicating</li></ul>",
+    "Salamander Warrior": "7’ tall, serpentine bodies, 7’ tail. Yellow orange leathery scales, spears.<ul><li>Ordered to serve Svarku by the Shah</li><li>Like bullying people</li><li>Reluctantly following orders</li><li>Boar meat is intoxicating</li></ul>",
+    "Seeker": "1’ long, 2’ wingspan, large butt. Move very quickly, can sense warm blooded creatures. Rapid fly-by attacks, spitout clouds of itchy powder, numbs and paralyzes.",
+    "Shadow": "6’ tall, fanged shadows with wide mouths. Silent.. Stalk magic creatures. Get faster when struck with spells. Feralattack with claws and appendages.",
+    "Singing Golem": "6’ tall, carved from stone. Naked elven statues. Sing with chimes inside. Often damaged, performing random tasks.",
+    "Spine Dragon": "Dense 12’ long, 4’ tall docile. Dull metallic plates protect body. Impervious to all attacks. Dislike cold.Peaceful.",
+    "Steam Elemental": "2’ shining metallic rings covered in water droplets and steam. Can create steam from nothing and manipulate it.",
+    "Steam Imp": "3’ tall, large noses, large ears, grey skin. Can transform into a cloud of steam. Love to gamble on anything andeverything. Telepathic. Fights are for betting, not participating.",
+    "Swarmer": "grapefruit sized scarabs, hard red shells. Can hop/fly 10’m. Overwhelm, bite prey, venomous. Does not let go.",
+    "Tabibari": "6’ long, 3’ tall. Short grey fur. Horns grow from fleshy nose. Shared consciousness. Docile.",
+    "Warrior": "10’ tall, large tusks, large bellies. No lips, skeleton grin. Obsidian weapons.<ul><li>Most of the Night Axe</li><li>Huge, powerful, efficient, good workers</li><li>Need direction</li><li>Want freedom and children</li><li>Struggle with emotions and freedom</li></ul>",
+    "Water Elemental": "2’ pale spheres. Can create water from nothing and manipulate it.",
+    "Water Imp": "2’ tall, blue skin &amp; green gills. Holds their core like a polished soap bubble. Good natured and curious. Lovemysterious and puzzles.",
+    "Zip Bird": "Flightless 4’ tall white birds. Small wings. Can leap up to 30’. Can run quickly. Fearless, rush past foes,harassing them with quick attacks. Slash with beak and talons."
   },
 
-  "mapLocations":{
+  "mapLocations": {
     "Village": ["Glavrok Village", "Boar’s Head Encampment"],
     "Mountainous": ["Crystal SeaCave"],
     "Volcano": ["Svarku’s Volcanic Lair", "New Moon Party", "Crystalflow", "Lapis Observatory"],
-    "Volcanic": ["The Shattered Aquifer"],
+    "Volcanic": ["Shattered Aquifer"],
     "Heavy": ["Slave Quarters", "Ashfire Mine", "Dire Boar Den"],
     "Light": ["Temple of Tranquility"],
 
 
-    "Crystalflow": [],
-    "The Shattered Aquifer": [],
-    "The Slave Quarters": [],
-    "Crystal SeaCave": [],
-    "Ashfire Mine": [],
-    "Glavrok Village": [],
-    "Svarku’s Volcanic Lair": [],
-    "The Lapis Observatory": [],
-    "Boar’s Head Encampment": [],
-    "Temple of Tranquility": [],
-    "Dire Boar Den": [],
-    "New Moon Party": []
+    "Crystalflow": {
+
+    },
+    "Shattered Aquifer": {
+
+    },
+    "Slave Quarters": {
+
+    },
+    "Crystal SeaCave": {
+
+    },
+    "Ashfire Mine": {
+
+    },
+    "Glavrok Village": {
+
+    },
+    "Svarku’s Lair": {
+
+    },
+    "Lapis Observatory": {
+
+    },
+    "Boar’s Head Encampment": {
+
+    },
+    "Temple of Tranquility": {
+
+    },
+    "Dire Boar Den": {
+
+    },
+    "New Moon Party": {
+      
+    }
   }
 
-  
+
 }

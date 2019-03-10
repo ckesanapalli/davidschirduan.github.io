@@ -27,11 +27,7 @@ function threedsix(jsonList) {
   /*We don't add +1 because we'll be referencing tables, which start at 0*/
   var diceSum = Math.floor(Math.random() * 6) + Math.floor(Math.random() * 6) + Math.floor(Math.random() * 6);
 
-  result = jsonList[diceSum];
-  if (Array.isArray(result)) {
-    result = threedsix(result);
-  }
-  return result;
+  return jsonList[diceSum];
 }
 
 function Overland(regionName) {
@@ -40,7 +36,13 @@ function Overland(regionName) {
   var overlandImages = "";
 
   type = threedsix(hsi.regionTables[regionName]);
-  creature = threedsix(hsi[type][regionName]);
+
+  /*Some of the step 1 table results are factions*/
+  if (type == "Fuegonauts" || type == "Night Axe") {
+    creature = type;
+  } else {
+    creature = threedsix(hsi[type][regionName]);
+  }
 
   console.log("Region: " + regionName);
   console.log("Type: " + type);
@@ -76,44 +78,71 @@ function Overland(regionName) {
       }
       break;
     default:
-      overlandHTML = "<h2 class=\"tightSpacing\">" + creature + "</h2>";
-      overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[creature] + "</p>";
 
-      overlandImages = overlandImages + "<img src=\"/images/HSI/" + creature + ".png\">";
+      if (type == "Beast") {
+        var number = "";
+        var diceSum = Math.floor(Math.random() * 6) + Math.floor(Math.random() * 6) + Math.floor(Math.random() * 6) + 3;
+
+        switch (diceSum) {
+          case (3):
+          case (4):
+          case (5):
+            number = 1;
+            break;
+          case (6):
+          case (7):
+          case (8):
+          case (9):
+            number = 2;
+            break;
+          case (10):
+          case (11):
+            number = Math.floor(Math.random() * 4) + 1;
+            break;
+          case (12):
+          case (13):
+            number = Math.floor(Math.random() * 4) + 2;
+            break;
+          case (14):
+            number = Math.floor(Math.random() * 6) + 1;
+            break;
+          case (15):
+            number = Math.floor(Math.random() * 6) + 2;
+            break;
+          case (16):
+            number = Math.floor(Math.random() * 8) + 3;
+            break;
+          case (17):
+            number = Math.floor(Math.random() * 6) + Math.floor(Math.random() * 6) + 2;
+            break;
+          case (18):
+            number = Math.floor(Math.random() * 4) + Math.floor(Math.random() * 4) + Math.floor(Math.random() * 4) + 3;
+            break;
+        }
+
+        console.log("Number: " + number);
+
+        if (number == 1) {
+          overlandHTML = "<h2 class=\"tightSpacing\">" + number + " " + creature + "</h2>";
+        } else {
+          overlandHTML = "<h2 class=\"tightSpacing\">" + number + " " + creature + "s</h2>";
+        }
+        overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[creature] + "</p>";
+        overlandImages = overlandImages + "<img src=\"/images/HSI/" + creature + ".png\">";
+      } else {
+        overlandHTML = "<h2 class=\"tightSpacing\">1 " + creature + "</h2>";
+        overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[creature] + "</p>";
+        overlandImages = overlandImages + "<img src=\"/images/HSI/" + creature + ".png\">";
+      }
   }
 
   document.getElementById("overland").innerHTML = overlandHTML;
   document.getElementById("images").innerHTML = overlandImages;
-
-  mappedLocations(regionName);
-
   document.getElementById("locationCard").style = "";
-
 }
 
-function mappedLocations(regionName){
+function mappedLocations(mapName) {
 
-  var tabs = document.getElementById("tabs").innerHTML;
-  var boxes = document.getElementById("tabBoxes").innerHTML;
-
-
-  console.log(tabs);
-  console.log(boxes);
-
-  for (i = 0; i < hsi.mapLocations[regionName].length; i++){
-
-    var location = hsi.mapLocations[regionName][i]
-    console.log(location);
-
-    tabs = tabs + "<button class=\"tablinks\" onclick=\"openTab(event, '" + location + "')\">" + location + "</button>";
-
-    boxes = boxes + "<div id=\"" + location + "\" class=\"tabcontent\"></div>";
-  }
-
-  console.log(tabs);
-  console.log(boxes);
-
-  document.getElementById("tabs").innerHTML = tabs;
-  document.getElementById("tabBoxes").innerHTML = boxes;
+  console.log(mapName);
 
 }

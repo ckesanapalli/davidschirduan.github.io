@@ -16,7 +16,7 @@ visibility: hidden;
   background-color: #f1f1f1;
 }
 
-.btn-wide{
+.btn-wide {
   min-width: 200px;
 }
 
@@ -24,13 +24,12 @@ visibility: hidden;
 .tab button {
   background-color: inherit;
   float: left;
+  border: none;
   outline: none;
   cursor: pointer;
   padding: 15px 30px;
   transition: 0.3s;
   font-size: 20px;
-  margin-right: 10px;
-  border:none;
 }
 
 /* Change background color of buttons on hover */
