@@ -9,22 +9,6 @@
  * 
  */
 
-function openTab(evt, tabName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(tabName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-
-document.getElementById("defaultOpen").click();
-
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
@@ -44,8 +28,6 @@ function threedsix(jsonList) {
 function Overland(regionName) {
 
   var overlandHTML = "";
-  var overlandImages = "";
-
   type = threedsix(hsi.regionTables[regionName]);
 
   /*Some of the step 1 table results are factions*/
@@ -57,7 +39,8 @@ function Overland(regionName) {
 
   switch (creature) {
     case ("Adventurer"):
-      overlandHTML = "<h2 class=\"tightSpacing\">" + hsi.Intelligent[creature][Math.floor(Math.random() * hsi.Intelligent[creature].length)] + "</h2>";
+      var motivation = threedsix(hsi.Intelligent.Motivations);
+      overlandHTML = "<h2 class=\"tightSpacing\">" + hsi.Intelligent[creature][Math.floor(Math.random() * hsi.Intelligent[creature].length)] + " (<i>" + motivation + ")</i></h2>";
       break;
     case ("Fuegonauts"):
     case ("Night Axe"):
@@ -69,50 +52,72 @@ function Overland(regionName) {
       for (unit in hsi.Intelligent[creature]) {
 
         console.log("Unit + " + unit);
+        var motivation = threedsix(hsi.Intelligent.Motivations);
 
         if (hsi.Intelligent[creature][unit][diceSum] == 1) {
-          overlandHTML = overlandHTML + "<h2 class=\"tightSpacing\">" + hsi.Intelligent[creature][unit][diceSum] + " " + unit + "</h2>";
+          overlandHTML = overlandHTML + "<h2 class=\"tightSpacing\">" + hsi.Intelligent[creature][unit][diceSum] + " " + unit + " (<i>" + motivation + ")</i></h2 > ";
           overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[unit] + "</p>";
 
-          overlandImages = overlandImages + "<img src=\"/images/HSI/" + unit + ".png\">";
+          overlandHTML = overlandHTML + "<img src=\"/images/HSI/" + unit + ".png\">";
 
         } else if (hsi.Intelligent[creature][unit][diceSum] > 1) {
-          overlandHTML = overlandHTML + "<h2 class=\"tightSpacing\">" + hsi.Intelligent[creature][unit][diceSum] + " " + unit + "s</h2>";
+          overlandHTML = overlandHTML + "<h2 class=\"tightSpacing\">" + hsi.Intelligent[creature][unit][diceSum] + " " + unit + "s (<i>" + motivation + ")</i></h2 > ";
           overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[unit] + "</p>";
 
-          overlandImages = overlandImages + "<img src=\"/images/HSI/" + unit + ".png\">";
+          overlandHTML = overlandHTML + "<img src=\"/images/HSI/" + unit + ".png\">";
         }
       }
       break;
     default:
 
       var number = "1";
+      var motivation = threedsix(hsi.Elemental.Motivations);
       if (type == "Beast") {
         number = threedsix(hsi.Beast.NumberOf);
+        motivation = threedsix(hsi.Beast.Motivations)
       }
 
       if (number == "1") {
-        overlandHTML = "<h2 class=\"tightSpacing\">" + number + " " + creature + "</h2>";
+        overlandHTML = "<h2 class=\"tightSpacing\">" + number + " " + creature + " (<i>" + motivation + ")</i></h2 > ";
       } else {
-        overlandHTML = "<h2 class=\"tightSpacing\">" + number + " " + creature + "s</h2>";
+        overlandHTML = "<h2 class=\"tightSpacing\">" + number + " " + creature + "s (<i>" + motivation + ")</i></h2 > ";
       }
 
       overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[creature] + "</p>";
-      overlandImages = overlandImages + "<img src=\"/images/HSI/" + creature + ".png\">";
+      overlandHTML = overlandHTML + "<img src=\"/images/HSI/" + creature + ".png\">";
   }
 
   document.getElementById("overland").innerHTML = overlandHTML;
-  document.getElementById("images").innerHTML = overlandImages;
-  document.getElementById("locationCard").style = "";
+  document.getElementById("defaultOpen").innerHTML = regionName;
+
 }
 
-function mappedLocations(mapName) {
+function Locations(mapName) {
 
-  console.log("Happening: " + threedsix(hsi.mapLocations[mapName].Happening));
+  console.log(threedsix(hsi.mapLocations[mapName].Happening));
+  console.log(hsi.mapLocations[mapName].Areas.length);
 
-  for (var area in hsi.mapLocations[mapName].Areas) {
-    console.log("Area: " + area);
-    console.log("Encounter: " + threedsix(hsi.mapLocations[mapName].Encounter));
-    console.log("Motivation: " + threedsix(hsi.mapLocations[mapName].Motivation));
+  var locationStuff = "<h3 class=\"tightSpacing\">" + threedsix(hsi.mapLocations[mapName].Happening) + "</h3>";
+
+  for (var i = 0; i < hsi.mapLocations[mapName].Areas.length; i++) {
+    locationStuff = locationStuff + "<h2 class=\"tightSpacing\">" + hsi.mapLocations[mapName].Areas[i] + "</h2>";
+    locationStuff = locationStuff + "<p style=\"padding-left:20px;\">" + threedsix(hsi.mapLocations[mapName].Encounter) + " <i>(" + threedsix(hsi.mapLocations[mapName].Motivation) + ")</i></p>";
   }
+
+  document.getElementById("locationData").innerHTML = locationStuff;
+
+}
+
+function showCard(card) {
+
+  if (card == "overlandCard") {
+    document.getElementById("overlandCard").style = "margin-bottom: 30px;";
+    document.getElementById("locationCard").style = "margin-bottom: 30px;display:none;";
+    Overland('Light');
+  } else {
+    document.getElementById("overlandCard").style = "margin-bottom: 30px;display:none;";
+    document.getElementById("locationCard").style = "margin-bottom: 30px;";
+    Locations('Ashfire Mine');
+  }
+
 }

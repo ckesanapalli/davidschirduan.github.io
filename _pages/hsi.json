@@ -10,8 +10,8 @@
   },
 
   "Beast": {
-     "Motivations": ["Sleeping", "Dying", "Mating", "Eating/Being Eaten by...", "Patrolling", "Walking", "Territorial Display", "In Combat with...", "Wounded", "Walking", "Territorial Display", "Rest/Relax/Nest", "Fleeing/Pursuit of...", "Hunting/Gathering", "Altered State", "Defecating"],
-     "NumberOf": ["1","1","1","2","2","2","2","d4","d4","d4+1","d4+1","d6","d6+1","d8+2","2d6","3d6"],
+    "Motivations": ["Sleeping", "Dying", "Mating", "Eating/Being Eaten by...", "Patrolling", "Walking", "Territorial Display", "In Combat with...", "Wounded", "Walking", "Territorial Display", "Rest/Relax/Nest", "Fleeing/Pursuit of...", "Hunting/Gathering", "Altered State", "Defecating"],
+    "NumberOf": ["1", "1", "1", "2", "2", "2", "2", "d4", "d4", "d4+1", "d4+1", "d6", "d6+1", "d8+2", "2d6", "3d6"],
     "Light": ["Crystal Frog", "Flayfiend", "Duecadre", "Muttering Serpent", "Broadback", "Singing Golem", "Tabibari", "Giant Centipede", "Boar", "Giant Rat", "Zip Bird", "Vyderac", "Blindfire Vine", "Dire Boar", "Spine Dragon", "Poison Dart Frog"],
     "Heavy": ["Poison Dart Frog", "Obsidian Digger", "Blindfire Carpet", "Dire Boar", "Boltforager", "Vyderac", "Giant Bat", "Boar", "Giant Centipede", "Giant Rat", "Copperback", "Blindfire Vine", "Vyderac", "Giant Centipede", "Boneback Wydarr", "Spine Dragon"],
     "Mountainous": ["Spine Dragon", "Boneback Wydarr", "Coppermane Prowler", "Giant Bat", "Boltforager", "Coppermane Prowler", "Giant Centipede", "Copperback", "Boar", "Giant Rat", "Zip Bird", "Blindfire Vine", "Vyderac", "Blindfire Carpet", "Obsidian Digger", "Poison Dart Frog"],
@@ -150,43 +150,76 @@
 
 
     "Crystalflow": {
-      "Happening":["The wydarr have won. There are thousands of them.","Fire-based inhabitants are alive but trapped in giant, new red crystal growths.","All the wydarr vanished last night.","A group of 2d8 dwarves have tunneled in and laid claim to [11–13].","[9] has been washed away by lava.","Steam imps have organized a title bout at [7].","Fire imps are throwing a redneck barbecue at [7].","A Fuegonaut inspection crew is assessing the scope of the wydarr infestation. ","Fuegonauts are “blitz mining” easy red crystal pickings.","3d6 Fuegonaut crystal huffers are here causing trouble.","Casino night at [7]. Games that are illegal in five realities!","2d6 Fuegonaut deserters are squatting in [6].","A gathering of 2d4 rare metal elementals is happening at [13].","Chain gangs of 2d4 humans, dead from dust exposure, litter the mines. Svarku didn’t send them. ","All six obsidian giants are here, performing psychic experiments at [10].","All of the crystal is gone. All of it."],
-      "Encounter": ["1 Combustarino ","d4+1 Adventurers ","3d4 Crystalback Wydarr ","1 Crystalback Wydarr","1 Obsidian Digger","1 Fire Elemental","3d6 Fire Imps","1 Fire Imp","d6+3 Fire Imps","2 Salamander Tricksters ","2d4 Steam Imps ","d4+1 Salamander Warriors ","1 Crystalback Wydarr ","d6+2 Crystalback Wydarr ","1 Obsidian Bladeguard","1 Obsidian Giant"],
-      "Motivation": ["Setting Up an Ambush ","Dying","Mating ","Territorial Display ","Mining/Collecting ","Just Passing Through ","Social/Creative ","Interacting With* ","Resting ","Hiding/Sneaking ","Waiting ","Altered State ","Fighting* ","Eating/Drinking ","Wounded ","Ritual"],
-      "Areas":["1. Abandoned Depot","2. Abandoned Cart Stop","3. Crystalevator","4. Collapsed Crystal","5. Abandoned Tool Pit","6. Wydarr Pits","7. Pyrofight Plateau","8. Fighter’s Cliff","9. Bridge","10. The Ringing Island","11. Mithral Pool","12. Mercury Pool","13. Gold Pool"]
+      "Happening": ["The wydarr have won. There are thousands of them.", "Fire-based inhabitants are alive but trapped in giant, new red crystal growths.", "All the wydarr vanished last night.", "A group of 2d8 dwarves have tunneled in and laid claim to [11–13].", "[9] has been washed away by lava.", "Steam imps have organized a title bout at [7].", "Fire imps are throwing a redneck barbecue at [7].", "A Fuegonaut inspection crew is assessing the scope of the wydarr infestation. ", "Fuegonauts are “blitz mining” easy red crystal pickings.", "3d6 Fuegonaut crystal huffers are here causing trouble.", "Casino night at [7]. Games that are illegal in five realities!", "2d6 Fuegonaut deserters are squatting in [6].", "A gathering of 2d4 rare metal elementals is happening at [13].", "Chain gangs of 2d4 humans, dead from dust exposure, litter the mines. Svarku didn’t send them. ", "All six obsidian giants are here, performing psychic experiments at [10].", "All of the crystal is gone. All of it."],
+      "Encounter": ["1 Combustarino ", "d4+1 Adventurers ", "3d4 Crystalback Wydarr ", "1 Crystalback Wydarr", "1 Obsidian Digger", "1 Fire Elemental", "3d6 Fire Imps", "1 Fire Imp", "d6+3 Fire Imps", "2 Salamander Tricksters ", "2d4 Steam Imps ", "d4+1 Salamander Warriors ", "1 Crystalback Wydarr ", "d6+2 Crystalback Wydarr ", "1 Obsidian Bladeguard", "1 Obsidian Giant"],
+      "Motivation": ["Setting Up an Ambush ", "Dying", "Mating ", "Territorial Display ", "Mining/Collecting ", "Just Passing Through ", "Social/Creative ", "Interacting With* ", "Resting ", "Hiding/Sneaking ", "Waiting ", "Altered State ", "Fighting* ", "Eating/Drinking ", "Wounded ", "Ritual"],
+      "Areas": ["1. Abandoned Depot", "2. Abandoned Cart Stop", "3. Crystalevator", "4. Collapsed Crystal", "5. Abandoned Tool Pit", "6. Wydarr Pits", "7. Pyrofight Plateau", "8. Fighter’s Cliff", "9. Bridge", "10. The Ringing Island", "11. Mithral Pool", "12. Mercury Pool", "13. Gold Pool"]
     },
     "Shattered Aquifer": {
-
+"Happening": [],
+"Encounter": [],
+"Motivation": [],
+"Areas": []
     },
     "Slave Quarters": {
-
+"Happening": [],
+"Encounter": [],
+"Motivation": [],
+"Areas": []
     },
     "Crystal SeaCave": {
-
+"Happening": [],
+"Encounter": [],
+"Motivation": [],
+"Areas": []
     },
     "Ashfire Mine": {
-
+"Happening": ["[7] has been extracted! It stretches across [9]. Svarku is here to ensure its safe delivery. ", "[3] has been blown open. Zeb’s is gutted and battle scarred. A deal went very bad. ", "Panicked Fuegonaut patrols every hour. Srok was spotted and bodies keep showing up. ", "A trickster knows how to extract [7]. She’s right, but no one will listen. The crystal told her how. ", "Obsidian diggers are mining where there is no crystal. Obsidian giant subterfuge. ", "Flaming lightning crackles across [11]. d4 tricksters rehearsing for the next new moon party. ", "2d6 salamanders were tasked to collect acid from [2], but are dredging for loot instead. ", "Ashfire is empty and silent except for the “click click clack” of obsidian diggers mining. ", "All mining operation is focused on the safe extraction of [7] today. Mostly talk, little work. ", "[11] is hyperactive. Ash everywhere. Fuegonauts grossed out. “Ash is dead fire! Ewww!” ", "Quota day! Crystal shipments are going into [11]. Heavy Fuegonaut presence.", "Blitz mining in Crystalflow Mine last night was a success. [9] in overdrive.", "Fatty Salamander is overseeing a cleaning effort to prep for a visit by the Ash Barons. ", "[2] is overflowing. Large areas flooded with acid. Fuegonauts busy shuffling blame. ", "Extraction of [7] failed. Svarku high and angry. Returns to break crystal frequently. ", "Mine empty. Two obsidian giants await the emergence of an Ash Baron. Svarku unaware."],
+"Encounter": ["d6+2 Salamander Warriors ", "2d6x10 Giant Rats", "d4+2 Night Axe", "2 Bladeguards, d4 Tricksters, d12 Warriors ", "1 Salamander Warrior", "d4 Salamander Tricksters", "d4 Combustarinos", "d4 Obsidian Diggers", "d6+2 Salamander Warriors", "4d6 Giant Bats", "d4 Obsidian Diggers", "1 Obsidian Bladeguard", "d4+2 Adventurers", "1 Duecadre", "1 Earth Imp", "1 Obsidian Giant, d4+1 Bladeguards"],
+"Motivation": ["Repairing/Maintenance ", "Fleeing*", "Just Passing Through ", "Returning Home ", "Hiding/Sneaking ", "Altered State ", "Mischief ", "Mining/Collecting ", "“Patrolling” ", "Territorial Display ", "Social/Creative ", "Surveying ", "Investigating/Searching ", "Lost", "Sleeping ", "Delivery"],
+"Areas": ["1. Guard Post", "2. Caustic Pit", "3. Cave-In", "4. Zeb’s Crystal Retreat", "5. Zeb’s Stockpile", "6. The Gargantua", "7. The Focus", "8. The Failure", "9. Central Processing", "10. Vault", "11. Ash Pillar", "12. Old Mine"]
     },
     "Glavrok Village": {
-
+"Happening": [],
+"Encounter": [],
+"Motivation": [],
+"Areas": []
     },
     "Svarku’s Lair": {
-
+"Happening": [],
+"Encounter": [],
+"Motivation": [],
+"Areas": []
     },
     "Lapis Observatory": {
-
+"Happening": [],
+"Encounter": [],
+"Motivation": [],
+"Areas": []
     },
     "Boar’s Head Encampment": {
-
+"Happening": ["Glavrok is visiting Srok (2d4+1 edgesworn/bonebinder entourage). ", "Fuegonauts are attacking right now!", "d4 huts are being rebuilt after a Fuegonaut attack. ", "Celebration! d4 new edgesworn have joined the camp.", "80% of the ogres are away raiding.", "Preparations are underway for an adventurer recruitment feast. ", "50% of the ogres are clearing trees at [5].", "General maintenance work throughout the encampment.", "Ogres are participating in group exercise and guided hate meditation. ", "50% of the ogres are out hunting.", "d8+1 ogre warriors are visiting from Glavrok Village.", "Trade day! Torka and his broadback caravan are in town. ", "Celebration! Successful raid against the Fuegonauts.", "d8 Fuegonaut captives are being chained up at [7].", "Nereid emissaries have just arrived (4+ nereids and 3d6 water friends). ", "Svarku’s first ever diplomatic envoy to Srok has just arrived."],
+"Encounter": ["Salamanders: d4 Tricksters, 3d4 Warriors ", "1 Muttering Serpent", "1 Blindfire Carpet", "d4+2 Adventurers", "d6+3 Zip Birds", "d4+1 Night Axe Warriors", "1 Copperback", "1 Night Axe Edgesworn", "d4+1 Night Axe Edgesworn", "2d6 Giant Centipedes", "1 Night Axe Bonebinder ", "3d10+5 Tabibari", "1 Broadback", "d4 Boars", "1 Water Elemental", "2 Nereids"],
+"Motivation": ["Lost", "Hunt/Gather/Fish ", "Eating/Drinking ", "Exhausted ", "Territorial Display ", "Laboring/Nesting ", "Sleeping ", "Meditating ", "Returning Home ", "Mating", "Art", "Resting", "Just Passing Through ", "Wounded ", "Delivery ", "Diplomacy"],
+"Areas": ["1. Watery Trench", "2. Neelan’s Dugout", "3. Leafy Stumps", "4. Lookout Point", "5. Fresh Deforestation", "6. Encampment", "7. The Killing Rocks"]
     },
     "Temple of Tranquility": {
-
+"Happening": [],
+"Encounter": [],
+"Motivation": [],
+"Areas": []
     },
     "Dire Boar Den": {
-
+"Happening": [],
+"Encounter": [],
+"Motivation": [],
+"Areas": []
     },
     "New Moon Party": {
-     
+"Happening": [],
+"Encounter": [],
+"Motivation": [],
+"Areas": []
     }
   }
 
