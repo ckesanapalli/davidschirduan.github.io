@@ -10,6 +10,8 @@
   },
 
   "Beast": {
+     "Motivations": ["Sleeping", "Dying", "Mating", "Eating/Being Eaten by...", "Patrolling", "Walking", "Territorial Display", "In Combat with...", "Wounded", "Walking", "Territorial Display", "Rest/Relax/Nest", "Fleeing/Pursuit of...", "Hunting/Gathering", "Altered State", "Defecating"],
+     "NumberOf": ["1","1","1","2","2","2","2","d4","d4","d4+1","d4+1","d6","d6+1","d8+2","2d6","3d6"],
     "Light": ["Crystal Frog", "Flayfiend", "Duecadre", "Muttering Serpent", "Broadback", "Singing Golem", "Tabibari", "Giant Centipede", "Boar", "Giant Rat", "Zip Bird", "Vyderac", "Blindfire Vine", "Dire Boar", "Spine Dragon", "Poison Dart Frog"],
     "Heavy": ["Poison Dart Frog", "Obsidian Digger", "Blindfire Carpet", "Dire Boar", "Boltforager", "Vyderac", "Giant Bat", "Boar", "Giant Centipede", "Giant Rat", "Copperback", "Blindfire Vine", "Vyderac", "Giant Centipede", "Boneback Wydarr", "Spine Dragon"],
     "Mountainous": ["Spine Dragon", "Boneback Wydarr", "Coppermane Prowler", "Giant Bat", "Boltforager", "Coppermane Prowler", "Giant Centipede", "Copperback", "Boar", "Giant Rat", "Zip Bird", "Blindfire Vine", "Vyderac", "Blindfire Carpet", "Obsidian Digger", "Poison Dart Frog"],
@@ -148,7 +150,10 @@
 
 
     "Crystalflow": {
-
+      "Happening":["The wydarr have won. There are thousands of them.","Fire-based inhabitants are alive but trapped in giant, new red crystal growths.","All the wydarr vanished last night.","A group of 2d8 dwarves have tunneled in and laid claim to [11–13].","[9] has been washed away by lava.","Steam imps have organized a title bout at [7].","Fire imps are throwing a redneck barbecue at [7].","A Fuegonaut inspection crew is assessing the scope of the wydarr infestation. ","Fuegonauts are “blitz mining” easy red crystal pickings.","3d6 Fuegonaut crystal huffers are here causing trouble.","Casino night at [7]. Games that are illegal in five realities!","2d6 Fuegonaut deserters are squatting in [6].","A gathering of 2d4 rare metal elementals is happening at [13].","Chain gangs of 2d4 humans, dead from dust exposure, litter the mines. Svarku didn’t send them. ","All six obsidian giants are here, performing psychic experiments at [10].","All of the crystal is gone. All of it."],
+      "Encounter": ["1 Combustarino ","d4+1 Adventurers ","3d4 Crystalback Wydarr ","1 Crystalback Wydarr","1 Obsidian Digger","1 Fire Elemental","3d6 Fire Imps","1 Fire Imp","d6+3 Fire Imps","2 Salamander Tricksters ","2d4 Steam Imps ","d4+1 Salamander Warriors ","1 Crystalback Wydarr ","d6+2 Crystalback Wydarr ","1 Obsidian Bladeguard","1 Obsidian Giant"],
+      "Motivation": ["Setting Up an Ambush ","Dying","Mating ","Territorial Display ","Mining/Collecting ","Just Passing Through ","Social/Creative ","Interacting With* ","Resting ","Hiding/Sneaking ","Waiting ","Altered State ","Fighting* ","Eating/Drinking ","Wounded ","Ritual"],
+      "Areas":["1. Abandoned Depot","2. Abandoned Cart Stop","3. Crystalevator","4. Collapsed Crystal","5. Abandoned Tool Pit","6. Wydarr Pits","7. Pyrofight Plateau","8. Fighter’s Cliff","9. Bridge","10. The Ringing Island","11. Mithral Pool","12. Mercury Pool","13. Gold Pool"]
     },
     "Shattered Aquifer": {
 
@@ -181,7 +186,7 @@
 
     },
     "New Moon Party": {
-      
+     
     }
   }
 

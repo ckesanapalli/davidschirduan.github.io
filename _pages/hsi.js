@@ -1,3 +1,14 @@
+/**
+ * 
+ * TODO: 
+ * Enable more rolling whenever the tables call for it (Fighting*)
+ * Add motivations to the UI
+ * Parse the 3d6+3 stuff
+ * Add all the images
+ * Clean up the UI for mobile and such
+ * 
+ */
+
 function openTab(evt, tabName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -44,10 +55,6 @@ function Overland(regionName) {
     creature = threedsix(hsi[type][regionName]);
   }
 
-  console.log("Region: " + regionName);
-  console.log("Type: " + type);
-  console.log("Creature: " + creature);
-
   switch (creature) {
     case ("Adventurer"):
       overlandHTML = "<h2 class=\"tightSpacing\">" + hsi.Intelligent[creature][Math.floor(Math.random() * hsi.Intelligent[creature].length)] + "</h2>";
@@ -79,61 +86,19 @@ function Overland(regionName) {
       break;
     default:
 
+      var number = "1";
       if (type == "Beast") {
-        var number = "";
-        var diceSum = Math.floor(Math.random() * 6) + Math.floor(Math.random() * 6) + Math.floor(Math.random() * 6) + 3;
-
-        switch (diceSum) {
-          case (3):
-          case (4):
-          case (5):
-            number = 1;
-            break;
-          case (6):
-          case (7):
-          case (8):
-          case (9):
-            number = 2;
-            break;
-          case (10):
-          case (11):
-            number = Math.floor(Math.random() * 4) + 1;
-            break;
-          case (12):
-          case (13):
-            number = Math.floor(Math.random() * 4) + 2;
-            break;
-          case (14):
-            number = Math.floor(Math.random() * 6) + 1;
-            break;
-          case (15):
-            number = Math.floor(Math.random() * 6) + 2;
-            break;
-          case (16):
-            number = Math.floor(Math.random() * 8) + 3;
-            break;
-          case (17):
-            number = Math.floor(Math.random() * 6) + Math.floor(Math.random() * 6) + 2;
-            break;
-          case (18):
-            number = Math.floor(Math.random() * 4) + Math.floor(Math.random() * 4) + Math.floor(Math.random() * 4) + 3;
-            break;
-        }
-
-        console.log("Number: " + number);
-
-        if (number == 1) {
-          overlandHTML = "<h2 class=\"tightSpacing\">" + number + " " + creature + "</h2>";
-        } else {
-          overlandHTML = "<h2 class=\"tightSpacing\">" + number + " " + creature + "s</h2>";
-        }
-        overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[creature] + "</p>";
-        overlandImages = overlandImages + "<img src=\"/images/HSI/" + creature + ".png\">";
-      } else {
-        overlandHTML = "<h2 class=\"tightSpacing\">1 " + creature + "</h2>";
-        overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[creature] + "</p>";
-        overlandImages = overlandImages + "<img src=\"/images/HSI/" + creature + ".png\">";
+        number = threedsix(hsi.Beast.NumberOf);
       }
+
+      if (number == "1") {
+        overlandHTML = "<h2 class=\"tightSpacing\">" + number + " " + creature + "</h2>";
+      } else {
+        overlandHTML = "<h2 class=\"tightSpacing\">" + number + " " + creature + "s</h2>";
+      }
+
+      overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[creature] + "</p>";
+      overlandImages = overlandImages + "<img src=\"/images/HSI/" + creature + ".png\">";
   }
 
   document.getElementById("overland").innerHTML = overlandHTML;
@@ -143,6 +108,11 @@ function Overland(regionName) {
 
 function mappedLocations(mapName) {
 
-  console.log(mapName);
+  console.log("Happening: " + threedsix(hsi.mapLocations[mapName].Happening));
 
+  for (var area in hsi.mapLocations[mapName].Areas) {
+    console.log("Area: " + area);
+    console.log("Encounter: " + threedsix(hsi.mapLocations[mapName].Encounter));
+    console.log("Motivation: " + threedsix(hsi.mapLocations[mapName].Motivation));
+  }
 }
