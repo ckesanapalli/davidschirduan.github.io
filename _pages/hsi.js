@@ -88,7 +88,6 @@ function Overland(regionName) {
   }
 
   document.getElementById("overland").innerHTML = overlandHTML;
-  document.getElementById("defaultOpen").innerHTML = regionName;
 
 }
 
