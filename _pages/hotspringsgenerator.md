@@ -16,17 +16,15 @@ description: >
 
 <div class="container generatorCard" id="overlandCard" style="margin-bottom: 30px;display:none;">
 <div class="row">
-  <div class="col noPadding"><button class="btn btn-black btn-lg" onclick="Overland('Light')">Light</button></div>
-  <div class="col noPadding"><button class="btn btn-black btn-lg" onclick="Overland('Heavy')">Heavy</button></div>
-  <div class="col noPadding"><button class="btn btn-black btn-lg" onclick="Overland('Mountainous')">Mountainous</button></div>
-  <div class="col noPadding"><button class="btn btn-black btn-lg" onclick="Overland('Volcano')">Volcano</button></div>
+  <div class="col-md-3 col noPadding"><button class="btn btn-black btn-lg" onclick="Overland('Light')">Light</button></div>
+  <div class="col-md-3 col noPadding"><button class="btn btn-black btn-lg" onclick="Overland('Heavy')">Heavy</button></div>
+  <div class="col-md-3 col noPadding"><button class="btn btn-black btn-lg" onclick="Overland('Mountainous')">Mountainous</button></div>
+  <div class="col-md-3 col noPadding"><button class="btn btn-black btn-lg" onclick="Overland('Volcano')">Volcano</button></div>
   <div class="col noPadding"><button class="btn btn-black btn-lg" onclick="Overland('Volcanic')">Volcanic</button></div>
   <div class="col noPadding"><button class="btn btn-black btn-lg" onclick="Overland('Ruins')">Ruins</button></div>
   <div class="col noPadding"><button class="btn btn-black btn-lg" onclick="Overland('Village')">Village</button></div>
   </div>
   <div id="overland" class="tabcontent">
-    <h2 class="tightSpacing">Encounter Name</h2>
-    <p>Encounter Description.</p>
   </div>
 </div>
 

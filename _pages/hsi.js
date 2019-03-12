@@ -1,12 +1,16 @@
-/**
- * 
- * TODO: 
+/** TODO: 
+ * Finish the Overland and Location tables.
  * Enable more rolling whenever the tables call for it (Fighting*)
- * Add motivations to the UI
  * Parse the 3d6+3 stuff
+ * Expand the adventurers
  * Add all the images
  * Clean up the UI for mobile and such
- * 
+ * Roller for the town
+ * Random Items
+ * Elvish Rumors
+ * small link next to each monster (show image)
+ * Expand the text descriptions of each creature
+ * Make it look more like the book (add skull/spear imagery)
  */
 
 var xmlhttp = new XMLHttpRequest();
@@ -112,11 +116,9 @@ function showCard(card) {
   if (card == "overlandCard") {
     document.getElementById("overlandCard").style = "margin-bottom: 30px;";
     document.getElementById("locationCard").style = "margin-bottom: 30px;display:none;";
-    Overland('Light');
   } else {
     document.getElementById("overlandCard").style = "margin-bottom: 30px;display:none;";
     document.getElementById("locationCard").style = "margin-bottom: 30px;";
-    Locations('Ashfire Mine');
   }
 
 }
