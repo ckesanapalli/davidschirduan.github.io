@@ -213,7 +213,55 @@
       "Motivation": ["Art/Performance ", "Mischief ", "Dying ", "Waiting ", "Interacting With* ", "Patrolling ", "Dancing ", "Eating/Drinking ", "Wait Staff ", "Social/Creative ", "Sleeping ", "Mating ", "Altered State ", "Hiding/Sneaking ", "Wounded ", "Fleeing*"],
       "Areas": ["1. Banquet Area", "2. Carny Row", "3. Buffet, and Booze Falls", "4. Floating Dodecahedron", "5. The Flaming Octagonal Battledome of DOOM!", "6. Svarku’s VIP Table"]
     }
+  },
+  "Hot Springs City": {
+    "Broken Quarter": {
+      "Building": ["Small Building", "Giant Elves Fucking", "Miniature Tower", "Huge Pregnant Elf", "Tenement House", "Giant Elf Head"],
+      "Material": ["Whalebone and Canvas", "Force-Grown Coral", "Mud Bricks", "Force-Grown Coral", "Drystone Coral", "Force-Grown Coral"],
+      "Was": ["Hovel", "Flop House/Slum", "Watch House/Torture Center", "Paupers Temple/Orgy House", "Slum/Rookery", "Drug Den/Flop House/Squat"],
+      "Now": ["You Could Push It Over", "Half-Drowned", "Mound of Fungus and Weeds", "Only Held Up by Rot", "Colonized by Ambermoss", "Huge Gaps in Facing"],
+      "Hides": ["Well-Concealed Shadow-Repelling Totem", "Hidden Bone or Coral Weapons", "Scraps of Gold", "A Few Hidden Gems", "Personal Jewlery", "Some Well-Preserved Drugs"],
+      "Guarded": ["Rat Tied to Stick", "Fake Curses", "Written Pleas Not to Steal", "Broken Golem Appendages", "Cage Traps and Wire Snares", "Cachuga Pepper Powder Trap"],
+      "Encounter": ["Mad Hermit", "Ruined Junkie Sailors", "Shadows", "Natives (Giant Rats)", "Giant Centipedes", "Outcast Lizardmen"]
+    },
+    "Iridescent Stair": {
+      "Building": ["Small Building", "Giant Elves Fucking", "Miniature Tower", "Huge Pregnant Elf", "Tenement House", "Giant Elf Head"],
+      "Material": ["Whalebone and Canvas", "Force-Grown Coral", "Mud Bricks", "Force-Grown Coral", "Drystone Coral", "Force-Grown Coral"],
+      "Was": ["Hovel", "Flop House/Slum", "Watch House/Torture Center", "Paupers Temple/Orgy House", "Slum/Rookery", "Drug Den/Flop House/Squat"],
+      "Now": ["You Could Push It Over", "Half-Drowned", "Mound of Fungus and Weeds", "Only Held Up by Rot", "Colonized by Ambermoss", "Huge Gaps in Facing"],
+      "Hides": ["Well-Concealed Shadow-Repelling Totem", "Hidden Bone or Coral Weapons", "Scraps of Gold", "A Few Hidden Gems", "Personal Jewlery", "Some Well-Preserved Drugs"],
+      "Guarded": ["Rat Tied to Stick", "Fake Curses", "Written Pleas Not to Steal", "Broken Golem Appendages", "Cage Traps and Wire Snares", "Cachuga Pepper Powder Trap"],
+      "Encounter": ["Mad Hermit", "Ruined Junkie Sailors", "Shadows", "Natives (Giant Rats)", "Giant Centipedes", "Outcast Lizardmen"]
+    },
+    "Crumbling Infestation": {
+      "Building": ["Small Building", "Giant Elves Fucking", "Miniature Tower", "Huge Pregnant Elf", "Tenement House", "Giant Elf Head"],
+      "Material": ["Whalebone and Canvas", "Force-Grown Coral", "Mud Bricks", "Force-Grown Coral", "Drystone Coral", "Force-Grown Coral"],
+      "Was": ["Hovel", "Flop House/Slum", "Watch House/Torture Center", "Paupers Temple/Orgy House", "Slum/Rookery", "Drug Den/Flop House/Squat"],
+      "Now": ["You Could Push It Over", "Half-Drowned", "Mound of Fungus and Weeds", "Only Held Up by Rot", "Colonized by Ambermoss", "Huge Gaps in Facing"],
+      "Hides": ["Well-Concealed Shadow-Repelling Totem", "Hidden Bone or Coral Weapons", "Scraps of Gold", "A Few Hidden Gems", "Personal Jewlery", "Some Well-Preserved Drugs"],
+      "Guarded": ["Rat Tied to Stick", "Fake Curses", "Written Pleas Not to Steal", "Broken Golem Appendages", "Cage Traps and Wire Snares", "Cachuga Pepper Powder Trap"],
+      "Encounter": ["Mad Hermit", "Ruined Junkie Sailors", "Shadows", "Natives (Giant Rats)", "Giant Centipedes", "Outcast Lizardmen"]
+    },
+    "Ruined Marketplace": {
+      "Building": ["Small Building", "Giant Elves Fucking", "Miniature Tower", "Huge Pregnant Elf", "Tenement House", "Giant Elf Head"],
+      "Material": ["Whalebone and Canvas", "Force-Grown Coral", "Mud Bricks", "Force-Grown Coral", "Drystone Coral", "Force-Grown Coral"],
+      "Was": ["Hovel", "Flop House/Slum", "Watch House/Torture Center", "Paupers Temple/Orgy House", "Slum/Rookery", "Drug Den/Flop House/Squat"],
+      "Now": ["You Could Push It Over", "Half-Drowned", "Mound of Fungus and Weeds", "Only Held Up by Rot", "Colonized by Ambermoss", "Huge Gaps in Facing"],
+      "Hides": ["Well-Concealed Shadow-Repelling Totem", "Hidden Bone or Coral Weapons", "Scraps of Gold", "A Few Hidden Gems", "Personal Jewlery", "Some Well-Preserved Drugs"],
+      "Guarded": ["Rat Tied to Stick", "Fake Curses", "Written Pleas Not to Steal", "Broken Golem Appendages", "Cage Traps and Wire Snares", "Cachuga Pepper Powder Trap"],
+      "Encounter": ["Mad Hermit", "Ruined Junkie Sailors", "Shadows", "Natives (Giant Rats)", "Giant Centipedes", "Outcast Lizardmen"]
+    },
+    "The Baths": {
+      "Building": ["Small Building", "Giant Elves Fucking", "Miniature Tower", "Huge Pregnant Elf", "Tenement House", "Giant Elf Head"],
+      "Material": ["Whalebone and Canvas", "Force-Grown Coral", "Mud Bricks", "Force-Grown Coral", "Drystone Coral", "Force-Grown Coral"],
+      "Was": ["Hovel", "Flop House/Slum", "Watch House/Torture Center", "Paupers Temple/Orgy House", "Slum/Rookery", "Drug Den/Flop House/Squat"],
+      "Now": ["You Could Push It Over", "Half-Drowned", "Mound of Fungus and Weeds", "Only Held Up by Rot", "Colonized by Ambermoss", "Huge Gaps in Facing"],
+      "Hides": ["Well-Concealed Shadow-Repelling Totem", "Hidden Bone or Coral Weapons", "Scraps of Gold", "A Few Hidden Gems", "Personal Jewlery", "Some Well-Preserved Drugs"],
+      "Guarded": ["Rat Tied to Stick", "Fake Curses", "Written Pleas Not to Steal", "Broken Golem Appendages", "Cage Traps and Wire Snares", "Cachuga Pepper Powder Trap"],
+      "Encounter": ["Mad Hermit", "Ruined Junkie Sailors", "Shadows", "Natives (Giant Rats)", "Giant Centipedes", "Outcast Lizardmen"]
+    }
   }
+
 
 
 }

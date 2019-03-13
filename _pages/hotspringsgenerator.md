@@ -35,7 +35,8 @@ description: >
     <div class="col noPadding"><button class="btn btn-black btn-lg" onclick="Locations('Crystal SeaCave')">Crystal SeaCave</button></div>
     <div class="col noPadding"><button class="btn btn-black btn-lg" onclick="Locations('Crystalflow')">Crystalflow</button></div>
     <div class="col noPadding"><button class="btn btn-black btn-lg" onclick="Locations('Dire Boar Den')">Dire Boar Den</button></div>
-    <div class="col noPadding"><button class="btn btn-black btn-lg" onclick="Locations('Glavrok Village')">Glavrok Village</button></div>
+    <div class="col noPadding"><button class="btn btn-black btn-lg" onclick="Locations('Glavrok Village')">Glavrok Village</button></div>    
+    <div class="col noPadding"><button class="btn btn-black btn-lg" onclick="HotSpringsCity()">Hot Springs City</button></div>
     <div class="col noPadding"><button class="btn btn-black btn-lg" onclick="Locations('Lapis Observatory')">Lapis Observatory</button></div>
     <div class="col noPadding"><button class="btn btn-black btn-lg" onclick="Locations('New Moon Party')">New Moon Party</button></div>
     <div class="col noPadding"><button class="btn btn-black btn-lg" onclick="Locations('Shattered Aquifer')">Shattered Aquifer</button></div>

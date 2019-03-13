@@ -44,7 +44,7 @@ function Overland(regionName) {
   switch (creature) {
     case ("Adventurer"):
       var motivation = threedsix(hsi.Intelligent.Motivations);
-      overlandHTML = "<h2 class=\"tightSpacing\">" + hsi.Intelligent[creature][Math.floor(Math.random() * hsi.Intelligent[creature].length)] + " (<i>" + motivation + ")</i></h2>";
+      overlandHTML = "<h2 class=\"tightSpacing\">Adventurer: " + hsi.Intelligent[creature][Math.floor(Math.random() * hsi.Intelligent[creature].length)] + " (<i>" + motivation + ")</i></h2>";
       break;
     case ("Fuegonauts"):
     case ("Night Axe"):
@@ -108,6 +108,37 @@ function Locations(mapName) {
   }
 
   document.getElementById("locationData").innerHTML = locationStuff;
+
+}
+
+function HotSpringsCity() {
+
+  var cityStuff = "";
+
+  for (var area in hsi['Hot Springs City']) {
+    console.log(area);
+
+    cityStuff = cityStuff + "<h2 class=\"tightSpacing\">" + area + "</h2>" +
+    "<p><ul>";
+
+    for (var i=0; i < 3; i++) {
+
+      cityStuff = cityStuff + "<li>" +
+        "A <strong>" + hsi["Hot Springs City"][area].Building[Math.floor(Math.random() * 6)] +
+        "</strong> built from <strong>" + hsi["Hot Springs City"][area].Material[Math.floor(Math.random() * 6)] +
+        "</strong>. It was a <strong>" + hsi["Hot Springs City"][area].Was[Math.floor(Math.random() * 6)] +
+        "</strong> and now <strong>" + hsi["Hot Springs City"][area].Now[Math.floor(Math.random() * 6)] +
+        "</strong>. Hidden inside are <strong>" + hsi["Hot Springs City"][area].Hides[Math.floor(Math.random() * 6)] +
+        "</strong>. Unfortunately guarded by <strong>" + hsi["Hot Springs City"][area].Guarded[Math.floor(Math.random() * 6)] +
+        "</strong>, you may also encounter <strong>" + hsi["Hot Springs City"][area].Encounter[Math.floor(Math.random() * 6)] +
+        "</strong>.</li>";
+
+      console.log(cityStuff);
+    }
+    cityStuff = cityStuff + "</ul></p>";
+  }
+
+  document.getElementById("locationData").innerHTML = cityStuff;
 
 }
 
