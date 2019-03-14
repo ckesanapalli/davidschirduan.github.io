@@ -10,7 +10,6 @@ description: >
 
 ![hsi.png]({{site.url}}/images/hsi.png)
 
-
 <div class="row" style="justify-content: space-around !important;margin-bottom:30px;">
   <div class="col-md-5 col noPadding">
   <a class="btn btn-black" onclick="showCard('overlandCard')">

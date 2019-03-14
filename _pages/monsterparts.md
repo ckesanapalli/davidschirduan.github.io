@@ -50,7 +50,8 @@ function monster() {
 
   var role = monsterparts.Roles[Math.floor(Math.random() * monsterparts.Roles.length)];
   var type = monsterparts.Types[Math.floor(Math.random() * monsterparts.Types.length)];
-  var trait = monsterparts.Traits[Math.floor(Math.random() * monsterparts.Traits.length)];
+  var trait1 = monsterparts.Traits[Math.floor(Math.random() * monsterparts.Traits.length)];  
+  var trait2 = monsterparts.Traits[Math.floor(Math.random() * monsterparts.Traits.length)];
   var flaw = monsterparts.Flaws[Math.floor(Math.random() * monsterparts.Flaws.length)];
 
   document.getElementById("creatureTitle").innerHTML = role[0] + " " + type[0];
@@ -59,9 +60,13 @@ function monster() {
   document.getElementById("typeDesc").innerHTML = type[1];
 
   /*If contributor blank, don't show*/
-  traitCont = trait[1];
+  traitCont1 = trait1[1];
+  traitCont2 = trait2[1];
 
-  if (traitCont != ""){
+  if (traitCont1 != ""){
+    traitCont = "<small><br> - Contributed by " + trait[1] + "</small>";
+  }
+  if (traitCont2 != ""){
     traitCont = "<small><br> - Contributed by " + trait[1] + "</small>";
   }
 
@@ -71,11 +76,10 @@ function monster() {
     flawCont = "<small><br> - Contributed by " + flaw[1] + "</small>";
   }
   
-  
-  
-  document.getElementById("traitDesc").innerHTML = "<strong>Trait:</strong> " + trait[0] + traitCont;
-  
+  document.getElementById("traitDesc").innerHTML = "<strong>Trait:</strong> " + trait1[0] + traitCont1;
 
+  document.getElementById("traitDesc").innerHTML = "<strong>Trait:</strong> " + trait2[0] + traitCont2;
+  
   document.getElementById("flawDesc").innerHTML =  "<strong>Flaw:</strong> " + flaw[0] + flawCont;
 
 }
