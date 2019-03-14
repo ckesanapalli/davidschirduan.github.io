@@ -23,6 +23,23 @@ function threedsix(jsonList) {
   return jsonList[diceSum];
 }
 
+
+function rollDice(text){
+
+  var diceFormula = /([1-9]\d*)?d([1-9]\d*)([+-]\d+)?/gi;
+  matches = text.match(diceFormula);
+
+  for (var i in matches){
+
+    var result = droll.roll(matches[i]);
+
+    text = text.replace(matches[i], result.total);
+
+  }
+
+  return text;
+}
+
 function overlandEncounter(regionName){
 
 var overlandHTML = "";
@@ -42,6 +59,7 @@ switch (creature) {
     motivation = threedsix(hsi.Intelligent.Motivations);
     var advNames = Object.keys(hsi.Intelligent.Adventurers);
     var adv = advNames[Math.floor(Math.random() * advNames.length)];
+    var desc = rollDice(hsi.Intelligent.Adventurers[adv]);
 
     overlandBlock = "<h2 class=\"tightSpacing\">" + adv + "</h2><h3 class=\"tightSpacing\">(<i>" + motivation + ")</i></h3><p>" + hsi.Intelligent.Adventurers[adv] + "</p>";
     break;
@@ -79,7 +97,8 @@ switch (creature) {
     motivation = threedsix(hsi.Elemental.Motivations);
 
     if (type == "Beast") {
-      number = threedsix(hsi.Beast.NumberOf);
+      rawnumber = threedsix(hsi.Beast.NumberOf);
+      number = rollDice(rawnumber);
       motivation = threedsix(hsi.Beast.Motivations)
     }
 
@@ -125,7 +144,8 @@ function Overland(regionName) {
 
 function Locations(mapName) {
 
-  var locationStuff = "<h3 class=\"tightSpacing\">" + threedsix(hsi.mapLocations[mapName].Happening) + "</h3>";
+  var happ = threedsix(hsi.mapLocations[mapName].Happening);
+  var locationStuff = "<h3 class=\"tightSpacing\">" + rollDice(happ) + "</h3>";
 
 
   for (var i = 0; i < hsi.mapLocations[mapName].Areas.length; i++) {
@@ -139,8 +159,9 @@ function Locations(mapName) {
     while (motivation.includes("*")) {
 
       motivation = threedsix(hsi.mapLocations[mapName].Motivation);
+      encoun = threedsix(hsi.mapLocations[mapName].Encounter);
 
-      locationStuff = locationStuff + "<p style=\"padding-left: 5px;margin-left:" + indent + "px;border-left:solid darkgrey " + border + "px\">" + threedsix(hsi.mapLocations[mapName].Encounter) + " <i>(" + motivation + ")</i></p>";
+      locationStuff = locationStuff + "<p style=\"padding-left: 5px;margin-left:" + indent + "px;border-left:solid darkgrey " + border + "px\">" + rollDice(encoun) + " <i>(" + motivation + ")</i></p>";
 
       indent = indent + 20;
       border = 3;
