@@ -4,6 +4,7 @@
  * Add all the images
  * Expand the text descriptions of each creature
  * remove caps on hot springs city stuff
+ * re-work encounters to put data in a singular format
  */
 
 var xmlhttp = new XMLHttpRequest();
@@ -22,80 +23,103 @@ function threedsix(jsonList) {
   return jsonList[diceSum];
 }
 
-function Overland(regionName) {
+function overlandEncounter(regionName){
 
-  var overlandHTML = "";
-  type = threedsix(hsi.regionTables[regionName]);
+var overlandHTML = "";
+var motivation = "";
 
-  /*Some of the step 1 table results are factions*/
-  if (type == "Fuegonauts" || type == "Night Axe") {
-    creature = type;
-  } else {
-    creature = threedsix(hsi[type][regionName]);
-  }
+type = threedsix(hsi.regionTables[regionName]);
 
-  switch (creature) {
-    case ("Adventurer"):
-      var motivation = threedsix(hsi.Intelligent.Motivations);
+/*Some of the step 1 table results are factions*/
+if (type == "Fuegonauts" || type == "Night Axe") {
+  creature = type;
+} else {
+  creature = threedsix(hsi[type][regionName]);
+}
 
-      var advs = Object.keys(hsi.Intelligent.Adventurers);
-      var adv = advs[Math.floor(Math.random() * advs.length)];
+switch (creature) {
+  case ("Adventurer"):
+    motivation = threedsix(hsi.Intelligent.Motivations);
+    var advNames = Object.keys(hsi.Intelligent.Adventurers);
+    var adv = advNames[Math.floor(Math.random() * advNames.length)];
 
-      console.log(adv);
+    overlandBlock = "<h2 class=\"tightSpacing\">" + adv + "</h2><h3 class=\"tightSpacing\">(<i>" + motivation + ")</i></h3><p>" + hsi.Intelligent.Adventurers[adv] + "</p>";
+    break;
+  case ("Fuegonauts"):
+  case ("Night Axe"):
+  case ("Lizardmen"):
+  case ("Nereid"):
+  case ("Vyderac"):
+    /*Dont add +1 to each dice roll because we need to reference a table anyway*/
+    var diceSum = Math.floor(Math.random() * 6) + Math.floor(Math.random() * 6) + Math.floor(Math.random() * 6);
+    motivation = threedsix(hsi.Intelligent.Motivations);
 
-      overlandHTML = "<h2 class=\"tightSpacing\">" + adv + "</h2><h3 class=\"tightSpacing\">(<i>" + motivation + ")</i></h3><p>" + hsi.Intelligent.Adventurers[adv] + "</p>";
-      break;
-    case ("Fuegonauts"):
-    case ("Night Axe"):
-    case ("Lizardmen"):
-    case ("Nereid"):
-    case ("Vyderac"):
-      /*Dont' add +1 to each dice roll because we need to reference a table anyway*/
-      var diceSum = Math.floor(Math.random() * 6) + Math.floor(Math.random() * 6) + Math.floor(Math.random() * 6);
+    for (unit in hsi.Intelligent[creature]) {
 
-      for (unit in hsi.Intelligent[creature]) {
-        var motivation = threedsix(hsi.Intelligent.Motivations);
-
-        if (hsi.Intelligent[creature][unit][diceSum] == 1) {
-          overlandHTML = overlandHTML + "<h2 class=\"tightSpacing\">" + 
-          hsi.Intelligent[creature][unit][diceSum] + " " + unit + 
+      if (hsi.Intelligent[creature][unit][diceSum] == 1) {
+        overlandHTML = overlandHTML + "<h2 class=\"tightSpacing\">" +
+          hsi.Intelligent[creature][unit][diceSum] + " " + unit +
           "</h2><h3 class=\"tightSpacing\">(<i>" + motivation + ")</i></h3>";
 
-          overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[unit] + "</p>";
-        } else if (hsi.Intelligent[creature][unit][diceSum] > 1) {
-          overlandHTML = overlandHTML + "<h2 class=\"tightSpacing\">" +
-          hsi.Intelligent[creature][unit][diceSum] + " " + unit + 
+        overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[unit] + "</p>";
+      } else if (hsi.Intelligent[creature][unit][diceSum] > 1) {
+        overlandHTML = overlandHTML + "<h2 class=\"tightSpacing\">" +
+          hsi.Intelligent[creature][unit][diceSum] + " " + unit +
           "s</h2><h3 class=\"tightSpacing\">(<i>" + motivation + ")</i></h3>";
 
-          overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[unit] + "</p>";
-          /*overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[unit] + "<br><a href=\"/images/HSI/" + unit + ".png\" target=\"_blank\">SHOW IMAGE</a></p>";*/
-        }
-
-      }
-      break;
-    default:
-
-      var number = "1";
-      var motivation = threedsix(hsi.Elemental.Motivations);
-
-      if (type == "Beast") {
-        number = threedsix(hsi.Beast.NumberOf);
-        motivation = threedsix(hsi.Beast.Motivations)
+        overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[unit] + "</p>";
+        /*overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[unit] + "<br><a href=\"/images/HSI/" + unit + ".png\" target=\"_blank\">SHOW IMAGE</a></p>";*/
       }
 
-      if (number == "1") {
-        overlandHTML = "<h2 class=\"tightSpacing\">" + number + " " + creature + "</h2><h3 class=\"tightSpacing\">(<i>" + motivation + ")</i></h3>";
-      } else {
-        overlandHTML = "<h2 class=\"tightSpacing\">" + number + " " + creature + "s</h2><h3 class=\"tightSpacing\">(<i>" + motivation + ")</i></h3>";
-      }
+    }
+    break;
+  default:
 
-      overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[creature] + "</p>";
+    var number = "1";
+    motivation = threedsix(hsi.Elemental.Motivations);
 
-      /*overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[creature] + "<br><a href=\"/images/HSI/" + creature + ".png\" target=\"_blank\">SHOW IMAGE</a></p>";*/
+    if (type == "Beast") {
+      number = threedsix(hsi.Beast.NumberOf);
+      motivation = threedsix(hsi.Beast.Motivations)
+    }
+
+    if (number == "1") {
+      overlandHTML = "<h2 class=\"tightSpacing\">" + number + " " + creature + "</h2><h3 class=\"tightSpacing\">(<i>" + motivation + ")</i></h3>";
+    } else {
+      overlandHTML = "<h2 class=\"tightSpacing\">" + number + " " + creature + "s</h2><h3 class=\"tightSpacing\">(<i>" + motivation + ")</i></h3>";
+    }
+
+    overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[creature] + "</p>";
+
+    /*overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[creature] + "<br><a href=\"/images/HSI/" + creature + ".png\" target=\"_blank\">SHOW IMAGE</a></p>";*/
   }
 
+  return [motivation, overlandHTML];
 
-  document.getElementById("overlandData").innerHTML = overlandHTML;
+}
+
+function Overland(regionName) {
+
+  var encounter = overlandEncounter(regionName);
+
+  var motivation = encounter[0];
+  var htmlBLOCK = encounter[1];
+
+  indent = 20;
+  
+  while (motivation.includes("*")) {
+
+    encounter = overlandEncounter(regionName);
+
+    motivation = encounter[0];
+    htmlBLOCK = htmlBLOCK + "<div style=\"margin-left: " + indent + "px;border-left:3px solid darkgrey;padding-left: 5px;\">" +
+    encounter[1] + "</div>";
+
+    indent = indent + 20;
+
+  }
+
+  document.getElementById("overlandData").innerHTML = htmlBLOCK;
 
 }
 
@@ -106,9 +130,26 @@ function Locations(mapName) {
 
   var locationStuff = "<h3 class=\"tightSpacing\">" + threedsix(hsi.mapLocations[mapName].Happening) + "</h3>";
 
+
   for (var i = 0; i < hsi.mapLocations[mapName].Areas.length; i++) {
+
+    var indent = 20;
+    var border = 0;
+    var motivation = "*";
+
     locationStuff = locationStuff + "<h2 class=\"tightSpacing\">" + hsi.mapLocations[mapName].Areas[i] + "</h2>";
-    locationStuff = locationStuff + "<p style=\"padding-left:20px;\">" + threedsix(hsi.mapLocations[mapName].Encounter) + " <br><i>(" + threedsix(hsi.mapLocations[mapName].Motivation) + ")</i></p>";
+
+    while (motivation.includes("*")) {
+
+      motivation = threedsix(hsi.mapLocations[mapName].Motivation);
+
+      locationStuff = locationStuff + "<p style=\"padding-left: 5px;margin-left:" + indent + "px;border-left:solid darkgrey " + border + "px\">" + threedsix(hsi.mapLocations[mapName].Encounter) + " <i>(" + motivation + ")</i></p>";
+
+      indent = indent + 20;
+      border = 3;
+
+    }
+
   }
 
   document.getElementById("locationData").innerHTML = locationStuff;
@@ -129,12 +170,12 @@ function HotSpringsCity() {
       for (var i=0; i < 3; i++) {
 
         cityStuff = cityStuff + "<li>" +
-          "A <strong>" + hsi["Hot Springs City"][area].Building[Math.floor(Math.random() * 6)] +
-          "</strong> built from <strong>" + hsi["Hot Springs City"][area].Material[Math.floor(Math.random() * 6)] +
-          "</strong>. It was a <strong>" + hsi["Hot Springs City"][area].Was[Math.floor(Math.random() * 6)] +
-          "</strong> and now <strong>" + hsi["Hot Springs City"][area].Now[Math.floor(Math.random() * 6)] +
-          "</strong>. Hidden inside are <strong>" + hsi["Hot Springs City"][area].Hides[Math.floor(Math.random() * 6)] +
-          "</strong>. Unfortunately guarded by <strong>" + hsi["Hot Springs City"][area].Guarded[Math.floor(Math.random() * 6)] +
+          "A <strong>" + hsi["Hot Springs City"][area].building[Math.floor(Math.random() * 6)] +
+          "</strong> built from <strong>" + hsi["Hot Springs City"][area].material[Math.floor(Math.random() * 6)] +
+          "</strong>. It was a <strong>" + hsi["Hot Springs City"][area].was[Math.floor(Math.random() * 6)] +
+          "</strong> and now <strong>" + hsi["Hot Springs City"][area].now[Math.floor(Math.random() * 6)] +
+          "</strong>. Hidden inside are <strong>" + hsi["Hot Springs City"][area].hides[Math.floor(Math.random() * 6)] +
+          "</strong>. Unfortunately guarded by <strong>" + hsi["Hot Springs City"][area].guarded[Math.floor(Math.random() * 6)] +
           "</strong>, you may also encounter <strong>" + hsi["Hot Springs City"][area].Encounter[Math.floor(Math.random() * 6)] +
           "</strong>.</li>";
 
