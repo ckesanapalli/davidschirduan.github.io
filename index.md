@@ -14,6 +14,19 @@ cover:  true
 <div class="columns">
   <div class="column column-1-2">
     <article class="project-card">
+      <a href="/tempered-legacy" class="no-hover no-print-link flip-project" tabindex="-1">
+        <div class="project-card-img img sixteen-nine">
+          <img src="/images/temperedlegacy.png" alt="Tempered Legacy" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
+        </div>
+      </a>
+      <h3 class="project-card-title">
+        <a href="/tempered-legacy" class="flip-title">Tempered Legacy</a>
+      </h3>
+      <legend class="project-card-text fine faded">A rogue-lite tabletop RPG framework where you are a Weapon wielded by many.</legend>
+    </article>
+  </div>
+  <div class="column column-1-2">
+    <article class="project-card">
       <a href="/bone-marshes" class="no-hover no-print-link flip-project" tabindex="-1">
         <div class="project-card-img img sixteen-nine">
           <img src="/images/posts/bonemarshes_KS.jpg" alt="Bone Marshes" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
@@ -23,19 +36,6 @@ cover:  true
         <a href="/bone-marshes" class="flip-title">The Bone Marshes</a>
       </h3>
       <legend class="project-card-text fine faded">A Hex-Mapping Adventure</legend>
-    </article>
-  </div>
-  <div class="column column-1-2">
-    <article class="project-card">
-      <a href="/clink" class="no-hover no-print-link flip-project" tabindex="-1">
-        <div class="project-card-img img sixteen-nine">
-          <img src="/images/posts/ClinkCover.png" alt="Clink" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
-        </div>
-      </a>
-      <h3 class="project-card-title">
-        <a href="/clink" class="flip-title">Clink</a>
-      </h3>
-      <legend class="project-card-text fine faded">Mysterious Drifters in a Dangerous World</legend>
     </article>
   </div>
   <div class="column column-2-2">
