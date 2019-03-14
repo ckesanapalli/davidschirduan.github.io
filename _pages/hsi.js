@@ -3,6 +3,7 @@
  * Parse the 3d6+3 stuff
  * Add all the images
  * Expand the text descriptions of each creature
+ * remove caps on hot springs city stuff
  */
 
 var xmlhttp = new XMLHttpRequest();
@@ -60,13 +61,14 @@ function Overland(regionName) {
           hsi.Intelligent[creature][unit][diceSum] + " " + unit + 
           " <i>(" + motivation + ")</i></h2>";
 
-          overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[unit] + "<br><a href=\"/images/HSI/" + unit + ".png\" target=\"_blank\">SHOW IMAGE</a></p>";
+          overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[unit] + "</p>";
         } else if (hsi.Intelligent[creature][unit][diceSum] > 1) {
           overlandHTML = overlandHTML + "<h2 class=\"tightSpacing\">" +
           hsi.Intelligent[creature][unit][diceSum] + " " + unit + 
           "s <i>(" + motivation + ")</i></h2>";
 
-          overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[unit] + "<br><a href=\"/images/HSI/" + unit + ".png\" target=\"_blank\">SHOW IMAGE</a></p>";
+          overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[unit] + "</p>";
+          /*overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[unit] + "<br><a href=\"/images/HSI/" + unit + ".png\" target=\"_blank\">SHOW IMAGE</a></p>";*/
         }
 
       }
@@ -87,7 +89,9 @@ function Overland(regionName) {
         overlandHTML = "<h2 class=\"tightSpacing\">" + number + " " + creature + "s <i>(" + motivation + ")</i></h2>";
       }
 
-      overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[creature] + "<br><a href=\"/images/HSI/" + creature + ".png\" target=\"_blank\">SHOW IMAGE</a></p>";
+      overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[creature] + "</p>";
+
+      /*overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[creature] + "<br><a href=\"/images/HSI/" + creature + ".png\" target=\"_blank\">SHOW IMAGE</a></p>";*/
   }
 
 
