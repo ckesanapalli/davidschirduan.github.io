@@ -3,7 +3,6 @@
  * Parse the 3d6+3 stuff
  * Add all the images
  * Expand the text descriptions of each creature
- * Make it look more like the book (add skull/spear imagery)
  */
 
 var xmlhttp = new XMLHttpRequest();
