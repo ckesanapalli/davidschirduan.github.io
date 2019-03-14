@@ -1,10 +1,6 @@
 /** TODO: 
- * Enable more rolling whenever the tables call for it (Fighting*)
- * Parse the 3d6+3 stuff
  * Add all the images
  * Expand the text descriptions of each creature
- * remove caps on hot springs city stuff
- * re-work encounters to put data in a singular format
  */
 
 var xmlhttp = new XMLHttpRequest();
