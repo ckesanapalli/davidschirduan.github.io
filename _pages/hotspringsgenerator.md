@@ -76,4 +76,6 @@ Hot Springs Island is one of the most imaginative, easy to use, and enjoyable ta
  - [Christopher P. Wolf](http://chrispwolf.com/) for the code that inspired these generators.
  - And to the [OSR community](https://discord.gg/kJjMvC) for being such an encouraging, welcoming place.
 
+
+<script src="/_pages/droll.js"></script>
 <script async src="/_pages/hsi.js" charset="utf-8"></script>

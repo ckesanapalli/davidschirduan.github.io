@@ -125,9 +125,6 @@ function Overland(regionName) {
 
 function Locations(mapName) {
 
-  console.log(threedsix(hsi.mapLocations[mapName].Happening));
-  console.log(hsi.mapLocations[mapName].Areas.length);
-
   var locationStuff = "<h3 class=\"tightSpacing\">" + threedsix(hsi.mapLocations[mapName].Happening) + "</h3>";
 
 
@@ -161,7 +158,6 @@ function HotSpringsCity() {
   var cityStuff = "";
 
   for (var area in hsi['Hot Springs City']) {
-    console.log(area);
 
     if (area != "Tables"){
       cityStuff = cityStuff + "<h2 class=\"tightSpacing\">" + area + "</h2>" +
