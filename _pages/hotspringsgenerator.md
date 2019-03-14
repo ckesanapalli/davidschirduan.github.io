@@ -10,7 +10,7 @@ description: >
 
 ![hsi.png]({{site.url}}/images/hsi.png)
 
-Hot Springs Island is one of the most imaginative, easy to use, and enjoyable tabletop supplements I've ever read. [**Buy it here**](http://shop.swordfishislands.com/). I hope this tool makes it even easier to use!
+Hot Springs Island is one of the most imaginative, easy to use, and enjoyable tabletop supplements I've ever read. [**Buy it here**](http://shop.swordfishislands.com/). If you need creature stats or shop inventory grab my [reference handout here](/files/HotSpringsReference.pdf).
 
 <div class="row" style="justify-content: space-around !important;margin-bottom:30px;">
   <div class="col-md-5 col noPadding">
@@ -72,10 +72,9 @@ Hot Springs Island is one of the most imaginative, easy to use, and enjoyable ta
 
 **Thanks to:**
 
- - [Jacob Hurst](https://twitter.com/vyderac) for writing Hot Springs Island and making it such a beautiful, wonderful world to explore.
+ - [Jacob Hurst](https://twitter.com/vyderac) for writing Hot Springs Island and making it such a beautiful, wonderful world to explore. Also thanks for encouraging me in making this generator, and all fan projects!
  - [Christopher P. Wolf](http://chrispwolf.com/) for the code that inspired these generators.
  - And to the [OSR community](https://discord.gg/kJjMvC) for being such an encouraging, welcoming place.
-
 
 <script src="/_pages/droll.js"></script>
 <script async src="/_pages/hsi.js" charset="utf-8"></script>

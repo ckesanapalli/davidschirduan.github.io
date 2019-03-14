@@ -11,6 +11,8 @@ I don't mean the books are alive, although they look sharp enough to cut somebod
 
 ## I whipped up a reference sheet for this awesome setting. [Grab it here!]({{site.url}}/files/HotSpringsReference.pdf)
 
+## And I made a [mobile-friendly generator](/hotspringsgenerator)!
+
 ![IMG_0014.JPG]({{site.url}}/images/posts/IMG_0014.JPG)
 
 Looking at the two books above you might ask: "Which one is the adventure?" And the answer is both. They are both the adventure. 
