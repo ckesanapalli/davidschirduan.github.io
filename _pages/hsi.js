@@ -57,7 +57,7 @@ switch (creature) {
     var adv = advNames[Math.floor(Math.random() * advNames.length)];
     var desc = rollDice(hsi.Intelligent.Adventurers[adv]);
 
-    overlandBlock = "<h2 class=\"tightSpacing\">" + adv + "</h2><h3 class=\"tightSpacing\">(<i>" + motivation + ")</i></h3><p>" + hsi.Intelligent.Adventurers[adv] + "</p>";
+    overlandHTML = "<h2 class=\"tightSpacing\">" + adv + "</h2><h3 class=\"tightSpacing\">(<i>" + motivation + ")</i></h3><p>" + desc + "</p>";
     break;
   case ("Fuegonauts"):
   case ("Night Axe"):
