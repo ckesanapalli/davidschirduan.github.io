@@ -34,7 +34,6 @@ Hot Springs Island is one of the most imaginative, easy to use, and enjoyable ta
   </div>
   <div id="overlandData" class="HSItabcontent">
   </div>
-  <img src="/images/HSI/BG2.png">
 </div>
 
 <div class="container generatorCard" id="locationCard" style="margin-bottom: 30px;display:none;">
@@ -55,7 +54,6 @@ Hot Springs Island is one of the most imaginative, easy to use, and enjoyable ta
   </div>
   <div class="HSItabcontent" id="locationData">
   </div>
-  <img src="/images/HSI/BG2.png">
 </div>
 
 <div class="row" style="justify-content: space-around !important;margin-bottom: 30px;">
@@ -67,7 +65,6 @@ Hot Springs Island is one of the most imaginative, easy to use, and enjoyable ta
 <div class="container generatorCard" id="extraCard" style="margin-bottom: 30px;display:none;">
   <div class="HSItabcontent" id="extraData">
   </div>
-  <img src="/images/HSI/BG1.png">
 </div>
 
 **Thanks to:**
