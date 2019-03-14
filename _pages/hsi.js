@@ -43,7 +43,7 @@ function Overland(regionName) {
 
       console.log(adv);
 
-      overlandHTML = "<h2 class=\"tightSpacing\">" + adv + " (<i>" + motivation + ")</i></h2><p>" + hsi.Intelligent.Adventurers[adv] + "</p>";
+      overlandHTML = "<h2 class=\"tightSpacing\">" + adv + "</h2><h3 class=\"tightSpacing\">(<i>" + motivation + ")</i></h3><p>" + hsi.Intelligent.Adventurers[adv] + "</p>";
       break;
     case ("Fuegonauts"):
     case ("Night Axe"):
@@ -59,13 +59,13 @@ function Overland(regionName) {
         if (hsi.Intelligent[creature][unit][diceSum] == 1) {
           overlandHTML = overlandHTML + "<h2 class=\"tightSpacing\">" + 
           hsi.Intelligent[creature][unit][diceSum] + " " + unit + 
-          " <i>(" + motivation + ")</i></h2>";
+          "</h2><h3 class=\"tightSpacing\">(<i>" + motivation + ")</i></h3>";
 
           overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[unit] + "</p>";
         } else if (hsi.Intelligent[creature][unit][diceSum] > 1) {
           overlandHTML = overlandHTML + "<h2 class=\"tightSpacing\">" +
           hsi.Intelligent[creature][unit][diceSum] + " " + unit + 
-          "s <i>(" + motivation + ")</i></h2>";
+          "s</h2><h3 class=\"tightSpacing\">(<i>" + motivation + ")</i></h3>";
 
           overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[unit] + "</p>";
           /*overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[unit] + "<br><a href=\"/images/HSI/" + unit + ".png\" target=\"_blank\">SHOW IMAGE</a></p>";*/
@@ -84,9 +84,9 @@ function Overland(regionName) {
       }
 
       if (number == "1") {
-        overlandHTML = "<h2 class=\"tightSpacing\">" + number + " " + creature + " <i>(" + motivation + ")</i></h2>";
+        overlandHTML = "<h2 class=\"tightSpacing\">" + number + " " + creature + "</h2><h3 class=\"tightSpacing\">(<i>" + motivation + ")</i></h3>";
       } else {
-        overlandHTML = "<h2 class=\"tightSpacing\">" + number + " " + creature + "s <i>(" + motivation + ")</i></h2>";
+        overlandHTML = "<h2 class=\"tightSpacing\">" + number + " " + creature + "s</h2><h3 class=\"tightSpacing\">(<i>" + motivation + ")</i></h3>";
       }
 
       overlandHTML = overlandHTML + "<p>" + hsi.creatureDetails[creature] + "</p>";
@@ -95,7 +95,7 @@ function Overland(regionName) {
   }
 
 
-  document.getElementById("overland").innerHTML = overlandHTML;
+  document.getElementById("overlandData").innerHTML = overlandHTML;
 
 }
 
@@ -108,7 +108,7 @@ function Locations(mapName) {
 
   for (var i = 0; i < hsi.mapLocations[mapName].Areas.length; i++) {
     locationStuff = locationStuff + "<h2 class=\"tightSpacing\">" + hsi.mapLocations[mapName].Areas[i] + "</h2>";
-    locationStuff = locationStuff + "<p style=\"padding-left:20px;\">" + threedsix(hsi.mapLocations[mapName].Encounter) + " <i>(" + threedsix(hsi.mapLocations[mapName].Motivation) + ")</i></p>";
+    locationStuff = locationStuff + "<p style=\"padding-left:20px;\">" + threedsix(hsi.mapLocations[mapName].Encounter) + " <br><i>(" + threedsix(hsi.mapLocations[mapName].Motivation) + ")</i></p>";
   }
 
   document.getElementById("locationData").innerHTML = locationStuff;
@@ -144,18 +144,6 @@ function HotSpringsCity() {
   }
 
   document.getElementById("locationData").innerHTML = cityStuff;
-}
-
-function showCard(card) {
-
-  if (card == "overlandCard") {
-    document.getElementById("overlandCard").style = "margin-bottom: 30px;";
-    document.getElementById("locationCard").style = "margin-bottom: 30px;display:none;";
-  } else {
-    document.getElementById("overlandCard").style = "margin-bottom: 30px;display:none;";
-    document.getElementById("locationCard").style = "margin-bottom: 30px;";
-  }
-
 }
 
 function getRndInteger(min, max) {
@@ -196,7 +184,7 @@ function treasure(){
   var treasureText = treasureText + "</div>";
 
   document.getElementById("extraData").innerHTML = treasureText;
-  document.getElementById("extraCard").style = "margin-bottom: 30px;";
+  showCard("extra");
 }
 
 function rumors() {
@@ -209,7 +197,7 @@ function rumors() {
     hsi.Rumors[Math.floor(Math.random() * hsi.Rumors.length)] +
     "</p>";
 
-  document.getElementById("extraCard").style = "margin-bottom: 30px;";
+  showCard("extra");
 
 }
 
@@ -247,5 +235,22 @@ function golems(){
     hsi.Golems.Effect[Math.floor(Math.random() * hsi.Golems.Effect.length)] + "</i></p>";
 
   document.getElementById("extraData").innerHTML = golemText;
-  document.getElementById("extraCard").style = "margin-bottom: 30px;";
+  showCard("extra");
+}
+
+function showCard(name){
+
+  switch (name){
+    case "overland":
+    document.getElementById("overlandCard").style = "margin-bottom: 30px;";
+    document.getElementById("locationCard").style = "margin-bottom: 30px;display:none;";
+    break;
+    case "location":
+    document.getElementById("locationCard").style = "margin-bottom: 30px;";
+    document.getElementById("overlandCard").style = "margin-bottom: 30px;display:none;";
+    break;
+    case "extra":
+    document.getElementById("extraCard").style = "margin-bottom: 30px;";
+    break;
+  }
 }

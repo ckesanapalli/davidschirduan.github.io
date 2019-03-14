@@ -18,7 +18,8 @@ This generator aims to help Game Masters come up with unique creatures. Use thes
   <div class="row" style="justify-content: space-around !important;">
 		<div class="col-12 tightSpacing generatorCard">
       <h2 id="creatureTitle" class="tightSpacing">Role: Blank</h2>
-      <p id="traitDesc">This part described how the Role works and what it does</p>
+      <p id="trait1Desc">This part described how the Role works and what it does</p>
+      <p id="trait2Desc">This part described how the Role works and what it does</p>
       <p id="flawDesc">This part described how the Role works and what it does</p>
 		  <p class="tightSpacing" id="roleDesc"></p>
 		  <p class="tightSpacing" id="typeDesc"></p>
@@ -64,10 +65,10 @@ function monster() {
   traitCont2 = trait2[1];
 
   if (traitCont1 != ""){
-    traitCont = "<small><br> - Contributed by " + trait[1] + "</small>";
+    traitCont1 = "<small><br> - Contributed by " + trait1[1] + "</small>";
   }
   if (traitCont2 != ""){
-    traitCont = "<small><br> - Contributed by " + trait[1] + "</small>";
+    traitCont2 = "<small><br> - Contributed by " + trait2[1] + "</small>";
   }
 
   flawCont = flaw[1];
@@ -76,9 +77,9 @@ function monster() {
     flawCont = "<small><br> - Contributed by " + flaw[1] + "</small>";
   }
   
-  document.getElementById("traitDesc").innerHTML = "<strong>Trait:</strong> " + trait1[0] + traitCont1;
+  document.getElementById("trait1Desc").innerHTML = "<strong>Trait:</strong> " + trait1[0] + traitCont1;
 
-  document.getElementById("traitDesc").innerHTML = "<strong>Trait:</strong> " + trait2[0] + traitCont2;
+  document.getElementById("trait2Desc").innerHTML = "<strong>Trait:</strong> " + trait2[0] + traitCont2;
   
   document.getElementById("flawDesc").innerHTML =  "<strong>Flaw:</strong> " + flaw[0] + flawCont;
 

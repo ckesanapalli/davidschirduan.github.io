@@ -81,24 +81,11 @@ visibility: hidden;
 
 .HSItabcontent {
   padding: 6px 12px;
+  min-height:500px;
   border: 1px solid #ccc;
   border-top: none;
-  min-height: 400px;
   margin-right: -15px;
   margin-left: -15px;
-    /*background-image: url(/images/HSI/BR-hsi.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 500px;*/
-}
-
-div.HSItabcontent p,
-div.HSItabcontent ul,
-div.HSItabcontent li,
-div.HSItabcontent h1, 
-div.HSItabcontent h2, 
-div.HSItabcontent h3 {
-  background-color: whitesmoke !important;
 }
 
 //ynn generator

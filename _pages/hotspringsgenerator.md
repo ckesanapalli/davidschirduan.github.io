@@ -5,18 +5,20 @@ permalink: hotspringsgenerator
 published: true
 image: /images/hsi.png
 description: >
-  A mobile-friendly generator for Hot Springs Island.
+  A mobile-friendly tool for Hot Springs Island.
 ---
 
 ![hsi.png]({{site.url}}/images/hsi.png)
 
+Hot Springs Island is one of the most imaginative, easy to use, and enjoyable tabletop supplements I've ever read. [**Buy it here**](http://shop.swordfishislands.com/). I hope this tool makes it even easier to use!
+
 <div class="row" style="justify-content: space-around !important;margin-bottom:30px;">
   <div class="col-md-5 col noPadding">
-  <a class="btn btn-black" onclick="showCard('overlandCard')">
+  <a class="btn btn-black" onclick="showCard('overland')">
   <h1 class="tightSpacing">Overland</h1></a></div>
 
   <div class="col-md-5 col noPadding">
-  <a class="btn btn-black" onclick="showCard('locationCard')">
+  <a class="btn btn-black" onclick="showCard('location')">
   <h1 class="tightSpacing">Locations</h1></a></div>
 </div>
 
@@ -30,8 +32,9 @@ description: >
   <div class="col noPadding"><button class="btn btn-black" onclick="Overland('Ruins')">Ruins</button></div>
   <div class="col noPadding"><button class="btn btn-black" onclick="Overland('Village')">Village</button></div>
   </div>
-  <div id="overland" class="HSItabcontent">
+  <div id="overlandData" class="HSItabcontent">
   </div>
+  <img src="/images/HSI/BG2.png">
 </div>
 
 <div class="container generatorCard" id="locationCard" style="margin-bottom: 30px;display:none;">
@@ -52,6 +55,7 @@ description: >
   </div>
   <div class="HSItabcontent" id="locationData">
   </div>
+  <img src="/images/HSI/BG2.png">
 </div>
 
 <div class="row" style="justify-content: space-around !important;margin-bottom: 30px;">
@@ -63,6 +67,7 @@ description: >
 <div class="container generatorCard" id="extraCard" style="margin-bottom: 30px;display:none;">
   <div class="HSItabcontent" id="extraData">
   </div>
+  <img src="/images/HSI/BG1.png">
 </div>
 
 **Thanks to:**
