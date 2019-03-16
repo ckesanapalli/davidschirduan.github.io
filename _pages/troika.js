@@ -12,6 +12,15 @@ function generate() {
   document.getElementById("charCard").style = "";
   document.getElementById("turnCard").style = "display:none";
 
+  skill = Math.floor(Math.random() * 3) + 4;
+  stamina = Math.floor(Math.random() * 6) + Math.floor(Math.random() * 6) + 14;
+  luck = Math.floor(Math.random() * 6) + 7;
+
+  background = ((Math.floor(Math.random() * 6) + 1) * 10) + 
+  (Math.floor(Math.random() * 6) + 1);
+
+  provisions = ["2d6 Silver Pence", "Knife", "Lantern & flask of oil", "Rucksack", "6 Provisions"];
+
 }
 
 function showTracker() {
