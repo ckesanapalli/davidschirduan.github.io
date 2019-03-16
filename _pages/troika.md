@@ -10,8 +10,6 @@ description: >
 
 ![troika.png]({{site.url}}/images/troika.png)
 
-Tempered Legacy is a rogue-lite tabletop RPG framework where you are a Weapon wielded by many. [Rules, GM advice, and character sheets here](/tempered-legacy).
-
 <div class="row">
   <div class="col tightSpacing buttonWrapper"><button id="weaponButton" class="btn btn-primary btn-lg" onclick="generate()">Generate
       Character</button></div>
