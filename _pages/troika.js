@@ -18,7 +18,7 @@ function showTracker() {
   document.getElementById("turnCard").style = "";
   document.getElementById("charCard").style = "display:none";
 
-  allColors = ["Red", "Green", "Blue", "Purple", "Yellow", "Silver", "Gold", "Orange", "Fuchsia", "Lime", "Olive", "Teal", "Maroon", "Navy", "Indigo", "Tomato", "Coral", "Tan", "Honey", "Brown"];
+  allColors = ["Crimson", "Green", "Blue", "Purple", "Yellow", "Silver", "Gold", "Orange", "Fuchsia", "Lime", "Olive", "Teal", "Maroon", "Navy", "Indigo", "Tomato", "Coral", "Tan", "Honey", "Brown"];
 
   allTokens = [];
   turnNumber = 0;
