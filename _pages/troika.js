@@ -61,7 +61,7 @@ function turns(turnAction) {
 
       allTokens.push("End Round");
 
-      colorText = "<p><strong>Assign each Player Character one of the following colors:</strong><br>" + showColors.join(", ") + "</p>";
+      colorText = "<h3 class=\"tightSpacing\"><strong>Player Colors:</strong><br>" + showColors.join(", ") + "</p>";
 
       document.getElementById("tokenList").innerHTML = colorText;
       countTokens();
@@ -131,7 +131,7 @@ function flipCoin(token) {
     coinFace.style.backgroundImage = "url('/images/BackToken.png')";
     document.getElementById("coinText").innerText = "New Round";
     coinFace.style.backgroundColor = "silver";
-    turnText = "<p style=\"margin: unset;\">0. New Round</p>";
+    turnText = "<p style=\"margin: unset;\"><strong>0. New Round</strong></p>";
     break;
 
     default:
