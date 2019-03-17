@@ -24,9 +24,9 @@ Troika! is one of the most imaginative RPGs I've had the pleasure of enjoying. [
     <div class="col-12 tightSpacing h1" id="charClass">THIS IS BROKEN! FLEE!</div>
   </div>
   <div class="row" style="justify-content: space-around !important;">
-    <div class="col-3 tightSpacing h3" id="charStamina"></div>
-    <div class="col-3 tightSpacing h3" id="charSkill"></div>
-    <div class="col-3 tightSpacing h3" id="charLuck"></div>
+    <div class="col-md-3 col tightSpacing h3" id="charStamina"></div>
+    <div class="col-md-3 col tightSpacing h3" id="charSkill"></div>
+    <div class="col-md-3 col tightSpacing h3" id="charLuck"></div>
   </div>
   <hr class="tightSpacing">
   <div class="row">
