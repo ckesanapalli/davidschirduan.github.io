@@ -59,7 +59,8 @@ function showTracker() {
   roundEnd = true;
   turnText = "";
 
-  turns('round');
+  e = document.getElementById('tokenCoin');
+
 
 }
 
@@ -99,6 +100,10 @@ function turns(turnAction) {
       document.getElementById("tokenList").innerHTML = colorText;
       countTokens();
       flipCoin('New Round');
+
+      document.getElementById("nextTurn").style = "";
+      document.getElementById("turnList").style = "";
+      document.getElementById("tokenList").style = "margin-top: 20px;";
 
       break;
 
@@ -179,11 +184,17 @@ function flipCoin(token) {
   }
 
   document.getElementById("turnList").innerHTML = turnText;
+
   degrees = degrees + 180;
-  coinFace.style.webkitTransform = "rotateY(" + degrees + "deg)";
+
+  var transitionEvent = whichTransitionEvent();
+  transitionEvent && e.addEventListener(transitionEvent, function () {
   coinFace.style.backgroundImage = bgImage;
   document.getElementById("coinText").innerText = coinTxt;
   coinFace.style.backgroundColor = bgColor;
+  coinFace.style.webkitTransform = "rotateY(" + degrees + "deg)";
+  });
+
 
 }
 
@@ -227,3 +238,27 @@ function countTokens() {
   }
   document.getElementById("tokenList").innerHTML = tokenText + "</ul>";
 }
+
+
+/* From Modernizr */
+
+function whichTransitionEvent() {
+  var t;
+  var el = document.createElement('fakeelement');
+  var transitions = {
+    'transition': 'transitionend',
+    'OTransition': 'oTransitionEnd',
+    'MozTransition': 'transitionend',
+    'WebkitTransition': 'webkitTransitionEnd'
+  }
+
+  for (t in transitions) {
+    if (el.style[t] !== undefined) {
+      return transitions[t];
+    }
+  }
+}
+
+/*
+	The "whichTransitionEvent" can be swapped for "animation" instead of "transition" texts, as can the usage :)
+*/

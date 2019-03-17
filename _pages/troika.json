@@ -235,7 +235,7 @@
     "64": {
       "Name": "Wizard Hunter",
       "Text": "Some people say man is the most dangerous prey. They’re wrong. Can men ignite the air and freeze your blood? Can men turn into flocks of seagulls when cornered in an alley? No, they can’t. Wizards are the most dangerous prey.",
-      "Posessions": ["Large sack", "Witch-hair rope", "Crossbow (DMG 4, 4, 6, 8, 8, 8, 10) and 12 bolts", "Sword (DMG 4, 6, 6, 6, 6, 8, 10)", "1d6 PocKet Gods", "Ruby Lorgnette"],
+      "Posessions": ["Large sack", "Witch-hair rope", "Crossbow (DMG 4, 4, 6, 8, 8, 8, 10) and 12 bolts", "Sword (DMG 4, 6, 6, 6, 6, 8, 10)", "1d6 Pocket Gods", "Ruby Lorgnette"],
       "Skills": ["2 Tracking", "2 Disguise", "2 Crossbow Fighting", "1 Sword Fighting", "1 Sneak", "1 Locks", "1 Etiquette"],
       "Special": ""
     },
