@@ -1,14 +1,16 @@
 ---
 layout: page
-title: Troika Character Generator
+title: Troika Generator & Tracker
 permalink: troikagenerator
 published: true
 image: /images/troika.png
 description: >
-  A mobile-friendly Character Generator and Initiative tracker for Troika.
+  A mobile-friendly Character Generator and Initiative Tracker for the Troika! RPG.
 ---
 
 ![troika.png]({{site.url}}/images/troika.png)
+
+Troika! is one of the most imaginative RPGs I've had the pleasure of enjoying. [Buy it here!](https://www.melsonia.com/troika-17-p.asp) And I hope you find these tools useful.
 
 <div class="row">
   <div class="col tightSpacing buttonWrapper"><button id="weaponButton" class="btn troikabtn btn-lg" onclick="generate()">Generate
