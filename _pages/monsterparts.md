@@ -51,9 +51,10 @@ function monster() {
 
   var role = monsterparts.Roles[Math.floor(Math.random() * monsterparts.Roles.length)];
   var type = monsterparts.Types[Math.floor(Math.random() * monsterparts.Types.length)];
-  var trait1 = monsterparts.Traits[Math.floor(Math.random() * monsterparts.Traits.length)];  
-  var trait2 = monsterparts.Traits[Math.floor(Math.random() * monsterparts.Traits.length)];
   var flaw = monsterparts.Flaws[Math.floor(Math.random() * monsterparts.Flaws.length)];
+  var traits = monsterparts.Traits;
+  var trait1 = traits.splice(Math.floor(Math.random() * traits.length), 1)[0];
+  var trait2 = traits.splice(Math.floor(Math.random() * traits.length), 1)[0];
 
   document.getElementById("creatureTitle").innerHTML = role[0] + " " + type[0];
 
