@@ -1,6 +1,12 @@
 
 /*For the Troika Generator*/
 
+.troikabtn {
+  color: #fff;
+  background-color: crimson;
+  border-color: crimson;
+}
+
 .coinDiv {
   -webkit-transform: perspective(500px);
   -webkit-transform-style: preserve-3d;

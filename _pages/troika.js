@@ -16,10 +16,34 @@ function generate() {
   stamina = Math.floor(Math.random() * 6) + Math.floor(Math.random() * 6) + 14;
   luck = Math.floor(Math.random() * 6) + 7;
 
-  background = ((Math.floor(Math.random() * 6) + 1) * 10) + 
-  (Math.floor(Math.random() * 6) + 1);
+  background = ((Math.floor(Math.random() * 6) + 1) * 10) +
+    (Math.floor(Math.random() * 6) + 1);
 
   provisions = ["2d6 Silver Pence", "Knife", "Lantern & flask of oil", "Rucksack", "6 Provisions"];
+
+  document.getElementById("charClass").innerHTML = background + ". " + troika.Backgrounds[background].Name;
+
+  document.getElementById("charStamina").innerHTML = "Skill: " + skill;
+  document.getElementById("charSkill").innerHTML = "Stamina: " + stamina;
+  document.getElementById("charLuck").innerHTML = "Luck: " + luck;
+
+  descrip = "<h3 class=\"tightSpacing\">Description</h3>" + troika.Backgrounds[background].Text;
+  if (troika.Backgrounds[background].Special != "") {
+    descrip = descrip + "<h3 class=\"tightSpacing\">Special</h3><p>" + troika.Backgrounds[background].Special + "</p>";
+  }
+  document.getElementById("descr").innerHTML = descrip;
+
+  poss = troika.Backgrounds[background].Posessions;
+  provisions = poss.concat(provisions);
+
+  startingItems = "<h3 class=\"tightSpacing\">Starting Items</h3><p><small>You can choose from <strong> any or all</strong> of the items below to fill your inventory slots.</small></p><ul>";
+
+  for (p in provisions) {
+    startingItems = startingItems + "<li>" + provisions[p] + "</li>"
+  }
+  startingItems = startingItems + "</ul>";
+
+  document.getElementById("poss").innerHTML = startingItems;
 
 }
 
@@ -108,45 +132,48 @@ function flipCoin(token) {
   var coinFace = document.getElementById("tokenCoin");
   degrees = degrees + 180;
   coinFace.style.webkitTransform = "rotateY(" + degrees + "deg)";
+  var bgImage, coinTxt, bgColor;
+
 
   switch (token) {
     case ("Enemy"):
-      coinFace.style.backgroundImage = "url('/images/EnemyToken.png')";
-      document.getElementById("coinText").innerText = "Enemy Action";
-      coinFace.style.backgroundColor = "silver";
+      bgImage = "url('/images/EnemyToken.png')";
+      coinTxt = "Enemy Action";
+      bgColor = "silver";
       turnText = "<p style=\"margin: unset;\">" + turnNumber + ". Enemy Action" +
-      "</p>" + turnText;
+        "</p>" + turnText;
 
       break;
 
     case ("Henchmen"):
-      coinFace.style.backgroundImage = "url('/images/HenchToken.png')";
-      document.getElementById("coinText").innerText = "Hench -lings";
-      coinFace.style.backgroundColor = "silver";
+      bgImage = "url('/images/HenchToken.png')";
+      coinTxt = "Hench -lings";
+      bgColor = "silver";
       turnText = "<p style=\"margin: unset;\">" + turnNumber + ". Henchlings" +
         "</p>" + turnText;
       break;
 
     case ("End Round"):
-      coinFace.style.backgroundImage = "url('/images/BackToken.png')";
-      document.getElementById("coinText").innerText = "End Round";
-      coinFace.style.backgroundColor = "silver";
+      bgImage = "url('/images/BackToken.png')";
+      coinTxt = "End Round";
+      bgColor = "silver";
       turnText = "<p style=\"margin: unset;\">" + turnNumber + ". End Round" +
         "</p>" + turnText;
       break;
 
     case ("New Round"):
-    turnNumber = 0;
-    coinFace.style.backgroundImage = "url('/images/BackToken.png')";
-    document.getElementById("coinText").innerText = "New Round";
-    coinFace.style.backgroundColor = "silver";
-    turnText = "<p style=\"margin: unset;\"><strong>0. New Round</strong></p>";
-    break;
+      turnNumber = 0;
+      bgImage = "url('/images/BackToken.png')";
+      coinTxt = "New Round";
+      bgColor = "silver";
+      turnText = "<p style=\"margin: unset;\"><strong>0. New Round</strong></p>";
+      break;
 
     default:
-      coinFace.style.backgroundImage = "url('/images/PlayerToken.png')";
+      bgImage = "url('/images/PlayerToken.png')";
       coinFace.style.backgroundColor = token;
-      document.getElementById("coinText").innerText = token + " Player";
+      coinTxt = token + " Player";
+      bgColor = token;
       turnText = "<p style=\"margin: unset;\">" + turnNumber + ". " + token + " Player" +
         "</p>" + turnText;
   }
@@ -154,7 +181,10 @@ function flipCoin(token) {
   document.getElementById("turnList").innerHTML = turnText;
   degrees = degrees + 180;
   coinFace.style.webkitTransform = "rotateY(" + degrees + "deg)";
-  
+  coinFace.style.backgroundImage = bgImage;
+  document.getElementById("coinText").innerText = coinTxt;
+  coinFace.style.backgroundColor = bgColor;
+
 }
 
 function countTokens() {
