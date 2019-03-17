@@ -19,7 +19,7 @@ function generate() {
   background = ((Math.floor(Math.random() * 6) + 1) * 10) +
     (Math.floor(Math.random() * 6) + 1);
 
-  provisions = ["2d6 Silver Pence", "Knife", "Lantern & flask of oil", "Rucksack", "6 Provisions"];
+  provisions = ["2d6 Silver Pence", "Knife (DMG 2, 2, 2, 2, 4, 8, 10)", "Lantern & flask of oil", "Rucksack", "6 Provisions"];
 
   document.getElementById("charClass").innerHTML = background + ". " + troika.Backgrounds[background].Name;
 
@@ -211,7 +211,7 @@ function countTokens() {
     }
   }
 
-  tokenText = colorText + "<h3 class=\"tightSpacing\">Tokens in Bag:</h3><p><ul>";
+  tokenText = colorText + "<h3 class=\"tightSpacing\"><strong>Tokens in Bag:</strong></h3><p><ul>";
 
   if (countPCs > 0) {
     tokenText = tokenText + "<li>" + (countPCs) + " Player tokens</li>";
