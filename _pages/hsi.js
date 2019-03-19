@@ -117,8 +117,15 @@ function Overland(regionName) {
 
   var encounter = overlandEncounter(regionName);
 
+  if (regionName == "Light" || regionName == "Heavy" || regionName == "Mountainous"){
+    var areaText = regionName + " Jungle";
+  } else {
+    var areaText = regionName;
+  }
+
   var motivation = encounter[0];
-  var htmlBLOCK = encounter[1];
+  var htmlBLOCK = "<h2 class=\"tightSpacing\" style=\"text-align:right\">" + 
+    areaText + "</h2>" + encounter[1];
 
   indent = 20;
   
@@ -141,8 +148,8 @@ function Overland(regionName) {
 function Locations(mapName) {
 
   var happ = threedsix(hsi.mapLocations[mapName].Happening);
-  var locationStuff = "<h3 class=\"tightSpacing\">" + rollDice(happ) + "</h3>";
-
+  var locationStuff = "<h2 class=\"tightSpacing\" style=\"text-align:right\">" +
+    mapName + "</h2>" + "<h3 class=\"tightSpacing\" style=\"padding-left: 35px;\">" + rollDice(happ) + "</h3>";
 
   for (var i = 0; i < hsi.mapLocations[mapName].Areas.length; i++) {
 
@@ -150,7 +157,7 @@ function Locations(mapName) {
     var border = 0;
     var motivation = "*";
 
-    locationStuff = locationStuff + "<h2 class=\"tightSpacing\">" + hsi.mapLocations[mapName].Areas[i] + "</h2>";
+    locationStuff = locationStuff + "<h3 class=\"tightSpacing\">" + hsi.mapLocations[mapName].Areas[i] + "</h3>";
 
     while (motivation.includes("*")) {
 
@@ -177,7 +184,7 @@ function HotSpringsCity() {
   for (var area in hsi['Hot Springs City']) {
 
     if (area != "Tables"){
-      cityStuff = cityStuff + "<h2 class=\"tightSpacing\">" + area + "</h2>" +
+      cityStuff = cityStuff + "<h3 class=\"tightSpacing\">" + area + "</h3>" +
       "<p><ul>";
 
       for (var i=0; i < 3; i++) {
