@@ -103,7 +103,7 @@ function turns(turnAction) {
 
       document.getElementById("nextTurn").style = "";
       document.getElementById("turnList").style = "";
-      document.getElementById("tokenList").style = "margin-top: 20px;";
+      document.getElementById("tokenList").style = "";
 
       break;
 
