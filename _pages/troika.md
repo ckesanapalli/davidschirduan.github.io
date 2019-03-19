@@ -83,8 +83,8 @@ Troika! is one of the most imaginative RPGs I've had the pleasure of enjoying. [
   <hr class="tightSpacing">
 
   <div class="row">
-    <div class="col-6 tightSpacing buttonWrapper"><button class="btn troikabtn btn-lg" onclick="turns('round')">New Round</button></div>
-    <div class="col-6 tightSpacing buttonWrapper"><button id="nextTurn" class="btn troikabtn btn-lg" onclick="turns('next')" style="display:none;">Next Turn</button></div>
+    <div class="col tightSpacing buttonWrapper"><button class="btn troikabtn btn-lg" onclick="turns('round')">New Round</button></div>
+    <div class="col tightSpacing buttonWrapper"><button id="nextTurn" class="btn troikabtn btn-lg" onclick="turns('next')" style="display:none;">Next Turn</button></div>
   </div>
 
   <div class="coinDiv">
@@ -95,10 +95,10 @@ Troika! is one of the most imaginative RPGs I've had the pleasure of enjoying. [
 
 
 <div class="row">
-  <div class="col" id="turnList" style="display:none;">
+  <div class="col-md-3 col" id="turnList" style="display:none;">
       <h3 class="tightSpacing"></h3>
   </div>
-  <div class="col" id="tokenList" style="margin-top: 20px;display:none;">
+  <div class="col-md-9 col" id="tokenList" style="margin-top: 20px;display:none;">
       <h3 class="tightSpacing">Set the numbers above then click "New Round".</h3>
   </div>
 </div>
