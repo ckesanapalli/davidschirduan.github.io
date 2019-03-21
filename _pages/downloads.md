@@ -140,8 +140,6 @@ description: >
       <legend class="project-card-text fine faded">Reference for the Dungeon Crawl Classics RPG</legend>
     </article>
   </div>
-</div> 
-<div class="columns">
   <div class="column column-1-2">
     <article class="project-card">
       <a href="/files/DungeonWorldReference.pdf" class="no-hover no-print-link " tabindex="-1">
@@ -168,8 +166,6 @@ description: >
       <legend class="project-card-text fine faded">Reference Sheet for Uncharted Worlds</legend>
     </article>
   </div>
-</div> 
-<div class="columns">
   <div class="column column-1-2">
     <article class="project-card">
       <a href="/files/Numenera_Reference.pdf" class="no-hover no-print-link " tabindex="-1">
@@ -196,8 +192,6 @@ description: >
       <legend class="project-card-text fine faded">Reference Sheet for Into the Odd</legend>
     </article>
   </div>
-</div> 
-<div class="columns">
   <div class="column column-1-2">
     <article class="project-card">
       <a href="/files/TBHReference_Core.pdf" class="no-hover no-print-link " tabindex="-1">
