@@ -77,6 +77,19 @@ description: >
 <div class="columns">
 <div class="column column-1-2">
     <article class="project-card">
+      <a href="/files/troikaRef.pdf" class="no-hover no-print-link " tabindex="-1">
+        <div class="project-card-img img sixteen-nine">
+          <img src="/images/troikaRef.png" alt="Troika! Reference" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
+        </div>
+      </a>
+      <h3 class="project-card-title">
+        <a href="/files/troikaRef.pdf" class="flip-title">Troika! Reference</a>
+      </h3>
+      <legend class="project-card-text fine faded">GM Reference for the Troika! RPG</legend>
+    </article>
+  </div>
+<div class="column column-1-2">
+    <article class="project-card">
       <a href="/files/VagabondsReference.pdf" class="no-hover no-print-link " tabindex="-1">
         <div class="project-card-img img sixteen-nine">
           <img src="/images/posts/vagabonds_cover.png" alt="Vagabonds of Dyfed Reference" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">

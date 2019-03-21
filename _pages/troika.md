@@ -95,10 +95,10 @@ Troika! is one of the most imaginative RPGs I've had the pleasure of enjoying. [
 
 
 <div class="row" style="margin-top:20px;">
-  <div class="col-md-3 col" id="turnList" style="display:none;">
+  <div class="col-md-5 col" id="turnList" style="display:none;">
       <h3 class="tightSpacing"></h3>
   </div>
-  <div class="col-md-9 col" id="tokenList" style="display:none;">
+  <div class="col-md-7 col" id="tokenList" style="display:none;">
       <h3 class="tightSpacing">Set the numbers above then click "New Round".</h3>
   </div>
 </div>
