@@ -1,94 +1,95 @@
 ---
-title: Cool Crap I've Made 
+title: Flash Reviews 
 layout: post
-date: 2019-03-18
+date: 2019-03-19
 image: images/hsi.png
 comments: true
-published: true
+published: false
 categories: Tabletop
-tags: generators supplements reviews
+tags: reviews
 ---
 
-March was a VERY productive month for me. But none of the stuff I did really made it into a blog post, so I'm going to summarize it here.
+So I have bought a LOT of stuff. And I probably won't get to read/play all of it any time soon.
 
-# [Bone Marshes](/bone-marshes)
+SO! in order to turn cleaning into content, here's a bunch of quick impressions/surface thoughts of my backlog.
 
-[![bonemarshes_KS.jpg](/images/posts/bonemarshes_KS.jpg)]((/bone-marshes))
+I will label every item as one of:
 
-Progress continues apace! I've been doing some cool video-workshops with [Joe Banner](https://joebanner.co.uk/), our layout wizard.
+- **Will Play.** I'll play this eventually, and will review it after I play it once or twice.
+- **Will Review.** I'll read it later and post a longer review on my site. Might play, might not.
+- **Archive.** I'm going to move it to the archive for now. Maybe I'll pick it up again, maybe not. Nothing really grabbed me.
+- **Delete.** Definitely won't ever read or play this. Sadness.
 
-**[Workshop 1](https://www.youtube.com/watch?v=HHT_WURk3NY)**
+These labels are NOT a reflection of quality, just my interest in playing/reading/reviewing them further. I only have so much time. For some reason or another I bought them; so if they are on this list, they piqued my interest already.
 
-**[Workshop 2](https://www.youtube.com/watch?v=QnF6Y6mpfrs)**
+If I miss something, or get things completely wrong, let me know in the comments! I'd love an excuse to take a closer look at this stuff.
 
-I enjoy these discussions, and hopefully it's a good peek behind the curtain of where Bone Marshes is going.
+## Troika! (Will Play)
 
-I'm also planning to re-do all of the maps to make them more defined and clear.
+This thing is wildly imaginative! Holy crap. Flavor and lore ooze out of every page, and drop down all over my brain. _That was a weird sentence...whatever, just keep going._
 
-OH! And I have an idea for making the Cattail Bandits more fleshed out and interesting. Probably will do a future blogpost on that.
+Not only are the classes brilliant, but the creature and spell descriptions are amazing! listen to the description for "Darksee":
 
-# [Reviews](/david/extremely-interesting-adventures)
+> "The wizard reaches into their sockets and extricates their eyes. Thus freed, the dark void behind can see perfectly well in pitch blackness and suffer excruciating pain in light (-4 penalty to all rolls). Be careful not to lose those eyeballs as re-inserting them is the only way to end the Spell."
 
-Been playing a LOT of RPGs lately, and was able to add a bunch of new adventure reviews! So that's nice.
+I can't wait to get this to the table. I also made a fancy [generator/turn tracker](/troikagenerator) for it!
 
-- [The Sunken Fort](/david/extremely-interesting-adventures#the-sunken-fort)
-- [The Mysterious Menagerie of Doctor Orville Boros](/david/extremely-interesting-adventures#the-mysterious-menagerie-of-doctor-orville-boros)
-- [Stygian Garden of Abelia Prymm](/david/extremely-interesting-adventures#stygian-garden-of-abelia-prymm)
+## TinyDungeon 2E (Archive)
 
-# Random Generators
+This made the rounds on KS, and while nothing really grabbed me at first I've been curious to check it out.
 
-Ah, my recent obsession. I made a nice, mobile friendly character generator for Bone Marshes and then I just...kept...making them! While there are a lot of random generators and tables out there, very few look nice on mobile screens, so I wanted to focus on that aspect.
+Mechanics are simple, almost boringly so. Roll 1d6, 2d6, or 3d6 depending on skills and penalties. If any of the dice land on 5 or 6 you succeed. Successful attacks deal 1 damage. Traits grant additional powers or advantages. 
 
-## [Monster Parts](/monsterparts)
+Most of the value in the book comes from the 20 "micro-settings". These tweak the rules a bit, are set in different worlds/realities/timezones.
 
-[![monsterparts.jpg](/images/monsterparts.jpg)](/monsterparts)
+It looks....boring. But maybe some of the microsettings are fun. I would grab this if I wanted to play a REALLY simple RPG. Archived.
 
-I was taking with Curio on the Knave Discord about monsters. We wanted to brainstorm some interesting creatures ideas and maybe come up with some kind of bestiary or list of creatures.
+## Spire (Will Review)
 
-Curio mentioned that they would like a random generator of monster characteristics and I agreed wholeheartedly. Curio came up with most of the content, and did most of the work; I just made the generator and hosted it.
+Gosh this book is pretty. The artwork by Adrian Stone sold me completely. 
 
-But I'm still proud of what we made, and hope it inspires a lot of cool creatures!
+Although I like it I don't know if I'll play it. It has a darker tone than something like Blades in the Dark (one of my faves). Dark to the point of heaviness. I can see this bringing up some deep issues during play.
 
-## [Hot Springs Island Generator](/hotspringsgenerator)
+And that is not a bad thing! But often I play with co-workers or strangers; not a lot of room for depth. Definitely want to give it a good read-through!
 
-[![hsi.png](/images/hsi.png)](/hotspringsgenerator)
+## Nightmares Underneath (Delete)
 
-You already know I'm a HUGE fan of Hot Springs Island. It's the one campaign I've played the most, and enjoyed the most. So wildly imaginative, easy to use, and plain fun.
+I actualy like a lot of things about this book, but mostly the concept: Dungeons are actually portals to nightmares that must be explored and closed.
 
-But rolling up encounters is a pain. Lots of tables, lots of potential outcomes. I've been wanting a better generator for a looong time. And now I have one!
+Very cool.
 
-## [Troika Character Generator and Turn Tracker](/troikagenerator)
+But the book seems overly complex and fiddly for most of the stuff I play. 
 
-[![troika.png](/images/troika.png)](/troikagenerator)
+Patrick Stuart did a better review (and more complete) [here](http://falsemachine.blogspot.com/2017/04/a-review-of-nightmares-underneath-by.html).
 
-So this is a weird one. Here's the sequence of events:
+## Macchiato Monsters (Delete)
 
-1. Hear about Troika. Mental note to read later.
-2. Forget mental note.
-3. Hear about new edition of Troika. Mental note to back.
-4. Forget mental note.
-5. New edition comes out. Looks beautiful, fresh, hilarious.
-6. Decide to make a quick generator for this new game, see if I can draw all the new Troika fans to my website.
-7. Read the book.
-8. Definitely gonna make a character generator....but what's this? WEIRD INITIATIVE RULES! WOW! Tokens in bags coolness.
-9. Don't have any tokens. Sadness.
-10. IDEA! I'll make a nice initiative tracker for mobile devices.
-11. Spend 10 hours making a stupid coin-flip animation.
-12. Finish the rest of the generator/tracker soon after.
-13. Profit?!
+I wanted to like this more. But I've read SO MANY OSR systems over the past 6 months that it takes a lot to jump out an grab me. 
 
-If you don't know anything about Troika, generator a few characters to get a feel for the humor/creativity of this awesome game. If you like Troika, then I hope you find this tool useful.
+Sorry Macchiato Monsters. It looks like a solid game, all the bells and whistles. But nothing that exploded my brain and made me want to run to the table. 
 
-That's all for generators (in March anyway). What else?
+## Red Markets (Delete)
 
-# Gambling mini-game
+I was never really into zombie survival games, but an RPG based around econonics intrigued me. Sadly it seems REALLY fiddly and book-keepy. Not that I should be surprised...I don't really know what I was expecting.
 
-This is a small thing, but our group had so much fun with it that I wanted to share. It's built for a shady/unfair kind of gambling casino thing.
+HOWEVER! The first 100 pages or so are an incredible short-story about how The Crash happened, and what the world looks like now. I read that whole section and couldn't tear myself away. If you like zombie fiction, it's worth the purchase just for the introduction.
 
-The best part about these rules is that while a single player CAN win big, over time the house pretty much takes everything.
+## Into the Wyrd and Wild (Will Play)
 
-PROTIP: Don't tell your players about the cash-out price until they try to cash out. It really drives home how unfair this place is!
+I already wrote a random generator for this...just waiting for it to be publicly available before I write a longer review and take it for a spin.
 
-You can find the [PDF of these gambling rules here](/files/HotSpringsReference.pdf).
+## Ravenloft - I6, AD&D (Will Play)
 
-![tranquilgambling.png](/images/posts/tranquilgambling.png)
+I want to play this so bad. I might tweak some of the encounter tables to make it more spicy...but still. 
+
+That castle map is GORGEOUS! and I want to try it. 
+
+SOOOOON! Hopefully.
+
+## Expedition to Barrier Peaks (Archive)
+
+I bought this one after I read Ravenloft. Oh man. These maps are UGLY, and the text is UGLY and the paragraphs are HUUUGE! I would basically have to re-write this whole thing to use it at the table. 
+
+No thanks. 
+
+## 

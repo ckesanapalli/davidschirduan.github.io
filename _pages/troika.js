@@ -162,8 +162,10 @@ function flipCoin(token) {
       bgImage = "url('/images/BackToken.png')";
       coinTxt = "End Round";
       bgColor = "silver";
-      turnText = "<p style=\"margin: unset;\">" + turnNumber + ". End Round" +
-        "</p>" + turnText;
+      turnText = "<p style=\"margin: unset;\"><strong>Resolve any 'Per Round', or 'End of Round' effects.<br>Adjust the number above: adding new combatants, removing dead ones.<br>Click 'New Round'.</strong></p>" +
+      "<p style=\"margin: unset;\">" + turnNumber + ". End Round" +
+        "</p>";
+      
       break;
 
     case ("New Round"):
