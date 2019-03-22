@@ -10,7 +10,7 @@ description: >
 
 ![troika.png]({{site.url}}/images/troika.png)
 
-Troika! is one of the most imaginative RPGs I've had the pleasure of enjoying. [Buy it here!](https://www.melsonia.com/troika-17-p.asp) And I hope you find these tools useful.
+Troika! is one of the most imaginative RPGs I've had the pleasure of enjoying. [Buy it here!](https://www.melsonia.com/troika-17-p.asp) I also made a [handy reference sheet here](/files/troikaRef.pdf).
 
 <div class="row">
   <div class="col tightSpacing buttonWrapper"><button id="weaponButton" class="btn troikabtn btn-lg" onclick="generate()">Generate Character</button></div>
