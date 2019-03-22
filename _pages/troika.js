@@ -109,12 +109,6 @@ function turns(turnAction) {
 
     case ("next"):
 
-      if (allTokens.length <= 1 || roundEnd) {
-
-        document.getElementById("turnList").innerHTML = "<h3 class=\"tightSpacing\">You must begin a New Round with at least one token!</h3>";
-
-      } else {
-
         var currentToken = allTokens.splice(Math.floor(Math.random() * allTokens.length), 1)[0];
 
         flipCoin(currentToken);
@@ -124,7 +118,7 @@ function turns(turnAction) {
         if (currentToken == "End Round") {
           roundEnd = true;
         }
-      }
+      
       break;
   }
 }
