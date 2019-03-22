@@ -109,16 +109,17 @@ function turns(turnAction) {
 
     case ("next"):
 
-        var currentToken = allTokens.splice(Math.floor(Math.random() * allTokens.length), 1)[0];
+    if (!roundEnd){
 
-        flipCoin(currentToken);
+      var currentToken = allTokens.splice(Math.floor(Math.random() * allTokens.length), 1)[0];
+      flipCoin(currentToken);
 
-        countTokens();
+      countTokens();
 
-        if (currentToken == "End Round") {
-          roundEnd = true;
-        }
-      
+      if (currentToken == "End Round") {
+        roundEnd = true;
+      }
+    }
       break;
   }
 }
