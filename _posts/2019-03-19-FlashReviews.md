@@ -9,9 +9,7 @@ categories: Tabletop
 tags: reviews
 ---
 
-So I have bought a LOT of stuff. And I probably won't get to read/play all of it any time soon.
-
-SO! in order to turn cleaning into content, here's a bunch of quick impressions/surface thoughts of my backlog.
+I have bought a LOT of stuff. And I probably won't get to read/play all of it any time soon. SO! in order to turn cleaning into content, here's a bunch of quick impressions/surface thoughts of my backlog.
 
 I will label every item as one of:
 
@@ -20,7 +18,7 @@ I will label every item as one of:
 - **Archive.** I'm going to move it to the archive for now. Maybe I'll pick it up again, maybe not. Nothing really grabbed me.
 - **Delete.** Definitely won't ever read or play this. Sadness.
 
-These labels are NOT a reflection of quality, just my interest in playing/reading/reviewing them further. I only have so much time. For some reason or another I bought them; so if they are on this list, they piqued my interest already.
+These labels are **NOT** a reflection of quality, just my interest in playing/reading/reviewing them further. I only have so much time. For some reason or another I bought them; so if they are on this list, they piqued my interest already.
 
 If I miss something, or get things completely wrong, let me know in the comments! I'd love an excuse to take a closer look at this stuff.
 
@@ -91,5 +89,84 @@ SOOOOON! Hopefully.
 I bought this one after I read Ravenloft. Oh man. These maps are UGLY, and the text is UGLY and the paragraphs are HUUUGE! I would basically have to re-write this whole thing to use it at the table. 
 
 No thanks. 
+
+## Roots of Bitterness (Delete)
+
+The long paragraphs caused my eyes to glaze over, and the setting didn't really grab me. 
+I skimmed it and never really got a sense for what the purpose of the adventure was. Explore the hidden temple? Defeat the roaming cossacks? Eat a bunch of Elk?
+
+## No Salvation for Witches (Delete)
+
+starts with this setence:
+
+> This is not a low-prep adventure. NSFW is a cheerfully gory adventure inspired by slasher movies and heavy metal. This isn’t grimdark, it’s glibdark. Have fun!
+
+I just NOPE'D right out of their. Doesn't sound like my jam at all.
+
+## Monolith Beyond Space and Time (Archive)
+
+At least he's honest at the start.
+
+> A twist or two will momentarily break the tension until the ramifications set in, and then they hit climax where they realize that they cannot win. They are doomed, and were doomed from the moment they got involved.
+
+> You do not want to do this to your players very often, mind you. You probably do not want to do it to them at all. You are their Referee, likely their friend, and feelings would be hurt. Well that is what I, as the author, am here for. You are not doing it to them. I am. You are not responsible.
+
+That's bullshit. I bought, chose, and prepped this adventure. I am 100% responsible! 
+
+But let's keep reading, I'm intrigued, at the very least.
+
+_Reads a few more pages_ 
+
+This adventure is a giant kick in the teeth to your players. At one point they can become **allergic to water**! And yes, they still need to drink.
+
+I kinda like it, because it's wildly imaginative and weird. Worth stealing ideas from. But I would NEVER run this as written.
+
+## Broodmother Skyfortress (Will Review)
+
+I've heard a lot about this adventure, and it looks interesting enough that I'll want to read it more in the future. The GM advice in particular looks solid.
+
+Don't know if I'll play it yet....
+
+## Challenge of the Frog Idol (Will Play)
+
+I love rumor tables. Good stuff. Nice description of the nearby town and what's happening there. I love the causeways mechanic.
+
+Alright, I'm sold. This looks clever and fun. 
+
+## Hyqueous Vaults (Will Play)
+
+This map looks amazing. Locations are pretty terse and straightforward. Puzzles look like fun. SOLD! 
+
+## Gone Fishin' (Will Play)
+
+Includes a soup recipe. Okay.
+
+LOVE LOVE LOVE the starting concept. Sounds like a real local legend.
+
+This has a great tone; light-hearted and funny. 
+
+"Fop 2nd level fighter hp 10 AC 2 (plate mail + shield) Alignment stupid, Weapons long sword & dagger"
+
+I really like the light-hearted tone and quest. Would be perfect for a quiet saturday evening with friends.
+
+## In The Woods (Monster Parts) (Delete)
+
+Creepy walk in grimdark woods. Meh.
+
+## Mines Claws and Princesses (Will Play)
+
+Great layout! The artwork is a little rough, but clear. It has charm.
+
+I bet I could run this thing with minimal prep.
+
+## Orcs in Tarodun's Tomb (Will Play)
+
+Claims to be a good fit for first time players. I'm down.
+
+The orc generator is gold.
+
+Nice, clean, small map. OH LAYOUT! Be still my heart. Gorgeous.
+
+I'm sold. I'll run this.
 
 ## 
