@@ -11,6 +11,7 @@ links:
     url:     /files/WelcomeMinions_March2017.pdf
 hide_description: true
 image: /images/posts/enlightenment.png
+published: false
 ---
 Welcome Minions is a simple card game of friendly backstabbing. You’ll be working with your group to accomplish missions for the master. But you must also prove that you’re better than the rest of them.
 

@@ -169,4 +169,64 @@ Nice, clean, small map. OH LAYOUT! Be still my heart. Gorgeous.
 
 I'm sold. I'll run this.
 
+## Slumbering Ursine Dunes (Will Play)
+
+Slavic mythic-inspired (with an acid fantasy-twist) with 25 point-crawl locations and two dungeons. 
+
+Hell yeah.
+
+I've heard a bunch of great stuff about this adventure, just waiting for the next opportunity.
+
+## Gates of Cold Iron Pass (Archived)
+
+This is a small dungeon/encounter/setpiece that can be used as a one-shot or a stop on long journeys.
+
+I admire the flexibility of the design, and how much of a personal setup this is. Named dwarves, motivations, various outcomes. 
+
+It's good.
+
+But I don't think I'll ever use it. Maybe one day!
+
+## Black Pudding Heavy Helping (Will Play)
+
+Aside from the incredible artwork I LOVE these classes. So creative and clever, especially fresh in the OSR scene.
+
+This book is just full of gold. Items, hirelines, sentient weapons, clever creatures, 
+
+But the reasons I bought it is for the adventures. These are just beautiful, succinct, and imaginative. Definitely gonna run these.
+
+## Veins of the Earth (Will Review)
+
+I know I know. How have I not read this yet? Well it's hard for me to read stuff unless I know I'm going to play it soon. And underground adventures just don't seem likely any time soon. 
+
+But I am definitely gonna sit down and read it. Soon! 
+
+## What Ho, Frog Demons! (Will Play)
+
+I love the art. Bought it before I got the chance to play Slumbering Ursine Dunes, which seems a bit derpy. 
+
+Gotta play both of these. 
+
+Love the hexcrawl. All the maps in fact. 
+
+## Dyson's Delve Deluxe (Will Play)
+
+Wow, the information compression here is...impressive! 
+
+Looks like a clear, clever dungeon. 
+
+Each level fits on a single page, which is PERFECT for one-shots and quick games.
+
+Can't wait to take this for a spin.
+
+## Atarin's Delve (Archived)
+
+Seems a bit....samey? But I like the maps, and it seems clear enough to run.
+
+## Blood Moon Rising (Will Review)
+
+I really like the town festival as a backdrop to an adventure. Town events, ancient histories and legends, nearby tombs. 
+
+Sounds awesome.
+
 ## 
