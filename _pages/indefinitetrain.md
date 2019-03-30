@@ -21,7 +21,7 @@ This amazing idea came from [Skerples](https://coinsandscrolls.blogspot.com/2019
 
 <div id="trainCard" style="display:none;"></div>
 
-Trains have to be added to this generator manually. Ping [@davidschirduan](https://twitter.com/DavidSchirduan) if any are missing!
+Trains have to be added to this generator manually. <br /> Ping [@davidschirduan](https://twitter.com/DavidSchirduan) if any are missing!
 
 Photo by [Roland Lösslein](https://unsplash.com/photos/DmDYX_ltI48?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash.
 
