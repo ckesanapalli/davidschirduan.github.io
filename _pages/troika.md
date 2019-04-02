@@ -13,13 +13,14 @@ description: >
 Troika! is one of the most imaginative RPGs I've had the pleasure of enjoying. [Buy it here!](https://www.melsonia.com/troika-17-p.asp) I also made a [handy reference sheet here](/files/troikaRef.pdf).
 
 <div class="row">
-  <div class="col tightSpacing buttonWrapper"><button id="weaponButton" class="btn troikabtn btn-lg" onclick="generate()">Generate Character</button></div>
+  <div class="col tightSpacing buttonWrapper"><button id="weaponButton" class="btn troikabtn btn-lg" onclick="generate(false)">Generate Character</button></div>
   <div class="col tightSpacing buttonWrapper"><button id="weaponButton" class="btn troikabtn btn-lg" onclick="showTracker()">Turn Tracker</button></div>
 </div>
 
 <div class="container generatorCard" id="charCard" style="display:none;">
   <div class="row">
-    <div class="col-12 tightSpacing h1" id="charClass">THIS IS BROKEN! FLEE!</div>
+    <div class="col-md-8 col-12 tightSpacing h1" id="charClass">THIS IS BROKEN! FLEE!</div>
+    <div class="col-md-4 col-12 tightSpacing" id="charClass"><button class="btn btn-primary" onclick="generate(true)"><small>Core Backgrounds Only</small></button></div>
     <div class="col-12 p" style="margin-top:0;" id="charSource">Source: BROKEN</div>
   </div>
   <hr class="tightSpacing">
@@ -30,7 +31,6 @@ Troika! is one of the most imaginative RPGs I've had the pleasure of enjoying. [
   </div>
   <hr class="tightSpacing">
   <div class="row">
-
   </div>
   <div class="row">
     <div class="col-xl-6 col-12" id="descr">

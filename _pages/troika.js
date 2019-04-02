@@ -7,16 +7,24 @@ xmlhttp.onreadystatechange = function () {
 xmlhttp.open("GET", "/_pages/troika.json", true);
 xmlhttp.send();
 
-function generate(core) {
-
-  document.getElementById("charCard").style = "";
-  document.getElementById("turnCard").style = "display:none";
+function generate(coreOnly) {
 
   skill = Math.floor(Math.random() * 3) + 4;
   stamina = Math.floor(Math.random() * 6) + Math.floor(Math.random() * 6) + 14;
   luck = Math.floor(Math.random() * 6) + 7;
 
-  background = troika.Backgrounds[Math.floor(Math.random() * troika.Backgrounds.length)];
+  /*If coreOnly is true, keep searching until you find a Rulebook background*/
+  test = true;
+  while (test) {
+    background = troika.Backgrounds[Math.floor(Math.random() * troika.Backgrounds.length)];
+    if (background.Source.includes("Rulebook")) {
+      test = false;
+    } else {
+      test = coreOnly;
+    }
+  }
+
+  document.getElementById("charSource").innerHTML = "Source: " + background.Source + "";
 
   provisions = ["2d6 Silver Pence", "Knife (DMG 2, 2, 2, 2, 4, 8, 10)", "Lantern & flask of oil", "Rucksack", "6 Provisions"];
 
@@ -24,12 +32,6 @@ function generate(core) {
   document.getElementById("charStamina").innerHTML = "Skill: " + skill;
   document.getElementById("charSkill").innerHTML = "Stamina: " + stamina;
   document.getElementById("charLuck").innerHTML = "Luck: " + luck;
-
-  if (background.Source < 11 || background.Source > 66){
-    document.getElementById("charSource").innerHTML = "Source: " + background.Source + ". For just the Core backgrounds <a onclick='generate(true)'>CLICK HERE.";
-  } else {
-    document.getElementById("charSource").innerHTML = "Source: Corebook (" + background.Source + ")";
-  }
 
   descrip = "<h3 class=\"tightSpacing\">Description</h3>" + background.Text;
 
@@ -59,6 +61,9 @@ function generate(core) {
   }
 
   document.getElementById("poss").innerHTML = startingItems;
+
+  document.getElementById("charCard").style = "";
+  document.getElementById("turnCard").style = "display:none";
 
 }
 
