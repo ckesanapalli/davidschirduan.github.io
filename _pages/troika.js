@@ -7,7 +7,7 @@ xmlhttp.onreadystatechange = function () {
 xmlhttp.open("GET", "/_pages/troika.json", true);
 xmlhttp.send();
 
-function generate() {
+function generate(core) {
 
   document.getElementById("charCard").style = "";
   document.getElementById("turnCard").style = "display:none";
@@ -16,32 +16,47 @@ function generate() {
   stamina = Math.floor(Math.random() * 6) + Math.floor(Math.random() * 6) + 14;
   luck = Math.floor(Math.random() * 6) + 7;
 
-  background = ((Math.floor(Math.random() * 6) + 1) * 10) +
-    (Math.floor(Math.random() * 6) + 1);
+  background = troika.Backgrounds[Math.floor(Math.random() * troika.Backgrounds.length)];
 
   provisions = ["2d6 Silver Pence", "Knife (DMG 2, 2, 2, 2, 4, 8, 10)", "Lantern & flask of oil", "Rucksack", "6 Provisions"];
 
-  document.getElementById("charClass").innerHTML = background + ". " + troika.Backgrounds[background].Name;
-
+  document.getElementById("charClass").innerHTML = background.Name;
   document.getElementById("charStamina").innerHTML = "Skill: " + skill;
   document.getElementById("charSkill").innerHTML = "Stamina: " + stamina;
   document.getElementById("charLuck").innerHTML = "Luck: " + luck;
 
-  descrip = "<h3 class=\"tightSpacing\">Description</h3>" + troika.Backgrounds[background].Text;
-  if (troika.Backgrounds[background].Special != "") {
-    descrip = descrip + "<h3 class=\"tightSpacing\">Special</h3><p>" + troika.Backgrounds[background].Special + "</p>";
+  if (background.Source < 11 || background.Source > 66){
+    document.getElementById("charSource").innerHTML = "Source: " + background.Source + ". For just the Core backgrounds <a onclick='generate(true)'>CLICK HERE.";
+  } else {
+    document.getElementById("charSource").innerHTML = "Source: Corebook (" + background.Source + ")";
   }
+
+  descrip = "<h3 class=\"tightSpacing\">Description</h3>" + background.Text;
+
+  skills = background.Skills;
+  skillList = skills.concat(skills);
+  skilltxt = "<h3 class=\"tightSpacing\">Skills</h3><p>Add your main Skill to each of these:</p><ul>";
+  for (s in skillList) {
+    skilltxt = skilltxt + "<li>" + skillList[s] + "</li>"
+  }
+
+  descrip = descrip + skilltxt + "</ul>";
+
   document.getElementById("descr").innerHTML = descrip;
 
-  poss = troika.Backgrounds[background].Posessions;
+  poss = background.Posessions;
   provisions = poss.concat(provisions);
 
-  startingItems = "<h3 class=\"tightSpacing\">Starting Items</h3><p><small>You can choose from <strong> any or all</strong> of the items below to fill your inventory slots.</small></p><ul>";
+  startingItems = "<h3 class=\"tightSpacing\">Starting Items</h3><p>You can choose from <strong>any or all</strong> of the items below to fill your inventory slots.</p><ul>";
 
   for (p in provisions) {
     startingItems = startingItems + "<li>" + provisions[p] + "</li>"
   }
   startingItems = startingItems + "</ul>";
+
+  if (background.Special != "") {
+    startingItems = "<h3 class=\"tightSpacing\">Special</h3><p>" + background.Special + "</p>" + startingItems;
+  }
 
   document.getElementById("poss").innerHTML = startingItems;
 
