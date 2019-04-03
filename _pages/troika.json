@@ -490,42 +490,42 @@
       "Posessions": ["Cutlass", "Mechanical eye, hidden mostly behind a patch, but capable of scuttling ambulation on unfolding limbs. It can record what it seems for 15 minutes and relay it upon reinsertion.", "Pistol", "breathing-dress (counts as modest armor)"],
       "Skills": ["2 Astrology","3 Climbing","2 Pilot","2 Sword Fighting","2 Pistol Fighting"],
       "Special": "",
-      "Source": "<a href='http://sorcerersskull.blogspot.com/2016/11/baroque-space-troika-style.html'>From the Sorcerer's Skull</a>"
+      "Source": "From the <a href='http://sorcerersskull.blogspot.com/2016/11/baroque-space-troika-style.html'>Sorcerer's Skull</a>"
     }, {
       "Name": "Lunar Castaway",
       "Text": "You have been recently rescued from the silvery Lunar wastes where you were long marooned.",
       "Posessions": ["Antique Musket", "Fantastical yet rustic clothing", "Journal and writing implement", "Semi-transparent body owing to long subsistence on Lunar fruit"],
       "Skills": ["3 Awareness  ", "2 Language - Selenite telepathy  ", "1 Musket Fighting  ", "2 Run  ", "2 Tracking"],
       "Special": "",
-      "Source": "<a href='http://sorcerersskull.blogspot.com/2016/11/baroque-space-troika-style.html'>From the Sorcerer's Skull</a>"
+      "Source": "From the <a href='http://sorcerersskull.blogspot.com/2016/11/baroque-space-troika-style.html'>Sorcerer's Skull</a>"
     }, {
       "Name": "Mercurian Courtier",
       "Text": "What is there in life for you now that you have been compelled to flee the shining court of His Heliocephaliac Majesty, Helios XXIII, Emperor of Mercury? The other worlds are so cold! Still you persevere.",
       "Posessions": ["Mercurian Court Fashion: powdered whig, cache-sexe, corset, jabot or a doublet, pantaloons, stockings, and heels, and a mantled cloak.","Mercurian shaded lens on a stick <br>OR goggles","Light-blocking ointment","Muff Pistol","Stiletto"],
       "Skills": ["3 Etiquette","2 Gambling","3 Language - Mercurian","1 Knife Fighting","2 Pistol Fighting"],
       "Special": "",
-      "Source": "<a href='http://sorcerersskull.blogspot.com/2016/11/baroque-space-troika-style.html'>From the Sorcerer's Skull</a>"
+      "Source": "From the <a href='http://sorcerersskull.blogspot.com/2016/11/baroque-space-troika-style.html'>Sorcerer's Skull</a>"
     }, {
       "Name": "Space Cook",
       "Text": "You are a veteran of many voyages and an essential member of any astronef crew. It is often no mean feat to wring something edible from the bounty of the spontaneous generation vats, and occasionally, you succeed.",
       "Posessions": ["Bottle of rotgut","Cleaver","Pistol","Vials of salt and various exotic spices","Venerian Jabbering Monkey"],
       "Skills": ["1 Awareness","2 Cooking","1 Strength","2 Axe (Cleaver) Fighting","2 Pistol Fighting","2 Fist Fighting"],
       "Special": "",
-      "Source": "<a href='http://sorcerersskull.blogspot.com/2016/11/baroque-space-troika-style.html'>From the Sorcerer's Skull</a>"
+      "Source": "From the <a href='http://sorcerersskull.blogspot.com/2016/11/baroque-space-troika-style.html'>Sorcerer's Skull</a>"
     }, {
       "Name": "Cursed Astro-Mariner",
       "Text": "Your dead eyes have beheld things no man was meant to see. Adrift in the Tartarean reach beyond Saturn, you bore witness to the protean horrors of the Titans of Chaos, stared in cold wonder at legion ruined Gamorrahs of the rebellious Nephilim, and suffered at the peril of your immortal soul the sirens’ allure of alien Atlantean heathenry. You returned alive, but not unchanged.",
       "Posessions": ["Vials of soporific","A locked box 6 inches square, 8 deep, whose contents you frequently examine, but show no one","Brace of Pistols","Strange tattoos"],
       "Skills": ["2 Astrology", "1 Healing", "2 Pilot", "2 Pistol Fighting", "2 Second Sight"],
       "Special": "",
-      "Source": "<a href='http://sorcerersskull.blogspot.com/2016/11/baroque-space-troika-style.html'>From the Sorcerer's Skull</a>"
+      "Source": "From the <a href='http://sorcerersskull.blogspot.com/2016/11/baroque-space-troika-style.html'>Sorcerer's Skull</a>"
     }, {
       "Name": "Rat-Catcher",
       "Text": "You are a Vermin Disposal Expert, though they often diminish your work, naming you merely 'rat-catcher.' But who among them has seen what strange vermin arise from the putrefaction of wastes of scores of space crews mingling in the cesspits of an asteroid? Much less hunted and captured those foul things? You have.",
       "Posessions": ["One-eyed terrier, inured to space travel", "d4 animal traps", "d4 specimen collection jars, at least one contains a slime of some sort", "Club", "Blunderbuss"],
       "Skills": ["2 Awareness", "1 Blunderbuss Fighting", "2 Club Fighting", "2 Tracking", "3 Trapping", "3 Tunnel Fighting"],
       "Special": "",
-      "Source": "<a href='http://sorcerersskull.blogspot.com/2016/11/baroque-space-troika-style.html'>From the Sorcerer's Skull</a>"
+      "Source": "From the <a href='http://sorcerersskull.blogspot.com/2016/11/baroque-space-troika-style.html'>Sorcerer's Skull</a>"
     }
   ]
 }

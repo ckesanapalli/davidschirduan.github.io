@@ -103,4 +103,6 @@ Troika! is one of the most imaginative RPGs I've had the pleasure of enjoying. [
 
 Thanks to Andrei Gheorghiu for the excellent [number spinner code](https://stackoverflow.com/a/45396364/2611856) and Joshnh for the [fancy coin](http://jsfiddle.net/joshnh/Bz22S/).
 
+Thanks to Uyuxo for collecting the list, Daniel Sells for making Troika such an incredible game, and all the creatives who contributed their backgrounds to this generator. You're all amazing!
+
 <script async src="/_pages/troika.js" charset="utf-8"></script>
