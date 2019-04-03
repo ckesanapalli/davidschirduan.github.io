@@ -332,7 +332,7 @@
       "Source": "<a href='https://www.patreon.com/troika/'>Troika Patreon</a> by Daniel Sell"
     }, {
       "Name": "The Last Wizard",
-      "Text": "To all knowledge you are the last remaining wizard on this wretched cosmic rock. You hate everything about it and everyone on it, however you quietly maintain a great hubris for the esteemed and vaunted position you hold. Your skills are narrowyet powerful and with your grimoire of lost and then found again knowledge, penned by the illustrious time-lord Chromic, you have the ability to sift through the skeins of time and witness portents of what is yet to come, leaving you always wary of what's around the corner. You keep many stones and precious rocks in your single pocket.",
+      "Text": "To all knowledge you are the last remaining wizard on this wretched cosmic rock. You hate everything about it and everyone on it, however you quietly maintain a great hubris for the esteemed and vaunted position you hold. Your skills are narrow yet powerful and with your grimoire of lost and then found again knowledge, penned by the illustrious time-lord Chromic, you have the ability to sift through the skeins of time and witness portents of what is yet to come, leaving you always wary of what's around the corner. You keep many stones and precious rocks in your single pocket.",
       "Posessions": ["The last grimoire of Chromic, chained about your waist", "Iridescent robes with no sleeves", "Pocket of precious and semi-precious rocks"],
       "Skills": ["3 Spell - Invisibility", "3 Spell - Darksee", "3 Spell - Jolt"],
       "Special": "Once per day you may scry the future using the last grimoire of Chromic. If you are playing a single player adventure you may keep your finger at this paragraph and return in no more than 3 additional paragraphs. If you have a GM they can give you genuine clues as to what is ahead for 20 seconds. Once this time is up you must continue on with your adventure remembering as much or as little as you care to.",
@@ -372,6 +372,160 @@
       "Skills": ["2 Stacking and packing", "2 Etiquette", "1 Skillet Fighting", "1 Endurance"],
       "Special": "You may automatically recover anything from inside your pack without issue as a free action.",
       "Source": "<a href='https://www.patreon.com/troika/'>Troika Patreon</a> by Daniel Sell"
+    }, {
+      "Name": "Modicum of Bythos",
+      "Text": "Modica don’t recognise the distinctness of the universe from the matter of the Monad, believing that each person, aeon, rock and stream are equal parts of the divine body. When confronted with the violent disharmony of reality they engage in intense didactics. What knowledge has the hair on your head of the hair on your toes? Do we not bite our nails? Consider the glacier in the valley. And so on, so on they go.",
+      "Posessions": ["Plain white robes <br>OR colourful fluffy velvet clothes with plenty of slashed sleeves and tassels ", "A pouch full of yellow lotus powder", "Plain lotus pipe <br>OR outrageous lotus pipe"],
+      "Skills": ["Pedagogy 4", "Second Sight 2", "Astronomy 1"],
+      "Special": "There are multiple schools of thought amongst the Modica, but they all agree that everything is divine and we are all aspects of the One God. The profound sincerity this generates in the Modicum allows them to, once per session, have one person or small group hear them out until they have made their point. This must be done with no intention to harm the recipients.",
+      "Source": "<a href='https://www.patreon.com/troika/'>Troika Patreon</a> by Daniel Sell"
+    }, {
+      "Name": "Boiled Egg Trader",
+      "Text": "Up and down the market you go, up and down with your your pickling pot, your jars and jars and jars hung from colourful cord and clanking. You fancy yourself the finest example of the market’s spirit, a true peddler in the old methods, a visiting saint in this rough parish, shouting your sermon from the pulpit “COME GET YER EGGS!”",
+      "Posessions": ["3d6 jars of boiled eggs", "3d6 jars of boiled eggs", "A pickling pot, full of pickled eggs", "An egg ladle", "Sun hat", "Wooden sandals", "Walking stick with a jar of eggs hanging from it"],
+      "Skills": ["4 Shouting", "4 Language: Market Patter", "2 Awareness", "1 Cooking", "1 Etiquette"],
+      "Special": "They always have a boiled egg about their person, no matter how hard the universe tries to stop them.",
+      "Source": "<a href='https://www.patreon.com/troika/'>Troika Patreon</a> by Daniel Sell"
+    }, {
+      "Name": "STAR TYRANT",
+      "Text": "You crossed the sky on flaming horses, you fought Lord Quasar on the shores of Titan and toppled his Blue Glass Conservatories, you fled the War Sphere with an army of brain-broken star-bastards at your back. You stole the Bridle of Aeons, you touched the Eye of God, you saw it you took it you lost it all over again, you are the Star Tyrant.",
+      "Posessions": ["Bridle of Aeons", "Phlogiston Sword", "Pistolet, empty", "Muscles, rippling", "Drastic haircut, pink"],
+      "Skills": ["Sword Fighting 3", "Pistolet Fighting 3", "Strength 2", "Golden Barge Pilot 2", "Ride 2", "Run 1"],
+       "Special": "",
+      "Source": "<a href='https://www.patreon.com/troika/'>Troika Patreon</a> by Daniel Sell"
+    }, {
+      "Name": "Horizon Knight",
+      "Text": "You are the disciple of a roving monastic order committed to the preservation of reality. You once sailed from sphere to sphere inside your hermetic fortress, plumbed the depths of non-existence, fusil in hand, engaging in highly abstract combat with the forces of entropy and psycho-oblivion. However one day on returning from an excursion beyond the black rainbow you found your fortress to be gone. In itself not surprising, the fortress goes where it is needed, but to leave behind a Sentionaut is unheard of except in the most desperate situations. Investigation is warranted.",
+      "Posessions": ["Fusil lance (as fusil and polearm)", "Environmentally sealed plate armour (heavy armour, grants immunity to environmental effects. Requires recharging with a plasmic core once a week)", "A loyal Squire (6/10/2) who is attached to you via a metal umbilicus, allowing them to benefit from your suit. Can be released with a few minutes fiddling. Their own suit is sealed but cannot function alone."],
+      "Skills": ["3 Spell - Life Link", "2 Fusil Lance Fighting", "2 random spell from table 5", "2 Astrology", "1 Second Sight", "1 Climb", "1 Run", "1 Strength", "1 Fly"],
+       "Special": "",
+      "Source": "<a href='https://www.patreon.com/troika/'>Troika Patreon</a> by Daniel Sell"
+    }, {
+      "Name": "Owl Bagger",
+      "Text": "You would pull on your welly boots just as the sun is rising, every day. You’d walk the quiet streets of Troika with your ladder slung over your shoulder, tapping on doors and asking “bag your owls, guv?”. With a coin you’d climb up your ladder and stuff your sacks with tired owls clogging the gutters and bowing the rafters, or with a dismissive wave you’d be on your way; plenty more where that came from. ",
+      "Posessions": ["Rubber boots", "Overalls", "Extendable ladder", "Many burlap sacks", "Club", "Telescopic net"],
+      "Skills": ["Climb 2", "Club Fighting 2", "Sneak 1", "Gambling 1"],
+       "Special": "",
+      "Source": "<a href='https://www.patreon.com/troika/'>Troika Patreon</a> by Daniel Sell"
+    }, {
+      "Name": "Decolator",
+      "Text": "Schoom off with their head. Woosh watch it go. No one ever took as much joy in their job as you. If the crowd stormed the stage and removed your mask they’d see your beaming face right to the end. But that was then, now you’re out on The Road where no one appreciates a craftsman. Blunt axes and dirty blocks everywhere you go. ",
+      "Posessions": ["Snub nosed executioner’s sword (as longsword)", "Headsman’s mask: black and floppy OR elaborate and garish OR a tiger’s head", "Hatchet", "Cut out satirical engraving of you from a Troikan broadsheet (caption it)"],
+      "Skills": ["Beheading 5", "Carpentry 3", "Spell: Presence 2", "Sword Fighting 2"],
+       "Special": "",
+      "Source": "<a href='https://www.patreon.com/troika/'>Troika Patreon</a> by Daniel Sell"
+    }, {
+      "Name": "Mate of the Matross’ Guild",
+      "Text": "You sat days and nights at the ancient controls of the Autarch’s sky shattering artillery, ready for the word to pivot the canons and fire. At your hands those sleeping machines could wake up and split the world in two, but instead you sat in the dark and monitored the blinking lights that said the Commonwealth’s enemies were still sleeping.",
+      "Posessions": ["Overalls", "Iridescent goggles", "Lots of grease", "Spanner (as club)", "Cutlass (as sword)"],
+      "Skills": ["Climb 3", "Mathmology 3", "Spell: Farseeing 2", "Sword Fighting 2"],
+       "Special": "",
+      "Source": "<a href='https://www.patreon.com/troika/'>Troika Patreon</a> by Daniel Sell"
+    }, {
+      "Name": "Piscimancer",
+      "Text": "You are a student of the Unweighted Scale and can see beyond the firmament to the piscean creatures that float amongst us, transposed on our dry reality. With effort you can reach beyond and whorl the ethereal waters, but are prone to becoming lost in watching these eidolons when you think no one is looking.",
+      "Posessions": ["Bundle of 3d6 potent kataponti incense sticks", "Ruby goggles (as ruby lorgnettes but does not require a hand)", "Hermetic robe (+1 Swim)", "Rubber gloves with pointed fingers"],
+      "Skills": ["4 Swim", "2 Second Sight", "2 Spell: Drown", "2 Spell: Assume Shape", "1 Spell: Banish Spirit", "1 Spell: Slide Skywards"],
+       "Special": "Kataponti incense: Anyone fully immersed in the greasy smog of this incense gains +6 Second Sight(one stick can last for an hour) but must also resist Drowning. Swimming in this case of Drowning represents breathing discipline and resistance to having your lungs filled with ashy grease. Users may test luck or else see phantom fish forms in the air for a day after. These may be distracting enough to cause trouble at the GMs discretion.",
+      "Source": "<a href='https://www.patreon.com/troika/'>Troika Patreon</a> by Daniel Sell"
+    }, {
+      "Name": "Illumiere of the Worshipful Company of Lamplighters",
+      "Text": "Troika nights are brief and have the habit of sneaking up on a fellow, much like the Lamplighters themselves. As night descends so too do the Worshipful Companions, brandishing their polehooks and multicoloured phlogiston torches (each flame’s hue befitting a member's inscrutable standing within the guild). After a brief but intense bout of street violence and tasteful illumination they are gone, returned to their chapter houses below the street corners.",
+      "Posessions": ["Phlogiston torch (1. Red 2. Blue 3. Green 4. Purple 5. White 6. Black). Lasts for 6 hours before needing refueling", "Polehook, damage as Polearm", "Collapsible ladder (large item)", "Waistcoat, sewn in steel plates (light armour), fancy but smeared with phlogiston stains (highly flammable)", "Silk handkerchief tied around your neck"],
+      "Skills": ["4 Secret Signs: Worshipful Company of Lamplighters", "3 Climb", "2 Athletics", "2 Locks", "2 Sneak", "1 Spell: Flash"],
+       "Special": "",
+      "Source": "<a href='https://www.patreon.com/troika/'>Troika Patreon</a> by Daniel Sell"
+    }, {
+      "Name": "Tumere",
+      "Text": "Tzarina Dunwicket IV, upon learning of her long expected pregnancy, took to wearing dresses with the a hole in the front through which all could witness the ongoing gestation. It was eventually revealed through a series of public miracles that the occupant of her womb was not in fact a child but a reincarnated archon with no intention of coming out. We all know the story from there. However, to alleviate the Tzarina’s distress the court and all fashionable ladies and gentlemen adopted the same style, revealing their bellies and seeking to make them as bulbous as possible. To this day urban fops such as yourself adopt the style in fashionable defiance of court trends, declaring yourselves to be proud tumeres.",
+      "Posessions": ["Gutless dress <br>OR gutless waistcoat <br>OR gutless corset <br>OR gutless greatcoat", "Inconveniently tall hat <br>OR wig", "Swordstick (as sword) <br>OR Spearbrella (as spear)", "Pair of tailors scissors"],
+      "Skills": ["3 Etiquette", "2 Awareness", "2 Ride", "2 Spell: Languages", "1 Weapon fighting of your choice "],
+       "Special": "",
+      "Source": "<a href='https://www.patreon.com/troika/'>Troika Patreon</a> by Daniel Sell"
+    }, {
+      "Name": "Giant Killer",
+      "Text": "They never stop growing. The limitanei can get them young, while they’re wild and reckless with their head still below the treeline, but for anything more they are outmatched and far from the Green Palace. Whole towns are abandoned when a cunning and fertile family dig deep into the hillside, unless of course they are so lucky as to have the benefit of your storied trade.",
+      "Posessions": ["Large old horse", "Dented metal wagon handed down from your master", "Ancient collapsible ballista", "300ft of new steel chains", "D6 6ft long ballista bolts", "Assortment of hammers and chisels and spikes and saws", "Crossbow & 3d6 bolts", "Huge brass Giant Call and appropriate lashings"],
+      "Skills": ["5 Ballista fighting", "3 Use Giant Call", "2 Climb", "2 crossbow fighting", "2 Evaluate", "2 Run", "2 Strength", "2 Tracking", "1 Trapping", "1 Ride"],
+       "Special": "",
+      "Source": "<a href='https://www.patreon.com/troika/'>Troika Patreon</a> by Daniel Sell"
+    }, {
+      "Name": "Sister-Brother of the Mendicant Order of St. Selfridge",
+      "Text": "You wear the bulbous and ballooning habit of the Order of St. Selfridge, you don the many layered wigs, you paint your skin in the Adequate Hue, you receive every donation with an “as it ought to be”, and you buy only the finest oils and dried fruits. To some you are a common beggar, but you know you are an uncommon breed.",
+      "Posessions": ["Golden begging bowl", "Bulbous habit of St. Selfridge", "3d6 Wigs, all worn at once", "A pouch of Adequate Hue", "Bottle of fragrant oil <br>OR bag of dried fruit", "Wig glue", "Gong", "Mallet (as club)"],
+      "Skills": ["3 Begging", "3 Etiquette", "2 Spell: Diminish", "2 Spell: Helping Hands", "1 Spell: Ember"],
+       "Special": "",
+      "Source": "<a href='https://www.patreon.com/troika/'>Troika Patreon</a> by Daniel Sell"
+    }, {
+      "Name": "Limitanei",
+      "Text": "The daedal borders of the commonwealth are largely forgotten by the Phoenix Throne, maintained only by inertia and the institution of the Limitanei. You were one of the young volunteers of these rural militiae, received the ancient weapons and armour invested in the town since before the Autarchs looked inwards, and been instructed in their basic usage. You grew tired of chasing arctother from the city streets and dreamt of crossing into the silent exterior, so you left and took your relics with you.",
+      "Posessions": ["Ruptured Korsekes (when rolling a 6 for damage, test luck or lose remaining charges)", "Misshapen Jazerant (as medium armour)", "Helmet with enormous feathered comb", "Colourful mismatched undergarments", "Youthful exuberance"],
+      "Skills": ["2 Tracking <br>OR 2 Strength <br>OR 2 Acrobatics", "2 Swim <br>OR 2 Climb <br>OR 2 Run", "1 Sneak <br>OR 1 Awareness", "1 Korsekes fighting", "1 Spell: Random"],
+      "Special": "Korsekes can be used as a Polearm or a pyrotechnic ranged weapon (DMG 3,4,4,6,8,12,16). Each plasmic core contains enough energy for 4 shots",
+      "Source": "<a href='https://www.patreon.com/troika/'>Troika Patreon</a> by Daniel Sell"
+    }, {
+      "Name": "Spider Financier",
+      "Text": "Metropolitan travellers might remark on how strange it is to see a Spider outside of a bank teller’s window and you might remark in turn on how insensitive that is. Indeed, the thought that someone could hurt the feelings of a 6ft tall spider never crosses most people's’ minds, but a spider-heart aches like any other. However in truth you do not possess a spider-heart, at your core beats something far worse: the pungent heart of a Speculative Financier of the Spider Bank.",
+      "Posessions": ["Shiny black silk suit", "Bowler hat", "Reinforced umbrella with sharpened tip (as Sword or Shield)", "Strongbox filled with money, property of the Spider Bank", "10d6 pennies"],
+      "Skills": ["6 Secret Signs: Spider Banking", "5 Climb", "4 Evaluate", "3 Sneak", "3 Mathmology", "2 Fang Fighting", "1 Umbrella fighting", "1 Trapping"],
+      "Special": "May make silk at a rate of 6ft per turn. It is effectively sticky high quality rope. Every 30ft costs 1 Stamina to create. Anyone touching it must test their luck or become stuck pending a successful strength test.<br> Fangs can cause damage as large beast.<br> Your strongbox has money of a bewildering array of currencies. For a 20% fee you may exchange anyone’s money up to the value of 6,000 pence (including your own, the spider bank shows no favouritism).<br> Your strongbox may loan money up to the value of 6,000 pence and must be returned at 40% APR.<br> You may invest up to 6,000 once per month in a business or endeavour. You must get a return on it in the agreed upon time or:<br> If anyone steals, fails to pay, or in any other way finds themselves in unacceptable debt to the Spider Bank they must test their luck once a week (at the GMs discretion) every week they remain in the same place (an area the size of a city or less) or else be visited by debt collectors of the Spider Bank, What form they take will be appropriate to the area, but they will be well armed, unsympathetic, and insistent. In Troika, for instance, they typically send bedazzled Rhinomen.",
+      "Source": "<a href='https://www.patreon.com/troika/'>Troika Patreon</a> by Daniel Sell"
+    }, {
+      "Name": "Painted Warrior",
+      "Text": "Your body is a canvas. When you left your home you left it covered in goodbyes, since then you have been painted in hellos and destinations and peoples. You are a a spray-paint golem, freely following the commands as you interpret them. Some of the goodbyes can still be seen, faded between newer more vivid contributions. ",
+      "Posessions": ["Weapon of your choice", "No clothes"],
+      "Skills": ["3 Fighting in the weapon of your choice", "3 Painting", "2 Acrobatics", "2 Strength", "2 Run"],
+      "Special": "While you are fully painted by others you gain the benefits of armour. When you are freshly painted you are at 3 armour, this is reduced by 1 every week that passes without repainting. You must test your luck or reduce armour by 1 in the following situations and any others that make sense:<br>Swimming, taking a wound for 6 or more stamina, becoming profoundly dirty, bathing, rain, doubting the artistic integrity of your body.<br>You may not get painted armour benefits while wearing any clothes.<br>The person(s) painting you must successfully test Painting to give you the benefit of being painted.If they fail you must wash it off and try again.They must describe what they’re doing and you must dutifully record it and proudly show it off at every opportunity.",
+      "Source": "<a href='https://www.patreon.com/troika/'>Troika Patreon</a> by Daniel Sell"
+    }, {
+      "Name": "Proxy Child",
+      "Text": "One day you woke up in the arms of a giant, singed and lolling in its arms. You thought of how nice it would be to stretch your legs, and it put you down. You had trouble walking and felt that maybe this was a hasty decision, it put you on its shoulders. And so on and so on until this point in this place. You are still learning and still making mistakes, but your companion is always there for you, to pick you up again.",
+      "Posessions": ["A compression suit", "A pouch containing interesting things you’ve found since you woke up, most notably a: (d6)<br>1) stuffed animal, though it’s unclear what that animal is<br>2) rubber ball that unerringly returns to the hand that throws it<br>3) collection of small bones strung together to make a functional puppet. The strings are long enough to stretch to the floor from the shoulders of your Proxy<br>4) small furry mammal which refuses to do as you say no matter how hard you think<br>5) rusty pistolet with no energy, useful for pretending to shoot the wild animals your Proxy often defends you against<br>6) crown you made from a bit of the scrap you woke up surrounded by. It has markings on it that you can’t read.", "A 7ft tall companion who is moved by your will alone:<br>Ceramic Proxy: Surgical white (or vividly coloured) plates form the skin of this bipedal behemoth, sliding over each other with the gentle sound of bare feet on sand. Someone made it with an eye to detail, every inch of it is an aesthetic treat. Always has 3 armour.<br>Organic Proxy: To a casual observer it could be mistaken for a particularly large person with a barrel chest, cabled arms and a square head. But once they spot those dull eyes it’s clear this is just a puppet. They are capable of speech, though only at your command.<br>Mechanical Proxy: An unsubtle conglomeration of articulated metal, its every movement grinds and twangs. This is a functional machine, made without the arrogance of a hominid form. It might be stooped and chicken-like, or a great wheel of arms and legs. Its form is up to you. Always counts as being armed with a weapon of your choice and has 3 skill in its use."],
+      "Skills": ["Proxy: 5 Strength","Proxy: 2 Climb","Proxy: 2 Run","Proxy: 2 Heal","Proxy: 2 Swim","Child: 2 Second Sight","Child: 1 Spell - Random (Table 5)","Child: 1 Spell - Random (Table 5)"],
+      "Special": "The Child starts with 2 Skill and 8 Stamina and counts as an oversized item for inventory purposes when carried (they are rather small and feeble). The Proxy is rolled as you would a normal character. They both share a common Luck pool.<br>The Child may use their own Advanced Skills for any action the Proxy takes, including magic in which case they may also use its Stamina to cast it.<br>The Proxy ceases to function if it loses all Stamina, is out of sight of the child for more than an hour, or is encased in lead or silver.<br>The Proxy heals naturally like any other character, regardless of its construction. It can also be Healed (or repaired).<br>If the Child dies the Proxy ceases to function. If the proxy dies the child is very sad and lonely.",
+      "Source": "<a href='http://whatwouldconando.blogspot.com/2017/11/background-proxy-child.html'>What Would Conan Do?</a> by Daniel Sell"
+    }, {
+      "Name": "Brother of The Belt",
+      "Text": "You are a buccaneer of that rebel society of the asteroids, who find fraternity among thieves adhering to a simple code: No member may rob or cheat another, loot must be apportioned by established rules, and no captain may command without being elected by the crew.",
+      "Posessions": ["Cutlass", "Mechanical eye, hidden mostly behind a patch, but capable of scuttling ambulation on unfolding limbs. It can record what it seems for 15 minutes and relay it upon reinsertion.", "Pistol", "breathing-dress (counts as modest armor)"],
+      "Skills": ["2 Astrology","3 Climbing","2 Pilot","2 Sword Fighting","2 Pistol Fighting"],
+      "Special": "",
+      "Source": "<a href='http://sorcerersskull.blogspot.com/2016/11/baroque-space-troika-style.html'>From the Sorcerer's Skull</a>"
+    }, {
+      "Name": "Lunar Castaway",
+      "Text": "You have been recently rescued from the silvery Lunar wastes where you were long marooned.",
+      "Posessions": ["Antique Musket", "Fantastical yet rustic clothing", "Journal and writing implement", "Semi-transparent body owing to long subsistence on Lunar fruit"],
+      "Skills": ["3 Awareness  ", "2 Language - Selenite telepathy  ", "1 Musket Fighting  ", "2 Run  ", "2 Tracking"],
+      "Special": "",
+      "Source": "<a href='http://sorcerersskull.blogspot.com/2016/11/baroque-space-troika-style.html'>From the Sorcerer's Skull</a>"
+    }, {
+      "Name": "Mercurian Courtier",
+      "Text": "What is there in life for you now that you have been compelled to flee the shining court of His Heliocephaliac Majesty, Helios XXIII, Emperor of Mercury? The other worlds are so cold! Still you persevere.",
+      "Posessions": ["Mercurian Court Fashion: powdered whig, cache-sexe, corset, jabot or a doublet, pantaloons, stockings, and heels, and a mantled cloak.","Mercurian shaded lens on a stick <br>OR goggles","Light-blocking ointment","Muff Pistol","Stiletto"],
+      "Skills": ["3 Etiquette","2 Gambling","3 Language - Mercurian","1 Knife Fighting","2 Pistol Fighting"],
+      "Special": "",
+      "Source": "<a href='http://sorcerersskull.blogspot.com/2016/11/baroque-space-troika-style.html'>From the Sorcerer's Skull</a>"
+    }, {
+      "Name": "Space Cook",
+      "Text": "You are a veteran of many voyages and an essential member of any astronef crew. It is often no mean feat to wring something edible from the bounty of the spontaneous generation vats, and occasionally, you succeed.",
+      "Posessions": ["Bottle of rotgut","Cleaver","Pistol","Vials of salt and various exotic spices","Venerian Jabbering Monkey"],
+      "Skills": ["1 Awareness","2 Cooking","1 Strength","2 Axe (Cleaver) Fighting","2 Pistol Fighting","2 Fist Fighting"],
+      "Special": "",
+      "Source": "<a href='http://sorcerersskull.blogspot.com/2016/11/baroque-space-troika-style.html'>From the Sorcerer's Skull</a>"
+    }, {
+      "Name": "Cursed Astro-Mariner",
+      "Text": "Your dead eyes have beheld things no man was meant to see. Adrift in the Tartarean reach beyond Saturn, you bore witness to the protean horrors of the Titans of Chaos, stared in cold wonder at legion ruined Gamorrahs of the rebellious Nephilim, and suffered at the peril of your immortal soul the sirens’ allure of alien Atlantean heathenry. You returned alive, but not unchanged.",
+      "Posessions": ["Vials of soporific","A locked box 6 inches square, 8 deep, whose contents you frequently examine, but show no one","Brace of Pistols","Strange tattoos"],
+      "Skills": ["2 Astrology", "1 Healing", "2 Pilot", "2 Pistol Fighting", "2 Second Sight"],
+      "Special": "",
+      "Source": "<a href='http://sorcerersskull.blogspot.com/2016/11/baroque-space-troika-style.html'>From the Sorcerer's Skull</a>"
+    }, {
+      "Name": "Rat-Catcher",
+      "Text": "You are a Vermin Disposal Expert, though they often diminish your work, naming you merely 'rat-catcher.' But who among them has seen what strange vermin arise from the putrefaction of wastes of scores of space crews mingling in the cesspits of an asteroid? Much less hunted and captured those foul things? You have.",
+      "Posessions": ["One-eyed terrier, inured to space travel", "d4 animal traps", "d4 specimen collection jars, at least one contains a slime of some sort", "Club", "Blunderbuss"],
+      "Skills": ["2 Awareness", "1 Blunderbuss Fighting", "2 Club Fighting", "2 Tracking", "3 Trapping", "3 Tunnel Fighting"],
+      "Special": "",
+      "Source": "<a href='http://sorcerersskull.blogspot.com/2016/11/baroque-space-troika-style.html'>From the Sorcerer's Skull</a>"
     }
   ]
 }

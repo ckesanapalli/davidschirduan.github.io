@@ -29,17 +29,12 @@ function generate(coreOnly) {
   provisions = ["2d6 Silver Pence", "Knife (DMG 2, 2, 2, 2, 4, 8, 10)", "Lantern & flask of oil", "Rucksack", "6 Provisions"];
 
   document.getElementById("charClass").innerHTML = background.Name;
-  document.getElementById("charStamina").innerHTML = "Skill: " + skill;
-  document.getElementById("charSkill").innerHTML = "Stamina: " + stamina;
-  document.getElementById("charLuck").innerHTML = "Luck: " + luck;
 
-  descrip = "<h3 class=\"tightSpacing\">Description</h3>" + background.Text;
+  descrip = "<h3 class=\"tightSpacing\">Description:</h3>" + background.Text;
 
-  skills = background.Skills;
-  skillList = skills.concat(skills);
   skilltxt = "<h3 class=\"tightSpacing\">Skills</h3><p>Add your main Skill to each of these:</p><ul>";
-  for (s in skillList) {
-    skilltxt = skilltxt + "<li>" + skillList[s] + "</li>"
+  for (s in background.Skills) {
+    skilltxt = skilltxt + "<li>" + background.Skills[s] + "</li>";
   }
 
   descrip = descrip + skilltxt + "</ul>";
@@ -49,19 +44,23 @@ function generate(coreOnly) {
   poss = background.Posessions;
   provisions = poss.concat(provisions);
 
-  startingItems = "<h3 class=\"tightSpacing\">Starting Items</h3><p>You can choose from <strong>any or all</strong> of the items below to fill your inventory slots.</p><ul>";
+  startingItems = "<h2 class=\"tightSpacing\">Stamina: "+stamina+"</h2>"+
+  "<h2 class=\"tightSpacing\">Luck: "+luck+"</h2>" +
+  "<h2 class=\"tightSpacing\">Skill: "+skill+"</h2>";
 
+  if (background.Special != "") {
+      startingItems = startingItems + "<h3 class=\"tightSpacing\">Special</h3><p>" + background.Special + "</p>";
+  }
+
+  startingItems = startingItems + "<h3 class=\"tightSpacing\">Starting Items</h3><p>Choose from <strong>any or all</strong> of the items below to fill your inventory slots.</p><ul>";
   for (p in provisions) {
     startingItems = startingItems + "<li>" + provisions[p] + "</li>"
   }
   startingItems = startingItems + "</ul>";
 
-  if (background.Special != "") {
-    startingItems = "<h3 class=\"tightSpacing\">Special</h3><p>" + background.Special + "</p>" + startingItems;
-  }
+
 
   document.getElementById("poss").innerHTML = startingItems;
-
   document.getElementById("charCard").style = "";
   document.getElementById("turnCard").style = "display:none";
 

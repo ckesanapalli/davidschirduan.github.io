@@ -20,18 +20,12 @@ Troika! is one of the most imaginative RPGs I've had the pleasure of enjoying. [
 <div class="container generatorCard" id="charCard" style="display:none;">
   <div class="row">
     <div class="col-md-8 col-12 tightSpacing h1" id="charClass">THIS IS BROKEN! FLEE!</div>
-    <div class="col-md-4 col-12 tightSpacing" id="charClass"><button class="btn btn-primary" onclick="generate(true)"><small>Core Backgrounds Only</small></button></div>
-    <div class="col-12 p" style="margin-top:0;" id="charSource">Source: BROKEN</div>
+    <div class="col-md-4 col-12" style="margin-top:0;">
+      <p id="charSource">Source: BROKEN</p>
+      <button class="btn btn-primary" onclick="generate(true)"><small>Core Backgrounds Only</small></button>
+    </div>
   </div>
   <hr class="tightSpacing">
-  <div class="row" style="justify-content: space-around !important;">
-    <div class="col-md-3 col-12 tightSpacing h3" id="charStamina"></div>
-    <div class="col-md-3 col-12 tightSpacing h3" id="charSkill"></div>
-    <div class="col-md-3 col-12 tightSpacing h3" id="charLuck"></div>
-  </div>
-  <hr class="tightSpacing">
-  <div class="row">
-  </div>
   <div class="row">
     <div class="col-xl-6 col-12" id="descr">
     </div>
