@@ -526,6 +526,160 @@
       "Skills": ["2 Awareness", "1 Blunderbuss Fighting", "2 Club Fighting", "2 Tracking", "3 Trapping", "3 Tunnel Fighting"],
       "Special": "",
       "Source": "From the <a href='http://sorcerersskull.blogspot.com/2016/11/baroque-space-troika-style.html'>Sorcerer's Skull</a>"
+    }, {
+      "Name": "Alqai",
+      "Text": "Beneath the sands your people toil, digging out shards of metal from some long forgotten war. You’re stout, wrapped about with a shell like an armadillo and have four arms. The life of toil and war without the sun left you wanting, and so you set out.",
+      "Posessions": ["Shell (as Modest Armour)", "2 Maces", "2 Maces or Two Shields"],
+      "Skills": ["2 Mace Fighting", "3 Smithing", "3 Metallurgy", "2 Sneak"],
+      "Special": "You’ve got four arms.",
+      "Source": "From the <a href='https://antlerrr.blogspot.com/2017/05/acid-death-fantasy-weird-desert.html'>Ant-Lerr</a> by Luke Gearing"
+    }, {
+      "Name": "Dune Rider",
+      "Text": "You were an outrider of your fleet, a three armed no-legged dun-skinned scout, guiding the fleet away from danger and towards vulnerable targets. Something happened, and you left, perhaps by choice. You still have your single-rider craft, but you’ve lost purpose.",
+      "Posessions": ["One-man Dune Rider Craft (twice as fast as a horse, roll for use in harsh weather. Only usable in the desert)","Dune Rider Sickle (as axe on foot, as polearm when riding craft & charging)","A memento of home"],
+      "Skills": ["4 Dune Riding", "2 Sickle Fighting", "3 Navigation"],
+      "Special": "You’ve only got 3 multi-purpose limbs, and need at least 2 free to walk in an ungainly manner.",
+      "Source": "From the <a href='https://antlerrr.blogspot.com/2017/05/acid-death-fantasy-weird-desert.html'>Ant-Lerr</a> by Luke Gearing"
+    }, {
+      "Name": "Slow Tribeling",
+      "Text": "You are one of the anarchist, reptilian murderers from the southern wastes, known for your horrendous brutality and sculptures made of limbs, bound together by cacti-needles. You left your tribe behind, perhaps seeking to test yourself and return ready to Shepard the tribe as a Slow Warlord.",
+      "Posessions": ["Polearm", "Bag of cacti Needles", "Lizard-skin (as Light Armour)"],
+      "Skills": ["3 Polearm Fighting","3 Art (Limb Sculpture)","1 in any Skill","1 in any Skill","1 in any Skill"],
+      "Special": "As a reptile, you struggle if you cannot bask in the sun, or warm yourself before a fire, meaning you only put one initiative dice in the bag.",
+      "Source": "From the <a href='https://antlerrr.blogspot.com/2017/05/acid-death-fantasy-weird-desert.html'>Ant-Lerr</a> by Luke Gearing"
+    }, {
+      "Name": "Sandworm Rider",
+      "Text": "You were once nobody, until you successfully rode the sandworm, true lord of the desert. You’re now something between a shaman and a trouble-shooter. It is true the worm showed you things, but what mystical properties you ascribe to this is known to you alone.",
+      "Posessions": ["Worm-hooks", "Sword", "1d6 powerless charms which have influence amongst nomadic people", "Worm-drums, attuned to a specific worm, usable only in deep desert"],
+      "Skills": ["2 in random spell", "2 in random spell", "2 in astrology", "2 in healing"],
+      "Special": "",
+      "Source": "From the <a href='https://antlerrr.blogspot.com/2017/05/acid-death-fantasy-weird-desert.html'>Ant-Lerr</a> by Luke Gearing"
+    }, {
+      "Name": "Rubble Dweller",
+      "Text": "You were born and raised in the shadows of dead gods, picking through the endless rubble and debris of a dead age. Oh, what things you have found, and lost.",
+      "Posessions": ["Laser Pistol (Damage as Pistolet, 1d6 shots per day) <br>OR Power Armour (as Heavy Armour, +1 to strength when worn. Solar powered)", "Knife", "Ratty Clothes", "1d6 items of sentimental junk"],
+      "Skills": ["2 Sneak", "2 Run", "2 Scavenging", "2 Barter", "2 Forage"],
+      "Special": "",
+      "Source": "From the <a href='https://antlerrr.blogspot.com/2017/05/acid-death-fantasy-weird-desert.html'>Ant-Lerr</a> by Luke Gearing"
+    }, {
+      "Name": "Coated Man",
+      "Text": "You were one of the many pilgrims who travel to the Plastic Sea, having chosen glory and young death above being worn down by the sands. You are one of the few who decided to test themselves in the world at large, rather than dying upon the Plastic Shores.",
+      "Posessions": ["Weapon of choice", "Plastic Coated Skin (always lightly armoured)", "A deathwish"],
+      "Skills": ["4 in weapon of choice", "3 in dodge", "2 in artistic medium of choice", "1 in any skill"],
+      "Special": "Your coating will kill you slowly - your maximum age is 40.",
+      "Source": "From the <a href='https://antlerrr.blogspot.com/2017/05/acid-death-fantasy-weird-desert.html'>Ant-Lerr</a> by Luke Gearing"
+    }, {
+      "Name": "Refugee of the Past",
+      "Text": "You awoke in a glass tube in the midst of the remains of your culture. Everything is gone. You were frozen to restore the old world - but seeing this desolation, is it worth it?",
+      "Posessions": ["Laser pistol, 1d10 uses per day (solar powered)","Survival Knife","Memento of loved ones"],
+      "Skills": ["2 Laser Pistol Fighting", "1 Knife Fighting", "1 Navigation", "1 Foraging", "1 Survival", "1 Ancient History", "1 Sneak"],
+      "Special": "",
+      "Source": "From the <a href='https://antlerrr.blogspot.com/2017/05/acid-death-fantasy-weird-desert.html'>Ant-Lerr</a> by Luke Gearing"
+    }, {
+      "Name": "Freshwater Grub Agent",
+      "Text": "You are, or were, an agent for one of the rare and ruthless Freshwater Grubs, leading their criminal empires from their techno-tanks filled with precious, filtered water. You’ve been extensively trained and paid.",
+      "Posessions": ["A secret mission OR hitmen on your tail", "Laser pistol 1d4 uses per day", "Shortsword", "Desert-cloak", "Finery in a bag", "Disguise kit"],
+      "Skills": ["3 Disguise", "1 Laser Pistol Fighting", "1 Sword Fighing", "2 Dodge", "2 Sneak", "1 Run"],
+      "Special": "",
+      "Source": "From the <a href='https://antlerrr.blogspot.com/2017/05/acid-death-fantasy-weird-desert.html'>Ant-Lerr</a> by Luke Gearing"
+    }, {
+      "Name": "Sha’ir",
+      "Text": "You weave words, into poetry and spells alike. You are greatly respected by the Thousan Sultans, who often pay heavily to be your patron.",
+      "Posessions": ["Unfished epic poem"],
+      "Skills": ["4 Poetry", "2 Random Spell", "2 Random Spell"],
+      "Special": "",
+      "Source": "From the <a href='https://antlerrr.blogspot.com/2017/05/acid-death-fantasy-weird-desert.html'>Ant-Lerr</a> by Luke Gearing"
+    }, {
+      "Name": "Petty Priest",
+      "Text": "You are unpopular - religion is not common amongst the peoples of the waste, yet you truly believe. They have blessed you with such powers, how could they not be a true god?",
+      "Posessions": ["None - they will care for you"],
+      "Skills": ["3 Random Spell", "3 Random Spell", "3 Random Spell", "1 Preaching"],
+      "Special": "Construct your deity using the spells you have been blessed with as cues.",
+      "Source": "From the <a href='https://antlerrr.blogspot.com/2017/05/acid-death-fantasy-weird-desert.html'>Ant-Lerr</a> by Luke Gearing"
+    }, {
+      "Name": "Desert Mutant",
+      "Text": "You are utterly reviled by all good folk. Your mutations are undeniably useful. This puts you in an interesting position.",
+      "Posessions": ["Horrendous Crab Claw (damage as Sword) <br>OR Insect Chitin Skin (always Heavily Armoured) <br>OR Freakish Sensory Organs (+4 Awareness)", "A missing Limb <br>OR Diminutive Size <br>OR Nauseating Stench", "Hyper-specific dietary requirements (10x provision cost) <br>OR Huge Glutton (Triple provisions required)"],
+      "Skills": ["2 Any skill","2 Any skill","2 Any skill","2 Any Skill","2 Any skill"],
+      "Special": "",
+      "Source": "From the <a href='https://antlerrr.blogspot.com/2017/05/acid-death-fantasy-weird-desert.html'>Ant-Lerr</a> by Luke Gearing"
+    }, {
+      "Name": "Bat-man",
+      "Text": "You glide upon the thermals, ranging far and wide across the desert, seeking something. Perhaps food for the people, or their enemies. Perhaps a water scout? Regardless, your Skills have use to others.",
+      "Posessions": ["Spear (Treat as polearm for diving attacks)", "Wings!", "Dropping-daggers", "Totem of Winds"],
+      "Skills": ["2 Spear Fighting", "3 Flight Control", "2 Navigation", "3 Awareness"],
+      "Special": "You can fly.",
+      "Source": "From the <a href='https://antlerrr.blogspot.com/2017/05/acid-death-fantasy-weird-desert.html'>Ant-Lerr</a> by Luke Gearing"
+    }, {
+      "Name": "Tortoise Dweller Survivor",
+      "Text": "In the deep wastes, tortoises the size of towns wander, decimating oases whenever they are found. Rather than attempt to race the tortoises, your people settled atop them, slow-moving pirates of the wastes. Something killed your mount, and almost all of the people died, and you are left alone.",
+      "Posessions": ["Sword", "Light Armour", "Shield", "2 Spears"],
+      "Skills": ["3 Sword Fighting", "2 Spear Fighting", "3 Climb", "2 Barter"],
+      "Special": "",
+      "Source": "From the <a href='https://antlerrr.blogspot.com/2017/05/acid-death-fantasy-weird-desert.html'>Ant-Lerr</a> by Luke Gearing"
+    }, {
+      "Name": "Titan AI Host",
+      "Text": "Those skeletons are not gods - they were fighting machines. And you, poor unfortunate, have one of them inside your head. It is diminished, your fleshy body barely able to maintain its most basic functions, but it is there, and you can hear it. It’s supplanted your own Skills with those it desires, seeking a new, more fitting form.",
+      "Posessions": ["Laser rifle (damage as Fusil, 1d10 uses per day)", "Laser pistol (1d10 uses per day)"],
+      "Skills": ["5 Technology", "3 Laser Rifle Fighting", "2 Laser Pistol Fighting"],
+      "Special": "If you die, the core lives on. It emerged, a metal insect the size of your fist. If placed upon the skull of a helpless or willing humanoid, it burrows in, sealing the entry wound as it goes. They are now your character, losing all Skills but gaining those you had. Stamina, skill and luck values remain as the host.",
+      "Source": "From the <a href='https://antlerrr.blogspot.com/2017/05/acid-death-fantasy-weird-desert.html'>Ant-Lerr</a> by Luke Gearing"
+    }, {
+      "Name": "Reptile Tamer",
+      "Text": "You have learnt the art of taming the many reptiles of the wastes, teaching them tricks and ensuring their loyalty. To what purpose? That is for you to decide.",
+      "Posessions": ["2d6 Trained Lizards (each fits in a small coinpurse, and can perform 1 trick perfectly)", "1d6 Lizard-treats (+1 to lizard taming rolls)"],
+      "Skills": ["3 Lizard Taming", "2 Perform", "2 Forage", "2 Navigate"],
+      "Special": "",
+      "Source": "From the <a href='https://antlerrr.blogspot.com/2017/05/acid-death-fantasy-weird-desert.html'>Ant-Lerr</a> by Luke Gearing"
+    }, {
+      "Name": "Water-Witch",
+      "Text": "You are valuable, oh yes indeed. Beloved by the poor, despised by the merchant, some freak mutation or magical gift allows you to flawlessly find water. What happens next?",
+      "Posessions": ["Staff", "Robes"],
+      "Skills": ["1 Staff Fighting", "3 Run", "3 Sneak", "1 Random Spell", "1 Random Spell"],
+      "Special": "Can always find a source of fresh, drinkable water.",
+      "Source": "From the <a href='https://antlerrr.blogspot.com/2017/05/acid-death-fantasy-weird-desert.html'>Ant-Lerr</a> by Luke Gearing"
+    }, {
+      "Name": "Rainbow Thresher",
+      "Text": "All but the holy wavelength are false. Some members of your order have purified their retinas to expunge the blasphemous receptors, but you retain yours to bear witness to their grotesque vibrations. Let the gods sort heretics into ultraviolet heavens and infrared hells, you have painting to do.",
+      "Posessions": ["A prism", "Robes and tassels dyed the sacred shade", "Pigments and binding agents"],
+      "Skills": ["3 Spell - Light", "2 Mathmology", "2 Second Sight", "2 Spell - Jolt", "1 Spell - Darksee", "1 Spell – Flash"],
+      "Special": "",
+      "Source": "<a href='https://www.reddit.com/r/rpg/comments/99ojpr/d6_weird_character_backgrounds/'>/u/volkovoy</a> on reddit"
+    }, {
+      "Name": "Monumentalist",
+      "Text": "While your companions are busy wrestling and hacking away at some foe, you're already planning the bloodstone obelisk that will forever mark this place. Your paths through the spheres are marked by cairns, tombstones, and temples. For you, the only things worth remembering are written in stone.",
+      "Posessions": ["Hammer and chisel", "Pulleys and rope", "A jar of gold leaf", "A sled", "A pack mule"],
+      "Skills": ["4 Masonry", "3 Mathmology", "1 Most Obscure Languages", "1 Secret Signs - Masons", "1 Evaluate", "1 Awareness", "1 Climb"],
+      "Special": "",
+      "Source": "<a href='https://www.reddit.com/r/rpg/comments/99ojpr/d6_weird_character_backgrounds/'>/u/volkovoy</a> on reddit"
+    }, {
+      "Name": "Maiden Bearer",
+      "Text": "You carry the maw of your god upon your back, and your god is always hungry.",
+      "Posessions": ["An iron maiden", "Hooks and chains", "A nasty little trap of your own invention"],
+      "Skills": ["3 Wrestling", "3 Strength", "2 Run", "1 Tracking", "1 Trapping"],
+      "Special": "Your iron god takes up 4 equipment slots. Once its thorny chambers are filled with a wriggling sacrifice and the door is shut, it doubles in weight and cannot be opened until your god is satiated—usually about 1 day. Your god never needs cleaning.",
+      "Source": "<a href='https://www.reddit.com/r/rpg/comments/99ojpr/d6_weird_character_backgrounds/'>/u/volkovoy</a> on reddit"
+    }, {
+      "Name": "Miracle Cure Salesmen",
+      "Text": "You were the only survivor of an expedition to the fountain of youth, and you’ve carried back as much of the legendary waters with you as you could carry. However, eternity is proving too short a time to make your fortune hawking your miraculous wares. You meander from sphere to sphere, seeking out the desperate and the gullible after being laughed out of throne rooms and grand halls. Maybe somewhere there’s one fool enough, or a deal cheap enough, to offload some of your priceless haul.",
+      "Posessions": ["Water from the fountain of youth, stoppered in tacky curio bottles","Dirty, threadbare rags","Banners bearing slogans of previous marketing attempts"],
+      "Skills": ["1 Awareness","1 Run","1 Sneak","1 Swim","1 Trapping"],
+      "Special": "You never age.",
+      "Source": "<a href='https://www.reddit.com/r/rpg/comments/99ojpr/d6_weird_character_backgrounds/'>/u/volkovoy</a> on reddit"
+    }, {
+      "Name": "Masonic Campaign Manager",
+      "Text": "The candidates are secret, the districts jagged, voter registration arcane, but there’s an election to be run. It’s your job to find babies to wave and hands to kiss for your future club president…whoever they might be.",
+      "Posessions": ["A crate of campaign pins","A poisoner’s ring","A list of suspected opposition candidates"],
+      "Skills": ["4 Secret Signs – Secret Sphere Domination Organization","3 Etiquette","2 Poison","1 Disguise","1 Awareness","1 Astrology"],
+      "Special": "If you win the election, your candidate will assume a mantle of unspeakable power. You may be awarded for your efforts with obscene wealth, an influential office, or a firm handshake.",
+      "Source": "<a href='https://www.reddit.com/r/rpg/comments/99ojpr/d6_weird_character_backgrounds/'>/u/volkovoy</a> on reddit"
+    }, {
+      "Name": "Bound Knights",
+      "Text": "From birth, your body was molded by straps, frames, and ropes into odd forms and shapes. The resulting silhouette provides you an anatomical camouflage on the battlefield. How can the enemy pierce your heart when there’s already a hole in your chest, or decapitate a head that’s hidden in your foot?",
+      "Posessions": ["Armored attire woefully unsuitable for anyone but you (Lightly Armored)","An oversized bow operable only by your hooked feet, +1 to Bow Fighting and Damage Rolls while using it.","A chained weapon wielded by the momentum of your body (damage as Axe and doesn’t require use of your hands)"],
+      "Skills": ["3 Bow Fighting", "3 Axe Fighting", "2 Acrobatics OR 2 Strength", "2 Climb OR 2 Run OR 2 Swim", "-2 Disguise"],
+      "Special": "",
+      "Source": "Volkovoy#3136, Discord"
     }
   ]
 }
