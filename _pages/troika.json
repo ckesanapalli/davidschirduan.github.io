@@ -644,42 +644,49 @@
       "Posessions": ["A prism", "Robes and tassels dyed the sacred shade", "Pigments and binding agents"],
       "Skills": ["3 Spell - Light", "2 Mathmology", "2 Second Sight", "2 Spell - Jolt", "1 Spell - Darksee", "1 Spell – Flash"],
       "Special": "",
-      "Source": "<a href='https://www.reddit.com/r/rpg/comments/99ojpr/d6_weird_character_backgrounds/'>/u/volkovoy</a> on reddit"
+      "Source": "From <a href='https://uncannyspheres.blogspot.com/'>Uncanny Spheres</a> by Ian Yusem"
     }, {
       "Name": "Monumentalist",
       "Text": "While your companions are busy wrestling and hacking away at some foe, you're already planning the bloodstone obelisk that will forever mark this place. Your paths through the spheres are marked by cairns, tombstones, and temples. For you, the only things worth remembering are written in stone.",
       "Posessions": ["Hammer and chisel", "Pulleys and rope", "A jar of gold leaf", "A sled", "A pack mule"],
       "Skills": ["4 Masonry", "3 Mathmology", "1 Most Obscure Languages", "1 Secret Signs - Masons", "1 Evaluate", "1 Awareness", "1 Climb"],
       "Special": "",
-      "Source": "<a href='https://www.reddit.com/r/rpg/comments/99ojpr/d6_weird_character_backgrounds/'>/u/volkovoy</a> on reddit"
+      "Source": "From <a href='https://uncannyspheres.blogspot.com/'>Uncanny Spheres</a> by Ian Yusem"
     }, {
       "Name": "Maiden Bearer",
       "Text": "You carry the maw of your god upon your back, and your god is always hungry.",
       "Posessions": ["An iron maiden", "Hooks and chains", "A nasty little trap of your own invention"],
       "Skills": ["3 Wrestling", "3 Strength", "2 Run", "1 Tracking", "1 Trapping"],
       "Special": "Your iron god takes up 4 equipment slots. Once its thorny chambers are filled with a wriggling sacrifice and the door is shut, it doubles in weight and cannot be opened until your god is satiated—usually about 1 day. Your god never needs cleaning.",
-      "Source": "<a href='https://www.reddit.com/r/rpg/comments/99ojpr/d6_weird_character_backgrounds/'>/u/volkovoy</a> on reddit"
+      "Source": "From <a href='https://uncannyspheres.blogspot.com/'>Uncanny Spheres</a> by Ian Yusem"
     }, {
       "Name": "Miracle Cure Salesmen",
       "Text": "You were the only survivor of an expedition to the fountain of youth, and you’ve carried back as much of the legendary waters with you as you could carry. However, eternity is proving too short a time to make your fortune hawking your miraculous wares. You meander from sphere to sphere, seeking out the desperate and the gullible after being laughed out of throne rooms and grand halls. Maybe somewhere there’s one fool enough, or a deal cheap enough, to offload some of your priceless haul.",
       "Posessions": ["Water from the fountain of youth, stoppered in tacky curio bottles","Dirty, threadbare rags","Banners bearing slogans of previous marketing attempts"],
       "Skills": ["1 Awareness","1 Run","1 Sneak","1 Swim","1 Trapping"],
       "Special": "You never age.",
-      "Source": "<a href='https://www.reddit.com/r/rpg/comments/99ojpr/d6_weird_character_backgrounds/'>/u/volkovoy</a> on reddit"
+      "Source": "From <a href='https://uncannyspheres.blogspot.com/'>Uncanny Spheres</a> by Ian Yusem"
     }, {
       "Name": "Masonic Campaign Manager",
       "Text": "The candidates are secret, the districts jagged, voter registration arcane, but there’s an election to be run. It’s your job to find babies to wave and hands to kiss for your future club president…whoever they might be.",
       "Posessions": ["A crate of campaign pins","A poisoner’s ring","A list of suspected opposition candidates"],
       "Skills": ["4 Secret Signs – Secret Sphere Domination Organization","3 Etiquette","2 Poison","1 Disguise","1 Awareness","1 Astrology"],
       "Special": "If you win the election, your candidate will assume a mantle of unspeakable power. You may be awarded for your efforts with obscene wealth, an influential office, or a firm handshake.",
-      "Source": "<a href='https://www.reddit.com/r/rpg/comments/99ojpr/d6_weird_character_backgrounds/'>/u/volkovoy</a> on reddit"
+      "Source": "From <a href='https://uncannyspheres.blogspot.com/'>Uncanny Spheres</a> by Ian Yusem"
     }, {
       "Name": "Bound Knights",
       "Text": "From birth, your body was molded by straps, frames, and ropes into odd forms and shapes. The resulting silhouette provides you an anatomical camouflage on the battlefield. How can the enemy pierce your heart when there’s already a hole in your chest, or decapitate a head that’s hidden in your foot?",
       "Posessions": ["Armored attire woefully unsuitable for anyone but you (Lightly Armored)","An oversized bow operable only by your hooked feet, +1 to Bow Fighting and Damage Rolls while using it.","A chained weapon wielded by the momentum of your body (damage as Axe and doesn’t require use of your hands)"],
       "Skills": ["3 Bow Fighting", "3 Axe Fighting", "2 Acrobatics OR 2 Strength", "2 Climb OR 2 Run OR 2 Swim", "-2 Disguise"],
       "Special": "",
-      "Source": "Volkovoy#3136, Discord"
+      "Source": "From <a href='https://uncannyspheres.blogspot.com/'>Uncanny Spheres</a> by Ian Yusem"
+    }, {
+      "Name": "Haunted Medic",
+      "Text": "Behind the brazen charges and bristling armies that sweep and collide across the spheres, you wage your own war in hellish ditches and ramshackle huts that pass for operating theatres. Almost as spectacular and strange as the weapons that make them, the wounds of your patients constitute the intricate intrigues at the heart of your feverishly wrought dramas. You’ve been at this too long, and finally caught a body that snapped your typically adamantine heartstrings. The wars left behind, will your quaking hands and quivering lips prove fatal for your new comrades?",
+      "Posessions": ["A surgeon’s kit, disused aside from a dwindling supply of painkillers", "A half-empty bottle of strong spirits"],
+      "Skills": ["2 Awareness", "1 Trapping", "1 Poison", "1 Healing"],
+      "Special": "The bottle or the pill are the only ways you’ve managed to dull the screams and still your tremulations. When thoroughly soused, you gain a +4 bonus to Healing but -1 to everything else.",
+      "Source": "From <a href='https://uncannyspheres.blogspot.com/'>Uncanny Spheres</a> by Ian Yusem"
     }
   ]
 }
