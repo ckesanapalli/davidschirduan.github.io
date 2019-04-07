@@ -166,7 +166,7 @@ description: >
       <legend class="project-card-text fine faded">Reference Sheet for Uncharted Worlds</legend>
     </article>
   </div>
-  <div class="column column-1-2">
+  <!--<div class="column column-1-2">
     <article class="project-card">
       <a href="/files/Numenera_Reference.pdf" class="no-hover no-print-link " tabindex="-1">
         <div class="project-card-img img sixteen-nine">
@@ -178,7 +178,7 @@ description: >
       </h3>
       <legend class="project-card-text fine faded">Reference Sheet for Numenera</legend>
     </article>
-  </div>
+  </div>-->
   <div class="column column-1-2">
     <article class="project-card">
       <a href="/files/Bastionland_Reference.pdf" class="no-hover no-print-link " tabindex="-1">

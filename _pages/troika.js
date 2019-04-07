@@ -13,25 +13,11 @@ function generate(coreOnly) {
   stamina = Math.floor(Math.random() * 6) + Math.floor(Math.random() * 6) + 14;
   luck = Math.floor(Math.random() * 6) + 7;
 
-  /*If coreOnly is true, keep searching until you find a Rulebook background*/
-  test = true;
-  while (test) {
-    background = troika.Backgrounds[Math.floor(Math.random() * troika.Backgrounds.length)];
-    if (background.Source.includes("Rulebook")) {
-      test = false;
-    } else {
-      test = coreOnly;
-    }
-  }
-
-  document.getElementById("charSource").innerHTML = "Source: " + background.Source + "";
+  background = troika.Backgrounds[Math.floor(Math.random() * troika.Backgrounds.length)];
+  document.getElementById("charClass").innerHTML = "<h1 class=\"tightSpacing\">" + background.Name + "</h1><p>Source: " + background.Source + "</p>";
 
   provisions = ["2d6 Silver Pence", "Knife (DMG 2, 2, 2, 2, 4, 8, 10)", "Lantern & flask of oil", "Rucksack", "6 Provisions"];
-
-  document.getElementById("charClass").innerHTML = background.Name;
-
-  descrip = "<h3 class=\"tightSpacing\">Description:</h3>" + background.Text;
-
+  descrip = "<h3 class=\"tightSpacing\">Description:</h3>" + background.Text + "<hr class=\"tightSpacing\">";
   skilltxt = "<h3 class=\"tightSpacing\">Skills</h3><p>Add your main Skill to each of these:</p><ul>";
   for (s in background.Skills) {
     skilltxt = skilltxt + "<li>" + background.Skills[s] + "</li>";
@@ -46,10 +32,10 @@ function generate(coreOnly) {
 
   startingItems = "<h2 class=\"tightSpacing\">Stamina: "+stamina+"</h2>"+
   "<h2 class=\"tightSpacing\">Luck: "+luck+"</h2>" +
-  "<h2 class=\"tightSpacing\">Skill: "+skill+"</h2>";
+  "<h2 class=\"tightSpacing\">Skill: "+skill+"</h2><hr class=\"tightSpacing\">";
 
   if (background.Special != "") {
-      startingItems = startingItems + "<h3 class=\"tightSpacing\">Special</h3><p>" + background.Special + "</p>";
+      startingItems = startingItems + "<h3 class=\"tightSpacing\">Special</h3><p>" + background.Special + "</p><hr class=\"tightSpacing\">";
   }
 
   startingItems = startingItems + "<h3 class=\"tightSpacing\">Starting Items</h3><p>Choose from <strong>any or all</strong> of the items below to fill your inventory slots.</p><ul>";
@@ -157,18 +143,18 @@ function flipCoin(token) {
   switch (token) {
     case ("Enemy"):
       bgImage = "url('/images/EnemyToken.png')";
-      coinTxt = "Enemy Action";
+      coinTxt = "Any Enemy";
       bgColor = "silver";
-      turnText = "<p style=\"margin: unset;\">" + turnNumber + ". Enemy Action" +
+      turnText = "<p style=\"margin: unset;\">" + turnNumber + ". An Enemy" +
         "</p>" + turnText;
 
       break;
 
     case ("Henchmen"):
       bgImage = "url('/images/HenchToken.png')";
-      coinTxt = "Hench -lings";
+      coinTxt = "Hench ling";
       bgColor = "silver";
-      turnText = "<p style=\"margin: unset;\">" + turnNumber + ". Henchlings" +
+      turnText = "<p style=\"margin: unset;\">" + turnNumber + ". A Henchling" +
         "</p>" + turnText;
       break;
 
@@ -176,10 +162,9 @@ function flipCoin(token) {
       bgImage = "url('/images/BackToken.png')";
       coinTxt = "End Round";
       bgColor = "silver";
-      turnText = "<p style=\"margin: unset;\"><strong>Resolve any 'Per Round', or 'End of Round' effects.<br>Adjust the number above, adding new combatants, removing dead ones.<br>Click 'New Round'.</strong></p>" +
+      turnText = "<p style=\"margin: unset;\"><strong>End of Round</strong><br>Resolve all effects, adjust the numbers, and click \"New Round\".</p>" +
       "<p style=\"margin: unset;\">" + turnNumber + ". End Round" +
         "</p>" + turnText;
-      
       break;
 
     case ("New Round"):

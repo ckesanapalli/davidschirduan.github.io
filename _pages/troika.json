@@ -687,6 +687,244 @@
       "Skills": ["2 Awareness", "1 Trapping", "1 Poison", "1 Healing"],
       "Special": "The bottle or the pill are the only ways you’ve managed to dull the screams and still your tremulations. When thoroughly soused, you gain a +4 bonus to Healing but -1 to everything else.",
       "Source": "From <a href='https://uncannyspheres.blogspot.com/'>Uncanny Spheres</a> by Ian Yusem"
+    }, {
+      "Name": "Pail Possessor",
+      "Text": "You once had nothing to your name. That was until a stray bucket fell on your head. Now, you have a pail and/or amnesia (but probably just the pail). The question arises; what does one do with a magic bucket? The answer: adventure.",
+      "Posessions": ["A magic pail", "The clothes on your back (and other body parts)"],
+      "Skills": ["3 Bucket Fighting", "2 Strength", "1 Spell – Summon Pail", "1 Run"],
+      "Special": "Only you can use the pail; the pail chose you. To all others it is just a regular bucket.<br>Magic Pail: The pail appears empty, however, when you make a motion as if you were throwing out its contents, a random substance will materialise and be thrown out of the pail. E.g. you come across a fire, swing the bucket towards the fire and out of the bucket is thrown a bucket’s-worth of water which douses said fire. If you place an item in the bucket, it will disappear only to reappear when you throw the bucket again. You can only place one item (GM’s discretion for what counts as a single item) at a time in the bucket, any subsequent items will either be spat out or destroyed (Again, at the GM’s discretion). The bucket still only takes up 1 equipment slot with an item in it.<br>Bucket Fighting: In melee you may swing the pail at enemies to deal damage as a club might (Without the benefit of Heavy Percussive Weapon). A ranged attack would be throwing a substance out of the bucket.<br> Summon Pail: If you ever lose the pail you can use this to summon it again. What are you if not the pail possessor? The pail may or may not fall on your head when it is summoned",
+      "Source": "By Curtis Teixeira"
+    }, {
+      "Name": "Goblin Dogsbody",
+      "Text": "What are goblins made of? Chaos and snot, and meat left to rot. Goblins are small dark green people with noses, mouths, ears and big toes out of proportion to the rest. They are the backbone and the whipping boys of any evil horde. They're smarter than you think, and often manage to get away when the overlord is slain and his citadel is burning. ",
+      "Posessions": ["A weapon of your choice", "A hooded shirt <br>OR good shoes (but not both)", "Bone dice", "Sack"],
+      "Skills": ["Awareness 1", "Climb 1", "Bow Fighting 1", "Club Fighting 1", "Knife Fighting 1", "Run 2", "Sleight of Hand 2", "Sneak 2"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Brother of the Mephitic Sycophantry Fellowship",
+      "Text": "Evil has a problem with cohesion and loyalty. It has a tendency to undermine itself for profit, fun, or out of duty. The Fellowship of Mephitic Sycophantry belong in that last category. They are minor imps and sundry hell-beings filling up the ranks of an evil horde. They masquerade as bungling acolytes and feckless goblins, experts at licking boots and nothing else. Even if an evil power-grab fails due to incompetence and ego-bloat, these infernal creatures win. ",
+      "Posessions": ["Dark brown robe", "Sacrificial dagger", "Marbles (for people to step on and fall)", "Pet centipede"],
+      "Skills": ["Acrobatics 2", "Awareness 2", "Disguise 4", "Sleight of Hand 1", "Sneak 1", "Spell: Babble 1"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Crowblin Scout",
+      "Text": "A crowblin is a crow-like goblin, or a goblinoid crow. It walks on two legs, has a beak, and can, on a good day, manage a few moments of awkward half-flight. Their cawing voices carry far, and almost always seem to have a hint of glee and raucous ridicule. Goblins say they're another dumb experiment gone wrong, while crowblins consider themselves to be an example of divine improvement. This disagreement has made the crowblins adept at hiding, even from their more numerous cousins. ",
+      "Posessions": ["A crossbow with twenty black-feathered blots","A leather cuirass (Light armor)","1D6 shiny pilfered objects","A firkin of crowblin ale (imagine a chicken broth beer)"],
+      "Skills": ["Climb 3", "Fist Fighting 1", "Gambling 1", "Crossbow Fighting 2", "Sneak 4"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Fanged Gentlebeast",
+      "Text": "It is humanity’s own fault if the fanged gentlebeast has joined the evil horde. Not long ago it lived in a cave or a hollow tree, a quiet philosopher of nature. If it ate a sheep, a child or a serf, it was no more than is lost to wild animals and accidents. Their fire. Their traps and their rage was a crude intrusion into unfettered contemplation. Anything that happens now is on them.",
+      "Posessions": ["Diary", "Fangs & Claws (Modest Beast)", "Fur (Lightly armored)", "Parchment and sketching quill"],
+      "Skills": ["Awareness 1", "Fist Fighting 2", "Run 2", "Sneak 2", "Tracking 2", "Spell: True Seeing 2"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Hogoblin Grunt",
+      "Text": "A hogoblin is a pig-headed goblin of greater-than-average size. Their pig-headedness is literal, but figurative as well. They have been bred to be frontline fighters, with less propensity for cowardice than their goblin cousins. Maybe that succeeded a little too well, as they are liable to take their porcine rage out on each other at inopportune moments. They can sometimes be distracted with food.",
+      "Posessions": ["Serrated blade", "Shield", "Nose ring", "Loincloth"],
+      "Skills": ["Blade Fighting 2", "Fist Fighting 2", "Another Fighting skill of your choice 2", "Ride 1", "Run 1", "Strength 1", "Wrestling 1"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Renegade Lizardperson",
+      "Text": "Lizardpeople generally find mammals distasteful and weak, but a few join evil hordes due to serving the same masters (mainly serpent demons), or as slave warriors. A lizardperson looks like an upright crocodile with opposable thumbs, and it acts like its shit does not stink. ",
+      "Posessions": ["Bow and 20 arrows", "Breast plate", "Claws and teeth (small beast)", "Raw meat in a tightly wrapped bundle", "Spear"],
+      "Skills": ["Bow Fighting 1", "Poison 2", "Polearm Fighting 1", "Secret Signs – Reptilian 2", "Swim 3", "Tracking 1"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Meatpatch Man",
+      "Text": "The meatpatch man is a creature made from patches of skin and flesh, stretched over mismatched bones. The skin sags sickeningly in one place, and is contoured sharply over bones in another. It is the product of dark magic and medicine, and has no place in the natural order of things. It stinks of formaldehyde too. A meatpatch man has few allies in this world, except for those few that are deemed similarly freakish.",
+      "Posessions": ["A collection of teeth", "Sewing kit", "Glue", "Femur (treat as club)"],
+      "Skills": ["Club Fighting 2", "Fist Fighting 2", "Second Sight 4", "Strength 3"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Filth-Crone of the War Spinneries",
+      "Text": "Some call them the Norns’ step-sisters or a poor man’s Furies. No one does so around the filth-crones however. A filth-crone is the oldest, ugliest, grimiest and most hatchet-faced woman you can imagine. She smells of asparagus and piss. The Filth-Crone weaves visions of the future on her gross loom, and the smart overlord will often consult her before a battle.",
+      "Posessions": ["Gross loom","Gross woolen dress","A jug of strong troll-spirits"],
+      "Skills": ["Astrology 4", "Healing 1", "Second Sight 3", "Spell: Fear 1", "Spell: Weave Premonition (same as Read Entrails, but uses", "a woven piece of fabric) 3", "Spell: True Seeing 2"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Hogoblin Watchman",
+      "Text": "It is usually an older and less aggressive hogoblins who have the task of patrolling the dark citadel and grounds. They have turned their pig-rage into an omnidirectional paranoia that is quiet, yet intense. The watchman has survived fighting the Forces of Good, as well as all the dangers in an overlord’s lair. His fears are solid, educated ones, and their causes are all around him. ",
+      "Posessions": ["Sensible nose ring", "Helmet", "Morning star", "Lantern", "Flask of oil", "Soft pillow"],
+      "Skills": ["Awareness 3", "Blunt weapon Fighting 2", "Fist Fighting 2", "Sneak 1", "Strength 1", "Wrestling 1"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Doom-Shade",
+      "Text": "A doom-shade is an undead agent of the netherworld, a glum shadow-warrior, secretly overjoyed at being out of Hell for while. Physically it appears as a tattered black cloak floating silently by. Occasionally a grinning skull peers out from under the cowl. No one suspects this, but doom-shades will sometimes twist an overlord’s plans slightly, if it means staying ‘top-side’ a little longer.",
+      "Posessions": ["Communion-stone (a faintly glowing rock which lets the shade speak to its infernal master – if said master deigns to respond).", "Shadowy greatsword", "A doom-shade wears no visible armor, yet always counts as being modestly armored"],
+      "Skills": ["Second Sight 1", "Sneak 4", "Sword Fighting 4"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Ogre Sous Chef",
+      "Text": "Ogres may not be clever, but they know food. Any ogre worth its spice rack has sampled all sorts of meat it has encountered, including the ritual devourment of their parents (with garlic). As such it is not uncommon to see ogres in an evil overlord’s kitchen. Sometimes a brawl will break out and someone will become a main ingredient. The food always tastes great though.",
+      "Posessions": ["Apron", "Cleaver", "Cooking pot", "Spice Rack"],
+      "Skills": ["Cooking 4", "Cleaver Fighting 2", "Poison 1", "Strength 3"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Troll Accountant",
+      "Text": "A troll is a large, lumpen creature, known mainly for its refusal to die from natural causes. They do however have a faculty for accounting and number-crunching. Some say this ability was a gift from one of the Lords of Misrule, and that there is a circle of Hell where trolls endlessly subtract and divide the body parts of the damned. However it may be, trolls invented the abacus and the concept of zero, but still regard fire with religious awe. An evil overlord will often have a troll in charge of the treasure chamber. Trolls care little for gold, but hate discrepancies. ",
+      "Posessions": ["Abacus", "Lots of scrolls and writing equipment", "Key to the treasure chamber", "Club"],
+      "Skills": ["Mathmology 4", "Run 1", "Strength 4", "Wrestling 1"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Goblin Shaman",
+      "Text": "Goblins have no gods. No one has come forward to claim responsibility for them, or to protect them in troublesome times (which is almost all the time). The goblin shaman channels something else, something that whoops, hollers and ejaculates protoplasm all over the shop. The totality of ur-goblinity perhaps, shat through time and place. ",
+      "Posessions": ["A wicked knife", "Bone-filled spirit rattle", "Rat-skin cloak", "Jars of unguent and salves"],
+      "Skills": ["Awareness 1", "Heal 1", "Run 1", "Second Sight 1", "Spell: Assume Shape 1", "Spell: Befuddle 2", "Spell: Jolt 2", "Spell: [Random] 1", "Spell: Ward 2"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Mnemo-Spectre",
+      "Text": "Being an evil overlord is dangerous. Even when the Forces of Good aren't coming at you, there's the ambitious lieutenant, the fickle demon lord, and the opportunistic malcontents who call themselves adventurers. A Mnemo-Spectre is what is left of the most stubborn overlords, after the world has stabbed them in the back. A billowing shroud of shadow, blood and tenacity. The Mnemo-Spectre potentially has great power, but its grasp of time and place is confusing and tenuous. The Mnemo-Spectre will at times not be able to remember names or allegiances, but will remain razor sharp when it comes to ambition and the nature of slights. It is paranoid, frustrated, gloating, and occasionally magnanimous. One thing is certain: it WILL return to power. ",
+      "Posessions": ["None, but due to its otherwordly nature it always counts as being modestly armored, and its touch as a Large Beast attack."],
+      "Skills": ["Second Sight 4", "Spell: Cockroach 3", "Spell: Leech 2", "Spell: Fire Bolt 2", "Spell: [Random] 1", "Spell: [Random] 1"],
+      "Special": "You cannot kill a spectre with physical attacks. Sure you can tear it asunder or blow it up, but it just reforms D66 days later, even less tethered to reality. A strong banishment might do the job, but even then they might strike a deal with some arch-fiend or dark god.",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Low Elf",
+      "Text": "Elves are made from dreams, a gossamer material of beautiful color and potential. Most elves stay aloof and apart from the baser species, lest they become dulled and sullied by reality. Low elves are the few who take a different path, wallowing in booze, shit, violence and associating with the Forces of Evil. In this way they press their reality upon the world. Low elves smell, stomp and burp, but beneath the grime one can see the vestiges of unreal beauty. They’re still supercilious gits.",
+      "Posessions": ["Cruel shadow sword","Bone bow and 20 insectile arrows","Filthy silk robes","Silver centipede torc"],
+      "Skills": ["Acrobatics 1","Awareness 1","Bow Fighting 3","Fist Fighting 1","Sneak 1","Sword Fighting 2","Run 1","Spell: Read Entrails 1"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Gark",
+      "Text": "The Forces of Evil love their breeding programs and their ill-advised hybridizations. Hence the gark. A gark is an incongruous mix of two worlds. It has the strength, size, and hunger of an ogre and the intellect and hankering for trouble of a goblin, yet does not fit in with either group. The ogres are just too dumb, and goblins do not properly appreciate a good bout of ultra-violence among cousins.",
+      "Posessions": ["Dane axe", "Scrap armor (modestly armored)", "Musky body oil", "Hand mirror"],
+      "Skills": ["Awareness 1", "Axe Fighting 2", "Fist Fighting 2 ", "Run 1", "Sneak 1", "Strength 2", "Wrestling 2"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Cancerman Undoctor",
+      "Text": "Some people manage to negotiate with their disease. The result is a cancerman, a creature made from lumps, boils, tumors and vestigial tails. It can’t really die, but can you really call it alive. Worst among these are the undoctors, missionaries of pestilence and canker. They can heal you, but your flesh grows back as unsightly growths and your blood becomes a grey green pus. An undoctor is gentle, softly spoken, and as he sits by your bedside his sores will not cease oozing.",
+      "Posessions": ["Stained grey robes","Doctor’s bag (full of filthy tools)","Gauze mask","A collection of small bones"],
+      "Skills": ["Healing 4", "Sneak 1", "Spell: Brittle Twigs 2", "Spell: Drown 2", "Spell: Leech 2"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Pain Merchant",
+      "Text": "A strange creature from an underworld called the War Sphere. The pain merchant is a vaguely humanoid figure made from blades. Its eyes are blue as a gas-flame and seem distant. The pain merchant is a source of cruel and twisted weapons, still warm from the War Sphere’s suffer-forges. A pain merchant has trouble understanding things that aren’t war or the preparation for war. To a pain merchant a lute will seem like a very poor weapon, and a painting of a landscape nigh-useless intel.",
+      "Posessions": ["All the weapons (it does not literally pull them out of its backside, but it might as well. It is never unarmed).", "Its knife-skin counts as modest armor."],
+      "Skills": ["All Fighting Skills 2, Run 1, Strength 1"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Crowblin Assassin",
+      "Text": "The crowblins are generally regarded as a mistake, or some sort of infernal joke. The crowblin assassin casts some doubt on who exactly the punchline is. This crowblin has single-mindedly focused on becoming silent and deadly, striking from surprising angles and escaping through what you might generously call winged flight. Yet there is no one left alive to express any sort of mirth.",
+      "Posessions": ["Curved knife", "Garrote", "Two vials of poison"],
+      "Skills": ["Acrobatics 2", "Garrote Fighting 2", "Fly 1", "Knife Fighting 2", "Sneak 4"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Acolyte",
+      "Text": "Some people just need a place to belong, and when you’re a no-account serf or cottar, being an evil overlord’s crony (even if is an abused and disrespected crony) can seem like a step up. It usually doesn’t entail backbreaking work in some wet barley field. Even if the acolyte tires of being ill-used, and the constant threat of becoming ogre-stew, there usually isn’t a place to go back to. Once you throw in your lot with evil, it’s hard to go back to sharecropping.",
+      "Posessions": ["Dark robe", "A dagger", "A fake hog-nose and tusks (to look like a hogoblin in a pinch)", "Broad-brimmed hatchet-faced", "A memento of those you left behind"],
+      "Skills": ["A Crafting skill of your choice 1","Awareness 1","Disguise 1","Etiquette 1","Farming 1","Fist Fighting 1","Run 1","Sneak 2","Spell: Quench 1","Tracking 1"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Hunchbacked Gatekeeper",
+      "Text": "It is a sad truth that a hunchbacked gatekeeper has become an accessory to many overlords. These people are often bought from callous parents and raised as guards and keymasters surrounded by goblins, skeletons and imps. The adult hunchback is a tough customer, accorded respect, even from hogoblins and ogres.",
+      "Posessions": ["A ring of keys to pretty much everything", "Spiked club", "Dagger", "Lockpicking tools", "Leather jerkin (light armor)"],
+      "Skills": ["Awareness 2", "Club Fighting 2", "Fist Fighting 2", "Locks 4", "Strength 1", "Tunnel Fighting 1"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Grey Dwarf",
+      "Text": "The grey dwarves usually work in the deepest strata of the earth. Work defines their world, and things not useful to their work is at best irrelevant. Hence it is unusual to see a grey dwarf in an evil horde, even one operating out of a dungeon. It must have determined that this servitude to some light-dweller (even a dark overlord is a light-dweller to grey dwarves) furthers the work in some way. A grey dwarf is decidedly dour, and seems to feel that everyone else are work-shy weaklings.",
+      "Posessions": ["Petrifier", "Sharpened shovel (treat as axe)", "1D6 rations (which look like fossilized plankton and isn’t edible to non-grey dwarves)", "The sturdiest boots imaginable"],
+      "Skills": ["Axe Fighting 3", "Engineering 4", "Evaluate 1", "Tunnel-Fighting 3"],
+      "Special": "Petrifier: The petrifier is a grey dwarf invention which makes things stay in place, by petrifying it. It can be used as a weapon but only fired every other turn. A hit starts the petrification process, costing the victim two SKILL points. The petrifier looks like a cast iron vacuum cleaner worn backpack - style.",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Skelly Fusilier",
+      "Text": "Most reanimated skeletons literally don’t have the brains they were born with. A few retain intelligence after being reanimated, or perhaps a runaway soul uses the bones as a hiding place. These skeletons are often put to use as marksmen, as their eyeless sockets do not water from wind and smoke, and their hands do not tremble with fear or agitation. Intelligent skeletons (or ‘skellies’ as the goblins call them) are often quite gregarious, and as their fleshless kin do not speak much, try to fit in among the living.",
+      "Posessions": ["Fusil", "Twelve apostles (bandolier with powder and shot)", "A hat ", "Dice", "(While skellies do not wear armor, they only take 2 STAMINA damage from any attack that is meant to pierce, puncture or slash. They can’t be suffocated or poisoned)."],
+      "Skills": ["One crafting skill (retained from life) 1", "Awareness 1", "Fist Fighting 1", "Fusil Fighting 3", "Gambling 2", "Run 1"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Left-Hand Apprentice",
+      "Text": "An overlord is likely to attract followers wanting to learn the dark arts from a true master. Even if the overlord isn’t a warlock, they usually hang around, playing dice and lording it over the goblins. There are usually some mysteries for them to plumb in the overlord’s expansive lair. If they’re lucky they’ll survive it.",
+      "Posessions": ["Robes smelling faintly of grave-mold", "Arcane tattoos", "Rod of Eldritch Might (treat as club)", "2D6 silver", "Playing cards"],
+      "Skills": ["Evaluate 1", "Gambling 1", "Healing 1", "Locks 1", "Second Sight 1", "Sneak 1", "Spell: Open 1", "Spell: Posthumous Vitality 1", "Spell: Skeletal Counsel 1", "Spell: Torpor 1"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "A ”plain-dealing villain”",
+      "Text": "It happens more often than you might think. A child of a noble lineage despairs at ever inheriting power. Maybe a parent or an older sibling is the main obstacle, maybe it is something more nebulous, like a heavenly mandate. However the case may be, she sees an alliance with evil as an expedient way to get what she feel she is owed. The outcome is rarely what she hoped for.",
+      "Posessions": ["Fine clothing as befits her status", "Slim silver sword", "Beautiful bow", "Destrier", "Heirloom worth 4D6 silver"],
+      "Skills": ["Bow fighting 2", "Dancing 2", "Etiquette 3", "Evaluate 1", "Ride 2", "Sword Fighting 2"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Winged Monkey",
+      "Text": "The winged monkey used to be carefree and mischievous, but in no way evil. Their downfall allegedly came about through playing a prank on a sorceress’ fiancee. This occasioned the creation of a golden cap imbued with the magic power to control the monkeys. This magic was copied by every tinpot overlord worth his throne. Now, tragically, a free winged monkey is as rare as hen’s teeth. There is a rumor among the monkeys that the caps’ magic is fading, or even that some overlord have no cap. The creatures have internalised subservience to such a degree that none of them have tested this. Yet. A winged monkey looks like a Japanese snow monkey, if somewhat larger and black. They have large bat-like wings, and usually carry tridents in their tail.",
+      "Posessions": ["Bow and ten arrows","Trident","A hat","Pilfered jewelry worth 2D6 silver"],
+      "Skills": ["Acrobatics 1", "Bow Fighting 2", "Trident Fighting 1", "Fly 3", "Wrestling 2"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Demon Tailor",
+      "Text": "An overlord must look their horrid best. As such they import the best tailors from the underworld. A demon tailor is a pale personage with needle fingers and the barest hint of horns on their forehead. A demon tailor works with an ever-expanding range of materials. Iron headdresses, skirts of living skin, dog heads stuffed with silver maggots and nail collars are all possibilities for those daring fashion-makers. A demon tailor’s greatest annoyance is a conservative or timid dark lord.",
+      "Posessions": ["A carpet bag full of thread and fabric", "A jar of silver maggots", "Theatre jewelry", "Rope"],
+      "Skills": ["Evaluate 3", "Healing 1", "Needle Fighting 3", "Sewing 4 (Given time a demon tailor can sew any two things together).", "Spell: Affix 1"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Death Knight",
+      "Text": "When a champion of Good is dying on the field of battle, infernal forces will sometimes offer them a bargain: join us, and you do not have to pass on. Fear humbles most, and many have taken the offer. The result is a death knight, a great warrior haunting their own dead body, encased in brutal black armor. The death knight is not truly alive, but has not passed on. That is the way Evil keeps its promises. Most death knights feel cheated and bitter, but dread removing the armor which keeps them alive for fear of their fate after death. They usually take out their rage on the armies of Good. Where was the help when they needed it? ",
+      "Posessions": ["Black armor (heavily armored)", "Massive maul", "Grisly trophies (a necklace of ears or the like)", "Knife"],
+      "Skills": ["Fist Fighting 2", "Knife Fighting 1", "Maul Fighting 4", "Strength 2", "Ride 1"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Gremlin",
+      "Text": "A gremlin is a goblin that has been infused with the essence of a minor demon of ruin. The gremlin still acts much like its goblin cousins, but has a distinct knack for sabotage, and for destroying anything which could be generously be described as a ‘machine’. Goblins tend to avoid a gremlin, as they consider it (somewhat justifiedly) a jinx. ",
+      "Posessions": ["A weapon of your choice", "Iron shoes", "Lockpick set", "Pouch full of pebbles"],
+      "Skills": ["Awareness 1", "Gremlinology 4 (used for destroying contraptions with moving parts, from carts to clockworks).", "Locks 3", "Run 2", "Sleight of Hand 1", "Sneak 1"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Hydra-Wrangler",
+      "Text": "Overlords tend to have a massive nigh-unkillable monster somewhere in their base of operation. It does not have to be a hydra, but we will use it as a shorthand. The hydra-wrangler is usually a skinny little person who looks like the hydra has drained their energy directly. They are respected by all, from death knights to latrine goblins, since they are the single person (save, perhaps, the overlord) who can exercise any kind of control over the hydra.",
+      "Posessions": ["Chain mail apron (modest armor)", "Backpack full of hydra-treats", "Tin whistle", "Hook for a hand", "Spear", "Steel-toed boots"],
+      "Skills": ["Hydra Wrangling 3", "Music 1", "Run 1", "Sneak 1", "Spear Fighting 2", "Spell: Amity 1", "Spell: Ironhand 1"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Goblin Manservant",
+      "Text": "This goblin has been promoted to wait on the dark lord personally. This mean wearing nice clothes, but also getting a kick up the backside if the lord is ‘in a mood’. Still the goblin manservant is all kinds of snooty, and might be suspected of being a snitch. He isn’t though.",
+      "Posessions": ["A uniform with gold tresses and all that", "short sword", "1D6 rations’ worth of stolen food"],
+      "Skills": ["Awareness 1", "Climb 1", "Etiquette 1", "Gambling 2", "Run 2", "Sleight of Hand 2", "Sneak 2", "Sword Fighting 1"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Demolition Demoniac",
+      "Text": "Black powder is a recent invention, and evil has taken to it like a duck to water. To properly utilize this destructive miracle an overlord hire itinerant alchemists called demolition demoniacs, since their stink of sulphur and love of destruction rivals any pit-fiend. A demolition demoniac sees an explosion as a re-shuffling of reality, a creation of new patterns through destruction. Of course the demoniac knows that the overlord pays her to destroy his enemies, but that is a question of politics, not essence. There is no bad explosion.",
+      "Posessions": ["2D6 Explosive charges", "Pistolet (with eight reloads)", "Alchemy set, strapped precariously to the backbone", "Prosthetic arm", "1D6 silver worth of gold nuggets. Can the demoniac really make gold?"],
+      "Skills": ["Astrology 1", "Demolitions 3", "Mathmology 2", "Pistolet Fighting 1", "Second Sight 1"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
+    }, {
+      "Name": "Hogoblin Commander",
+      "Text": "This is the peak of hogoblindom (according to them). The rage is tempered by experience, and the cruelty is handed out with intent and purpose. They’re still hog-headed warriors motivated by slaughter, but time has put some flab on them. They don’t have to run at the enemy.",
+      "Posessions": ["Greataxe", "Ostentatious helmet", "Chain mail", "Shield", "Double nose ring", "Loincloth"],
+      "Skills": ["Blade Fighting 2", "Fist Fighting 2", "Axe Fighting 3", "Ride 1", "Strength 1", "Wrestling 1"],
+      "Special": "",
+      "Source": "From <a href='https://acontinentofbanalities.blogspot.com/2019/04/the-last-days-of-kranium-kastle.html'>A Continent of Banalities</a> by Tore Nielsen"
     }
   ]
 }
