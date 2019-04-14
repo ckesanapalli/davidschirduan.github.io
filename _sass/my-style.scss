@@ -1,5 +1,5 @@
 
-/* Testing new stylings */
+/* Best Left Buried */
 
 .leftburiedCard {
   border-radius: 5px;
@@ -14,9 +14,10 @@
 }
 
 .leftburiedCard h1,
-h2,
-h3,
-hr, div {
+.leftburiedCard h2,
+.leftburiedCard h3,
+.leftburiedCard hr,
+.leftburiedCard div {
   margin-top: 5px;
   margin-bottom: 6px;
   color:whitesmoke;
@@ -37,14 +38,13 @@ hr, div {
   width: 100%;
   border-radius: initial;
   border: 1px solid whitesmoke;
+  outline: 1px rgb(38, 38, 38);
 }
 
 .leftburied-btn:hover {
   color: whitesmoke;
   background: black;
 }
-
-
 
 /* Embed PDFs*/
 
