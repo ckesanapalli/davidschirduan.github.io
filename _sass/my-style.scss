@@ -1,4 +1,51 @@
 
+/* Testing new stylings */
+
+.leftburiedCard {
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  padding: 10px 20px;
+  background-color: rgb(38, 38, 38);
+  color: whitesmoke;
+  line-height: 1.1;
+  display:none;
+}
+
+.leftburiedCard h1,
+h2,
+h3,
+hr, div {
+  margin-top: 5px;
+  margin-bottom: 6px;
+  color:whitesmoke;
+}
+
+.centerButtons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+  margin: 10px;
+}
+
+.leftburied-btn {
+  color: whitesmoke;
+  background: rgb(38, 38, 38);
+  width: 100%;
+  border-radius: initial;
+  border: 1px solid whitesmoke;
+}
+
+.leftburied-btn:hover {
+  color: whitesmoke;
+  background: black;
+}
+
+
+
 /* Embed PDFs*/
 
 .pdf-container {

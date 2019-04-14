@@ -25,7 +25,7 @@ The Game Master can take random results and combine them with their own ideas to
       <legend class="project-card-text fine faded">Roll up powerful Weapons and frail Wielders.</legend>
     </article>
   </div>
-  <div class="column column-1-2">
+  <!--<div class="column column-1-2">
     <article class="project-card">
       <a href="/indefinitetrain" class="no-hover no-print-link" tabindex="-1">
         <div class="project-card-img img sixteen-nine">
@@ -37,7 +37,7 @@ The Game Master can take random results and combine them with their own ideas to
       </h3>
       <legend class="project-card-text fine faded">An infinite train made of community-crafted carriages</legend>
     </article>
-  </div>
+  </div>-->
   <div class="column column-1-2">
     <article class="project-card">
       <a href="/troikagenerator" class="no-hover no-print-link" tabindex="-1">
