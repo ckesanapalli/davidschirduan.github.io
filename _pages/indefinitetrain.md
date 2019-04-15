@@ -2,7 +2,7 @@
 layout: page
 title: The Indefinite Train
 permalink: indefinitetrain
-published: true
+published: false
 image: /images/indefinitetrain.png
 description: >
   An infinite train made of community-crafted carriages.
