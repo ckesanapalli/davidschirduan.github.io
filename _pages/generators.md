@@ -25,19 +25,6 @@ The Game Master can take random results and combine them with their own ideas to
       <legend class="project-card-text fine faded">Roll up powerful Weapons and frail Wielders.</legend>
     </article>
   </div>
-  <!--<div class="column column-1-2">
-    <article class="project-card">
-      <a href="/indefinitetrain" class="no-hover no-print-link" tabindex="-1">
-        <div class="project-card-img img sixteen-nine">
-          <img src="/images/indefinitetrain.png" alt="Train Generator" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
-        </div>
-      </a>
-      <h3 class="project-card-title">
-        <a href="/indefinitetrain" class="flip-title">Indefinite Train Generator</a>
-      </h3>
-      <legend class="project-card-text fine faded">An infinite train made of community-crafted carriages</legend>
-    </article>
-  </div>-->
   <div class="column column-1-2">
     <article class="project-card">
       <a href="/troikagenerator" class="no-hover no-print-link" tabindex="-1">
@@ -46,7 +33,7 @@ The Game Master can take random results and combine them with their own ideas to
         </div>
       </a>
       <h3 class="project-card-title">
-        <a href="/troikagenerator" class="flip-title">Troika Generator</a>
+        <a href="/troikagenerator" class="flip-title">Troika!</a>
       </h3>
       <legend class="project-card-text fine faded">A mobile-friendly Character Generator and Initiative Tracker for the Troika! RPG</legend>
     </article>
@@ -59,9 +46,22 @@ The Game Master can take random results and combine them with their own ideas to
         </div>
       </a>
       <h3 class="project-card-title">
-        <a href="/hotspringsgenerator" class="flip-title">Hot Springs Generator</a>
+        <a href="/hotspringsgenerator" class="flip-title">Hot Springs Island</a>
       </h3>
       <legend class="project-card-text fine faded">A mobile-friendly tool for Hot Springs Island.</legend>
+    </article>
+  </div>
+  <div class="column column-1-2">
+    <article class="project-card">
+      <a href="/leftburiedgenerator" class="no-hover no-print-link" tabindex="-1">
+        <div class="project-card-img img sixteen-nine">
+          <img src="/images/blb.png" alt="Character Generator for the Best Left Buried RPG" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
+        </div>
+      </a>
+      <h3 class="project-card-title">
+        <a href="/leftburiedgenerator" class="flip-title">Best Left Buried</a>
+      </h3>
+      <legend class="project-card-text fine faded">A mobile-friendly Character Generator for the Best Left Buried RPG.</legend>
     </article>
   </div>
   <div class="column column-1-2">
@@ -72,7 +72,7 @@ The Game Master can take random results and combine them with their own ideas to
         </div>
       </a>
       <h3 class="project-card-title">
-        <a href="/monsterparts" class="flip-title">Monster Parts Generator</a>
+        <a href="/monsterparts" class="flip-title">Monster Parts</a>
       </h3>
       <legend class="project-card-text fine faded">Generate unique creatures.</legend>
     </article>
@@ -85,7 +85,7 @@ The Game Master can take random results and combine them with their own ideas to
         </div>
       </a>
       <h3 class="project-card-title">
-        <a href="/ynngenerator" class="flip-title">Gardens of Ynn Generator</a>
+        <a href="/ynngenerator" class="flip-title">Gardens of Ynn</a>
       </h3>
       <legend class="project-card-text fine faded">Generate locations, encounters, and treasure.</legend>
     </article>
@@ -98,7 +98,7 @@ The Game Master can take random results and combine them with their own ideas to
         </div>
       </a>
       <h3 class="project-card-title">
-        <a href="/stygiangenerator" class="flip-title">Stygian Library Generator</a>
+        <a href="/stygiangenerator" class="flip-title">Stygian Library</a>
       </h3>
       <legend class="project-card-text fine faded">Generate locations, encounters, books, and treasure.</legend>
     </article>
