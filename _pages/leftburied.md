@@ -15,7 +15,7 @@ Best Left Buried is an fantasy horror game that threatens your characters' sanit
 <div class="row centerButtons">
   <div class="col-6">
     <button id="CharButton" class="btn leftburied-btn" onclick="generate()">
-      <h2>Generate Character</h2>
+      <h3>Generate Character</h3>
     </button>
   </div>
 </div>

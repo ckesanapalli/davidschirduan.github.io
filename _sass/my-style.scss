@@ -39,10 +39,10 @@
   border-radius: initial;
   border: 1px solid whitesmoke;
   outline: 1px rgb(38, 38, 38);
-  white-space: normal;
+  white-space: normal !important;
 }
 
-.leftburied-btn h2 {
+.leftburied-btn h3 {
   margin-top: 5px;
   margin-bottom: 6px;
   color:whitesmoke;
