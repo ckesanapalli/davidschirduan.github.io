@@ -71,7 +71,7 @@ function generate() {
     "<li>50 Ft Rope</li><li>3 Torches</li><li>Backpack</li><li>Bedroll</li><li>A week of Rations</li><li>Basic armour  (Increases attacker's target score by 1)</li>" +
     "<li>" + equip1 + "</li>" +
     "<li>" + equip2 + "</li>" +
-    "<li>" + equip3 + "</li>"
+    "<li>" + equip3 + "</li>" + 
         "<li>" + weapon1 + "</li>" +
           "<li>" + weapon2 + "</li></ul>";
 
