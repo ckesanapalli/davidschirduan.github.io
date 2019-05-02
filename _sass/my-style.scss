@@ -1,4 +1,28 @@
 
+
+/* Wyrd Generator */
+
+.wyrd-btn {
+  color: whitesmoke;
+  background: black;
+  width: 100%;
+  border-radius: initial;
+  border: 1px solid whitesmoke;
+  outline: 1px rgb(38, 38, 38);
+  white-space: normal !important;
+}
+
+.wyrd-btn h3 {
+  margin-top: 5px;
+  margin-bottom: 6px;
+  color: whitesmoke;
+}
+
+.wyrd-btn:hover {
+  color: whitesmoke;
+  background: darkslategrey;
+}
+
 /* Bone Marshes Button */
 
 .bonemarshesCard hr {

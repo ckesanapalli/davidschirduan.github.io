@@ -11,8 +11,12 @@ description: >
 
 <p class="tightSpacing" id="huntText"></p>
 
-<div class="row" id="newButtons">
-  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button id="start" class="btn btn-primary btn-lg" onclick="startHunt()">Start Hunt</button></div>
+<div class="row centerButtons">
+  <div class="col-md-6 col-12">
+    <button id="newButtons" class="btn bonemarshes-btn" onclick="startHunt()">
+      <h3>Start Hunt</h3>
+    </button>
+  </div>
 </div>
 
 <div class="tightSpacing" id="encounterText"></div>
@@ -25,11 +29,27 @@ description: >
   <p id="pathsText"></p>
 </div>
 
-<div class="row">
-  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn-wide btn btn-primary btn-lg" onclick="searchBody()">Search Body</button></div>
-  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn-wide btn btn-primary btn-lg" onclick="spell()">Spell</button></div>
-  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn-wide btn btn-primary btn-lg" onclick="artifact()">Artifact</button></div>
-  <div class="col-md-6 col-6 tightSpacing buttonWrapper"><button class="btn-wide btn btn-primary btn-lg" onclick="mutation()">Wild Mutation</button></div>
+<div class="row centerButtons">
+  <div class="col-md-6 col-12">
+    <button id="newButtons" class="btn bonemarshes-btn" onclick="searchBody()">
+      <h3>Search Body</h3>
+    </button>
+  </div>
+    <div class="col-md-6 col-12">
+    <button id="newButtons" class="btn bonemarshes-btn" onclick="spell()">
+      <h3>Spell</h3>
+    </button>
+  </div>
+    <div class="col-md-6 col-12">
+    <button id="newButtons" class="btn bonemarshes-btn" onclick="artifact()">
+      <h3>Artifact</h3>
+    </button>
+  </div>
+    <div class="col-md-6 col-12">
+    <button id="newButtons" class="btn bonemarshes-btn" onclick="mutation()">
+      <h3>Wild Mutation</h3>
+    </button>
+  </div>
 </div>
 
 <div class="container generatorCard">
@@ -63,7 +83,8 @@ function startHunt() {
     document.getElementById("huntText").innerHTML = "Within the <strong>" + wyrd.names.prefix[Math.floor(Math.random() * wyrd.names.prefix.length)] + " Of " + wyrd.names.suffix[Math.floor(Math.random() * wyrd.names.suffix.length)] + "</strong> there is rumored to be " + wyrd.secrets[Math.floor(Math.random() * wyrd.secrets.length)] + " But beware! " + wyrd.dangers[Math.floor(Math.random() * wyrd.dangers.length)] + "<br><br> You are hunting one or more <strong>" + target.name + "</strong> (pg. " + target.page + ") for fortune, fame, flesh, or some other reason altogether. You will need <strong>" + target.marks + " Marks</strong> to complete the hunt.";
 
     /*set started to false and change the button text*/
-    document.getElementById("newButtons").innerHTML =  "<div class=\"col-md-6 col-6 tightSpacing buttonWrapper\"><button id=\"start\" class=\"btn btn-primary btn-lg\" onclick=\"startHunt()\">Next Location</button></div><div class=\"col-md-6 col-6 tightSpacing buttonWrapper\"><button id=\"start\" class=\"btn btn-primary btn-lg\" onclick=\"nextEncounter()\">Random Encounter</button></div>";
+    document.getElementById("newButtons").innerHTML = "<div class=\"row centerButtons\"><div class=\"col-md-6 col-12\"><button id=\"start\" class=\"btn bonemarshes-btn\" onclick=\"startHunt()\"><h3>Next Location</h3></button></div><div class=\"col-md-6 col-12\"><button id=\"start\" class=\"btn bonemarshes-btn\" onclick=\"nextEncounter()\"><h3>Random Encounter</h3></button></div></div>";
+    
     huntStarted = true;
     startHunt();
   }
