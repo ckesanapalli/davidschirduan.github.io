@@ -11,9 +11,9 @@ description: >
 
 <p class="tightSpacing" id="huntText"></p>
 
-<div class="row centerButtons">
+<div id="newButtons" class="row centerButtons">
   <div class="col-md-6 col-12">
-    <button id="newButtons" class="btn bonemarshes-btn" onclick="startHunt()">
+    <button class="btn bonemarshes-btn" onclick="startHunt()">
       <h3>Start Hunt</h3>
     </button>
   </div>
@@ -31,22 +31,22 @@ description: >
 
 <div class="row centerButtons">
   <div class="col-md-6 col-12">
-    <button id="newButtons" class="btn bonemarshes-btn" onclick="searchBody()">
+    <button id="newButtons" class="btn wyrd-btn" onclick="searchBody()">
       <h3>Search Body</h3>
     </button>
   </div>
     <div class="col-md-6 col-12">
-    <button id="newButtons" class="btn bonemarshes-btn" onclick="spell()">
+    <button id="newButtons" class="btn wyrd-btn" onclick="spell()">
       <h3>Spell</h3>
     </button>
   </div>
     <div class="col-md-6 col-12">
-    <button id="newButtons" class="btn bonemarshes-btn" onclick="artifact()">
+    <button id="newButtons" class="btn wyrd-btn" onclick="artifact()">
       <h3>Artifact</h3>
     </button>
   </div>
     <div class="col-md-6 col-12">
-    <button id="newButtons" class="btn bonemarshes-btn" onclick="mutation()">
+    <button id="newButtons" class="btn wyrd-btn" onclick="mutation()">
       <h3>Wild Mutation</h3>
     </button>
   </div>
@@ -83,7 +83,9 @@ function startHunt() {
     document.getElementById("huntText").innerHTML = "Within the <strong>" + wyrd.names.prefix[Math.floor(Math.random() * wyrd.names.prefix.length)] + " Of " + wyrd.names.suffix[Math.floor(Math.random() * wyrd.names.suffix.length)] + "</strong> there is rumored to be " + wyrd.secrets[Math.floor(Math.random() * wyrd.secrets.length)] + " But beware! " + wyrd.dangers[Math.floor(Math.random() * wyrd.dangers.length)] + "<br><br> You are hunting one or more <strong>" + target.name + "</strong> (pg. " + target.page + ") for fortune, fame, flesh, or some other reason altogether. You will need <strong>" + target.marks + " Marks</strong> to complete the hunt.";
 
     /*set started to false and change the button text*/
-    document.getElementById("newButtons").innerHTML = "<div class=\"row centerButtons\"><div class=\"col-md-6 col-12\"><button id=\"start\" class=\"btn bonemarshes-btn\" onclick=\"startHunt()\"><h3>Next Location</h3></button></div><div class=\"col-md-6 col-12\"><button id=\"start\" class=\"btn bonemarshes-btn\" onclick=\"nextEncounter()\"><h3>Random Encounter</h3></button></div></div>";
+    document.getElementById("newButtons").innerHTML = "<div class=\"col-md-6 col-12\">"+
+    "<button class=\"btn wyrd-btn\" onclick=\"startHunt()\">"+
+    "<h3>Next Location</h3></button></div><div class=\"col-md-6 col-12\"><button  class=\"btn wyrd-btn\" onclick=\"nextEncounter()\"><h3>Random Encounter</h3></button></div>";
     
     huntStarted = true;
     startHunt();
