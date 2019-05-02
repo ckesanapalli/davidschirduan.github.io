@@ -1,4 +1,55 @@
 
+/* Bone Marshes Button */
+
+.bonemarshesCard hr {
+    border: 3px solid darkslategrey;
+    border-radius: 3px;
+}
+
+.bonemarshes-btn {
+  color: whitesmoke;
+  background: darkslategrey;
+  width: 100%;
+  border-radius: initial;
+  border: 1px solid whitesmoke;
+  outline: 1px rgb(38, 38, 38);
+  white-space: normal !important;
+}
+
+.bonemarshes-btn h3 {
+  margin-top: 5px;
+  margin-bottom: 6px;
+  color: whitesmoke;
+}
+
+.bonemarshes-btn:hover {
+  color: whitesmoke;
+  background: darkolivegreen;
+}
+
+.bonemarshesCard {
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 6px 17px 0px rgba(0, 0, 0, 0.75);
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  color: darkslategrey;
+  line-height: 1.1;
+  display: none;
+}
+
+.bonemarshesCard h1,
+.bonemarshesCard h2,
+.bonemarshesCard h3,
+.bonemarshesCard hr,
+.bonemarshesCard div {
+  margin-top: 5px;
+  margin-bottom: 6px;
+  color: darkslategrey;
+}
+
+
 /* Best Left Buried */
 
 .leftburiedCard {
