@@ -12,12 +12,12 @@ description: >
 <p>A <a href="/bone-marshes">Bone Marshes</a> character generator for <a href="https://www.drivethrurpg.com/product/250888/Knave">Knave</a> and other OSR games.</p>
 
 <div class="row centerButtons">
-  <div class="col-6">
+  <div class="col-md-6 col-12">
     <button id="CharButton" class="btn bonemarshes-btn" onclick="generate()">
       <h3>Generate Character</h3>
     </button>
   </div>
-  <div class="col-6">
+  <div class="col-md-6 col-12">
     <button id="lostButton" class="btn bonemarshes-btn" onclick="lost()">
       <h3>Lost Things</h3>
     </button>

@@ -17,11 +17,17 @@ The Bone Marshes is a tabletop adventure about getting lost. It’s tailor-made 
 
 The Bone Marshes is an adventure filled with mapping and exploration challenges for the players. Great care and effort have been taken to ease the burden on the GM and provide players with a difficult but not impossible challenge. We use clean organization, special time-keeping and travel rules, and player handouts to keep people engaged and on the same page in this topsy-turvey land.
 
-<div class="row">
-  <div class="col-md-6 col-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/bmchargen'" type="button">Character Generator</button></div>
-  <div class="col-md-6 col-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/files/BoneMarshes_characterSheet.pdf'" type="button">Character Sheet</button></div>
-  <div class="col-md-6 col-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/files/BoneMarshes_handouts.pdf'" type="button">Handouts & Maps</button></div>
-  <div class="col-md-6 col-12 tightSpacing buttonWrapper"><button class="btn btn-primary btn-lg" onclick="location.href='/files/BoneMarshes_LostThings.pdf'" type="button">Items & Loot</button></div>
+<div class="row centerButtons">
+  <div class="col-md-6 col-12">
+    <button id="CharButton" class="btn bonemarshes-btn" onclick="location.href='/bmchargen'">
+      <h3>Character Generator</h3>
+    </button>
+  </div>
+  <div class="col-md-6 col-12">
+    <button id="lostButton" class="btn bonemarshes-btn" onclick="location.href='/files/BoneMarshes_sheets.pdf'">
+      <h3>Handouts & Character Sheet</h3>
+    </button>
+  </div>
 </div>
 
 ![spirequotes.png](/images/posts/SpireQuote.png)
@@ -35,9 +41,3 @@ The Bone Marshes is a three part adventure module, each of which can be run sepa
 **Part II:** After the caravan has arrived (thanks to your mapping skills), Azimech needs you to head back out and discover the source of the constant daylight.
 
 **Part III:** Now that she knows the root cause of the problem, she thinks there is a solution. It involves plumbing the depths of the tunnels beneath the marshes, discovering an ancient vault, and returning with valuable artifacts.
-
-![marshes-above.gif](/images/posts/marshes-above.gif)
-
-![marshes-sheet.png](/images/posts/marshes-sheet.png)
-
-![marshes-flooding.gif](/images/posts/marshes-flooding.gif)
