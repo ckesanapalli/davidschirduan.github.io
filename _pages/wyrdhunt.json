@@ -914,7 +914,7 @@
       "damage": "Quills 1d4/1d4",
       "quantity": "Solo or Pack 1d10",
       "XP": 150,
-      "extra": "Quills: Save versus breath weapon of have a painful quill implanted into your skin. The quill makes concentration and fine motor skill difficult. “The Quilluff Special”: As Attack, the Quilluff launches all of its spikes in an explosive fashion. Everyone within 30ft of the Quilluff must save versus breath weapon or suffer 1d8x1d4 damage and be covered in painful quills. The Quilluff is left naked and defenseless after this."
+      "extra": "Quills: Save versus breath weapon of have a painful quill implanted into your skin. The quill makes concentration and fine motor skill difficult. <br>“The Quilluff Special”: As Attack, the Quilluff launches all of its spikes in an explosive fashion. Everyone within 30ft of the Quilluff must save versus breath weapon or suffer 1d8x1d4 damage and be covered in painful quills. The Quilluff is left naked and defenseless after this."
     },
     {
       "name": "Ravager Pups",
@@ -1018,7 +1018,7 @@
       "damage": "Bite 1d4",
       "quantity": "Solo",
       "XP": 750,
-      "extra": "Diplomatic Immunity: The Royal Fox has made bargains with vari- ous objects and concepts, making it completely immune to them and their ill effects. <br>Spells: The Royal Fox knows 1d6 random spells between level 1-5."
+      "extra": "Diplomatic Immunity: The Royal Fox has made bargains with various objects and concepts, making it completely immune to them and their ill effects. <br>Spells: The Royal Fox knows 1d6 random spells between level 1-5."
     },
     {
       "name": "Shamblers",
@@ -1031,7 +1031,7 @@
       "damage": "Claw and Bash 1d4",
       "quantity": "Party 1d6, Pack 3d6, Horde 6d10",
       "XP": "50 each",
-      "extra": "Gangpile: If two or more sham- blers attack the same target, they gain advantage. <br>Diseased: Each shambler has a 50% chance of carrying a random disease."
+      "extra": "Gangpile: If two or more shamblers attack the same target, they gain advantage. <br>Diseased: Each shambler has a 50% chance of carrying a random disease."
     },
     {
       "name": "Skunk Ape",
@@ -1057,7 +1057,7 @@
       "damage": "Slobber 1d6 and Slavern Acid, or Spit, Range 40ft 1d4 and Slavern Acid (see below)",
       "quantity": "Solo or Pair",
       "XP": 500,
-      "extra": "Slavern Acid: Deals 1d6 dam- age for 1d4 rounds. Dissolves most metals and organic material after a minute of exposure. <br>Immunity: Acid."
+      "extra": "Slavern Acid: Deals 1d6 damage for 1d4 rounds. Dissolves most metals and organic material after a minute of exposure. <br>Immunity: Acid."
     },
     {
       "name": "Snuff Hounds",
@@ -1228,11 +1228,11 @@
     },
     {
       "name": "Bottomless Jug",
-      "description": "An innocuous clay jug, coated in simple black glaze. Ocean sounds can be heard if you place your ear against it. Its surface is always wet with water. Gifted to a melancholy bard by a Royal Fox, to \"drain them of all of their tears.\" <br>This magical jug can hold a ridiculous amount of fluids; up to 660,430 gal- lons, or 2,500,000 litres, the equivalent of an olympic sized swimming pool. It always pours at a steady rate for a jug its size no matter the amount of fluid within. Overfilling the jug causes it to vibrate and grow hot and, unless it is emptied, it explodes violently, releasing all of its contents in an explosive wave of fluid."
+      "description": "An innocuous clay jug, coated in simple black glaze. Ocean sounds can be heard if you place your ear against it. Its surface is always wet with water. Gifted to a melancholy bard by a Royal Fox, to \"drain them of all of their tears.\" <br>This magical jug can hold a ridiculous amount of fluids; up to 660,430 gallons, or 2,500,000 litres, the equivalent of an olympic sized swimming pool. It always pours at a steady rate for a jug its size no matter the amount of fluid within. Overfilling the jug causes it to vibrate and grow hot and, unless it is emptied, it explodes violently, releasing all of its contents in an explosive wave of fluid."
     },
     {
       "name": "Clotter",
-      "description": "A small glass jar holds a writhing crea- ture the size of a mouse. The color and texture of a scab, it is constantly in motion with an array of thin translucent feelers. In the center of its body is a single lamprey mouth.<br> Originally a small swamp parasite that suckled from unsuspecting prey, an aspiring alchemist found it contained a chemical that could clot and staunch the flow of blood.<br>Consuming the Clotter causes your body to quickly scab and clot fresh wounds. For the next 24 hours all damage you take is reduced by 1."
+      "description": "A small glass jar holds a writhing creature the size of a mouse. The color and texture of a scab, it is constantly in motion with an array of thin translucent feelers. In the center of its body is a single lamprey mouth.<br> Originally a small swamp parasite that suckled from unsuspecting prey, an aspiring alchemist found it contained a chemical that could clot and staunch the flow of blood.<br>Consuming the Clotter causes your body to quickly scab and clot fresh wounds. For the next 24 hours all damage you take is reduced by 1."
     },
     {
       "name": "Coldfire Lantern",
@@ -1260,11 +1260,11 @@
     },
     {
       "name": "Fey Jump Shoes",
-      "description": "A pair of fine silken shoes, embroidered with colored thread and of wondrous craftsmanship. The air around them seems to hum with faint song, like that of a skipping rhyme.<br> A treasure from the Wild Elf cobblers. They have always been a tool for trick- ery and speedy departure.<br> A pair of Fey Jump Shoes is assigned a single element upon their creation. Anyone who wears these shoes cannot set foot on anything that is NOT the assigned element, and upon donning the shoes are immediately teleported to the nearest source of one such element. Instead of regular movement, the wearer moves by teleporting 60ft in any direction to the nearest unobstructed source of the assigned element. The shoes can only be taken off during the full moon. Roll 1d10:<br>1. Stone<br>2. Tree<br>3. Shadow<br>4. Ash<br>5. Light<br>6. Gold<br>7. Blood<br>8. Coals<br>9. Feather<br>10. Water<br>"
+      "description": "A pair of fine silken shoes, embroidered with colored thread and of wondrous craftsmanship. The air around them seems to hum with faint song, like that of a skipping rhyme.<br> A treasure from the Wild Elf cobblers. They have always been a tool for trickery and speedy departure.<br> A pair of Fey Jump Shoes is assigned a single element upon their creation. Anyone who wears these shoes cannot set foot on anything that is NOT the assigned element, and upon donning the shoes are immediately teleported to the nearest source of one such element. Instead of regular movement, the wearer moves by teleporting 60ft in any direction to the nearest unobstructed source of the assigned element. The shoes can only be taken off during the full moon. Roll 1d10:<br>1. Stone<br>2. Tree<br>3. Shadow<br>4. Ash<br>5. Light<br>6. Gold<br>7. Blood<br>8. Coals<br>9. Feather<br>10. Water<br>"
     },
     {
       "name": "Flute of the Swamp-Piper",
-      "description": "A simple reed flute, its surface bur- nished with images of dragonfly wings and cattails. It smells of pond-water, and its mouth is adorned with the skull of a frog.<br> The trusty flute of a bard, known as the “Swamp-Piper” who used this flute to bewitch the creatures of the swamp for both heroic deeds and cunning mischief.<br> Playing the Flute of the Swamp-Piper allows you to command the various small creatures of the mires and swamps as if you had cast a dominate spell on them. This allows you, but is not limited to:<br>Clouds of pesky, obscuring gnats.<br>Swarms of angry, stinging flies.<br>Plagues of leaping, slippery frogs.<br>Schools of hungry, biting fish.<br> However, if the player of the flute is ever interrupted or stops playing, the various creatures become angry and confused, instantly striking out."
+      "description": "A simple reed flute, its surface burnished with images of dragonfly wings and cattails. It smells of pond-water, and its mouth is adorned with the skull of a frog.<br> The trusty flute of a bard, known as the “Swamp-Piper” who used this flute to bewitch the creatures of the swamp for both heroic deeds and cunning mischief.<br> Playing the Flute of the Swamp-Piper allows you to command the various small creatures of the mires and swamps as if you had cast a dominate spell on them. This allows you, but is not limited to:<br>Clouds of pesky, obscuring gnats.<br>Swarms of angry, stinging flies.<br>Plagues of leaping, slippery frogs.<br>Schools of hungry, biting fish.<br> However, if the player of the flute is ever interrupted or stops playing, the various creatures become angry and confused, instantly striking out."
     },
     {
       "name": "Grifter's Bone",
@@ -1272,7 +1272,7 @@
     },
     {
       "name": "Gristle Whip",
-      "description": "A fat coil of fleshy, intestine-like rope. Veins of blood pulse through its length as it twitches with unnatural life.<br> A terrible relic crafted from the intes- tines of a Grimmking.<br> Usable as a whip or weapon of equivalent design, whenever the gristle whip makes contact with exposed flesh, it immediately bonds to the victim at a biological level. There is no limit to the amount of creatures that can be bonded in this fashion and extra care must be taken when touching the Gristle Whip, so as not to become accidentally bonded as well. This bond is not just skin deep; anyone bonded combines their hit points and shares this collective hit point pool, as well as any diseases, ailments, enchantments, or effects. Each bonded creature still operates individually, and the only way to be released from the bond is by severing the connection to the Gristle Whip. Any damage to the Gristle Whip regenerates after 1d6 days."
+      "description": "A fat coil of fleshy, intestine-like rope. Veins of blood pulse through its length as it twitches with unnatural life.<br> A terrible relic crafted from the intestines of a Grimmking.<br> Usable as a whip or weapon of equivalent design, whenever the gristle whip makes contact with exposed flesh, it immediately bonds to the victim at a biological level. There is no limit to the amount of creatures that can be bonded in this fashion and extra care must be taken when touching the Gristle Whip, so as not to become accidentally bonded as well. This bond is not just skin deep; anyone bonded combines their hit points and shares this collective hit point pool, as well as any diseases, ailments, enchantments, or effects. Each bonded creature still operates individually, and the only way to be released from the bond is by severing the connection to the Gristle Whip. Any damage to the Gristle Whip regenerates after 1d6 days."
     },
     {
       "name": "Hunter's Charm",
@@ -1300,7 +1300,7 @@
     },
     {
       "name": "Mantle of the Lunar'idari",
-      "description": "A cloak made from enormous moth wings. They flow like the finest silk and glow like a moonlit night.<br> Made from the wings of the legendary Rittermotte known as “Lunar’idari, The Moon Warrior,” greatest servant of the Lady of Broken Branches, who disap- peared suddenly. Their legacy lives on in this glorious artifact.<br> Wearing this mantle infuses your body and soul with the power of the Moon Warrior, ebbing and flowing with phases of the moon. Depending upon the phase of the moon, you gain powers as listed below:<br>No Moon: No powers or abilities.<br>Quarter Moon: Armor increases to that of Chainmail.<br>Half Moon: Add 1d4 to your attack rolls, armor increases to Splint Mail.<br>Three-Quarters Moon: Add 1d6 to your attack rolls, armor increases to Plate.<br>Full Moon: As above and gain the power of flight.<br> However, wearing the Mantle of the Lunar’idari during a Full Moon has a 50% chance of overwhelming your psyche with the spirit of The Moon Warrior (see pg. 163), eroding your personality and instilling a specific madness."
+      "description": "A cloak made from enormous moth wings. They flow like the finest silk and glow like a moonlit night.<br> Made from the wings of the legendary Rittermotte known as “Lunar’idari, The Moon Warrior,” greatest servant of the Lady of Broken Branches, who disappeared suddenly. Their legacy lives on in this glorious artifact.<br> Wearing this mantle infuses your body and soul with the power of the Moon Warrior, ebbing and flowing with phases of the moon. Depending upon the phase of the moon, you gain powers as listed below:<br>No Moon: No powers or abilities.<br>Quarter Moon: Armor increases to that of Chainmail.<br>Half Moon: Add 1d4 to your attack rolls, armor increases to Splint Mail.<br>Three-Quarters Moon: Add 1d6 to your attack rolls, armor increases to Plate.<br>Full Moon: As above and gain the power of flight.<br> However, wearing the Mantle of the Lunar’idari during a Full Moon has a 50% chance of overwhelming your psyche with the spirit of The Moon Warrior (see pg. 163), eroding your personality and instilling a specific madness."
     },
     {
       "name": "Megalith Maul",
@@ -1344,7 +1344,7 @@
     },
     {
       "name": "The Tangle",
-      "description": "The size of a large picnic basket, gnarled and twisted on itself. Pieces of everything from leaf to string are impossibly bound and knotted together.<br> Strange artifacts made by some trickster god. “All that you could ever need is found within, you just have to find it first...”<br> The Tangle is a magical amalgamation of every possible material component a mage or wizard would need for spellcasting. However, in order to access it they must search through the various knots and crannies for 1 hour. Even this does not guarantee a successful search. Roll 2d6 and you find...<br>2-4: A nasty cut from something sharp (1d4 damage)<br>5-6: Not quite what you were look- ing for. (A random material component)<br>7-9: Close to what you were looking for. (Might be usable in a pinch?)<br>10-12: Exactly what you were looking for!<br>"
+      "description": "The size of a large picnic basket, gnarled and twisted on itself. Pieces of everything from leaf to string are impossibly bound and knotted together.<br> Strange artifacts made by some trickster god. “All that you could ever need is found within, you just have to find it first...”<br> The Tangle is a magical amalgamation of every possible material component a mage or wizard would need for spellcasting. However, in order to access it they must search through the various knots and crannies for 1 hour. Even this does not guarantee a successful search. Roll 2d6 and you find...<br>2-4: A nasty cut from something sharp (1d4 damage)<br>5-6: Not quite what you were looking for. (A random material component)<br>7-9: Close to what you were looking for. (Might be usable in a pinch?)<br>10-12: Exactly what you were looking for!<br>"
     },
     {
       "name": "Thistle's Embrace",
