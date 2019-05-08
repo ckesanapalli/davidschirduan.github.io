@@ -30,14 +30,29 @@ The Bone Marshes is an adventure filled with mapping and exploration challenges 
   </div>
 </div>
 
-![spirequotes.png](/images/posts/SpireQuote.png)
+### Includes:
 
-## Three Parts
+- A hexcrawl adventure set in a burning, shifting marsh
+- Underground chambers and tunnels that flood with the tide
+- Lost alien technology
+- Four mini-dungeons
+- Complete rules and character creation using [Knave](https://www.drivethrurpg.com/product/250888/Knave)
+- Easily adapted to other fantasy roleplay systems
+- 150+ random items
+- A dozen strange creatures
+- Lots (and lots!) of mud
 
-The Bone Marshes is a three part adventure module, each of which can be run separately or consecutively. Each part provides 2-3 sessions of gameplay.
+**Download the handouts above for a quick look at maps, mechanics, and campaign hooks!**
 
-**Part I:** The marshes burn from constant daylight. The sun still rises and sets, but daylight remains constant, sun or no. The Mage Azimech recently discovered this terrible situation and has put out a call for adventurers to map safe routes through the flaming swamp. 
+![abovegroundHandout.png](abovegroundHandout.png)
+
+## Three Parts:
+
+The Bone Marshes is a three part adventure module, each of which can be run separately or consecutively. Each part provides 2-4 sessions of gameplay.
+
+**Part I:** The marshes burn from constant daylight. The sun still rises and sets, but daylight remains constant, sun or no. The mage Azimech recently discovered this terrible situation and has put out a call for adventurers to map safe routes through the flaming swamp. 
 
 **Part II:** After the caravan has arrived (thanks to your mapping skills), Azimech needs you to head back out and discover the source of the constant daylight.
 
 **Part III:** Now that she knows the root cause of the problem, she thinks there is a solution. It involves plumbing the depths of the tunnels beneath the marshes, discovering an ancient vault, and returning with valuable artifacts.
+
