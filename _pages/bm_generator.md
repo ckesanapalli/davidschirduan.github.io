@@ -9,7 +9,9 @@ description: >
 ---
 ![bonemarshes_KS.jpg]({{site.url}}/images/posts/bonemarshes_KS.jpg)
 
-<p>A <a href="/bone-marshes">Bone Marshes</a> character generator for <a href="https://www.drivethrurpg.com/product/250888/Knave">Knave</a> and other OSR games.</p>
+The Bone Marshes is a tabletop adventure about getting lost. It’s tailor-made for groups that enjoy exploring complex spaces and drawing maps. Compatible with [Knave](https://www.drivethrurpg.com/product/250888/Knave).
+
+[**Buy a copy of Bone Marshes here!**](/bone-marshes)
 
 <div class="row centerButtons">
   <div class="col-md-6 col-12">
@@ -69,6 +71,6 @@ description: >
   <h3 style="text-align: center;">TAKE A SCREENSHOT SO YOU DON'T LOSE YOUR CHARACTER</h3>
 </div>
 
-Thanks to <a href="http://questingblog.com/">Ben Milton</a> for making Knave and to <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the code!
+Thanks to <a href="http://questingblog.com/">Ben Milton</a> for making Knave and to <a href="http://chrispwolf.com/">Christopher P. Wolf</a> for the generator template!
 
 <script async src="/_pages/bm_generator.js" charset="utf-8"></script>
