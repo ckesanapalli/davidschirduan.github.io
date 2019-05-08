@@ -44,7 +44,7 @@ The Bone Marshes is an adventure filled with mapping and exploration challenges 
 - A dozen strange creatures
 - Lots (and lots!) of mud
 
-![abovegroundHandout.png](/images/posts/abovegroundHandout.png)
+![abovegroundHandout.jpg](/images/posts/abovegroundHandout.jpg)
 
 ## Three Parts:
 
