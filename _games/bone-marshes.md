@@ -31,7 +31,7 @@ The Bone Marshes is an adventure filled with mapping and exploration challenges 
   <p><strong>Download the handouts for a quick look at<br>maps, mechanics, and campaign hooks!</strong></p>
 </div>
 
-### Includes:
+### Included in the adventure:
 
 - A hexcrawl adventure set in a burning, shifting marsh
 - Underground chambers and tunnels that flood with the tide
