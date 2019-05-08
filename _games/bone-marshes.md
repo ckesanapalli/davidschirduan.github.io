@@ -13,7 +13,7 @@ featured: false
 
 The Bone Marshes is a tabletop adventure about getting lost. It’s tailor-made for groups that enjoy exploring complex spaces and drawing maps. 
 
-[The Kickstarter](https://www.kickstarter.com/projects/464972563/the-bone-marshes-a-hex-mapping-adventure-about-get/description) completed in February of 2019, and Bone Marshes is currently in development!
+Bone Marshes is going to be available for purchase in June 2019!
 
 The Bone Marshes is an adventure filled with mapping and exploration challenges for the players. Great care and effort have been taken to ease the burden on the GM and provide players with a difficult but not impossible challenge. We use clean organization, special time-keeping and travel rules, and player handouts to keep people engaged and on the same page in this topsy-turvey land.
 
@@ -28,9 +28,8 @@ The Bone Marshes is an adventure filled with mapping and exploration challenges 
       <h3>Handouts & Character Sheet</h3>
     </button>
   </div>
+  <p><strong>Download the handouts above for a quick look at maps, mechanics, and campaign hooks!</strong></p>
 </div>
-
-**Download the handouts above for a quick look at maps, mechanics, and campaign hooks!**
 
 ### Includes:
 
