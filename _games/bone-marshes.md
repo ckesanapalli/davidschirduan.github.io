@@ -30,6 +30,8 @@ The Bone Marshes is an adventure filled with mapping and exploration challenges 
   </div>
 </div>
 
+**Download the handouts above for a quick look at maps, mechanics, and campaign hooks!**
+
 ### Includes:
 
 - A hexcrawl adventure set in a burning, shifting marsh
@@ -42,9 +44,7 @@ The Bone Marshes is an adventure filled with mapping and exploration challenges 
 - A dozen strange creatures
 - Lots (and lots!) of mud
 
-**Download the handouts above for a quick look at maps, mechanics, and campaign hooks!**
-
-![abovegroundHandout.png](abovegroundHandout.png)
+![abovegroundHandout.png](/images/posts/abovegroundHandout.png)
 
 ## Three Parts:
 
