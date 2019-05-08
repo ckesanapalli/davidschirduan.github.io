@@ -9,9 +9,7 @@ description: >
 ---
 ![bonemarshes_KS.jpg]({{site.url}}/images/posts/bonemarshes_KS.jpg)
 
-The Bone Marshes is a tabletop adventure about getting lost. It’s tailor-made for groups that enjoy exploring complex spaces and drawing maps. [**Buy a copy of Bone Marshes here!**](/bone-marshes)
-
-Characters are compatible with [Knave](https://www.drivethrurpg.com/product/250888/Knave).
+[**The Bone Marshes**](/bone-marshes) is a tabletop adventure about getting lost. It’s tailor-made for groups that enjoy exploring complex spaces and drawing maps. Characters are compatible with [Knave](https://www.drivethrurpg.com/product/250888/Knave).
 
 <div class="row centerButtons">
   <div class="col-md-6 col-12">
