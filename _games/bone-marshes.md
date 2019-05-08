@@ -28,7 +28,7 @@ The Bone Marshes is an adventure filled with mapping and exploration challenges 
       <h3>Handouts & Character Sheet</h3>
     </button>
   </div>
-  <p><strong>Download the handouts above for a quick look at maps, mechanics, and campaign hooks!</strong></p>
+  <p><strong>Download the handouts for a quick look at<br>maps, mechanics, and campaign hooks!</strong></p>
 </div>
 
 ### Includes:
