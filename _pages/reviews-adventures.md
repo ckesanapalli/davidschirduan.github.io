@@ -18,6 +18,29 @@ Oh! And unlike my [Game Reviews]({{site.url}}/david/extremely-interesting-role-p
 {:toc}
 <hr>
 
+## Silent Titans
+
+![SilentTitans1.jpg]({{site.url}}/images/posts/SilentTitans1.jpg){: .leftSmallImg}
+
+- [**PDF: $15**](https://www.drivethrurpg.com/product/272283/Silent-Titans-PDF)
+- [**Print+PDF: $50**](http://shop.swordfishislands.com/silent-titans/)
+
+Written by [Patrick Stuart](http://falsemachine.blogspot.com/), art by Dirk Leichty
+
+Silent Titans actually works.
+
+I originally bought this for the artwork. It's gorgeous and unique and fresh and worth the price of the book all on it's own. Go buy it now for a pretty thing on your bookshelf.
+
+I've played a few "gonzo" D&D adventures and most of them were bad ([with one brilliant exception](https://coinsandscrolls.blogspot.com/2018/07/osr-mysterious-menagerie-of-doctor.html)).
+
+At my table touchstones are important. Knights, goblins, druids, magic swords, and wizard towers are all cliche and have been done a thousand times. That's why everyone knows them. And it makes my job as GM so much easier.
+
+When I say "You see a black stone tower rising above the treetops with red smoke pouring from it" everyone gets the right idea in their heads. I know what they're expecting and it's easy to keep all the players on the same page.
+
+The stranger something is, the harder it is to communicate without being boring or confusing.
+
+Silent Titans is bizarre, freaky, and confusing as hell...but somehow it still works. How did Patrick Stuart pull that off? [**Read More...**](/david/2019/05/SilentTitans)
+
 ## The Sunken Fort
 
 ![sunkenfort.png]({{site.url}}/images/posts/sunkenfort.png){: .leftSmallImg}
