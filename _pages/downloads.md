@@ -237,6 +237,19 @@ description: >
   </div>
   <div class="column column-1-2">
     <article class="project-card">
+      <a href="/files/silent_reference.pdf" class="no-hover no-print-link " tabindex="-1">
+        <div class="project-card-img img sixteen-nine">
+          <img src="/images/posts/SilentTitans1.jpg" alt="Silent Titans GM Reference" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">
+        </div>
+      </a>
+      <h3 class="project-card-title">
+        <a href="/files/silent_reference.pdf" class="flip-title">Silent Titans GM Reference</a>
+      </h3>
+      <legend class="project-card-text fine faded">Quick reference for the Silent Titans RPG.</legend>
+    </article>
+  </div>
+  <div class="column column-1-2">
+    <article class="project-card">
       <a href="/files/Allomancer.pdf" class="no-hover no-print-link " tabindex="-1">
         <div class="project-card-img img sixteen-nine">
           <img src="/images/posts/allomancer.png" alt="Allomancer Playbook" sizes="(min-width: 90em) 22.5rem, (min-width: 54em) 19.5rem, (min-width: 42em) 17.5rem, 100vw">

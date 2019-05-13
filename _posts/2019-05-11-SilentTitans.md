@@ -14,7 +14,7 @@ I originally bought this for the artwork. It's gorgeous and unique and fresh and
 - [**PDF: $15**](https://www.drivethrurpg.com/product/272283/Silent-Titans-PDF)
 - [**Print+PDF: $50**](http://shop.swordfishislands.com/silent-titans/)
 
-[**Unofficial GM Reference**](https://technicalgrimoire.com/files/silent_reference.pdf)
+[**Unofficial GM Reference**](/files/silent_reference.pdf)
 
 ## The Rest
 
@@ -47,7 +47,7 @@ The intro adventure teaches the players a ton of stuff in really clever ways:
 - Spaces connect in strange, confusing ways
 - Apes can fire tommy guns
 - Animals wear masks and can talk
-- Figuring out what is going on 
+- Flashbacks and lost memories are clues to the past 
 
 ![SilentTitans3.jpg](/images/posts/SilentTitans3.jpg)
 
