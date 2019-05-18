@@ -53,7 +53,7 @@ copyright:            David Schirduan © 2018. All rights reserved.
 # Add links to the sidebar.
 menu:
   - title:             Games
-    url:               /_pages/games
+    url:               /games
   - title:             Downloads
     url:               /downloads
   - title:             Generators
