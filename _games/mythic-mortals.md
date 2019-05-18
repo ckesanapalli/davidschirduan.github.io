@@ -2,7 +2,7 @@
 date: 2019-03-01
 layout: project
 title: Mythic Mortals
-permalink: david/my-creations/mythic-mortals
+permalink: mythic-mortals
 caption: An RPG Where YOU are the Hero
 screenshot:
   src: /images/posts/MM_Cover_Digital.jpg
@@ -11,6 +11,8 @@ links:
     url:     http://www.drivethrurpg.com/product/178248/Mythic-Mortals
 hide_description: true
 image: /images/posts/MM_Cover_Digital.jpg
+redirect_from:
+  - "/david/my-creations/mythic-mortals"
 ---
 Mythic Mortals is a Tabletop Role-Playing Game where you and your friends play as your real-world selves suddenly granted unstable powers. Kickstarted in 2015, Mythic Mortals is a visual and tactile joy.
 
