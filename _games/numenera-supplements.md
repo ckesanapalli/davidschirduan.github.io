@@ -1,5 +1,5 @@
 ---
-date: 2014-10-23
+date: 2018-01-01
 caption: I contributed to these Numenera Supplements
 screenshot:
   src: /images/posts/encounters.jpg

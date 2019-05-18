@@ -1,5 +1,5 @@
 ---
-date: 2018-08-01
+date: 2019-02-01
 layout: project
 title: Tempered Legacy
 caption: A rogue-lite tabletop RPG framework where you are a Weapon wielded by many.

@@ -1,5 +1,5 @@
 ---
-date: 2017-02-10
+date: 2019-03-01
 layout: project
 title: Mythic Mortals
 permalink: david/my-creations/mythic-mortals

@@ -1,5 +1,5 @@
 ---
-date: 2017-10-15
+date: 2018-11-01
 layout: project
 title: Jedi Wushu
 permalink: david/my-creations/jedi-wushu
